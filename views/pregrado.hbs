@@ -1,0 +1,234 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-12 mx-auto">
+            <div class="card">
+                <div class="card-body">
+  <div class="row" id="carga">
+      <div class="form-group col-md-3" id="colum">
+                   <div class="card-title" style="padding: 0 1% 0 -10%">
+                     <div class="progress">            
+                        <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="10" style="width: 100%"></div>
+                     </div>
+                     </div>
+                     </div>
+                           <div class="form-group col-md-3" id="colum">
+                   <div class="card-title" style="padding: 0 1% 0 -10%">
+                     <div class="progress">            
+                        <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="10" style="width: 100%"></div>
+                     </div>
+                     </div>
+                     </div>
+                           <div class="form-group col-md-3" id="colum">
+                   <div class="card-title" style="padding: 0 1% 0 -10%">
+                     <div class="progress">            
+                        <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="10" style="width: 0%"></div>
+                     </div>
+                     </div>
+                     </div>
+                   <div class="form-group col-md-3" id="colum">
+                      <div class="card-title" style="padding: 0 1% 0 -10%">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="10" style="width: 0%"></div>
+                     </div>
+                </div>
+              </div>
+     </div>
+                    <br>
+                    <h4>Formación académica :</h4>
+                    <form id="ForAcademica" action="/facademica" method="post" class="form-horizontal" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="tipo_formacion">Tipo de formación</label>
+                                <select class="form-control" id="tipo_formacion" name="tipo_formacion" onChange="mostrar(this.value);">
+                                    <option selected></option>
+                                    <option value="1">Pregrado</option>
+                                    <option value="2">Posgrado</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6" id="formacionPost" style="display: none">
+                                <label for="forPost">Formación posgrado</label>
+                                <select class="form-control" id="forPost" name="forPost" onChange="mostrar1(this.value);">
+                                    <option selected></option>
+                                    <option value="1">Maestría</option>
+                                    <option value="2">Doctorado</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6" id="subPosgrado" style="display: none">
+                                <label for="subPost">Grado</label>
+                                <select class="form-control" id="subPost" name="subPost" onChange="mostrar2(this.value);">
+                                    <option selected></option>
+                                    <option value="1">Estudiante</option>
+                                    <option value="2">Egresado</option>
+                                    <option value="3">Titulado</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6" id="subPregrado" style="display: none">
+                                <label for="subPre">Grado</label>
+                                <select class="form-control" id="subPre" name="subPre" onChange="mostrar3(this.value);">
+                                    <option selected></option>
+                                    <option value="1">Estudiante</option>
+                                    <option value="2">Egresado</option>
+                                    <option value="3">Bachiller</option>
+                                    <option value="4">Titulado</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6" id="universidad" style="display: none">
+                                <label for="universidad">Universidad</label>
+                                <input type="text" class="form-control" id="universidad" name="universidad">
+                            </div>
+                            <div class="form-group col-md-6" id="carrerauniversitaria" style="display: none">
+                                <label for="carrerauniversitaria">Carrera</label>
+                                <input type="text" class="form-control" id="carrerauniversitaria" name="carrerauniversitaria">
+                            </div>
+                            <div class="form-group col-md-6" id="inicioAcademico" style="display: none">
+                                <label for="iniAcad">Año de inicio</label>
+                                <select class="form-control" id="iniAcad" name="iniAcad">
+                                    <option selected></option>
+                                    <script>
+                                        var myDate = new Date();
+                                        var year = myDate.getFullYear();
+                                        for(var i = year; i > 1899; i--){
+                                            document.write('<option value="'+i+'">'+i+'</option>');
+                                        }
+                                    </script>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6" id="finAcademico" style="display: none">
+                                <label for="finAcad">Año de fin</label>
+                                <select class="form-control" id="finAcad" name="finAcad">
+                                    <option selected></option>
+                                    <script>
+                                        var myDate = new Date();
+                                        var year = myDate.getFullYear();
+                                        for(var i = year; i > 1899; i--){
+                                            document.write('<option value="'+i+'">'+i+'</option>');
+                                        }
+                                    </script>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6" id="fechaexpedicion" style="display: none">
+                                <label for="FechaExpedicionTitulo">Fecha Expedicion Título</label>
+                                <input type="date" class="form-control" id="FechaExpedicionTitulo" name="FechaExpedicionTitulo">
+                            </div>
+                            <div class="form-group col-md-6" id="doctitulo" style="display: none">
+                                <label for="documentoti">Documento título</label>
+                                <input type="file" class="form-control-file" id="documentoti" name="documentoti">
+                            </div>
+                            <div class="form-group col-md-6" id="escolegiado" style="display: none">
+                                <label for="colegiado">¿Eres colegiado?</label>
+                                <input class="form-check-input" type="checkbox" value="1" id="colegiado" name="colegiado" style="margin-left: 20px;" onClick="mostrar4();">
+                            </div>
+                            <div class="form-group col-md-6" id="doccolegiado" style="display: none">
+                                <label for="documentocole">Documento colegiado</label>
+                                <input type="file" class="form-control-file" id="documentocole" name="documentocole">
+                            </div>
+                            <div class="form-group col-md-6" id="ultima" style="display: none">
+                                <label for="ultimacarrera">¿Ultima carrera?</label>
+                                <input class="form-check-input" type="checkbox" value="1" id="ultimacarrera" name="ultimacarrera" style="margin-left: 20px;">
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <div class="row">
+                                    <div class="col-md-6 text-right">
+                                        <button type="submit" class="btn btn-primary">Añadir</button>
+                                    </div>
+                                    <div class="col-md-6 text-left">
+                                        <a href="/continua">
+                                            <button type="button" class="btn btn-primary">Siguiente</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function mostrar(id) {
+        if (id == 1) {
+            $("#subPregrado").show();
+            $("#formacionPost").hide();
+            $("#subPosgrado").hide();
+            $("#universidad").show();
+            $("#carrerauniversitaria").show();
+            $("#finAcademico").hide();
+            $("#fechaexpedicion").hide();
+            $("#doctitulo").hide();
+            $("#doccolegiado").hide();
+        }
+        else if (id == 2) {
+            $("#subPregrado").hide();
+            $("#formacionPost").show();
+            $("#subPosgrado").show();
+            $("#universidad").show();
+            $("#carrerauniversitaria").show();
+            $("#finAcademico").hide();
+            $("#fechaexpedicion").hide();
+            $("#doctitulo").hide();
+            $("#escolegiado").hide();
+            $("#doccolegiado").hide();
+        }
+    }
+    function mostrar2(id) {
+        if (id == 1) {
+            $("#inicioAcademico").show();
+            $("#ultima").show();
+            $("#finAcademico").hide();
+            $("#fechaexpedicion").hide();
+            $("#doctitulo").hide();
+            $("#doccolegiado").hide();
+        }
+        else if (id == 2 || id == 3) {
+            $("#inicioAcademico").show();
+            $("#finAcademico").show();
+            $("#fechaexpedicion").show();
+            $("#doctitulo").show();
+            $("#ultima").show();
+            $("#doccolegiado").hide();
+        }
+    }
+    function mostrar3(id) {
+        if (id == 1) {
+            $("#inicioAcademico").show();
+            $("#ultima").show();
+            $("#finAcademico").hide();
+            $("#fechaexpedicion").hide();
+            $("#doctitulo").hide();
+            $("#escolegiado").hide();
+            $("#doccolegiado").hide();
+        }
+        else if (id == 2 || id == 3) {
+            $("#inicioAcademico").show();
+            $("#finAcademico").show();
+            $("#fechaexpedicion").show();
+            $("#doctitulo").show();
+            $("#ultima").show();
+            $("#escolegiado").hide();
+            $("#doccolegiado").hide();
+        }
+        else if (id == 4) {
+            $("#inicioAcademico").show();
+            $("#finAcademico").show();
+            $("#fechaexpedicion").show();
+            $("#doctitulo").show();
+            $("#escolegiado").show();
+            $("#ultima").show();
+            $("#doccolegiado").hide();
+        }
+    }
+    var i = 0;
+    function mostrar4(){
+        if(i == 0){
+            $("#doccolegiado").show();
+            i=1;
+        }
+        else if(i == 1){
+            $("#doccolegiado").hide();
+            i=0;
+        }
+    }
+</script>
+

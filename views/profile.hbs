@@ -1,0 +1,1514 @@
+{{#if user.eqdate}}
+    <div class="container p-4">
+        <div class="card">
+            <div class="card-body">
+  <div class="row" id="carga">
+      <div class="form-group col-md-3" id="colum">
+                   <div class="card-title" style="padding: 0 1% 0 -10%">
+                     <div class="progress">            
+                        <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="10" style="width: 100%"></div>
+                     </div>
+                     </div>
+                     </div>
+                           <div class="form-group col-md-3" id="colum">
+                   <div class="card-title" style="padding: 0 1% 0 -10%">
+                     <div class="progress">            
+                        <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="10" style="width: 0%"></div>
+                     </div>
+                     </div>
+                     </div>
+                           <div class="form-group col-md-3" id="colum">
+                   <div class="card-title" style="padding: 0 1% 0 -10%">
+                     <div class="progress">            
+                        <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="10" style="width: 0%"></div>
+                     </div>
+                     </div>
+                     </div>
+                   <div class="form-group col-md-3" id="colum">
+                      <div class="card-title" style="padding: 0 1% 0 -10%">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="10" style="width: 0%"></div>
+                     </div>
+                </div>
+              </div>
+     </div>
+                <br>
+                <h4>Datos personales</h4>
+                <hr class="under_title">
+                <form action="/pregrado" method="post" class="form-horizontal" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="primer_nombre">Primer nombre</label>
+                            <input type="text" class="form-control" id="primer_nombre" name="primer_nombre" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="segundo_nombre">Segundo nombre</label>
+                            <input type="text" class="form-control" id="segundo_nombre" name="segundo_nombre">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="primer_apellido">Primer apellido</label>
+                            <input type="text" class="form-control" id="primer_apellido" name="primer_apellido" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="segundo_apellido">Segundo apellido</label>
+                            <input type="text" class="form-control" id="segundo_apellido" name="segundo_apellido" required>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="tip_doc">Tipo de documento</label>
+                            <select class="form-control" id="tip_doc" name="tip_doc" onchage="load_grade()">
+                                <option value="1" selected>DNI</option>
+                                <option value="2">Pasaporte</option>
+                                <option value="3">Carnet de extranjería</option>
+                                <option value="4">RUC</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="documento">N° de documento</label>
+                            <input type="number" class="form-control" id="documento" name="documento" required>
+                        </div>
+                        <div class="form-group col-md-5">
+                            <label for="fecha_nacimiento">Fecha de nacimiento</label>
+                            <input type="date" class="form-control" id="fecha_nacimiento" name="fecha_nacimiento">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="numero1">Número telefónico</label>
+                            <input type="number" class="form-control" id="numero1" name="numero1" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="numero2">Número telefónico</label>
+                            <input type="number" class="form-control" id="numero2" name="numero2">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="distrito">País</label>
+                            <input type="text" class="form-control" id="pais" name="pais">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="region">Región</label>
+                            <input type="text" class="form-control" id="region" name="region">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="provincia">Provincia</label>
+                            <input type="text" class="form-control" id="provincia" name="provincia">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="distrito">Distrito</label>
+                            <input type="text" class="form-control" id="distrito" name="distrito">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="direccion">Dirección</label>
+                            <input type="text" class="form-control" id="direccion" name="direccion">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="salarial">Expectativa salarial</label>
+                            <input type="number" class="form-control" id="salarial" name="salarial">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="cvpostulante">Mi CV</label>
+                            <input type="file" class="form-control-file" id="cvpostulante" name="cvpostulante">
+                        </div>
+
+                        <div class="form-group col-md-12" style="margin-top: 20px;">
+                            <br>
+                            <h4>Mis habilidades:</h4>
+                            <hr class="under_title">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="comunicativas">Habilidades comunicativas</label>
+                            <input type="range" class="custom-range" min="0" max="100" value="0" id="comunicativas" name="comunicativas">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="equipo">Trabajo en equipo</label>
+                            <input type="range" class="custom-range" min="0" max="100" value="0" id="equipo" name="equipo">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="puntualidad">Puntualidad</label>
+                            <input type="range" class="custom-range" min="0" max="100" value="0" id="puntualidad" name="puntualidad">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="iniciativas">Autogestión e iniciativas</label>
+                            <input type="range" class="custom-range" min="0" max="100" value="0" id="iniciativas" name="iniciativas">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="pensamiento">Pensamiento crítico</label>
+                            <input type="range" class="custom-range" min="0" max="100" value="0" id="pensamiento" name="pensamiento">
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <button type="submit" class="btn btn-primary">Siguiente</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{{else}}
+{{!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> --}}
+    <script src="js/functions.js"></script>
+    <style type="text/css">
+        .card {
+            box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+        }
+
+        .card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 0 solid rgba(0,0,0,.125);
+            border-radius: .25rem;
+        }
+
+        .card-body {
+            flex: 1 1 auto;
+            min-height: 1px;
+            padding: 1rem;
+        }
+
+        .gutters-sm {
+            margin-right: -8px;
+            margin-left: -8px;
+        }
+
+        .gutters-sm>.col, .gutters-sm>[class*=col-] {
+            padding-right: 8px;
+            padding-left: 8px;
+        }
+        .mb-3, .my-3 {
+            margin-bottom: 1rem!important;
+        }
+
+        .bg-gray-300 {
+            background-color: #e2e8f0;
+        }
+        .h-100 {
+            height: 100%!important;
+        }
+        .shadow-none {
+            box-shadow: none!important;
+        }
+
+        .info{
+            width: 45px;
+            font-size: 20px;
+        }
+
+
+        .profile_title{
+            margin-left: 20px;
+            margin-bottom: 0px;
+        }
+        .under_title{
+            margin-top: 0px;
+        }
+        .icon_info{
+            width: 30px;
+            margin-right: 15px;
+        }
+        .icon_info_name{
+            margin-left: 20px;
+            width: 25px;
+        }
+        .icon_info_edit{
+            width: 30px;
+        }
+        .card {
+            padding-top: 20px;
+        }
+        .info_profile{
+            margin-left: 40px;
+        }
+        .li_info_profile {
+            margin: 5px 0 5px 0;
+        }
+
+        #abilities {
+            margin-bottom: 4px;
+            margin-top: 4px;
+        }
+
+        .div_scroll {
+            max-height: 860px;
+            overflow-y: scroll;
+        }
+
+    </style>
+    <br>
+    <div class="container">
+        <div class="main-body">
+            <div class="card">
+                <div class="row gutters-sm">
+                    <div class="col-md-5">
+                        <div class="card-body">
+                            <div class="d-flex flex-column align-items-center text-center">
+                                <div class="photo">
+                                    <div class="prevPhoto">
+                                        <label for="foto"></label>
+                                        <div>
+                                            <div class="form-group">
+                                                <div class="caracter">{{user.uno1}}{{user.uno2}}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="d-flex">
+                                <div class="p-2">
+                                    <h4 class="profile_title">Información</h4>        
+                                </div>
+                                <div class="ml-auto p-2">
+                                    <a href="#" type="submit" data-toggle="modal" data-target="#edit_info1" data-whatever="@mdo"><img class="icon_info_edit" src="img/icons/iconos-08.png"></a>
+                                    <div class="modal fade" id="edit_info1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content" >
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Mis datos personales</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div  class="modal-body" style="text-align:left">
+                                                    <form method="post" action="/updateinfo">
+                                                        <div class="row">
+                                                            <div class="form-group col-md-6">
+                                                                <label for="primer_nombre">Primer nombre</label>
+                                                                <input type="text" class="form-control" value="{{user.uno.primernombre}}" id="primer_nombre" name="primer_nombre">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="segundo_nombre">Segundo nombre</label>
+                                                                <input type="text" class="form-control" value="{{user.uno.segundonombre}}" id="segundo_nombre" name="segundo_nombre">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="primer_apellido">Primer apellido</label>
+                                                                <input type="text" class="form-control" value="{{user.uno.apellidopaterno}}" id="primer_apellido" name="primer_apellido">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="segundo_apellido">Segundo apellido</label>
+                                                                <input type="text" class="form-control" value="{{user.uno.apellidomaterno}}" id="segundo_apellido" name="segundo_apellido">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="tip_doc">Tipo de documento</label>
+                                                                <select class="form-control" id="tip_doc" name="tip_doc">
+                                                                    <option selected value="1">DNI</option>
+                                                                    <option value="2">Pasaporte</option>
+                                                                    <option value="3">Carnet de extranjería</option>
+                                                                    <option value="4">RUC</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="documento">Documento</label>
+                                                                <input type="text" class="form-control" value="{{user.uno.numerodedocumento}}" id="documento" name="documento">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="fecha_nacimiento">Fecha de nacimiento</label>
+                                                                <input type="date" class="form-control" id="fecha_nacimiento" name="fecha_nacimiento">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="numero1">Número telefónico 1</label>
+                                                                <input type="number" class="form-control" value="{{user.uno.numerocelular1}}" id="numero1" name="numero1">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="numero2">Número telefónico 2</label>
+                                                                <input type="number" class="form-control" value="{{user.uno.numerocelular2}}" id="numero2" name="numero2">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="region">País</label>
+                                                                <input type="text" class="form-control" value="{{user.uno.pais}}" id="pais" name="pais">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="region">Región</label>
+                                                                <input type="text" class="form-control" value="{{user.uno.region}}" id="region" name="region">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="provincia">Provincia</label>
+                                                                <input type="text" class="form-control" value="{{user.uno.provincia}}" id="provincia" name="provincia">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="distrito">Distrito</label>
+                                                                <input type="text" class="form-control" value="{{user.uno.distrito}}" id="distrito" name="distrito">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="direccion">Dirección</label>
+                                                                <input type="text" class="form-control" value="{{user.uno.direccion}}" id="direccion" name="direccion">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="salarial">Expectativa salarial</label>
+                                                                <input type="number" class="form-control" value="{{user.uno.expectativasueldo}}" id="salarial" name="salarial">
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="submit" name="actualizar" class="btn btn-primary">Actualizar</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="under_title">
+                            <ul class="info_profile">
+                                <li class="d-flex justify-content-between align-items-center flex-wrap li_info_profile">
+                                    <span><img class="icon_info" src="img/icons/iconos-06.png">{{user.uno.primernombre }} {{user.uno.apellidopaterno}} {{user.uno.apellidomaterno}}</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center flex-wrap li_info_profile">
+                                    <span><img class="icon_info" src="img/icons/iconos-03.png">{{user.uno.numerodedocumento}}</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center flex-wrap li_info_profile">
+                                    <span><img class="icon_info" src="img/icons/iconos-04.png">{{user.uno.email}}</span>
+                                </li>
+                                {{#if user.uno.numerocelular2}}
+                                    <li class="d-flex justify-content-between align-items-center flex-wrap li_info_profile">
+                                        <span><img class="icon_info" src="img/icons/iconos-02.png">{{user.uno.numerocelular1}} - {{user.uno.numerocelular2}}</span>
+                                    </li>
+                                {{else}}
+                                    <li class="d-flex justify-content-between align-items-center flex-wrap li_info_profile">
+                                        <span><img class="icon_info" src="img/icons/iconos-02.png">{{user.uno.numerocelular1}}</span>
+                                    </li>
+                                {{/if}}
+                                <li class="d-flex justify-content-between align-items-center flex-wrap li_info_profile">
+                                    <span><img class="icon_info" src="img/icons/iconos-01.png">{{user.fechanaci}}</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center flex-wrap li_info_profile">
+                                    <span><img class="icon_info" src="img/icons/iconos-05.png">{{user.uno.provincia}}</span>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center flex-wrap li_info_profile">
+                                    <span><img class="icon_info" src="img/icons/iconos-07.png">S/. {{user.uno.expectativasueldo}}</span>
+                                </li>
+                            </ul>
+                            <div class="d-flex">
+                                <div class="p-2">
+                                    <h4 class="profile_title">Habilidades</h4>
+                                </div>
+                                <div class="ml-auto p-2">
+                                    <a href="#" type="submit" data-toggle="modal" data-target="#edit_infouwu" data-whatever="@mdo"><img class="icon_info_edit" src="img/icons/iconos-08.png"></a>
+                                    <div class="modal fade" id="edit_infouwu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content" >
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Mis habilidades</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div  class="modal-body" style="text-align:left">
+                                                    <form method="post" action="/updateabilities">
+                                                        <div class="form-group">
+                                                            <label for="comunicativas">Habilidades comunicativas:</label> <span id="demo1"></span>%
+                                                            <input type="range" style="width:100%;" class="slider" min="0" max="100" value="{{user.habili.comunicativas}}" id="comunicativas" name="comunicativas">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="equipo">Trabajo en equipo:</label> <span id="demo2"></span>%
+                                                            <input type="range"style="width:100%;" class="slider" min="0" max="100" value="{{user.habili.equipo}}" id="equipo" name="equipo">
+                                                        </div>
+                                                         <div class="form-group">
+                                                            <label for="iniciativas">Autogestion e iniciativas:</label> <span id="demo4"></span>%
+                                                            <input type="range" style="width:100%;" class="slider" min="0" max="100" value="{{user.habili.iniciativas}}" id="iniciativas" name="iniciativas">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="puntualidad">Puntualidad:</label> <span id="demo3"></span>%
+                                                            <input type="range" style="width:100%;" class="slider" min="0" max="100" value="{{user.habili.puntualidad}}" id="puntualidad" name="puntualidad">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="pensamiento">Pensamiento crítico:</label> <span id="demo5"></span>%
+                                                            <input type="range" style="width:100%;" class="slider" min="0" max="100" value="{{user.habili.pensamiento}}" id="pensamiento" name="pensamiento">
+                                                        </div>
+
+                                                        <div class="modal-footer">
+                                                            <button type="submit" name="actualizar" class="btn btn-primary">Actualizar</button>
+
+                                                        </div>
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <hr class="under_title">
+                            <ul class="info_profile">
+                                <li class="d-flex justify-content-between align-items-center flex-wrap li_info_abilities">
+                                    <label id="abilities" for="habilidad1">Habilidades comunicativas:</label>
+                                    <progress id="habilidad1" max="100" value="{{user.habili.comunicativas}}"></progress>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center flex-wrap li_info_abilities">
+                                    <label id="abilities" for="habilidad2">Trabajo en equipo:</label>
+                                    <progress id="habilidad2" max="100" value="{{user.habili.equipo}}"></progress>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center flex-wrap li_info_abilities">
+                                    <label id="abilities" for="habilidad4">Autogestion e iniciativas:</label>
+                                    <progress id="habilidad4" max="100" value="{{user.habili.iniciativas}}"></progress>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center flex-wrap li_info_abilities">
+                                    <label id="abilities" for="habilidad3">Puntualidad:</label>
+                                    <progress id="habilidad3" max="100" value="{{user.habili.puntualidad}}"></progress>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center flex-wrap li_info_abilities">
+                                    <label id="abilities" for="habilidad5">Pensamiento crítico:</label>
+                                    <progress id="habilidad5" max="100" value="{{user.habili.pensamiento}}"></progress>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body div_scroll">
+                            <h2>{{user.uno.primernombre }} {{user.uno.apellidopaterno}}<i class="info"><img class="icon_info_name" src="img/icons/iconos-14.png">  {{user.uno.provincia}}</i> </h2>
+                            <p>{{user.dos.carrerauniversitaria}}</p>
+                            <div style="display: none;">
+                                <<!--Falta implementar -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Compartir CV</button>
+                                <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel"> Compartir el enlace</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="form-group">
+                                                <label style="font-size: 95%">Asegúrate de que tu CV esté actualizado antes de compartirlo. Cualquier persona que tenga el enlace podrá verlo.
+
+                                                </label>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <p class="font-weight-bold">Enlace a tu CV en Talento</p>
+                                                        <div class="input-group mb-3">
+                                                            <div class="input-group-prepend">
+                                                                <button data-clipboard-target="#foo" class="btn btn-primary" type="button">Copiar enlace</button>
+                                                            </div>
+                                                            <input id="foo" value="http://localhost:4010/profile" type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="/perfilcv" target="_blank">
+                                    <button class="btn btn-info">Descargar CV</button>
+                                </a>
+                                <button class="btn btn-success">Descargar documentos</button>
+                            </div>
+
+                            <br>
+                            <br>
+                            <div class="d-flex">
+                                <div class="p-2">
+                                    <h4 class="profile_title">Formación académica</h4>
+                                </div>
+                                <div class="ml-auto p-2">
+                                    <a href="#" type="submit" data-toggle="modal" data-target="#new_grade" data-whatever="@mdo"><img class="icon_info_edit" src="img/add.png"></a>
+                                    <div class="modal fade" id="new_grade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content" >
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Formación académica</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div  class="modal-body" style="text-align:left">
+                                                    <form id="ForAcademica" action="/facademica2" method="post" class="form-horizontal" enctype="multipart/form-data">
+                                                        <div class="row">
+                                                            <div class="form-group col-md-6">
+                                                                <label for="tipo_formacion">Tipo de formación</label>
+                                                                <select class="form-control" id="tipo_formacion" name="tipo_formacion" onChange="mostrar(this.value);">
+                                                                    <option selected></option>
+                                                                    <option value="1">Pregrado</option>
+                                                                    <option value="2">Posgrado</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="formacionPost" style="display: none">
+                                                                <label for="forPost">Formación posgrado</label>
+                                                                <select class="form-control" id="forPost" name="forPost" onChange="mostrar1(this.value);">
+                                                                    <option selected></option>
+                                                                    <option value="1">Maestría</option>
+                                                                    <option value="2">Doctorado</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="subPosgrado" style="display: none">
+                                                                <label for="subPost">Grado</label>
+                                                                <select class="form-control" id="subPost" name="subPost" onChange="mostrar2(this.value);">
+                                                                    <option selected></option>
+                                                                    <option value="1">Estudiante</option>
+                                                                    <option value="2">Egresado</option>
+                                                                    <option value="3">Titulado</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="subPregrado" style="display: none">
+                                                                <label for="subPre">Grado</label>
+                                                                <select class="form-control" id="subPre" name="subPre" onChange="mostrar3(this.value);">
+                                                                    <option selected></option>
+                                                                    <option value="1">Estudiante</option>
+                                                                    <option value="2">Egresado</option>
+                                                                    <option value="3">Bachiller</option>
+                                                                    <option value="4">Titulado</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="universidad" style="display: none">
+                                                                <label for="universidad">Universidad</label>
+                                                                <input type="text" class="form-control" id="universidad" name="universidad">
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="carrerauniversitaria" style="display: none">
+                                                                <label for="carrerauniversitaria">Carrera</label>
+                                                                <input type="text" class="form-control" id="carrerauniversitaria" name="carrerauniversitaria">
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="inicioAcademico" style="display: none">
+                                                                <label for="iniAcad">Año de inicio</label>
+                                                                <select class="form-control" id="iniAcad" name="iniAcad">
+                                                                    <option selected></option>
+                                                                    <script>
+                                                                        var myDate = new Date();
+                                                                        var year = myDate.getFullYear();
+                                                                        for(var i = year; i > 1899; i--){
+                                                                            document.write('<option value="'+i+'">'+i+'</option>');
+                                                                        }
+                                                                    </script>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="finAcademico" style="display: none">
+                                                                <label for="finAcad">Año de fin</label>
+                                                                <select class="form-control" id="finAcad" name="finAcad">
+                                                                    <option selected></option>
+                                                                    <script>
+                                                                        var myDate = new Date();
+                                                                        var year = myDate.getFullYear();
+                                                                        for(var i = year; i > 1899; i--){
+                                                                            document.write('<option value="'+i+'">'+i+'</option>');
+                                                                        }
+                                                                    </script>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="fechaexpedicion" style="display: none">
+                                                                <label for="FechaExpedicionTitulo">Fecha Expedicion Título</label>
+                                                                <input type="date" class="form-control" id="FechaExpedicionTitulo" name="FechaExpedicionTitulo">
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="doctitulo" style="display: none">
+                                                                <label for="documentoti">Documento título</label>
+                                                                <input type="file" class="form-control-file" id="documentoti" name="documentoti">
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="escolegiado" style="display: none">
+                                                                <label for="colegiado">¿Eres colegiado?</label>
+                                                                <input class="form-check-input" type="checkbox" value="1" id="colegiado" name="colegiado" style="margin-left: 20px;" onClick="mostrar5();">
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="doccolegiado" style="display: none">
+                                                                <label for="documentocole">Documento colegiado</label>
+                                                                <input type="file" class="form-control-file" id="documentocole" name="documentocole">
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="ultima" style="display: none">
+                                                                <label for="ultimacarrera">¿Ultima carrera?</label>
+                                                                <input class="form-check-input" type="checkbox" value="1" id="ultimacarrera" name="ultimacarrera" style="margin-left: 20px;">
+                                                            </div>
+                                                            <div class="col-md-12 text-center">
+                                                                <button type="submit" class="btn btn-primary">Añadir</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="under_title">
+                            {{#each user.pregrado}}
+                                <div class="row" >
+                                    <div class="col-sm-7">
+                                        <h5 class="mb-0">Pregrado</h5>
+                                    </div>
+                                    <div class="col-sm-5 text-right" >
+                                        <a href="#" type="submit" data-toggle="modal" data-target="#{{this.nombreformacionpregrado}}{{@index}}" data-whatever="@mdo"><img class="icon_info_edit" src="img/icons/iconos-08.png"></a>
+                                        <a href="#" type="submit" data-toggle="modal" data-target="#delete1" data-whatever="@mdo"><img class="icon_info_edit" src="img/icons/iconos-12.png"></a>
+                                        
+                                        
+                                        <div class="modal fade" id="delete1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-confirm">
+                                                <div class="modal-content" >
+                                                    <div class="modal-header flex-column">
+                                                        <div class="icon-box">
+                                                            <svg  id="col" xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                                                <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                                                            </svg>
+                                                        </div>						
+                                                                <h4 class="modal-title w-100">¡Alerta!</h4>	
+                                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    </div>
+                                                            <div  class="modal-body">
+                                                                <div class="modal-body">
+                                                                    <p>Estas seguro que deseas eliminar tu datos? tus datos seran borrados.</p>
+                                                                </div>
+                                                                <div class="modal-footer justify-content-center">
+                                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                                            {{!-- <button type="button" class="btn btn-danger">Eliminar<a href="/drop/{{this.idformacioninicial}}"></a></button> --}}
+                                                                            <a href="/drop/{{this.idformacioninicial}}" class="btn btn-danger">Eliminar</a>
+                                                                </div>
+                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        
+                                        <div  class="modal fade" id="{{this.nombreformacionpregrado}}{{@index}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content" >
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Pregrado - Profesión</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div  class="modal-body" style="text-align:left">
+                                                        <form method="post" action="/updatefacademica/{{this.idformacioninicial}}" enctype="multipart/form-data">
+                                                            <div class="form-group">
+                                                                <label for="recipient-name" class="col-form-label">Institución:</label>
+                                                                <input type="text" class="form-control" id="institucion" name="institucion" value='{{this.universidad}}'>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="recipient-name" class="col-form-label">Profesión:</label>
+                                                                <input type="text" class="form-control" id="profesion" name="profesion" value='{{this.carrerauniversitaria}}'>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="recipient-name" class="col-form-label">Tiempo - Desde</label>
+                                                                         <select class="form-control"  id="inicioacademico" name="inicioacademico">
+                                                                             <option >{{this.inicioacademico}}</option>
+                                                                             <script>
+                                                                                var myDate = new Date();
+                                                                                var year = myDate.getFullYear();
+                                                                                for(var inicioacademico = year; inicioacademico > 1899; inicioacademico--){
+                                                                                    document.write('<option>'+inicioacademico+'</option>');
+                                                                                    }
+                                                                            </script>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="recipient-name" class="col-form-label">Tiempo - Hasta</label>
+                                                                         <select class="form-control" id="finacademico" name="finacademico">
+                                                                               <option>{{this.finacademico}}</option>
+                                                                                <script>
+                                                                                    var myDate = new Date();
+                                                                                    var year = myDate.getFullYear();
+                                                                                    for(var finacademico = year; finacademico > 1899; finacademico--){
+                                                                                        document.write('<option>'+finacademico+'</option>');
+                                                                                    }
+                                                                                </script>
+                                                                         </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="recipient-name" class="col-form-label">Expedición de título</label>
+                                                                        <input class="form-control" type="date" id="expedicionfecha" name="expedicionfecha">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="recipient-name" class="col-form-label">Documento título</label>
+                                                                        <input class="form-control-file" type="file" id="documentoti" name="documentoti">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    {{#if this.erescolegiado}}
+                                                                        <div class="form-group">
+                                                                            <label for="recipient-name" class="col-form-label">Colegiado</label>
+                                                                            <input class="form-check-input" type="checkbox" id="expedicionfechacole" name="expedicionfechacole" style="margin-left: 20px; margin-top: 10px" checked>
+                                                                        </div>
+                                                                    {{else}}
+                                                                        <div class="form-group">
+                                                                            <label for="recipient-name" class="col-form-label">Colegiado</label>
+                                                                            <input class="form-check-input" type="checkbox" id="expedicionfechacole" name="expedicionfechacole" style="margin-left: 20px; margin-top: 10px">
+                                                                        </div>
+                                                                    {{/if}}
+
+
+
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="recipient-name" class="col-form-label">Documento colegiado</label>
+                                                                        <input class="form-control-file" type="file" id="documentocole" name="documentocole">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="submit" name="actualizar" class="btn btn-primary">Actualizar</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">Carrera</h6>
+                                    </div>
+                                    <div class="col-sm-8 text-secondary">
+                                        {{this.carrerauniversitaria}}
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">Institución</h6>
+                                    </div>
+                                    <div class="col-sm-8 text-secondary">
+                                        {{this.universidad}}
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">Grado</h6>
+                                    </div>
+                                    <div class="col-sm-8 text-secondary">
+                                        {{this.nombreformacionpregrado}}
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">Tiempo</h6>
+                                    </div>
+
+                                    {{#if this.finacademico}}
+                                        <div class="col-sm-8 text-secondary">
+                                            {{this.inicioacademico}} - {{this.finacademico}}
+                                        </div>
+                                    {{else}}
+                                        <div class="col-sm-8 text-secondary">
+                                            {{this.inicioacademico}}
+                                        </div>
+                                    {{/if}}
+
+                                    {{#if this.fechaexpediciontitulo}}
+                                        {{#if this.documentotitulo}}
+                                            <div class="col-sm-4">
+                                                <h6 class="mb-0">Expedición de título</h6>
+                                            </div>
+                                            <div class="col-sm-8 text-secondary">
+                                                {{this.fechaexpediciontitulo}} <a href="/file/{{this.idformacioninicial}}" target="_blank">Ver documento</a>
+                                            </div>
+                                        {{else}}
+                                            <div class="col-sm-4">
+                                                <h6 class="mb-0">Expedición de título</h6>
+                                            </div>
+                                            <div class="col-sm-8 text-secondary">
+                                                {{this.fechaexpediciontitulo}}
+                                            </div>
+                                        {{/if}}
+                                    {{else if this.documentotitulo}}
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-0">Expedición de título</h6>
+                                        </div>
+                                        <div class="col-sm-8 text-secondary">
+                                            <a href="/file/{{this.idformacioninicial}}" target="_blank">Ver documento</a>
+                                        </div>
+                                    {{/if}}
+
+
+                                    {{#if this.erescolegiado}}
+                                        {{#if this.documentocolegiado}}
+                                            <div class="col-sm-4">
+                                                <h6 class="mb-0">Colegiado</h6>
+                                            </div>
+                                            <div class="col-sm-8 text-secondary">
+                                                <a href="/file2/{{this.idformacioninicial}}" target="_blank">Ver colegiatura</a>
+                                            </div>
+                                        {{else}}
+                                            <div class="col-sm-4">
+                                                <h6 class="mb-0">Colegiado</h6>
+                                            </div>
+                                        {{/if}}
+                                    {{/if}}
+
+                                </div>
+                                <br>
+                            {{/each}}
+
+                            {{#each user.postgrado}}
+                                <div class="row" >
+                                    <div class="col-sm-7">
+                                        <h5 class="mb-0">Postgrado</h5>
+                                    </div>
+                                    <div class="col-sm-5 text-right" >
+                                        <a href="#" type="submit" data-toggle="modal" data-target="#{{this.nombreformacionpostgrado}}{{@index}}" data-whatever="@mdo"><img class="icon_info_edit" src="img/icons/iconos-08.png"></a>
+                                        <a href="#" type="submit" data-toggle="modal" data-target="#delete4" data-whatever="@mdo"><img class="icon_info_edit" src="img/icons/iconos-12.png"></a>
+                                        
+                                        
+                                        <div class="modal fade" id="delete4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-confirm">
+                                                <div class="modal-content" >
+                                                    <div class="modal-header flex-column">
+                                                        <div class="icon-box">
+                                                            <svg  id="col" xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                                                <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                                                            </svg>
+                                                        </div>						
+                                                                <h4 class="modal-title w-100">¡Alerta!</h4>	
+                                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    </div>
+                                                            <div  class="modal-body">
+                                                                <div class="modal-body">
+                                                                    <p>Estas seguro que deseas eliminar tu datos? tus datos seran borrados.</p>
+                                                                </div>
+                                                                <div class="modal-footer justify-content-center">
+                                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                                            {{!-- <button type="button" class="btn btn-danger">Eliminar<a href="/drop/{{this.idformacioninicial}}"></a></button> --}}
+                                                                            <a href="/drop/{{this.idformacioninicial}}" class="btn btn-danger">Eliminar</a>
+                                                                </div>
+                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        
+                                        <div  class="modal fade" id="{{this.nombreformacionpostgrado}}{{@index}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content" >
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Postgrado - Profesión</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div  class="modal-body" style="text-align:left">
+                                                        <form method="post" action="/updatefacademicapost/{{this.idformacioninicial}}" enctype="multipart/form-data">
+                                                            <div class="form-group">
+                                                                <label for="recipient-name" class="col-form-label">Institución:</label>
+                                                                <input  type="text" class="form-control"  name="universidad" id="universidad" value='{{this.universidad}}'>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="recipient-name" class="col-form-label">Formación:</label>
+                                                                <input  type="text" class="form-control"  name="profesion" id="profesion" value='{{this.carrerauniversitaria}}'>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="recipient-name" class="col-form-label">Tiempo - Desde</label>
+                                                                        <input class="form-control" type="number" min="1900" max="2099" step="1" value="{{this.inicioacademico}}" id="inicio" name="inicio">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="recipient-name" class="col-form-label">Tiempo - Hasta</label>
+                                                                        <input class="form-control" type="number" min="1900" max="2099" step="1" value="{{this.finacademico}}" id="fin" name="fin">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group" id="fechaexpedicion">
+                                                                        <label for="FechaExpedicionTitulo">Fecha expidición documento</label>
+                                                                        <input type="date" class="form-control" id="FechaExpedicionTitulo" name="FechaExpedicionTitulo">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group" id="doctitulo">
+                                                                        <label for="documentoti">Documento</label>
+                                                                        <input type="file" class="form-control-file" id="documentoti" name="documentoti">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="modal-footer">
+                                                                <button type="submit" name="actualizar" class="btn btn-primary">Actualizar</button>
+                                                            </div>
+
+                                                        </form>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">Carrera</h6>
+                                    </div>
+                                    <div class="col-sm-8 text-secondary">
+                                        {{this.carrerauniversitaria}}
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">Institución</h6>
+                                    </div>
+                                    <div class="col-sm-8 text-secondary">
+                                        {{this.universidad}}
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">Grado</h6>
+                                    </div>
+                                    <div class="col-sm-8 text-secondary">
+                                        {{this.nombreformacionpostgrado}}
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">Tiempo</h6>
+                                    </div>
+
+                                    {{#if this.finacademico}}
+                                        <div class="col-sm-8 text-secondary">
+                                            {{this.inicioacademico}} - {{this.finacademico}}
+                                        </div>
+                                    {{else}}
+                                        <div class="col-sm-8 text-secondary">
+                                            {{this.inicioacademico}}
+                                        </div>
+                                    {{/if}}
+
+                                    {{#if this.fechaexpediciontitulo}}
+                                        {{#if this.documentotitulo}}
+                                            <div class="col-sm-4">
+                                                <h6 class="mb-0">Expedición de título</h6>
+                                            </div>
+                                            <div class="col-sm-8 text-secondary">
+                                                {{this.fechaexpediciontitulo}} <a href="/file/{{this.idformacioninicial}}" target="_blank">Ver documento</a>
+                                            </div>
+                                        {{else}}
+                                            <div class="col-sm-4">
+                                                <h6 class="mb-0">Expedición de título</h6>
+                                            </div>
+                                            <div class="col-sm-8 text-secondary">
+                                                {{this.fechaexpediciontitulo}}
+                                            </div>
+                                        {{/if}}
+                                    {{else if this.documentotitulo}}
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-0">Expedición de título</h6>
+                                        </div>
+                                        <div class="col-sm-8 text-secondary">
+                                            <a href="/file/{{this.idformacioninicial}}" target="_blank">Ver documento</a>
+                                        </div>
+                                    {{/if}}
+                                </div>
+                                <br>
+                            {{/each}}
+
+                            <br>
+
+                            <div class="d-flex">
+                                <div class="p-2">
+                                    <h4 class="profile_title">Formación continua</h4>
+                                </div>
+                                <div class="ml-auto p-2">
+                                    <a href="#" type="submit" data-toggle="modal" data-target="#new_continua" data-whatever="@mdo"><img class="icon_info_edit" src="img/add.png"></a>
+                                    <div class="modal fade" id="new_continua" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Formación continua</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div  class="modal-body" style="text-align:left">
+                                                    <form method="post" action="/addcontinua" enctype="multipart/form-data">
+                                                        <div class="row">
+                                                            <div class="form-group col-md-6">
+                                                                <label for="tipFormacionCon">Tipo</label>
+                                                                <select class="form-control" id="tipFormacionCon" name="tipFormacionCon" required>
+                                                                    <option selected></option>
+                                                                    <option value="1">Curso</option>
+                                                                    <option value="2">Especialización</option>
+                                                                    <option value="3">Idioma</option>
+                                                                    <option value="4">Taller / Capacitación</option>
+                                                                    <option value="5">Diplomados</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="forcontinua">Formación continua</label>
+                                                                <input type="text" class="form-control" id="forcontinua" name="forcontinua" required>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="inEducativa">Institución educactiva</label>
+                                                                <input type="text" class="form-control" id="inEducativa" name="inEducativa" required>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="horasacademicas">Horas académicas</label>
+                                                                <input type="number" class="form-control" id="horasacademicas" name="horasacademicas">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="FechaExpedicionTitulo">Fecha expedición</label>
+                                                                <input type="date" class="form-control" id="FechaExpedicionTitulo" name="FechaExpedicionTitulo">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="FormacionContinuaDocumento">Documento</label>
+                                                                <input type="file" class="form-control-file" id="FormacionContinuaDocumento" name="FormacionContinuaDocumento">
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="submit" name="actualizar" class="btn btn-primary">Actualizar</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="under_title">
+
+                            {{#each user.forcontinua}}
+                                <div class="row">
+                                    <div class="col-sm-7">
+                                        <h6 class="mb-0">Tipo de formación: {{this.nombreselecformacioncontinua}}</h6>
+                                    </div>
+                                    <div class="col-sm-5 text-right">
+                                        <a href="#" type="submit" data-toggle="modal" data-target="#edit{{@index}}" data-whatever="@mdo"><img class="icon_info_edit" src="img/icons/iconos-08.png"></a>
+                                        <a href="#" type="submit" data-toggle="modal" data-target="#delete2" data-whatever="@mdo"><img class="icon_info_edit" src="img/icons/iconos-12.png"></a>
+                                        
+                                        
+                                        <div class="modal fade" id="delete2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-confirm">
+                                                <div class="modal-content" >
+                                                    <div class="modal-header flex-column">
+                                                        <div class="icon-box">
+                                                            <svg  id="col" xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                                                <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                                                            </svg>
+                                                        </div>						
+                                                                <h4 class="modal-title w-100">¡Alerta!</h4>	
+                                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    </div>
+                                                            <div  class="modal-body">
+                                                                <div class="modal-body">
+                                                                    <p>Estas seguro que deseas eliminar tu datos? tus datos seran borrados.</p>
+                                                                </div>
+                                                                <div class="modal-footer justify-content-center">
+                                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                                                        <a href="/dropcontinua/{{this.idformacioncontinua}}" class="btn btn-danger">Eliminar</a>
+                                                                </div>
+                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        
+                                        <div class="modal fade" id="edit{{@index}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Formación continua</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body" style="text-align:left">
+                                                        <form action="/updatefcontinua/{{this.idformacioncontinua}}" method="post" enctype="multipart/form-data">
+                                                            <div class="row">
+                                                                <div class="form-group col-md-12">
+                                                                    <label for="forcontinua">Formación continua</label>
+                                                                    <input type="text" class="form-control" id="forcontinua" name="forcontinua" value="{{this.nombrelogro}}">
+                                                                </div>
+                                                                <div class="form-group col-md-12">
+                                                                    <label for="inEducativa">Institución educactiva</label>
+                                                                    <input type="text" class="form-control" id="inEducativa" name="inEducativa" value="{{this.institucioneducativa}}">
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label for="horasacademicas">Horas académicas</label>
+                                                                    <input type="number" class="form-control" id="horasacademicas" name="horasacademicas" value="{{this.horasacademicas}}">
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label for="FechaExpedicionTitulo">Fecha expedición</label>
+                                                                    <input type="date" class="form-control" id="FechaExpedicionTitulo" name="FechaExpedicionTitulo">
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label for="FormacionContinuaDocumento">Documento</label>
+                                                                    <input type="file" class="form-control-file" id="FormacionContinuaDocumento" name="FormacionContinuaDocumento">
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="submit" class="btn btn-primary">Actualizar</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">Formación</h6>
+                                    </div>
+                                    <div class="col-sm-8 text-secondary">
+                                        {{this.nombrelogro}}
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">Institución</h6>
+                                    </div>
+                                    <div class="col-sm-8 text-secondary">
+                                        {{this.institucioneducativa}}
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">Horas</h6>
+                                    </div>
+                                    <div class="col-sm-8 text-secondary">
+                                        {{this.horasacademicas}}
+                                    </div>
+
+
+                                    {{#if this.fechaexpedicion}}
+                                        {{#if this.formacioncontinuadocumento}}
+                                            <div class="col-sm-4">
+                                                <h6 class="mb-0">Expedición de título</h6>
+                                            </div>
+                                            <div class="col-sm-8 text-secondary">
+                                                {{this.fechaexpedicion}} <a href="/file3/{{this.idformacioncontinua}}" target="_blank">Ver documento</a>
+                                            </div>
+                                        {{else}}
+                                            <div class="col-sm-4">
+                                                <h6 class="mb-0">Expedición de título</h6>
+                                            </div>
+                                            <div class="col-sm-8 text-secondary">
+                                                {{this.fechaexpedicion}}
+                                            </div>
+                                        {{/if}}
+                                    {{else if this.documentotitulo}}
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-0">Expedición de título</h6>
+                                        </div>
+                                        <div class="col-sm-8 text-secondary">
+                                            <a href="/file3/{{this.idformacioncontinua}}" target="_blank">Ver documento</a>
+                                        </div>
+                                    {{/if}}
+                                </div>
+                                <br>
+                            {{/each}}
+
+
+                            <br>
+
+                            <div class="d-flex">
+                                <div class="p-2">
+                                    <h4 class="profile_title">Experiencia</h4>
+                                </div>
+                                <div class="ml-auto p-2">
+                                    <a href="#" type="submit" data-toggle="modal" data-target="#new_experiencia" data-whatever="@mdo"><img class="icon_info_edit" src="img/add.png"></a>
+                                    <div class="modal fade" id="new_experiencia" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content" >
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Experiencia</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div  class="modal-body" style="text-align:left">
+                                                    <form method="post" action="/addexperiencia" enctype="multipart/form-data">
+                                                        <div class="row">
+                                                            <div class="form-group col-md-6">
+                                                                <label for="nomcargo">Nombre de cargo</label>
+                                                                <input type="text" class="form-control" id="nomcargo" name="nomcargo">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="nomempresa">Nombre empresa</label>
+                                                                <input type="text" class="form-control" id="nomempresa" name="nomempresa">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="sectorempresa">Sector empresarial</label>
+                                                                <input type="text" class="form-control" id="sectorempresa" name="sectorempresa">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                <label for="FechaInicio">Fecha de incio</label>
+                                                                <input type="date" class="form-control" id="FechaInicio" name="FechaInicio">
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="fechainicio">
+                                                                <label for="FechaFin">Fecha de fin</label>
+                                                                <input type="date" class="form-control" id="FechaFin" name="FechaFin">
+                                                            </div>
+                                                            <div class="form-group col-md-6" id="fechafin">
+                                                                <label for="documentoexp">Documento título</label>
+                                                                <input type="file" class="form-control-file" id="documentoexp" name="documentoexp">
+                                                            </div>
+                                                            <div class="form-group col-md-12" id="docexperiencia">
+                                                                <label for="funciones">Funciones</label>
+                                                                <textarea class="form-control" id="funciones" name="funciones" rows="3"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="submit" name="actualizar" class="btn btn-primary">Actualizar</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="under_title">
+                            {{#each user.experiencia}}
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">{{this.nombrecargo}}</h6>
+                                    </div>
+                                    <div class="col-sm-8 text-right">
+                                        <a href="#" type="submit" data-toggle="modal" data-target="#{{this.nombrecargo}}{{@index}}" data-whatever="@mdo"><img class="icon_info_edit" src="img/icons/iconos-08.png"></a>
+                                        <a href="#" type="submit" data-toggle="modal" data-target="#delete3" data-whatever="@mdo"><img class="icon_info_edit" src="img/icons/iconos-12.png"></a>
+                                        
+                                         <div class="modal fade" id="delete3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-confirm">
+                                                <div class="modal-content" >
+                                                    <div class="modal-header flex-column">
+                                                        <div class="icon-box">
+                                                            <svg  id="col" xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                                                <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                                                            </svg>
+                                                        </div>						
+                                                                <h4 class="modal-title w-100">¡Alerta!</h4>	
+                                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                    </div>
+                                                            <div  class="modal-body">
+                                                                <div class="modal-body">
+                                                                    <p>Estas seguro que deseas eliminar tu datos? tus datos seran borrados.</p>
+                                                                </div>
+                                                                <div class="modal-footer justify-content-center">
+                                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                                                        <a href="/dropexper/{{this.idexperiencialaboral}}" class="btn btn-danger">Eliminar</a>
+                                                                </div>
+                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        
+                                        <div class="modal fade" id="{{this.nombrecargo}}{{@index}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Experiencia</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body" style="text-align:left">
+                                                        <form method="post" action="/updateexperiencia/{{this.idexperiencialaboral}}" enctype="multipart/form-data">
+                                                            <div class="row">
+                                                                <div class="form-group col-md-6">
+                                                                    <label for="nomcargo">Nombre de cargo</label>
+                                                                    <input type="text" class="form-control" id="nomcargo" name="nomcargo" value="{{this.nombrecargo}}">
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label for="nomempresa">Nombre empresa</label>
+                                                                    <input type="text" class="form-control" id="nomempresa" name="nomempresa" value="{{this.nombreempresa}}">
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label for="sectorempresa">Sector empresarial</label>
+                                                                    <input type="text" class="form-control" id="sectorempresa" name="sectorempresa" value="{{this.sectorempresarial}}">
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label for="FechaInicio">Fecha de incio</label>
+                                                                    <input type="date" class="form-control" id="FechaInicio" name="FechaInicio">
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label for="FechaFin">Fecha de fin</label>
+                                                                    <input type="date" class="form-control" id="FechaFin" name="FechaFin">
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                    <label for="documentoexp">Documento</label>
+                                                                    <input type="file" class="form-control-file" id="documentoexp" name="documentoexp">
+                                                                </div>
+                                                                <div class="form-group col-md-12">
+                                                                    <label for="funciones">Funciones</label>
+                                                                    <textarea class="form-control" id="funciones" name="funciones" rows="3"></textarea>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="submit" name="actualizar" class="btn btn-primary">Actualizar</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">Empresa</h6>
+                                    </div>
+                                    <div class="col-sm-8 text-secondary">
+                                        {{this.nombreempresa}}
+                                    </div>
+
+                                    {{#if this.certificadopostulante}}
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-0">Periodo</h6>
+                                        </div>
+                                        <div class="col-sm-8 text-secondary">
+                                            {{this.inicio}} - {{this.final}} <a href="/file4/{{this.idexperiencialaboral}}" target="_blank">Ver documento</a>
+                                        </div>
+                                    {{else}}
+                                        <div class="col-sm-4">
+                                            <h6 class="mb-0">Periodo</h6>
+                                        </div>
+                                        <div class="col-sm-8 text-secondary">
+                                            {{this.inicio}} - {{this.final}}
+                                        </div>
+                                    {{/if}}
+
+                                    <div class="col-sm-4">
+                                        <h6 class="mb-0">Funciones</h6>
+                                    </div>
+                                    <div class="col-sm-8 text-secondary">
+                                        {{this.funcionesdesarrolladas}}
+                                    </div>
+                                </div>
+                                <br>
+                            {{/each}}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+    </div>
+
+{{/if}}
+
+
+<script>
+
+
+    if(document.querySelector("#foto")){
+        var foto = document.querySelector("#foto");
+        foto.onchange = function(e) {
+            var uploadFoto = document.querySelector("#foto").value;
+            var fileimg = document.querySelector("#foto").files;
+            var nav = window.URL || window.webkitURL;
+            var contactAlert = document.querySelector('#form_alert');
+            if(uploadFoto !=''){
+                var type = fileimg[0].type;
+                var name = fileimg[0].name;
+                if(type != 'image/jpeg' && type != 'image/jpg' && type != 'image/png'){
+                    contactAlert.innerHTML = '<p class="errorArchivo">El archivo no es válido</p>';
+                    if(document.querySelector('#img')){
+                        document.querySelector('#img').remove();
+                    }
+                    document.querySelector('.delPhoto').classList.add("notBlock");
+                    foto.value="";
+                    return false;
+                }else{
+                    contactAlert.innerHTML='';
+                    if(document.querySelector('#img')){
+                        document.querySelector('#img').remove();
+                    }
+                    document.querySelector('.delPhoto').classList.remove("notBlock");
+                    var objeto_url = nav.createObjectURL(this.files[0]);
+                    document.querySelector('.prevPhoto div').innerHTML = "<img id='img' src="+objeto_url+">";
+                }
+            }else{
+                alert("No selecciono foto");
+                if(document.querySelector('#img')){
+                    document.querySelector('#img').remove();
+                }
+            }
+        }
+    }
+
+    if(document.querySelector(".delPhoto")){
+        var delPhoto = document.querySelector(".delPhoto");
+        delPhoto.onclick = function(e) {
+            let mover =  removePhoto();
+
+        }
+
+    }
+    function removePhoto(){
+        document.querySelector('#foto').value ="";
+        document.querySelector('.delPhoto').classList.add("notBlock");
+        document.querySelector('#img').remove();
+    }
+
+
+    var i = 0;
+    function mostrar5(){
+        console.log('hla' + i);
+        if(i == 0){
+            $("#doccolegiado").show();
+            i=1;
+        }
+        else if(i == 1){
+            $("#doccolegiado").hide();
+            i=0;
+        }
+    }
+</script>
+
+{{!-- /slider/ --}}
+<script>
+var slider1 = document.getElementById("comunicativas");
+var output1 = document.getElementById("demo1");
+output1.innerHTML = slider1.value;
+
+slider1.oninput = function() {
+  output1.innerHTML = this.value;
+}
+</script>
+<script>
+var slider2 = document.getElementById("equipo");
+var output2 = document.getElementById("demo2");
+output2.innerHTML = slider2.value;
+
+slider2.oninput = function() {
+  output2.innerHTML = this.value;
+}
+</script>
+
+<script>
+var slider3 = document.getElementById("puntualidad");
+var output3 = document.getElementById("demo3");
+output3.innerHTML = slider3.value;
+
+slider3.oninput = function() {
+  output3.innerHTML = this.value;
+}
+</script>
+<script>
+var slider4 = document.getElementById("iniciativas");
+var output4 = document.getElementById("demo4");
+output4.innerHTML = slider4.value;
+
+slider4.oninput = function() {
+  output4.innerHTML = this.value;
+}
+</script>
+<script>
+var slider5 = document.getElementById("pensamiento");
+var output5 = document.getElementById("demo5");
+output5.innerHTML = slider5.value;
+
+slider5.oninput = function() {
+  output5.innerHTML = this.value;
+}
+</script>
+
+{{!-- /slider/ --}}
+
+
+
+<!--
+
+            <div class="col-md-4 mx-auto">
+                <div class="card text-justify">
+                    <div class="card-body">
+                        <h4>Bienvenido {{user.nom_usu}}</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper consequat pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum finibus, est eu vehicula dictum, tellus nulla semper enim, eleifend posuere erat arcu non nisl. Integer ac sapien sed urna lobortis semper non aliquet diam. Duis dictum egestas neque at pretium. Nunc pulvinar vestibulum risus non ultrices. Etiam vel placerat ex. Pellentesque volutpat enim a felis elementum pretium. Donec tincidunt risus ut dictum convallis. Aliquam laoreet quam id lorem placerat, sollicitudin viverra ex maximus.</p>
+                    </div>
+                </div>
+            </div>
+-->

@@ -1,0 +1,84 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-12 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                      <div class="row" id="carga">
+      <div class="form-group col-md-3" id="colum">
+                   <div class="card-title" style="padding: 0 1% 0 -10%">
+                     <div class="progress">            
+                        <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="10" style="width: 100%"></div>
+                     </div>
+                     </div>
+                     </div>
+                           <div class="form-group col-md-3" id="colum">
+                   <div class="card-title" style="padding: 0 1% 0 -10%">
+                     <div class="progress">            
+                        <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="10" style="width: 100%"></div>
+                     </div>
+                     </div>
+                     </div>
+                           <div class="form-group col-md-3" id="colum">
+                   <div class="card-title" style="padding: 0 1% 0 -10%">
+                     <div class="progress">            
+                        <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="10" style="width: 100%"></div>
+                     </div>
+                     </div>
+                     </div>
+                   <div class="form-group col-md-3" id="colum">
+                      <div class="card-title" style="padding: 0 1% 0 -10%">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="10" style="width: 100%"></div>
+                     </div>
+                </div>
+              </div>
+     </div>
+                    <h4>Experiencia:</h4>
+                    <hr>
+                    <form action="/experiencia" method="post" class="form-horizontal" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="nomcargo">Nombre de cargo</label>
+                                <input type="text" class="form-control" id="nomcargo" name="nomcargo">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="nomempresa">Nombre empresa</label>
+                                <input type="text" class="form-control" id="nomempresa" name="nomempresa">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="sectorempresa">Sector empresarial</label>
+                                <input type="text" class="form-control" id="sectorempresa" name="sectorempresa">
+                            </div>
+                            <div class="form-group col-md-6" id="fechainicio">
+                                <label for="FechaInicio">Fecha de incio</label>
+                                <input type="date" class="form-control" id="FechaInicio" name="FechaInicio">
+                            </div>
+                            <div class="form-group col-md-6" id="fechafin" >
+                                <label for="FechaFin">Fecha de fin</label>
+                                <input type="date" class="form-control" id="FechaFin" name="FechaFin">
+                            </div>
+                            <div class="form-group col-md-6" id="docexperiencia">
+                                <label for="documentoexp">Documento</label>
+                                <input type="file" class="form-control-file" id="documentoexp" name="documentoexp">
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <label for="funciones">Funciones</label>
+                                <textarea class="form-control" id="funciones" name="funciones" rows="3"></textarea>
+                            </div>
+
+                            <div class="col-md-6 text-right">
+                                <button type="submit" class="btn btn-primary">Añadir</button>
+                            </div>
+                            <div class="col-md-6 text-left">
+                                <a href="/perfil/{{user.email}}/{{user.password}}"><button type="button" class="btn btn-primary">Ver perfil</button></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

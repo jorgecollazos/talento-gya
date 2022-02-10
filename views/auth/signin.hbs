@@ -1,0 +1,175 @@
+<main>
+        <div class="contenedor__todo">
+
+            <div class="caja__trasera">
+                <div class="caja__trasera-login" id="cajaTraseralLogin">
+                    <h3>¿Ya tiene una cuenta?</h3>
+                    <p>Inicia sesión para ingresar a la plataforma</p>
+                    <button id="btn__iniciar-sesion" onclick="ocultar2();">Iniciar sesión</button>
+                </div>
+                <div class="caja__trasera-register" id="cajaTraseraRegister">
+                    <h3>¿Aún no tienes cuenta?</h3>
+                    <p>Registrate para que puedas iniciar sesión</p>
+                    <button id="btn__registrarse" onclick="ocultar1();">Registrarse</button>
+                </div>
+            </div>
+            <div class="contenedor__login-register">
+                 <form action="/signin" class="formulario__login" id="formularioLogin" method="post">
+                  <div class="text-center"><img src="img/TALENTO.png" style="width:50%;" alt="Admin"></div>    
+                  <hr>
+                     <h2>Iniciar sesión</h2>
+                     <input type="text" id="txtemail" name="email" placeholder="Correo electrónico">
+                     <input type="password" id="txtpassword" name="password" placeholder="Contraseña">
+                     <div class="text-center"><button  id="ingres" disabled>Ingresar</button></div>
+                     
+                         <p class="ride-line">
+                         <span>O inicie sesión con</span>
+                         </p>
+                            <div class="row" style="place-content: space-evenly;">
+                                <div class="mt-70">
+                                   <a  class=" col-2 login-btn login-btn-google"  href="/auth/google">Google</a></div>
+                                <div class="mt-70">
+                                   <a class=" col-2 login-btn login-btn-facebook" href="/auth/facebook">Facebook</a></div>
+                            </div>
+                  </form>
+
+                 <form action="/signup" class="formulario__register" id="formularioRegister" method="post">
+                 <div class="text-center"><img src="img/TALENTO.png" style="width:50%;" alt="Admin"></div>     
+                 <hr>
+                    <h2>Registrarse</h2>
+                    <input type="text" name="nom_usu" id="txtnom" placeholder="Nombre completo">
+                    <input type="email" name="email" id="txtema" placeholder="Correo electrónico">
+                    <input type="password" name="password" id="txtpass" placeholder="Contraseña">
+                    <button id="regis" disabled>Registrarse</button>
+                     <hr>
+
+                </form>
+            </div>
+        </div>
+    </main>
+    
+<script>
+    function habilitar1(){
+        txtemail = document.getElementById("txtemail").value;
+        txtpassword = document.getElementById("txtpassword").value;
+     
+        if(txtemail.length == 0 || txtpassword.length == 0){
+            document.getElementById("ingres").disabled = true;
+        }else{
+            document.getElementById("ingres").disabled = false;
+        }
+    }
+    document.getElementById("txtemail").addEventListener("keyup", habilitar1);
+    document.getElementById("txtpassword").addEventListener("keyup", habilitar1);
+</script>
+<script>
+    function habilitar2(){
+        txtnom = document.getElementById("txtnom").value;
+        txtema = document.getElementById("txtema").value;
+        txtpass = document.getElementById("txtpass").value;
+     
+        if(txtnom.length == 0 || txtema.length == 0 || txtpass.length == 0){
+            document.getElementById("regis").disabled = true;
+        }else{
+            document.getElementById("regis").disabled = false;
+        }
+    }
+    document.getElementById("txtnom").addEventListener("keyup", habilitar2);
+    document.getElementById("txtema").addEventListener("keyup", habilitar2);
+    document.getElementById("txtpass").addEventListener("keyup", habilitar2);
+</script>
+    
+</script>
+
+<script>
+document.getElementById("btn__iniciar-sesion").addEventListener("click", iniciarsesion);
+document.getElementById("btn__registrarse").addEventListener("click", register);
+window.addEventListener("resize", anchopagina);
+
+
+var contenedor_login_register = document.querySelector(".contenedor__login-register")
+var formulario_login = document.querySelector(".formulario__login")
+var formulario_register = document.querySelector(".formulario__register")
+var caja_trasera_login = document.querySelector(".caja__trasera-login")
+var caja_trasera_register = document.querySelector(".caja__trasera-register")
+
+function iniciarsesion(){
+
+    if(window.innerWidth > 850){
+
+    formulario_register.style.display = "none";
+    contenedor_login_register.style.left = "10px";
+    formulario_login.style.display = "block";
+    caja_trasera_register.style.opacity = "1";
+
+    }
+
+}
+
+
+function anchopagina(){
+
+    if(window.innerWidth > 850){
+        caja_trasera_login.style.display = "block";
+        caja_trasera_register.style.display = "block";
+
+    }
+
+}
+
+anchopagina();
+
+function register(){
+
+    if(window.innerWidth > 850){
+
+    
+    formulario_register.style.display = "block";
+    contenedor_login_register.style.left = "410px";
+    formulario_login.style.display = "none";
+    caja_trasera_register.style.opacity = "0";
+    caja_trasera_login.style.opacity = "1";
+
+    }
+}
+
+
+</script>  
+
+ <script>
+    function ocultar1(){
+          
+         window.addEventListener("resize", anchopagina);
+
+         if(window.innerWidth < 850){
+              /*ocultar-hide*/
+            $(".caja__trasera-register").hide(); 
+            $(".formulario__login").hide();
+            /*mostrar-show*/
+            $(".caja__trasera-login").show();
+            $(".formulario__register").show();
+       
+        }
+    }
+</script> 
+
+<script>
+    function ocultar2(){
+
+        window.addEventListener("resize", anchopagina);
+          
+ if(window.innerWidth < 850){
+             /*ocultar-hide*/
+            $(".caja__trasera-register").show(); 
+            $(".formulario__login").show();
+            /*mostrar-show*/
+            $(".caja__trasera-login").hide();
+            $(".formulario__register").hide();
+        }
+    }
+
+</script>  
+
+
+
+

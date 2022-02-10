@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background: linear-gradient(to right, #0857C3, #00BCE3);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+main{
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+
+
+}
+
+.contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin:auto;
+    position: relative;
+
+}
+
+.caja__trasera{
+
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(53, 59, 65, 0.3);
+}
+
+.caja__trasera div{
+    margin: 100px 40px;
+    color: white;
+    transition: all 500ms;
+}
+.caja__trasera div p,
+.caja__trasera div button
+{
+    margin-top: 30px;
+}
+
+.caja__trasera div h3{
+    font-weight: 400;
+    font-size:26px;
+
+}
+
+.caja__trasera button{
+
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight:  600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: all 300ms;
+
+}
+
+.caja__trasera button:hover{
+    background: #fff;
+    color:#46A2FD;
+
+
+}
+
+.contenedor__login-register{
+
+    display: flex;
+    align-items:center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+
+    transition:  left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+
+}
+
+.contenedor__login-register form{
+
+    width: 100%;
+    padding: 47px 20px;
+    background:  #fff;
+    position: absolute;
+    border-radius: 10px;
+
+
+}
+
+.contenedor__login-register form h2{
+
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 2px;
+    color: #343535;
+
+}
+
+.contenedor__login-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 9px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+
+}
+
+.contenedor__login-register form button{
+    width: 100%;
+    padding: 9px 109px;
+    margin-top: 21px;
+    border: none;
+    font-size: 14px;
+    background: #00BCE3;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 3px !important;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 1px 1px 3px rgb(0 0 0 / 25%);
+    color: white;
+    box-shadow: 1px 1px 3px rgb(0 0 0 / 45%);
+    transition: 0.4s;
+
+}
+
+.contenedor__login-register form button:hover,.contenedor__login-register form button:active,.contenedor__login-register form button:focus {
+    background: #039ab8;
+
+}
+
+.formulario__login{
+    opacity: 1;
+    display: block;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.45);
+
+}
+
+.formulario__register{
+
+    display: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.45);
+}
+
+.mt-80{
+    padding: 14% !important;
+    padding-top: 2% !important;
+    padding-right: 1% !important;
+    padding-bottom: 1% !important;
+    padding-left: 13% !important;
+    width: 38% !important;
+
+}
+
+
+
+svg {
+    overflow: hidden;
+    vertical-align: text-top;
+    width: 30px;
+}
+
+
+/*boton lapiz*/
+
+
+
+
+#btncirculo {
+    width: 37px;
+    height: 37px;
+    padding: 8px 2px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.42857;
+}
+#btncirculo:hover,#btncirculo:active,#btncirculo:focus {
+    background: #bbbbbbe3;
+
+}
+
+
+
+/*load...*/
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('images/pageLoader.gif') 50% 50% no-repeat rgba(41, 41, 41, 0.438);
+    opacity: .8;
+
+}
+
+.loader1 {
+    border: 7px solid #ffffff;
+    border-radius: 50%;
+    border-top: 7px solid #3498db;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+    margin-left: 47%;
+    margin-top: 20%;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 850px){
+    
+main {
+    margin-top: 2px;
+    padding: 20px;
+}
+    #carga{
+        display: none;
+    }
+    
+    .caja__trasera{
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .caja__trasera div{
+
+        margin: 0px;
+        position: absolute;
+    }
+
+    /*Formulario*/
+
+    .contenedor__login-register{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+
+    }
+
+    .contenedor__login-register form{
+
+        position: relative;
+    }
+
+}
+
+
+/*gooogle*/
+.login-btn {
+    width: 85px;
+    line-height: 38px;
+    padding: 0;
+    color: rgba(4,4,19,0.56);
+    text-align: center;
+}
+
+.login-btn-google:before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAABNVBMVEUAAAD/PgBJsUT/OwANdNRHsEtHsEpHsEoNddT/PABKsEp1tSr/YwD/OwD/wwD/OwD/wgD/PAD/OwBPsUj/wQAMdNX/PAD/PQBWskNIr0r/wgD/PABKsEj/OgBIr0j/PwD/OgAPddb/QQD/wwD/QABHr0tJr0r/wgAMdNX/wgAMdNb/OwALddU5oW9Hr0z/PAD/OwBnsz9HsEr/OwAOdNP/PABIsUv/iAALdNX/OwD/PQBMsEhIsEoMddVIsEr/OwD/PQD/OgDRuxL/vQAMdNVJr0n/QAALddT/wwD/vwAWd89Nskj/PwBMrEX/vwBAr0j/xQD/RwAQcM//TAAMdNX/OwBHsEv/wgBAqFwSecgTfMMagbYljJ1PsUdnsz6StyyvuiDdvw7/sQD/kQD/dwD/WAD/RgBL4Ss6AAAAVHRSTlMAEBLf+e/ix8W2gggH+PfvyMSal5eNfWNhYF9fRkY+OiMZFQgE+vbv7Obl49/Y2NbLv769uLe0tLKsqKebl5WThYOAgG5paEhIRDo1NSUkIB8ZEAp/9d8/AAABMklEQVQ4y8XQ13LCMBBA0cWEDkmAhBI6pPfee+8VrUjv+f9PiNkRjCzZfuU8WTt3ZmVBB0ULidkYY7H4TsEp8aR6WNtEymPXpM1E5k3rTYJp9tRmnenWBq3Nrk2zpDTHTFjIlR+i5VzI/AwpN696GZkpgVDyqg0c/FATl+Z3agNj/PvP/OcquDjjnH/9sktw08ebVsBVL0UDINRlXUEx7aboWo+oElNOonpELFHNKZLX3bqu0y8uC8pP8DkHikWKtsTp1Gw+XrFobc7r5EQcayP8HRGnDbmpTFIzCi37b9gUkKr7YJ30Q4vhQ+K/AKE49UjNeAXaMigsZ68ikZvsPGLjqRkdgiSJmsYzLZNtoO5lFRRhPUqC5shvTXwZsGGE/VISNsBBfjswhDgc2MxHoHP+AVnAlPxGJFfYAAAAAElFTkSuQmCC);
+}
+
+.login-btn:before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(82,82,128,0.09);
+    border-radius: 16px;
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*gooogle*/
+
+/*facebook*/
+
+.login-btn-facebook:before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAARVBMVEUAAAAYd/IYdvMYd/ITc+8Yd+8XdvMYd/IYd/IYd/IYd/IYdvMYdvIYd/MZd/EXdvEYePIYd/MXdvMYdvEYde8VdfQYd/IJb26AAAAAFnRSTlMA3z/vECDPb7+fj3+vX5CPYL+vf2AwOzKJBAAAAQlJREFUOMuNlO1uwyAMRS+Yj1CSdms3v/+jLhXRTGLi5vyKrBMu2Ajs8fnpiJnSs3qcEl7EHa7EsXZnxUjNxAPccvTufMJtH/vNp6QAIbHBZOa6FZX+pdbwLc5zIzcvuoO3YCNyg9p/5eBliNiHR7V3LXIYLLiMxArguMOwTSp152aSk0lp2AmPemzgeAQZ80jUG5qRbFHKdE0ksCkK0K0Wci+SId76aGeI3XVOmA0x9e3JhshC7UeY/Jvm/K5f/RjXMtntkWq9IhYA4YoYpVumWPAm0CfRRZmUKS4yKlN84J/JEhOEkM7FKaiLokXJFX7cSKQMRSxafLRYrbpepJdoCl+3x7Bkjx1/kzFOUX2NHDUAAAAASUVORK5CYII=);
+}
+
+.login-btn:before {
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(82,82,128,0.09);
+    border-radius: 16px;
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.login-btn:hover {
+    color: #222230;
+    text-decoration: none;
+}
+
+
+/*facebook*/
+
