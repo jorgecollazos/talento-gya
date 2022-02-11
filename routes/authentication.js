@@ -349,7 +349,7 @@ router.get('/file/:tb_id', isLoggedIn, async (req, res) => {
     let tbid = req.params.tb_id;
     let doc = await pool.query("SELECT documentotitulo FROM tb_formacioninicial WHERE idformacioninicial = $1", [tbid]);
     doc = doc.rows[0].documentotitulo;
-    let result = 'http://convocatoria.gestionayaprende.com/Facademica/'+ doc; //cambiar
+    let result = 'http://143.198.153.102:4010/Facademica/'+ doc; //cambiar
     res.redirect(result);
 });
 
@@ -357,7 +357,7 @@ router.get('/file2/:tb_id', isLoggedIn, async (req, res) => {
     let tbid = req.params.tb_id;
     let doc = await pool.query("SELECT documentocolegiado FROM tb_formacioninicial WHERE idformacioninicial = $1", [tbid]);
     doc = doc.rows[0].documentocolegiado;
-    let result = 'http://convocatoria.gestionayaprende.com/Facademica/'+ doc; //cambiar
+    let result = 'http://143.198.153.102:4010/Facademica/'+ doc; //cambiar
     res.redirect(result);
 });
 
@@ -365,7 +365,7 @@ router.get('/file3/:tb_id', isLoggedIn, async (req, res) => {
     let tbid = req.params.tb_id;
     let doc = await pool.query("SELECT formacioncontinuadocumento FROM tb_formacioncontinua WHERE idformacioncontinua = $1", [tbid]);
     doc = doc.rows[0].formacioncontinuadocumento;
-    let result = 'http://convocatoria.gestionayaprende.com/Fcontinua/'+ doc; //cambiar
+    let result = 'http://143.198.153.102:4010/Fcontinua/'+ doc; //cambiar
     res.redirect(result);
 });
 
@@ -373,14 +373,14 @@ router.get('/file4/:tb_id', isLoggedIn, async (req, res) => {
     let tbid = req.params.tb_id;
     let doc = await pool.query("SELECT certificadopostulante FROM tb_experiencialaboral WHERE idexperiencialaboral = $1", [tbid]);
     doc = doc.rows[0].certificadopostulante;
-    let result = 'http://convocatoria.gestionayaprende.com/Experiencia/'+ doc; //cambiar
+    let result = 'http://143.198.153.102:4010/Experiencia/'+ doc; //cambiar
     res.redirect(result);
 });
 
 router.get('/drop/:tb_id', isLoggedIn, async (req, res, done) => {
     let tbid = req.params.tb_id;
     await pool.query("DELETE FROM tb_formacioninicial WHERE idformacioninicial = $1", [tbid]);
-    let result = 'http://convocatoria.gestionayaprende.com/profile';
+    let result = 'http://143.198.153.102:4010/profile';
     done(null, req.flash('message', 'Eliminado correctamente'));
     res.redirect(result);
 });
@@ -389,7 +389,7 @@ router.get('/dropcontinua/:tb_id', isLoggedIn, async (req, res, done) => {
     let tbid = req.params.tb_id;
     await pool.query("DELETE FROM tb_formacioncontinua WHERE idformacioncontinua = $1", [tbid]);
     done(null, req.flash('message', 'Eliminado correctamente'));
-    let result = 'http://convocatoria.gestionayaprende.com/profile';
+    let result = 'http://143.198.153.102:4010/profile';
     res.redirect(result);
 });
 
@@ -397,7 +397,7 @@ router.get('/dropexper/:tb_id', isLoggedIn, async (req, res, done) => {
     let tbid = req.params.tb_id;
     await pool.query("DELETE FROM tb_experiencialaboral WHERE idexperiencialaboral = $1", [tbid]);
     done(null, req.flash('message', 'Eliminado correctamente'));
-    let result = 'http://convocatoria.gestionayaprende.com/profile';
+    let result = 'http://143.198.153.102:4010/profile';
     res.redirect(result);
 });
 
@@ -441,7 +441,7 @@ router.post('/updateinfo', async(req, res, done) => {
     }
 done(null, req.flash('success', 'Actualizado correctamente'));
 
-res.redirect('http://convocatoria.gestionayaprende.com/profile');
+res.redirect('http://143.198.153.102:4010/profile');
 });
 
 router.post('/updatefacademica/:tb_id', upload2.fields([{name: 'documentoti'},{name: 'documentocole'}]), async(req, res, next) => {
@@ -498,7 +498,7 @@ router.post('/updatefacademica/:tb_id', upload2.fields([{name: 'documentoti'},{n
         }
     }
 
-    res.redirect('http://convocatoria.gestionayaprende.com/profile');
+    res.redirect('http://143.198.153.102:4010/profile');
 });
 
 router.post('/updatefacademicapost/:tb_id', upload2.fields([{name: 'documentoti'},{name: 'documentocole'}]), async(req, res, next) => {
@@ -527,7 +527,7 @@ router.post('/updatefacademicapost/:tb_id', upload2.fields([{name: 'documentoti'
         await pool.query("UPDATE tb_formacioninicial SET documentotitulo  = $1 WHERE idformacioninicial = $2", [filenamegl, idfaca]);
     }
 
-    res.redirect('http://convocatoria.gestionayaprende.com/profile');
+    res.redirect('http://143.198.153.102:4010/profile');
 });
 
 router.post('/updatefcontinua/:tb_id', upload3.single('FormacionContinuaDocumento'), async(req, res, next) => {
@@ -553,7 +553,7 @@ router.post('/updatefcontinua/:tb_id', upload3.single('FormacionContinuaDocument
         await pool.query("UPDATE tb_formacioncontinua SET formacioncontinuadocumento = $1 WHERE idformacioncontinua = $2", [filenamegl, idfaca]);
     }
 
-    res.redirect('http://convocatoria.gestionayaprende.com/profile');
+    res.redirect('http://143.198.153.102:4010/profile');
 });
 
 router.post('/updateexperiencia/:tb_id', upload4.single('documentoexp'), async(req, res, next) => {
@@ -574,7 +574,7 @@ router.post('/updateexperiencia/:tb_id', upload4.single('documentoexp'), async(r
         await pool.query("UPDATE tb_experiencialaboral SET certificadopostulante = $1 WHERE idexperiencialaboral = $2", [filenamegl, idfaca]);
     }
 
-    res.redirect('http://convocatoria.gestionayaprende.com/profile');
+    res.redirect('http://143.198.153.102:4010/profile');
 });
 
 router.get('/profile', isLoggedIn, function(req, res) {
@@ -617,7 +617,7 @@ router.get('/google/callback', (req, res, next) =>{
 passport.use(new GoogleStrategy({
         clientID: GOOGLE_CLIENT_ID,
         clientSecret: GOOGLE_CLIENT_SECRET,
-        callbackURL: "https://convocatoria.gestionayaprende.com/google/callback",
+        callbackURL: "http://143.198.153.102:4010/google/callback",
         passReqToCallback: true
     },
     async function(req,emails, password, profile, done){
@@ -703,7 +703,7 @@ router.get('/facebook/callback', (req, res, next) =>{
 passport.use(new facebookStrategy({
     clientID : FACEBOOK_APP_ID,
     clientSecret :FACEBOOK_APP_SECRET,
-    callbackURL : "http://convocatoria.gestionayaprende.com/facebook/callback",
+    callbackURL : "http://143.198.153.102:4010/facebook/callback",
     profileFields   : ['id','displayName','name','gender','picture.type(large)','email'],
     passReqToCallback: true
 },
