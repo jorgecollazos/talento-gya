@@ -12,7 +12,7 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 /* const { session } = require('passport'); */
 const GOOGLE_CLIENT_ID ='771954959053-srkej35ttdfhleqd9lc7in3rv973fahm.apps.googleusercontent.com';
 const GOOGLE_CLIENT_SECRET ='Pa67_zLGGVuwontRzcx60nzo';
-const FACEBOOK_APP_ID = '268594808391429'; 
+const FACEBOOK_APP_ID = '268594808391429';
 const FACEBOOK_APP_SECRET ='7f66c5b2f1816a3c241db3060af5d2bc';
 
 
@@ -157,7 +157,7 @@ router.post('/fcontinua', upload3.single('FormacionContinuaDocumento'),async(req
         console.log(req.body);
         const result = await pool.query("INSERT INTO tb_FormacionContinua (NombreLogro, InstitucionEducativa, HorasAcademicas, FechaExpedicion, FormacionContinuaDocumento, idSelecFormacionContinua, email) VALUES ($1, $2, $3, $4, $5, $6, $7)",
             [req.body.forcontinua, req.body.inEducativa, req.body.horasacademicas, req.body.FechaExpedicionTitulo, filenamegl, req.body.tipFormacionCon, req.user.email]);
-
+        filenamegl = "";
         res.render('continua');
     }
     catch(err) {
@@ -177,6 +177,7 @@ router.post('/addcontinua', upload3.single('FormacionContinuaDocumento'),async(r
     if(filenamegl){
         const result = await pool.query("INSERT INTO tb_formacioncontinua (nombrelogro, institucioneducativa, horasacademicas, formacioncontinuadocumento, fechaexpedicion, idselecformacioncontinua, email) VALUES ($1, $2, $3, $4, $5, $6, $7)",
             [req.body.forcontinua, req.body.inEducativa, req.body.horasacademicas, filenamegl, req.body.FechaExpedicionTitulo, req.body.tipFormacionCon, req.user.uno.email]);
+        filenamegl = "";
     }
     else{
         const result = await pool.query("INSERT INTO tb_formacioncontinua (nombrelogro, institucioneducativa, horasacademicas, fechaexpedicion, idselecformacioncontinua, email) VALUES ($1, $2, $3, $4, $5, $6)",
@@ -195,6 +196,7 @@ router.post('/experiencia', upload4.single('documentoexp'),async(req, res, next)
     }
     const result = await pool.query("INSERT INTO tb_ExperienciaLaboral (NombreCargo, NombreEmpresa, SectorEmpresarial, ExperienciaFechaInicio, ExperienciaFechaFinal, CertificadoPostulante, FuncionesDesarrolladas, email) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)",
         [req.body.nomcargo, req.body.nomempresa, req.body.sectorempresa, req.body.FechaInicio, req.body.FechaFin, filenamegl, req.body.funciones, req.user.email]);
+    filenamegl = "";
     res.render('experiencia');
 });
 
@@ -207,6 +209,7 @@ router.post('/addexperiencia', upload4.single('documentoexp'),async(req, res, ne
     }
     const result = await pool.query("INSERT INTO tb_ExperienciaLaboral (NombreCargo, NombreEmpresa, SectorEmpresarial, ExperienciaFechaInicio, ExperienciaFechaFinal, CertificadoPostulante, FuncionesDesarrolladas, email) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)",
         [req.body.nomcargo, req.body.nomempresa, req.body.sectorempresa, req.body.FechaInicio, req.body.FechaFin, filenamegl, req.body.funciones, req.user.uno.email]);
+    filenamegl = "";
     res.redirect('profile');
 });
 
@@ -237,14 +240,17 @@ router.post('/facademica', upload2.fields([{name: 'documentoti'},{name: 'documen
         else if(req.body.subPre == 2 || req.body.subPre == 3 ){
             const result = await pool.query("INSERT INTO tb_FormacionInicial (IdTipoDeFormacion, IdFormacionPregrado, Universidad, CarreraUniversitaria, inicioacademico, finacademico, FechaExpedicionTitulo, DocumentoTitulo, UltimaCarrera, email) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)",
                 [req.body.tipo_formacion, req.body.subPre, req.body.universidad, req.body.carrerauniversitaria, req.body.iniAcad, req.body.finAcad, req.body.FechaExpedicionTitulo, filenamegl, req.body.ultimacarrera, req.user.email]);
-            console.log(result)
+            console.log(result);
+            filenamegl = "";
             res.render('pregrado');
         }
         else if(req.body.subPre == 4){
             if(req.body.colegiado == 1){
                 const result = await pool.query("INSERT INTO tb_FormacionInicial (IdTipoDeFormacion, IdFormacionPregrado, Universidad, CarreraUniversitaria, inicioacademico, finacademico, FechaExpedicionTitulo, DocumentoTitulo, EresColegiado, DocumentoColegiado, UltimaCarrera, email) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)",
                     [req.body.tipo_formacion, req.body.subPre, req.body.universidad, req.body.carrerauniversitaria, req.body.iniAcad, req.body.finAcad, req.body.FechaExpedicionTitulo, filenamegl, req.body.colegiado, filenamecole, req.body.ultimacarrera, req.user.email]);
-                console.log(result)
+                console.log(result);
+                filenamegl = "";
+                filenamecole = "";
                 res.render('pregrado');
             }
             else{
@@ -299,14 +305,17 @@ router.post('/facademica2', upload2.fields([{name: 'documentoti'},{name: 'docume
         else if(req.body.subPre == 2 || req.body.subPre == 3 ){
             const result = await pool.query("INSERT INTO tb_FormacionInicial (IdTipoDeFormacion, IdFormacionPregrado, Universidad, CarreraUniversitaria, inicioacademico, finacademico, FechaExpedicionTitulo, DocumentoTitulo, UltimaCarrera, email) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)",
                 [req.body.tipo_formacion, req.body.subPre, req.body.universidad, req.body.carrerauniversitaria, req.body.iniAcad, req.body.finAcad, req.body.FechaExpedicionTitulo, filenamegl, req.body.ultimacarrera, req.user.uno.email]);
-            console.log(result)
+            console.log(result);
+            filenamegl = "";
             res.redirect('profile');
         }
         else if(req.body.subPre == 4){
             if(req.body.colegiado == 1){
                 const result = await pool.query("INSERT INTO tb_FormacionInicial (IdTipoDeFormacion, IdFormacionPregrado, Universidad, CarreraUniversitaria, inicioacademico, finacademico, FechaExpedicionTitulo, DocumentoTitulo, EresColegiado, DocumentoColegiado, UltimaCarrera, email) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)",
                     [req.body.tipo_formacion, req.body.subPre, req.body.universidad, req.body.carrerauniversitaria, req.body.iniAcad, req.body.finAcad, req.body.FechaExpedicionTitulo, filenamegl, req.body.colegiado, filenamecole, req.body.ultimacarrera, req.user.uno.email]);
-                console.log(result)
+                console.log(result);
+                filenamegl = "";
+                filenamecole = "";
                 res.redirect('profile');
             }
             else{
@@ -404,7 +413,8 @@ router.get('/dropexper/:tb_id', isLoggedIn, async (req, res, done) => {
 router.post('/actualizado', upload2.fields([{name: 'documentoti'},{name: 'documentocole'}]),async(req, res, next) => {
     const result = await pool.query("UPDATE tb_formacioninicial SET idformacionpregrado  = $1,  universidad = $2 WHERE email = $3", [req.body.idformacionpregrado, req.body.universidad, req.user.uno.email]);
     if(filenamegl2){
-        await pool.query("UPDATE tb_formacioninicial SET documentotitulo  = $1 WHERE email = $2", [filenamegl, req.user.uno.email]);
+        await pool.query("UPDATE tb_formacioninicial SET documentotitulo  = $1 WHERE email = $2", [filenamegl2, req.user.uno.email]);
+        filenamegl2 = "";
     }
     res.redirect('profile');
 });
@@ -475,12 +485,16 @@ router.post('/updatefacademica/:tb_id', upload2.fields([{name: 'documentoti'},{n
         }
         else if (filenamecole === ''){
             const result = await pool.query("UPDATE tb_formacioninicial SET universidad = $1, carrerauniversitaria = $2, inicioacademico = $3, finacademico = $4, documentotitulo = $5, erescolegiado = $6 WHERE idformacioninicial = $7", [req.body.institucion, req.body.profesion, req.body.inicioacademico, req.body.finacademico, filenamegl, req.body.expedicionfechacole, idfaca]);
+            filenamegl = "";
         }
         else if (filenamegl === ''){
             const result = await pool.query("UPDATE tb_formacioninicial SET universidad = $1, carrerauniversitaria = $2, inicioacademico = $3, finacademico = $4, documentocolegiado = $5, erescolegiado = $6 WHERE idformacioninicial = $7", [req.body.institucion, req.body.profesion, req.body.inicioacademico, req.body.finacademico, filenamecole, req.body.expedicionfechacole, idfaca]);
+            filenamecole = "";
         }
         else{
             const result = await pool.query("UPDATE tb_formacioninicial SET universidad = $1, carrerauniversitaria = $2, inicioacademico = $3, finacademico = $4, documentotitulo = $5, documentocolegiado = $6, erescolegiado = $7 WHERE idformacioninicial = $8", [req.body.institucion, req.body.profesion, req.body.inicioacademico, req.body.finacademico, filenamegl, filenamecole, req.body.expedicionfechacole, idfaca]);
+            filenamegl = "";
+            filenamecole = "";
         }
     }
     else {
@@ -489,12 +503,16 @@ router.post('/updatefacademica/:tb_id', upload2.fields([{name: 'documentoti'},{n
         }
         else if (filenamecole === ''){
             const result = await pool.query("UPDATE tb_formacioninicial SET universidad = $1, carrerauniversitaria = $2, inicioacademico = $3, finacademico = $4, documentotitulo = $5, erescolegiado = $6, fechaexpediciontitulo = $8 WHERE idformacioninicial = $7", [req.body.institucion, req.body.profesion, req.body.inicioacademico, req.body.finacademico, filenamegl, req.body.expedicionfechacole, idfaca, req.body.expedicionfecha]);
+            filenamegl = "";
         }
         else if (filenamegl === ''){
             const result = await pool.query("UPDATE tb_formacioninicial SET universidad = $1, carrerauniversitaria = $2, inicioacademico = $3, finacademico = $4, documentocolegiado = $5, erescolegiado = $, fechaexpediciontitulo = $8 WHERE idformacioninicial = $7", [req.body.institucion, req.body.profesion, req.body.inicioacademico, req.body.finacademico, filenamecole, req.body.expedicionfechacole, idfaca, req.body.expedicionfecha]);
+            filenamecole = "";
         }
         else{
             const result = await pool.query("UPDATE tb_formacioninicial SET universidad = $1, carrerauniversitaria = $2, inicioacademico = $3, finacademico = $4, documentotitulo = $5, documentocolegiado = $6, erescolegiado = $7, fechaexpediciontitulo = $9 WHERE idformacioninicial = $8", [req.body.institucion, req.body.profesion, req.body.inicioacademico, req.body.finacademico, filenamegl, filenamecole, req.body.expedicionfechacole, idfaca, req.body.expedicionfecha]);
+            filenamegl = "";
+            filenamecole = "";
         }
     }
 

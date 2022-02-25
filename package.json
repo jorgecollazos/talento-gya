@@ -4,6 +4,7 @@
   "description": "Talento GyA",
   "main": "index.js",
   "scripts": {
+    "prod": "pm2 start index.js",
     "dev": "nodemon"
   },
   "author": "",
