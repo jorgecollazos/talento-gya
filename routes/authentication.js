@@ -108,7 +108,7 @@ router.get("/sendmailPassword/:mail", async (req, res) => {
     expiresIn: "15min",
   });
 
-  const link = `http://143.198.153.102/:4010/recovery?token=${password_token}`;
+  const link = `http://143.198.153.102:4010/recovery?token=${password_token}`;
 
   await pool.query("UPDATE users SET password_token = $1 WHERE email = $2", [
     password_token,
