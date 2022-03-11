@@ -21,6 +21,8 @@
     "express-validator": "^6.11.1",
     "google-auth-library": "^7.1.0",
     "handlebars": "^4.7.7",
+    "html-pdf": "^3.0.1",
+    "https": "^1.0.0",
     "jsonwebtoken": "^8.5.1",
     "loaders.css": "^0.1.2",
     "mime-types": "^2.1.30",

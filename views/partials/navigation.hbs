@@ -17,12 +17,18 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          {{! <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link dropdown" href="/profile">Mi perfil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/logout">Cerrar sesión</a>
-          </li> }}
+            <a class="nav-link" href="/getperfilcv">Descargar CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Compartir CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Convocatorias CV</a>
+          </li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -36,7 +42,6 @@
               Más
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="/">Mi perfil</a>
               <a
                 class="dropdown-item"
                type="submit" data-toggle="modal" data-target="#changepassword" data-whatever="@mdo">Cambiar contraseña</a>
@@ -89,15 +94,6 @@
             </div>
           </li>
         </ul>
-      </div>
-      <div class="navi-picture">
-        <div class="prevPhoto2">
-          <div>
-            <div class="form-group">
-              <div class="caracter2">{{user.uno1}}{{user.uno2}}</div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </nav>

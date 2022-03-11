@@ -13,6 +13,9 @@ const nodemailer = require("nodemailer");
 const bcrypt = require("bcryptjs");
 const { config } = require("./../config");
 const jwt = require("jsonwebtoken");
+const fs = require("fs");
+const pdf = require("html-pdf");
+const https = require("https");
 
 /* const { session } = require('passport'); */
 const GOOGLE_CLIENT_ID =
@@ -60,6 +63,7 @@ const storage2 = multer.diskStorage({
     );
   },
 });
+
 const upload2 = multer({
   storage: storage2,
 });
@@ -92,14 +96,14 @@ router.get("/signin", (req, res) => {
 });
 
 router.get("/recovery", (req, res) => {
-    const {token} = req.query;
-    if(token){
-        res.render("auth/recovery", {token});
-    }
+  const { token } = req.query;
+  if (token) {
+    res.render("auth/recovery", { token });
+  }
 });
 
 router.get("/sendmailPassword/:mail", async (req, res) => {
-    email = req.params.mail;
+  email = req.params.mail;
   const payload = {
     sub: email,
     role: 1,
@@ -109,6 +113,10 @@ router.get("/sendmailPassword/:mail", async (req, res) => {
   });
 
   const link = `http://143.198.153.102:4010/recovery?token=${password_token}`;
+
+  const data = await pool.query("SELECT primernombre, apellidopaterno FROM tb_acercadeti_consultor WHERE email = $1", [email]);
+  const nombre = data.rows[0].primernombre;
+  const apellido = data.rows[0].apellidopaterno;
 
   await pool.query("UPDATE users SET password_token = $1 WHERE email = $2", [
     password_token,
@@ -129,7 +137,7 @@ router.get("/sendmailPassword/:mail", async (req, res) => {
     from: '"TalentoGyA+" <talento@gestionayaprende.com>',
     to: email,
     subject: `Cambio de contraseña`,
-    html: `<b>Ingresa a este link para cambiar su contraseña: ${link}</b>`,
+    html: `<p>Hola, ${nombre} ${apellido}</p><br><p>Si has sido tú, puedes recuperar el acceso a tu cuenta o cambiar la contraseña ahora.</p><br><b>Ingresa a este link para cambiar su contraseña: ${link}</b><br><p>Si no has solicitado un enlace de inicio de sesión o un cambio de contraseña, puedes ignorar este mensaje</p>`,
   });
   console.log("Message sent: %s", info.messageId);
   console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
@@ -158,7 +166,7 @@ router.post("/change-password", async (req, res) => {
 
 router.post("/signin", (req, res, next) => {
   passport.authenticate("local.signin", {
-    successRedirect: "/profile",
+    successRedirect: "/modulos",
     failureRedirect: "/signin",
     failureFlash: true,
   })(req, res, next);
@@ -177,14 +185,54 @@ router.get("/perfil/:mail/:passw", (req, res, next) => {
   })(req, res, next);
 });
 
+router.get("/getperfilcv", (req, res, next) => {
+  var html = fs.readFileSync("./views/perfilcv.hbs", "utf8");
+  var options = { format: "Letter" };
+
+  pdf.create(html, options).toFile("./businesscard.pdf", function (err, res) {
+    if (err) return console.log(err);
+    console.log(res); // { filename: '/app/businesscard.pdf' }
+  });
+
+  const path = `./businesscard.pdf`;
+  const filePath = fs.createWriteStream(path);
+  res.pipe(filePath);
+  filePath.on("finish", () => {
+    filePath.close();
+    console.log("Download Completed");
+  });
+});
+
+
+router.post("/disclaimer", async (req, res) => {
+  const email = req.body.email;
+  console.log(email);
+  const updatephoto = await pool.query("UPDATE tb_acercadeti_consultor SET disclaimer = $1 WHERE email = $2",
+    [1, email]);
+  res.redirect("/profile");
+});
+
+router.get("/modulos", (req, res) => {
+  res.render("modulos");
+});
+
+
+router.post("/update-photo", async (req, res, next) => {
+  let email = req.body.email;
+  let photo = req.body.photo;
+  const updatephoto = await pool.query(
+    "UPDATE tb_acercadeti_consultor SET photo = $1 WHERE email = $2",
+    [photo, email]
+  );
+  console.log(updatephoto);
+});
+
 // router.get("/recovery/:token/", (req, res, next) => {
 //   let email = req.params.token;
 //   req.body.email = email;
 //   console.log(req.body.email);
 //   res.send("No se encontro el token ");
 // });
-
-
 
 router.get("/signup", (req, res) => {
   res.render("auth/signup");
@@ -209,7 +257,7 @@ router.get("/profile", (req, res) => {
 });
 
 router.get("/perfilcv", (req, res) => {
-  res.render("perfil");
+  res.render("perfilcv");
 });
 
 router.post(
@@ -1167,6 +1215,7 @@ router.post(
 router.get("/profile", isLoggedIn, function (req, res) {
   res.render("profile");
 });
+
 
 //facebook
 router.get(
