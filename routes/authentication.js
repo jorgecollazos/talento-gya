@@ -166,7 +166,7 @@ router.post("/change-password", async (req, res) => {
 
 router.post("/signin", (req, res, next) => {
   passport.authenticate("local.signin", {
-    successRedirect: "/modulos",
+    successRedirect: "/disclaimer",
     failureRedirect: "/signin",
     failureFlash: true,
   })(req, res, next);
@@ -203,13 +203,16 @@ router.get("/getperfilcv", (req, res, next) => {
   });
 });
 
+router.get("/disclaimer", async (req, res) => {
+  res.render("profile");
+});
 
 router.post("/disclaimer", async (req, res) => {
   const email = req.body.email;
   console.log(email);
   const updatephoto = await pool.query("UPDATE tb_acercadeti_consultor SET disclaimer = $1 WHERE email = $2",
     [1, email]);
-  res.redirect("/profile");
+  res.redirect("/modulos");
 });
 
 router.get("/modulos", (req, res) => {
@@ -218,8 +221,10 @@ router.get("/modulos", (req, res) => {
 
 
 router.post("/update-photo", async (req, res, next) => {
+  
   let email = req.body.email;
   let photo = req.body.photo;
+  console.log(email, photo);
   const updatephoto = await pool.query(
     "UPDATE tb_acercadeti_consultor SET photo = $1 WHERE email = $2",
     [photo, email]
