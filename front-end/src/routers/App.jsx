@@ -8,6 +8,7 @@ import SendEmailPassword from "../pages/SendEmailPassword";
 import Disclaimer from "../pages/Disclaimer";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
+import Profile from "../pages/Profile";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route exact path="/disclaimer" element={<Disclaimer />} />
           <Route exact path="/recovery-password" element={<RecoveryPassword />} />
           <Route exact path="/send-email-password" element={<SendEmailPassword />} />
+          <Route exact path="/profile" element={<Profile />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

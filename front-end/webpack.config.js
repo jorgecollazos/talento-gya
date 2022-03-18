@@ -12,6 +12,14 @@ module.exports = {
   mode: 'development',
 	resolve: {
 		extensions: ['.js', '.jsx'],
+		alias: {
+			'@components': path.resolve(__dirname, 'src/components'),
+			'@containers': path.resolve(__dirname, 'src/containers'),
+			'@pages': path.resolve(__dirname, 'src/pages'),
+			'@styles': path.resolve(__dirname, 'src/styles'),
+			'@img': path.resolve(__dirname, 'src/assets/img'),
+			'@icons': path.resolve(__dirname, 'src/assets/icons'),
+		}
 	},
 	module: {
 		rules: [
@@ -33,6 +41,10 @@ module.exports = {
 			{
 				test: /\.css$/,
         use: ['style-loader', 'css-loader', 'postcss-loader'],
+			},
+			{
+				test: /\.(png|svg|jpg|gif|)$/,
+        type: 'asset',
 			}
 		]
 	},
