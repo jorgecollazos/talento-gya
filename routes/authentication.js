@@ -16,6 +16,7 @@ const jwt = require("jsonwebtoken");
 const fs = require("fs");
 const pdf = require("html-pdf");
 const https = require("https");
+const PDFDocument = require("pdfkit");
 
 /* const { session } = require('passport'); */
 const GOOGLE_CLIENT_ID =
@@ -95,6 +96,61 @@ router.get("/signin", (req, res) => {
   res.render("auth/signin");
 });
 
+router.get("/recovery-password", (req, res) => {
+  res.render("auth/send-recovery");
+});
+
+router.post("/recovery-password", async (req, res) => {
+  const email = req.body.email;
+  try {
+    const result = await pool.query("SELECT * FROM users WHERE email = $1", [
+      email,
+    ]);
+    const payload = {
+      sub: email,
+      role: 1,
+    };
+    const password_token = jwt.sign(payload, config.jwtSecretPassword, {
+      expiresIn: "15min",
+    });
+
+    const link = `http://143.198.153.102:4010/recovery?token=${password_token}`;
+
+    const data = await pool.query(
+      "SELECT primernombre, apellidopaterno FROM tb_acercadeti_consultor WHERE email = $1",
+      [email]
+    );
+    const nombre = data.rows[0].primernombre;
+    const apellido = data.rows[0].apellidopaterno;
+
+    await pool.query("UPDATE users SET password_token = $1 WHERE email = $2", [
+      password_token,
+      email,
+    ]);
+
+    let transporter = nodemailer.createTransport({
+      host: "mi3-ls12.a2hosting.com",
+      secure: true, // true for 465, false for other ports
+      port: 465,
+      auth: {
+        user: "talento@gestionayaprende.com",
+        pass: "F??hWc^[H8hX",
+      },
+    });
+
+    let info = await transporter.sendMail({
+      from: '"TalentoGyA+" <talento@gestionayaprende.com>',
+      to: email,
+      subject: `Cambio de contraseña`,
+      html: `<p>Hola, ${nombre} ${apellido}</p><p>Recibimos una solicitud para restablecer tu contraseña de TalentoGyA+.</p><p>Ingresa al siguiente link para restablecer la contraseña:</p><b>${link}</b><p>¿No solicitaste este cambio?</p><p>Si no solicitaste una nueva contraseña, ignora este mensaje.</p><br><p>Atentamente,</p><a href="http://143.198.153.102:4010/" target="_blank">TalentoGyA+</a>`,
+    });
+    console.log("Message sent: %s", info.messageId);
+    console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
+    req.logout();
+    res.redirect("/signin");
+  } catch (err) {}
+});
+
 router.get("/recovery", (req, res) => {
   const { token } = req.query;
   if (token) {
@@ -114,7 +170,10 @@ router.get("/sendmailPassword/:mail", async (req, res) => {
 
   const link = `http://143.198.153.102:4010/recovery?token=${password_token}`;
 
-  const data = await pool.query("SELECT primernombre, apellidopaterno FROM tb_acercadeti_consultor WHERE email = $1", [email]);
+  const data = await pool.query(
+    "SELECT primernombre, apellidopaterno FROM tb_acercadeti_consultor WHERE email = $1",
+    [email]
+  );
   const nombre = data.rows[0].primernombre;
   const apellido = data.rows[0].apellidopaterno;
 
@@ -141,6 +200,7 @@ router.get("/sendmailPassword/:mail", async (req, res) => {
   });
   console.log("Message sent: %s", info.messageId);
   console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
+  req.logout();
   res.redirect("/signin");
 });
 
@@ -185,30 +245,282 @@ router.get("/perfil/:mail/:passw", (req, res, next) => {
   })(req, res, next);
 });
 
-router.get("/getperfilcv", (req, res, next) => {
-  var html = fs.readFileSync("./views/perfilcv.hbs", "utf8");
-  var options = { format: "Letter" };
+function generateHeader(doc) {
+  doc.image("./public/img/TALENTO.png", 50, 45, { width: 50 }).moveDown();
+}
 
-  pdf.create(html, options).toFile("./businesscard.pdf", function (err, res) {
-    if (err) return console.log(err);
-    console.log(res); // { filename: '/app/businesscard.pdf' }
+function generateFooter(doc) {
+  doc
+    .fontSize(10)
+    .text(
+      "Payment is due within 15 days. Thank you for your business.",
+      50,
+      780,
+      { align: "center", width: 500 }
+    );
+}
+
+const createPDF = async (name) => {
+  const doc = new PDFDocument({ size: "A4", margin: 50 });
+  const docName = name;
+  const docPath = `./public/shareCV/${name}.pdf`;
+  const about = await pool.query(
+    "SELECT * FROM tb_acercadeti_consultor WHERE email = $1 ",
+    [name]
+  );
+  const grado1 = await pool.query(
+    "SELECT forinicial.idformacioninicial, forinicial.universidad, forinicial.carrerauniversitaria, to_char(forinicial.fechaexpediciontitulo :: DATE, 'dd/mm/yyyy') as fechaexpediciontitulo, forinicial.documentotitulo, forinicial.documentocolegiado, forinicial.erescolegiado, forinicial.ultimacarrera, forinicial.idtipodeformacion, forinicial.idformacionpregrado, forinicial.idformacionpostgrado, forinicial.idsubpostgrado, forinicial.email, forinicial.inicioacademico, forinicial.finacademico, forpre.nombreformacionpregrado FROM tb_formacioninicial forinicial LEFT JOIN formacionpregrado forpre ON forpre.idformacionpregrado = forinicial.idformacionpregrado WHERE email = $1 AND idtipodeformacion = $2 ORDER BY idformacioninicial DESC",
+    [name, 1]
+  );
+  const grado2 = await pool.query(
+    "SELECT forinicial.idformacioninicial, forinicial.universidad, forinicial.carrerauniversitaria, to_char(forinicial.fechaexpediciontitulo :: DATE, 'dd/mm/yyyy') as fechaexpediciontitulo, forinicial.documentotitulo, forinicial.documentocolegiado, forinicial.erescolegiado, forinicial.ultimacarrera, forinicial.idtipodeformacion, forinicial.idformacionpregrado, forinicial.idformacionpostgrado, forinicial.idsubpostgrado, forinicial.email, forinicial.inicioacademico, forinicial.finacademico, forpost.nombreformacionpostgrado FROM tb_formacioninicial forinicial LEFT JOIN formacionpostgrado forpost ON forpost.idformacionpostgrado = forinicial.idformacionpostgrado WHERE email = $1 AND idtipodeformacion = $2 ORDER BY idformacioninicial DESC",
+    [name, 2]
+  );
+  const continua = await pool.query(
+    "SELECT continua.idformacioncontinua, continua.nombrelogro, continua.institucioneducativa, continua.horasacademicas, continua.formacioncontinuadocumento, to_char(continua.fechaexpedicion :: DATE, 'dd/mm/yyyy') as fechaexpedicion, continua.idselecformacioncontinua, s.nombreselecformacioncontinua FROM tb_formacioncontinua continua LEFT JOIN selecformacioncontinua s on continua.idselecformacioncontinua = s.idselecformacioncontinua WHERE continua.email = $1 ORDER BY continua.idformacioncontinua DESC",
+    [name]
+  );
+  const exper = await pool.query(
+    "SELECT idexperiencialaboral, to_char(experienciafechainicio :: DATE, 'dd/mm/yyyy') as inicio, to_char(experienciafechafinal :: DATE, 'dd/mm/yyyy') as final, funcionesdesarrolladas, funcion2, funcion3, funcion4, funcion5, certificadopostulante, nombrecargo, sectorempresarial, nombreempresa FROM tb_experiencialaboral WHERE email = $1 ORDER BY idexperiencialaboral DESC",
+    [name]
+  );
+
+  console.log(exper.rows);
+
+  generateHeader(doc);
+
+  doc.fontSize(22);
+  doc.text(
+    `${about.rows[0].primernombre} ${about.rows[0].apellidopaterno} ${about.rows[0].apellidomaterno}`,
+    50,
+    80,
+    {
+      width: 410,
+      align: "left",
+    }
+  );
+  doc.fontSize(18);
+  doc.text(
+    `${about.rows[0].email}`,
+    {
+      width: 410,
+      align: "left",
+    }
+  );
+
+  doc.fontSize(16);
+  doc.text(`           `, {
+    width: 410,
+    align: "left",
   });
 
-  const path = `./businesscard.pdf`;
-  const filePath = fs.createWriteStream(path);
-  res.pipe(filePath);
-  filePath.on("finish", () => {
-    filePath.close();
-    console.log("Download Completed");
+  doc.fontSize(16);
+  doc.text(`Experiencia`, {
+    width: 410,
+    align: "left",
   });
+
+  if (exper.rows) {
+    for (var i = 0; i < exper.rows.length; i++) {
+      doc.fontSize(5);
+      doc.text(`           `, {
+        width: 410,
+        align: "left",
+      });
+
+      let arr = [];
+      if (exper.rows[i].funcionesdesarrolladas) {
+        arr.push(exper.rows[i].funcionesdesarrolladas);
+      }
+      if (exper.rows[i].funcion2) {
+        arr.push(exper.rows[i].funcion2);
+      }
+      if (exper.rows[i].funcion3 > 0) {
+        arr.push(exper.rows[i].funcion3);
+      }
+      if (exper.rows[i].funcion4 > 0) {
+        arr.push(exper.rows[i].funcion4);
+      }
+      if (exper.rows[i].funcion5 > 0) {
+        arr.push(exper.rows[i].funcion5);
+      }
+
+      doc.fontSize(14);
+      doc.text(
+        `${exper.rows[i].nombrecargo} - ${exper.rows[i].nombreempresa}`,
+        {
+          width: 410,
+          align: "left",
+        }
+      );
+      doc.fontSize(12);
+      doc.text(`${exper.rows[i].inicio} - ${exper.rows[i].final}`, {
+        width: 410,
+        align: "left",
+      });
+      doc.text(`Funciones:`, {
+        width: 410,
+        align: "left",
+      });
+      doc.list(arr);
+    }
+  }
+
+  doc.fontSize(10);
+  doc.text(`           `, {
+    width: 410,
+    align: "left",
+  });
+
+  doc.fontSize(16);
+  doc.text(`Formación académica`, {
+    width: 410,
+    align: "left",
+  });
+
+  if (grado1.rows) {
+    for (let i = 0; i < grado1.rows.length; i++) {
+      doc.fontSize(5);
+      doc.text(`           `, {
+        width: 410,
+        align: "left",
+      });
+      doc.fontSize(14);
+      doc.text(
+        `${grado1.rows[i].carrerauniversitaria} - ${grado1.rows[i].universidad}`,
+        {
+          width: 410,
+          align: "left",
+        }
+      );
+      doc.fontSize(12);
+      doc.text(
+        `${grado1.rows[i].inicioacademico} - ${grado1.rows[i].finacademico}`,
+        {
+          width: 410,
+          align: "left",
+        }
+      );
+    }
+  }
+
+  if (grado2.rows) {
+    for (var i = 0; i < grado2.rows.length; i++) {
+      doc.fontSize(5);
+      doc.text(`           `, {
+        width: 410,
+        align: "left",
+      });
+      doc.fontSize(14);
+      doc.text(
+        `${grado2.rows[i].carrerauniversitaria} - ${grado2.rows[i].universidad}`,
+        {
+          width: 410,
+          align: "left",
+        }
+      );
+      doc.fontSize(12);
+      doc.text(
+        `${grado2.rows[i].inicioacademico} - ${grado2.rows[i].finacademico}`,
+        {
+          width: 410,
+          align: "left",
+        }
+      );
+    }
+  }
+
+  doc.fontSize(10);
+  doc.text(`           `, {
+    width: 410,
+    align: "left",
+  });
+
+  doc.fontSize(16);
+  doc.text(`Formación continua`, {
+    width: 410,
+    align: "left",
+  });
+
+  if (continua.rows) {
+    for (var i = 0; i < continua.rows.length; i++) {
+      doc.fontSize(5);
+      doc.text(`           `, {
+        width: 410,
+        align: "left",
+      });
+      doc.fontSize(14);
+      doc.text(
+        `${continua.rows[i].nombrelogro} - ${continua.rows[i].institucioneducativa}`,
+        {
+          width: 410,
+          align: "left",
+        }
+      );
+      doc.fontSize(12);
+      doc.text(`${continua.rows[i].fechaexpedicion}`, {
+        width: 410,
+        align: "left",
+      });
+    }
+  }
+
+  doc.end();
+  doc.pipe(fs.createWriteStream(docPath));
+
+  return [docName, docPath];
+};
+
+router.get("/getperfilcv", async (req, res, next) => {
+  try {
+    const { token } = req.query;
+    if (token) {
+      const pdf = await createPDF(token);
+      setTimeout(function () {
+        res.download(pdf[1]);
+        res.status(200);
+      }, 2000);
+    }
+  } catch (e) {}
 });
 
+router.get("/sharecv", async (req, res, next) => {
+  console.log("sdadasdas12312");
+  try {
+    const { token } = req.query;
+    if (token) {
+      console.log(token);
+      const pdf = await createPDF(token);
+      setTimeout(function () {
+        let result = `http://143.198.153.102:4010/shareCV/${pdf[0]}.pdf`;
+        res.status(200);
+      }, 1000);
+    }
+  } catch (e) {}
+});
+
+router.get("/share/:name", async (req, res, next) => {
+  let name = req.params.name;
+  name = name.slice(0, -1)
+  name = name.slice(0, -1)
+  name = name.slice(0, -1)
+  name = name.slice(0, -1)
+  console.log(name);
+  const pdf = await createPDF(name);
+      setTimeout(function () {
+        res.redirect(`http://143.198.153.102:4010/shareCV/${pdf[0]}.pdf`);
+        res.status(200);
+      }, 1000)
+  
+});
 
 router.post("/disclaimer", async (req, res) => {
   const email = req.body.email;
   console.log(email);
-  const updatephoto = await pool.query("UPDATE tb_acercadeti_consultor SET disclaimer = $1 WHERE email = $2",
-    [1, email]);
+  const updatephoto = await pool.query(
+    "UPDATE tb_acercadeti_consultor SET disclaimer = $1 WHERE email = $2",
+    [1, email]
+  );
   res.redirect("/profile");
 });
 
@@ -216,9 +528,7 @@ router.get("/modulos", (req, res) => {
   res.render("modulos");
 });
 
-
 router.post("/update-photo", async (req, res, next) => {
-  
   let email = req.body.email;
   let photo = req.body.photo;
   console.log(email, photo);
@@ -228,13 +538,6 @@ router.post("/update-photo", async (req, res, next) => {
   );
   console.log(updatephoto);
 });
-
-// router.get("/recovery/:token/", (req, res, next) => {
-//   let email = req.params.token;
-//   req.body.email = email;
-//   console.log(req.body.email);
-//   res.send("No se encontro el token ");
-// });
 
 router.get("/signup", (req, res) => {
   res.render("auth/signup");
@@ -732,6 +1035,17 @@ router.post(
   }
 );
 
+router.get("/continuous-training/:mail", async (req, res) => {
+  const mail = req.params.mail;
+
+  const result = await pool.query(
+    "SELECT * FROM tb_formacioncontinua WHERE email = $1;",
+    [mail]
+  );
+
+  res.json(result.rows);
+});
+
 router.get("/experiencia", isLoggedIn, (req, res) => {
   res.render("experiencia");
 });
@@ -1192,15 +1506,19 @@ router.post(
         [req.body.FechaFin, idfaca]
       );
     }
-    if (req.body.funciones !== "") {
-      await pool.query(
-        "UPDATE tb_experiencialaboral SET funcionesdesarrolladas = $1 WHERE idexperiencialaboral = $2",
-        [req.body.funciones, idfaca]
-      );
-    }
     await pool.query(
-      "UPDATE tb_experiencialaboral SET nombrecargo = $1, nombreempresa = $2, sectorempresarial = $3 WHERE idexperiencialaboral = $4",
-      [req.body.nomcargo, req.body.nomempresa, req.body.sectorempresa, idfaca]
+      "UPDATE tb_experiencialaboral SET nombrecargo = $1, nombreempresa = $2, sectorempresarial = $3, funcionesdesarrolladas = $4, funcion2 = $5, funcion3 = $6, funcion4 = $7, funcion5 = $8 WHERE idexperiencialaboral = $9",
+      [
+        req.body.nomcargo,
+        req.body.nomempresa,
+        req.body.sectorempresa,
+        req.body.funciones,
+        req.body.funciones2,
+        req.body.funciones3,
+        req.body.funciones4,
+        req.body.funciones5,
+        idfaca,
+      ]
     );
 
     if (filenamegl) {
@@ -1209,7 +1527,7 @@ router.post(
         [filenamegl, idfaca]
       );
     }
-
+    console.log(req.body);
     res.redirect("http://143.198.153.102:4010/profile");
   }
 );
@@ -1217,7 +1535,6 @@ router.post(
 router.get("/profile", isLoggedIn, function (req, res) {
   res.render("profile");
 });
-
 
 //facebook
 router.get(

@@ -1,19 +1,8 @@
 <style>
-  .modulos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-  }
+  .modulos { display: flex; flex-direction: row; flex-wrap: wrap; align-content:
+  center; justify-content: center; align-items: center; } .modulos a{ margin:
+  100px; width: 200px; height: 100px; }
 
-  .modulos a{
-    margin: 100px;
-    width: 200px;
-    height: 100px;
-  }
-  
 </style>
 
 <div class="container p-4">
@@ -23,19 +12,93 @@
         <div class="card-body">
           <div class="row modulos">
             <div class="col-md-6">
-          <a type="button" class="btn btn-primary" href="/profile">Mi perfil</a>
+              <a type="button" class="btn btn-primary" href="/profile">Mi perfil</a>
+            </div>
+            <div class="col-md-6">
+              <a
+                type="button"
+                class="btn btn-secondary"
+                href="/getperfilcv?token={{user.uno.email}}"
+              >Descargar mi CV</a>
+            </div>
+            <div class="col-md-6">
+              <a
+                type="button"
+                class="btn btn-success"
+                target="_blank"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >Compartir CV</a>
+            </div>
+            <div
+              class="modal fade bd-example-modal-lg"
+              id="exampleModal"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Compartir el enlace</h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="form-group">
+                    <label style="font-size: 95%">Asegúrate de que tu CV esté
+                      actualizado antes de compartirlo. Cualquier persona que
+                      tenga el enlace podrá verlo.
+
+                    </label>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <p class="font-weight-bold">Enlace a tu CV en Talento</p>
+                        <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                            <button
+                              data-clipboard-target="#foo"
+                              class="btn btn-primary"
+                              type="button"
+                            >Copiar enlace</button>
+                          </div>
+                          <input
+                            id="foo"
+                            value="http://localhost:4010/share/{{user.uno.email}}.pdf"
+                            type="text"
+                            class="form-control"
+                            placeholder=""
+                            aria-label=""
+                            aria-describedby="basic-addon1"
+                          />
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <a type="button" class="btn btn-danger">Convocatorias</a>
+            </div>
           </div>
-          <div class="col-md-6">
-          <a type="button" class="btn btn-secondary" href="/getperfilcv">Descargar mi CV</a>
-          </div>
-          <div class="col-md-6">
-          <a type="button" class="btn btn-success">Compartir CV</a>
-          </div>
-          <div class="col-md-6">
-          <a type="button" class="btn btn-danger">Convocatorias</a>
-          </div>
-          </div>
-          
+
         </div>
       </div>
     </div>

@@ -826,11 +826,11 @@
                     {{user.uno.provincia}}</i>
                 </h2>
                 <p>{{user.dos.carrerauniversitaria}}</p>
-                <div style="display: none;">
-                  <!--Falta implementar -->
+                <div style="">
                   <button
                     type="button"
                     class="btn btn-primary"
+                    id="sharecv"
                     data-toggle="modal"
                     data-target="#exampleModal"
                     data-whatever="@mdo"
@@ -879,7 +879,7 @@
                                 </div>
                                 <input
                                   id="foo"
-                                  value="http://localhost:4010/profile"
+                                  value="http://localhost:4010/shareCV/{{user.uno.email}}.pdf"
                                   type="text"
                                   class="form-control"
                                   placeholder=""
@@ -903,7 +903,7 @@
                   <a href="/perfilcv" target="_blank">
                     <button class="btn btn-info">Descargar CV</button>
                   </a>
-                  <button class="btn btn-success">Descargar documentos</button>
+                  {{!-- <button class="btn btn-success">Descargar documentos</button> --}}
                 </div>
 
                 <div class="d-flex">
@@ -1904,7 +1904,7 @@
                                   </select>
                                 </div>
                                 <div class="form-group col-md-6">
-                                  <label for="forcontinua">Formación continua</label>
+                                  <label for="forcontinua">Nombre</label>
                                   <input
                                     type="text"
                                     class="form-control"
@@ -2087,7 +2087,7 @@
                               >
                                 <div class="row">
                                   <div class="form-group col-md-12">
-                                    <label for="forcontinua">Formación continua</label>
+                                    <label for="forcontinua">Nombre</label>
                                     <input
                                       type="text"
                                       class="form-control"
@@ -2154,7 +2154,7 @@
                       </div>
                     </div>
                     <div class="col-sm-4">
-                      <h6 class="mb-0">Formación</h6>
+                      <h6 class="mb-0">Nombre</h6>
                     </div>
                     <div class="col-sm-8 text-secondary">
                       {{this.nombrelogro}}
@@ -2319,7 +2319,36 @@
                                     class="form-control"
                                     id="funciones"
                                     name="funciones"
-                                    rows="3"
+                                    rows="1"
+                                    style="margin-bottom: 5px;"
+                                  ></textarea>
+                                  <textarea
+                                    class="form-control"
+                                    id="funciones2"
+                                    name="funciones2"
+                                    rows="1"
+                                    style="margin-bottom: 5px;"
+                                  ></textarea>
+                                  <textarea
+                                    class="form-control"
+                                    id="funciones3"
+                                    name="funciones3"
+                                    rows="1"
+                                    style="margin-bottom: 5px;"
+                                  ></textarea>
+                                  <textarea
+                                    class="form-control"
+                                    id="funciones4"
+                                    name="funciones4"
+                                    rows="1"
+                                    style="margin-bottom: 5px;"
+                                  ></textarea>
+                                  <textarea
+                                    class="form-control"
+                                    id="funciones5"
+                                    name="funciones5"
+                                    rows="1"
+                                    style="margin-bottom: 5px;"
                                   ></textarea>
                                 </div>
                               </div>
@@ -2348,7 +2377,7 @@
                         href="#"
                         type="submit"
                         data-toggle="modal"
-                        data-target="#{{this.nombrecargo}}{{@index}}"
+                        data-target="#editexp{{@index}}"
                         data-whatever="@mdo"
                       ><img
                           class="icon_info_edit"
@@ -2422,7 +2451,7 @@
 
                       <div
                         class="modal fade"
-                        id="{{this.nombrecargo}}{{@index}}"
+                        id="editexp{{@index}}"
                         tabindex="-1"
                         role="dialog"
                         aria-labelledby="exampleModalLabel"
@@ -2516,8 +2545,37 @@
                                       class="form-control"
                                       id="funciones"
                                       name="funciones"
-                                      rows="3"
-                                    ></textarea>
+                                      rows="1"
+                                      style="margin-bottom: 5px;"
+                                    >{{this.funcionesdesarrolladas}}</textarea>
+                                    <textarea
+                                      class="form-control"
+                                      id="funciones2"
+                                      name="funciones2"
+                                      rows="1"
+                                      style="margin-bottom: 5px;"
+                                    >{{this.funcion2}}</textarea>
+                                    <textarea
+                                      class="form-control"
+                                      id="funciones3"
+                                      name="funciones3"
+                                      rows="1"
+                                      style="margin-bottom: 5px;"
+                                    >{{this.funcion3}}</textarea>
+                                    <textarea
+                                      class="form-control"
+                                      id="funciones4"
+                                      name="funciones4"
+                                      rows="1"
+                                      style="margin-bottom: 5px;"
+                                    >{{this.funcion4}}</textarea>
+                                    <textarea
+                                      class="form-control"
+                                      id="funciones5"
+                                      name="funciones5"
+                                      rows="1"
+                                      style="margin-bottom: 5px;"
+                                    >{{this.funcion5}}</textarea>
                                   </div>
                                 </div>
                                 <div class="modal-footer">
@@ -2564,14 +2622,30 @@
                         {{this.final}}
                       </div>
                     {{/if}}
-
-                    <div class="col-sm-4">
-                      <h6 class="mb-0">Funciones</h6>
-                    </div>
-                    <div class="col-sm-8 text-secondary">
-                      {{this.funcionesdesarrolladas}}
-                    </div>
                   </div>
+                  <div class="">
+                    <h6 class="mb-0">Funciones</h6>
+                  </div>
+                  <div>
+                    <ul class="info_profile">
+                      <li
+                        class="text-secondary"
+                      >{{this.funcionesdesarrolladas}}</li>
+                      {{#if this.funcion2}}
+                        <li class="text-secondary">{{this.funcion2}}</li>
+                      {{/if}}
+                      {{#if this.funcion3}}
+                        <li class="text-secondary">{{this.funcion3}}</li>
+                      {{/if}}
+                      {{#if this.funcion4}}
+                        <li class="text-secondary">{{this.funcion4}}</li>
+                      {{/if}}
+                      {{#if this.funcion5}}
+                        <li class="text-secondary">{{this.funcion5}}</li>
+                      {{/if}}
+                    </ul>
+                  </div>
+
                   <br />
                 {{/each}}
 
@@ -2618,13 +2692,14 @@
                     su reglamento.
                   </label>
                 </div>
-                <input style="display: none;"
-                    type="text"
-                    class="form-check-input"
-                    id="email"
-                    name="email"
-                    value="{{user.uno.email}}"
-                  />
+                <input
+                  style="display: none;"
+                  type="text"
+                  class="form-check-input"
+                  id="email"
+                  name="email"
+                  value="{{user.uno.email}}"
+                />
                 <div class="form-group form-check">
                   <input
                     type="checkbox"

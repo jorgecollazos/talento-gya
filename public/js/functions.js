@@ -92,7 +92,7 @@ function readURL(input) {
       $("#imagePreview").fadeIn(650);
       $.ajax({
         type: "POST",
-        url: "http://localhost:4010/update-photo",
+        url: "http://143.198.153.102:4010/update-photo",
         data: JSON.stringify({ email: email, photo: e.target.result }),
         contentType: "application/json",
         success: function (result) {
@@ -106,3 +106,4 @@ function readURL(input) {
     reader.readAsDataURL(input.files[0]);
   }
 }
+
