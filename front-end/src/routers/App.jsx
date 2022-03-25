@@ -9,6 +9,8 @@ import Disclaimer from "../pages/Disclaimer";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 import Profile from "../pages/Profile";
+import AddAcademicTraining from "../components/AddAcademicTraining";
+import EditAbout from "../components/EditAbout";
 
 const App = () => {
   return (
@@ -22,6 +24,7 @@ const App = () => {
           <Route exact path="/recovery-password" element={<RecoveryPassword />} />
           <Route exact path="/send-email-password" element={<SendEmailPassword />} />
           <Route exact path="/profile" element={<Profile />} />
+          <Route exact path="/edit" element={<AddAcademicTraining />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

@@ -19,6 +19,7 @@ module.exports = {
 			'@styles': path.resolve(__dirname, 'src/styles'),
 			'@img': path.resolve(__dirname, 'src/assets/img'),
 			'@icons': path.resolve(__dirname, 'src/assets/icons'),
+			'@hooks': path.resolve(__dirname, 'src/hooks'),
 		}
 	},
 	module: {
@@ -43,7 +44,7 @@ module.exports = {
         use: ['style-loader', 'css-loader', 'postcss-loader'],
 			},
 			{
-				test: /\.(png|svg|jpg|gif|)$/,
+				test: /\.(png|svg|jpg|gif|webp)$/,
         type: 'asset',
 			}
 		]
