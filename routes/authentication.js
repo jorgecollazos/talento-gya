@@ -299,71 +299,13 @@ const createPDF = async (name) => {
       align: "left",
     }
   );
-  doc.fontSize(18);
+  doc.fontSize(16);
   doc.text(`${about.rows[0].email}`, {
     width: 410,
     align: "left",
   });
 
   doc.fontSize(16);
-  doc.text(`           `, {
-    width: 410,
-    align: "left",
-  });
-
-  doc.fontSize(16);
-  doc.text(`Experiencia`, {
-    width: 410,
-    align: "left",
-  });
-
-  if (exper.rows) {
-    for (var i = 0; i < exper.rows.length; i++) {
-      doc.fontSize(5);
-      doc.text(`           `, {
-        width: 410,
-        align: "left",
-      });
-
-      let arr = [];
-      if (exper.rows[i].funcionesdesarrolladas) {
-        arr.push(exper.rows[i].funcionesdesarrolladas);
-      }
-      if (exper.rows[i].funcion2) {
-        arr.push(exper.rows[i].funcion2);
-      }
-      if (exper.rows[i].funcion3 > 0) {
-        arr.push(exper.rows[i].funcion3);
-      }
-      if (exper.rows[i].funcion4 > 0) {
-        arr.push(exper.rows[i].funcion4);
-      }
-      if (exper.rows[i].funcion5 > 0) {
-        arr.push(exper.rows[i].funcion5);
-      }
-
-      doc.fontSize(14);
-      doc.text(
-        `${exper.rows[i].nombrecargo} - ${exper.rows[i].nombreempresa}`,
-        {
-          width: 410,
-          align: "left",
-        }
-      );
-      doc.fontSize(12);
-      doc.text(`${exper.rows[i].inicio} - ${exper.rows[i].final}`, {
-        width: 410,
-        align: "left",
-      });
-      doc.text(`Funciones:`, {
-        width: 410,
-        align: "left",
-      });
-      doc.list(arr);
-    }
-  }
-
-  doc.fontSize(10);
   doc.text(`           `, {
     width: 410,
     align: "left",
@@ -462,6 +404,65 @@ const createPDF = async (name) => {
     }
   }
 
+  doc.fontSize(10);
+  doc.text(`           `, {
+    width: 410,
+    align: "left",
+  });
+
+  doc.fontSize(16);
+  doc.text(`Experiencia`, {
+    width: 410,
+    align: "left",
+  });
+
+  if (exper.rows) {
+    for (var i = 0; i < exper.rows.length; i++) {
+      doc.fontSize(5);
+      doc.text(`           `, {
+        width: 410,
+        align: "left",
+      });
+
+      let arr = [];
+      if (exper.rows[i].funcionesdesarrolladas) {
+        arr.push(exper.rows[i].funcionesdesarrolladas);
+      }
+      if (exper.rows[i].funcion2) {
+        arr.push(exper.rows[i].funcion2);
+      }
+      if (exper.rows[i].funcion3 > 0) {
+        arr.push(exper.rows[i].funcion3);
+      }
+      if (exper.rows[i].funcion4 > 0) {
+        arr.push(exper.rows[i].funcion4);
+      }
+      if (exper.rows[i].funcion5 > 0) {
+        arr.push(exper.rows[i].funcion5);
+      }
+
+      doc.fontSize(14);
+      doc.text(
+        `${exper.rows[i].nombrecargo} - ${exper.rows[i].nombreempresa}`,
+        {
+          width: 410,
+          align: "left",
+        }
+      );
+      doc.fontSize(12);
+      doc.text(`${exper.rows[i].inicio} - ${exper.rows[i].final}`, {
+        width: 410,
+        align: "left",
+      });
+      doc.text(`Funciones:`, {
+        width: 410,
+        align: "left",
+      });
+      doc.list(arr);
+    }
+  }
+
+  
   doc.end();
   doc.pipe(fs.createWriteStream(docPath));
 
@@ -503,7 +504,7 @@ router.get("/sharecv/:name", async (req, res, next) => {
   let name = req.params.name;
   console.log(name);
   const pdf = await createPDF(name);
-  console.log(pdf)
+  console.log(pdf);
   setTimeout(function () {
     let source = fs.createReadStream(pdf[1]);
     let dest = fs.createWriteStream(`./public/share/${pdf[0]}.pdf`);
