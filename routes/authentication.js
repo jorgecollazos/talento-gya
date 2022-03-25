@@ -263,7 +263,7 @@ function generateFooter(doc) {
 const createPDF = async (name) => {
   const doc = new PDFDocument({ size: "A4", margin: 50 });
   const docName = name;
-  const docPath = `./public/shareCV/${name}.pdf`;
+  const docPath = `./downloadcv/${name}.pdf`;
   const about = await pool.query(
     "SELECT * FROM tb_acercadeti_consultor WHERE email = $1 ",
     [name]
@@ -300,13 +300,10 @@ const createPDF = async (name) => {
     }
   );
   doc.fontSize(18);
-  doc.text(
-    `${about.rows[0].email}`,
-    {
-      width: 410,
-      align: "left",
-    }
-  );
+  doc.text(`${about.rows[0].email}`, {
+    width: 410,
+    align: "left",
+  });
 
   doc.fontSize(16);
   doc.text(`           `, {
@@ -485,33 +482,41 @@ router.get("/getperfilcv", async (req, res, next) => {
 });
 
 router.get("/sharecv", async (req, res, next) => {
-  console.log("sdadasdas12312");
   try {
     const { token } = req.query;
     if (token) {
       console.log(token);
       const pdf = await createPDF(token);
       setTimeout(function () {
-        let result = `http://143.198.153.102:4010/shareCV/${pdf[0]}.pdf`;
+        let result = `http://143.198.153.102:4010/share/${pdf[0]}.pdf`;
         res.status(200);
       }, 1000);
     }
   } catch (e) {}
 });
 
-router.get("/share/:name", async (req, res, next) => {
+router.get("/cvshare", (req, res) => {
+  res.render("cvshare");
+});
+
+router.get("/sharecv/:name", async (req, res, next) => {
   let name = req.params.name;
-  name = name.slice(0, -1)
-  name = name.slice(0, -1)
-  name = name.slice(0, -1)
-  name = name.slice(0, -1)
   console.log(name);
   const pdf = await createPDF(name);
-      setTimeout(function () {
-        res.redirect(`http://143.198.153.102:4010/shareCV/${pdf[0]}.pdf`);
-        res.status(200);
-      }, 1000)
-  
+  console.log(pdf)
+  setTimeout(function () {
+    let source = fs.createReadStream(pdf[1]);
+    let dest = fs.createWriteStream(`./public/share/${pdf[0]}.pdf`);
+
+    source.pipe(dest);
+    source.on("end", function () {
+      /* copied */
+    });
+    source.on("error", function (err) {
+      /* error */
+    });
+    res.redirect("/cvshare");
+  }, 1000);
 });
 
 router.post("/disclaimer", async (req, res) => {
@@ -1040,6 +1045,39 @@ router.get("/continuous-training/:mail", async (req, res) => {
 
   const result = await pool.query(
     "SELECT * FROM tb_formacioncontinua WHERE email = $1;",
+    [mail]
+  );
+
+  res.json(result.rows);
+});
+
+router.get("/about-training/:mail", async (req, res) => {
+  const mail = req.params.mail;
+
+  const result = await pool.query(
+    "SELECT * FROM tb_acercadeti_consultor WHERE email = $1;",
+    [mail]
+  );
+
+  res.json(result.rows);
+});
+
+router.get("/academic-training/:mail", async (req, res) => {
+  const mail = req.params.mail;
+
+  const result = await pool.query(
+    "SELECT * FROM tb_formacioninicial WHERE email = $1;",
+    [mail]
+  );
+
+  res.json(result.rows);
+});
+
+router.get("/experience-training/:mail", async (req, res) => {
+  const mail = req.params.mail;
+
+  const result = await pool.query(
+    "SELECT * FROM tb_experiencialaboral WHERE email = $1;",
     [mail]
   );
 

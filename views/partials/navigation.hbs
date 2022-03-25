@@ -18,10 +18,14 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
+            <a class="nav-link dropdown" href="/modulos">Inicio</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link dropdown" href="/profile">Mi perfil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/getperfilcv">Descargar CV</a>
+            <a class="nav-link" href="/getperfilcv?token={{user.uno.email}}"
+              >Descargar mi CV</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Compartir CV</a>

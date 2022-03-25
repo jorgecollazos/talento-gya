@@ -311,14 +311,6 @@ passport.deserializeUser(async function (id, done) {
     const iner6 = resultados1.rows[3];
     const fechanaci = fecha.rows[0].fechadenacimiento;
 
-    const pdf = await createPDF(id,
-      uno,
-      pregrado,
-      postgrado,
-      forcontinua,
-      experiencia
-    );
-
     let uno1 = "";
     let uno2 = "";
 
