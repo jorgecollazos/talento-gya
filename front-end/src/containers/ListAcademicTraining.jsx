@@ -3,7 +3,7 @@ import AcademicTraining from "@components/AcademicTraining";
 import AddAcademicTraining from "@components/AddAcademicTraining";
 import useGetInfo from "@hooks/useGetInfo";
 
-const API = "http://localhost:4010/academic-training/djesusccori@gmail.com";
+const API = "http://143.198.153.102:4010/academic-training/djesusccori@gmail.com";
 
 const ListAcademicTraining = () => {
   const academic = useGetInfo(API);

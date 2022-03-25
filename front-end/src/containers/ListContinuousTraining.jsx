@@ -3,7 +3,7 @@ import ContinuousTraining from "@components/ContinuousTraining";
 import AddContinuousTraining from "@components/AddContinuousTraining";
 import useGetInfo from "@hooks/useGetInfo";
 
-const API = "http://localhost:4010/continuous-training/djesusccori@gmail.com";
+const API = "http://143.198.153.102:4010/continuous-training/djesusccori@gmail.com";
 
 const ListContinuousTraining = () => {
   const continuous = useGetInfo(API);

@@ -2,7 +2,7 @@ import React from "react";
 import useGetInfo from "@hooks/useGetInfo";
 import EditAbout from "@components/EditAbout";
 
-const API = "http://localhost:4010/about-training/djesusccori@gmail.com";
+const API = "http://143.198.153.102:4010/about-training/djesusccori@gmail.com";
 
 const About = () => {
   const about = useGetInfo(API);
