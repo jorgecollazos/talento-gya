@@ -3,7 +3,7 @@ import Experience from "@components/Experience";
 import AddExperience from "@components/AddExperience";
 import axios from "axios";
 
-const API = "http://143.198.153.102:4010/experience-training/djesusccori@gmail.com";
+const API = "http://localhost:4010/experience-training/djesusccori@gmail.com";
 
 const ListExperience = () => {
   const [experience, setExperience] = useState([]);
