@@ -1,9 +1,36 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 
 import Header from "../partials/Header";
 
 function SignUp() {
+  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("");
+
+  let handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      let res = await fetch("https://httpbin.org/post", {
+        method: "POST",
+        body: JSON.stringify({
+          name: "user",
+          email: email,
+          password: password,
+        }),
+      });
+      let resJson = await res.json();
+      if (res.status === 200) {
+        setName("");
+        setEmail("");
+        setMessage("User created successfully");
+      } else {
+        setMessage("Some error occured");
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
@@ -35,8 +62,10 @@ function SignUp() {
                       <input
                         id="email"
                         type="email"
+                        value={email}
                         className="form-input w-full text-gray-800"
                         placeholder="Ingresa tu correo electrónico"
+                        onChange={(e) => setEmail(e.target.value)}
                         required
                       />
                     </div>
@@ -52,15 +81,17 @@ function SignUp() {
                       <input
                         id="password"
                         type="password"
+                        value={password}
                         className="form-input w-full text-gray-800"
                         placeholder="Ingresa tu contraseña"
+                        onChange={(e) => setPassword(e.target.value)}
                         required
                       />
                     </div>
                   </div>
                   <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-3">
-                      <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">
+                      <button type="submit" className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">
                         Registrarme
                       </button>
                     </div>

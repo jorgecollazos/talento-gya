@@ -1,9 +1,37 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 
 import Header from "../partials/Header";
 
 function SignIn() {
+  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("");
+
+  let handleSubmit = async (e) => {
+    console.log(email, password)
+    e.preventDefault();
+    try {
+      let res = await fetch("http://137.184.220.167:4010/signin", {
+        method: "POST",
+        body: JSON.stringify({
+          email: email,
+          password: password,
+        }),
+      });
+      // let resJson = await res.json();
+      if (res.status === 200) {
+        setPassword("");
+        setEmail("");
+        console.log("User created successfully");
+        // window.location.href = "http://localhost:4010/modulos";
+      } else {
+        console.log("Some error occured");
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
@@ -23,7 +51,7 @@ function SignIn() {
 
               {/* Form */}
               <div className="max-w-sm mx-auto">
-                <form>
+                <form action="http://137.184.220.167:4010/signin" method="post">
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <label
@@ -35,8 +63,11 @@ function SignIn() {
                       <input
                         id="email"
                         type="email"
+                        value={email}
+                        name="email"
                         className="form-input w-full text-gray-800"
                         placeholder="Ingresa tu correo electrónico"
+                        onChange={(e) => setEmail(e.target.value)}
                         required
                       />
                     </div>
@@ -54,8 +85,11 @@ function SignIn() {
                       <input
                         id="password"
                         type="password"
+                        name="password"
+                        value={password}
                         className="form-input w-full text-gray-800"
                         placeholder="Ingresa tu contraseña"
+                        onChange={(e) => setPassword(e.target.value)}
                         required
                       />
                     </div>
@@ -74,7 +108,7 @@ function SignIn() {
                   </div>
                   <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-3">
-                      <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">
+                      <button type="submit" className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">
                         Ingresar
                       </button>
                     </div>
