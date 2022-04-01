@@ -114,7 +114,7 @@ router.post("/recovery-password", async (req, res) => {
       expiresIn: "15min",
     });
 
-    const link = `http://143.198.153.102:4010/recovery?token=${password_token}`;
+    const link = `http://137.184.220.167:4010/recovery?token=${password_token}`;
 
     const data = await pool.query(
       "SELECT primernombre, apellidopaterno FROM tb_acercadeti_consultor WHERE email = $1",
@@ -142,7 +142,7 @@ router.post("/recovery-password", async (req, res) => {
       from: '"TalentoGyA+" <talento@gestionayaprende.com>',
       to: email,
       subject: `Cambio de contraseña`,
-      html: `<p>Hola, ${nombre} ${apellido}</p><p>Recibimos una solicitud para restablecer tu contraseña de TalentoGyA+.</p><p>Ingresa al siguiente link para restablecer la contraseña:</p><b>${link}</b><p>¿No solicitaste este cambio?</p><p>Si no solicitaste una nueva contraseña, ignora este mensaje.</p><br><p>Atentamente,</p><a href="http://143.198.153.102:4010/" target="_blank">TalentoGyA+</a>`,
+      html: `<p>Hola, ${nombre} ${apellido}</p><p>Recibimos una solicitud para restablecer tu contraseña de TalentoGyA+.</p><p>Ingresa al siguiente link para restablecer la contraseña:</p><b>${link}</b><p>¿No solicitaste este cambio?</p><p>Si no solicitaste una nueva contraseña, ignora este mensaje.</p><br><p>Atentamente,</p><a href="http://137.184.220.167:4010/" target="_blank">TalentoGyA+</a>`,
     });
     console.log("Message sent: %s", info.messageId);
     console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
@@ -168,7 +168,7 @@ router.get("/sendmailPassword/:mail", async (req, res) => {
     expiresIn: "15min",
   });
 
-  const link = `http://143.198.153.102:4010/recovery?token=${password_token}`;
+  const link = `http://137.184.220.167:4010/recovery?token=${password_token}`;
 
   const data = await pool.query(
     "SELECT primernombre, apellidopaterno FROM tb_acercadeti_consultor WHERE email = $1",
@@ -489,7 +489,7 @@ router.get("/sharecv", async (req, res, next) => {
       console.log(token);
       const pdf = await createPDF(token);
       setTimeout(function () {
-        let result = `http://143.198.153.102:4010/share/${pdf[0]}.pdf`;
+        let result = `http://137.184.220.167:4010/share/${pdf[0]}.pdf`;
         res.status(200);
       }, 1000);
     }
@@ -1104,7 +1104,7 @@ router.get("/file/:tb_id", isLoggedIn, async (req, res) => {
     [tbid]
   );
   doc = doc.rows[0].documentotitulo;
-  let result = "http://143.198.153.102:4010/Facademica/" + doc; //cambiar
+  let result = "http://137.184.220.167:4010/Facademica/" + doc; //cambiar
   res.redirect(result);
 });
 
@@ -1115,7 +1115,7 @@ router.get("/file2/:tb_id", isLoggedIn, async (req, res) => {
     [tbid]
   );
   doc = doc.rows[0].documentocolegiado;
-  let result = "http://143.198.153.102:4010/Facademica/" + doc; //cambiar
+  let result = "http://137.184.220.167:4010/Facademica/" + doc; //cambiar
   res.redirect(result);
 });
 
@@ -1126,7 +1126,7 @@ router.get("/file3/:tb_id", isLoggedIn, async (req, res) => {
     [tbid]
   );
   doc = doc.rows[0].formacioncontinuadocumento;
-  let result = "http://143.198.153.102:4010/Fcontinua/" + doc; //cambiar
+  let result = "http://137.184.220.167:4010/Fcontinua/" + doc; //cambiar
   res.redirect(result);
 });
 
@@ -1137,7 +1137,7 @@ router.get("/file4/:tb_id", isLoggedIn, async (req, res) => {
     [tbid]
   );
   doc = doc.rows[0].certificadopostulante;
-  let result = "http://143.198.153.102:4010/Experiencia/" + doc; //cambiar
+  let result = "http://137.184.220.167:4010/Experiencia/" + doc; //cambiar
   res.redirect(result);
 });
 
@@ -1147,7 +1147,7 @@ router.get("/drop/:tb_id", isLoggedIn, async (req, res, done) => {
     "DELETE FROM tb_formacioninicial WHERE idformacioninicial = $1",
     [tbid]
   );
-  let result = "http://143.198.153.102:4010/profile";
+  let result = "http://137.184.220.167:4010/profile";
   done(null, req.flash("message", "Eliminado correctamente"));
   res.redirect(result);
 });
@@ -1159,7 +1159,7 @@ router.get("/dropcontinua/:tb_id", isLoggedIn, async (req, res, done) => {
     [tbid]
   );
   done(null, req.flash("message", "Eliminado correctamente"));
-  let result = "http://143.198.153.102:4010/profile";
+  let result = "http://137.184.220.167:4010/profile";
   res.redirect(result);
 });
 
@@ -1170,7 +1170,7 @@ router.get("/dropexper/:tb_id", isLoggedIn, async (req, res, done) => {
     [tbid]
   );
   done(null, req.flash("message", "Eliminado correctamente"));
-  let result = "http://143.198.153.102:4010/profile";
+  let result = "http://137.184.220.167:4010/profile";
   res.redirect(result);
 });
 
@@ -1269,7 +1269,7 @@ router.post("/updateinfo", async (req, res, done) => {
   }
   done(null, req.flash("success", "Actualizado correctamente"));
 
-  res.redirect("http://143.198.153.102:4010/profile");
+  res.redirect("http://137.184.220.167:4010/profile");
 });
 
 router.post(
@@ -1420,7 +1420,7 @@ router.post(
       }
     }
 
-    res.redirect("http://143.198.153.102:4010/profile");
+    res.redirect("http://137.184.220.167:4010/profile");
   }
 );
 
@@ -1474,7 +1474,7 @@ router.post(
       );
     }
 
-    res.redirect("http://143.198.153.102:4010/profile");
+    res.redirect("http://137.184.220.167:4010/profile");
   }
 );
 
@@ -1523,7 +1523,7 @@ router.post(
       );
     }
 
-    res.redirect("http://143.198.153.102:4010/profile");
+    res.redirect("http://137.184.220.167:4010/profile");
   }
 );
 
@@ -1567,7 +1567,7 @@ router.post(
       );
     }
     console.log(req.body);
-    res.redirect("http://143.198.153.102:4010/profile");
+    res.redirect("http://137.184.220.167:4010/profile");
   }
 );
 
@@ -1617,7 +1617,7 @@ passport.use(
     {
       clientID: GOOGLE_CLIENT_ID,
       clientSecret: GOOGLE_CLIENT_SECRET,
-      callbackURL: "http://143.198.153.102:4010/google/callback",
+      callbackURL: "http://137.184.220.167:4010/google/callback",
       passReqToCallback: true,
     },
     async function (req, emails, password, profile, done) {
@@ -1724,7 +1724,7 @@ passport.use(
     {
       clientID: FACEBOOK_APP_ID,
       clientSecret: FACEBOOK_APP_SECRET,
-      callbackURL: "http://143.198.153.102:4010/facebook/callback",
+      callbackURL: "http://137.184.220.167:4010/facebook/callback",
       profileFields: [
         "id",
         "displayName",
