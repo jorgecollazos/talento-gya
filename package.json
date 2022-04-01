@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
+    "prod": "vite --host 137.184.220.167",
     "build": "vite build",
     "preview": "vite preview"
   },
