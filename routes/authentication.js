@@ -225,6 +225,8 @@ router.post("/change-password", async (req, res) => {
 });
 
 router.post("/signin", (req, res, next) => {
+  console.log("hola");
+  console.log(req.body);
   passport.authenticate("local.signin", {
     successRedirect: "/modulos",
     failureRedirect: "/signin",
@@ -462,7 +464,6 @@ const createPDF = async (name) => {
     }
   }
 
-  
   doc.end();
   doc.pipe(fs.createWriteStream(docPath));
 
@@ -1040,6 +1041,26 @@ router.post(
     }
   }
 );
+
+router.post("/email-result", async (req, res) => {
+  console.log(req.body, "ebtrta");
+  let resultado = [];
+  if (req.body.length == 0) {
+    console.log("fuck you");
+
+    const result = await pool.query("SELECT * FROM tb_AcercaDeTi_Consultor;");
+    resultado = result.rows;
+  }
+
+  for (let i = 0; i < req.body.length; i++) {
+    const result = await pool.query(
+      "SELECT * FROM tb_AcercaDeTi_Consultor WHERE email = $1;",
+      [req.body[i]]
+    );
+    resultado.push(result.rows[0]);
+  }
+  res.json(resultado);
+});
 
 router.get("/continuous-training/:mail", async (req, res) => {
   const mail = req.params.mail;
