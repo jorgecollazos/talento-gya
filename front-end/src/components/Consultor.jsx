@@ -1,29 +1,36 @@
 import React from "react";
 
 const Consultor = ({ consultor }) => {
-  console.log("consutor componente", consultor);
   return (
     <li>
-      <div className="flex justify-between items-center space-x-2 font-semibold text-lg text-teal-700 leading-8">
-        <div className="flex justify-start">
-          <div>{consultor.primernombre}</div>
-        </div>
-      </div>
-      <div className="flex flex-wrap">
-        <div className="sm:basis-full md:basis-1/3 lg:basis-1/4 basis-full px-2 py-px font-semibold">
-          Telefono
-        </div>
-        <div className="sm:basis-full md:basis-2/3 lg:basis-3/4 basis-full px-2 py-px">
-          {consultor.numerocelular1}
-        </div>
-      </div>
-      <div className="flex flex-wrap">
-        <div className="sm:basis-full md:basis-1/3 lg:basis-1/4 basis-full px-2 py-px font-semibold">
-          
-          N de documento
-        </div>
-        <div className="sm:basis-full md:basis-2/3 lg:basis-3/4 basis-full px-2 py-px">
-          {consultor.numerodedocumento}
+      <div className="w-full flex items-center justify-center">
+        <div className="xl:w-1/2 sm:w-1/2 w-full 2xl:w-1/2 flex flex-col items-center py-16 md:py-12 bg-gradient-to-r from-indigo-700 to-purple-500 rounded-lg">
+          <div className="w-full flex items-center justify-center">
+            <div className="flex flex-col items-center">
+              {/* <img
+                src="https://cdn.tuk.dev/assets/templates/olympus/profile.png"
+                alt="profile" width="150px"
+              /> */}
+              <p className="mt-2 text-xl sm:text-base md:text-lg font-semibold text-center text-white">
+              {consultor.primernombre} {consultor.apellidopaterno}{" "}
+            {consultor.apellidomaterno}
+              </p>
+            </div>
+          </div>
+          {/* <div className="flex items-center mt-7">
+            <div className="">
+              <p className="text-xs text-gray-300">Correo</p>
+              <p className="mt-2 text-base sm:text-lg md:text-xl 2xl:text-2xl text-gray-50">
+              {consultor.email}
+              </p>
+            </div>
+            <div className="ml-12">
+              <p className="text-xs text-gray-300">Teléfono</p>
+              <p className="mt-2 text-base sm:text-lg md:text-xl 2xl:text-2xl text-gray-50">
+              {consultor.numerocelular1}
+              </p>
+            </div>
+          </div> */}
         </div>
       </div>
     </li>

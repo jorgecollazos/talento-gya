@@ -1,72 +1,182 @@
 export let pregrado = [
   {
-    "email": "aaso18@hotmail.com",
-    "label": "Psicología",
-    "value": "Psicología"
+    email: "valdivieso.alejandro1995@gmail.com",
+    value: "Sociología",
+    label: "Sociología",
+    nombreformacionpregrado: "Bachiller",
   },
   {
-    "email": "mirandajackeline1306@gmail.com",
-    "label": "Economía",
-    "value": "Economía"
+    email: "victor.raico@gmail.com",
+    value: "Economista",
+    label: "Economista",
+    nombreformacionpregrado: "Titulado",
   },
   {
-    "email": "mirandajackeline1306@gmail.com",
-    "label": "ADMINISTRACION INDUSTRIAL",
-    "value": "ADMINISTRACION INDUSTRIAL"
+    email: "romulo.manuel.alfaro@gmail.com",
+    value: "Economía",
+    label: "Economía",
+    nombreformacionpregrado: "Bachiller",
   },
   {
-    "email": "sanchez.isabel0609@gmail.com",
-    "label": "Educación",
-    "value": "Educación"
+    email: "franciscofh24@hotmail.com",
+    value: "Economía",
+    label: "Economía",
+    nombreformacionpregrado: "Egresado",
   },
   {
-    "email": "sanchez.isabel0609@gmail.com",
-    "label": "Educación Inicial",
-    "value": "Educación Inicial"
+    email: "fatimaohara24@gmail.com",
+    value: "Educación",
+    label: "Educación",
+    nombreformacionpregrado: "Bachiller",
   },
   {
-    "email": "Lisbeth.jgsoc@gmail.com",
-    "label": "Ciencias Sociales",
-    "value": "Ciencias Sociales"
+    email: "mirandajackeline1306@gmail.com",
+    value: "ADMINISTRACION INDUSTRIAL",
+    label: "ADMINISTRACION INDUSTRIAL",
+    nombreformacionpregrado: "Egresado",
   },
   {
-    "email": "fatimaohara24@gmail.com",
-    "label": "Educación con Especialidad en Educación imicial",
-    "value": "Educación con Especialidad en Educación imicial"
+    email: "marylquispe96@gmail.com",
+    value: "Economía",
+    label: "Economía",
+    nombreformacionpregrado: "Titulado",
   },
   {
-    "email": "fatimaohara24@gmail.com",
-    "label": "Educación",
-    "value": "Educación"
+    email: "fatimaohara24@gmail.com",
+    value: "Educación con Especialidad en Educación imicial",
+    label: "Educación con Especialidad en Educación imicial",
+    nombreformacionpregrado: "Titulado",
   },
   {
-    "email": "veronica.07.cc@gmail.com",
-    "label": "Psicología",
-    "value": "Psicología"
+    email: "tefa1997.fsra@gmail.com",
+    value: "Administración",
+    label: "Administración",
+    nombreformacionpregrado: "Bachiller",
   },
   {
-    "email": "7.nataliarioslo@gmail.com",
-    "label": "Comunicación Audiovisual",
-    "value": "Comunicación Audiovisual"
+    email: "veronica.07.cc@gmail.com",
+    value: "Psicología",
+    label: "Psicología",
+    nombreformacionpregrado: "Egresado",
   },
   {
-    "email": "tefa1997.fsra@gmail.com",
-    "label": "Administración",
-    "value": "Administración"
+    email: "victor.raico@gmail.com",
+    value: "Economía",
+    label: "Economía",
+    nombreformacionpregrado: "Bachiller",
   },
   {
-    "email": "glopezllosa@gmail.com",
-    "label": "Psicología",
-    "value": "Psicología"
+    email: "marylquispe96@gmail.com",
+    value: "Ciencias Económicas",
+    label: "Ciencias Económicas",
+    nombreformacionpregrado: "Estudiante",
   },
   {
-    "email": "djesusccori@gmail.com",
-    "label": "Ciencias Económicas",
-    "value": "Ciencias Económicas"
+    email: "sanchez.isabel0609@gmail.com",
+    value: "Educación Inicial",
+    label: "Educación Inicial",
+    nombreformacionpregrado: "Titulado",
   },
   {
-    "email": "jorgecollaz@gmail.com",
-    "label": "Ciencia de la computación",
-    "value": "Ciencia de la computación"
-  }
+    email: "Lisbeth.jgsoc@gmail.com",
+    value: "Ciencias Sociales",
+    label: "Ciencias Sociales",
+    nombreformacionpregrado: "Bachiller",
+  },
+  {
+    email: "ronnysulcacontreras@gmail.com",
+    value: "Economía",
+    label: "Economía",
+    nombreformacionpregrado: "Egresado",
+  },
+  {
+    email: "patyretto@gmail.com",
+    value: "Ingeniera Agroindustrial",
+    label: "Ingeniera Agroindustrial",
+    nombreformacionpregrado: "Bachiller",
+  },
+  {
+    email: "aaso18@hotmail.com",
+    value: "Psicología",
+    label: "Psicología",
+    nombreformacionpregrado: "Egresado",
+  },
+  {
+    email: "tanemege@gmail.com",
+    value: "Ingeniería Económica y Empresarial",
+    label: "Ingeniería Económica y Empresarial",
+    nombreformacionpregrado: "Bachiller",
+  },
+  {
+    email: "jorgecollaz@gmail.com",
+    value: "Ciencia de la computación",
+    label: "Ciencia de la computación",
+    nombreformacionpregrado: "Estudiante",
+  },
+  {
+    email: "mirandajackeline1306@gmail.com",
+    value: "Economía",
+    label: "Economía",
+    nombreformacionpregrado: "Titulado",
+  },
+  {
+    email: "martin.rengifod@pucp.edu.pe",
+    value: "Comunicación Audiovisual",
+    label: "Comunicación Audiovisual",
+    nombreformacionpregrado: "Bachiller",
+  },
+  {
+    email: "7.nataliarioslo@gmail.com",
+    value: "Comunicación Audiovisual",
+    label: "Comunicación Audiovisual",
+    nombreformacionpregrado: "Bachiller",
+  },
+  {
+    email: "dsanchezal@outlook.com",
+    value: "Ciencias Sociales",
+    label: "Ciencias Sociales",
+    nombreformacionpregrado: "Bachiller",
+  },
+  {
+    email: "sanchez.isabel0609@gmail.com",
+    value: "Educación",
+    label: "Educación",
+    nombreformacionpregrado: "Bachiller",
+  },
+  {
+    email: "jriospeceros@gmail.com",
+    value: "Ciencias Económicas",
+    label: "Ciencias Económicas",
+    nombreformacionpregrado: "Bachiller",
+  },
+  {
+    email: "lorenaricse.lr@gmail.com",
+    value: "Ciencias Sociales",
+    label: "Ciencias Sociales",
+    nombreformacionpregrado: "Bachiller",
+  },
+  {
+    email: "patyretto@gmail.com",
+    value: "Ingeniera Agroindustrial",
+    label: "Ingeniera Agroindustrial",
+    nombreformacionpregrado: "Titulado",
+  },
+  {
+    email: "franciscofh24@hotmail.com",
+    value: "Economía",
+    label: "Economía",
+    nombreformacionpregrado: "Bachiller",
+  },
+  {
+    email: "djesusccori@gmail.com",
+    value: "Ciencias Económicas",
+    label: "Ciencias Económicas",
+    nombreformacionpregrado: "Bachiller",
+  },
+  {
+    email: "glopezllosa@gmail.com",
+    value: "Psicología",
+    label: "Psicología",
+    nombreformacionpregrado: "Bachiller",
+  },
 ];
