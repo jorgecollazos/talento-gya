@@ -11,7 +11,7 @@ import useGetResult from "../hooks/useGetResult";
 import useGetInfo from "../hooks/useGetInfo";
 import Consultor from "./../components/Consultor";
 
-const API = "http://localhost:4010/email-result";
+const API = "http://137.184.220.167:4010/email-result";
 
 const Search = () => {
   const [selectedPregrado, setPregrado] = useState([]);
@@ -39,22 +39,22 @@ const Search = () => {
   let listEmail = [];
   const [resultConsultores, setResultConsultores] = useState([]);
 
-  const pregrado1 = useGetInfo("http://localhost:4010/list-pregrado");
+  const pregrado1 = useGetInfo("http://137.184.220.167:4010/list-pregrado");
   let listPregrado = pregrado1;
   const gradopregrado1 = useGetInfo(
-    "http://localhost:4010/list-grado-pregrado"
+    "http://137.184.220.167:4010/list-grado-pregrado"
   );
-  const maestria1 = useGetInfo("http://localhost:4010/list-maestria");
+  const maestria1 = useGetInfo("http://137.184.220.167:4010/list-maestria");
   const gradomaestria1 = useGetInfo(
-    "http://localhost:4010/list-grado-maestria"
+    "http://137.184.220.167:4010/list-grado-maestria"
   );
-  const doctorado1 = useGetInfo("http://localhost:4010/list-doctorado");
+  const doctorado1 = useGetInfo("http://137.184.220.167:4010/list-doctorado");
   const gradodoctorado1 = useGetInfo(
-    "http://localhost:4010/list-grado-doctorado"
+    "http://137.184.220.167:4010/list-grado-doctorado"
   );
 
-  const continua1 = useGetInfo("http://localhost:4010/list-continua");
-  const experiencia1 = useGetInfo("http://localhost:4010/list-experiencia");
+  const continua1 = useGetInfo("http://137.184.220.167:4010/list-continua");
+  const experiencia1 = useGetInfo("http://137.184.220.167:4010/list-experiencia");
 
   const hola = useGetResult(API, listEmail);
 
