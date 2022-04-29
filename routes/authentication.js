@@ -1043,22 +1043,83 @@ router.post(
 );
 
 router.post("/email-result", async (req, res) => {
-  console.log(req.body, "ebtrta");
   let resultado = [];
   if (req.body.length == 0) {
-    console.log("fuck you");
-
     const result = await pool.query("SELECT * FROM tb_AcercaDeTi_Consultor;");
     resultado = result.rows;
   }
-
+  console.log(req.body);
   for (let i = 0; i < req.body.length; i++) {
     const result = await pool.query(
       "SELECT * FROM tb_AcercaDeTi_Consultor WHERE email = $1;",
-      [req.body[i]]
+      [req.body[i].email]
     );
     resultado.push(result.rows[0]);
   }
+  res.json(resultado);
+}); 
+
+router.get("/list-pregrado", async (req, res) => {
+  const result = await pool.query(
+    "SELECT DISTINCT carrerauniversitaria as value, carrerauniversitaria as label FROM tb_formacioninicial WHERE idtipodeformacion = 1;"
+  );
+  const resultado = result.rows;
+  res.json(resultado);
+});
+
+router.get("/list-grado-pregrado", async (req, res) => {
+  const result = await pool.query(
+    "SELECT DISTINCT nombreformacionpregrado as value, nombreformacionpregrado as label, carrerauniversitaria FROM tb_formacioninicial JOIN formacionpregrado f on tb_formacioninicial.idformacionpregrado = f.idformacionpregrado WHERE tb_formacioninicial.idtipodeformacion = 1;"
+  );
+  const resultado = result.rows;
+  res.json(resultado);
+});
+
+router.get("/list-maestria", async (req, res) => {
+  const result = await pool.query(
+    "SELECT DISTINCT carrerauniversitaria as value, carrerauniversitaria as label FROM tb_formacioninicial WHERE idtipodeformacion = 2;"
+  );
+  const resultado = result.rows;
+  res.json(resultado);
+});
+
+router.get("/list-grado-maestria", async (req, res) => {
+  const result = await pool.query(
+    "SELECT distinct nombresubpostgrado as value, nombresubpostgrado as label, carrerauniversitaria FROM tb_formacioninicial JOIN formacionsubpostgrado f on tb_formacioninicial.idsubpostgrado = f.idsubpostgrado WHERE tb_formacioninicial.idtipodeformacion = 2 AND tb_formacioninicial.idformacionpostgrado = 1;"
+  );
+  const resultado = result.rows;
+  res.json(resultado);
+});
+
+router.get("/list-doctorado", async (req, res) => {
+  const result = await pool.query(
+    "SELECT DISTINCT carrerauniversitaria as value, carrerauniversitaria as label FROM tb_formacioninicial WHERE idtipodeformacion = 2 and idformacionpostgrado = 2;"
+  );
+  const resultado = result.rows;
+  res.json(resultado);
+});
+
+router.get("/list-grado-doctorado", async (req, res) => {
+  const result = await pool.query(
+    "SELECT distinct nombresubpostgrado as value, nombresubpostgrado as label, carrerauniversitaria FROM tb_formacioninicial JOIN formacionsubpostgrado f on tb_formacioninicial.idsubpostgrado = f.idsubpostgrado WHERE tb_formacioninicial.idtipodeformacion = 2 AND tb_formacioninicial.idformacionpostgrado = 2;"
+  );
+  const resultado = result.rows;
+  res.json(resultado);
+});
+
+router.get("/list-continua", async (req, res) => {
+  const result = await pool.query(
+    "SELECT DISTINCT nombrelogro as value, nombrelogro as label FROM tb_formacioncontinua;"
+  );
+  const resultado = result.rows;
+  res.json(resultado);
+});
+
+router.get("/list-experiencia", async (req, res) => {
+  const result = await pool.query(
+    "SELECT DISTINCT nombrecargo as value, nombrecargo as label FROM tb_experiencialaboral;"
+  );
+  const resultado = result.rows;
   res.json(resultado);
 });
 
