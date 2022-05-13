@@ -1075,7 +1075,7 @@ router.get("/list-grado-pregrado", async (req, res) => {
   res.json(resultado);
 });
 
-router.get("/list-maestria", async (req, res) => {
+router.get("/list-maestria", async (req, res ) => {
   const result = await pool.query(
     "SELECT DISTINCT carrerauniversitaria as value, carrerauniversitaria as label FROM tb_formacioninicial WHERE idtipodeformacion = 2;"
   );
@@ -1118,6 +1118,14 @@ router.get("/list-continua", async (req, res) => {
 router.get("/list-experiencia", async (req, res) => {
   const result = await pool.query(
     "SELECT DISTINCT nombrecargo as value, nombrecargo as label FROM tb_experiencialaboral;"
+  );
+  const resultado = result.rows;
+  res.json(resultado);
+});
+
+router.get("/list-experiencia-funciones", async (req, res) => {
+  const result = await pool.query(
+    "SELECT DISTINCT funcion as value, funcion as label FROM tb_experienciafunciones;"
   );
   const resultado = result.rows;
   res.json(resultado);
