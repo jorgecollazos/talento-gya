@@ -174,12 +174,6 @@ export const doctorado = [
     "nombresubpostgrado": "Titulado"
   },
   {
-    "email": "iregutarra@gmail.com",
-    "value": "Psicología  de la Educación  y Desarrollo Humano",
-    "label": "Psicología  de la Educación  y Desarrollo Humano",
-    "nombresubpostgrado": "Titulado"
-  },
-  {
     "email": "ivetlinares@gmail",
     "value": "Doctorado en Economía de los Recursos Naturales y el Desarrollo sustentable",
     "label": "Doctorado en Economía de los Recursos Naturales y el Desarrollo sustentable",

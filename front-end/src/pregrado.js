@@ -105,13 +105,6 @@ export let pregrado = [
     "erescolegiado": 1
   },
   {
-    "email": "iregutarra@gmail.com",
-    "value": "Derecho",
-    "label": "Derecho",
-    "nombreformacionpregrado": "Bachiller",
-    "erescolegiado": 0
-  },
-  {
     "email": "dora.zaravia@pucp.edu.pe",
     "value": "Educación Primaria",
     "label": "Educación Primaria",
@@ -1946,13 +1939,6 @@ export let pregrado = [
     "erescolegiado": 0
   },
   {
-    "email": "iregutarra@gmail.com",
-    "value": "Educación, especialidad de Filosofía y Ciencias Sociales",
-    "label": "Educación, especialidad de Filosofía y Ciencias Sociales",
-    "nombreformacionpregrado": "Titulado",
-    "erescolegiado": 0
-  },
-  {
     "email": "ehumberto.delcastillo@gmail.com",
     "value": "Ciencias Sociales, especialidad: Sociología",
     "label": "Ciencias Sociales, especialidad: Sociología",
@@ -2020,13 +2006,6 @@ export let pregrado = [
     "value": "Psicología",
     "label": "Psicología",
     "nombreformacionpregrado": "Titulado",
-    "erescolegiado": 0
-  },
-  {
-    "email": "iregutarra@gmail.com",
-    "value": "Ciencias Sociales con mención en Sociología",
-    "label": "Ciencias Sociales con mención en Sociología",
-    "nombreformacionpregrado": "Bachiller",
     "erescolegiado": 0
   },
   {
@@ -3444,13 +3423,6 @@ export let pregrado = [
     "erescolegiado": 0
   },
   {
-    "email": "iregutarra@gmail.com",
-    "value": "Abogacía",
-    "label": "Abogacía",
-    "nombreformacionpregrado": "Titulado",
-    "erescolegiado": 1
-  },
-  {
     "email": "gisella.sovero@gmail.com",
     "value": "Ciencias y Artes de la Comunicación con mención en comunicación para el desarrollo",
     "label": "Ciencias y Artes de la Comunicación con mención en comunicación para el desarrollo",
@@ -4723,13 +4695,6 @@ export let pregrado = [
     "label": "Abogada",
     "nombreformacionpregrado": "Titulado",
     "erescolegiado": 1
-  },
-  {
-    "email": "iregutarra@gmail.com",
-    "value": "Educación Secundaria con especialidad en Filosofía y Ciencias Sociales",
-    "label": "Educación Secundaria con especialidad en Filosofía y Ciencias Sociales",
-    "nombreformacionpregrado": "Titulado",
-    "erescolegiado": 0
   },
   {
     "email": "aumpire@yahoo.es",

@@ -576,12 +576,6 @@ export const maestria = [
     "nombresubpostgrado": "Titulado"
   },
   {
-    "email": "iregutarra@gmail.com",
-    "value": "Ciencias de la educación con mención en Gestión e Innovación Educativa",
-    "label": "Ciencias de la educación con mención en Gestión e Innovación Educativa",
-    "nombresubpostgrado": "Estudiante"
-  },
-  {
     "email": "amasovi@hotmail.com",
     "value": "Ciencias de la Educación con mención en Gestión Educacional",
     "label": "Ciencias de la Educación con mención en Gestión Educacional",
@@ -963,12 +957,6 @@ export const maestria = [
     "email": "opc2000@hotmail.com",
     "value": "Maestría en Ciencias de la Educación con Mención en Medición y Evaluación de la Calidad Educativa",
     "label": "Maestría en Ciencias de la Educación con Mención en Medición y Evaluación de la Calidad Educativa",
-    "nombresubpostgrado": "Titulado"
-  },
-  {
-    "email": "iregutarra@gmail.com",
-    "value": "Segunda especialidad en Formación Magisterial",
-    "label": "Segunda especialidad en Formación Magisterial",
     "nombresubpostgrado": "Titulado"
   },
   {
