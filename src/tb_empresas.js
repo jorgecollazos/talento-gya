@@ -1,0 +1,15518 @@
+export let empresas = [
+  {
+    label: "CONSTRUCTORA Y PROMOTORA ARQCONSA SAC",
+    value: "CONSTRUCTORA Y PROMOTORA ARQCONSA SAC",
+  },
+  {
+    label: "DIRECCIÓN AGRARIA SAN MARTÍN",
+    value: "DIRECCIÓN AGRARIA SAN MARTÍN",
+  },
+  {
+    label: "Municipalidad Provincial De Castrovirreyna",
+    value: "Municipalidad Provincial De Castrovirreyna",
+  },
+  {
+    label: "PROYECTOS CASOP, PECOB y CCCP",
+    value: "PROYECTOS CASOP, PECOB y CCCP",
+  },
+  {
+    label: "(INADE PESCS) INSTITUTO NACIONAL DE DESARROLLO ",
+    value: "(INADE PESCS) INSTITUTO NACIONAL DE DESARROLLO ",
+  },
+  {
+    label: "026 PROGRAMA EDUCACIÓN BÁSICA PARA TODOS",
+    value: "026 PROGRAMA EDUCACIÓN BÁSICA PARA TODOS",
+  },
+  {
+    label: "17054 EL RIEGO UNIDOCENTE",
+    value: "17054 EL RIEGO UNIDOCENTE",
+  },
+  {
+    label: "17826- SAN LUIS UNIDOCENTE",
+    value: "17826- SAN LUIS UNIDOCENTE",
+  },
+  {
+    label: "2040 REPÚBLICA DE CUBA",
+    value: "2040 REPÚBLICA DE CUBA",
+  },
+  {
+    label: "20463 MONSEÑOR RAMÓN ZUBIETA MANUEL SEDANE PIURA",
+    value: "20463 MONSEÑOR RAMÓN ZUBIETA MANUEL SEDANE PIURA",
+  },
+  {
+    label: "32159 DIVINO MAESTRO",
+    value: "32159 DIVINO MAESTRO",
+  },
+  {
+    label: "5 Encuentro de programas de formación de profesores de matemáticas",
+    value: "5 Encuentro de programas de formación de profesores de matemáticas",
+  },
+  {
+    label: "80047 RAMIRO A NIQUE ESPIRITU",
+    value: "80047 RAMIRO A NIQUE ESPIRITU",
+  },
+  {
+    label: "80048 RAMIRO A NIQUE ESPIRITU",
+    value: "80048 RAMIRO A NIQUE ESPIRITU",
+  },
+  {
+    label: "A CONSULT & G CONSTRUCTOR EIRL",
+    value: "A CONSULT & G CONSTRUCTOR EIRL",
+  },
+  {
+    label: "A TRABAJAR URBANO",
+    value: "A TRABAJAR URBANO",
+  },
+  {
+    label: "A. F & J.P",
+    value: "A. F & J.P",
+  },
+  {
+    label: "A&A ARAMAYO Y ASOCIADOS SAC",
+    value: "A&A ARAMAYO Y ASOCIADOS SAC",
+  },
+  {
+    label: "A&I SRL",
+    value: "A&I SRL",
+  },
+  {
+    label: "AB SEGURIDAD E.I.R.L.",
+    value: "AB SEGURIDAD E.I.R.L.",
+  },
+  {
+    label: "ABC S.A.C.",
+    value: "ABC S.A.C.",
+  },
+  {
+    label: "ABENGOA PERU",
+    value: "ABENGOA PERU",
+  },
+  {
+    label: "Abengoa Transmisión Norte S. A.",
+    value: "Abengoa Transmisión Norte S. A.",
+  },
+  {
+    label: "ABENGOA TRANSMISIÓN SUR S. A.",
+    value: "ABENGOA TRANSMISIÓN SUR S. A.",
+  },
+  {
+    label: "ABT ASSOCIATES INC CONSULTING",
+    value: "ABT ASSOCIATES INC CONSULTING",
+  },
+  {
+    label: "AC PÚBLICA",
+    value: "AC PÚBLICA",
+  },
+  {
+    label: "ACADEMIA DE FÚTBOL TAHUICHI AGUILERA",
+    value: "ACADEMIA DE FÚTBOL TAHUICHI AGUILERA",
+  },
+  {
+    label: "ACADEMIA DE LA MAGISTRATURA",
+    value: "ACADEMIA DE LA MAGISTRATURA",
+  },
+  {
+    label: "ACADEMIA DE POLÍTICAS PÚBLICAS",
+    value: "ACADEMIA DE POLÍTICAS PÚBLICAS",
+  },
+  {
+    label: "ACADEMIA PITÁGORAS",
+    value: "ACADEMIA PITÁGORAS",
+  },
+  {
+    label: "ACADEMIA TRILCE",
+    value: "ACADEMIA TRILCE",
+  },
+  {
+    label: "Academy for Development - USAID",
+    value: "Academy for Development - USAID",
+  },
+  {
+    label: "ACADEMY FOR EDUCATIONAL DEVELOPMENT",
+    value: "ACADEMY FOR EDUCATIONAL DEVELOPMENT",
+  },
+  {
+    label: "Academy for Educational Development - AED",
+    value: "Academy for Educational Development - AED",
+  },
+  {
+    label:
+      "ACADEMY FOR EDUCATIONAL DEVELOPMENT (NOMBRE COMERCIAL USAID PERÚ SUMA )",
+    value:
+      "ACADEMY FOR EDUCATIONAL DEVELOPMENT (NOMBRE COMERCIAL USAID PERÚ SUMA )",
+  },
+  {
+    label: "Academy for Educational Development AED",
+    value: "Academy for Educational Development AED",
+  },
+  {
+    label: "ACCENTURE ESPAÑA",
+    value: "ACCENTURE ESPAÑA",
+  },
+  {
+    label: "ACCIÓN AGRARIA",
+    value: "ACCIÓN AGRARIA",
+  },
+  {
+    label: "ACCION COMUNITARIA PERÚ",
+    value: "ACCION COMUNITARIA PERÚ",
+  },
+  {
+    label: "ACCIÓN POR LOS NIÑOS",
+    value: "ACCIÓN POR LOS NIÑOS",
+  },
+  {
+    label: "ACE INTERNATIONAL SAC",
+    value: "ACE INTERNATIONAL SAC",
+  },
+  {
+    label: "ACE JA ENCINAS FRANCO",
+    value: "ACE JA ENCINAS FRANCO",
+  },
+  {
+    label: "ACON AMBIENTAL CONSULTORES SAC",
+    value: "ACON AMBIENTAL CONSULTORES SAC",
+  },
+  {
+    label: "ACPRO ASOCIADOS SOCIEDAD COMERCIAL DE RESONSABILIDAD LIMITADA",
+    value: "ACPRO ASOCIADOS SOCIEDAD COMERCIAL DE RESONSABILIDAD LIMITADA",
+  },
+  {
+    label: "AD REM SAC",
+    value: "AD REM SAC",
+  },
+  {
+    label: "ADAN CONSULTORES SAC",
+    value: "ADAN CONSULTORES SAC",
+  },
+  {
+    label: "ADECCO BETTER WORK BETTER LIFE",
+    value: "ADECCO BETTER WORK BETTER LIFE",
+  },
+  {
+    label: "ADEX",
+    value: "ADEX",
+  },
+  {
+    label: "ADG",
+    value: "ADG",
+  },
+  {
+    label: "ADICEPSH",
+    value: "ADICEPSH",
+  },
+  {
+    label: "ADICLAC",
+    value: "ADICLAC",
+  },
+  {
+    label: "ADMINISTRA S.A.C.",
+    value: "ADMINISTRA S.A.C.",
+  },
+  {
+    label: "ADRA PERÚ",
+    value: "ADRA PERÚ",
+  },
+  {
+    label: "ADVANCED LOGISTICS GROUP S.A.C.",
+    value: "ADVANCED LOGISTICS GROUP S.A.C.",
+  },
+  {
+    label: "AECOM INTERNATIONAL DEVELOPMENT",
+    value: "AECOM INTERNATIONAL DEVELOPMENT",
+  },
+  {
+    label:
+      "AGAPITO BLADIMITO QUINTANA RODRÍGUEZ CONTRATISTA DE OBRAS DE SANEAMIENTO",
+    value:
+      "AGAPITO BLADIMITO QUINTANA RODRÍGUEZ CONTRATISTA DE OBRAS DE SANEAMIENTO",
+  },
+  {
+    label: "AGENCIA ADVENTISTA PARA EL DESARROLLO Y RECURSOS ASISTENCIALES",
+    value: "AGENCIA ADVENTISTA PARA EL DESARROLLO Y RECURSOS ASISTENCIALES",
+  },
+  {
+    label: "AGENCIA BUILDING CONNECTIONS",
+    value: "AGENCIA BUILDING CONNECTIONS",
+  },
+  {
+    label: "AGENCIA PERUANA DE COOPERACIÓN INTERNACIONAL APCI",
+    value: "AGENCIA PERUANA DE COOPERACIÓN INTERNACIONAL APCI",
+  },
+  {
+    label:
+      "AGENCIA SUIZA PARA EL DESARROLLO Y LA COOPERACIÓN (COSUDE- PROGRAMA AGUASAN)",
+    value:
+      "AGENCIA SUIZA PARA EL DESARROLLO Y LA COOPERACIÓN (COSUDE- PROGRAMA AGUASAN)",
+  },
+  {
+    label: "AGENDA ESPAÑOLA DE COOPERACIÓN INTERNACIONAL",
+    value: "AGENDA ESPAÑOLA DE COOPERACIÓN INTERNACIONAL",
+  },
+  {
+    label: "AGENDA PERUANA DE COOPERACIÓN INTERNACIONAL APCI",
+    value: "AGENDA PERUANA DE COOPERACIÓN INTERNACIONAL APCI",
+  },
+  {
+    label: "AGENDA SOCIAL PARA EL DESARROLLO SOSTENIDO DE LA REGIÓN AMAZONAS",
+    value: "AGENDA SOCIAL PARA EL DESARROLLO SOSTENIDO DE LA REGIÓN AMAZONAS",
+  },
+  {
+    label: "AGRITEAM CANADÁ ",
+    value: "AGRITEAM CANADÁ ",
+  },
+  {
+    label: "AGRO INDUSTRUAL PARAMONGA SAA",
+    value: "AGRO INDUSTRUAL PARAMONGA SAA",
+  },
+  {
+    label: "AGRO RURAL",
+    value: "AGRO RURAL",
+  },
+  {
+    label: "Agrobanco",
+    value: "Agrobanco",
+  },
+  {
+    label: "AGROFORESTAL SAN ISIDRO SAC",
+    value: "AGROFORESTAL SAN ISIDRO SAC",
+  },
+  {
+    label: "AGROINDUSTRIAL SAN PEDRO SAC AGROSAN ",
+    value: "AGROINDUSTRIAL SAN PEDRO SAC AGROSAN ",
+  },
+  {
+    label: "AGROLMOS SA ESTUDIO DE IMPACTO AMBIENTAL SEMIDETALLADO ",
+    value: "AGROLMOS SA ESTUDIO DE IMPACTO AMBIENTAL SEMIDETALLADO ",
+  },
+  {
+    label: "AGRONOMES VÉTÉRINARIES SAN FRONTIERES",
+    value: "AGRONOMES VÉTÉRINARIES SAN FRONTIERES",
+  },
+  {
+    label: "AGROPECUARIOS DEL CASERÍO DE MASHACAR",
+    value: "AGROPECUARIOS DEL CASERÍO DE MASHACAR",
+  },
+  {
+    label: "AGUA LIMPIA",
+    value: "AGUA LIMPIA",
+  },
+  {
+    label: "AGUA PARA TODOS",
+    value: "AGUA PARA TODOS",
+  },
+  {
+    label: "AGUALIMPIA",
+    value: "AGUALIMPIA",
+  },
+  {
+    label: "AGUSTÍN DE HIPONA CENTRO EDUCATIVO",
+    value: "AGUSTÍN DE HIPONA CENTRO EDUCATIVO",
+  },
+  {
+    label: "ALCALDÍA DE LA MUNICIPALIDAD DISTRITAL DE INCHUPALLA",
+    value: "ALCALDÍA DE LA MUNICIPALIDAD DISTRITAL DE INCHUPALLA",
+  },
+  {
+    label: "ALCALDIA DE SAN DIEGO",
+    value: "ALCALDIA DE SAN DIEGO",
+  },
+  {
+    label: "ALDEAS INFANTILES SOS",
+    value: "ALDEAS INFANTILES SOS",
+  },
+  {
+    label: "ALDEAS INFANTILES SOS PERÚ",
+    value: "ALDEAS INFANTILES SOS PERÚ",
+  },
+  {
+    label: "ALESO SAC CONSTRUCTORA ARQUITECTÓNICA ALEJOS-SOLOEZANO & ASOC",
+    value: "ALESO SAC CONSTRUCTORA ARQUITECTÓNICA ALEJOS-SOLOEZANO & ASOC",
+  },
+  {
+    label: "ALEXIS MANUEL ROBLES VALLE",
+    value: "ALEXIS MANUEL ROBLES VALLE",
+  },
+  {
+    label:
+      "ALIANZA PARA LA PROTECCIÓN Y LA PREVENCIÓN DEL RIESGO PSICOSOCIALES NIÑAS NIÑOS Y  ADOLESCENTES",
+    value:
+      "ALIANZA PARA LA PROTECCIÓN Y LA PREVENCIÓN DEL RIESGO PSICOSOCIALES NIÑAS NIÑOS Y  ADOLESCENTES",
+  },
+  {
+    label: "ALLUS",
+    value: "ALLUS",
+  },
+  {
+    label: "ALLUS GLOBAL BPO ",
+    value: "ALLUS GLOBAL BPO ",
+  },
+  {
+    label: "ALPACA SPAR SRL",
+    value: "ALPACA SPAR SRL",
+  },
+  {
+    label: "ALPHA CONSULT SA",
+    value: "ALPHA CONSULT SA",
+  },
+  {
+    label: "ALTERNATIVA",
+    value: "ALTERNATIVA",
+  },
+  {
+    label: "ALTERNATIVA CENTRO DE INVESTIGACIÓN SOCIAL Y EDUCACIÓN POPULAR",
+    value: "ALTERNATIVA CENTRO DE INVESTIGACIÓN SOCIAL Y EDUCACIÓN POPULAR",
+  },
+  {
+    label: "ALVARO GOMEZ PRADA E.U",
+    value: "ALVARO GOMEZ PRADA E.U",
+  },
+  {
+    label: "AM SERPRODE S.A.C.",
+    value: "AM SERPRODE S.A.C.",
+  },
+  {
+    label: "AMAG",
+    value: "AMAG",
+  },
+  {
+    label: "AMBIDES SAC",
+    value: "AMBIDES SAC",
+  },
+  {
+    label: "AMBIENTE DESARROLLO SOSTENIBLE SAC",
+    value: "AMBIENTE DESARROLLO SOSTENIBLE SAC",
+  },
+  {
+    label: "AMBIENTE INGENIEROS SA",
+    value: "AMBIENTE INGENIEROS SA",
+  },
+  {
+    label: "AMEC FOSTER WHEELER",
+    value: "AMEC FOSTER WHEELER",
+  },
+  {
+    label: "AMEC FOSTER WHEELER PERÚ SA",
+    value: "AMEC FOSTER WHEELER PERÚ SA",
+  },
+  {
+    label: "ANÁLISIS ESTADÍSTICO CONSULTORES SAC",
+    value: "ANÁLISIS ESTADÍSTICO CONSULTORES SAC",
+  },
+  {
+    label: "ANÁLISIS POLÍTICO Y CONSULTORÍA S.A.C.",
+    value: "ANÁLISIS POLÍTICO Y CONSULTORÍA S.A.C.",
+  },
+  {
+    label: "ANDEAN SERVICES  SAC",
+    value: "ANDEAN SERVICES  SAC",
+  },
+  {
+    label:
+      "ANDEAN SERVICES SAC CONSULTORÍA, PERFILES, PROYECTOS SNIP Y FORMACIÓN DE RECURSOS HUMANOS EN EL ÁREA AGROPECUARIA",
+    value:
+      "ANDEAN SERVICES SAC CONSULTORÍA, PERFILES, PROYECTOS SNIP Y FORMACIÓN DE RECURSOS HUMANOS EN EL ÁREA AGROPECUARIA",
+  },
+  {
+    label: "ÁNGELES MINERÍA Y CONSTRUCCIÓN SAC",
+    value: "ÁNGELES MINERÍA Y CONSTRUCCIÓN SAC",
+  },
+  {
+    label: "Anovo Perú S.A.C",
+    value: "Anovo Perú S.A.C",
+  },
+  {
+    label: "Anovo Perú SAC",
+    value: "Anovo Perú SAC",
+  },
+  {
+    label: "ANTONIO BRACK & CONSULTORES ASOCIADOS",
+    value: "ANTONIO BRACK & CONSULTORES ASOCIADOS",
+  },
+  {
+    label: "ANTONIO RUIZ DE MONTOYA",
+    value: "ANTONIO RUIZ DE MONTOYA",
+  },
+  {
+    label: "ANTONIO RUIZ DE MONTOYA UNIVERSIDAD JESUITA",
+    value: "ANTONIO RUIZ DE MONTOYA UNIVERSIDAD JESUITA",
+  },
+  {
+    label: "APC Corporación SA",
+    value: "APC Corporación SA",
+  },
+  {
+    label: "APEMIPE ANDAHUAYLAS",
+    value: "APEMIPE ANDAHUAYLAS",
+  },
+  {
+    label: "APODER A LA  DESCENTRALIZACIÓN EN ESPACIOS RURALES",
+    value: "APODER A LA  DESCENTRALIZACIÓN EN ESPACIOS RURALES",
+  },
+  {
+    label: "APOLINAR JUNIOR MADRID ESCOBAR",
+    value: "APOLINAR JUNIOR MADRID ESCOBAR",
+  },
+  {
+    label: "Aporta ",
+    value: "Aporta ",
+  },
+  {
+    label:
+      "APOYO A LA PLANIFICACIÓN AGRÍCOLA Y DESARROLLO INSTITUCIONAL (PADI)",
+    value:
+      "APOYO A LA PLANIFICACIÓN AGRÍCOLA Y DESARROLLO INSTITUCIONAL (PADI)",
+  },
+  {
+    label:
+      "APOYO A LAS INSTITUCIONES CONFORMANTES DEL SISTEMA DE ADMINISTRACIÓN DE JUSTICIA DEL PERÚ",
+    value:
+      "APOYO A LAS INSTITUCIONES CONFORMANTES DEL SISTEMA DE ADMINISTRACIÓN DE JUSTICIA DEL PERÚ",
+  },
+  {
+    label: "APOYO COMUNICATION CORPORATIVA",
+    value: "APOYO COMUNICATION CORPORATIVA",
+  },
+  {
+    label: "APOYO CONSULTORÍA",
+    value: "APOYO CONSULTORÍA",
+  },
+  {
+    label: "APOYO CONSULTORÍA SAC",
+    value: "APOYO CONSULTORÍA SAC",
+  },
+  {
+    label: "APPLUS NORCONTROL SAC",
+    value: "APPLUS NORCONTROL SAC",
+  },
+  {
+    label: "APRENDIENDO LIMA CLIMA SIN RIESGO",
+    value: "APRENDIENDO LIMA CLIMA SIN RIESGO",
+  },
+  {
+    label: "APRENDIZAJE ESTRATÉGICO LOGROS DE APRENDIZAJE",
+    value: "APRENDIZAJE ESTRATÉGICO LOGROS DE APRENDIZAJE",
+  },
+  {
+    label: "APRODE EL AMAUTA",
+    value: "APRODE EL AMAUTA",
+  },
+  {
+    label: "AQUAINCA TECNOLOGÍA EN TRATAMIENTO DE AGUA",
+    value: "AQUAINCA TECNOLOGÍA EN TRATAMIENTO DE AGUA",
+  },
+  {
+    label: "ARCHIVO GENERAL DE LA NACIÓN",
+    value: "ARCHIVO GENERAL DE LA NACIÓN",
+  },
+  {
+    label: "ARCOS G&G",
+    value: "ARCOS G&G",
+  },
+  {
+    label: "ARD INC SUCURSAL EN PERÚ",
+    value: "ARD INC SUCURSAL EN PERÚ",
+  },
+  {
+    label: "ARE YAKU PACHA SAC",
+    value: "ARE YAKU PACHA SAC",
+  },
+  {
+    label: "ÁREA DE DESARROLLO EDUCATIVO N 01 DE AMBO",
+    value: "ÁREA DE DESARROLLO EDUCATIVO N 01 DE AMBO",
+  },
+  {
+    label:
+      "Área de Gobernabilidad y Derechos Humanos. Instituto de Defensa Legal",
+    value:
+      "Área de Gobernabilidad y Derechos Humanos. Instituto de Defensa Legal",
+  },
+  {
+    label: "ÁREA DE INVESTIGACIÓN DISDE",
+    value: "ÁREA DE INVESTIGACIÓN DISDE",
+  },
+  {
+    label: "ARGHYS CONSULTING S.A.",
+    value: "ARGHYS CONSULTING S.A.",
+  },
+  {
+    label: "ARLU CONSTRUCTORES Y CONSULTORES SCRL",
+    value: "ARLU CONSTRUCTORES Y CONSULTORES SCRL",
+  },
+  {
+    label: "ARQ.WILHELM BALBIN LAZO",
+    value: "ARQ.WILHELM BALBIN LAZO",
+  },
+  {
+    label: "ARQUITECTO CARLOS LINDAO JIMENEZ",
+    value: "ARQUITECTO CARLOS LINDAO JIMENEZ",
+  },
+  {
+    label: "ARQUITECTO LUIS FERNANDO ITURRAN URQUIZA",
+    value: "ARQUITECTO LUIS FERNANDO ITURRAN URQUIZA",
+  },
+  {
+    label: "ARQUITECTO ROJAS LAZO JOSÉ ANTONIO",
+    value: "ARQUITECTO ROJAS LAZO JOSÉ ANTONIO",
+  },
+  {
+    label: "ARQUITECTO WILHELM BALBÍN LAZO",
+    value: "ARQUITECTO WILHELM BALBÍN LAZO",
+  },
+  {
+    label: "ARQUITECTURA&SERVICIOS GENERALES S.A.C",
+    value: "ARQUITECTURA&SERVICIOS GENERALES S.A.C",
+  },
+  {
+    label: "ARTURO DELGADO VIZCARRA. ABOGADO",
+    value: "ARTURO DELGADO VIZCARRA. ABOGADO",
+  },
+  {
+    label: "ASCENDANT GROUP",
+    value: "ASCENDANT GROUP",
+  },
+  {
+    label: "ASCENSORES SCHINDLER DE VENEZUELA SA",
+    value: "ASCENSORES SCHINDLER DE VENEZUELA SA",
+  },
+  {
+    label: "ASENTAMIENTO HUMANO LA PAZ",
+    value: "ASENTAMIENTO HUMANO LA PAZ",
+  },
+  {
+    label: "ASESORES Y CONSULTORES MINEROS SA",
+    value: "ASESORES Y CONSULTORES MINEROS SA",
+  },
+  {
+    label: "ASIDME ASOCIACIÓN DE SERVICIOS Y DESARROLLO PARA LA MICRO EMPRESA",
+    value: "ASIDME ASOCIACIÓN DE SERVICIOS Y DESARROLLO PARA LA MICRO EMPRESA",
+  },
+  {
+    label: "ASME PERÚ SECTION",
+    value: "ASME PERÚ SECTION",
+  },
+  {
+    label: "ASOCACIÓN AMAÓNICOS POR LA AMAZONÍA AMPA",
+    value: "ASOCACIÓN AMAÓNICOS POR LA AMAZONÍA AMPA",
+  },
+  {
+    label:
+      "ASOCACIÓN NAICONA DE MAESTRO DE EDUCACIÓN BILINQUE INTERCULTURAL HUANUCO",
+    value:
+      "ASOCACIÓN NAICONA DE MAESTRO DE EDUCACIÓN BILINQUE INTERCULTURAL HUANUCO",
+  },
+  {
+    label: "ASOCAICIÓN EDUCATIVA CARL SAGAN",
+    value: "ASOCAICIÓN EDUCATIVA CARL SAGAN",
+  },
+  {
+    label:
+      "ASOCIACIÓN ANCIONAL DE INSTITUTOS DE DESARROLLO DEL SECTOR INFORMAL-IDESI NACIONAL",
+    value:
+      "ASOCIACIÓN ANCIONAL DE INSTITUTOS DE DESARROLLO DEL SECTOR INFORMAL-IDESI NACIONAL",
+  },
+  {
+    label: "ASOCIACIÓN ANNA LINDH",
+    value: "ASOCIACIÓN ANNA LINDH",
+  },
+  {
+    label: "ASOCIACIÓN BENÉFICA PRISMA",
+    value: "ASOCIACIÓN BENÉFICA PRISMA",
+  },
+  {
+    label: "ASOCIACIÓN CENECAPE JESÚS OBRERO CCAIJO",
+    value: "ASOCIACIÓN CENECAPE JESÚS OBRERO CCAIJO",
+  },
+  {
+    label: "ASOCIACIÓN CENTRO PARA LA COMPETIVIDAD Y EL DESARROLLO",
+    value: "ASOCIACIÓN CENTRO PARA LA COMPETIVIDAD Y EL DESARROLLO",
+  },
+  {
+    label: "ASOCIACIÓN CENTRO TRAMA",
+    value: "ASOCIACIÓN CENTRO TRAMA",
+  },
+  {
+    label: "ASOCIACIÓN CESEL ",
+    value: "ASOCIACIÓN CESEL ",
+  },
+  {
+    label: "ASOCIACIÓN CHAMILO",
+    value: "ASOCIACIÓN CHAMILO",
+  },
+  {
+    label: "ASOCIACIÓN CIVIL DE EDUCACIÓN Y CULTURA, RESCATANDO  LA IDENTIDAD",
+    value: "ASOCIACIÓN CIVIL DE EDUCACIÓN Y CULTURA, RESCATANDO  LA IDENTIDAD",
+  },
+  {
+    label: "ASOCIACIÓN CIVIL EDUCATIVA EDU-MAX",
+    value: "ASOCIACIÓN CIVIL EDUCATIVA EDU-MAX",
+  },
+  {
+    label: "ASOCIACIÓN CIVIL FONDO SOCIAL LAS BAMBAS-FOSBAM",
+    value: "ASOCIACIÓN CIVIL FONDO SOCIAL LAS BAMBAS-FOSBAM",
+  },
+  {
+    label: "ASOCIACIÓN CIVIL FONDO SOCIAL MAGISTRAL",
+    value: "ASOCIACIÓN CIVIL FONDO SOCIAL MAGISTRAL",
+  },
+  {
+    label: "ASOCIACIÓN CIVIL KUNTUR KALLPA",
+    value: "ASOCIACIÓN CIVIL KUNTUR KALLPA",
+  },
+  {
+    label: "Asociacion Civil Pro Rural",
+    value: "Asociacion Civil Pro Rural",
+  },
+  {
+    label: "ASOCIACIÓN CIVIL PROSA",
+    value: "ASOCIACIÓN CIVIL PROSA",
+  },
+  {
+    label: "ASOCIACIÓN CIVIL RENOVANDO ESPACIOS",
+    value: "ASOCIACIÓN CIVIL RENOVANDO ESPACIOS",
+  },
+  {
+    label: "ASOCIACIÓN CIVIL SOLIDARITAS PERÚ",
+    value: "ASOCIACIÓN CIVIL SOLIDARITAS PERÚ",
+  },
+  {
+    label: "ASOCIACIÓN CIVIL TRANSPARENCIA",
+    value: "ASOCIACIÓN CIVIL TRANSPARENCIA",
+  },
+  {
+    label: "ASOCIACIÓN CULTURAL LATINOAMERICANA",
+    value: "ASOCIACIÓN CULTURAL LATINOAMERICANA",
+  },
+  {
+    label: "ASOCIACIÓN CULTURAL PUEBLO Y BOSQUE",
+    value: "ASOCIACIÓN CULTURAL PUEBLO Y BOSQUE",
+  },
+  {
+    label: "ASOCIACIÓN CULTURAL SUNTHURHUASI",
+    value: "ASOCIACIÓN CULTURAL SUNTHURHUASI",
+  },
+  {
+    label: "ASOCIACIÓN CULTURAL Y EDUCACIÓN SUNTURHUASI",
+    value: "ASOCIACIÓN CULTURAL Y EDUCACIÓN SUNTURHUASI",
+  },
+  {
+    label:
+      "ASOCIACIÓN DE CAPACITACIÓN Y PROMOCIÓN PARA EL DESARROLLO SOCIAL ACOPRODES",
+    value:
+      "ASOCIACIÓN DE CAPACITACIÓN Y PROMOCIÓN PARA EL DESARROLLO SOCIAL ACOPRODES",
+  },
+  {
+    label: "ASOCIACIÓN DE CENTROS COMERCIALES Y DE ENTRETENIMIENTO DEL PERÚ",
+    value: "ASOCIACIÓN DE CENTROS COMERCIALES Y DE ENTRETENIMIENTO DEL PERÚ",
+  },
+  {
+    label:
+      "ASOCIACIÓN DE CONSULTORES ÍTALO PERUANOS-SOCIETÁ ITALIANA DI MONITORAGGIO SoA SUCURSAL DEL PERÚ",
+    value:
+      "ASOCIACIÓN DE CONSULTORES ÍTALO PERUANOS-SOCIETÁ ITALIANA DI MONITORAGGIO SoA SUCURSAL DEL PERÚ",
+  },
+  {
+    label:
+      "ASOCIACION DE DEFENSA Y DESARROLLO DE LAS COMUNIDADES ANDINAS DEL PERÚ",
+    value:
+      "ASOCIACION DE DEFENSA Y DESARROLLO DE LAS COMUNIDADES ANDINAS DEL PERÚ",
+  },
+  {
+    label:
+      "ASOCIACIÓN DE DESARROLLO E INVESTIGACIÓN PARA LA CULTURA, EDUCACIÓN Y PRODUCCIÓN SUNTURHUASI ADICEPSH",
+    value:
+      "ASOCIACIÓN DE DESARROLLO E INVESTIGACIÓN PARA LA CULTURA, EDUCACIÓN Y PRODUCCIÓN SUNTURHUASI ADICEPSH",
+  },
+  {
+    label: "ASOCIACIÓN DE EXPORTADORES (ADEX)",
+    value: "ASOCIACIÓN DE EXPORTADORES (ADEX)",
+  },
+  {
+    label:
+      "ASOCIACIÓN DE GRADUADOS DE LA UNIVERSIDAD NACIONAL AGRARIA LA MOLINA",
+    value:
+      "ASOCIACIÓN DE GRADUADOS DE LA UNIVERSIDAD NACIONAL AGRARIA LA MOLINA",
+  },
+  {
+    label:
+      "ASOCIACIÓN DE INVESIGACIÓN Y ESPECIALIZACIÓN SOBRE TEMAS IBEROAMEICANOS AIETI",
+    value:
+      "ASOCIACIÓN DE INVESIGACIÓN Y ESPECIALIZACIÓN SOBRE TEMAS IBEROAMEICANOS AIETI",
+  },
+  {
+    label: "ASOCIACIÓN DE INVESTIGACIÓN Y ESPECIALIZACIÓN",
+    value: "ASOCIACIÓN DE INVESTIGACIÓN Y ESPECIALIZACIÓN",
+  },
+  {
+    label: "ASOCIACIÓN DE MUJERES LATINOAMERICANAS AMALGAMA",
+    value: "ASOCIACIÓN DE MUJERES LATINOAMERICANAS AMALGAMA",
+  },
+  {
+    label: "ASOCIACIÓN DE MUJERES LATINOAMERICANAS AMALGANA",
+    value: "ASOCIACIÓN DE MUJERES LATINOAMERICANAS AMALGANA",
+  },
+  {
+    label: "ASOCIACIÓN DE PRODUCCIÓN ORGÁNICA Y APICULTURA-APROAPIC",
+    value: "ASOCIACIÓN DE PRODUCCIÓN ORGÁNICA Y APICULTURA-APROAPIC",
+  },
+  {
+    label:
+      "ASOCIACIÓN DE PRODUCTORES AGROPECUARIOS AGROINDUSTRIALES ECONOLÓGICOS Y TURÍSTICOS EL TRIUNFO APAIET EL TRIUNFO ",
+    value:
+      "ASOCIACIÓN DE PRODUCTORES AGROPECUARIOS AGROINDUSTRIALES ECONOLÓGICOS Y TURÍSTICOS EL TRIUNFO APAIET EL TRIUNFO ",
+  },
+  {
+    label:
+      "ASOCIACIÓN DE PRODUCTORES DE TRUCHA DE VALLE CAEHUASCANCHA DEL CENTRO POBLADO DE ACOPARA",
+    value:
+      "ASOCIACIÓN DE PRODUCTORES DE TRUCHA DE VALLE CAEHUASCANCHA DEL CENTRO POBLADO DE ACOPARA",
+  },
+  {
+    label:
+      "ASOCIACIÓN DE PRODUCTORES ECOLÓGICOS DE PLANTAS AROMÁTICAS DE SIHUAS APEPA",
+    value:
+      "ASOCIACIÓN DE PRODUCTORES ECOLÓGICOS DE PLANTAS AROMÁTICAS DE SIHUAS APEPA",
+  },
+  {
+    label: "ASOCIACIÓN DE PROMOCIÓN Y DESARROLLO AGROPECUARIO CAJAMARCA",
+    value: "ASOCIACIÓN DE PROMOCIÓN Y DESARROLLO AGROPECUARIO CAJAMARCA",
+  },
+  {
+    label: "ASOCIACIÓN DE PROPIETARIOS DE LA URBANIZACIÓN LA CAPULLANA",
+    value: "ASOCIACIÓN DE PROPIETARIOS DE LA URBANIZACIÓN LA CAPULLANA",
+  },
+  {
+    label: "Asociación de Redes Ambientales de Villa el Salvador - REDAVES",
+    value: "Asociación de Redes Ambientales de Villa el Salvador - REDAVES",
+  },
+  {
+    label: "ASOCIACIÓN DE SERVICIOS EDUCATIVOS RURALES SER",
+    value: "ASOCIACIÓN DE SERVICIOS EDUCATIVOS RURALES SER",
+  },
+  {
+    label: "ASOCIACIÓN EDUCATIVA ADVENTISTA NOR ORIENTAL ALTO MAYO",
+    value: "ASOCIACIÓN EDUCATIVA ADVENTISTA NOR ORIENTAL ALTO MAYO",
+  },
+  {
+    label: "ASOCIACION EDUCATIVA ADVENTISTA PERUANA DEL NORTE",
+    value: "ASOCIACION EDUCATIVA ADVENTISTA PERUANA DEL NORTE",
+  },
+  {
+    label: "ASOCIACIÓN EDUCATIVA ARES PROMOTOMA DE LOS COLEGIOS TRILCE",
+    value: "ASOCIACIÓN EDUCATIVA ARES PROMOTOMA DE LOS COLEGIOS TRILCE",
+  },
+  {
+    label: "ASOCIACIÓN EDUCATIVA CENEPA PERÚ",
+    value: "ASOCIACIÓN EDUCATIVA CENEPA PERÚ",
+  },
+  {
+    label:
+      "ASOCIACIÓN EDUCATIVA CULTURAL Y DE INVESTIGACIÓN CARLOS UBINA BURGOS",
+    value:
+      "ASOCIACIÓN EDUCATIVA CULTURAL Y DE INVESTIGACIÓN CARLOS UBINA BURGOS",
+  },
+  {
+    label: "ASOCIACIÓN EDUCATIVA DE INVESTIGACIÓN Y DESARROLLO CULTURAL",
+    value: "ASOCIACIÓN EDUCATIVA DE INVESTIGACIÓN Y DESARROLLO CULTURAL",
+  },
+  {
+    label:
+      "ASOCIACIÓN EDUCATIVA INSITUTO DE INVESTIGACIONES EDUCATIVAS JOSÉ ANTONIO ENCINAS",
+    value:
+      "ASOCIACIÓN EDUCATIVA INSITUTO DE INVESTIGACIONES EDUCATIVAS JOSÉ ANTONIO ENCINAS",
+  },
+  {
+    label: "ASOCIACIÓN EDUCATIVA PARA EL DESARROLLO HUMANO",
+    value: "ASOCIACIÓN EDUCATIVA PARA EL DESARROLLO HUMANO",
+  },
+  {
+    label: "ASOCIACIÓN EDUCATIVA SANTA BEATRIZ",
+    value: "ASOCIACIÓN EDUCATIVA SANTA BEATRIZ",
+  },
+  {
+    label: "ASOCIACIÓN EDUCATIVA SASAWI",
+    value: "ASOCIACIÓN EDUCATIVA SASAWI",
+  },
+  {
+    label: "ASOCIACIÓN EDUCATIVA UNICENCIAS TECNOLOGÍA",
+    value: "ASOCIACIÓN EDUCATIVA UNICENCIAS TECNOLOGÍA",
+  },
+  {
+    label: "Asociación ENTRE PARES",
+    value: "Asociación ENTRE PARES",
+  },
+  {
+    label: "ASOCIACIÓN ESPAÑOLA DE PSICOLOGÍA CONDUCTUAL AEPC",
+    value: "ASOCIACIÓN ESPAÑOLA DE PSICOLOGÍA CONDUCTUAL AEPC",
+  },
+  {
+    label:
+      "ASOCIACIÓN EVANGÉLICA LUTERANA DE AYUDA PARA EL DESARROLLO COMUNAL DIACONÍA",
+    value:
+      "ASOCIACIÓN EVANGÉLICA LUTERANA DE AYUDA PARA EL DESARROLLO COMUNAL DIACONÍA",
+  },
+  {
+    label: "ASOCIACIÓN FILOMENA TOMAIRA PACSI, SERVICIOS A LA MUJER MINERA",
+    value: "ASOCIACIÓN FILOMENA TOMAIRA PACSI, SERVICIOS A LA MUJER MINERA",
+  },
+  {
+    label: "ASOCIACIÓN FORO DE LA SOCIEDAD CIVIL EN SALUD (FOROSALUD)",
+    value: "ASOCIACIÓN FORO DE LA SOCIEDAD CIVIL EN SALUD (FOROSALUD)",
+  },
+  {
+    label: "ASOCIACIÓN FORO EDUCATIVO",
+    value: "ASOCIACIÓN FORO EDUCATIVO",
+  },
+  {
+    label: "ASOCIACIÓN FUNDACIÓN CONTRA EL HAMBRE INTERNACIONAL",
+    value: "ASOCIACIÓN FUNDACIÓN CONTRA EL HAMBRE INTERNACIONAL",
+  },
+  {
+    label: "ASOCIACIÓN INDÍGENA PARA EL DESARROLLO DE NUESTROS PUEBLOS",
+    value: "ASOCIACIÓN INDÍGENA PARA EL DESARROLLO DE NUESTROS PUEBLOS",
+  },
+  {
+    label: "ASOCIACIÓN IRE",
+    value: "ASOCIACIÓN IRE",
+  },
+  {
+    label: "ASOCIACIÓN ITERBITA",
+    value: "ASOCIACIÓN ITERBITA",
+  },
+  {
+    label: "ASOCIACIÓN JUNT DE USUARIOS DE AGUA DEL DISTRITO DE RIEGO CHILLÓN",
+    value: "ASOCIACIÓN JUNT DE USUARIOS DE AGUA DEL DISTRITO DE RIEGO CHILLÓN",
+  },
+  {
+    label: "ASOCIACIÓN LABORAL PARA EL DESARROLLO ADEC ATC",
+    value: "ASOCIACIÓN LABORAL PARA EL DESARROLLO ADEC ATC",
+  },
+  {
+    label: "ASOCIACIÓN LATINOAMERICA DE INVESTIGACIÓN Y DESARROLLO PROFESIONAL",
+    value: "ASOCIACIÓN LATINOAMERICA DE INVESTIGACIÓN Y DESARROLLO PROFESIONAL",
+  },
+  {
+    label: "ASOCIACIÓN LATINOAMERICANA DE SOCIOLOGÍA",
+    value: "ASOCIACIÓN LATINOAMERICANA DE SOCIOLOGÍA",
+  },
+  {
+    label: "ASOCIACIÓN LOS ANDES DE CAJAMARCA",
+    value: "ASOCIACIÓN LOS ANDES DE CAJAMARCA",
+  },
+  {
+    label: "ASOCIACIÓN MINGA PERÚ",
+    value: "ASOCIACIÓN MINGA PERÚ",
+  },
+  {
+    label: "ASOCIACIÓN MINISTERIO DIACONAL  PAZ Y ESPERANZA",
+    value: "ASOCIACIÓN MINISTERIO DIACONAL  PAZ Y ESPERANZA",
+  },
+  {
+    label: "ASOCIACIÓN MISIONER DE LA OBRA DE JESUS",
+    value: "ASOCIACIÓN MISIONER DE LA OBRA DE JESUS",
+  },
+  {
+    label: "ASOCIACION MUJER FAMILIA",
+    value: "ASOCIACION MUJER FAMILIA",
+  },
+  {
+    label:
+      "ASOCIACIÓN NACIONAL DE INSTITUTOS DE DESARROLLO DEL SECTOR INFORMAL IDESI NACIONAL",
+    value:
+      "ASOCIACIÓN NACIONAL DE INSTITUTOS DE DESARROLLO DEL SECTOR INFORMAL IDESI NACIONAL",
+  },
+  {
+    label: "ASOCIACIÓN NACIONAL DE PRODUCTORES Y PRODUCTORES ECOLÓGICOS",
+    value: "ASOCIACIÓN NACIONAL DE PRODUCTORES Y PRODUCTORES ECOLÓGICOS",
+  },
+  {
+    label: "ASOCIACIÓN PARA EL DESARROLLO",
+    value: "ASOCIACIÓN PARA EL DESARROLLO",
+  },
+  {
+    label:
+      "ASOCIACIÓN PARA EL MANTENIMIENTO DEL DESARROLLO, EDUCACIÓN Y SOLIDARIDAD CON HISPANOAMERICA ",
+    value:
+      "ASOCIACIÓN PARA EL MANTENIMIENTO DEL DESARROLLO, EDUCACIÓN Y SOLIDARIDAD CON HISPANOAMERICA ",
+  },
+  {
+    label: "ASOCIACIÓN PARA EL MEJORAMIENTO DE LA EDUCACIÓN BÁSICA PARA TODOS",
+    value: "ASOCIACIÓN PARA EL MEJORAMIENTO DE LA EDUCACIÓN BÁSICA PARA TODOS",
+  },
+  {
+    label: "ASOCIACIÓN PARA LA CONSERVACIÓN DE LA CUENCA AMAZÓNICA ACCA",
+    value: "ASOCIACIÓN PARA LA CONSERVACIÓN DE LA CUENCA AMAZÓNICA ACCA",
+  },
+  {
+    label: "ASOCIACIÓN PARA LA EDUCACIÓN COMUNAL",
+    value: "ASOCIACIÓN PARA LA EDUCACIÓN COMUNAL",
+  },
+  {
+    label: "ASOCIACIÓN PARA LA INNOVACIÓN EDUCATIVA EDUMÁTICA",
+    value: "ASOCIACIÓN PARA LA INNOVACIÓN EDUCATIVA EDUMÁTICA",
+  },
+  {
+    label: "ASOCIACIÓN PARA LA INVESTIGACIÓN Y DESARROLLO INTEGRAL",
+    value: "ASOCIACIÓN PARA LA INVESTIGACIÓN Y DESARROLLO INTEGRAL",
+  },
+  {
+    label: "ASOCIACIÓN PARA LA INVESTIGACIÓN Y EL DESARROLLO INTEGRAL",
+    value: "ASOCIACIÓN PARA LA INVESTIGACIÓN Y EL DESARROLLO INTEGRAL",
+  },
+  {
+    label: "ASOCIACIÓN PARA LA INVESTIGACIÓN Y EL DESARROLLO INTEGRAL AIDER",
+    value: "ASOCIACIÓN PARA LA INVESTIGACIÓN Y EL DESARROLLO INTEGRAL AIDER",
+  },
+  {
+    label: "ASOCIACIÓN PARA LA PROMOCIÓN DEL DESARROLLO HUMANO APRODH",
+    value: "ASOCIACIÓN PARA LA PROMOCIÓN DEL DESARROLLO HUMANO APRODH",
+  },
+  {
+    label: "ASOCIACIÓN PATAZ",
+    value: "ASOCIACIÓN PATAZ",
+  },
+  {
+    label: "ASOCIACIÓN PAZ Y ESPERANZA",
+    value: "ASOCIACIÓN PAZ Y ESPERANZA",
+  },
+  {
+    label: "ASOCIACIÓN PAZ Y ESPERANZA MINISTERIO DIACONAL",
+    value: "ASOCIACIÓN PAZ Y ESPERANZA MINISTERIO DIACONAL",
+  },
+  {
+    label: "ASOCIACIÓN PERUANA DE DERECHO SANITARIO",
+    value: "ASOCIACIÓN PERUANA DE DERECHO SANITARIO",
+  },
+  {
+    label: "ASOCIACIÓN PERUANA DE NEGOCIACIÓN, ARBITRAJE Y CONCILIACIÓN ",
+    value: "ASOCIACIÓN PERUANA DE NEGOCIACIÓN, ARBITRAJE Y CONCILIACIÓN ",
+  },
+  {
+    label: "ASOCIACIÓN PERUANA DE PRODUCTORES DE CACAO",
+    value: "ASOCIACIÓN PERUANA DE PRODUCTORES DE CACAO",
+  },
+  {
+    label: "Asociación por la Cultura y la Educación Digital (ACUEDI)",
+    value: "Asociación por la Cultura y la Educación Digital (ACUEDI)",
+  },
+  {
+    label: "ASOCIACIÓN POR UNA FELIZ INFANCIA AFI PERÚ",
+    value: "ASOCIACIÓN POR UNA FELIZ INFANCIA AFI PERÚ",
+  },
+  {
+    label: "ASOCIACIÓN QOSQO MAKI",
+    value: "ASOCIACIÓN QOSQO MAKI",
+  },
+  {
+    label: "ASOCIACIÓN RICCHARY AYLLY DE LAMAY",
+    value: "ASOCIACIÓN RICCHARY AYLLY DE LAMAY",
+  },
+  {
+    label: "ASOCIACIÓN SAVIA PERÚ",
+    value: "ASOCIACIÓN SAVIA PERÚ",
+  },
+  {
+    label: "ASOCIACIÓN SERVICIOS EDUCATIVOS RURALES",
+    value: "ASOCIACIÓN SERVICIOS EDUCATIVOS RURALES",
+  },
+  {
+    label: "ASOCIACIÓN SERVICIOS EDUCATIVOS RURALES SER",
+    value: "ASOCIACIÓN SERVICIOS EDUCATIVOS RURALES SER",
+  },
+  {
+    label: "ASOCIACIÓN SERVICIOS EDUCATIVOS RURALES- SER",
+    value: "ASOCIACIÓN SERVICIOS EDUCATIVOS RURALES- SER",
+  },
+  {
+    label: "ASOCIACIÓN SOLARIS PERÚ",
+    value: "ASOCIACIÓN SOLARIS PERÚ",
+  },
+  {
+    label: "ASOCIACIÓN SOLIDARIA PAÍSES EMERGENTES",
+    value: "ASOCIACIÓN SOLIDARIA PAÍSES EMERGENTES",
+  },
+  {
+    label: "ASOCIACIÓN SOLIDARIDAD PAÍSES EMERGENTES ASPEM",
+    value: "ASOCIACIÓN SOLIDARIDAD PAÍSES EMERGENTES ASPEM",
+  },
+  {
+    label: "ASOCIACIÓN SOLIDARIOS",
+    value: "ASOCIACIÓN SOLIDARIOS",
+  },
+  {
+    label: "ASOCIACIÓN SUR",
+    value: "ASOCIACIÓN SUR",
+  },
+  {
+    label: "ASOCIACIÓN TALLER DE LOS NIÑOS",
+    value: "ASOCIACIÓN TALLER DE LOS NIÑOS",
+  },
+  {
+    label: "ASOCIACIÓN TARPUSUNCHIS",
+    value: "ASOCIACIÓN TARPUSUNCHIS",
+  },
+  {
+    label: "ASOCIACIÓN UNACEM",
+    value: "ASOCIACIÓN UNACEM",
+  },
+  {
+    label: "ASOCIACIÓN WARMA PURA",
+    value: "ASOCIACIÓN WARMA PURA",
+  },
+  {
+    label: "ASOCIACIÓNDE VIVIENDA RETAMALES DEL DISTRITO DE SAN JERÓNIMO",
+    value: "ASOCIACIÓNDE VIVIENDA RETAMALES DEL DISTRITO DE SAN JERÓNIMO",
+  },
+  {
+    label: "ASOCIACIONES SOLARIS PERÚ",
+    value: "ASOCIACIONES SOLARIS PERÚ",
+  },
+  {
+    label: "ASOCICIÓN BENÉFICA PRISMA ",
+    value: "ASOCICIÓN BENÉFICA PRISMA ",
+  },
+  {
+    label: "ASSOCIATION FOR FARMING SYSTEMS RESEARCH-EXTENSION",
+    value: "ASSOCIATION FOR FARMING SYSTEMS RESEARCH-EXTENSION",
+  },
+  {
+    label:
+      "ASURGIR CONSULTORES S.R.L. ESPECIALISTAS EN PROYECTOS Y GESTIÓN EMPRESARIAL",
+    value:
+      "ASURGIR CONSULTORES S.R.L. ESPECIALISTAS EN PROYECTOS Y GESTIÓN EMPRESARIAL",
+  },
+  {
+    label: "ATAHUALPA BERUDEZ CONTRATISTAS SRL",
+    value: "ATAHUALPA BERUDEZ CONTRATISTAS SRL",
+  },
+  {
+    label: "Atento del Perú SA",
+    value: "Atento del Perú SA",
+  },
+  {
+    label: "ATLANTA INGENIEROS CONTRATISTAS GENERALES SAC",
+    value: "ATLANTA INGENIEROS CONTRATISTAS GENERALES SAC",
+  },
+  {
+    label: "ATLANTEXCO FORESTAL SAC",
+    value: "ATLANTEXCO FORESTAL SAC",
+  },
+  {
+    label: "ATRABAJAR URBANO",
+    value: "ATRABAJAR URBANO",
+  },
+  {
+    label: "AURORA",
+    value: "AURORA",
+  },
+  {
+    label: "AUTORIDAD BINACIONAL AUTONOMA DEL SISTEMA HIDRICO",
+    value: "AUTORIDAD BINACIONAL AUTONOMA DEL SISTEMA HIDRICO",
+  },
+  {
+    label: "AUTORIDAD NACIONAL DEL AGUA (ANA)",
+    value: "AUTORIDAD NACIONAL DEL AGUA (ANA)",
+  },
+  {
+    label: "AUTORIDAD NACIONAL DEL AGUA ANA",
+    value: "AUTORIDAD NACIONAL DEL AGUA ANA",
+  },
+  {
+    label: "AUTORIDAD NACIONAL DEL SERVICIO CIVIL",
+    value: "AUTORIDAD NACIONAL DEL SERVICIO CIVIL",
+  },
+  {
+    label: "AUTORIDAD NACIONAL DEL SERVICIO CIVIL - SERVIR",
+    value: "AUTORIDAD NACIONAL DEL SERVICIO CIVIL - SERVIR",
+  },
+  {
+    label: "AUTORIDAD REGIONAL AMBIENTAL",
+    value: "AUTORIDAD REGIONAL AMBIENTAL",
+  },
+  {
+    label: "AUTORIDADES DEL DISTRITO DE HUAYLLAY",
+    value: "AUTORIDADES DEL DISTRITO DE HUAYLLAY",
+  },
+  {
+    label: "AUTORIDADES DEL DISTRITO DE NINACACA",
+    value: "AUTORIDADES DEL DISTRITO DE NINACACA",
+  },
+  {
+    label: "AVAL PERÚ S.A.C",
+    value: "AVAL PERÚ S.A.C",
+  },
+  {
+    label: "AYESA ENGINEERING INFORMATION IMAGINATION",
+    value: "AYESA ENGINEERING INFORMATION IMAGINATION",
+  },
+  {
+    label: "AYESA PERÚ SAC",
+    value: "AYESA PERÚ SAC",
+  },
+  {
+    label: "AYNI SAC",
+    value: "AYNI SAC",
+  },
+  {
+    label: "AYUDA EN ACCIÓN",
+    value: "AYUDA EN ACCIÓN",
+  },
+  {
+    label: "AZUL CONSULTORES SAC",
+    value: "AZUL CONSULTORES SAC",
+  },
+  {
+    label: "BACKUS UNIÓN DE CERVECERAS PERUANAS BACKUS Y JOHNSON SAA",
+    value: "BACKUS UNIÓN DE CERVECERAS PERUANAS BACKUS Y JOHNSON SAA",
+  },
+  {
+    label: "BALTIC CONTROL CARING ABOUT QUALITY",
+    value: "BALTIC CONTROL CARING ABOUT QUALITY",
+  },
+  {
+    label: "BANCO AZTECA",
+    value: "BANCO AZTECA",
+  },
+  {
+    label: "BANCO CENCOSUD",
+    value: "BANCO CENCOSUD",
+  },
+  {
+    label: "BANCO CONTINENTAL BBVA",
+    value: "BANCO CONTINENTAL BBVA",
+  },
+  {
+    label: "BANCO DE CRÉDITO - BCP",
+    value: "BANCO DE CRÉDITO - BCP",
+  },
+  {
+    label: "BANCO DE CRÉDITO (BCP)",
+    value: "BANCO DE CRÉDITO (BCP)",
+  },
+  {
+    label: "BANCO DE LA NACIÓN",
+    value: "BANCO DE LA NACIÓN",
+  },
+  {
+    label: "BANCO DE LIMA",
+    value: "BANCO DE LIMA",
+  },
+  {
+    label: "BANCO DEL TRABAJO",
+    value: "BANCO DEL TRABAJO",
+  },
+  {
+    label: "BANCO DO NORDESTE DO BRASIL S.A.",
+    value: "BANCO DO NORDESTE DO BRASIL S.A.",
+  },
+  {
+    label: "BANCO INDUSTRIAL DEL PERÚ",
+    value: "BANCO INDUSTRIAL DEL PERÚ",
+  },
+  {
+    label: "BANCO INTERAMERICANO DE DESARROLLO",
+    value: "BANCO INTERAMERICANO DE DESARROLLO",
+  },
+  {
+    label: "BANCO INTERAMERICANO DE DESARROLLO BID",
+    value: "BANCO INTERAMERICANO DE DESARROLLO BID",
+  },
+  {
+    label: "BANCO INTERAMERICANO DE DESARROLLO REPRESENTACIÓN EN EL PERÚ",
+    value: "BANCO INTERAMERICANO DE DESARROLLO REPRESENTACIÓN EN EL PERÚ",
+  },
+  {
+    label: "BANCO INTERAMERICANO DE DESARROLLO-BID",
+    value: "BANCO INTERAMERICANO DE DESARROLLO-BID",
+  },
+  {
+    label: "BANCO INTERAMERICANO DE DESARROLLO-BID- REPUBLICA DOMINICANA",
+    value: "BANCO INTERAMERICANO DE DESARROLLO-BID- REPUBLICA DOMINICANA",
+  },
+  {
+    label: "BANCO LATINO",
+    value: "BANCO LATINO",
+  },
+  {
+    label: "BANCONSULT S.A CONSULTORÍA EN GERENCIA ESTRATÉGICA",
+    value: "BANCONSULT S.A CONSULTORÍA EN GERENCIA ESTRATÉGICA",
+  },
+  {
+    label: "BARRENECHEA APRAIZ & LOPEZ RISHTER",
+    value: "BARRENECHEA APRAIZ & LOPEZ RISHTER",
+  },
+  {
+    label: "BBVA BANCO CONTINENTAL",
+    value: "BBVA BANCO CONTINENTAL",
+  },
+  {
+    label: "BD CORP SAC",
+    value: "BD CORP SAC",
+  },
+  {
+    label: "BENCHMARK ASOCIADOS SAC",
+    value: "BENCHMARK ASOCIADOS SAC",
+  },
+  {
+    label: "BGP INC PERÚ SAC",
+    value: "BGP INC PERÚ SAC",
+  },
+  {
+    label: "BIBLIOTECA NACIONAL",
+    value: "BIBLIOTECA NACIONAL",
+  },
+  {
+    label: "Biblioteca Nacional del Perú",
+    value: "Biblioteca Nacional del Perú",
+  },
+  {
+    label: "BIBLIOTECA RERO",
+    value: "BIBLIOTECA RERO",
+  },
+  {
+    label: "BIENESTAR Y PRODUCTIVIDAD BP",
+    value: "BIENESTAR Y PRODUCTIVIDAD BP",
+  },
+  {
+    label: "BINNA CORPORATION SAC",
+    value: "BINNA CORPORATION SAC",
+  },
+  {
+    label: "Binolia Porcel Luna",
+    value: "Binolia Porcel Luna",
+  },
+  {
+    label: "BIOSAFETYCLERAINGHOUSE",
+    value: "BIOSAFETYCLERAINGHOUSE",
+  },
+  {
+    label: "BISA",
+    value: "BISA",
+  },
+  {
+    label: "BITÁCORA SOCIAL",
+    value: "BITÁCORA SOCIAL",
+  },
+  {
+    label: "BITÁCORA SOCIAL MÉXICO",
+    value: "BITÁCORA SOCIAL MÉXICO",
+  },
+  {
+    label: "Bivac Del Perú",
+    value: "Bivac Del Perú",
+  },
+  {
+    label: "BM3 OBRAS Y SERVICIOS SA",
+    value: "BM3 OBRAS Y SERVICIOS SA",
+  },
+  {
+    label: "BOSQUES AMAZÓNICOS SAC",
+    value: "BOSQUES AMAZÓNICOS SAC",
+  },
+  {
+    label: "BRANDTREE GROUP",
+    value: "BRANDTREE GROUP",
+  },
+  {
+    label: "BRIGHAM YOUNG UNIVERSITY",
+    value: "BRIGHAM YOUNG UNIVERSITY",
+  },
+  {
+    label: "BROTHER GROUP MINING SAC",
+    value: "BROTHER GROUP MINING SAC",
+  },
+  {
+    label: "BRUÑO FORMANDO PARA LA VIDA",
+    value: "BRUÑO FORMANDO PARA LA VIDA",
+  },
+  {
+    label: "BS GRUPO SAC",
+    value: "BS GRUPO SAC",
+  },
+  {
+    label: "BUCYRUS",
+    value: "BUCYRUS",
+  },
+  {
+    label: "Buenas Rutas Perú",
+    value: "Buenas Rutas Perú",
+  },
+  {
+    label: "BUNKER ALPACAROSA SAC",
+    value: "BUNKER ALPACAROSA SAC",
+  },
+  {
+    label: "BUREAU VERITAS DEL PERÚ SAC",
+    value: "BUREAU VERITAS DEL PERÚ SAC",
+  },
+  {
+    label: "BUSINESSES & FINANCE",
+    value: "BUSINESSES & FINANCE",
+  },
+  {
+    label: "BUSINESSES & FINANCE SAC",
+    value: "BUSINESSES & FINANCE SAC",
+  },
+  {
+    label: "C.E. EDELMIRA DEL PANDO",
+    value: "C.E. EDELMIRA DEL PANDO",
+  },
+  {
+    label: "C.E.I. CUNA FAP DIVINO NIÑO JESÚS",
+    value: "C.E.I. CUNA FAP DIVINO NIÑO JESÚS",
+  },
+  {
+    label: "C.E.I. GOTITAS DE AMOR",
+    value: "C.E.I. GOTITAS DE AMOR",
+  },
+  {
+    label: "C.E.I. N° 157",
+    value: "C.E.I. N° 157",
+  },
+  {
+    label: "C.E.I. N° 227",
+    value: "C.E.I. N° 227",
+  },
+  {
+    label: "C.E.I. N° 278 RIOJA",
+    value: "C.E.I. N° 278 RIOJA",
+  },
+  {
+    label: "C.E.I. N° 287 RIOJA",
+    value: "C.E.I. N° 287 RIOJA",
+  },
+  {
+    label: "C.E.I. N° 512",
+    value: "C.E.I. N° 512",
+  },
+  {
+    label: "C.E.I. N°017 DE PLASHAPAMPA ",
+    value: "C.E.I. N°017 DE PLASHAPAMPA ",
+  },
+  {
+    label: "C.E.I. N°201 LA UNIÓN CAJAMARCA",
+    value: "C.E.I. N°201 LA UNIÓN CAJAMARCA",
+  },
+  {
+    label: "C.E.I. N°C288 RIOJA",
+    value: "C.E.I. N°C288 RIOJA",
+  },
+  {
+    label: "C.E.M. MARISCAL CÁCERES",
+    value: "C.E.M. MARISCAL CÁCERES",
+  },
+  {
+    label: "C.E.M. N° 50033 VIRGEN DE FÁTIMA DE SAN SEBASTIÁN",
+    value: "C.E.M. N° 50033 VIRGEN DE FÁTIMA DE SAN SEBASTIÁN",
+  },
+  {
+    label: "C.E.P.N.P. ARUTO PALOMINO RODRIGUEZ",
+    value: "C.E.P.N.P. ARUTO PALOMINO RODRIGUEZ",
+  },
+  {
+    label: "C.E.T. MARÍA INMACULADA DE HUANCAYO",
+    value: "C.E.T. MARÍA INMACULADA DE HUANCAYO",
+  },
+  {
+    label: "C.E.T.M. LUIS VALLEJOS SANTONI ",
+    value: "C.E.T.M. LUIS VALLEJOS SANTONI ",
+  },
+  {
+    label: "C.I.P. COLEGIO DE CIENCIAS",
+    value: "C.I.P. COLEGIO DE CIENCIAS",
+  },
+  {
+    label: "C.N. AGROPECUARIO VICTOR RAUL ESPINOZA SOTO",
+    value: "C.N. AGROPECUARIO VICTOR RAUL ESPINOZA SOTO",
+  },
+  {
+    label: "CABO VERDE SA CONTRATISTAS GRLS",
+    value: "CABO VERDE SA CONTRATISTAS GRLS",
+  },
+  {
+    label: "CABRERA COLEGIO PRE UNIVERSITARIO",
+    value: "CABRERA COLEGIO PRE UNIVERSITARIO",
+  },
+  {
+    label: "CAD AMAZONAS",
+    value: "CAD AMAZONAS",
+  },
+  {
+    label: "CAD INGENIEROS SRL",
+    value: "CAD INGENIEROS SRL",
+  },
+  {
+    label: "CAFAE SE",
+    value: "CAFAE SE",
+  },
+  {
+    label: "CAFÉ & CACAO DEL PERÚ",
+    value: "CAFÉ & CACAO DEL PERÚ",
+  },
+  {
+    label:
+      "CAJA DEL PESCADOR. CAJA DE BENEFICIOS Y SEGURIDAD SOCIAL DEL PESCADOR",
+    value:
+      "CAJA DEL PESCADOR. CAJA DE BENEFICIOS Y SEGURIDAD SOCIAL DEL PESCADOR",
+  },
+  {
+    label: "CAJA MUNICIPAL DE AHORRO Y CRÉDITO DE PIURA SAC",
+    value: "CAJA MUNICIPAL DE AHORRO Y CRÉDITO DE PIURA SAC",
+  },
+  {
+    label: "CAJA MUNICIPAL PAITA SA",
+    value: "CAJA MUNICIPAL PAITA SA",
+  },
+  {
+    label: "CAJA PIURA",
+    value: "CAJA PIURA",
+  },
+  {
+    label: "CÁMARA DE COMERCIO AGRARIA Y PRODUCCIÓN AGROINDUSTRIAL ",
+    value: "CÁMARA DE COMERCIO AGRARIA Y PRODUCCIÓN AGROINDUSTRIAL ",
+  },
+  {
+    label: "CÁMARA DE COMERCIO DE LIMA - CCL",
+    value: "CÁMARA DE COMERCIO DE LIMA - CCL",
+  },
+  {
+    label: "CÁMARA DE COMERCIO Y PRODUCCIÓN. CAJAMARCA",
+    value: "CÁMARA DE COMERCIO Y PRODUCCIÓN. CAJAMARCA",
+  },
+  {
+    label: "CÁMARA DE DIPUTADOS",
+    value: "CÁMARA DE DIPUTADOS",
+  },
+  {
+    label: "CÁMARA NACIONAL FORESTAL",
+    value: "CÁMARA NACIONAL FORESTAL",
+  },
+  {
+    label: "CÁMARA PERUANA DEL CAFÉ Y CACAO",
+    value: "CÁMARA PERUANA DEL CAFÉ Y CACAO",
+  },
+  {
+    label: "CAMARIS INTERNATIONAL",
+    value: "CAMARIS INTERNATIONAL",
+  },
+  {
+    label: "CAMAROS CONSTRUCCIONES SAC",
+    value: "CAMAROS CONSTRUCCIONES SAC",
+  },
+  {
+    label: "CAMPOSOL",
+    value: "CAMPOSOL",
+  },
+  {
+    label: "CAPACITACIÓN LABORAL CAPLAB",
+    value: "CAPACITACIÓN LABORAL CAPLAB",
+  },
+  {
+    label: "CAPACÍTATE PERÚ",
+    value: "CAPACÍTATE PERÚ",
+  },
+  {
+    label: "CARE",
+    value: "CARE",
+  },
+  {
+    label: "CARE INTERNACIONAL EN PERÚ",
+    value: "CARE INTERNACIONAL EN PERÚ",
+  },
+  {
+    label: "CARE PERU",
+    value: "CARE PERU",
+  },
+  {
+    label: "CARE PERU OFICINA REGIONAL DE AYACUCHOO",
+    value: "CARE PERU OFICINA REGIONAL DE AYACUCHOO",
+  },
+  {
+    label: "CARITAS ARQUIDIOCESANA DE JUANCAYO",
+    value: "CARITAS ARQUIDIOCESANA DE JUANCAYO",
+  },
+  {
+    label: "CÁRITAS CARAVELO",
+    value: "CÁRITAS CARAVELO",
+  },
+  {
+    label: "CARITAS CUSCO",
+    value: "CARITAS CUSCO",
+  },
+  {
+    label: "CÁRITAS DEL PERÚ",
+    value: "CÁRITAS DEL PERÚ",
+  },
+  {
+    label: "CARITAS DIOCENSANA HUANCAVELICA",
+    value: "CARITAS DIOCENSANA HUANCAVELICA",
+  },
+  {
+    label: "CARITAS DIOCESANA HUANCAVELICA",
+    value: "CARITAS DIOCESANA HUANCAVELICA",
+  },
+  {
+    label: "CARITAS GINEBRA",
+    value: "CARITAS GINEBRA",
+  },
+  {
+    label: "CARITAS HUARI",
+    value: "CARITAS HUARI",
+  },
+  {
+    label: "CÁRITAS ICA",
+    value: "CÁRITAS ICA",
+  },
+  {
+    label: "Caritas Prelatura de Moyobamba",
+    value: "Caritas Prelatura de Moyobamba",
+  },
+  {
+    label: "Caritas-Villa Nazaret",
+    value: "Caritas-Villa Nazaret",
+  },
+  {
+    label: "CARLOS GERMAN PAREDES GARCIA",
+    value: "CARLOS GERMAN PAREDES GARCIA",
+  },
+  {
+    label: "CASA DE FUNERALES LA ESPERANZA",
+    value: "CASA DE FUNERALES LA ESPERANZA",
+  },
+  {
+    label: "CASA DE LA JUVENTUD",
+    value: "CASA DE LA JUVENTUD",
+  },
+  {
+    label: "CASA DE LA JUVENTUD DE LA MUNICIPALIDAD SAN MARTÍN DE PORRES",
+    value: "CASA DE LA JUVENTUD DE LA MUNICIPALIDAD SAN MARTÍN DE PORRES",
+  },
+  {
+    label: "CASA GRANDE",
+    value: "CASA GRANDE",
+  },
+  {
+    label: "CASA OLIVOS",
+    value: "CASA OLIVOS",
+  },
+  {
+    label: "CASE CONSULTORA Y ASESORA SORIADOS EIRL",
+    value: "CASE CONSULTORA Y ASESORA SORIADOS EIRL",
+  },
+  {
+    label: "CASE CONSULTORÍA Y ASESORÍA SORADOS EIRL",
+    value: "CASE CONSULTORÍA Y ASESORÍA SORADOS EIRL",
+  },
+  {
+    label: "CASTROVIRREYNA",
+    value: "CASTROVIRREYNA",
+  },
+  {
+    label: "CATHOLIC RELIEF SERVICES / PERU",
+    value: "CATHOLIC RELIEF SERVICES / PERU",
+  },
+  {
+    label: "CATÓLICO POR EL DERECHO O DECIDIR PERÚ",
+    value: "CATÓLICO POR EL DERECHO O DECIDIR PERÚ",
+  },
+  {
+    label: "CCC INGENIEROS CONSULTORES ",
+    value: "CCC INGENIEROS CONSULTORES ",
+  },
+  {
+    label: "CCPM GRUPO CONSULTOR S.A.C",
+    value: "CCPM GRUPO CONSULTOR S.A.C",
+  },
+  {
+    label: "CCR",
+    value: "CCR",
+  },
+  {
+    label: "CCR CORPORACIÓN COMERCIAL SA",
+    value: "CCR CORPORACIÓN COMERCIAL SA",
+  },
+  {
+    label: "CCR SA",
+    value: "CCR SA",
+  },
+  {
+    label: "CDC GOLD",
+    value: "CDC GOLD",
+  },
+  {
+    label: "CE 0093 LA MENACHO II EL AGUSTINO",
+    value: "CE 0093 LA MENACHO II EL AGUSTINO",
+  },
+  {
+    label: "CE 0292",
+    value: "CE 0292",
+  },
+  {
+    label: "CE 1146 REPÚBLICA DE PARAGUAY",
+    value: "CE 1146 REPÚBLICA DE PARAGUAY",
+  },
+  {
+    label: "CE 133 JULIO C TELLO",
+    value: "CE 133 JULIO C TELLO",
+  },
+  {
+    label: "CE 2009 FE Y ALEGRÍA N 02",
+    value: "CE 2009 FE Y ALEGRÍA N 02",
+  },
+  {
+    label: "CE FE Y ALEGRÍA N 26",
+    value: "CE FE Y ALEGRÍA N 26",
+  },
+  {
+    label: "CE JOSÉ CARLOS MARIÁTEGUI",
+    value: "CE JOSÉ CARLOS MARIÁTEGUI",
+  },
+  {
+    label: "CE JOSÉ MARÍA ARGUEDAS",
+    value: "CE JOSÉ MARÍA ARGUEDAS",
+  },
+  {
+    label: "CE KARL WEISE CHICLAYO",
+    value: "CE KARL WEISE CHICLAYO",
+  },
+  {
+    label: "CE MIGUEL GRAU PARAMONGA",
+    value: "CE MIGUEL GRAU PARAMONGA",
+  },
+  {
+    label: "CE N 00147 ",
+    value: "CE N 00147 ",
+  },
+  {
+    label: "CE RICARDO BENTÍN",
+    value: "CE RICARDO BENTÍN",
+  },
+  {
+    label: "CEACE",
+    value: "CEACE",
+  },
+  {
+    label: "CEBA  3059",
+    value: "CEBA  3059",
+  },
+  {
+    label: 'CEBA "HERMELIO VALDIZAN"',
+    value: 'CEBA "HERMELIO VALDIZAN"',
+  },
+  {
+    label: "CEBA HERMILIO VALDIZÁN",
+    value: "CEBA HERMILIO VALDIZÁN",
+  },
+  {
+    label: "CEBA JOSEÉ FAUSTINO SANCHEZ CARRIÓN - LURÍN - UGEL 01",
+    value: "CEBA JOSEÉ FAUSTINO SANCHEZ CARRIÓN - LURÍN - UGEL 01",
+  },
+  {
+    label: "CEBA MARÍA PARDO DE BELLIDO",
+    value: "CEBA MARÍA PARDO DE BELLIDO",
+  },
+  {
+    label: "CEBA MARÍA PARDO DE BELLIDO PERIFÉRICO VÍCTOR R. HAYA DE LA TORRE",
+    value: "CEBA MARÍA PARDO DE BELLIDO PERIFÉRICO VÍCTOR R. HAYA DE LA TORRE",
+  },
+  {
+    label: "CEBA MARINO MEZA ROSALES ",
+    value: "CEBA MARINO MEZA ROSALES ",
+  },
+  {
+    label: "CEBA VÍCTOR HAYA DE LA TORRE AAHH VRHDLT YANACOCHA",
+    value: "CEBA VÍCTOR HAYA DE LA TORRE AAHH VRHDLT YANACOCHA",
+  },
+  {
+    label: "CECAPS SAC",
+    value: "CECAPS SAC",
+  },
+  {
+    label: "CECILIA R DÍAZ HARO CONSULTORA",
+    value: "CECILIA R DÍAZ HARO CONSULTORA",
+  },
+  {
+    label: "CEDDRE",
+    value: "CEDDRE",
+  },
+  {
+    label: "CEDEPAS CENTRO ECUMÉNICO DE PROMOCIÓN Y ACCIÓN SOCIAL NORTE",
+    value: "CEDEPAS CENTRO ECUMÉNICO DE PROMOCIÓN Y ACCIÓN SOCIAL NORTE",
+  },
+  {
+    label: "CEDEPAS NORTE",
+    value: "CEDEPAS NORTE",
+  },
+  {
+    label: "CEDES",
+    value: "CEDES",
+  },
+  {
+    label: "CEDES APURÍMAC CENTRO DE ESTUDIOS Y DESARROLLO SOCIAL",
+    value: "CEDES APURÍMAC CENTRO DE ESTUDIOS Y DESARROLLO SOCIAL",
+  },
+  {
+    label: "CEDRO",
+    value: "CEDRO",
+  },
+  {
+    label: "CEFICAD",
+    value: "CEFICAD",
+  },
+  {
+    label: "CEGECOOP LA UNIÓN",
+    value: "CEGECOOP LA UNIÓN",
+  },
+  {
+    label: "CEIP MI JARDINCITO",
+    value: "CEIP MI JARDINCITO",
+  },
+  {
+    label: "CEM SAN RAMÓN",
+    value: "CEM SAN RAMÓN",
+  },
+  {
+    label: "CEMIRA",
+    value: "CEMIRA",
+  },
+  {
+    label: "CENFOTUR",
+    value: "CENFOTUR",
+  },
+  {
+    label: "CENTRAL ASHANINKA RIO ENE CARE",
+    value: "CENTRAL ASHANINKA RIO ENE CARE",
+  },
+  {
+    label: "CENTRAL ASHANNKA DE RIO ENE",
+    value: "CENTRAL ASHANNKA DE RIO ENE",
+  },
+  {
+    label: "CENTRAL DE ORGANIZACIONE PRODUCTIVAS DE CAFÉ Y CACAO DEL PERÚ",
+    value: "CENTRAL DE ORGANIZACIONE PRODUCTIVAS DE CAFÉ Y CACAO DEL PERÚ",
+  },
+  {
+    label: 'CENTRO "KOTOSH" HUÁNUCO',
+    value: 'CENTRO "KOTOSH" HUÁNUCO',
+  },
+  {
+    label: "CENTRO AMAUTA",
+    value: "CENTRO AMAUTA",
+  },
+  {
+    label: "CENTRO AMAZÓNICO DE ANTROPOLOGÍA Y APLICACIÓN PRÁCTICA",
+    value: "CENTRO AMAZÓNICO DE ANTROPOLOGÍA Y APLICACIÓN PRÁCTICA",
+  },
+  {
+    label: "CENTRO ANDINO DE EDUCACIÓN Y PROMOCIÓN CADEP JOSÉ MARÍA ARGUEDAS",
+    value: "CENTRO ANDINO DE EDUCACIÓN Y PROMOCIÓN CADEP JOSÉ MARÍA ARGUEDAS",
+  },
+  {
+    label: "CENTRO BIBLIOGRÁFICO NACIONAL",
+    value: "CENTRO BIBLIOGRÁFICO NACIONAL",
+  },
+  {
+    label: "CENTRO COMERCIAL CAMINOS DEL INCA",
+    value: "CENTRO COMERCIAL CAMINOS DEL INCA",
+  },
+  {
+    label:
+      "CENTRO CULTURAL DE CAPACITACIONES Y SERVICIOS MÚLTIPLES YACHAYHUASI",
+    value:
+      "CENTRO CULTURAL DE CAPACITACIONES Y SERVICIOS MÚLTIPLES YACHAYHUASI",
+  },
+  {
+    label: "CENTRO DE ACCIÓN Y ESTUDIOS AVANZADOS CINVESTAV",
+    value: "CENTRO DE ACCIÓN Y ESTUDIOS AVANZADOS CINVESTAV",
+  },
+  {
+    label:
+      "Centro de Altos Estudios para la Calidad de la Educación y el Desarrollo S.A.C.",
+    value:
+      "Centro de Altos Estudios para la Calidad de la Educación y el Desarrollo S.A.C.",
+  },
+  {
+    label: "CENTRO DE CAPACITACIÓN ACTUALIZACIÓN Y ASESORAMIENTO PROFESIONAL",
+    value: "CENTRO DE CAPACITACIÓN ACTUALIZACIÓN Y ASESORAMIENTO PROFESIONAL",
+  },
+  {
+    label: "CENTRO DE CAPACITACIÓN AGRO INDUSTRIAL JESÚS OBRERO CCAIJO",
+    value: "CENTRO DE CAPACITACIÓN AGRO INDUSTRIAL JESÚS OBRERO CCAIJO",
+  },
+  {
+    label: "CENTRO DE COMUNICACIÓN Y PROMOCIÓN POPULAR DE COMAS",
+    value: "CENTRO DE COMUNICACIÓN Y PROMOCIÓN POPULAR DE COMAS",
+  },
+  {
+    label: "CENTRO DE CONSERVACIÓN DE ENERGÍA Y DEL AMBIENTE",
+    value: "CENTRO DE CONSERVACIÓN DE ENERGÍA Y DEL AMBIENTE",
+  },
+  {
+    label: "CENTRO DE CONSERVACIÓN INVESTIGACIÓN Y MANEJO DE ÁREAS NATURALES",
+    value: "CENTRO DE CONSERVACIÓN INVESTIGACIÓN Y MANEJO DE ÁREAS NATURALES",
+  },
+  {
+    label:
+      "CENTRO DE CONSERVACIÓN INVESTIGACIÓN Y MANEJO DE ÁREAS NATURALES CORDILLERA AZUL",
+    value:
+      "CENTRO DE CONSERVACIÓN INVESTIGACIÓN Y MANEJO DE ÁREAS NATURALES CORDILLERA AZUL",
+  },
+  {
+    label: "CENTRO DE DESARROLLO ALTERNATIVO DE LA AMAZONÍA",
+    value: "CENTRO DE DESARROLLO ALTERNATIVO DE LA AMAZONÍA",
+  },
+  {
+    label: "CENTRO DE DESARROLLO DE LA MUJER RURAL CEDEMUR",
+    value: "CENTRO DE DESARROLLO DE LA MUJER RURAL CEDEMUR",
+  },
+  {
+    label: "CENTRO DE DESARROLLO EDUCATIVO INTEGRAL-CENDEIT",
+    value: "CENTRO DE DESARROLLO EDUCATIVO INTEGRAL-CENDEIT",
+  },
+  {
+    label:
+      "CENTRO DE DOCUMENTACIÓN Y EDUCACIÓN PARA LA PREVENCIÓN DEL ABUSO DE DROGAS - CEDRO",
+    value:
+      "CENTRO DE DOCUMENTACIÓN Y EDUCACIÓN PARA LA PREVENCIÓN DEL ABUSO DE DROGAS - CEDRO",
+  },
+  {
+    label: "CENTRO DE EDUCACIÓN ESPECIAL JESÚS NAZARENO PIURA",
+    value: "CENTRO DE EDUCACIÓN ESPECIAL JESÚS NAZARENO PIURA",
+  },
+  {
+    label: "CENTRO DE EDUCACIÓN INICIAL N°013 DE PAUCARBAMBA",
+    value: "CENTRO DE EDUCACIÓN INICIAL N°013 DE PAUCARBAMBA",
+  },
+  {
+    label: "CENTRO DE EDUCACIÓN INICIAL N°299",
+    value: "CENTRO DE EDUCACIÓN INICIAL N°299",
+  },
+  {
+    label: "CENTRO DE EDUCACIÓN SUPERIOR TÉCNICO PRODUCTIVA  CETPRO ORT",
+    value: "CENTRO DE EDUCACIÓN SUPERIOR TÉCNICO PRODUCTIVA  CETPRO ORT",
+  },
+  {
+    label:
+      "CENTRO DE EDUCACIÓN SUPERIOR TÉCNICO PRODUCTIVA  CETPRO SOFT SYSTEM",
+    value:
+      "CENTRO DE EDUCACIÓN SUPERIOR TÉCNICO PRODUCTIVA  CETPRO SOFT SYSTEM",
+  },
+  {
+    label: "CENTRO DE EDUCACIÓN TÉCNICO PRODUCTIVA ALBERT EINSTEIN",
+    value: "CENTRO DE EDUCACIÓN TÉCNICO PRODUCTIVA ALBERT EINSTEIN",
+  },
+  {
+    label: "CENTRO DE EDUCACIÓN, ORGANIZACIÓN Y PROMOCIÓN DEL DESARROLLO ILO",
+    value: "CENTRO DE EDUCACIÓN, ORGANIZACIÓN Y PROMOCIÓN DEL DESARROLLO ILO",
+  },
+  {
+    label: "Centro de Estudiantes de Sociología",
+    value: "Centro de Estudiantes de Sociología",
+  },
+  {
+    label:
+      "CENTRO DE ESTUDIIOS DE PROBLEMAS ECONOMICOS Y SOCIALES DE LA JUVENTUD",
+    value:
+      "CENTRO DE ESTUDIIOS DE PROBLEMAS ECONOMICOS Y SOCIALES DE LA JUVENTUD",
+  },
+  {
+    label: "CENTRO DE ESTUDIOS PARA EL DESARROLLO Y LA PARTICIPACIÓN CEDEP",
+    value: "CENTRO DE ESTUDIOS PARA EL DESARROLLO Y LA PARTICIPACIÓN CEDEP",
+  },
+  {
+    label: "CENTRO DE ESTUDIOS PARA LA PAZ",
+    value: "CENTRO DE ESTUDIOS PARA LA PAZ",
+  },
+  {
+    label: "Centro de Estudios Regionales Andinos. Bartolomé de las Casas",
+    value: "Centro de Estudios Regionales Andinos. Bartolomé de las Casas",
+  },
+  {
+    label: "CENTRO DE ESTUDIOS SOBRE MIGRACIONES Y RACISMO CEMIRA",
+    value: "CENTRO DE ESTUDIOS SOBRE MIGRACIONES Y RACISMO CEMIRA",
+  },
+  {
+    label: "CENTRO DE ESTUDIOS SOCIALES Y PUBLICACIONES CESIP",
+    value: "CENTRO DE ESTUDIOS SOCIALES Y PUBLICACIONES CESIP",
+  },
+  {
+    label: "CENTRO DE ESTUDIOS Y PREVENCIÓN DE DESASTRES (PREDES)",
+    value: "CENTRO DE ESTUDIOS Y PREVENCIÓN DE DESASTRES (PREDES)",
+  },
+  {
+    label: "CENTRO DE ESTUDIOS Y PROMOCIÓN COMUNAL DEL ORIENTE",
+    value: "CENTRO DE ESTUDIOS Y PROMOCIÓN COMUNAL DEL ORIENTE",
+  },
+  {
+    label: "CENTRO DE ESTUDIOS Y PROMOCIÓN COMUNAL DEL ORIENTE (CEPCO)",
+    value: "CENTRO DE ESTUDIOS Y PROMOCIÓN COMUNAL DEL ORIENTE (CEPCO)",
+  },
+  {
+    label: "CENTRO DE ESTUDIOS Y PROMOCIÓN DEL DESARROLLO",
+    value: "CENTRO DE ESTUDIOS Y PROMOCIÓN DEL DESARROLLO",
+  },
+  {
+    label:
+      "CENTRO DE EVALUACIÓN CEVAL DE LA UNIVERSIDAD DE SAARLANDES- ALEMANIA",
+    value:
+      "CENTRO DE EVALUACIÓN CEVAL DE LA UNIVERSIDAD DE SAARLANDES- ALEMANIA",
+  },
+  {
+    label: "CENTRO DE FORMACIÓN ARTÍSTICA",
+    value: "CENTRO DE FORMACIÓN ARTÍSTICA",
+  },
+  {
+    label: "CENTRO DE FORMACIÓN DE TURISMO",
+    value: "CENTRO DE FORMACIÓN DE TURISMO",
+  },
+  {
+    label: "CENTRO DE FORMACIÓN E INNOVACIÓN EDUCATIVA",
+    value: "CENTRO DE FORMACIÓN E INNOVACIÓN EDUCATIVA",
+  },
+  {
+    label: "CENTRO DE FORMACIÓN EN TURISMO",
+    value: "CENTRO DE FORMACIÓN EN TURISMO",
+  },
+  {
+    label: "CENTRO DE INCLUSIÓN SOCIAL Y PARTICIPATIVA CIUDADANA",
+    value: "CENTRO DE INCLUSIÓN SOCIAL Y PARTICIPATIVA CIUDADANA",
+  },
+  {
+    label: "CENTRO DE INFORMACIÓN DEL EJÉRCITO CINFE",
+    value: "CENTRO DE INFORMACIÓN DEL EJÉRCITO CINFE",
+  },
+  {
+    label: "CENTRO DE INFORMACIÓN LABORAL JESÚS OBRERO",
+    value: "CENTRO DE INFORMACIÓN LABORAL JESÚS OBRERO",
+  },
+  {
+    label: "CENTRO DE INFORMACIÓN Y DESARROLLO INTEGRAL DE AUTOGESTIÓN",
+    value: "CENTRO DE INFORMACIÓN Y DESARROLLO INTEGRAL DE AUTOGESTIÓN",
+  },
+  {
+    label:
+      "CENTRO DE INFORMACIÓN Y EDUCACIÓN PARA LA PREVENCIÓN DEL ABUSO DE  DORGAS- CEDRO",
+    value:
+      "CENTRO DE INFORMACIÓN Y EDUCACIÓN PARA LA PREVENCIÓN DEL ABUSO DE  DORGAS- CEDRO",
+  },
+  {
+    label:
+      "CENTRO DE INFORMACIÓN Y EDUCACIÓN PARA LA PREVENCIÓN DEL ABUSO DE DROGAS CEDRO",
+    value:
+      "CENTRO DE INFORMACIÓN Y EDUCACIÓN PARA LA PREVENCIÓN DEL ABUSO DE DROGAS CEDRO",
+  },
+  {
+    label:
+      "CENTRO DE INFORMACIÓN Y EDUCACIÓN PARA LA PREVENCIÓN DEL ABUSO DE DROGAS-CEDRO",
+    value:
+      "CENTRO DE INFORMACIÓN Y EDUCACIÓN PARA LA PREVENCIÓN DEL ABUSO DE DROGAS-CEDRO",
+  },
+  {
+    label: "CENTRO DE INFORMÁTICA Y SISTEMAS ",
+    value: "CENTRO DE INFORMÁTICA Y SISTEMAS ",
+  },
+  {
+    label: "CENTRO DE INVESTIGACIÓN DE RECURSOS NATURALES Y MEDIO AMBIENTE",
+    value: "CENTRO DE INVESTIGACIÓN DE RECURSOS NATURALES Y MEDIO AMBIENTE",
+  },
+  {
+    label:
+      "CENTRO DE INVESTIGACIÓN DOCUMENTACIÓN EDUCACIÓN ASESORAMIENTO Y SERVICIOS IDEAS",
+    value:
+      "CENTRO DE INVESTIGACIÓN DOCUMENTACIÓN EDUCACIÓN ASESORAMIENTO Y SERVICIOS IDEAS",
+  },
+  {
+    label: "CENTRO DE INVESTIGACIÓN DOCUMENTACIÓN Y ASESORÍA POBLACIONAL",
+    value: "CENTRO DE INVESTIGACIÓN DOCUMENTACIÓN Y ASESORÍA POBLACIONAL",
+  },
+  {
+    label: "CENTRO DE INVESTIGACIÓN EN CULTIVOS ANDINOS",
+    value: "CENTRO DE INVESTIGACIÓN EN CULTIVOS ANDINOS",
+  },
+  {
+    label: "CENTRO DE INVESTIGACIÓN TECNOLOGÍA Y DESARROLLO SOCIAL ITDS PERÚ",
+    value: "CENTRO DE INVESTIGACIÓN TECNOLOGÍA Y DESARROLLO SOCIAL ITDS PERÚ",
+  },
+  {
+    label:
+      "CENTRO DE INVESTIGACIÓN Y CAPACITACIÓN PARA EL DESARROLLO EDCUATIVO CICADE HUARAZ",
+    value:
+      "CENTRO DE INVESTIGACIÓN Y CAPACITACIÓN PARA EL DESARROLLO EDCUATIVO CICADE HUARAZ",
+  },
+  {
+    label:
+      "CENTRO DE INVESTIGACIÓN Y CAPACITACIÓN PARA EL DESARROLLO EDUCATIVO CICADE HUARAZ",
+    value:
+      "CENTRO DE INVESTIGACIÓN Y CAPACITACIÓN PARA EL DESARROLLO EDUCATIVO CICADE HUARAZ",
+  },
+  {
+    label: "CENTRO DE INVESTIGACIÓN Y ESTUDIOS AVANZADOS CINVESTAC",
+    value: "CENTRO DE INVESTIGACIÓN Y ESTUDIOS AVANZADOS CINVESTAC",
+  },
+  {
+    label: "CENTRO DE INVESTIGACIÓN Y PROMOCIÓN DEL CAMPESINADO",
+    value: "CENTRO DE INVESTIGACIÓN Y PROMOCIÓN DEL CAMPESINADO",
+  },
+  {
+    label: "CENTRO DE INVESTIGACIÓN Y PROMOCIÓN POPULAR",
+    value: "CENTRO DE INVESTIGACIÓN Y PROMOCIÓN POPULAR",
+  },
+  {
+    label: "CENTRO DE INVESTIGACIÓN Y RPOMOCIÓN DEL CAMPESINADO CIPCA ",
+    value: "CENTRO DE INVESTIGACIÓN Y RPOMOCIÓN DEL CAMPESINADO CIPCA ",
+  },
+  {
+    label:
+      "CENTRO DE INVESTIGACIÓN Y SERVICIOS MINEROS Y METALÚRGICOS THE GOLDEN BELL SAC",
+    value:
+      "CENTRO DE INVESTIGACIÓN Y SERVICIOS MINEROS Y METALÚRGICOS THE GOLDEN BELL SAC",
+  },
+  {
+    label: "CENTRO DE LA MUJER PERUANA FLORA TRISTAN",
+    value: "CENTRO DE LA MUJER PERUANA FLORA TRISTAN",
+  },
+  {
+    label: "CENTRO DE PLANEAMIENTO ESTRATÉGICO",
+    value: "CENTRO DE PLANEAMIENTO ESTRATÉGICO",
+  },
+  {
+    label: "CENTRO DE PROMOCIÓN DE LA PEQUEÑA Y MICRO EMPRESA PROMPYME",
+    value: "CENTRO DE PROMOCIÓN DE LA PEQUEÑA Y MICRO EMPRESA PROMPYME",
+  },
+  {
+    label: "CENTRO DE PROMOCIÓN Y DESARROLLO POBLACIONAL - CEPRODEB",
+    value: "CENTRO DE PROMOCIÓN Y DESARROLLO POBLACIONAL - CEPRODEB",
+  },
+  {
+    label: "CENTRO DE PROMOCIÓN Y GENERACIÓN DE OPORTUNIDADES DE INICIATIVAS",
+    value: "CENTRO DE PROMOCIÓN Y GENERACIÓN DE OPORTUNIDADES DE INICIATIVAS",
+  },
+  {
+    label: "CENTRO DE SALUD TALAVERA",
+    value: "CENTRO DE SALUD TALAVERA",
+  },
+  {
+    label: "CENTRO DE TRANSFERENCIA TECNOLÓGICA A UNIVERSIATRIOS SAN JOSE",
+    value: "CENTRO DE TRANSFERENCIA TECNOLÓGICA A UNIVERSIATRIOS SAN JOSE",
+  },
+  {
+    label: "CENTRO DE TRANSFERENCIA TECNOLÓGICA A UNIVERSITARIOS",
+    value: "CENTRO DE TRANSFERENCIA TECNOLÓGICA A UNIVERSITARIOS",
+  },
+  {
+    label: "CENTRO DETEC",
+    value: "CENTRO DETEC",
+  },
+  {
+    label: "CENTRO ECUMÉNICO DE PROMOCIÓN Y ACCIÓN SOCIAL NORTE",
+    value: "CENTRO ECUMÉNICO DE PROMOCIÓN Y ACCIÓN SOCIAL NORTE",
+  },
+  {
+    label: "CENTRO EDUCATIVO 2009 FE Y ALEGRÍA N 2",
+    value: "CENTRO EDUCATIVO 2009 FE Y ALEGRÍA N 2",
+  },
+  {
+    label: "CENTRO EDUCATIVO 41041 CRISTO REY",
+    value: "CENTRO EDUCATIVO 41041 CRISTO REY",
+  },
+  {
+    label: "CENTRO EDUCATIVO DE GESTIÓN COMUNAL",
+    value: "CENTRO EDUCATIVO DE GESTIÓN COMUNAL",
+  },
+  {
+    label: "CENTRO EDUCATIVO DE GESTIÓN NO ESTATAL LA CASITA DE JULY",
+    value: "CENTRO EDUCATIVO DE GESTIÓN NO ESTATAL LA CASITA DE JULY",
+  },
+  {
+    label: "CENTRO EDUCATIVO DE GESTIÓN NO ESTATAL MI PEQUEÑO ARCOIRIS",
+    value: "CENTRO EDUCATIVO DE GESTIÓN NO ESTATAL MI PEQUEÑO ARCOIRIS",
+  },
+  {
+    label: "CENTRO EDUCATIVO DE GESTIÓN NO ESTATAL SAN LUIS",
+    value: "CENTRO EDUCATIVO DE GESTIÓN NO ESTATAL SAN LUIS",
+  },
+  {
+    label: "CENTRO EDUCATIVO INICIAL 15",
+    value: "CENTRO EDUCATIVO INICIAL 15",
+  },
+  {
+    label: "CENTRO EDUCATIVO JARDÍN DE NIÑOS N° 308 SACSAHUANCA",
+    value: "CENTRO EDUCATIVO JARDÍN DE NIÑOS N° 308 SACSAHUANCA",
+  },
+  {
+    label: "CENTRO EDUCATIVO LA BUENA ESPERANZA",
+    value: "CENTRO EDUCATIVO LA BUENA ESPERANZA",
+  },
+  {
+    label: "CENTRO EDUCATIVO N° 101 SHUJI KITAMURA",
+    value: "CENTRO EDUCATIVO N° 101 SHUJI KITAMURA",
+  },
+  {
+    label: "CENTRO EDUCATIVO NUESTRA SEÑORA DE LA CANDELARIA",
+    value: "CENTRO EDUCATIVO NUESTRA SEÑORA DE LA CANDELARIA",
+  },
+  {
+    label: "centro educativo ocupacional julio c Tello",
+    value: "centro educativo ocupacional julio c Tello",
+  },
+  {
+    label: 'CENTRO EDUCATIVO PARTICULAR "SANTA ELIZABETH"',
+    value: 'CENTRO EDUCATIVO PARTICULAR "SANTA ELIZABETH"',
+  },
+  {
+    label: "CENTRO EDUCATIVO PARTICULAR INTERNACIONAL ELIM",
+    value: "CENTRO EDUCATIVO PARTICULAR INTERNACIONAL ELIM",
+  },
+  {
+    label: "CENTRO EDUCATIVO PARTICULAR JESUALDO",
+    value: "CENTRO EDUCATIVO PARTICULAR JESUALDO",
+  },
+  {
+    label: "CENTRO EDUCATIVO PARTICULAR MATER DEI ",
+    value: "CENTRO EDUCATIVO PARTICULAR MATER DEI ",
+  },
+  {
+    label: "CENTRO EDUCATIVO PARTICULAR SAGRADO CORAZÓN DE JESÚS",
+    value: "CENTRO EDUCATIVO PARTICULAR SAGRADO CORAZÓN DE JESÚS",
+  },
+  {
+    label: "CENTRO EDUCATIVO PARTICULAR SEÑOR DEL PERDÓN",
+    value: "CENTRO EDUCATIVO PARTICULAR SEÑOR DEL PERDÓN",
+  },
+  {
+    label: "CENTRO EDUCATIVO PRIVADO CÉSAR VALLEJO",
+    value: "CENTRO EDUCATIVO PRIVADO CÉSAR VALLEJO",
+  },
+  {
+    label: "CENTRO EDUCATIVO PRIVADO SALESIANO SANTA ROSA",
+    value: "CENTRO EDUCATIVO PRIVADO SALESIANO SANTA ROSA",
+  },
+  {
+    label: "CENTRO EDUCATIVO TECNICNO PRODUCTIVO FORTALEZA CHASQUITAMBO",
+    value: "CENTRO EDUCATIVO TECNICNO PRODUCTIVO FORTALEZA CHASQUITAMBO",
+  },
+  {
+    label: "CENTRO EDUCATIVO TECNICO PRODUCTIVO CETPRO",
+    value: "CENTRO EDUCATIVO TECNICO PRODUCTIVO CETPRO",
+  },
+  {
+    label: "CENTRO EDUCATIVO TÉCNICO PRODUCTIVO SANTA MÓNICA",
+    value: "CENTRO EDUCATIVO TÉCNICO PRODUCTIVO SANTA MÓNICA",
+  },
+  {
+    label: "CENTRO ESPERANZA",
+    value: "CENTRO ESPERANZA",
+  },
+  {
+    label: "CENTRO GUAMAN POMA DE AYALA",
+    value: "CENTRO GUAMAN POMA DE AYALA",
+  },
+  {
+    label: "CENTRO IBEROAMERICANO DE DENUROCIENCIAS",
+    value: "CENTRO IBEROAMERICANO DE DENUROCIENCIAS",
+  },
+  {
+    label: "CENTRO MICRO DATOS",
+    value: "CENTRO MICRO DATOS",
+  },
+  {
+    label: "CENTRO MUNDIAL DE AGROFORESTERÍA ICRAF",
+    value: "CENTRO MUNDIAL DE AGROFORESTERÍA ICRAF",
+  },
+  {
+    label:
+      "CENTRO NACIONAL DE CAPACITACIÓN E INVESTIGACIÓN PEDAGÓGICA EN CIENCIAS Y TECNOLOGÍA",
+    value:
+      "CENTRO NACIONAL DE CAPACITACIÓN E INVESTIGACIÓN PEDAGÓGICA EN CIENCIAS Y TECNOLOGÍA",
+  },
+  {
+    label:
+      "CENTRO NACIONAL DE ESTIMACIÓN PREVENCIÓN Y REDUCCIÓN DEL RIESGO DE DESASTRES CENEPRED",
+    value:
+      "CENTRO NACIONAL DE ESTIMACIÓN PREVENCIÓN Y REDUCCIÓN DEL RIESGO DE DESASTRES CENEPRED",
+  },
+  {
+    label: "CENTRO NACIONAL DE PLANEAMIENTO ESTRATÉGICO",
+    value: "CENTRO NACIONAL DE PLANEAMIENTO ESTRATÉGICO",
+  },
+  {
+    label: "CENTRO NACIONAL DE PLANIFICACIÓN ESTRATÉGICA",
+    value: "CENTRO NACIONAL DE PLANIFICACIÓN ESTRATÉGICA",
+  },
+  {
+    label: "CENTRO PERUANO DE ESTUDIOS INTERDISCIPLINARIOS CEI CONSULTORES",
+    value: "CENTRO PERUANO DE ESTUDIOS INTERDISCIPLINARIOS CEI CONSULTORES",
+  },
+  {
+    label: "CENTRO PERUANO DE ESTUDIOS SOCIALES",
+    value: "CENTRO PERUANO DE ESTUDIOS SOCIALES",
+  },
+  {
+    label: "CENTRO POBLADO MENOR DE JATUN SUCLLA",
+    value: "CENTRO POBLADO MENOR DE JATUN SUCLLA",
+  },
+  {
+    label: "CENTRO PRE UNIVERSITARIO SAN PABLO- GRUPO EUREKA",
+    value: "CENTRO PRE UNIVERSITARIO SAN PABLO- GRUPO EUREKA",
+  },
+  {
+    label: "CENTRO PRENATAL VIDA NUEVA",
+    value: "CENTRO PRENATAL VIDA NUEVA",
+  },
+  {
+    label: "CENTRO PREUNIVERSITARIO VALDIZANO CEPREVAL",
+    value: "CENTRO PREUNIVERSITARIO VALDIZANO CEPREVAL",
+  },
+  {
+    label: "CENTRO PROMOTOR DEL DESARROLLO INTEGRAL SOSTENIBLE",
+    value: "CENTRO PROMOTOR DEL DESARROLLO INTEGRAL SOSTENIBLE",
+  },
+  {
+    label: "CENTRO RURAL DE FORMACIÓN DE ALTERNANCIA CRFA KUNTUR KALLPA",
+    value: "CENTRO RURAL DE FORMACIÓN DE ALTERNANCIA CRFA KUNTUR KALLPA",
+  },
+  {
+    label: "CEP FERMIN TANGUIS",
+    value: "CEP FERMIN TANGUIS",
+  },
+  {
+    label: "CEPLAN",
+    value: "CEPLAN",
+  },
+  {
+    label: "CEPRODEP",
+    value: "CEPRODEP",
+  },
+  {
+    label: "CERTICOM CENTRO DE RIESGOS COMERCIALES SA",
+    value: "CERTICOM CENTRO DE RIESGOS COMERCIALES SA",
+  },
+  {
+    label: "CERTICOM SA",
+    value: "CERTICOM SA",
+  },
+  {
+    label: "CERVECERIA NACIONAL SA",
+    value: "CERVECERIA NACIONAL SA",
+  },
+  {
+    label: "CES CONSULTING ENGINEERS SALZGITTER GmbH",
+    value: "CES CONSULTING ENGINEERS SALZGITTER GmbH",
+  },
+  {
+    label: "CES PARROQUIAL FE Y ALEGRÍA N 15 EL INDIO CASTILLA",
+    value: "CES PARROQUIAL FE Y ALEGRÍA N 15 EL INDIO CASTILLA",
+  },
+  {
+    label: "CESAL",
+    value: "CESAL",
+  },
+  {
+    label: "CESAL ONG",
+    value: "CESAL ONG",
+  },
+  {
+    label: "CESAR PUNGO CARHUATOCTO",
+    value: "CESAR PUNGO CARHUATOCTO",
+  },
+  {
+    label: "CÉSAR VALLEJO MENDOZA BUENOS AIRES",
+    value: "CÉSAR VALLEJO MENDOZA BUENOS AIRES",
+  },
+  {
+    label: "CESEL INGENIEROS",
+    value: "CESEL INGENIEROS",
+  },
+  {
+    label: "CESEL SA",
+    value: "CESEL SA",
+  },
+  {
+    label: "CESIP",
+    value: "CESIP",
+  },
+  {
+    label: "CESVI",
+    value: "CESVI",
+  },
+  {
+    label: "CESVI FONDOZINE ON US",
+    value: "CESVI FONDOZINE ON US",
+  },
+  {
+    label: "CETCO SA",
+    value: "CETCO SA",
+  },
+  {
+    label: "CETPRO SANTA VICENTA MARÍA",
+    value: "CETPRO SANTA VICENTA MARÍA",
+  },
+  {
+    label: "CGT COMPANY SAC",
+    value: "CGT COMPANY SAC",
+  },
+  {
+    label: "CHEMONICS BOSQUES SUCURSAL PERÚ",
+    value: "CHEMONICS BOSQUES SUCURSAL PERÚ",
+  },
+  {
+    label: "CHEMONICS DESARROLLO SUCURSAL PERÚ",
+    value: "CHEMONICS DESARROLLO SUCURSAL PERÚ",
+  },
+  {
+    label: "CHEMONICS INERNATIONAL INC",
+    value: "CHEMONICS INERNATIONAL INC",
+  },
+  {
+    label: "CHEMONICS INTERNATIONAL INC",
+    value: "CHEMONICS INTERNATIONAL INC",
+  },
+  {
+    label: "CHEMONICS INTERNATIONAL. INC SUCURSAL PERU",
+    value: "CHEMONICS INTERNATIONAL. INC SUCURSAL PERU",
+  },
+  {
+    label: "CHEROMICS INT SUCURSAL PERÚ",
+    value: "CHEROMICS INT SUCURSAL PERÚ",
+  },
+  {
+    label: "Chincheros",
+    value: "Chincheros",
+  },
+  {
+    label: "CHIRAPAQ CENTRO DE CULTURAS INDÍGENAS DEL PERÚ",
+    value: "CHIRAPAQ CENTRO DE CULTURAS INDÍGENAS DEL PERÚ",
+  },
+  {
+    label: "CHRISTIAN AID",
+    value: "CHRISTIAN AID",
+  },
+  {
+    label: "CÍA VIASA HNS SR LTDA",
+    value: "CÍA VIASA HNS SR LTDA",
+  },
+  {
+    label: "CIDATT CNF BANCO DE DESARROLLO DE AMÉRICA LATINA",
+    value: "CIDATT CNF BANCO DE DESARROLLO DE AMÉRICA LATINA",
+  },
+  {
+    label: "CIELO AZUL SA",
+    value: "CIELO AZUL SA",
+  },
+  {
+    label: "CIENCIAS",
+    value: "CIENCIAS",
+  },
+  {
+    label: "Cineplex S.A.",
+    value: "Cineplex S.A.",
+  },
+  {
+    label: "CIPDES",
+    value: "CIPDES",
+  },
+  {
+    label: "CÍRCULO SOLIDARIO",
+    value: "CÍRCULO SOLIDARIO",
+  },
+  {
+    label: "CISAC CONSULTORÍAS E INVESTIGACIONES SAC",
+    value: "CISAC CONSULTORÍAS E INVESTIGACIONES SAC",
+  },
+  {
+    label: "CISEPA",
+    value: "CISEPA",
+  },
+  {
+    label: "Ciudad Nuestra",
+    value: "Ciudad Nuestra",
+  },
+  {
+    label: "CLASS SALZGITTER ASOCIADOS",
+    value: "CLASS SALZGITTER ASOCIADOS",
+  },
+  {
+    label: "CLB TECNOLÓGICA SAC",
+    value: "CLB TECNOLÓGICA SAC",
+  },
+  {
+    label: "CLÍNICA ATÍAS HOSPITALIZACIÓN Y SERVICIOS CA",
+    value: "CLÍNICA ATÍAS HOSPITALIZACIÓN Y SERVICIOS CA",
+  },
+  {
+    label: "CLINICA SAN ANTONIO",
+    value: "CLINICA SAN ANTONIO",
+  },
+  {
+    label: "CLINTON GIUSTRA SUSTANBLE GROWTH INITIATIVE",
+    value: "CLINTON GIUSTRA SUSTANBLE GROWTH INITIATIVE",
+  },
+  {
+    label: "CLUB DEPORTIVO JHON F KENNEDY",
+    value: "CLUB DEPORTIVO JHON F KENNEDY",
+  },
+  {
+    label: "CLUB MIGROS",
+    value: "CLUB MIGROS",
+  },
+  {
+    label: "CLUB PLAYA PRIVADO LAS PALMAS",
+    value: "CLUB PLAYA PRIVADO LAS PALMAS",
+  },
+  {
+    label: "CLUB TECNO LÓGICA SAC",
+    value: "CLUB TECNO LÓGICA SAC",
+  },
+  {
+    label: "CM IMPRESIONES GRÁFICAS SAC",
+    value: "CM IMPRESIONES GRÁFICAS SAC",
+  },
+  {
+    label: "CN ANTONIO ALVAREZ DE ARENALES",
+    value: "CN ANTONIO ALVAREZ DE ARENALES",
+  },
+  {
+    label: "CN AUGUSTO SALAZAR  BONDY",
+    value: "CN AUGUSTO SALAZAR  BONDY",
+  },
+  {
+    label: "CN COLIMNA PASCO",
+    value: "CN COLIMNA PASCO",
+  },
+  {
+    label: "CN DANIEL ALCIDES CARRIÓN CHAUPIMARCA PASCO",
+    value: "CN DANIEL ALCIDES CARRIÓN CHAUPIMARCA PASCO",
+  },
+  {
+    label: "CN DEMETRIO TEMPLADERA MARTINEZ SUNEC",
+    value: "CN DEMETRIO TEMPLADERA MARTINEZ SUNEC",
+  },
+  {
+    label: "CN GOGELIO MENDOZA CABALLERO CUNYAG",
+    value: "CN GOGELIO MENDOZA CABALLERO CUNYAG",
+  },
+  {
+    label: "CN GRAN UNIDAD ESCOLAR LEONCIO PRADO",
+    value: "CN GRAN UNIDAD ESCOLAR LEONCIO PRADO",
+  },
+  {
+    label: "CN ILLE THUPA",
+    value: "CN ILLE THUPA",
+  },
+  {
+    label: "CN JOSÉ ANTONIO ENCIMAS FRANCO",
+    value: "CN JOSÉ ANTONIO ENCIMAS FRANCO",
+  },
+  {
+    label: "CN JUAN JIMÉNEZ PIMENTEL",
+    value: "CN JUAN JIMÉNEZ PIMENTEL",
+  },
+  {
+    label: "CN LA VICTORIA",
+    value: "CN LA VICTORIA",
+  },
+  {
+    label: "CN MARIA LUZ GUILLEN ESPINOZA CHIPA",
+    value: "CN MARIA LUZ GUILLEN ESPINOZA CHIPA",
+  },
+  {
+    label: "CN MARÍA PARADO DE BELLIDO SAN JUAN PAMPA",
+    value: "CN MARÍA PARADO DE BELLIDO SAN JUAN PAMPA",
+  },
+  {
+    label: "CN N 3 ANTENOR RIZO PATRÓN LEQUEIACA CHAUPIMARCA PASCO",
+    value: "CN N 3 ANTENOR RIZO PATRÓN LEQUEIACA CHAUPIMARCA PASCO",
+  },
+  {
+    label: "CN RAMÓN CASTILLA DE BELLAVISTA",
+    value: "CN RAMÓN CASTILLA DE BELLAVISTA",
+  },
+  {
+    label: "CN SAN FRANCISCO DE ASÍS YARUSYACAN",
+    value: "CN SAN FRANCISCO DE ASÍS YARUSYACAN",
+  },
+  {
+    label: "CN SAN ISISDRO DE YANAPAMPA",
+    value: "CN SAN ISISDRO DE YANAPAMPA",
+  },
+  {
+    label: "CN SAN JUAN DE MAYNAS",
+    value: "CN SAN JUAN DE MAYNAS",
+  },
+  {
+    label: "CN SERAFIN FILOMENO",
+    value: "CN SERAFIN FILOMENO",
+  },
+  {
+    label: "CNCCHH MARÍA PARADO DE BELLIDO",
+    value: "CNCCHH MARÍA PARADO DE BELLIDO",
+  },
+  {
+    label: "CNI N 34048 JOSE FASUTINO SANCHEZ CARRIÓN MACHCÁN",
+    value: "CNI N 34048 JOSE FASUTINO SANCHEZ CARRIÓN MACHCÁN",
+  },
+  {
+    label: "CO GESTIÓN Y PROYECTOS",
+    value: "CO GESTIÓN Y PROYECTOS",
+  },
+  {
+    label: "COBRA INSTALACIONES Y SERVICIOS SA",
+    value: "COBRA INSTALACIONES Y SERVICIOS SA",
+  },
+  {
+    label: "CODECO",
+    value: "CODECO",
+  },
+  {
+    label: "COELGIO ANEXO AL IPNM",
+    value: "COELGIO ANEXO AL IPNM",
+  },
+  {
+    label: "COELGIO SANTA ÚRSULA",
+    value: "COELGIO SANTA ÚRSULA",
+  },
+  {
+    label: "COFOPRI",
+    value: "COFOPRI",
+  },
+  {
+    label: "COLAT",
+    value: "COLAT",
+  },
+  {
+    label: "COLECTIVO INTEGRAL DE DESARROLLO",
+    value: "COLECTIVO INTEGRAL DE DESARROLLO",
+  },
+  {
+    label: "COLEGIO AMÉRICA CALLAO HIGH SCHOOL",
+    value: "COLEGIO AMÉRICA CALLAO HIGH SCHOOL",
+  },
+  {
+    label: "COLEGIO CLEMENTE ALTHAUS CORPORACIÓN EDUCATIVA ARSO S.A.",
+    value: "COLEGIO CLEMENTE ALTHAUS CORPORACIÓN EDUCATIVA ARSO S.A.",
+  },
+  {
+    label: "COLEGIO DE ABOGADOS DE LIMA",
+    value: "COLEGIO DE ABOGADOS DE LIMA",
+  },
+  {
+    label: "COLEGIO DE CIENCIAS LORD KELVIN",
+    value: "COLEGIO DE CIENCIAS LORD KELVIN",
+  },
+  {
+    label: "COLEGIO DE ECONOMISTAS DE LIMA",
+    value: "COLEGIO DE ECONOMISTAS DE LIMA",
+  },
+  {
+    label: "COLEGIO DE ENFERMEROS DEL PERÚ",
+    value: "COLEGIO DE ENFERMEROS DEL PERÚ",
+  },
+  {
+    label: "COLEGIO DE LA CRUZ CANONESAS",
+    value: "COLEGIO DE LA CRUZ CANONESAS",
+  },
+  {
+    label: "COLEGIO DE LA VRUZ CANONESAS",
+    value: "COLEGIO DE LA VRUZ CANONESAS",
+  },
+  {
+    label: "COLEGIO DE PROFESORES DEL PERÚ",
+    value: "COLEGIO DE PROFESORES DEL PERÚ",
+  },
+  {
+    label: "COLEGIO ECLESIAL LA INMACULADA CONCEPCIÓN",
+    value: "COLEGIO ECLESIAL LA INMACULADA CONCEPCIÓN",
+  },
+  {
+    label: "COLEGIO EL BUEN PASTOR",
+    value: "COLEGIO EL BUEN PASTOR",
+  },
+  {
+    label: "COLEGIO EXPERIMENTAL DE APLICACIÓN UNE ENRIQUE GUZMAN Y VALLE ",
+    value: "COLEGIO EXPERIMENTAL DE APLICACIÓN UNE ENRIQUE GUZMAN Y VALLE ",
+  },
+  {
+    label: "COLEGIO FERMIN TANGÜIS",
+    value: "COLEGIO FERMIN TANGÜIS",
+  },
+  {
+    label: "COLEGIO INTEGRADO PRIVADO DE MUJERES SAGRADA FAMILIA HUÁNUCO",
+    value: "COLEGIO INTEGRADO PRIVADO DE MUJERES SAGRADA FAMILIA HUÁNUCO",
+  },
+  {
+    label: "COLEGIO ISABEL FLORES DE OLIVA",
+    value: "COLEGIO ISABEL FLORES DE OLIVA",
+  },
+  {
+    label: "COLEGIO JOSÉ GRANDA USE 02",
+    value: "COLEGIO JOSÉ GRANDA USE 02",
+  },
+  {
+    label: "COLEGIO JUAN XXIII CAJAMARCA",
+    value: "COLEGIO JUAN XXIII CAJAMARCA",
+  },
+  {
+    label: "COLEGIO LA LIBERTA DE HUARAZ",
+    value: "COLEGIO LA LIBERTA DE HUARAZ",
+  },
+  {
+    label: "Colegio Maria Auxiliadora",
+    value: "Colegio Maria Auxiliadora",
+  },
+  {
+    label: "COLEGIO MARÍA MONTESSORI",
+    value: "COLEGIO MARÍA MONTESSORI",
+  },
+  {
+    label: "COLEGIO MATEMÁTICO HONORES",
+    value: "COLEGIO MATEMÁTICO HONORES",
+  },
+  {
+    label: "COLEGIO MAYOR SECUNDARIA PRESIDENTE DEL PERÚ",
+    value: "COLEGIO MAYOR SECUNDARIA PRESIDENTE DEL PERÚ",
+  },
+  {
+    label: "COLEGIO MEDICO DEL PERU",
+    value: "COLEGIO MEDICO DEL PERU",
+  },
+  {
+    label: "COLEGIO MILITAR LEONCIO PRADO",
+    value: "COLEGIO MILITAR LEONCIO PRADO",
+  },
+  {
+    label: "COLEGIO MODERNO SAN CAMILO",
+    value: "COLEGIO MODERNO SAN CAMILO",
+  },
+  {
+    label: "COLEGIO N 32922",
+    value: "COLEGIO N 32922",
+  },
+  {
+    label: "COLEGIO N 7035",
+    value: "COLEGIO N 7035",
+  },
+  {
+    label: "COLEGIO NACIONAL 32002",
+    value: "COLEGIO NACIONAL 32002",
+  },
+  {
+    label:
+      "COLEGIO NACIONAL AGROINDUSTRIAL DE ÁREAS TÉCNICAS MANUEL FIDENCIO HIDALGO FLORES",
+    value:
+      "COLEGIO NACIONAL AGROINDUSTRIAL DE ÁREAS TÉCNICAS MANUEL FIDENCIO HIDALGO FLORES",
+  },
+  {
+    label: "COLEGIO NACIONAL AGROPECUARIO WILFREDO ZEGARRA SANDOVAL",
+    value: "COLEGIO NACIONAL AGROPECUARIO WILFREDO ZEGARRA SANDOVAL",
+  },
+  {
+    label: "COLEGIO NACIONAL ANDRÉS AVELINO CÁCERES",
+    value: "COLEGIO NACIONAL ANDRÉS AVELINO CÁCERES",
+  },
+  {
+    label: "COLEGIO NACIONAL ANTONIO ALVAREZ DE ARENALES",
+    value: "COLEGIO NACIONAL ANTONIO ALVAREZ DE ARENALES",
+  },
+  {
+    label: "COLEGIO NACIONAL CC HH MARÍA PARADO DE BELLIDO",
+    value: "COLEGIO NACIONAL CC HH MARÍA PARADO DE BELLIDO",
+  },
+  {
+    label: "COLEGIO NACIONAL CESAR VALLEJO",
+    value: "COLEGIO NACIONAL CESAR VALLEJO",
+  },
+  {
+    label: "COLEGIO NACIONAL DE CC Y HH JOSÉ GÁLVEZ BARRENECHEA",
+    value: "COLEGIO NACIONAL DE CC Y HH JOSÉ GÁLVEZ BARRENECHEA",
+  },
+  {
+    label: "COLEGIO NACIONAL DE HUANCHACA",
+    value: "COLEGIO NACIONAL DE HUANCHACA",
+  },
+  {
+    label: "COLEGIO NACIONAL IIIATHUPA DE HUÁNUCO",
+    value: "COLEGIO NACIONAL IIIATHUPA DE HUÁNUCO",
+  },
+  {
+    label: "COLEGIO NACIONAL INTEGRADO DE CIENCIAS Y HUMANIDADES ANA MOGAS",
+    value: "COLEGIO NACIONAL INTEGRADO DE CIENCIAS Y HUMANIDADES ANA MOGAS",
+  },
+  {
+    label: "COLEGIO NACIONAL JOSE CARLOS MARIÁTEGUI DE HUALLANGA USE BOLOGNESI",
+    value: "COLEGIO NACIONAL JOSE CARLOS MARIÁTEGUI DE HUALLANGA USE BOLOGNESI",
+  },
+  {
+    label: "COLEGIO NACIONAL JUANA MORENO",
+    value: "COLEGIO NACIONAL JUANA MORENO",
+  },
+  {
+    label: "COLEGIO NACIONAL LEONCIO PRADO",
+    value: "COLEGIO NACIONAL LEONCIO PRADO",
+  },
+  {
+    label: "COLEGIO NACIONAL N 129 YAMAGUCHI SANTA ANITA",
+    value: "COLEGIO NACIONAL N 129 YAMAGUCHI SANTA ANITA",
+  },
+  {
+    label: "COLEGIO NACIONAL NUESTRA SEÑORA DE LAS MERCEDES",
+    value: "COLEGIO NACIONAL NUESTRA SEÑORA DE LAS MERCEDES",
+  },
+  {
+    label: "COLEGIO NACIONAL PEDRO SANCHEZ GAVIDIA",
+    value: "COLEGIO NACIONAL PEDRO SANCHEZ GAVIDIA",
+  },
+  {
+    label: "COLEGIO NACIONAL SERAFÍN FILOMENO",
+    value: "COLEGIO NACIONAL SERAFÍN FILOMENO",
+  },
+  {
+    label: "COLEGIO NACIONAL SNA JOSÉ",
+    value: "COLEGIO NACIONAL SNA JOSÉ",
+  },
+  {
+    label: "COLEGIO NACIONAL VICTOR RAÚL HAYA DE LA TORRE",
+    value: "COLEGIO NACIONAL VICTOR RAÚL HAYA DE LA TORRE",
+  },
+  {
+    label: "COLEGIO NACIONAL VRHT",
+    value: "COLEGIO NACIONAL VRHT",
+  },
+  {
+    label: "COLEGIO NIÑO JESÚS DE PRAGA",
+    value: "COLEGIO NIÑO JESÚS DE PRAGA",
+  },
+  {
+    label: "COLEGIO NUESTRA SEÑORA DE LA ASUNCIÓN DE MONTERREY-HUARAZ",
+    value: "COLEGIO NUESTRA SEÑORA DE LA ASUNCIÓN DE MONTERREY-HUARAZ",
+  },
+  {
+    label: "COLEGIO PARROQUIAL DE VARONES PILLKO MARKA",
+    value: "COLEGIO PARROQUIAL DE VARONES PILLKO MARKA",
+  },
+  {
+    label: "COLEGIO PARROQUIAL GRATUITO MADRE ADMIRABLE",
+    value: "COLEGIO PARROQUIAL GRATUITO MADRE ADMIRABLE",
+  },
+  {
+    label: "COLEGIO PARROQUIAL SAN NORBERTO",
+    value: "COLEGIO PARROQUIAL SAN NORBERTO",
+  },
+  {
+    label: "COLEGIO PARTICULAR CATÓLICO SAN PIO X",
+    value: "COLEGIO PARTICULAR CATÓLICO SAN PIO X",
+  },
+  {
+    label: "COLEGIO PARTICULAR SAN IGNACIO DE LOYOLA",
+    value: "COLEGIO PARTICULAR SAN IGNACIO DE LOYOLA",
+  },
+  {
+    label: "COLEGIO PERÚ BIRF",
+    value: "COLEGIO PERÚ BIRF",
+  },
+  {
+    label: "COLEGIO PRIVADO ELLEN PARKURST",
+    value: "COLEGIO PRIVADO ELLEN PARKURST",
+  },
+  {
+    label: "COLEGIO PRIVADO RICARDO PALMA",
+    value: "COLEGIO PRIVADO RICARDO PALMA",
+  },
+  {
+    label: "COLEGIO PRIVADO SAN ANTONIO MARÍA CLARET",
+    value: "COLEGIO PRIVADO SAN ANTONIO MARÍA CLARET",
+  },
+  {
+    label: "COLEGIO PROFESORES DEL PERÚ",
+    value: "COLEGIO PROFESORES DEL PERÚ",
+  },
+  {
+    label: "COLEGIO PROVADO SAN FELIPE NERI",
+    value: "COLEGIO PROVADO SAN FELIPE NERI",
+  },
+  {
+    label: "COLEGIO REGIONAL DE PROFESORES DE LIMA METROPOLITANA",
+    value: "COLEGIO REGIONAL DE PROFESORES DE LIMA METROPOLITANA",
+  },
+  {
+    label: "COLEGIO SAN ANDRÉS",
+    value: "COLEGIO SAN ANDRÉS",
+  },
+  {
+    label: "COLEGIO SAN JOSÉ DE MONTERRICO",
+    value: "COLEGIO SAN JOSÉ DE MONTERRICO",
+  },
+  {
+    label: "COLEGIO SANTA INÉS DE YUNGAY",
+    value: "COLEGIO SANTA INÉS DE YUNGAY",
+  },
+  {
+    label: "COLEGIO SIMÓN BOLIVAR",
+    value: "COLEGIO SIMÓN BOLIVAR",
+  },
+  {
+    label: "COLEGIO TEOBALDO PAREDES VALDÉS",
+    value: "COLEGIO TEOBALDO PAREDES VALDÉS",
+  },
+  {
+    label: "COLEGIO TEOBALDO PAREDES VALDEZ",
+    value: "COLEGIO TEOBALDO PAREDES VALDEZ",
+  },
+  {
+    label: "COLEGIO TRILCE DE CHICLAYO",
+    value: "COLEGIO TRILCE DE CHICLAYO",
+  },
+  {
+    label: "COLEGIO TRILCE DE LA MOLINA",
+    value: "COLEGIO TRILCE DE LA MOLINA",
+  },
+  {
+    label: "COLEGIO VON NEUMANN",
+    value: "COLEGIO VON NEUMANN",
+  },
+  {
+    label: "COLEGIOS PERUANOS",
+    value: "COLEGIOS PERUANOS",
+  },
+  {
+    label: "COLEGIOS PERUANOS S.A.C.",
+    value: "COLEGIOS PERUANOS S.A.C.",
+  },
+  {
+    label: "COLEGIOS PERUANOS SA",
+    value: "COLEGIOS PERUANOS SA",
+  },
+  {
+    label: "COLEGIOS Y ACADEMIAS INGENIEROS UNI",
+    value: "COLEGIOS Y ACADEMIAS INGENIEROS UNI",
+  },
+  {
+    label: "COLEGIOS Y ACADEMIAS PAMER",
+    value: "COLEGIOS Y ACADEMIAS PAMER",
+  },
+  {
+    label: "COLLEGE OF AGRICULTURE AND FIFE SCIENCES",
+    value: "COLLEGE OF AGRICULTURE AND FIFE SCIENCES",
+  },
+  {
+    label: "Comisaría Laderas de Villa",
+    value: "Comisaría Laderas de Villa",
+  },
+  {
+    label: "COMISIÓN BICAMERAL DE PRESUPUESTO DEL CONGRESO DE LA REPÚBLICA",
+    value: "COMISIÓN BICAMERAL DE PRESUPUESTO DEL CONGRESO DE LA REPÚBLICA",
+  },
+  {
+    label: "COMISION DE DERECHOS HUMANOS DE ICA",
+    value: "COMISION DE DERECHOS HUMANOS DE ICA",
+  },
+  {
+    label:
+      "COMISIÓN DE EDUCACIÓN CULTURA Y DEPORTE DE LA MUNICIPALIDAD DISTRITAL DE SINGA",
+    value:
+      "COMISIÓN DE EDUCACIÓN CULTURA Y DEPORTE DE LA MUNICIPALIDAD DISTRITAL DE SINGA",
+  },
+  {
+    label:
+      "COMISIÓN DE EVALUACIÓN. CONVERSIÓN DE LOS CENTROS DE EDUCACIÓN OCUPACIONAL",
+    value:
+      "COMISIÓN DE EVALUACIÓN. CONVERSIÓN DE LOS CENTROS DE EDUCACIÓN OCUPACIONAL",
+  },
+  {
+    label: "Comisión de la Verdad y Reconciliación",
+    value: "Comisión de la Verdad y Reconciliación",
+  },
+  {
+    label: "COMISIÓN DEL PROYECTO EDUCATIVO REGIONAL",
+    value: "COMISIÓN DEL PROYECTO EDUCATIVO REGIONAL",
+  },
+  {
+    label: "COMISIÓN ECONÓMICA PARA AMÉRICA LATINA Y EL CARIBE (CEPAL)",
+    value: "COMISIÓN ECONÓMICA PARA AMÉRICA LATINA Y EL CARIBE (CEPAL)",
+  },
+  {
+    label: "COMISIÓN NACIONAL PARA EL DESARROLLO Y VIDA SIN DROGAS (DEVIDA)",
+    value: "COMISIÓN NACIONAL PARA EL DESARROLLO Y VIDA SIN DROGAS (DEVIDA)",
+  },
+  {
+    label: "COMISIÓN NACIONAL PARA EL DESARROLLO Y VIDA SIN DROGAS- DEVIDA ",
+    value: "COMISIÓN NACIONAL PARA EL DESARROLLO Y VIDA SIN DROGAS- DEVIDA ",
+  },
+  {
+    label: "COMISIÓN ORGNIZADORA XI CONAFOR",
+    value: "COMISIÓN ORGNIZADORA XI CONAFOR",
+  },
+  {
+    label:
+      "COMISIÓN PERMANENTE DE PROCESOS ADMINISTRATIVOS. DIRECCIÓN REGIONAL DE EDUCACIÓN DE HUÁNUCO",
+    value:
+      "COMISIÓN PERMANENTE DE PROCESOS ADMINISTRATIVOS. DIRECCIÓN REGIONAL DE EDUCACIÓN DE HUÁNUCO",
+  },
+  {
+    label: "COMITÉ BINACIONAL PERÚ ESPAÑA",
+    value: "COMITÉ BINACIONAL PERÚ ESPAÑA",
+  },
+  {
+    label: "COMITÉ DE ADMINISTRACIÓN FIDEICOMISO SOCIAL YUNCÁN",
+    value: "COMITÉ DE ADMINISTRACIÓN FIDEICOMISO SOCIAL YUNCÁN",
+  },
+  {
+    label: "COMITÉ DE REFORESTACIÓN ALTO MAYO",
+    value: "COMITÉ DE REFORESTACIÓN ALTO MAYO",
+  },
+  {
+    label: "COMITÉ DE REFORESTACIÓN DE PUCALLPA",
+    value: "COMITÉ DE REFORESTACIÓN DE PUCALLPA",
+  },
+  {
+    label:
+      "COMITÉ ELECTORAL ESPECIAL. CENTRO POBLADO MENOR DE SANTA MARÍA DE HUACHIPA",
+    value:
+      "COMITÉ ELECTORAL ESPECIAL. CENTRO POBLADO MENOR DE SANTA MARÍA DE HUACHIPA",
+  },
+  {
+    label:
+      "Comité Electoral Universitario de la Universidad Nacional Daniel Alcides Carrión",
+    value:
+      "Comité Electoral Universitario de la Universidad Nacional Daniel Alcides Carrión",
+  },
+  {
+    label: "COMITÉS DE GESTIÓN LOCAL ",
+    value: "COMITÉS DE GESTIÓN LOCAL ",
+  },
+  {
+    label:
+      "COMMUNAUTE DE COMMUNES DU PAYS SANTON (AGRUPAMIENTO DE MUNICIPALIDADES DE LA REGIÓN SANTON)",
+    value:
+      "COMMUNAUTE DE COMMUNES DU PAYS SANTON (AGRUPAMIENTO DE MUNICIPALIDADES DE LA REGIÓN SANTON)",
+  },
+  {
+    label: "Compañía De Negociaciones Mobiliarias E Inmobiliarias Sa Coneminsa",
+    value: "Compañía De Negociaciones Mobiliarias E Inmobiliarias Sa Coneminsa",
+  },
+  {
+    label: "COMPAÑÍA MINERA ARES SAC",
+    value: "COMPAÑÍA MINERA ARES SAC",
+  },
+  {
+    label: "COMPAÑÍA MINERA ATACOCHA SA",
+    value: "COMPAÑÍA MINERA ATACOCHA SA",
+  },
+  {
+    label: "COMPAÑÍA MINERA ATACOCJA SA",
+    value: "COMPAÑÍA MINERA ATACOCJA SA",
+  },
+  {
+    label: "COMPAÑÍA MINERA PATIVILCA SA",
+    value: "COMPAÑÍA MINERA PATIVILCA SA",
+  },
+  {
+    label: "COMPRAS A MYPERRÚ",
+    value: "COMPRAS A MYPERRÚ",
+  },
+  {
+    label: "COMPRAS A MYPERÚ",
+    value: "COMPRAS A MYPERÚ",
+  },
+  {
+    label: "COMPROMISO PERÚ CLIMÁTICO",
+    value: "COMPROMISO PERÚ CLIMÁTICO",
+  },
+  {
+    label: "COMPUTER DOCTOR",
+    value: "COMPUTER DOCTOR",
+  },
+  {
+    label: "COMUNIDAD CAMPESIAN SAN PEDRO DE RACCO",
+    value: "COMUNIDAD CAMPESIAN SAN PEDRO DE RACCO",
+  },
+  {
+    label: "COMUNIDAD CAMPESINA 24 DE JUNIO DE PIRURUYOC CANCHAN",
+    value: "COMUNIDAD CAMPESINA 24 DE JUNIO DE PIRURUYOC CANCHAN",
+  },
+  {
+    label: "COMUNIDAD CAMPESINA DE JICAMARCA",
+    value: "COMUNIDAD CAMPESINA DE JICAMARCA",
+  },
+  {
+    label: "COMUNIDAD CAMPESINA PARARIN",
+    value: "COMUNIDAD CAMPESINA PARARIN",
+  },
+  {
+    label: "COMUNIDAD PERUANA DE CIENCIA TECNOLOGÍA Y SOCIEDAD",
+    value: "COMUNIDAD PERUANA DE CIENCIA TECNOLOGÍA Y SOCIEDAD",
+  },
+  {
+    label: "CONACERT",
+    value: "CONACERT",
+  },
+  {
+    label: "CONADIS",
+    value: "CONADIS",
+  },
+  {
+    label: "CONAJU",
+    value: "CONAJU",
+  },
+  {
+    label: "CONAMULTISERVIS SRL",
+    value: "CONAMULTISERVIS SRL",
+  },
+  {
+    label: "CONAZUL CONSORCIO AZB HCI",
+    value: "CONAZUL CONSORCIO AZB HCI",
+  },
+  {
+    label: "CONCAR SA",
+    value: "CONCAR SA",
+  },
+  {
+    label: "CONCESIONARIA VIAL DEL SOL",
+    value: "CONCESIONARIA VIAL DEL SOL",
+  },
+  {
+    label: "CONCESIONES & CATERING IND SAC",
+    value: "CONCESIONES & CATERING IND SAC",
+  },
+  {
+    label: "CONFECCIONES FRANKFORT SAC",
+    value: "CONFECCIONES FRANKFORT SAC",
+  },
+  {
+    label: "Confederación General de Trabajadores del Perú",
+    value: "Confederación General de Trabajadores del Perú",
+  },
+  {
+    label: "CONFER PROJECT SAC",
+    value: "CONFER PROJECT SAC",
+  },
+  {
+    label: "CONGRESO DE LA REPÚBLICA",
+    value: "CONGRESO DE LA REPÚBLICA",
+  },
+  {
+    label: "CONHYDRA SA ESP SUCURSAL DEL PERÚ",
+    value: "CONHYDRA SA ESP SUCURSAL DEL PERÚ",
+  },
+  {
+    label: "CONHYDRA SA ESP SUCURSAL PERÚ",
+    value: "CONHYDRA SA ESP SUCURSAL PERÚ",
+  },
+  {
+    label: "CONOCIMIENTO QUE SE COMPARTE",
+    value: "CONOCIMIENTO QUE SE COMPARTE",
+  },
+  {
+    label: "CONSEJO ACADÉMICO DE LA INSTITUCIÓN EDUCATIVA JUANA MORENO",
+    value: "CONSEJO ACADÉMICO DE LA INSTITUCIÓN EDUCATIVA JUANA MORENO",
+  },
+  {
+    label: "CONSEJO DE ADMINISTRACIÓN DEL FONDO EDUCATIVO DEL CALLAO CAFED",
+    value: "CONSEJO DE ADMINISTRACIÓN DEL FONDO EDUCATIVO DEL CALLAO CAFED",
+  },
+  {
+    label: "CONSEJO DE MINISTROS",
+    value: "CONSEJO DE MINISTROS",
+  },
+  {
+    label: "Consejo de Reparaciones",
+    value: "Consejo de Reparaciones",
+  },
+  {
+    label: "CONSEJO DE REPARACIONES REGISTRO ÚNICO DE VÍCTIMAS",
+    value: "CONSEJO DE REPARACIONES REGISTRO ÚNICO DE VÍCTIMAS",
+  },
+  {
+    label:
+      "CONSEJO EJECUTIVO DE PODER JUDICIAL. OFICINA NACIONAL DE JUSTICIA DE PAZ Y JUSTICIA INDÍGENA",
+    value:
+      "CONSEJO EJECUTIVO DE PODER JUDICIAL. OFICINA NACIONAL DE JUSTICIA DE PAZ Y JUSTICIA INDÍGENA",
+  },
+  {
+    label: "CONSEJO NACIONAL DE CAMÉLIDOS SUDAMERICANOS CONACS",
+    value: "CONSEJO NACIONAL DE CAMÉLIDOS SUDAMERICANOS CONACS",
+  },
+  {
+    label: "CONSEJO NACIONAL DE DESCENTRALIZACIÓN",
+    value: "CONSEJO NACIONAL DE DESCENTRALIZACIÓN",
+  },
+  {
+    label: "CONSEJO NACIONAL DE EDUCACIÓN",
+    value: "CONSEJO NACIONAL DE EDUCACIÓN",
+  },
+  {
+    label:
+      "CONSEJO NACIONAL PARA LA INTEGRACIÓN DE LA PERSONA CON DISCAPACIDAD CONADIS",
+    value:
+      "CONSEJO NACIONAL PARA LA INTEGRACIÓN DE LA PERSONA CON DISCAPACIDAD CONADIS",
+  },
+  {
+    label: "CONSEJO PERUANO PARA LA AUTOGESTIÓN (COPPA)",
+    value: "CONSEJO PERUANO PARA LA AUTOGESTIÓN (COPPA)",
+  },
+  {
+    label:
+      "CONSEJOS EDUCATIVOS INSTITUCIONALES. DIRECCIÓN REGIONAL DE EDUCACIÓN DE HUÁNUCO",
+    value:
+      "CONSEJOS EDUCATIVOS INSTITUCIONALES. DIRECCIÓN REGIONAL DE EDUCACIÓN DE HUÁNUCO",
+  },
+  {
+    label: "CONSEJOS PARTICIPATIVOS REGIONALES DE EDUCACIÓN COPARE",
+    value: "CONSEJOS PARTICIPATIVOS REGIONALES DE EDUCACIÓN COPARE",
+  },
+  {
+    label: "CONSENSOS A ESTUDIOS SOCIALES",
+    value: "CONSENSOS A ESTUDIOS SOCIALES",
+  },
+  {
+    label: "CONSERVACIÓN DE BOSQUES",
+    value: "CONSERVACIÓN DE BOSQUES",
+  },
+  {
+    label: "CONSOLIDATED GROUP DEL PERÚ SAC",
+    value: "CONSOLIDATED GROUP DEL PERÚ SAC",
+  },
+  {
+    label: "CONSORCIO ABACO-EIGER",
+    value: "CONSORCIO ABACO-EIGER",
+  },
+  {
+    label: "CONSORCIO AC & LG",
+    value: "CONSORCIO AC & LG",
+  },
+  {
+    label: "CONSORCIO AGUA SELVA",
+    value: "CONSORCIO AGUA SELVA",
+  },
+  {
+    label: "CONSORCIO AGUA Y TIERRA",
+    value: "CONSORCIO AGUA Y TIERRA",
+  },
+  {
+    label: "CONSORCIO AGUAS ANDINAS PERÚ",
+    value: "CONSORCIO AGUAS ANDINAS PERÚ",
+  },
+  {
+    label: "CONSORCIO ANTARES",
+    value: "CONSORCIO ANTARES",
+  },
+  {
+    label: "CONSORCIO APPLUS NORCONTROL SAC",
+    value: "CONSORCIO APPLUS NORCONTROL SAC",
+  },
+  {
+    label: "CONSORCIO BERTELLO",
+    value: "CONSORCIO BERTELLO",
+  },
+  {
+    label: "CONSORCIO BOQUERON",
+    value: "CONSORCIO BOQUERON",
+  },
+  {
+    label: "CONSORCIO CAJAMARCA",
+    value: "CONSORCIO CAJAMARCA",
+  },
+  {
+    label: "CONSORCIO CALLERIA",
+    value: "CONSORCIO CALLERIA",
+  },
+  {
+    label: "CONSORCIO CENTRO DE RIESGOS COMERCIALES - PUCP-COSAPIDATA",
+    value: "CONSORCIO CENTRO DE RIESGOS COMERCIALES - PUCP-COSAPIDATA",
+  },
+  {
+    label: "CONSORCIO CENTRO DE RIESGOS COMERCIALES-PUCP-COSAPIDATA",
+    value: "CONSORCIO CENTRO DE RIESGOS COMERCIALES-PUCP-COSAPIDATA",
+  },
+  {
+    label: "CONSORCIO CETICOS TUMBES",
+    value: "CONSORCIO CETICOS TUMBES",
+  },
+  {
+    label: "CONSORCIO CONCYSSA - ALTESA",
+    value: "CONSORCIO CONCYSSA - ALTESA",
+  },
+  {
+    label: "CONSORCIO CONSPER - GUTIERREZ",
+    value: "CONSORCIO CONSPER - GUTIERREZ",
+  },
+  {
+    label: "CONSORCIO CONSULTING GROUP",
+    value: "CONSORCIO CONSULTING GROUP",
+  },
+  {
+    label: "CONSORCIO CONSULTING PROYECT",
+    value: "CONSORCIO CONSULTING PROYECT",
+  },
+  {
+    label: "CONSORCIO CONSULTOR FOVIDA-COPEME-EL TALLER",
+    value: "CONSORCIO CONSULTOR FOVIDA-COPEME-EL TALLER",
+  },
+  {
+    label: "CONSORCIO CONSULTOR RURAL N 03",
+    value: "CONSORCIO CONSULTOR RURAL N 03",
+  },
+  {
+    label: "CONSORCIO COWSA",
+    value: "CONSORCIO COWSA",
+  },
+  {
+    label: "CONSORCIO DE INGENIERÍA",
+    value: "CONSORCIO DE INGENIERÍA",
+  },
+  {
+    label: "CONSORCIO DE INVESTIGACIÓN ECONÓMICA Y SOCIAL (CIES) ",
+    value: "CONSORCIO DE INVESTIGACIÓN ECONÓMICA Y SOCIAL (CIES) ",
+  },
+  {
+    label: "CONSORCIO DE ONG'S QUE APOYAN A LA PEQUEÑA Y MICRO EMPRESA COPEME",
+    value: "CONSORCIO DE ONG'S QUE APOYAN A LA PEQUEÑA Y MICRO EMPRESA COPEME",
+  },
+  {
+    label: "CONSORCIO DEARQ",
+    value: "CONSORCIO DEARQ",
+  },
+  {
+    label: "CONSORCIO DML TACNA",
+    value: "CONSORCIO DML TACNA",
+  },
+  {
+    label: "CONSORCIO DOBLE C",
+    value: "CONSORCIO DOBLE C",
+  },
+  {
+    label: "CONSORCIO EDUCATIVO CORAZÓN DE MARÍA",
+    value: "CONSORCIO EDUCATIVO CORAZÓN DE MARÍA",
+  },
+  {
+    label: "CONSORCIO EDUCATIVO LOS COCOS",
+    value: "CONSORCIO EDUCATIVO LOS COCOS",
+  },
+  {
+    label: "CONSORCIO EL SOL",
+    value: "CONSORCIO EL SOL",
+  },
+  {
+    label: "CONSORCIO ENTRE FDA ESAN PRISMA E INSTITUTO CUÁNTO",
+    value: "CONSORCIO ENTRE FDA ESAN PRISMA E INSTITUTO CUÁNTO",
+  },
+  {
+    label: "CONSORCIO EUROESTUDIOS HYTSA ZAVALETA INGENIEROS",
+    value: "CONSORCIO EUROESTUDIOS HYTSA ZAVALETA INGENIEROS",
+  },
+  {
+    label: "CONSORCIO FDA - CUANTO - ESAN",
+    value: "CONSORCIO FDA - CUANTO - ESAN",
+  },
+  {
+    label: "CONSORCIO FDA CUANTO ESAN",
+    value: "CONSORCIO FDA CUANTO ESAN",
+  },
+  {
+    label: "CONSORCIO GAS PERÚ SUR",
+    value: "CONSORCIO GAS PERÚ SUR",
+  },
+  {
+    label: "CONSORCIO GLOBAL VOLDAR INGENIEROS & FLORIANO PALACIOS LEON ",
+    value: "CONSORCIO GLOBAL VOLDAR INGENIEROS & FLORIANO PALACIOS LEON ",
+  },
+  {
+    label: "CONSORCIO HIDROVIAS AMAZONAS",
+    value: "CONSORCIO HIDROVIAS AMAZONAS",
+  },
+  {
+    label: "CONSORCIO HSIR S.A.C.",
+    value: "CONSORCIO HSIR S.A.C.",
+  },
+  {
+    label: "CONSORCIO HUACHIPA",
+    value: "CONSORCIO HUACHIPA",
+  },
+  {
+    label: "CONSORCIO HUANCAVELICA",
+    value: "CONSORCIO HUANCAVELICA",
+  },
+  {
+    label: "CONSORCIO IDOM SERCONSULT",
+    value: "CONSORCIO IDOM SERCONSULT",
+  },
+  {
+    label: "CONSORCIO INTEGRAL CONHYDRA",
+    value: "CONSORCIO INTEGRAL CONHYDRA",
+  },
+  {
+    label: "CONSORCIO INVERMET",
+    value: "CONSORCIO INVERMET",
+  },
+  {
+    label: "CONSORCIO JACO",
+    value: "CONSORCIO JACO",
+  },
+  {
+    label: "CONSORCIO LA GLORIA",
+    value: "CONSORCIO LA GLORIA",
+  },
+  {
+    label: "CONSORCIO LIMA ACTIVIDADES COMERCIALES",
+    value: "CONSORCIO LIMA ACTIVIDADES COMERCIALES",
+  },
+  {
+    label: "CONSORCIO LIMA NORTE",
+    value: "CONSORCIO LIMA NORTE",
+  },
+  {
+    label: "CONSORCIO LUCIO GUTIERREZ - NILO CARRION",
+    value: "CONSORCIO LUCIO GUTIERREZ - NILO CARRION",
+  },
+  {
+    label: "CONSORCIO LUREN - LOS LIBERTADORES",
+    value: "CONSORCIO LUREN - LOS LIBERTADORES",
+  },
+  {
+    label: "CONSORCIO MANCO CÁPAC",
+    value: "CONSORCIO MANCO CÁPAC",
+  },
+  {
+    label: "CONSORCIO MARTINETE",
+    value: "CONSORCIO MARTINETE",
+  },
+  {
+    label: "CONSORCIO MATUCANA",
+    value: "CONSORCIO MATUCANA",
+  },
+  {
+    label: "CONSORCIO MAXIMIXE",
+    value: "CONSORCIO MAXIMIXE",
+  },
+  {
+    label: "CONSORCIO MINERO HORIZONTE",
+    value: "CONSORCIO MINERO HORIZONTE",
+  },
+  {
+    label: "CONSORCIO MOVISCA INGENIEROS CONSULTORES",
+    value: "CONSORCIO MOVISCA INGENIEROS CONSULTORES",
+  },
+  {
+    label: "CONSORCIO NOR ANDINO  ",
+    value: "CONSORCIO NOR ANDINO  ",
+  },
+  {
+    label: "CONSORCIO NOR ANDINO SAC Y ARQ",
+    value: "CONSORCIO NOR ANDINO SAC Y ARQ",
+  },
+  {
+    label:
+      "CONSORCIO O MOROY INGENIERO CONSULTOR & CAA INGENIEROS CONSULTORES EIRL",
+    value:
+      "CONSORCIO O MOROY INGENIERO CONSULTOR & CAA INGENIEROS CONSULTORES EIRL",
+  },
+  {
+    label:
+      "CONSORCIO O MUROY INGENIERO CONSULTOR & AGUA Y AGRO ASESORES ASOCIADOS SA",
+    value:
+      "CONSORCIO O MUROY INGENIERO CONSULTOR & AGUA Y AGRO ASESORES ASOCIADOS SA",
+  },
+  {
+    label: "CONSORCIO ORION CONSULTING",
+    value: "CONSORCIO ORION CONSULTING",
+  },
+  {
+    label: "CONSORCIO PARA EL DESARROLLO SOSTENIBLE DE UCAYALI (CODESU)",
+    value: "CONSORCIO PARA EL DESARROLLO SOSTENIBLE DE UCAYALI (CODESU)",
+  },
+  {
+    label: "CONSORCIO PISCO II",
+    value: "CONSORCIO PISCO II",
+  },
+  {
+    label: "CONSORCIO PIURA",
+    value: "CONSORCIO PIURA",
+  },
+  {
+    label: "CONSORCIO REAL",
+    value: "CONSORCIO REAL",
+  },
+  {
+    label: "CONSORCIO RÍO AZUL",
+    value: "CONSORCIO RÍO AZUL",
+  },
+  {
+    label: "CONSORCIO RIO CHONTA",
+    value: "CONSORCIO RIO CHONTA",
+  },
+  {
+    label: "CONSORCIO RIO LOCUMBA",
+    value: "CONSORCIO RIO LOCUMBA",
+  },
+  {
+    label: "CONSORCIO SAN ALEJANDRO NESHUYA",
+    value: "CONSORCIO SAN ALEJANDRO NESHUYA",
+  },
+  {
+    label: "CONSORCIO SAN JUAN",
+    value: "CONSORCIO SAN JUAN",
+  },
+  {
+    label: "CONSORCIO SAN JUAN MACÍAS",
+    value: "CONSORCIO SAN JUAN MACÍAS",
+  },
+  {
+    label: "CONSORCIO SAN MIGUEL",
+    value: "CONSORCIO SAN MIGUEL",
+  },
+  {
+    label: "CONSORCIO SANEAMIENTO DE CARABAYLLO II",
+    value: "CONSORCIO SANEAMIENTO DE CARABAYLLO II",
+  },
+  {
+    label: "CONSORCIO SANEAMIENTO ÑAÑA",
+    value: "CONSORCIO SANEAMIENTO ÑAÑA",
+  },
+  {
+    label: "CONSORCIO SANEAMIENTO NORTE",
+    value: "CONSORCIO SANEAMIENTO NORTE",
+  },
+  {
+    label: "CONSORCIO SANTA ELENA  ",
+    value: "CONSORCIO SANTA ELENA  ",
+  },
+  {
+    label: "CONSORCIO SANTA ELENA SOLUCIONES EN INGENIERÍA",
+    value: "CONSORCIO SANTA ELENA SOLUCIONES EN INGENIERÍA",
+  },
+  {
+    label: "CONSORCIO SANTA MARÍA DE NIEVA",
+    value: "CONSORCIO SANTA MARÍA DE NIEVA",
+  },
+  {
+    label: "CONSORCIO SANTUARIO HUÁNUCO",
+    value: "CONSORCIO SANTUARIO HUÁNUCO",
+  },
+  {
+    label: "CONSORCIO SARGENTO LORENTZ",
+    value: "CONSORCIO SARGENTO LORENTZ",
+  },
+  {
+    label: "CONSORCIO SHANAO",
+    value: "CONSORCIO SHANAO",
+  },
+  {
+    label: "CONSORCIO TANTALEAN RIVERA - TELLO SHUAN",
+    value: "CONSORCIO TANTALEAN RIVERA - TELLO SHUAN",
+  },
+  {
+    label: "CONSORCIO TOQUEPALA",
+    value: "CONSORCIO TOQUEPALA",
+  },
+  {
+    label: "CONSORCIO VIAL COSTA",
+    value: "CONSORCIO VIAL COSTA",
+  },
+  {
+    label: "CONSORCIO VIAL DEL ORIENTE",
+    value: "CONSORCIO VIAL DEL ORIENTE",
+  },
+  {
+    label: "CONSORCIO VIAL SANTA ROSA",
+    value: "CONSORCIO VIAL SANTA ROSA",
+  },
+  {
+    label: "CONSORCIO VIGSACON",
+    value: "CONSORCIO VIGSACON",
+  },
+  {
+    label: "CONSORCIO VILLAREAL",
+    value: "CONSORCIO VILLAREAL",
+  },
+  {
+    label: "CONSORCIO VINCHOS",
+    value: "CONSORCIO VINCHOS",
+  },
+  {
+    label: "CONSTRUCCIONES & SERVICIOS SAC",
+    value: "CONSTRUCCIONES & SERVICIOS SAC",
+  },
+  {
+    label: "CONSTRUCCIONES NOR ANDINO S.A.C.",
+    value: "CONSTRUCCIONES NOR ANDINO S.A.C.",
+  },
+  {
+    label: "CONSTRUCCIONES NOR ANDINO SAC",
+    value: "CONSTRUCCIONES NOR ANDINO SAC",
+  },
+  {
+    label: "CONSTRUCCIONES VANGUARDISTAS SAC",
+    value: "CONSTRUCCIONES VANGUARDISTAS SAC",
+  },
+  {
+    label: "CONSTRUCTORA & CONSULTORA GALLO SRL",
+    value: "CONSTRUCTORA & CONSULTORA GALLO SRL",
+  },
+  {
+    label: "CONSTRUCTORA E INMOBILIARIA SHAKAFI ",
+    value: "CONSTRUCTORA E INMOBILIARIA SHAKAFI ",
+  },
+  {
+    label: "CONSTRUCTORA EITAL SA",
+    value: "CONSTRUCTORA EITAL SA",
+  },
+  {
+    label: "CONSTRUCTORA MEDITERRANEO S.A.C.",
+    value: "CONSTRUCTORA MEDITERRANEO S.A.C.",
+  },
+  {
+    label:
+      "Constructora Promotora Inmobiliaria Buena Esperanza S.A. (CONPRINBUES S.A.)",
+    value:
+      "Constructora Promotora Inmobiliaria Buena Esperanza S.A. (CONPRINBUES S.A.)",
+  },
+  {
+    label: "CONSTRUCTORA SACSAYHUAMAN EPS",
+    value: "CONSTRUCTORA SACSAYHUAMAN EPS",
+  },
+  {
+    label: "CONSTRUCTORA VALENCIA SRL",
+    value: "CONSTRUCTORA VALENCIA SRL",
+  },
+  {
+    label: "CONSTRUCTORES INTERAMERICANOS SA COINSA",
+    value: "CONSTRUCTORES INTERAMERICANOS SA COINSA",
+  },
+  {
+    label: "CONSTRUCTORES Y CONSULTORES  MCL SAC",
+    value: "CONSTRUCTORES Y CONSULTORES  MCL SAC",
+  },
+  {
+    label: "CONSTRUREDES SAC",
+    value: "CONSTRUREDES SAC",
+  },
+  {
+    label: "CONSULING ENGINEERS SALZGITTER GMBH",
+    value: "CONSULING ENGINEERS SALZGITTER GMBH",
+  },
+  {
+    label: "CONSULTEA SAC",
+    value: "CONSULTEA SAC",
+  },
+  {
+    label: "CONSULTING AGREEMENT",
+    value: "CONSULTING AGREEMENT",
+  },
+  {
+    label: "CONSULTING ARSI EIRL",
+    value: "CONSULTING ARSI EIRL",
+  },
+  {
+    label: "CONSULTING GROUP ",
+    value: "CONSULTING GROUP ",
+  },
+  {
+    label: "CONSULTING OUTSOURCING MANAGEMENT",
+    value: "CONSULTING OUTSOURCING MANAGEMENT",
+  },
+  {
+    label: "CONSULTING PROYECT S.A.C",
+    value: "CONSULTING PROYECT S.A.C",
+  },
+  {
+    label: "CONSULTING PROYECT SAC",
+    value: "CONSULTING PROYECT SAC",
+  },
+  {
+    label: "CONSULTOR ARQUITECTO DIEGO LA ROSA BOGGIO",
+    value: "CONSULTOR ARQUITECTO DIEGO LA ROSA BOGGIO",
+  },
+  {
+    label: "CONSULTOR MARCO AURELIO LOZANO FERNÁNDEZ",
+    value: "CONSULTOR MARCO AURELIO LOZANO FERNÁNDEZ",
+  },
+  {
+    label: "CONSULTORA A&I S.R.L.",
+    value: "CONSULTORA A&I S.R.L.",
+  },
+  {
+    label: "CONSULTORA AMBIENTAL SCG VIVAL SAC",
+    value: "CONSULTORA AMBIENTAL SCG VIVAL SAC",
+  },
+  {
+    label:
+      "CONSULTORA ASOCIADA EN MÚLTIPLES INVERSIONES Y DESARROLLO DE SERVICIOS ESPECIALIZADOS SRL CONAMULTISERVIS SRL",
+    value:
+      "CONSULTORA ASOCIADA EN MÚLTIPLES INVERSIONES Y DESARROLLO DE SERVICIOS ESPECIALIZADOS SRL CONAMULTISERVIS SRL",
+  },
+  {
+    label: "CONSULTORA BECK SAC",
+    value: "CONSULTORA BECK SAC",
+  },
+  {
+    label: "CONSULTORA C&D EIRL",
+    value: "CONSULTORA C&D EIRL",
+  },
+  {
+    label: "CONSULTORA DE PSICOLOGÍA ORGANIZACIONAL CAXAMARCA CONSULTING SRL",
+    value: "CONSULTORA DE PSICOLOGÍA ORGANIZACIONAL CAXAMARCA CONSULTING SRL",
+  },
+  {
+    label: "CONSULTORA EPSILON SRL",
+    value: "CONSULTORA EPSILON SRL",
+  },
+  {
+    label: "CONSULTORA INDEPENDIENTE",
+    value: "CONSULTORA INDEPENDIENTE",
+  },
+  {
+    label: "CONSULTORA Y CONSTRUCTORA TRUJILLO INGENIEROS EIRL",
+    value: "CONSULTORA Y CONSTRUCTORA TRUJILLO INGENIEROS EIRL",
+  },
+  {
+    label: "CONSULTORES EJECUTORES TECNICOS",
+    value: "CONSULTORES EJECUTORES TECNICOS",
+  },
+  {
+    label: "CONSULTORES EJECUTORES TECNICOS TECNICOS S.A. - CETEC S.A. ",
+    value: "CONSULTORES EJECUTORES TECNICOS TECNICOS S.A. - CETEC S.A. ",
+  },
+  {
+    label: "CONSULTORES EN PROYECTOS DE INVERSION SAC",
+    value: "CONSULTORES EN PROYECTOS DE INVERSION SAC",
+  },
+  {
+    label: "CONSULTORES Y ASESORES DURTHIS CA",
+    value: "CONSULTORES Y ASESORES DURTHIS CA",
+  },
+  {
+    label: "CONSULTORÍA & ASESORÍA EMPRESARIAL",
+    value: "CONSULTORÍA & ASESORÍA EMPRESARIAL",
+  },
+  {
+    label: "CONSULTORIA ASESORIA FORESTAL Y SERVICIOS GENERALES",
+    value: "CONSULTORIA ASESORIA FORESTAL Y SERVICIOS GENERALES",
+  },
+  {
+    label: "CONSULTORÍA E INVESTIGACIONES SAC",
+    value: "CONSULTORÍA E INVESTIGACIONES SAC",
+  },
+  {
+    label: "CONSULTORÍA ENERGÉTICA & AMBIENTAL",
+    value: "CONSULTORÍA ENERGÉTICA & AMBIENTAL",
+  },
+  {
+    label: "Consultoría GS",
+    value: "Consultoría GS",
+  },
+  {
+    label: "CONSULTORÍAS  E INVESTIGACIONES SAC",
+    value: "CONSULTORÍAS  E INVESTIGACIONES SAC",
+  },
+  {
+    label: "CONSULTORIAS E INVESTIGACIONES SAC",
+    value: "CONSULTORIAS E INVESTIGACIONES SAC",
+  },
+  {
+    label: "CONTRADORGAS COMISIÓN DE LUCHA CONTRA EL CONSUMO DE DORGAS",
+    value: "CONTRADORGAS COMISIÓN DE LUCHA CONTRA EL CONSUMO DE DORGAS",
+  },
+  {
+    label: "CONTRADROGAS",
+    value: "CONTRADROGAS",
+  },
+  {
+    label:
+      "CONTRALORÍA GENERAL DE LA REPÚBLICA DIRECCIÓN DE FISCALIZACIÓN GENERAL",
+    value:
+      "CONTRALORÍA GENERAL DE LA REPÚBLICA DIRECCIÓN DE FISCALIZACIÓN GENERAL",
+  },
+  {
+    label: "CONTRATISTAS SAC",
+    value: "CONTRATISTAS SAC",
+  },
+  {
+    label: "CONTROL IMO",
+    value: "CONTROL IMO",
+  },
+  {
+    label: "CONTROL SERVICE SAC",
+    value: "CONTROL SERVICE SAC",
+  },
+  {
+    label: "CONVENCIÓN NACIONAL DEL AGRO PERUANO CONVEAGRO",
+    value: "CONVENCIÓN NACIONAL DEL AGRO PERUANO CONVEAGRO",
+  },
+  {
+    label: "CONVERSACIÓN INTERNACIONAL PERÚ",
+    value: "CONVERSACIÓN INTERNACIONAL PERÚ",
+  },
+  {
+    label: "COOPERACCION",
+    value: "COOPERACCION",
+  },
+  {
+    label: "COOPERACIÓN ALEMANA AL DESARROLLO",
+    value: "COOPERACIÓN ALEMANA AL DESARROLLO",
+  },
+  {
+    label: "Cooperación Alemana al Desarrollo - Agencia de la GTZ",
+    value: "Cooperación Alemana al Desarrollo - Agencia de la GTZ",
+  },
+  {
+    label: "COOPERATIVA AGRARIA CAFETALERA PANGOA LTDA",
+    value: "COOPERATIVA AGRARIA CAFETALERA PANGOA LTDA",
+  },
+  {
+    label: "COOPERATIVA AGRARIA CAFETALERA SATIPO LTDA",
+    value: "COOPERATIVA AGRARIA CAFETALERA SATIPO LTDA",
+  },
+  {
+    label: "COOPERATIVA AGRARIA CAFETERA SATIPO LTDA",
+    value: "COOPERATIVA AGRARIA CAFETERA SATIPO LTDA",
+  },
+  {
+    label: "COOPERATIVA DE AHORRO Y CRÉDITO CIDERURAL",
+    value: "COOPERATIVA DE AHORRO Y CRÉDITO CIDERURAL",
+  },
+  {
+    label: "COOPERATIVA DE AHORRO Y CRÉDITO HOSNI (HOSPITAL DEL NIÑO)",
+    value: "COOPERATIVA DE AHORRO Y CRÉDITO HOSNI (HOSPITAL DEL NIÑO)",
+  },
+  {
+    label: "COOPERATIVA DE SERVICIOS EDUCACIONALES SAN FELIPE LTDA N 29",
+    value: "COOPERATIVA DE SERVICIOS EDUCACIONALES SAN FELIPE LTDA N 29",
+  },
+  {
+    label: "COOPERATIVA DE SERVICIOS ESPECIALES MERCADO CIUDAD DE DIOS LTDA.",
+    value: "COOPERATIVA DE SERVICIOS ESPECIALES MERCADO CIUDAD DE DIOS LTDA.",
+  },
+  {
+    label: "COOPSOL",
+    value: "COOPSOL",
+  },
+  {
+    label:
+      "COORDINACIÓN ANDALUZA DE ORGANIZACIONES NO GUBERNAMENTALES PARA EL DESARROLLO",
+    value:
+      "COORDINACIÓN ANDALUZA DE ORGANIZACIONES NO GUBERNAMENTALES PARA EL DESARROLLO",
+  },
+  {
+    label: "COORDINADOR DEL PROYECTO PAUL SOPLIN ALVARADO",
+    value: "COORDINADOR DEL PROYECTO PAUL SOPLIN ALVARADO",
+  },
+  {
+    label: "COORDINADORA DE DESARROLLO DE LA CUENCA DE JEQUETEPEQUE",
+    value: "COORDINADORA DE DESARROLLO DE LA CUENCA DE JEQUETEPEQUE",
+  },
+  {
+    label: "COORDINADORA RURAL",
+    value: "COORDINADORA RURAL",
+  },
+  {
+    label: "COORPORACIÓN NACIONAL DE CERTIFICACIONES E INSPECCIÓN ESCONACERT ",
+    value: "COORPORACIÓN NACIONAL DE CERTIFICACIONES E INSPECCIÓN ESCONACERT ",
+  },
+  {
+    label: "COPEINCA",
+    value: "COPEINCA",
+  },
+  {
+    label: "COPEME",
+    value: "COPEME",
+  },
+  {
+    label:
+      "COPEME CONSORCIO DE ORGANIZACIONES PRIVADOS DE PROMOCIÓN Y DESARROLLO DE LA PEQUEÑA Y MICRO EMPRESAS",
+    value:
+      "COPEME CONSORCIO DE ORGANIZACIONES PRIVADOS DE PROMOCIÓN Y DESARROLLO DE LA PEQUEÑA Y MICRO EMPRESAS",
+  },
+  {
+    label: "COPERATIVA AGRARIA CAFETERA SATIPO LTDA",
+    value: "COPERATIVA AGRARIA CAFETERA SATIPO LTDA",
+  },
+  {
+    label: "COPRODELI SAN FRANCISCO SOLANO",
+    value: "COPRODELI SAN FRANCISCO SOLANO",
+  },
+  {
+    label: "COPRODELI SAN JUAN MACÍAS",
+    value: "COPRODELI SAN JUAN MACÍAS",
+  },
+  {
+    label: "COPRODELI SAN MARTÍN",
+    value: "COPRODELI SAN MARTÍN",
+  },
+  {
+    label: "CORDOVAS INGENIEROS SAC",
+    value: "CORDOVAS INGENIEROS SAC",
+  },
+  {
+    label: "CORONA SERVICES SRL",
+    value: "CORONA SERVICES SRL",
+  },
+  {
+    label: "CORPORACIÓN AMBIENTAL INGENIEROS SAC",
+    value: "CORPORACIÓN AMBIENTAL INGENIEROS SAC",
+  },
+  {
+    label: "CORPORACIÓN ANDINA DE FOMENTO",
+    value: "CORPORACIÓN ANDINA DE FOMENTO",
+  },
+  {
+    label: "CORPORACIÓN ANDINA DE FOMENTO CAF",
+    value: "CORPORACIÓN ANDINA DE FOMENTO CAF",
+  },
+  {
+    label: "CORPORACIÓN COSMOS S.R.L.",
+    value: "CORPORACIÓN COSMOS S.R.L.",
+  },
+  {
+    label: "CORPORACIÓN DE INDUSTRIAS PLÁSTICAS SA",
+    value: "CORPORACIÓN DE INDUSTRIAS PLÁSTICAS SA",
+  },
+  {
+    label: "CORPORACIÒN DE INGENIERÍA S.A.C",
+    value: "CORPORACIÒN DE INGENIERÍA S.A.C",
+  },
+  {
+    label: "CORPORACIÓN DE INGENIERÍA SAC",
+    value: "CORPORACIÓN DE INGENIERÍA SAC",
+  },
+  {
+    label: "CORPORACIÓN DEL CENTRO SAC",
+    value: "CORPORACIÓN DEL CENTRO SAC",
+  },
+  {
+    label: "CORPORACIÓN FINANCIERA DE DESARROLLO S.A. COFIDE",
+    value: "CORPORACIÓN FINANCIERA DE DESARROLLO S.A. COFIDE",
+  },
+  {
+    label: "CORPORACIÓN INTELSAT PERÚ",
+    value: "CORPORACIÓN INTELSAT PERÚ",
+  },
+  {
+    label: "CORPORACIÓN LABORATORIOS AMBIENTALES DEL PERÚ SAC",
+    value: "CORPORACIÓN LABORATORIOS AMBIENTALES DEL PERÚ SAC",
+  },
+  {
+    label: "CORPORACION LINDLEY SA",
+    value: "CORPORACION LINDLEY SA",
+  },
+  {
+    label: "CORPORACIÓN MELENDRES SAC",
+    value: "CORPORACIÓN MELENDRES SAC",
+  },
+  {
+    label: "Corporación Mendoza SAC",
+    value: "Corporación Mendoza SAC",
+  },
+  {
+    label: "CORPORACIÓN RIMISP",
+    value: "CORPORACIÓN RIMISP",
+  },
+  {
+    label: "COSAPI",
+    value: "COSAPI",
+  },
+  {
+    label: "COSASING SRL",
+    value: "COSASING SRL",
+  },
+  {
+    label: "CPSM SAN MARCELINO CHAMPAGNAT",
+    value: "CPSM SAN MARCELINO CHAMPAGNAT",
+  },
+  {
+    label: "CPSM SAN RAMÓN",
+    value: "CPSM SAN RAMÓN",
+  },
+  {
+    label: "CRANMORE MOUNTAIN RESORT",
+    value: "CRANMORE MOUNTAIN RESORT",
+  },
+  {
+    label: "CRECHE ROSALIA JOANA SCHEID",
+    value: "CRECHE ROSALIA JOANA SCHEID",
+  },
+  {
+    label: "CREDISCOTIA FINANCIERA",
+    value: "CREDISCOTIA FINANCIERA",
+  },
+  {
+    label: "CREDISCOTIA FINANCIERA SA",
+    value: "CREDISCOTIA FINANCIERA SA",
+  },
+  {
+    label: "CRONICAS",
+    value: "CRONICAS",
+  },
+  {
+    label: "CRÓNICAS CENTRO DE EXCELENCIA EN ENFERMEDADES CRÓNICAS",
+    value: "CRÓNICAS CENTRO DE EXCELENCIA EN ENFERMEDADES CRÓNICAS",
+  },
+  {
+    label: "CRUZ ROJA ESPAÑOLA",
+    value: "CRUZ ROJA ESPAÑOLA",
+  },
+  {
+    label: "CRUZ ROJA PERUANA",
+    value: "CRUZ ROJA PERUANA",
+  },
+  {
+    label: "CSALUD S.A  GRUPO SFB",
+    value: "CSALUD S.A  GRUPO SFB",
+  },
+  {
+    label: "CTAR REGIÓN SAN MARTÍN",
+    value: "CTAR REGIÓN SAN MARTÍN",
+  },
+  {
+    label: "CTH INGENIEROS SAC",
+    value: "CTH INGENIEROS SAC",
+  },
+  {
+    label: "CUANTO ESTUDIOS SOCIOECONÓMICOS DE MERCADO ",
+    value: "CUANTO ESTUDIOS SOCIOECONÓMICOS DE MERCADO ",
+  },
+  {
+    label: "CUERPO TÉCNICO DE TASACIONES DEL PERÚ",
+    value: "CUERPO TÉCNICO DE TASACIONES DEL PERÚ",
+  },
+  {
+    label: "CUNA JARDÍN ELSA GHEINER",
+    value: "CUNA JARDÍN ELSA GHEINER",
+  },
+  {
+    label: "DAI- DEVELOPMENT ALTERNATIVES , INC",
+    value: "DAI- DEVELOPMENT ALTERNATIVES , INC",
+  },
+  {
+    label: "DAIMI PERÚ",
+    value: "DAIMI PERÚ",
+  },
+  {
+    label: "DAIMI PERÚ SAC",
+    value: "DAIMI PERÚ SAC",
+  },
+  {
+    label: "DANE EN BUCARAMANGA",
+    value: "DANE EN BUCARAMANGA",
+  },
+  {
+    label: "DAS CONSULTORÍA EIRL",
+    value: "DAS CONSULTORÍA EIRL",
+  },
+  {
+    label: "DATA PROCEST EIRL CONSULTORES DE OPINIÓN  Y MERCADO",
+    value: "DATA PROCEST EIRL CONSULTORES DE OPINIÓN  Y MERCADO",
+  },
+  {
+    label: "DDIRECCIÓN DE GESTIÓN PEDAGÓGICA",
+    value: "DDIRECCIÓN DE GESTIÓN PEDAGÓGICA",
+  },
+  {
+    label: "DECISIÓN CONSULTORES E INVESTIGADORES ASOCIADOS S.A",
+    value: "DECISIÓN CONSULTORES E INVESTIGADORES ASOCIADOS S.A",
+  },
+  {
+    label: "DECISION CONSULTORES E INVESTIGADORES ASOCIADOS SA",
+    value: "DECISION CONSULTORES E INVESTIGADORES ASOCIADOS SA",
+  },
+  {
+    label: "DECISION CONSULTORÍA E INVESTIGACIÓN DE MERCADOS",
+    value: "DECISION CONSULTORÍA E INVESTIGACIÓN DE MERCADOS",
+  },
+  {
+    label: "DECISIÓN. CONSULTORÍA E INVESTIGACIÓN DE MERCADOS",
+    value: "DECISIÓN. CONSULTORÍA E INVESTIGACIÓN DE MERCADOS",
+  },
+  {
+    label: "DECORACIONES KUSTERMAN SA",
+    value: "DECORACIONES KUSTERMAN SA",
+  },
+  {
+    label: "Defensoría del Pueblo",
+    value: "Defensoría del Pueblo",
+  },
+  {
+    label: "Delaware",
+    value: "Delaware",
+  },
+  {
+    label: "DEPARTAMENTO DE ORDENACIÓN DE INFRAESTRUCTURAS DE VODAFONE ESPAÑA",
+    value: "DEPARTAMENTO DE ORDENACIÓN DE INFRAESTRUCTURAS DE VODAFONE ESPAÑA",
+  },
+  {
+    label: "DEPENDENCIA DEMUNA MUNICIPALIDAD PROVINCIAL DE CAJAMARCA",
+    value: "DEPENDENCIA DEMUNA MUNICIPALIDAD PROVINCIAL DE CAJAMARCA",
+  },
+  {
+    label: "DERRAMA MAGISTERIAL",
+    value: "DERRAMA MAGISTERIAL",
+  },
+  {
+    label: "DESARROLLO DE LA EDUCACIÓN PERUANA",
+    value: "DESARROLLO DE LA EDUCACIÓN PERUANA",
+  },
+  {
+    label: "DESCO",
+    value: "DESCO",
+  },
+  {
+    label:
+      "DEVELOPING PEACE AND DISARMAMENT EDUCATION INITIATIVES TO DISARM CHILDREN & YOUTH",
+    value:
+      "DEVELOPING PEACE AND DISARMAMENT EDUCATION INITIATIVES TO DISARM CHILDREN & YOUTH",
+  },
+  {
+    label: "DEVIDA",
+    value: "DEVIDA",
+  },
+  {
+    label: "DEVIDA COMISIÓN PARA EL DESARROLLO Y VIDA SIN DROGAS",
+    value: "DEVIDA COMISIÓN PARA EL DESARROLLO Y VIDA SIN DROGAS",
+  },
+  {
+    label: "DEVIDA REGIÓN SAN MARTÍN",
+    value: "DEVIDA REGIÓN SAN MARTÍN",
+  },
+  {
+    label: "DEXTRE + MORIMOTO ARQUITECTOS SAC",
+    value: "DEXTRE + MORIMOTO ARQUITECTOS SAC",
+  },
+  {
+    label:
+      "DIACONIA ASOCIACIÓN EVANGÉLICA LUTERANA DE AYUDA PARA EL DESARROLLO COMUNAL",
+    value:
+      "DIACONIA ASOCIACIÓN EVANGÉLICA LUTERANA DE AYUDA PARA EL DESARROLLO COMUNAL",
+  },
+  {
+    label: "DIACONÍA PARA LA JUSTICIA Y LA PAZ",
+    value: "DIACONÍA PARA LA JUSTICIA Y LA PAZ",
+  },
+  {
+    label:
+      "DIACONÍA PARA LA JUSTICIA Y LA PAZ DEL ARZOBISPADO DE PIURA Y TUMBES",
+    value:
+      "DIACONÍA PARA LA JUSTICIA Y LA PAZ DEL ARZOBISPADO DE PIURA Y TUMBES",
+  },
+  {
+    label: "DIAKONIA",
+    value: "DIAKONIA",
+  },
+  {
+    label: "DIALOGO CONSULTORES SAC",
+    value: "DIALOGO CONSULTORES SAC",
+  },
+  {
+    label: "DIARIO EL SOL",
+    value: "DIARIO EL SOL",
+  },
+  {
+    label: "DIGEDD",
+    value: "DIGEDD",
+  },
+  {
+    label: "DIGETE DE LA UGEL 01",
+    value: "DIGETE DE LA UGEL 01",
+  },
+  {
+    label: "DIÓCESIS DE LURÍN",
+    value: "DIÓCESIS DE LURÍN",
+  },
+  {
+    label: "DIOCESIS DE LURÍN- OBISPO DE LURÍN",
+    value: "DIOCESIS DE LURÍN- OBISPO DE LURÍN",
+  },
+  {
+    label:
+      "DIRECCIÓN  DE LA UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 01 SAN JUAN DE MIRAFLORES",
+    value:
+      "DIRECCIÓN  DE LA UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 01 SAN JUAN DE MIRAFLORES",
+  },
+  {
+    label:
+      "DIRECCIÓN ACADÉMICA DE RESPONSABILIDAD SOCIAL DARS DE LA PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ",
+    value:
+      "DIRECCIÓN ACADÉMICA DE RESPONSABILIDAD SOCIAL DARS DE LA PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ",
+  },
+  {
+    label: "DIRECCIÓN DE  UNIDAD DE POSGRADO DE LA FACULTAD DE EDUCACIÓN",
+    value: "DIRECCIÓN DE  UNIDAD DE POSGRADO DE LA FACULTAD DE EDUCACIÓN",
+  },
+  {
+    label: "DIRECCIÓN DE ABASTECIMIENTOS Y SERVICIOS AUXILIARES GR-AYACUCHO",
+    value: "DIRECCIÓN DE ABASTECIMIENTOS Y SERVICIOS AUXILIARES GR-AYACUCHO",
+  },
+  {
+    label:
+      "DIRECCIÓN DE CONTABILIDAD Y FINANZAS MINISTERIO DE OBRAS PÚBLICAS- GOBIERNO DE CHILE",
+    value:
+      "DIRECCIÓN DE CONTABILIDAD Y FINANZAS MINISTERIO DE OBRAS PÚBLICAS- GOBIERNO DE CHILE",
+  },
+  {
+    label:
+      "DIRECCIÓN DE ECOLOGÍA PROTECCIÓN DEL MEDIO AMBIENTE Y SALUD OCUPACIONAL DESA DIIRESA ICA",
+    value:
+      "DIRECCIÓN DE ECOLOGÍA PROTECCIÓN DEL MEDIO AMBIENTE Y SALUD OCUPACIONAL DESA DIIRESA ICA",
+  },
+  {
+    label: "DIRECCIÓN DE EDUCACIÓN COMUNITARIA Y AMBIENTAL",
+    value: "DIRECCIÓN DE EDUCACIÓN COMUNITARIA Y AMBIENTAL",
+  },
+  {
+    label: "DIRECCIÓN DE EDUCACIÓN DEL CALLAO",
+    value: "DIRECCIÓN DE EDUCACIÓN DEL CALLAO",
+  },
+  {
+    label: "DIRECCIÓN DE EDUCACIÓN INICIAL",
+    value: "DIRECCIÓN DE EDUCACIÓN INICIAL",
+  },
+  {
+    label: "DIRECCIÓN DE EDUCACIÓN SUPERIOR PEDAGÓGICA ",
+    value: "DIRECCIÓN DE EDUCACIÓN SUPERIOR PEDAGÓGICA ",
+  },
+  {
+    label: "DIRECCIÓN DE EDUCACIÓN SUPERIOR PEDAGÓGICA DEL MINEDU",
+    value: "DIRECCIÓN DE EDUCACIÓN SUPERIOR PEDAGÓGICA DEL MINEDU",
+  },
+  {
+    label: "DIRECCIÓN DE EDUCACIÓN SUPERIOR PEDAGÓGICA DEL MINERU",
+    value: "DIRECCIÓN DE EDUCACIÓN SUPERIOR PEDAGÓGICA DEL MINERU",
+  },
+  {
+    label: "DIRECCIÓN DE EDUCACIÓN SUPERIOR TECNOLÓGICA",
+    value: "DIRECCIÓN DE EDUCACIÓN SUPERIOR TECNOLÓGICA",
+  },
+  {
+    label: "DIRECCIÓN DE EVALUACIÓN DOCENTE",
+    value: "DIRECCIÓN DE EVALUACIÓN DOCENTE",
+  },
+  {
+    label: "DIRECCIÓN DE EVALUACIÓN DOCENTE DEL MINISTERIO DE EDUCACIÓN",
+    value: "DIRECCIÓN DE EVALUACIÓN DOCENTE DEL MINISTERIO DE EDUCACIÓN",
+  },
+  {
+    label: "DIRECCIÓN DE EVALUACIÓN DOCENTE MINISTERIO DE EDUCACIÓN",
+    value: "DIRECCIÓN DE EVALUACIÓN DOCENTE MINISTERIO DE EDUCACIÓN",
+  },
+  {
+    label: "DIRECCIÓN DE GESTIÓN INSTITUCIONAL ",
+    value: "DIRECCIÓN DE GESTIÓN INSTITUCIONAL ",
+  },
+  {
+    label: "DIRECCIÓN DE GESTIÓN PEDAGÓGICA",
+    value: "DIRECCIÓN DE GESTIÓN PEDAGÓGICA",
+  },
+  {
+    label: "DIRECCIÓN DE GESTIÓN PEDAGÓGICA DE HUÁNUCO",
+    value: "DIRECCIÓN DE GESTIÓN PEDAGÓGICA DE HUÁNUCO",
+  },
+  {
+    label:
+      "DIRECCIÓN DE GESTIÓN PEDAGÓGICA DE LA DIRECCIÓN REGIONAL DE EDUCACIÓN HUÁNUCO",
+    value:
+      "DIRECCIÓN DE GESTIÓN PEDAGÓGICA DE LA DIRECCIÓN REGIONAL DE EDUCACIÓN HUÁNUCO",
+  },
+  {
+    label: "DIRECCIÓN DE LA UGEL CAJAMARCA",
+    value: "DIRECCIÓN DE LA UGEL CAJAMARCA",
+  },
+  {
+    label: "DIRECCIÓN DE LA UGEL RIOJA",
+    value: "DIRECCIÓN DE LA UGEL RIOJA",
+  },
+  {
+    label: "DIRECCIÓN DE LA UGEL UTCUBAMBA",
+    value: "DIRECCIÓN DE LA UGEL UTCUBAMBA",
+  },
+  {
+    label: "DIRECCIÓN DE LA UNIDAD DE GESTIÓN EDCUATIVA LOCAL HUÁNUCO",
+    value: "DIRECCIÓN DE LA UNIDAD DE GESTIÓN EDCUATIVA LOCAL HUÁNUCO",
+  },
+  {
+    label: "DIRECCIÓN DE LA UNIDAD DE GESTIÓN EDUCATIVA DE AMBO",
+    value: "DIRECCIÓN DE LA UNIDAD DE GESTIÓN EDUCATIVA DE AMBO",
+  },
+  {
+    label: "DIRECCIÓN DE LA UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 01",
+    value: "DIRECCIÓN DE LA UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 01",
+  },
+  {
+    label: "DIRECCIÓN DE LA UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 07",
+    value: "DIRECCIÓN DE LA UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 07",
+  },
+  {
+    label: "DIRECCIÓN DE LA UNIDAD DE GESTIÓN EDUCATIVA N 02",
+    value: "DIRECCIÓN DE LA UNIDAD DE GESTIÓN EDUCATIVA N 02",
+  },
+  {
+    label: "DIRECCIÓN DE LA UNIDAD EJECUTORA N 301",
+    value: "DIRECCIÓN DE LA UNIDAD EJECUTORA N 301",
+  },
+  {
+    label: "DIRECCIÓN DE LA USE PARURO",
+    value: "DIRECCIÓN DE LA USE PARURO",
+  },
+  {
+    label: "DIRECCIÓN DE POLÍTICAS DE DISCAPACIDAD",
+    value: "DIRECCIÓN DE POLÍTICAS DE DISCAPACIDAD",
+  },
+  {
+    label: "DIRECCIÓN DE RED DE SALUD LIMA CIUDAD",
+    value: "DIRECCIÓN DE RED DE SALUD LIMA CIUDAD",
+  },
+  {
+    label: "DIRECCIÓN DE SALUD LIMA CIUDAD",
+    value: "DIRECCIÓN DE SALUD LIMA CIUDAD",
+  },
+  {
+    label: "DIRECCIÓN DE SALUD V LIMA CIUDAD",
+    value: "DIRECCIÓN DE SALUD V LIMA CIUDAD",
+  },
+  {
+    label: "DIRECCION DE SERVICIOS EDUCATIVOS PARA EL ÁMBITO RURAL DISER",
+    value: "DIRECCION DE SERVICIOS EDUCATIVOS PARA EL ÁMBITO RURAL DISER",
+  },
+  {
+    label: "DIRECCIÓN DEL HOSPITAL DEPARTAMENTAL DE HUANCAVELICA",
+    value: "DIRECCIÓN DEL HOSPITAL DEPARTAMENTAL DE HUANCAVELICA",
+  },
+  {
+    label: "DIRECCIÓN DEL PROGRAMA SECTORIAL II",
+    value: "DIRECCIÓN DEL PROGRAMA SECTORIAL II",
+  },
+  {
+    label: "DIRECCIÓN DEL PROGRAMA SECTORIAL II USE 01 CONO SUR",
+    value: "DIRECCIÓN DEL PROGRAMA SECTORIAL II USE 01 CONO SUR",
+  },
+  {
+    label: "DIRECCIÓN DRE HUÁNUCO",
+    value: "DIRECCIÓN DRE HUÁNUCO",
+  },
+  {
+    label: "DIRECCIÓN DREC",
+    value: "DIRECCIÓN DREC",
+  },
+  {
+    label: "DIRECCIÓN EGIONAL DE EDUCCIÓN",
+    value: "DIRECCIÓN EGIONAL DE EDUCCIÓN",
+  },
+  {
+    label: "DIRECCIÓN EJECUTIVA DE ESCUELA PARA EL DESARROLLO",
+    value: "DIRECCIÓN EJECUTIVA DE ESCUELA PARA EL DESARROLLO",
+  },
+  {
+    label: "DIRECCIÓN GENERAL DE AGUAS, SUELOS E IRRIGACIONES",
+    value: "DIRECCIÓN GENERAL DE AGUAS, SUELOS E IRRIGACIONES",
+  },
+  {
+    label: "DIRECCIÓN GENERAL DE CALIDAD DE LA GESTIÓN ESCOLAR",
+    value: "DIRECCIÓN GENERAL DE CALIDAD DE LA GESTIÓN ESCOLAR",
+  },
+  {
+    label:
+      "DIRECCIÓN GENERAL DE CULTURA Y EDUCACIÓN DE LA PROVINCIA DE BUENOS AIRES",
+    value:
+      "DIRECCIÓN GENERAL DE CULTURA Y EDUCACIÓN DE LA PROVINCIA DE BUENOS AIRES",
+  },
+  {
+    label: "DIRECCIÓN GENERAL DE EDUCACIÓN BÁSICA REGULAR",
+    value: "DIRECCIÓN GENERAL DE EDUCACIÓN BÁSICA REGULAR",
+  },
+  {
+    label: "DIRECCIÓN GENERAL DE EDUCACIÓN SUPERIOR",
+    value: "DIRECCIÓN GENERAL DE EDUCACIÓN SUPERIOR",
+  },
+  {
+    label: "DIRECCIÓN GENERAL DE EDUCACIÓN SUPERIOR Y TÉCNICO PROFESIONAL",
+    value: "DIRECCIÓN GENERAL DE EDUCACIÓN SUPERIOR Y TÉCNICO PROFESIONAL",
+  },
+  {
+    label: "DIRECCIÓN GENERAL DE INFRAESTRUCTURA",
+    value: "DIRECCIÓN GENERAL DE INFRAESTRUCTURA",
+  },
+  {
+    label:
+      "DIRECCIÓN GENERAL DE INNOVACIÓN, TRANSFERENCIA TECNOLÓGICA Y SERVICIOS EMPRESARIALES DEL DESPACHO VICEMINISTERIAL DE MYPE E INDUSTRIA DEL MINISTERIO DE LA PRODUCCIÓN",
+    value:
+      "DIRECCIÓN GENERAL DE INNOVACIÓN, TRANSFERENCIA TECNOLÓGICA Y SERVICIOS EMPRESARIALES DEL DESPACHO VICEMINISTERIAL DE MYPE E INDUSTRIA DEL MINISTERIO DE LA PRODUCCIÓN",
+  },
+  {
+    label:
+      "DIRECCIÓN GENERAL DE INVESTIGACIÓN DGI DE LA PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ",
+    value:
+      "DIRECCIÓN GENERAL DE INVESTIGACIÓN DGI DE LA PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ",
+  },
+  {
+    label: "DIRECCIÓN GENERAL DE TECNOLOGÍAS EDUCATIVAS DIGETE",
+    value: "DIRECCIÓN GENERAL DE TECNOLOGÍAS EDUCATIVAS DIGETE",
+  },
+  {
+    label: "DIRECCIÓN GENERAL DEL CENTRO DE INSTRUCCIÓN DIGECIN",
+    value: "DIRECCIÓN GENERAL DEL CENTRO DE INSTRUCCIÓN DIGECIN",
+  },
+  {
+    label: "DIRECCIÓN GENERAL ELECTRICIDAD DEL MINISTERIO DE ENERGÍA Y MINAS",
+    value: "DIRECCIÓN GENERAL ELECTRICIDAD DEL MINISTERIO DE ENERGÍA Y MINAS",
+  },
+  {
+    label: "DIRECCIÓN GENERAL ISFD JCC",
+    value: "DIRECCIÓN GENERAL ISFD JCC",
+  },
+  {
+    label: "DIRECCIÓN NACIONAL DE CENSOS Y ENCUESTAS",
+    value: "DIRECCIÓN NACIONAL DE CENSOS Y ENCUESTAS",
+  },
+  {
+    label: "DIRECCIÓN NACIONAL DE EDUCACIÓN INICIAL Y PRIMARIA",
+    value: "DIRECCIÓN NACIONAL DE EDUCACIÓN INICIAL Y PRIMARIA",
+  },
+  {
+    label: "DIRECCIÓN NACIONAL DE FORMACIÓN Y CAPACITACIÓN DOCENTE",
+    value: "DIRECCIÓN NACIONAL DE FORMACIÓN Y CAPACITACIÓN DOCENTE",
+  },
+  {
+    label: "DIRECCIÓN PROVINCIAL DE EDUCACIÓN",
+    value: "DIRECCIÓN PROVINCIAL DE EDUCACIÓN",
+  },
+  {
+    label:
+      "DIRECCIÓN REGIONAL DE ADMINISTRACIÓN DE LA DIRECCIÓN REGIONAL AGRARIA SAN MARTÍN",
+    value:
+      "DIRECCIÓN REGIONAL DE ADMINISTRACIÓN DE LA DIRECCIÓN REGIONAL AGRARIA SAN MARTÍN",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE CULTURA CUSCO",
+    value: "DIRECCIÓN REGIONAL DE CULTURA CUSCO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDCUACI´N UGEL CHICLAYO",
+    value: "DIRECCIÓN REGIONAL DE EDCUACI´N UGEL CHICLAYO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDCUACIÓN PASCO",
+    value: "DIRECCIÓN REGIONAL DE EDCUACIÓN PASCO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN -DRE SAN MARTÍN",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN -DRE SAN MARTÍN",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN ANCASH",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN ANCASH",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN APURÍMAC",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN APURÍMAC",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN AYACUCHO",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN AYACUCHO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN CAJAMARCA",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN CAJAMARCA",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN CALLAO",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN CALLAO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN CUSCO",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN CUSCO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE AMAZONAS",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE AMAZONAS",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE ÁNCASH",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE ÁNCASH",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE CAJAMARCA",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE CAJAMARCA",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE CUSCO",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE CUSCO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE HUÁNUCO",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE HUÁNUCO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE JUNÍN",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE JUNÍN",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE LIMA METROPOLITANA",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE LIMA METROPOLITANA",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE LORETO",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE LORETO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE PASCO",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE PASCO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE SAN MARTÍN ",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE SAN MARTÍN ",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE SAN MARTÍN - MOYOBAMBA",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN DE SAN MARTÍN - MOYOBAMBA",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN DEL CALLAO ",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN DEL CALLAO ",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN DRE ANCASH",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN DRE ANCASH",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN HUAMACHUCO",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN HUAMACHUCO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN HUÁNUCO",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN HUÁNUCO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN JUNÍN",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN JUNÍN",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN LA LIBERTAD",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN LA LIBERTAD",
+  },
+  {
+    label: "DIRECCION REGIONAL DE EDUCACIÓN LAMBAYEQUE",
+    value: "DIRECCION REGIONAL DE EDUCACIÓN LAMBAYEQUE",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN PASCO",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN PASCO",
+  },
+  {
+    label:
+      "DIRECCIÓN REGIONAL DE EDUCACIÓN PASCO ÁREA DE ADESARROLLO EDCUATIVO DE COLQUIJIRCA",
+    value:
+      "DIRECCIÓN REGIONAL DE EDUCACIÓN PASCO ÁREA DE ADESARROLLO EDCUATIVO DE COLQUIJIRCA",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN PASCO GESTIÓN PEDAGÓGICA",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN PASCO GESTIÓN PEDAGÓGICA",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN PIURA",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN PIURA",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN REGIÓN GRAU",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN REGIÓN GRAU",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN REGIÓN PIURA",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN REGIÓN PIURA",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN SAN MARTÍN",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN SAN MARTÍN",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE EDUCACIÓN UCAYALI",
+    value: "DIRECCIÓN REGIONAL DE EDUCACIÓN UCAYALI",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE SALUD AYACUCHO",
+    value: "DIRECCIÓN REGIONAL DE SALUD AYACUCHO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE SALUD AYACUCHO (DIRESA)",
+    value: "DIRECCIÓN REGIONAL DE SALUD AYACUCHO (DIRESA)",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE SALUD DE ICA",
+    value: "DIRECCIÓN REGIONAL DE SALUD DE ICA",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE SALUD DIRESA",
+    value: "DIRECCIÓN REGIONAL DE SALUD DIRESA",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL DE TRABAJO Y PROMOCIÓN DEL EMPLEO TUMBES",
+    value: "DIRECCIÓN REGIONAL DE TRABAJO Y PROMOCIÓN DEL EMPLEO TUMBES",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL EDUCACIÓN CAJAMARCA",
+    value: "DIRECCIÓN REGIONAL EDUCACIÓN CAJAMARCA",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL EDUCACIÓN LA LIBERTAD",
+    value: "DIRECCIÓN REGIONAL EDUCACIÓN LA LIBERTAD",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL EDUCATIVA PUNO",
+    value: "DIRECCIÓN REGIONAL EDUCATIVA PUNO",
+  },
+  {
+    label: "DIRECCIÓN REGIONAL PAZ Y ESPERANZA SAN MARTÍN",
+    value: "DIRECCIÓN REGIONAL PAZ Y ESPERANZA SAN MARTÍN",
+  },
+  {
+    label: "DIRECCIÓN REGONAL DE EDCUACIÓN",
+    value: "DIRECCIÓN REGONAL DE EDCUACIÓN",
+  },
+  {
+    label: "DIRECCIÓN REGONAL DE EDUCACIÓN LAMBAYEQUE",
+    value: "DIRECCIÓN REGONAL DE EDUCACIÓN LAMBAYEQUE",
+  },
+  {
+    label: "DIRECCIÓN SUBREGIONAL AGRARIA",
+    value: "DIRECCIÓN SUBREGIONAL AGRARIA",
+  },
+  {
+    label: "DIRECCIÓN UGEL HUÁNUCO",
+    value: "DIRECCIÓN UGEL HUÁNUCO",
+  },
+  {
+    label: "DIRECCIÓN UGEL PASCO",
+    value: "DIRECCIÓN UGEL PASCO",
+  },
+  {
+    label: "DIRECCION UGEL YAROWILCA",
+    value: "DIRECCION UGEL YAROWILCA",
+  },
+  {
+    label: "DIRECCIÓN UNIDAD DE GESTIÓN EDUCATIVA PASCO",
+    value: "DIRECCIÓN UNIDAD DE GESTIÓN EDUCATIVA PASCO",
+  },
+  {
+    label: "DIRECTO INVESTIGACIÓN Y MARKETING",
+    value: "DIRECTO INVESTIGACIÓN Y MARKETING",
+  },
+  {
+    label: "DIRECTV Perú",
+    value: "DIRECTV Perú",
+  },
+  {
+    label: "DISEMAR EIRL",
+    value: "DISEMAR EIRL",
+  },
+  {
+    label: "DISTRIBUIDORA SANTA MÓNICA SAC",
+    value: "DISTRIBUIDORA SANTA MÓNICA SAC",
+  },
+  {
+    label: "DN CONSULTORES",
+    value: "DN CONSULTORES",
+  },
+  {
+    label: "DOKA",
+    value: "DOKA",
+  },
+  {
+    label: "DOMINUX CONSULTORES",
+    value: "DOMINUX CONSULTORES",
+  },
+  {
+    label: "DRA. PATRICIA FERNÁNDEZ",
+    value: "DRA. PATRICIA FERNÁNDEZ",
+  },
+  {
+    label: "DSI-SEM",
+    value: "DSI-SEM",
+  },
+  {
+    label: "DUKE ENERGY EGENOR",
+    value: "DUKE ENERGY EGENOR",
+  },
+  {
+    label: "DYR DESAFÍO Y RESPUESTA",
+    value: "DYR DESAFÍO Y RESPUESTA",
+  },
+  {
+    label: "E.E.N. Mg70059",
+    value: "E.E.N. Mg70059",
+  },
+  {
+    label: "E.P.M. N° 00614 NUEVA CAJAMARCA RIOJA",
+    value: "E.P.M. N° 00614 NUEVA CAJAMARCA RIOJA",
+  },
+  {
+    label: "E.P.M. N°00797",
+    value: "E.P.M. N°00797",
+  },
+  {
+    label: "EAP DE EDUCACIÓN BÁSICA ",
+    value: "EAP DE EDUCACIÓN BÁSICA ",
+  },
+  {
+    label: "EAP EDUCACIÓN BÁSICA INICIAL Y PRIMARIA FAC CS",
+    value: "EAP EDUCACIÓN BÁSICA INICIAL Y PRIMARIA FAC CS",
+  },
+  {
+    label: "EARNINGS STATEMENT",
+    value: "EARNINGS STATEMENT",
+  },
+  {
+    label: "EBR COPRODELI SAN FRANCISCO SOLANO",
+    value: "EBR COPRODELI SAN FRANCISCO SOLANO",
+  },
+  {
+    label: "EBR SAN MARTÍN DE PACHACUTEC",
+    value: "EBR SAN MARTÍN DE PACHACUTEC",
+  },
+  {
+    label: "ECHE INGENIEROS SRL",
+    value: "ECHE INGENIEROS SRL",
+  },
+  {
+    label: "ECMASERG PÉREZ SRI",
+    value: "ECMASERG PÉREZ SRI",
+  },
+  {
+    label: "ECO CONSULTORÍAS E INGENIERÍA SAC ECI",
+    value: "ECO CONSULTORÍAS E INGENIERÍA SAC ECI",
+  },
+  {
+    label: "ECO PLANEACIÓN CIVIL SA ECSA INGENIEROS",
+    value: "ECO PLANEACIÓN CIVIL SA ECSA INGENIEROS",
+  },
+  {
+    label: "ECONOMISTA ELVIS JESÚS TAPIA CAMPOSO",
+    value: "ECONOMISTA ELVIS JESÚS TAPIA CAMPOSO",
+  },
+  {
+    label: "ECONOMISTA ERICK ERLEE TANTALEAN RIVERA",
+    value: "ECONOMISTA ERICK ERLEE TANTALEAN RIVERA",
+  },
+  {
+    label:
+      "ECOPLANEACIÓN CIVIL S.A INGENIEROS CONSULTORES Y CONSTRUCTORES ECSA INGENIEROS",
+    value:
+      "ECOPLANEACIÓN CIVIL S.A INGENIEROS CONSULTORES Y CONSTRUCTORES ECSA INGENIEROS",
+  },
+  {
+    label: "ECOSEA HUARACACA",
+    value: "ECOSEA HUARACACA",
+  },
+  {
+    label: "ECOVIAN S.R.L",
+    value: "ECOVIAN S.R.L",
+  },
+  {
+    label: "ECSA INGENIEROS",
+    value: "ECSA INGENIEROS",
+  },
+  {
+    label: "EDICIONES B &S CONSULTORES",
+    value: "EDICIONES B &S CONSULTORES",
+  },
+  {
+    label: "EDICIONES COREFO SAC",
+    value: "EDICIONES COREFO SAC",
+  },
+  {
+    label: "EDIFICACIÓN Y CONSTRUCCIÓN EDICON SAC",
+    value: "EDIFICACIÓN Y CONSTRUCCIÓN EDICON SAC",
+  },
+  {
+    label: "EDIFICADORA DE DISEÑO Y CONSTRUCCIÓNN SAC EDDICO",
+    value: "EDIFICADORA DE DISEÑO Y CONSTRUCCIÓNN SAC EDDICO",
+  },
+  {
+    label: "EDITORIAL ACADÉMICA ESPAÑOLA",
+    value: "EDITORIAL ACADÉMICA ESPAÑOLA",
+  },
+  {
+    label: "EDITORIAL CASALS SA",
+    value: "EDITORIAL CASALS SA",
+  },
+  {
+    label: "EDITORIAL MARÍA TRINIDAD",
+    value: "EDITORIAL MARÍA TRINIDAD",
+  },
+  {
+    label: "EDITORIAL SINTESIS",
+    value: "EDITORIAL SINTESIS",
+  },
+  {
+    label: "EDMARD MULTISERVICIOS & CONSULTORÍA",
+    value: "EDMARD MULTISERVICIOS & CONSULTORÍA",
+  },
+  {
+    label: "EDOCTU CONGRESOS & CAPACITACIÓN",
+    value: "EDOCTU CONGRESOS & CAPACITACIÓN",
+  },
+  {
+    label: "Edpyme Solidaridad",
+    value: "Edpyme Solidaridad",
+  },
+  {
+    label: "EDUCA INSTITUTO DE FOMENTO DE UNA EDUCACIÓN DE CALIDAD",
+    value: "EDUCA INSTITUTO DE FOMENTO DE UNA EDUCACIÓN DE CALIDAD",
+  },
+  {
+    label: "EDUCACIÓN",
+    value: "EDUCACIÓN",
+  },
+  {
+    label: "EDUCACIÓN BÁSICA PARA TODOS",
+    value: "EDUCACIÓN BÁSICA PARA TODOS",
+  },
+  {
+    label: "EDUCACIÓN PRIMARIA DE MENORES N 33044",
+    value: "EDUCACIÓN PRIMARIA DE MENORES N 33044",
+  },
+  {
+    label: "EDUCACTIVA S.A.C",
+    value: "EDUCACTIVA S.A.C",
+  },
+  {
+    label: "EDUCAR",
+    value: "EDUCAR",
+  },
+  {
+    label: "EDUCARE",
+    value: "EDUCARE",
+  },
+  {
+    label: "EDUCATIONAL TRAVEL GROUP S.A",
+    value: "EDUCATIONAL TRAVEL GROUP S.A",
+  },
+  {
+    label: "EDUKANS",
+    value: "EDUKANS",
+  },
+  {
+    label: "EDUMARD MULTISERVICIOS & CONSULTORÍA",
+    value: "EDUMARD MULTISERVICIOS & CONSULTORÍA",
+  },
+  {
+    label: "EDURED",
+    value: "EDURED",
+  },
+  {
+    label: "EDUTECH CALIDAD Y EXPERIENCIA EN CAPACITACIÓN",
+    value: "EDUTECH CALIDAD Y EXPERIENCIA EN CAPACITACIÓN",
+  },
+  {
+    label: "EDYFICAR TRUJILLO",
+    value: "EDYFICAR TRUJILLO",
+  },
+  {
+    label: "EE N 10551",
+    value: "EE N 10551",
+  },
+  {
+    label: "EE N 10552",
+    value: "EE N 10552",
+  },
+  {
+    label: "EE N 10553",
+    value: "EE N 10553",
+  },
+  {
+    label: "EEM N 30216",
+    value: "EEM N 30216",
+  },
+  {
+    label: "EEMX N 50384",
+    value: "EEMX N 50384",
+  },
+  {
+    label: "EFET CONTRATISTAS GENERALES S.R.L",
+    value: "EFET CONTRATISTAS GENERALES S.R.L",
+  },
+  {
+    label: "EGP AQUITECTURA & INGENIERÍA",
+    value: "EGP AQUITECTURA & INGENIERÍA",
+  },
+  {
+    label: "EL INRENA",
+    value: "EL INRENA",
+  },
+  {
+    label: "EL LICEO CRISTIANO REL JUAN BUENO",
+    value: "EL LICEO CRISTIANO REL JUAN BUENO",
+  },
+  {
+    label: "EL NÚCLEO EJECUTOR",
+    value: "EL NÚCLEO EJECUTOR",
+  },
+  {
+    label: "ELECNOR PERÚ SAC",
+    value: "ELECNOR PERÚ SAC",
+  },
+  {
+    label: "ELECTRO LIMA SA EDELNOR",
+    value: "ELECTRO LIMA SA EDELNOR",
+  },
+  {
+    label: "ELECTROANDES S.A",
+    value: "ELECTROANDES S.A",
+  },
+  {
+    label: "ELECTROPERÚ",
+    value: "ELECTROPERÚ",
+  },
+  {
+    label: "ELECTROPERU S.A",
+    value: "ELECTROPERU S.A",
+  },
+  {
+    label: "ELSEVIER",
+    value: "ELSEVIER",
+  },
+  {
+    label: "EMAPE",
+    value: "EMAPE",
+  },
+  {
+    label: "EMAPE S.A",
+    value: "EMAPE S.A",
+  },
+  {
+    label: "EMBAMZ PERÚ",
+    value: "EMBAMZ PERÚ",
+  },
+  {
+    label: "EMPRENEGOCIOS",
+    value: "EMPRENEGOCIOS",
+  },
+  {
+    label: "EMPRESA AGROINDUSTRIAL POMALCA S.A.A",
+    value: "EMPRESA AGROINDUSTRIAL POMALCA S.A.A",
+  },
+  {
+    label: "EMPRESA AGROINDUSTRIAS FLORES SAC",
+    value: "EMPRESA AGROINDUSTRIAS FLORES SAC",
+  },
+  {
+    label: "EMPRESA DE COMUNICACIÓN SOCIAL Y SERVICIOS SRL",
+    value: "EMPRESA DE COMUNICACIÓN SOCIAL Y SERVICIOS SRL",
+  },
+  {
+    label: "EMPRESA DE SERVICIOS EDUCATIVOS INGENIERÍA EIRL",
+    value: "EMPRESA DE SERVICIOS EDUCATIVOS INGENIERÍA EIRL",
+  },
+  {
+    label: "EMPRESA DE TRANSPORTES LAS BRISAS ",
+    value: "EMPRESA DE TRANSPORTES LAS BRISAS ",
+  },
+  {
+    label: "EMPRESA ECOANDINO SAC",
+    value: "EMPRESA ECOANDINO SAC",
+  },
+  {
+    label: "EMPRESA GAMBELL PERÚ SA",
+    value: "EMPRESA GAMBELL PERÚ SA",
+  },
+  {
+    label: "EMPRESA JC CONTRATISTAS GENERALES EIRL",
+    value: "EMPRESA JC CONTRATISTAS GENERALES EIRL",
+  },
+  {
+    label: "EMPRESA METAL MECÁNICA SA",
+    value: "EMPRESA METAL MECÁNICA SA",
+  },
+  {
+    label:
+      "EMPRESA MUNICIAL DE AGUA POTABLE Y ALCANTARILLADO DE TAMBOPATA SOCIEDAD DE RESPONSABILIDAD LIMITADA -EMAPAT SRL",
+    value:
+      "EMPRESA MUNICIAL DE AGUA POTABLE Y ALCANTARILLADO DE TAMBOPATA SOCIEDAD DE RESPONSABILIDAD LIMITADA -EMAPAT SRL",
+  },
+  {
+    label: "EMPRESA MUNICIPAL ADMINISTRADORA DE PEAJE DE LIMA (EMAPE S.A.)",
+    value: "EMPRESA MUNICIPAL ADMINISTRADORA DE PEAJE DE LIMA (EMAPE S.A.)",
+  },
+  {
+    label:
+      "EMPRESA MUNICIPAL DE SANEAMIENTO BÁSICO DE PUNO SOCIEDAD ANÓNIMA-EMSAPUNO S.A",
+    value:
+      "EMPRESA MUNICIPAL DE SANEAMIENTO BÁSICO DE PUNO SOCIEDAD ANÓNIMA-EMSAPUNO S.A",
+  },
+  {
+    label: "EMPRESA NACIONAL DE COMERCIALIZACIÓN DE INSUMOS",
+    value: "EMPRESA NACIONAL DE COMERCIALIZACIÓN DE INSUMOS",
+  },
+  {
+    label: "EMPRESA NEGOCIOS BRAYAN",
+    value: "EMPRESA NEGOCIOS BRAYAN",
+  },
+  {
+    label: "EMPRESA NEXA RESOURCES CAJAMARQUILLA SA",
+    value: "EMPRESA NEXA RESOURCES CAJAMARQUILLA SA",
+  },
+  {
+    label: "EMPRESA PERIODÍSTICA NACIONAL SA EPRENSA",
+    value: "EMPRESA PERIODÍSTICA NACIONAL SA EPRENSA",
+  },
+  {
+    label: "EMPRESA R CIS INGENIEROS SAC",
+    value: "EMPRESA R CIS INGENIEROS SAC",
+  },
+  {
+    label: "EMPRESA SOCIEDAD MINERA CAMBIOR PERÚ SA",
+    value: "EMPRESA SOCIEDAD MINERA CAMBIOR PERÚ SA",
+  },
+  {
+    label: "EMPRESA SOCIEDAD MINERA IAMGOLD",
+    value: "EMPRESA SOCIEDAD MINERA IAMGOLD",
+  },
+  {
+    label: "EMULSIONES & ASFALTOS SAC",
+    value: "EMULSIONES & ASFALTOS SAC",
+  },
+  {
+    label: "EÑ BUEN SAMARITANO",
+    value: "EÑ BUEN SAMARITANO",
+  },
+  {
+    label: "ENERGÉTICA & AMBIENTAL SAC",
+    value: "ENERGÉTICA & AMBIENTAL SAC",
+  },
+  {
+    label: "Entel Perú S.A.",
+    value: "Entel Perú S.A.",
+  },
+  {
+    label: "ENTIDAD PRESTADORA DE SERVICIOS DE SANEAMIENTO AYACUCHANO S.A.",
+    value: "ENTIDAD PRESTADORA DE SERVICIOS DE SANEAMIENTO AYACUCHANO S.A.",
+  },
+  {
+    label: "ENTRAIDE & FRATERNITE",
+    value: "ENTRAIDE & FRATERNITE",
+  },
+  {
+    label: "ENTREPARES",
+    value: "ENTREPARES",
+  },
+  {
+    label: "EPDC ELECTRIC POWER DEVELOPMENT CD LTD",
+    value: "EPDC ELECTRIC POWER DEVELOPMENT CD LTD",
+  },
+  {
+    label: "EPICENTRO TRUJILLO",
+    value: "EPICENTRO TRUJILLO",
+  },
+  {
+    label: "EPM 00831 DE NUEVO HORIZONTE, SORITOR, MOYOBAMBA",
+    value: "EPM 00831 DE NUEVO HORIZONTE, SORITOR, MOYOBAMBA",
+  },
+  {
+    label: "EPM CN SERAFIN FILOMENO",
+    value: "EPM CN SERAFIN FILOMENO",
+  },
+  {
+    label: "EPM N 00006",
+    value: "EPM N 00006",
+  },
+  {
+    label: "EPM N 00015 DE PIONEROS ALTO, PARDO MIGLE, RIOJA",
+    value: "EPM N 00015 DE PIONEROS ALTO, PARDO MIGLE, RIOJA",
+  },
+  {
+    label: "EPM N 00290 LA PRIMAVERA MOYOBOMBA",
+    value: "EPM N 00290 LA PRIMAVERA MOYOBOMBA",
+  },
+  {
+    label: "EPM N 00481 PINCHAPAMPA ALONSO DE ALVARADO LAMAS",
+    value: "EPM N 00481 PINCHAPAMPA ALONSO DE ALVARADO LAMAS",
+  },
+  {
+    label: "EPM N 00491",
+    value: "EPM N 00491",
+  },
+  {
+    label: "EPM N 00498",
+    value: "EPM N 00498",
+  },
+  {
+    label: "EPM N 00797",
+    value: "EPM N 00797",
+  },
+  {
+    label: "EPM N 00804 LA CONQUISTA, MOYOBAMBA",
+    value: "EPM N 00804 LA CONQUISTA, MOYOBAMBA",
+  },
+  {
+    label: "EPM N 00821 PUERTO DE BAGAZÁN RIOJA",
+    value: "EPM N 00821 PUERTO DE BAGAZÁN RIOJA",
+  },
+  {
+    label: "EPM N 00843 EL CEDRO",
+    value: "EPM N 00843 EL CEDRO",
+  },
+  {
+    label: "EPM N 00872",
+    value: "EPM N 00872",
+  },
+  {
+    label: "EPM N 15032",
+    value: "EPM N 15032",
+  },
+  {
+    label: "EPM N 31 NUESTRA SEÑORAS DEL CARMEN",
+    value: "EPM N 31 NUESTRA SEÑORAS DEL CARMEN",
+  },
+  {
+    label: "EPM N 31756 RICARDO PALMA",
+    value: "EPM N 31756 RICARDO PALMA",
+  },
+  {
+    label: "EPM N 34038 TICLACAYAN",
+    value: "EPM N 34038 TICLACAYAN",
+  },
+  {
+    label: "EPM N 34039",
+    value: "EPM N 34039",
+  },
+  {
+    label: "EPM N 34135",
+    value: "EPM N 34135",
+  },
+  {
+    label: "EPM N 34359 MARATA PAUCARTAMBO",
+    value: "EPM N 34359 MARATA PAUCARTAMBO",
+  },
+  {
+    label: "EPM N 34437 CULEBRAMARCA",
+    value: "EPM N 34437 CULEBRAMARCA",
+  },
+  {
+    label: "EPM N 34476 DANIEL ALCIDES CARRIÓN MACARCANCHA PALLANCHACRA",
+    value: "EPM N 34476 DANIEL ALCIDES CARRIÓN MACARCANCHA PALLANCHACRA",
+  },
+  {
+    label: "EPM N 34530 20 DE ENERO SUCE",
+    value: "EPM N 34530 20 DE ENERO SUCE",
+  },
+  {
+    label: "EPM N 34584 YACUTINCO YARUSYACAN",
+    value: "EPM N 34584 YACUTINCO YARUSYACAN",
+  },
+  {
+    label: "EPM N 821187",
+    value: "EPM N 821187",
+  },
+  {
+    label: "EPRESA DE DISTRIBUCIÓN ELÉCTRICA LIMA NORTE",
+    value: "EPRESA DE DISTRIBUCIÓN ELÉCTRICA LIMA NORTE",
+  },
+  {
+    label: "EPS GRAU SA",
+    value: "EPS GRAU SA",
+  },
+  {
+    label: "EQUILIBRIO AMBIENTAL SAC",
+    value: "EQUILIBRIO AMBIENTAL SAC",
+  },
+  {
+    label: "EQUIPO DE EDUCACIÓN Y AUTOGESTIÓN SOCIAL EDAPROSPO",
+    value: "EQUIPO DE EDUCACIÓN Y AUTOGESTIÓN SOCIAL EDAPROSPO",
+  },
+  {
+    label: "EQUIPOS DOCENTES DEL PERÚ",
+    value: "EQUIPOS DOCENTES DEL PERÚ",
+  },
+  {
+    label: "ERICK ERLEE TANTALEAN RIVERA",
+    value: "ERICK ERLEE TANTALEAN RIVERA",
+  },
+  {
+    label: "ERM PERÚ SA",
+    value: "ERM PERÚ SA",
+  },
+  {
+    label: "ES CNA DE YALTALO",
+    value: "ES CNA DE YALTALO",
+  },
+  {
+    label: "ESAN",
+    value: "ESAN",
+  },
+  {
+    label: "ESC. N 17079",
+    value: "ESC. N 17079",
+  },
+  {
+    label: "ESCAES",
+    value: "ESCAES",
+  },
+  {
+    label: "ESCUELA BIBLIOTECA PRINCIPAL",
+    value: "ESCUELA BIBLIOTECA PRINCIPAL",
+  },
+  {
+    label: "ESCUELA CLUB CALLE DU PRINCE",
+    value: "ESCUELA CLUB CALLE DU PRINCE",
+  },
+  {
+    label: "ESCUELA CLUB MIGROS",
+    value: "ESCUELA CLUB MIGROS",
+  },
+  {
+    label: "ESCUELA DE ADMINISTRACIÓN DE NEGOCIOS PARA GRADUADOS",
+    value: "ESCUELA DE ADMINISTRACIÓN DE NEGOCIOS PARA GRADUADOS",
+  },
+  {
+    label: "ESCUELA DE ADMINISTRACIÓN DE NEGOCIOS PARA GRADUADOS ESAN",
+    value: "ESCUELA DE ADMINISTRACIÓN DE NEGOCIOS PARA GRADUADOS ESAN",
+  },
+  {
+    label:
+      "ESCUELA DE CAPACITACIÓN PROFESIONAL SOCIEDAD CIVIL SMBRANDO VALORES",
+    value:
+      "ESCUELA DE CAPACITACIÓN PROFESIONAL SOCIEDAD CIVIL SMBRANDO VALORES",
+  },
+  {
+    label: "ESCUELA DE EDUCACIÓN SUPERIOR TÉCNICO PROFESIONAL PNP CHICLAYO",
+    value: "ESCUELA DE EDUCACIÓN SUPERIOR TÉCNICO PROFESIONAL PNP CHICLAYO",
+  },
+  {
+    label: "ESCUELA DE ENFERMERÍA PADRE LUIS TEZZA",
+    value: "ESCUELA DE ENFERMERÍA PADRE LUIS TEZZA",
+  },
+  {
+    label: "ESCUELA DE FORMACIÓN PROFESIONAL A DISTANCIA",
+    value: "ESCUELA DE FORMACIÓN PROFESIONAL A DISTANCIA",
+  },
+  {
+    label: "ESCUELA DE INGENIERÍA AMBIENTAL Y EN ECOTURISMO",
+    value: "ESCUELA DE INGENIERÍA AMBIENTAL Y EN ECOTURISMO",
+  },
+  {
+    label: "ESCUELA DE POSTGRADO",
+    value: "ESCUELA DE POSTGRADO",
+  },
+  {
+    label:
+      "Escuela de Postgrado de la Universidad Nacional Daniel Alcides Carrión",
+    value:
+      "Escuela de Postgrado de la Universidad Nacional Daniel Alcides Carrión",
+  },
+  {
+    label: "ESCUELA DISTRITAL PRIMARIA DE MENORES RAMÓN CASTILLA",
+    value: "ESCUELA DISTRITAL PRIMARIA DE MENORES RAMÓN CASTILLA",
+  },
+  {
+    label: "ESCUELA ESTATAL N 30216 SAGRADO CORAZÓN DE MARÍA EL TAMBO",
+    value: "ESCUELA ESTATAL N 30216 SAGRADO CORAZÓN DE MARÍA EL TAMBO",
+  },
+  {
+    label: "ESCUELA INTERNACIONAL DE POSTGRADO",
+    value: "ESCUELA INTERNACIONAL DE POSTGRADO",
+  },
+  {
+    label: "ESCUELA MAYOR DE GESTIÓN MUNICIPAL",
+    value: "ESCUELA MAYOR DE GESTIÓN MUNICIPAL",
+  },
+  {
+    label: "ESCUELA MILITAR DE CHORRILLOS",
+    value: "ESCUELA MILITAR DE CHORRILLOS",
+  },
+  {
+    label: "ESCUELA N 3065 ",
+    value: "ESCUELA N 3065 ",
+  },
+  {
+    label: "ESCUELA N 86286",
+    value: "ESCUELA N 86286",
+  },
+  {
+    label: "ESCUELA NACIONAL DE ANTROPOLOGÍA E HISTORIA",
+    value: "ESCUELA NACIONAL DE ANTROPOLOGÍA E HISTORIA",
+  },
+  {
+    label: "ESCUELA NAVAL DEL PERÚ",
+    value: "ESCUELA NAVAL DEL PERÚ",
+  },
+  {
+    label: "ESCUELA PARA EL DESARROLLO (EN ASOCIACIÓN CON ENTREPUEBLOS ESPAÑA)",
+    value: "ESCUELA PARA EL DESARROLLO (EN ASOCIACIÓN CON ENTREPUEBLOS ESPAÑA)",
+  },
+  {
+    label: "ESCUELA PARA EL DESARROLLO y ASOCIACIÓN MADRE CORAJE",
+    value: "ESCUELA PARA EL DESARROLLO y ASOCIACIÓN MADRE CORAJE",
+  },
+  {
+    label: "ESCUELA PARA EL DESARROLLO y CEDAL",
+    value: "ESCUELA PARA EL DESARROLLO y CEDAL",
+  },
+  {
+    label: "ESCUELA PRIMARIA DE MENORES N 32077",
+    value: "ESCUELA PRIMARIA DE MENORES N 32077",
+  },
+  {
+    label: "ESCUELA PRIMARIA DE MENORES N 322753",
+    value: "ESCUELA PRIMARIA DE MENORES N 322753",
+  },
+  {
+    label: "ESCUELA PRIMARIA DE MENORES N 32800",
+    value: "ESCUELA PRIMARIA DE MENORES N 32800",
+  },
+  {
+    label: "ESCUELA PRIMARIA DE MENORES N 33077 DE PICCHUY",
+    value: "ESCUELA PRIMARIA DE MENORES N 33077 DE PICCHUY",
+  },
+  {
+    label: "ESCUELA PRIMARIA DE MENORES N 34057",
+    value: "ESCUELA PRIMARIA DE MENORES N 34057",
+  },
+  {
+    label: "ESCUELA PRIMARIA DE MENORES N 34106 COCHAMARCA VICCO PASCO",
+    value: "ESCUELA PRIMARIA DE MENORES N 34106 COCHAMARCA VICCO PASCO",
+  },
+  {
+    label: "ESCUELA PRIMARIA DE MENORES N° 34009 - CHIPA, NINACACA",
+    value: "ESCUELA PRIMARIA DE MENORES N° 34009 - CHIPA, NINACACA",
+  },
+  {
+    label:
+      "ESCUELA PRIMARIA DE MENORES N° 34020 LUIS FABIO XAMMAR PALLANCHACRA",
+    value:
+      "ESCUELA PRIMARIA DE MENORES N° 34020 LUIS FABIO XAMMAR PALLANCHACRA",
+  },
+  {
+    label: "ESCUELA PRIMARIA DE MENORES N° 34065",
+    value: "ESCUELA PRIMARIA DE MENORES N° 34065",
+  },
+  {
+    label: "ESCUELA PRIMARIA DE MENORES N° 34066",
+    value: "ESCUELA PRIMARIA DE MENORES N° 34066",
+  },
+  {
+    label: "ESCUELA PRIMARIA DE MENORES N° 34068",
+    value: "ESCUELA PRIMARIA DE MENORES N° 34068",
+  },
+  {
+    label: "ESCUELA PRIMARIA DE MENORES N° 34399",
+    value: "ESCUELA PRIMARIA DE MENORES N° 34399",
+  },
+  {
+    label: "ESCUELA PRIMARIA DE MENORES N° 34552",
+    value: "ESCUELA PRIMARIA DE MENORES N° 34552",
+  },
+  {
+    label: "ESCUELA PRIMARIA DE MENORES N° 34563",
+    value: "ESCUELA PRIMARIA DE MENORES N° 34563",
+  },
+  {
+    label:
+      "Escuela Profesional de Educación Secundaria de la Facultad de Ciencias de la Educación de la Universidad Nacional Daniel Alcides Carrión",
+    value:
+      "Escuela Profesional de Educación Secundaria de la Facultad de Ciencias de la Educación de la Universidad Nacional Daniel Alcides Carrión",
+  },
+  {
+    label: "ESCUELA SUPERIOR DE CAPACITACIÓN PARA PROFESIONALES ESUCAP",
+    value: "ESCUELA SUPERIOR DE CAPACITACIÓN PARA PROFESIONALES ESUCAP",
+  },
+  {
+    label:
+      "ESCUELA SUPERIOR DE FORMACIÓN ARTÍSTICA PÚBLICA BELLAS ARTES MACEDONIO DE LA TORRE",
+    value:
+      "ESCUELA SUPERIOR DE FORMACIÓN ARTÍSTICA PÚBLICA BELLAS ARTES MACEDONIO DE LA TORRE",
+  },
+  {
+    label: "ESCUELA SUPERIOR ESEFUL",
+    value: "ESCUELA SUPERIOR ESEFUL",
+  },
+  {
+    label: "ESEM PERÚ SAC",
+    value: "ESEM PERÚ SAC",
+  },
+  {
+    label: "ESENASA PERÚ",
+    value: "ESENASA PERÚ",
+  },
+  {
+    label: "ESFA PÚBLICA MARIO URTEAGA ALVARADO",
+    value: "ESFA PÚBLICA MARIO URTEAGA ALVARADO",
+  },
+  {
+    label: "ESM CN AT JESÚS ALBERTO MIRANDA CALLE",
+    value: "ESM CN AT JESÚS ALBERTO MIRANDA CALLE",
+  },
+  {
+    label: "ESM CN SERAFÍN FILOMENO",
+    value: "ESM CN SERAFÍN FILOMENO",
+  },
+  {
+    label: "ESM. CNA NARANJILLO",
+    value: "ESM. CNA NARANJILLO",
+  },
+  {
+    label: "ESM.CN. SANTO TORIBIO DE RIOJA",
+    value: "ESM.CN. SANTO TORIBIO DE RIOJA",
+  },
+  {
+    label: "ESSALUD",
+    value: "ESSALUD",
+  },
+  {
+    label: "ESSALUD MAS SALUD PARA MÁS PERUANOS GERENCIA DEPARTAMENTAL UCAYALI",
+    value: "ESSALUD MAS SALUD PARA MÁS PERUANOS GERENCIA DEPARTAMENTAL UCAYALI",
+  },
+  {
+    label: "ESSO Mobil",
+    value: "ESSO Mobil",
+  },
+  {
+    label: "ESTABLO PORTUGAL ",
+    value: "ESTABLO PORTUGAL ",
+  },
+  {
+    label:
+      "ESTADOS UNIDOS MEXICANOS- SECRETARÍA DE COMUNICACIONES Y TRANSPORTES",
+    value:
+      "ESTADOS UNIDOS MEXICANOS- SECRETARÍA DE COMUNICACIONES Y TRANSPORTES",
+  },
+  {
+    label: "ESTRATEGIAS PARA EL DESARROLLO HUMANO",
+    value: "ESTRATEGIAS PARA EL DESARROLLO HUMANO",
+  },
+  {
+    label: "ESTRATEGIAS PARTICIPATIVAS PARA EL DESARROLLO SOSTENIBLE EPDS EIRL",
+    value: "ESTRATEGIAS PARTICIPATIVAS PARA EL DESARROLLO SOSTENIBLE EPDS EIRL",
+  },
+  {
+    label:
+      "ESTUDIO JUAN MANUEL CRIADO CAICEDO ASESORÍA LEGAL-TRIBUTARIA-ECONÓMICA",
+    value:
+      "ESTUDIO JUAN MANUEL CRIADO CAICEDO ASESORÍA LEGAL-TRIBUTARIA-ECONÓMICA",
+  },
+  {
+    label: "ESTUDIO LUIS ALBERTO BELLIDO ABOGADOS",
+    value: "ESTUDIO LUIS ALBERTO BELLIDO ABOGADOS",
+  },
+  {
+    label: "ESTUDIO QUISPE BECERRIL ABOGADOS",
+    value: "ESTUDIO QUISPE BECERRIL ABOGADOS",
+  },
+  {
+    label: "ESTUDIOS ABASTECIMIENTOS Y CONSTRUCCIONES EAC INGENIEROS SRL",
+    value: "ESTUDIOS ABASTECIMIENTOS Y CONSTRUCCIONES EAC INGENIEROS SRL",
+  },
+  {
+    label: "EUGENIO FERNANDO TELLO SHUAN. INGENIERO.CONSULTOR DE OBRASA",
+    value: "EUGENIO FERNANDO TELLO SHUAN. INGENIERO.CONSULTOR DE OBRASA",
+  },
+  {
+    label: "EVALUACION EDUCATIVA",
+    value: "EVALUACION EDUCATIVA",
+  },
+  {
+    label: "EVOLUTION COMUNICACIÓN TOTAL",
+    value: "EVOLUTION COMUNICACIÓN TOTAL",
+  },
+  {
+    label: "EXCELENCE PROFESIONAL SAC",
+    value: "EXCELENCE PROFESIONAL SAC",
+  },
+  {
+    label: "EXCELSA GESTIÓN PARA EL DESARROLLO SRL",
+    value: "EXCELSA GESTIÓN PARA EL DESARROLLO SRL",
+  },
+  {
+    label: "EXECUTIVE SOLUTION",
+    value: "EXECUTIVE SOLUTION",
+  },
+  {
+    label: "EXECUTIVE SOLUTIONS",
+    value: "EXECUTIVE SOLUTIONS",
+  },
+  {
+    label: "FACTORÍA SANTA ISOLINA SRL COMPRESORAS PERFORADORAS",
+    value: "FACTORÍA SANTA ISOLINA SRL COMPRESORAS PERFORADORAS",
+  },
+  {
+    label:
+      "FACULTAD DE CIENCIAS DE LA EDUCACIÓN Y HUMANIDADES DE LA UNIVERSIDAD DE HUÁNUCO ",
+    value:
+      "FACULTAD DE CIENCIAS DE LA EDUCACIÓN Y HUMANIDADES DE LA UNIVERSIDAD DE HUÁNUCO ",
+  },
+  {
+    label:
+      "FACULTAD DE EDUCACIÓN DE LA UNIVERSIDAD NACIONAL FEDERICO VILLARREAL",
+    value:
+      "FACULTAD DE EDUCACIÓN DE LA UNIVERSIDAD NACIONAL FEDERICO VILLARREAL",
+  },
+  {
+    label: "FACULTAD DE EDUCACIÓN DE LA UPCH",
+    value: "FACULTAD DE EDUCACIÓN DE LA UPCH",
+  },
+  {
+    label: "FACULTAD LATINOAMERICANA DE CIENCIAS SOCIALES",
+    value: "FACULTAD LATINOAMERICANA DE CIENCIAS SOCIALES",
+  },
+  {
+    label: "Family Health International ",
+    value: "Family Health International ",
+  },
+  {
+    label: "FAMILY HEALTH INTERNATIONAL FHI",
+    value: "FAMILY HEALTH INTERNATIONAL FHI",
+  },
+  {
+    label: "Family Health International Proyectos USAID/PERU/SUMA",
+    value: "Family Health International Proyectos USAID/PERU/SUMA",
+  },
+  {
+    label: "FAMILY HEALTH INTERNATIONAL- FHI360 ",
+    value: "FAMILY HEALTH INTERNATIONAL- FHI360 ",
+  },
+  {
+    label: "FAMYR GROUP EIRL",
+    value: "FAMYR GROUP EIRL",
+  },
+  {
+    label: "FCR INGENIEROS SAC",
+    value: "FCR INGENIEROS SAC",
+  },
+  {
+    label: "FCV+GROUP",
+    value: "FCV+GROUP",
+  },
+  {
+    label: "FE Y ALEGRÍA 54",
+    value: "FE Y ALEGRÍA 54",
+  },
+  {
+    label: "FE Y ALEGRÍA 55",
+    value: "FE Y ALEGRÍA 55",
+  },
+  {
+    label: "FE Y ALEGRÍA MOVIMIENTO DE EDUCACIÓN POPULAR INTEGRAL",
+    value: "FE Y ALEGRÍA MOVIMIENTO DE EDUCACIÓN POPULAR INTEGRAL",
+  },
+  {
+    label: "FÉ Y ALEGRÍA. N° 44 ANDAHUAYLAS",
+    value: "FÉ Y ALEGRÍA. N° 44 ANDAHUAYLAS",
+  },
+  {
+    label: "FEDERACIÓN ANDALUZA DE ONGS",
+    value: "FEDERACIÓN ANDALUZA DE ONGS",
+  },
+  {
+    label: "FEDERACIÓN DE CLUBES DE MADRES DE LA PROVINCIA DE HUAMANGA",
+    value: "FEDERACIÓN DE CLUBES DE MADRES DE LA PROVINCIA DE HUAMANGA",
+  },
+  {
+    label: "FEDERACIÓN PERUANA DE FUTBOL",
+    value: "FEDERACIÓN PERUANA DE FUTBOL",
+  },
+  {
+    label: "FELICITA ISABEL HERNÁNDEZ COTRINA. CONSULTORA",
+    value: "FELICITA ISABEL HERNÁNDEZ COTRINA. CONSULTORA",
+  },
+  {
+    label: "FERRETERÍA AGRÍCOLA NUEVO HORIZONTE",
+    value: "FERRETERÍA AGRÍCOLA NUEVO HORIZONTE",
+  },
+  {
+    label: "FERTILIZANTES DEL SUR SAC",
+    value: "FERTILIZANTES DEL SUR SAC",
+  },
+  {
+    label: "FINANCIERA EDYFICAR",
+    value: "FINANCIERA EDYFICAR",
+  },
+  {
+    label: "Fiscalía Provincial Penal Corporativa de Moyobamba",
+    value: "Fiscalía Provincial Penal Corporativa de Moyobamba",
+  },
+  {
+    label: "FLACSO SEDE ECUADOR",
+    value: "FLACSO SEDE ECUADOR",
+  },
+  {
+    label: "FLASCO ECUADOR",
+    value: "FLASCO ECUADOR",
+  },
+  {
+    label: "FLORA TRISTÁN",
+    value: "FLORA TRISTÁN",
+  },
+  {
+    label: "FLORA TRISTAN CENTRO DE LA MUJER PERUANA",
+    value: "FLORA TRISTAN CENTRO DE LA MUJER PERUANA",
+  },
+  {
+    label: "FOMENTO AL CONSUMO HUMANO DIRECTO",
+    value: "FOMENTO AL CONSUMO HUMANO DIRECTO",
+  },
+  {
+    label: "FOMENTO AL CONSUMO HUMANO DIRECTO- A COMER PESCADO",
+    value: "FOMENTO AL CONSUMO HUMANO DIRECTO- A COMER PESCADO",
+  },
+  {
+    label: "FOMENTO DE LA VIDA (FOVIDA)",
+    value: "FOMENTO DE LA VIDA (FOVIDA)",
+  },
+  {
+    label: "FOMENTO DE LA VIDA FOVIDA",
+    value: "FOMENTO DE LA VIDA FOVIDA",
+  },
+  {
+    label: "FOMPER SAC",
+    value: "FOMPER SAC",
+  },
+  {
+    label: "FONCODES",
+    value: "FONCODES",
+  },
+  {
+    label: "FONCOES",
+    value: "FONCOES",
+  },
+  {
+    label: "FONDO DE COOPERACIÓN HISPANO PERUANO",
+    value: "FONDO DE COOPERACIÓN HISPANO PERUANO",
+  },
+  {
+    label: "FONDO DE COOPERACIÓN HISPANO-PERUANO",
+    value: "FONDO DE COOPERACIÓN HISPANO-PERUANO",
+  },
+  {
+    label: "FONDO DE COOPERACIÓN HISPANO-PERUANO. PROGRAMA MI EMPRESA DEL MTPE",
+    value: "FONDO DE COOPERACIÓN HISPANO-PERUANO. PROGRAMA MI EMPRESA DEL MTPE",
+  },
+  {
+    label: "FONDO DE COOPERACIÓN PARA EL DESARROLLO SOCIAL FONCOES",
+    value: "FONDO DE COOPERACIÓN PARA EL DESARROLLO SOCIAL FONCOES",
+  },
+  {
+    label: "FONDO DE EMPLEADOS DEL BANCO DE LA NACIÓN",
+    value: "FONDO DE EMPLEADOS DEL BANCO DE LA NACIÓN",
+  },
+  {
+    label: "FONDO DE EMPLEADOS DEL BANCO DE LA NACIÓN - FEBAN",
+    value: "FONDO DE EMPLEADOS DEL BANCO DE LA NACIÓN - FEBAN",
+  },
+  {
+    label: "FONDO DE INVERSIÓN EN TELECOMUNICACIONES FITEL",
+    value: "FONDO DE INVERSIÓN EN TELECOMUNICACIONES FITEL",
+  },
+  {
+    label: "FONDO DE LAS NACIONALES UNIDAS PARA LA INFANCIA",
+    value: "FONDO DE LAS NACIONALES UNIDAS PARA LA INFANCIA",
+  },
+  {
+    label: "FONDO DE LAS NACIONES UNIDAS PARA LA INFANCIA",
+    value: "FONDO DE LAS NACIONES UNIDAS PARA LA INFANCIA",
+  },
+  {
+    label: "FONDO DE LAS NACIONES UNIDAS PARA LA INFANCIA UNICEF",
+    value: "FONDO DE LAS NACIONES UNIDAS PARA LA INFANCIA UNICEF",
+  },
+  {
+    label: "FONDO DE POBLACIÓN DE LAS NACIONES UNIDAS",
+    value: "FONDO DE POBLACIÓN DE LAS NACIONES UNIDAS",
+  },
+  {
+    label: "FONDO DE POBLACIÓN DE LAS NACIONES UNIDAS UNFPA",
+    value: "FONDO DE POBLACIÓN DE LAS NACIONES UNIDAS UNFPA",
+  },
+  {
+    label: "FONDO DE PROMOCIÓN DEL DESARROLLO FORESTAL FONDOBOSQUE",
+    value: "FONDO DE PROMOCIÓN DEL DESARROLLO FORESTAL FONDOBOSQUE",
+  },
+  {
+    label: "FONDO DE PROMOCIÓN Y DESARROLLO FORESTAL FONDEBOSQUE",
+    value: "FONDO DE PROMOCIÓN Y DESARROLLO FORESTAL FONDEBOSQUE",
+  },
+  {
+    label: "FONDO DE VIVIENDA POLICIAL",
+    value: "FONDO DE VIVIENDA POLICIAL",
+  },
+  {
+    label: "FONDO DE VIVIENDA POLICIAL FOVIPOL",
+    value: "FONDO DE VIVIENDA POLICIAL FOVIPOL",
+  },
+  {
+    label: "FONDO EDITORIAL UNIVERSIDAD NACIONAL AGRARIA LA MOLINA",
+    value: "FONDO EDITORIAL UNIVERSIDAD NACIONAL AGRARIA LA MOLINA",
+  },
+  {
+    label: "FONDO EMPLEO",
+    value: "FONDO EMPLEO",
+  },
+  {
+    label: "FONDO INTERNACIONAL DE DESARROLLO AGRÍCOLA (FIDA)",
+    value: "FONDO INTERNACIONAL DE DESARROLLO AGRÍCOLA (FIDA)",
+  },
+  {
+    label: "FONDO NACIONAL DE CAPACITACIÓN LABORAL Y PROMOCIÓN DEL EMPLEO",
+    value: "FONDO NACIONAL DE CAPACITACIÓN LABORAL Y PROMOCIÓN DEL EMPLEO",
+  },
+  {
+    label: "FONDO NACIONAL DE DESARROLLO DE LA EDUCACIÓN PERUANA",
+    value: "FONDO NACIONAL DE DESARROLLO DE LA EDUCACIÓN PERUANA",
+  },
+  {
+    label: "Fondo Nacional de Desarrollo de la Educación Peruana - FONDEP",
+    value: "Fondo Nacional de Desarrollo de la Educación Peruana - FONDEP",
+  },
+  {
+    label: "FONDO NACIONAL DE DESARROLLO DE LA EDUCACIÓN PERUANA FONDEP",
+    value: "FONDO NACIONAL DE DESARROLLO DE LA EDUCACIÓN PERUANA FONDEP",
+  },
+  {
+    label: "FONDO PERÚ ESPAÑA",
+    value: "FONDO PERÚ ESPAÑA",
+  },
+  {
+    label: "FONDO SOCIAL LAS BAMBAS",
+    value: "FONDO SOCIAL LAS BAMBAS",
+  },
+  {
+    label: "FONDO SOCIAL MAGISTRAL",
+    value: "FONDO SOCIAL MAGISTRAL",
+  },
+  {
+    label: "FONDOEMPLEO",
+    value: "FONDOEMPLEO",
+  },
+  {
+    label: "FOREST WOOD WORK N&P",
+    value: "FOREST WOOD WORK N&P",
+  },
+  {
+    label: "FORESTAL BTA SAC",
+    value: "FORESTAL BTA SAC",
+  },
+  {
+    label: "FORESTS",
+    value: "FORESTS",
+  },
+  {
+    label: "FORESTSOIL",
+    value: "FORESTSOIL",
+  },
+  {
+    label: "FORTALECIENDO CAPACIDADES ORGANIZACIONALES",
+    value: "FORTALECIENDO CAPACIDADES ORGANIZACIONALES",
+  },
+  {
+    label:
+      "FORTE- PE PROGRAMA MARCO DE FORMACIÓN PROFESIONAL TECNOLÓGICA Y PEDAGÓGICA EN PERÚ",
+    value:
+      "FORTE- PE PROGRAMA MARCO DE FORMACIÓN PROFESIONAL TECNOLÓGICA Y PEDAGÓGICA EN PERÚ",
+  },
+  {
+    label: "FOSTER PARENTS PLAN INTERNACIONAL INC PLAN",
+    value: "FOSTER PARENTS PLAN INTERNACIONAL INC PLAN",
+  },
+  {
+    label: "FOVIDA FOMENTO DE LA VIDA",
+    value: "FOVIDA FOMENTO DE LA VIDA",
+  },
+  {
+    label: "FREE PRESS",
+    value: "FREE PRESS",
+  },
+  {
+    label: "FUERZA AÉREA DEL PERÚ",
+    value: "FUERZA AÉREA DEL PERÚ",
+  },
+  {
+    label:
+      "FUNDACIÓN  SUIZA DE COOPERACIÓN PARA EL DESARROLLO TÉCNICO SWISSCONTACT",
+    value:
+      "FUNDACIÓN  SUIZA DE COOPERACIÓN PARA EL DESARROLLO TÉCNICO SWISSCONTACT",
+  },
+  {
+    label: "FUNDACIÓN AVSI",
+    value: "FUNDACIÓN AVSI",
+  },
+  {
+    label: "FUNDACIÓN CESVI ONLUS",
+    value: "FUNDACIÓN CESVI ONLUS",
+  },
+  {
+    label: "FUNDACIÓN CODESPA",
+    value: "FUNDACIÓN CODESPA",
+  },
+  {
+    label: "FUNDACIÓN CODESPA CONVIÉRTETE EN OPORTUNIDAD",
+    value: "FUNDACIÓN CODESPA CONVIÉRTETE EN OPORTUNIDAD",
+  },
+  {
+    label: "FUNDACIÓN COPRODELI",
+    value: "FUNDACIÓN COPRODELI",
+  },
+  {
+    label: "FUNDACIÓN COPRODELI ESPAÑA",
+    value: "FUNDACIÓN COPRODELI ESPAÑA",
+  },
+  {
+    label: "FUNDACIÓN DAMIÁN DE MOLOKAI",
+    value: "FUNDACIÓN DAMIÁN DE MOLOKAI",
+  },
+  {
+    label: "FUNDACIÓN DE AYUDA CONTRA LA DROGADICCIÓN",
+    value: "FUNDACIÓN DE AYUDA CONTRA LA DROGADICCIÓN",
+  },
+  {
+    label: "FUNDACIÓN INTERCULTURAL SUDAMERICANA",
+    value: "FUNDACIÓN INTERCULTURAL SUDAMERICANA",
+  },
+  {
+    label: "FUNDACIÓN OMILLO",
+    value: "FUNDACIÓN OMILLO",
+  },
+  {
+    label: "FUNDACIÓN PARA EL DESARROLLO AGRARIO",
+    value: "FUNDACIÓN PARA EL DESARROLLO AGRARIO",
+  },
+  {
+    label: "FUNDACIÓN PARA EL DESARROLLO DEL AGRO (FUNDEAGRO)",
+    value: "FUNDACIÓN PARA EL DESARROLLO DEL AGRO (FUNDEAGRO)",
+  },
+  {
+    label: "FUNDACIÓN PARA EL DESARROLLO NACIONAL",
+    value: "FUNDACIÓN PARA EL DESARROLLO NACIONAL",
+  },
+  {
+    label:
+      "FUNDACIÓN PERUANA ARA LA CONSERVACIÓN DE LA NATURALEZA PRO NATURALEZA",
+    value:
+      "FUNDACIÓN PERUANA ARA LA CONSERVACIÓN DE LA NATURALEZA PRO NATURALEZA",
+  },
+  {
+    label: "FUNDACIÓN POR LOS NIÑOS DEL PERÚ ALDEA INFANTIL SNA NICOLÁS",
+    value: "FUNDACIÓN POR LOS NIÑOS DEL PERÚ ALDEA INFANTIL SNA NICOLÁS",
+  },
+  {
+    label: "FUNDACIÓN ROMERO",
+    value: "FUNDACIÓN ROMERO",
+  },
+  {
+    label: "Fundación San Marcos",
+    value: "Fundación San Marcos",
+  },
+  {
+    label: "FUNDACIÓN SWISSCONTACT",
+    value: "FUNDACIÓN SWISSCONTACT",
+  },
+  {
+    label: "FUNDACIÓN TRUJILLO",
+    value: "FUNDACIÓN TRUJILLO",
+  },
+  {
+    label: "Fundación Trujillo para el Desarrollo Educativo y Social",
+    value: "Fundación Trujillo para el Desarrollo Educativo y Social",
+  },
+  {
+    label: "Fundación Wiese.",
+    value: "Fundación Wiese.",
+  },
+  {
+    label: "FUNDECOR PERÚ CHEMONICS INC",
+    value: "FUNDECOR PERÚ CHEMONICS INC",
+  },
+  {
+    label: "FUNDER PERÚ DESARROLLO EMPRESARIAL RURAL",
+    value: "FUNDER PERÚ DESARROLLO EMPRESARIAL RURAL",
+  },
+  {
+    label: "FUNDICIÓN CHEPEN SAC",
+    value: "FUNDICIÓN CHEPEN SAC",
+  },
+  {
+    label: "FUNDO SANTA RITA",
+    value: "FUNDO SANTA RITA",
+  },
+  {
+    label: "FUTURO SOSTENIBLE",
+    value: "FUTURO SOSTENIBLE",
+  },
+  {
+    label: "G Y C SALUD Y AMBIENTE",
+    value: "G Y C SALUD Y AMBIENTE",
+  },
+  {
+    label: "G&C SALUD Y AMBIENTE",
+    value: "G&C SALUD Y AMBIENTE",
+  },
+  {
+    label: "G&C SALUD Y AMBIENTE S.R.L",
+    value: "G&C SALUD Y AMBIENTE S.R.L",
+  },
+  {
+    label: "G&C SALUD Y AMBIENTE S.R.L.",
+    value: "G&C SALUD Y AMBIENTE S.R.L.",
+  },
+  {
+    label: "G&C SALUD Y AMBIENTE SRL",
+    value: "G&C SALUD Y AMBIENTE SRL",
+  },
+  {
+    label: "G$L BLUE MINING EIRL",
+    value: "G$L BLUE MINING EIRL",
+  },
+  {
+    label: "GAALCON CONTRATISTAS",
+    value: "GAALCON CONTRATISTAS",
+  },
+  {
+    label: "GABICE EIRL",
+    value: "GABICE EIRL",
+  },
+  {
+    label:
+      "GABINETE DE COORDINACIÓN DE LA POLÍTICA SOCIAL SISTEMA ÚNICO DE BENEFICIOS (SIUBEN)",
+    value:
+      "GABINETE DE COORDINACIÓN DE LA POLÍTICA SOCIAL SISTEMA ÚNICO DE BENEFICIOS (SIUBEN)",
+  },
+  {
+    label: "GALU INGENIERÍA Y CONSTRUCCIÓN",
+    value: "GALU INGENIERÍA Y CONSTRUCCIÓN",
+  },
+  {
+    label: "GATS LLC SUCURSAL PERÚ",
+    value: "GATS LLC SUCURSAL PERÚ",
+  },
+  {
+    label: "GEIAS CONSULTORES",
+    value: "GEIAS CONSULTORES",
+  },
+  {
+    label: "GEIAS CONSULTORES SAC",
+    value: "GEIAS CONSULTORES SAC",
+  },
+  {
+    label: "GEOANDINA EXPLORACIONES",
+    value: "GEOANDINA EXPLORACIONES",
+  },
+  {
+    label: "Geometrica Sucursal Perú",
+    value: "Geometrica Sucursal Perú",
+  },
+  {
+    label: "GEOSERVICE",
+    value: "GEOSERVICE",
+  },
+  {
+    label: "GEOTÉCNICA",
+    value: "GEOTÉCNICA",
+  },
+  {
+    label: "GERENCIA FREGIONAL DE TRABAJO Y PROMOCIÓN DEL EMPLEO DE LAMBAYEQUE",
+    value: "GERENCIA FREGIONAL DE TRABAJO Y PROMOCIÓN DEL EMPLEO DE LAMBAYEQUE",
+  },
+  {
+    label: "GERENCIA RECIONAL DE EDUCACIÓN AREQUIPA GREA",
+    value: "GERENCIA RECIONAL DE EDUCACIÓN AREQUIPA GREA",
+  },
+  {
+    label: "GERENCIA REGIONAL DE DESARROLLO SOCIAL",
+    value: "GERENCIA REGIONAL DE DESARROLLO SOCIAL",
+  },
+  {
+    label: "GERENCIA REGIONAL DE DESARROLLO SOCIAL DEL GOBIERNO REGIONAL",
+    value: "GERENCIA REGIONAL DE DESARROLLO SOCIAL DEL GOBIERNO REGIONAL",
+  },
+  {
+    label:
+      "GERENCIA REGIONAL DE DESARROLLO SOCIAL DEL GOBIERNO REGIONAL AMAZONAS",
+    value:
+      "GERENCIA REGIONAL DE DESARROLLO SOCIAL DEL GOBIERNO REGIONAL AMAZONAS",
+  },
+  {
+    label: "GERENCIA REGIONAL DE EDUCACIÓN AREQUIPA",
+    value: "GERENCIA REGIONAL DE EDUCACIÓN AREQUIPA",
+  },
+  {
+    label:
+      "GERENCIA REGIONAL DE RECURSOS NATURALES Y GESTIÓN DEL MEDIO AMBIENTE",
+    value:
+      "GERENCIA REGIONAL DE RECURSOS NATURALES Y GESTIÓN DEL MEDIO AMBIENTE",
+  },
+  {
+    label: "GESELLSCHAFT FUR INTERNATIONALE ZUSAMMERARBEIT- GIZ",
+    value: "GESELLSCHAFT FUR INTERNATIONALE ZUSAMMERARBEIT- GIZ",
+  },
+  {
+    label: "GESFOR PERÚ",
+    value: "GESFOR PERÚ",
+  },
+  {
+    label: "GESPRODES",
+    value: "GESPRODES",
+  },
+  {
+    label: "GESTIÓN E INVERSIÓN SOCIAL SAC",
+    value: "GESTIÓN E INVERSIÓN SOCIAL SAC",
+  },
+  {
+    label: "GESTIÓN E INVERSIÓN SOCIAL SAC GS PERÚ CONSULTORES",
+    value: "GESTIÓN E INVERSIÓN SOCIAL SAC GS PERÚ CONSULTORES",
+  },
+  {
+    label: "GESTIÓN HUMANA GMD GRUPO GRAÑA Y MONTERO",
+    value: "GESTIÓN HUMANA GMD GRUPO GRAÑA Y MONTERO",
+  },
+  {
+    label: "GESTIONA Y APRENDE",
+    value: "GESTIONA Y APRENDE",
+  },
+  {
+    label: "GESTIONA Y APRENDE G&A",
+    value: "GESTIONA Y APRENDE G&A",
+  },
+  {
+    label: "Gestiona y Aprende S.A.C.",
+    value: "Gestiona y Aprende S.A.C.",
+  },
+  {
+    label: "GESTIONA Y APRENDE SA",
+    value: "GESTIONA Y APRENDE SA",
+  },
+  {
+    label: "GETINSA PAYMA S.L. SUCURSAL EN PERÚ",
+    value: "GETINSA PAYMA S.L. SUCURSAL EN PERÚ",
+  },
+  {
+    label: "GFK CONECTA SAC",
+    value: "GFK CONECTA SAC",
+  },
+  {
+    label: "GIVE A SIMILE",
+    value: "GIVE A SIMILE",
+  },
+  {
+    label: "GLOBAL CONSULTING GROUP",
+    value: "GLOBAL CONSULTING GROUP",
+  },
+  {
+    label: "GLORIA HELFER PALACIOS CONGRESISTA DE LA REPÚBLICA",
+    value: "GLORIA HELFER PALACIOS CONGRESISTA DE LA REPÚBLICA",
+  },
+  {
+    label: "GOBIENRO REGIONAL CUSCO",
+    value: "GOBIENRO REGIONAL CUSCO",
+  },
+  {
+    label: "GOBIENRO REGIONAL DE ANCASH",
+    value: "GOBIENRO REGIONAL DE ANCASH",
+  },
+  {
+    label: "GOBIERNO DE ARAGON",
+    value: "GOBIERNO DE ARAGON",
+  },
+  {
+    label: "GOBIERNO DE CHILE",
+    value: "GOBIERNO DE CHILE",
+  },
+  {
+    label:
+      "GOBIERNO DE CHILE MINISTERIO DE HACIENDA DIRECCIÓN DE PRESUPUESTOS DIVISIÓN GESTIÓN INTERNA RECURSOS HUMANOS",
+    value:
+      "GOBIERNO DE CHILE MINISTERIO DE HACIENDA DIRECCIÓN DE PRESUPUESTOS DIVISIÓN GESTIÓN INTERNA RECURSOS HUMANOS",
+  },
+  {
+    label:
+      "GOBIERNO DEL ESTADO CARABOBO. SECRETARÍA PRIVADA DEL DESPACHO DEL GOBERNADOR",
+    value:
+      "GOBIERNO DEL ESTADO CARABOBO. SECRETARÍA PRIVADA DEL DESPACHO DEL GOBERNADOR",
+  },
+  {
+    label: "GOBIERNO DISTRITAL DE RAHUAPAMPA",
+    value: "GOBIERNO DISTRITAL DE RAHUAPAMPA",
+  },
+  {
+    label: "GOBIERNO LOCAL PROVINCIAL DE AIJA",
+    value: "GOBIERNO LOCAL PROVINCIAL DE AIJA",
+  },
+  {
+    label: "GOBIERNO LORETO",
+    value: "GOBIERNO LORETO",
+  },
+  {
+    label: "GOBIERNO MUNICIPAL DE SANTA EULALIA",
+    value: "GOBIERNO MUNICIPAL DE SANTA EULALIA",
+  },
+  {
+    label: "GOBIERNO MUNICIPAL DEL CUSCO",
+    value: "GOBIERNO MUNICIPAL DEL CUSCO",
+  },
+  {
+    label: "GOBIERNO PROVICIONAL DE HUARI",
+    value: "GOBIERNO PROVICIONAL DE HUARI",
+  },
+  {
+    label: "GOBIERNO PROVINCIAL DE HUARI",
+    value: "GOBIERNO PROVINCIAL DE HUARI",
+  },
+  {
+    label: "GOBIERNO REGIONAL",
+    value: "GOBIERNO REGIONAL",
+  },
+  {
+    label: "GOBIERNO REGIONAL AMAZONAS",
+    value: "GOBIERNO REGIONAL AMAZONAS",
+  },
+  {
+    label: "GOBIERNO REGIONAL ANCASH",
+    value: "GOBIERNO REGIONAL ANCASH",
+  },
+  {
+    label: "GOBIERNO REGIONAL APURÍMAC",
+    value: "GOBIERNO REGIONAL APURÍMAC",
+  },
+  {
+    label: "GOBIERNO REGIONAL AREQUIPA",
+    value: "GOBIERNO REGIONAL AREQUIPA",
+  },
+  {
+    label: "GOBIERNO REGIONAL AYACUCHO",
+    value: "GOBIERNO REGIONAL AYACUCHO",
+  },
+  {
+    label: "GOBIERNO REGIONAL CAJAMARCA",
+    value: "GOBIERNO REGIONAL CAJAMARCA",
+  },
+  {
+    label: "GOBIERNO REGIONAL CUSCO",
+    value: "GOBIERNO REGIONAL CUSCO",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE ANCASH",
+    value: "GOBIERNO REGIONAL DE ANCASH",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE AREQUIPA",
+    value: "GOBIERNO REGIONAL DE AREQUIPA",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE AYUACUCHO",
+    value: "GOBIERNO REGIONAL DE AYUACUCHO",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE CAJAMARACA",
+    value: "GOBIERNO REGIONAL DE CAJAMARACA",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE CAJAMARCA",
+    value: "GOBIERNO REGIONAL DE CAJAMARCA",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE CUSCO",
+    value: "GOBIERNO REGIONAL DE CUSCO",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE DESARROLLO SOCIAL",
+    value: "GOBIERNO REGIONAL DE DESARROLLO SOCIAL",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE EDUCACIÓN",
+    value: "GOBIERNO REGIONAL DE EDUCACIÓN",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE EDUCACIÓN AMAZONAS",
+    value: "GOBIERNO REGIONAL DE EDUCACIÓN AMAZONAS",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE HUANCAVELICA",
+    value: "GOBIERNO REGIONAL DE HUANCAVELICA",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE HUANCAVELICA DIRECCIÓN REGIONAL AGRARIA",
+    value: "GOBIERNO REGIONAL DE HUANCAVELICA DIRECCIÓN REGIONAL AGRARIA",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE HUÁNUCO",
+    value: "GOBIERNO REGIONAL DE HUÁNUCO",
+  },
+  {
+    label:
+      "GOBIERNO REGIONAL DE ICA. OFICINA DE ADMINISTRACIÓN DE POTENCIAL HUMANO",
+    value:
+      "GOBIERNO REGIONAL DE ICA. OFICINA DE ADMINISTRACIÓN DE POTENCIAL HUMANO",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE JUNÍN",
+    value: "GOBIERNO REGIONAL DE JUNÍN",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE LA LIBERTAD",
+    value: "GOBIERNO REGIONAL DE LA LIBERTAD",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE LAMBAYEQUE",
+    value: "GOBIERNO REGIONAL DE LAMBAYEQUE",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE LIMA",
+    value: "GOBIERNO REGIONAL DE LIMA",
+  },
+  {
+    label:
+      "GOBIERNO REGIONAL DE LIMA UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 09 HUARA",
+    value:
+      "GOBIERNO REGIONAL DE LIMA UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 09 HUARA",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE LIMA. OFICINA DE PROYECTOS Y ESTUDIOS",
+    value: "GOBIERNO REGIONAL DE LIMA. OFICINA DE PROYECTOS Y ESTUDIOS",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE LORETO",
+    value: "GOBIERNO REGIONAL DE LORETO",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE MADRE DE DIOS",
+    value: "GOBIERNO REGIONAL DE MADRE DE DIOS",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE PASCO",
+    value: "GOBIERNO REGIONAL DE PASCO",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE PASCO DIRECCIÓN DE EDUCACIÓN PASCO",
+    value: "GOBIERNO REGIONAL DE PASCO DIRECCIÓN DE EDUCACIÓN PASCO",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE PUNO",
+    value: "GOBIERNO REGIONAL DE PUNO",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE SAN MARTÍN",
+    value: "GOBIERNO REGIONAL DE SAN MARTÍN",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE TUMBES",
+    value: "GOBIERNO REGIONAL DE TUMBES",
+  },
+  {
+    label: "GOBIERNO REGIONAL DE UCAYALI",
+    value: "GOBIERNO REGIONAL DE UCAYALI",
+  },
+  {
+    label: "GOBIERNO REGIONAL DEL CALLAO",
+    value: "GOBIERNO REGIONAL DEL CALLAO",
+  },
+  {
+    label: "GOBIERNO REGIONAL DEL CUSCO",
+    value: "GOBIERNO REGIONAL DEL CUSCO",
+  },
+  {
+    label: "GOBIERNO REGIONAL GTZ",
+    value: "GOBIERNO REGIONAL GTZ",
+  },
+  {
+    label: "GOBIERNO REGIONAL HUANCAVELICA",
+    value: "GOBIERNO REGIONAL HUANCAVELICA",
+  },
+  {
+    label: "GOBIERNO REGIONAL HUÁNUCO",
+    value: "GOBIERNO REGIONAL HUÁNUCO",
+  },
+  {
+    label: "GOBIERNO REGIONAL JUNÍN",
+    value: "GOBIERNO REGIONAL JUNÍN",
+  },
+  {
+    label: "GOBIERNO REGIONAL LA LIBERTAD",
+    value: "GOBIERNO REGIONAL LA LIBERTAD",
+  },
+  {
+    label: "GOBIERNO REGIONAL LAMBAYEQUE",
+    value: "GOBIERNO REGIONAL LAMBAYEQUE",
+  },
+  {
+    label: "GOBIERNO REGIONAL MADRE DE DIOS",
+    value: "GOBIERNO REGIONAL MADRE DE DIOS",
+  },
+  {
+    label: "GOBIERNO REGIONAL MADRE DE DIOS-DIRECCIÓN REGIONAL AGRARIA",
+    value: "GOBIERNO REGIONAL MADRE DE DIOS-DIRECCIÓN REGIONAL AGRARIA",
+  },
+  {
+    label: "GOBIERNO REGIONAL PASCO",
+    value: "GOBIERNO REGIONAL PASCO",
+  },
+  {
+    label: "GOBIERNO REGIONAL PIURA",
+    value: "GOBIERNO REGIONAL PIURA",
+  },
+  {
+    label: "GOBIERNO REGIONAL PIURA DIRECCIÓN REGIONAL EDUCACIÓN PIURA",
+    value: "GOBIERNO REGIONAL PIURA DIRECCIÓN REGIONAL EDUCACIÓN PIURA",
+  },
+  {
+    label: "GOBIERNO REGIONAL PIURA. DIRECCIÓN REGIONAL DE SALUD PIURA. ",
+    value: "GOBIERNO REGIONAL PIURA. DIRECCIÓN REGIONAL DE SALUD PIURA. ",
+  },
+  {
+    label: "GOBIERNO REGIONAL PUNO",
+    value: "GOBIERNO REGIONAL PUNO",
+  },
+  {
+    label: "GOBIERNO REGIONAL SAN MARTÍN",
+    value: "GOBIERNO REGIONAL SAN MARTÍN",
+  },
+  {
+    label: "GOBIERNO REGIONAL SAN MARTÍN MOYOBAMBA",
+    value: "GOBIERNO REGIONAL SAN MARTÍN MOYOBAMBA",
+  },
+  {
+    label: "GOBIERNO REGIONAL SAN MARTÍN PERÚ",
+    value: "GOBIERNO REGIONAL SAN MARTÍN PERÚ",
+  },
+  {
+    label: "GOBIERNO REGIONAL TUMBES",
+    value: "GOBIERNO REGIONAL TUMBES",
+  },
+  {
+    label: "GOBIERNO REGIONAL UCAYALI",
+    value: "GOBIERNO REGIONAL UCAYALI",
+  },
+  {
+    label: "GOBIERNO REIONAL DE LORETO",
+    value: "GOBIERNO REIONAL DE LORETO",
+  },
+  {
+    label: "GOBIERNO SAN MARTÍN PERÚ",
+    value: "GOBIERNO SAN MARTÍN PERÚ",
+  },
+  {
+    label: "GOLDER ASSOCIATES PERÚ S.A.",
+    value: "GOLDER ASSOCIATES PERÚ S.A.",
+  },
+  {
+    label: "GOLDER ASSOCIATES PERÚ SA",
+    value: "GOLDER ASSOCIATES PERÚ SA",
+  },
+  {
+    label: "GOMEZ LEVEAU",
+    value: "GOMEZ LEVEAU",
+  },
+  {
+    label: "GONIERNO REGIONAL DE SAN MARTÍN",
+    value: "GONIERNO REGIONAL DE SAN MARTÍN",
+  },
+  {
+    label: "GOOD NEIGHBOURS CONSULTANTS SAC",
+    value: "GOOD NEIGHBOURS CONSULTANTS SAC",
+  },
+  {
+    label: "GOULDEN JAY",
+    value: "GOULDEN JAY",
+  },
+  {
+    label: "GR- AYACUCHO",
+    value: "GR- AYACUCHO",
+  },
+  {
+    label: "GR- JUNÍN",
+    value: "GR- JUNÍN",
+  },
+  {
+    label: "GRADE",
+    value: "GRADE",
+  },
+  {
+    label: "GRADE GRUPO DE ANÁLISIS PARA EL DESARROLLO",
+    value: "GRADE GRUPO DE ANÁLISIS PARA EL DESARROLLO",
+  },
+  {
+    label: "Graña y Montero",
+    value: "Graña y Montero",
+  },
+  {
+    label: "GRAÑA Y MONTERO GYM SA",
+    value: "GRAÑA Y MONTERO GYM SA",
+  },
+  {
+    label: "GRANOS ORGÁNICOS NACIONALES SA",
+    value: "GRANOS ORGÁNICOS NACIONALES SA",
+  },
+  {
+    label: "GREEN GOLD FORESTRY PERU SAC",
+    value: "GREEN GOLD FORESTRY PERU SAC",
+  },
+  {
+    label: "GREEN OIL DEL PERU SA",
+    value: "GREEN OIL DEL PERU SA",
+  },
+  {
+    label: "GREEN WORLD ENERGY S.A.C.",
+    value: "GREEN WORLD ENERGY S.A.C.",
+  },
+  {
+    label: "GRUPO DE ANÁLISIS PARA EL DESARROLLO -GRADE",
+    value: "GRUPO DE ANÁLISIS PARA EL DESARROLLO -GRADE",
+  },
+  {
+    label: "GRUPO DE ANÁLISIS PARA EL DESARROLLO GRADE",
+    value: "GRUPO DE ANÁLISIS PARA EL DESARROLLO GRADE",
+  },
+  {
+    label: "GRUPO DE APOYO AL SECTOR RURAL GRUPO PUCP",
+    value: "GRUPO DE APOYO AL SECTOR RURAL GRUPO PUCP",
+  },
+  {
+    label: "GRUPO DE FORMACIÓN E INTERVENCIÓN PARA EL DESARROLLO SOSTENIBLE",
+    value: "GRUPO DE FORMACIÓN E INTERVENCIÓN PARA EL DESARROLLO SOSTENIBLE",
+  },
+  {
+    label: "GRUPO DE INICIATIVA SOCIAL PARA EL MANEJO ALTERNATIVO GRISMA",
+    value: "GRUPO DE INICIATIVA SOCIAL PARA EL MANEJO ALTERNATIVO GRISMA",
+  },
+  {
+    label:
+      "GRUPO DE INVESTIGACIÓN ESTADO, NACIÓN Y DEMOCRACIA EN EL PERÚ Y AMÉRICA LATINA",
+    value:
+      "GRUPO DE INVESTIGACIÓN ESTADO, NACIÓN Y DEMOCRACIA EN EL PERÚ Y AMÉRICA LATINA",
+  },
+  {
+    label: "GRUPO DE NECIODIOS CORPORATIVOS COMERCIALES EIRL TDA",
+    value: "GRUPO DE NECIODIOS CORPORATIVOS COMERCIALES EIRL TDA",
+  },
+  {
+    label: "GRUPO ECOLÓGICO ÁTOMO",
+    value: "GRUPO ECOLÓGICO ÁTOMO",
+  },
+  {
+    label: "GRUPO EDUCATIVO INTEGRAL SRL",
+    value: "GRUPO EDUCATIVO INTEGRAL SRL",
+  },
+  {
+    label: "Grupo Eulen - Perú ",
+    value: "Grupo Eulen - Perú ",
+  },
+  {
+    label: "GRUPO FUNDACIÓN ROMERO",
+    value: "GRUPO FUNDACIÓN ROMERO",
+  },
+  {
+    label: "GRUPO GEA",
+    value: "GRUPO GEA",
+  },
+  {
+    label: "GRUPO HC JOBS",
+    value: "GRUPO HC JOBS",
+  },
+  {
+    label: "GRUPO INMOBILIARIO BROCKSA",
+    value: "GRUPO INMOBILIARIO BROCKSA",
+  },
+  {
+    label: "GRUPO INSTITUTO PERUANO DE SOCIOLOGÍA APLICADA SAC",
+    value: "GRUPO INSTITUTO PERUANO DE SOCIOLOGÍA APLICADA SAC",
+  },
+  {
+    label: "GRUPO LA REPÚBLICA",
+    value: "GRUPO LA REPÚBLICA",
+  },
+  {
+    label: "GRUPO LIMONTA",
+    value: "GRUPO LIMONTA",
+  },
+  {
+    label: "Grupo Limonta SAC",
+    value: "Grupo Limonta SAC",
+  },
+  {
+    label: "Grupo PROYFE",
+    value: "Grupo PROYFE",
+  },
+  {
+    label: "GRUPO SAN AGUSTÍN",
+    value: "GRUPO SAN AGUSTÍN",
+  },
+  {
+    label: "GRUPO SAN AGUSTÍN SAC",
+    value: "GRUPO SAN AGUSTÍN SAC",
+  },
+  {
+    label: "GRUPO SAN SEBASTIAN EIRL",
+    value: "GRUPO SAN SEBASTIAN EIRL",
+  },
+  {
+    label: "GRUPO SILTECH SAC",
+    value: "GRUPO SILTECH SAC",
+  },
+  {
+    label: "GUEVARIA LATINA SA",
+    value: "GUEVARIA LATINA SA",
+  },
+  {
+    label: "GYM",
+    value: "GYM",
+  },
+  {
+    label: "GYM S.A",
+    value: "GYM S.A",
+  },
+  {
+    label: "GYM SA",
+    value: "GYM SA",
+  },
+  {
+    label: "GYM SA CONTRATISTAS GENERALES",
+    value: "GYM SA CONTRATISTAS GENERALES",
+  },
+  {
+    label: "GZS INGENIEROS Y SERVICIOS GENERALES SAC",
+    value: "GZS INGENIEROS Y SERVICIOS GENERALES SAC",
+  },
+  {
+    label: "HANDSEARCH  PERÚ SAC",
+    value: "HANDSEARCH  PERÚ SAC",
+  },
+  {
+    label: "HANIL BC PERÚ SAC",
+    value: "HANIL BC PERÚ SAC",
+  },
+  {
+    label: "HATCH ASOCIADOS SA",
+    value: "HATCH ASOCIADOS SA",
+  },
+  {
+    label: "HAZEN WILLIAMS EIRL",
+    value: "HAZEN WILLIAMS EIRL",
+  },
+  {
+    label:
+      "HCR H. RODRÍGUEZ CONSULTORES SOCIEDAD CIVIL DE RESPONSABILIDAD LIMITADA",
+    value:
+      "HCR H. RODRÍGUEZ CONSULTORES SOCIEDAD CIVIL DE RESPONSABILIDAD LIMITADA",
+  },
+  {
+    label: "HDC BPO SERVICE ",
+    value: "HDC BPO SERVICE ",
+  },
+  {
+    label: "HDEC",
+    value: "HDEC",
+  },
+  {
+    label: "HEALTH CARE MANAGEMENT CONSULTING SAC",
+    value: "HEALTH CARE MANAGEMENT CONSULTING SAC",
+  },
+  {
+    label: "HEALTH FINANCE AND GOVERNANSE HFC",
+    value: "HEALTH FINANCE AND GOVERNANSE HFC",
+  },
+  {
+    label: "HECTOR FEIJOO HNOS SA",
+    value: "HECTOR FEIJOO HNOS SA",
+  },
+  {
+    label: "HEEDCOM SAC",
+    value: "HEEDCOM SAC",
+  },
+  {
+    label: "HEIFER INTERNATIONAL PERÚ",
+    value: "HEIFER INTERNATIONAL PERÚ",
+  },
+  {
+    label: "HEIFER PROJECT INTERNATIONAL",
+    value: "HEIFER PROJECT INTERNATIONAL",
+  },
+  {
+    label: "HER MAJESTY THE QUEEN IN RIGTH OF CANADA",
+    value: "HER MAJESTY THE QUEEN IN RIGTH OF CANADA",
+  },
+  {
+    label: "HERMANO VICTORINO ELORZ GOICOCHEA",
+    value: "HERMANO VICTORINO ELORZ GOICOCHEA",
+  },
+  {
+    label: "HEXAGON CONSULTORÍA",
+    value: "HEXAGON CONSULTORÍA",
+  },
+  {
+    label: "HEYDI ARAUJO SIFUENTES SOCIÓLOGA",
+    value: "HEYDI ARAUJO SIFUENTES SOCIÓLOGA",
+  },
+  {
+    label: "HGEP ENGINEERS SAC",
+    value: "HGEP ENGINEERS SAC",
+  },
+  {
+    label: "HIDRO CHILIA SAC",
+    value: "HIDRO CHILIA SAC",
+  },
+  {
+    label: "HIDROFALCON FILIAL DE HIDROVEN",
+    value: "HIDROFALCON FILIAL DE HIDROVEN",
+  },
+  {
+    label: "HIDROSTAL SA",
+    value: "HIDROSTAL SA",
+  },
+  {
+    label: "HIERBAS AROMÁTICAS DE SIHUAS PACHACHIN SA HAPSSA",
+    value: "HIERBAS AROMÁTICAS DE SIHUAS PACHACHIN SA HAPSSA",
+  },
+  {
+    label: "HIPER S.A",
+    value: "HIPER S.A",
+  },
+  {
+    label: "Hipermercados Tottus S.A",
+    value: "Hipermercados Tottus S.A",
+  },
+  {
+    label: "Hist Perú Sac",
+    value: "Hist Perú Sac",
+  },
+  {
+    label: "HK CONSULTING SAC",
+    value: "HK CONSULTING SAC",
+  },
+  {
+    label: "HONORABLE MUNICIPALIDAD PROVINCIAL DE PASCO",
+    value: "HONORABLE MUNICIPALIDAD PROVINCIAL DE PASCO",
+  },
+  {
+    label: "HORTUS SA INGENIEROS AGRÓNOMOS",
+    value: "HORTUS SA INGENIEROS AGRÓNOMOS",
+  },
+  {
+    label: "HUELLITAS KIDS",
+    value: "HUELLITAS KIDS",
+  },
+  {
+    label: "HyD SOLUCIONES S.A.C.",
+    value: "HyD SOLUCIONES S.A.C.",
+  },
+  {
+    label: "I  ENRIQUE LÓPEZ ALBUJAR",
+    value: "I  ENRIQUE LÓPEZ ALBUJAR",
+  },
+  {
+    label: "I CONGRESO INTERNACIONAL DE SALUD AMBIENTAL GLOBAL",
+    value: "I CONGRESO INTERNACIONAL DE SALUD AMBIENTAL GLOBAL",
+  },
+  {
+    label: "I ENCUENTRO METROPOLITANO DE JÓVENES LGTBI",
+    value: "I ENCUENTRO METROPOLITANO DE JÓVENES LGTBI",
+  },
+  {
+    label: "I.E San Agustín",
+    value: "I.E San Agustín",
+  },
+  {
+    label: "I.E. ARGENTINA",
+    value: "I.E. ARGENTINA",
+  },
+  {
+    label: "I.E. N° 004 GUILLERMO GULMAN LAPOUBLE",
+    value: "I.E. N° 004 GUILLERMO GULMAN LAPOUBLE",
+  },
+  {
+    label: "I.E. N° 51003 ROSARIO CUSCO",
+    value: "I.E. N° 51003 ROSARIO CUSCO",
+  },
+  {
+    label: "I.E. PAUL HARRIS - La Victoria",
+    value: "I.E. PAUL HARRIS - La Victoria",
+  },
+  {
+    label: "I.E. SINCHI ROCA",
+    value: "I.E. SINCHI ROCA",
+  },
+  {
+    label: "I.E.I. 16 UGEL 03",
+    value: "I.E.I. 16 UGEL 03",
+  },
+  {
+    label: "I.E.M. N° 50873 LLACHOC",
+    value: "I.E.M. N° 50873 LLACHOC",
+  },
+  {
+    label: "I.E.Mx. N°51006 TUPAC AMARU",
+    value: "I.E.Mx. N°51006 TUPAC AMARU",
+  },
+  {
+    label: "I.E.P. BELLAVISTA - CERRO DE PASCO",
+    value: "I.E.P. BELLAVISTA - CERRO DE PASCO",
+  },
+  {
+    label: 'I.E.P. CENTRO DE EDUCACIÓN BÁSICA ALTERNATIVA "HUÁNUCO"',
+    value: 'I.E.P. CENTRO DE EDUCACIÓN BÁSICA ALTERNATIVA "HUÁNUCO"',
+  },
+  {
+    label: "I.E.P. MAYUPAMAPA - LA OROYA",
+    value: "I.E.P. MAYUPAMAPA - LA OROYA",
+  },
+  {
+    label: "I.E.P. MAYUPAMPA - LA OROYA",
+    value: "I.E.P. MAYUPAMPA - LA OROYA",
+  },
+  {
+    label: "I.E.P. SONRISITAS",
+    value: "I.E.P. SONRISITAS",
+  },
+  {
+    label: "I.E.S.P.P. MARCOS DURÁN MARTEL",
+    value: "I.E.S.P.P. MARCOS DURÁN MARTEL",
+  },
+  {
+    label: "I'AMSE-AMCE-WAER",
+    value: "I'AMSE-AMCE-WAER",
+  },
+  {
+    label: "IAMGOLD PERÚ",
+    value: "IAMGOLD PERÚ",
+  },
+  {
+    label: "IBERO TEC",
+    value: "IBERO TEC",
+  },
+  {
+    label: "IBERO TEC INNOVACIÓN TECNOLOGÍA DESARROLLO",
+    value: "IBERO TEC INNOVACIÓN TECNOLOGÍA DESARROLLO",
+  },
+  {
+    label: "ICATOM SA",
+    value: "ICATOM SA",
+  },
+  {
+    label: "ICCO & KERK IN ACTIE",
+    value: "ICCO & KERK IN ACTIE",
+  },
+  {
+    label: "ICCO COOPERACIÓN",
+    value: "ICCO COOPERACIÓN",
+  },
+  {
+    label: "ICCON CONSTRUCTORES & CONSULTORES SRL",
+    value: "ICCON CONSTRUCTORES & CONSULTORES SRL",
+  },
+  {
+    label: "ICIVCO SAC",
+    value: "ICIVCO SAC",
+  },
+  {
+    label:
+      "IDEDIF INSTITUTO DE SERVICIOS EDUCATIVOS PARA EL DESARROLLO INTEGRAL DE LA FAMILIA",
+    value:
+      "IDEDIF INSTITUTO DE SERVICIOS EDUCATIVOS PARA EL DESARROLLO INTEGRAL DE LA FAMILIA",
+  },
+  {
+    label: "IDESI AYACUCHO",
+    value: "IDESI AYACUCHO",
+  },
+  {
+    label: "IDRC",
+    value: "IDRC",
+  },
+  {
+    label: "IE 2002 MANUEL SCORZA",
+    value: "IE 2002 MANUEL SCORZA",
+  },
+  {
+    label: "IE 22318 PAMPA DE TATE",
+    value: "IE 22318 PAMPA DE TATE",
+  },
+  {
+    label: "IE 22413141",
+    value: "IE 22413141",
+  },
+  {
+    label: "IE 7080 JORGE BERNAL SALAS",
+    value: "IE 7080 JORGE BERNAL SALAS",
+  },
+  {
+    label: "IE 7207 MARISCAL RAMÓN CASTILLA ",
+    value: "IE 7207 MARISCAL RAMÓN CASTILLA ",
+  },
+  {
+    label: "IE AGUSTÍN DE HIPONA COPRODELI",
+    value: "IE AGUSTÍN DE HIPONA COPRODELI",
+  },
+  {
+    label: "IE ANDRÉS AVELINO CÁCERES",
+    value: "IE ANDRÉS AVELINO CÁCERES",
+  },
+  {
+    label: "IE AVITARAN",
+    value: "IE AVITARAN",
+  },
+  {
+    label: "IE CESAR ALCIDES DE LA CRUZ DELGADO COCOCHO",
+    value: "IE CESAR ALCIDES DE LA CRUZ DELGADO COCOCHO",
+  },
+  {
+    label: "IE CÉSAR VALLEJO",
+    value: "IE CÉSAR VALLEJO",
+  },
+  {
+    label: "IE CÉSAR VALLEJO MENDOZA",
+    value: "IE CÉSAR VALLEJO MENDOZA",
+  },
+  {
+    label: "IE CLEOTE ARÉVALO DEL ÁGUILA",
+    value: "IE CLEOTE ARÉVALO DEL ÁGUILA",
+  },
+  {
+    label: "IE CONVENIO SAN MARTÍN DE PACHACUTEC",
+    value: "IE CONVENIO SAN MARTÍN DE PACHACUTEC",
+  },
+  {
+    label: "IE CONVENIO SANTA MARÍA ASUNTA AL CIELO",
+    value: "IE CONVENIO SANTA MARÍA ASUNTA AL CIELO",
+  },
+  {
+    label: "IE COPRODELI SAN MARTÍN",
+    value: "IE COPRODELI SAN MARTÍN",
+  },
+  {
+    label: "IE FERNANDO BELAHUNDE TERRY",
+    value: "IE FERNANDO BELAHUNDE TERRY",
+  },
+  {
+    label: "IE HERMILIO VALDIZÁN",
+    value: "IE HERMILIO VALDIZÁN",
+  },
+  {
+    label: "IE HÉROES DE JACTAY",
+    value: "IE HÉROES DE JACTAY",
+  },
+  {
+    label: "IE JAVIER PULGAR VIDAL",
+    value: "IE JAVIER PULGAR VIDAL",
+  },
+  {
+    label: "IE LLACÓN",
+    value: "IE LLACÓN",
+  },
+  {
+    label: "IE MARIANO MELGAR",
+    value: "IE MARIANO MELGAR",
+  },
+  {
+    label: "IE N 0413 DE TOCACHE",
+    value: "IE N 0413 DE TOCACHE",
+  },
+  {
+    label: "IE N 0523 LUISA DEL CARMEN DEL AGUILA SÁNCHEZ",
+    value: "IE N 0523 LUISA DEL CARMEN DEL AGUILA SÁNCHEZ",
+  },
+  {
+    label: "IE N 0663 PABLO CHÁVEZ VILLAVERDE",
+    value: "IE N 0663 PABLO CHÁVEZ VILLAVERDE",
+  },
+  {
+    label: "IE N 10551",
+    value: "IE N 10551",
+  },
+  {
+    label: "IE N 10552",
+    value: "IE N 10552",
+  },
+  {
+    label: "IE N 157",
+    value: "IE N 157",
+  },
+  {
+    label: "IE N 18266 YURI RANGEL GÓMEZ",
+    value: "IE N 18266 YURI RANGEL GÓMEZ",
+  },
+  {
+    label: "IE N 2089 MICAELA BASTIDAS",
+    value: "IE N 2089 MICAELA BASTIDAS",
+  },
+  {
+    label: "IE N 22044 ALTO QUERA",
+    value: "IE N 22044 ALTO QUERA",
+  },
+  {
+    label: "IE N 6041",
+    value: "IE N 6041",
+  },
+  {
+    label: "IE N 6048",
+    value: "IE N 6048",
+  },
+  {
+    label: "IE N 6155 JOSÉ BERNARDO ALCEDO ",
+    value: "IE N 6155 JOSÉ BERNARDO ALCEDO ",
+  },
+  {
+    label: "IE N 7054",
+    value: "IE N 7054",
+  },
+  {
+    label: "IE N 7080",
+    value: "IE N 7080",
+  },
+  {
+    label: "IE N 7093",
+    value: "IE N 7093",
+  },
+  {
+    label: "IE N 82115 HUAMACHUCO",
+    value: "IE N 82115 HUAMACHUCO",
+  },
+  {
+    label: "IE OFELIA VELÁSQUEZ",
+    value: "IE OFELIA VELÁSQUEZ",
+  },
+  {
+    label: "IE OFELIA VELÁSQUEZ TARAPOTO",
+    value: "IE OFELIA VELÁSQUEZ TARAPOTO",
+  },
+  {
+    label: "IE PEDRO SÁNCHEZ GAVIDIA",
+    value: "IE PEDRO SÁNCHEZ GAVIDIA",
+  },
+  {
+    label: "IE PNP TEODOSIO FRANCO GARCÍA",
+    value: "IE PNP TEODOSIO FRANCO GARCÍA",
+  },
+  {
+    label: "IE SAN ISIDRO",
+    value: "IE SAN ISIDRO",
+  },
+  {
+    label: "IE SAN PEDRO",
+    value: "IE SAN PEDRO",
+  },
+  {
+    label: "IE SANTA ROSA CHORA",
+    value: "IE SANTA ROSA CHORA",
+  },
+  {
+    label: "IE TARAPOTO",
+    value: "IE TARAPOTO",
+  },
+  {
+    label: "IE TERESA GONZALES DE FANNING",
+    value: "IE TERESA GONZALES DE FANNING",
+  },
+  {
+    label: "IEEE SECCIÓN PERÚ",
+    value: "IEEE SECCIÓN PERÚ",
+  },
+  {
+    label: "IEGP PABLO NERUDA",
+    value: "IEGP PABLO NERUDA",
+  },
+  {
+    label: "IEI N 01021-1398700",
+    value: "IEI N 01021-1398700",
+  },
+  {
+    label: "IEIP MARÍA DE LOS ÁNGELES ",
+    value: "IEIP MARÍA DE LOS ÁNGELES ",
+  },
+  {
+    label: "IEIPS N 18266 YURI RANGEL GÓMEZ SALAZAR",
+    value: "IEIPS N 18266 YURI RANGEL GÓMEZ SALAZAR",
+  },
+  {
+    label: "IEIPS N 18268 YURI RANGEL GÓMEZ SALAZAR",
+    value: "IEIPS N 18268 YURI RANGEL GÓMEZ SALAZAR",
+  },
+  {
+    label: "IEN 1229",
+    value: "IEN 1229",
+  },
+  {
+    label: "IEO MARÍA INMACULADA",
+    value: "IEO MARÍA INMACULADA",
+  },
+  {
+    label: "IEP DANIEL GOLEMAN",
+    value: "IEP DANIEL GOLEMAN",
+  },
+  {
+    label: "IEP INSTITUTO DE ESTUDIOS PERUANOS",
+    value: "IEP INSTITUTO DE ESTUDIOS PERUANOS",
+  },
+  {
+    label: "IEP JARDÍN N°017",
+    value: "IEP JARDÍN N°017",
+  },
+  {
+    label: "IEP JUAN ENRIQUE NEWMAN LA MOLINA",
+    value: "IEP JUAN ENRIQUE NEWMAN LA MOLINA",
+  },
+  {
+    label: "IEP MANUEL JESÚS SIERRA AGUILAR",
+    value: "IEP MANUEL JESÚS SIERRA AGUILAR",
+  },
+  {
+    label: "IEP PERUANO CROATA",
+    value: "IEP PERUANO CROATA",
+  },
+  {
+    label: "IEP SAN FRANCISCO SOLANO DE PACHACUTEC",
+    value: "IEP SAN FRANCISCO SOLANO DE PACHACUTEC",
+  },
+  {
+    label: "IEP SAN JUAN MACIAS DE PACHACUTEC",
+    value: "IEP SAN JUAN MACIAS DE PACHACUTEC",
+  },
+  {
+    label: "IEP SEÑOR DE GUALAMITA",
+    value: "IEP SEÑOR DE GUALAMITA",
+  },
+  {
+    label: "IES N 11023 ABRHAM VALDEROMAR",
+    value: "IES N 11023 ABRHAM VALDEROMAR",
+  },
+  {
+    label: "IES SANTA ROSA ",
+    value: "IES SANTA ROSA ",
+  },
+  {
+    label: "IES SERAFÍN FILOMENO DE MOYOBAMBA",
+    value: "IES SERAFÍN FILOMENO DE MOYOBAMBA",
+  },
+  {
+    label: "IESP LA SALLE",
+    value: "IESP LA SALLE",
+  },
+  {
+    label: "IESP PÚBLICO INDOAMÉRICA",
+    value: "IESP PÚBLICO INDOAMÉRICA",
+  },
+  {
+    label: "IESPP MARCOS DURAN MARTEL",
+    value: "IESPP MARCOS DURAN MARTEL",
+  },
+  {
+    label: "IESTP ALBERTO PUMAYALA DIAZ HUAYLLAY",
+    value: "IESTP ALBERTO PUMAYALA DIAZ HUAYLLAY",
+  },
+  {
+    label: "IESTP ALBERTO PUMAYALLA DIAZ HUAYLLAY",
+    value: "IESTP ALBERTO PUMAYALLA DIAZ HUAYLLAY",
+  },
+  {
+    label: "IESTP PEDRO P. DÍAS",
+    value: "IESTP PEDRO P. DÍAS",
+  },
+  {
+    label: "IFEJANT",
+    value: "IFEJANT",
+  },
+  {
+    label: "IGD SAN PABLO",
+    value: "IGD SAN PABLO",
+  },
+  {
+    label: "IGEM INGENIEROS SAC",
+    value: "IGEM INGENIEROS SAC",
+  },
+  {
+    label: "IGLESIA ALIANZA CRISTIANA Y MISIONERA PUEBLO LIBRE",
+    value: "IGLESIA ALIANZA CRISTIANA Y MISIONERA PUEBLO LIBRE",
+  },
+  {
+    label: "Iiaps Del Perú Sa",
+    value: "Iiaps Del Perú Sa",
+  },
+  {
+    label: "IIEE KUNTUR KALLPA",
+    value: "IIEE KUNTUR KALLPA",
+  },
+  {
+    label: "IIEE KUNTUR KALLPA DE ANDAHUAYLILLAS",
+    value: "IIEE KUNTUR KALLPA DE ANDAHUAYLILLAS",
+  },
+  {
+    label: "IIEPAZ",
+    value: "IIEPAZ",
+  },
+  {
+    label: "IISA GESTIÓN SOCIEDAD ANÓNIMA-IISA GESTIÓN",
+    value: "IISA GESTIÓN SOCIEDAD ANÓNIMA-IISA GESTIÓN",
+  },
+  {
+    label: "IMAGEN & ESTRSTEGIA E.I.R.L",
+    value: "IMAGEN & ESTRSTEGIA E.I.R.L",
+  },
+  {
+    label: "IMAGINARIUM SAC",
+    value: "IMAGINARIUM SAC",
+  },
+  {
+    label: "IMO CONTROL LATINOAMÉRICA LTDA",
+    value: "IMO CONTROL LATINOAMÉRICA LTDA",
+  },
+  {
+    label: "IMPULSA CONSULTORIAS SAC",
+    value: "IMPULSA CONSULTORIAS SAC",
+  },
+  {
+    label: "INABIF",
+    value: "INABIF",
+  },
+  {
+    label: "INCAE",
+    value: "INCAE",
+  },
+  {
+    label: "INCAE BUSINESS SCHOOL",
+    value: "INCAE BUSINESS SCHOOL",
+  },
+  {
+    label: "INCALPACA TPX",
+    value: "INCALPACA TPX",
+  },
+  {
+    label: "INCIENSA",
+    value: "INCIENSA",
+  },
+  {
+    label: "INDACO SA",
+    value: "INDACO SA",
+  },
+  {
+    label: "INDECI",
+    value: "INDECI",
+  },
+  {
+    label: "INDECOPI",
+    value: "INDECOPI",
+  },
+  {
+    label: "INDEPENDENT CONSULTING AGREEMENT",
+    value: "INDEPENDENT CONSULTING AGREEMENT",
+  },
+  {
+    label: "INDES ORGANIZACIÓN DE PROMOCIÓN DEL DESARROLLO",
+    value: "INDES ORGANIZACIÓN DE PROMOCIÓN DEL DESARROLLO",
+  },
+  {
+    label: "INDUSTRIAL N°3 ANTENOR RIZO PATRÓN LEQUÉRICA",
+    value: "INDUSTRIAL N°3 ANTENOR RIZO PATRÓN LEQUÉRICA",
+  },
+  {
+    label: "INDUSTRIAS ALIMENTARIAS LA CONVENCIÓN INDACO SA",
+    value: "INDUSTRIAS ALIMENTARIAS LA CONVENCIÓN INDACO SA",
+  },
+  {
+    label: "INDUSTRIAS LIDEAL EIRL",
+    value: "INDUSTRIAS LIDEAL EIRL",
+  },
+  {
+    label: "INEDES",
+    value: "INEDES",
+  },
+  {
+    label: "INEI",
+    value: "INEI",
+  },
+  {
+    label: "INERCO",
+    value: "INERCO",
+  },
+  {
+    label: "INEXXO SAC",
+    value: "INEXXO SAC",
+  },
+  {
+    label: "Infinite",
+    value: "Infinite",
+  },
+  {
+    label:
+      "INFORMACIÓN Y METADOLOGÍAS PARA EL DESARROLLO ORGANIZACIONAL- INFORMET",
+    value:
+      "INFORMACIÓN Y METADOLOGÍAS PARA EL DESARROLLO ORGANIZACIONAL- INFORMET",
+  },
+  {
+    label: "INFORMET",
+    value: "INFORMET",
+  },
+  {
+    label: "INFOSITEL SAC",
+    value: "INFOSITEL SAC",
+  },
+  {
+    label: "INFRAECO",
+    value: "INFRAECO",
+  },
+  {
+    label: "INFRATECH EIRL",
+    value: "INFRATECH EIRL",
+  },
+  {
+    label: "INGENIERA SARA MATEO",
+    value: "INGENIERA SARA MATEO",
+  },
+  {
+    label: "INGENIERÍA EN GESTIÓN DE NEGOCIOS Y OPORTUNIDADES SAC",
+    value: "INGENIERÍA EN GESTIÓN DE NEGOCIOS Y OPORTUNIDADES SAC",
+  },
+  {
+    label: "INGENIERIA MIPC SAC",
+    value: "INGENIERIA MIPC SAC",
+  },
+  {
+    label: "INGENIERÍA MMIPC SAC",
+    value: "INGENIERÍA MMIPC SAC",
+  },
+  {
+    label:
+      "INGENIERÍA SOCIAL Y DESARROLLO EMPRESARIAL CONSULTING -ISODEC S.A.C.",
+    value:
+      "INGENIERÍA SOCIAL Y DESARROLLO EMPRESARIAL CONSULTING -ISODEC S.A.C.",
+  },
+  {
+    label: "INGENIERÍA SOCIAL Y DESARROLLO EMPRESARIAL CONSULTING SAC",
+    value: "INGENIERÍA SOCIAL Y DESARROLLO EMPRESARIAL CONSULTING SAC",
+  },
+  {
+    label: "INGENIERIA Y CONSTRUCCIÓN INGECORP SA ",
+    value: "INGENIERIA Y CONSTRUCCIÓN INGECORP SA ",
+  },
+  {
+    label: "INGENIERIA Y CONSTRUCCIÓN SAC",
+    value: "INGENIERIA Y CONSTRUCCIÓN SAC",
+  },
+  {
+    label: "INGENIERO DENIS CARRAZCO VALENZUELA",
+    value: "INGENIERO DENIS CARRAZCO VALENZUELA",
+  },
+  {
+    label: "INGENIERO ECONOMISTA",
+    value: "INGENIERO ECONOMISTA",
+  },
+  {
+    label: "INGENIERO GEÓGRAFO RICHARD ALCA AYAQUE",
+    value: "INGENIERO GEÓGRAFO RICHARD ALCA AYAQUE",
+  },
+  {
+    label: "Ingeniero Gustavo Felipe Barriga Ciudad",
+    value: "Ingeniero Gustavo Felipe Barriga Ciudad",
+  },
+  {
+    label: "INGENIERO JOSÉ YECKLE MONTALVO",
+    value: "INGENIERO JOSÉ YECKLE MONTALVO",
+  },
+  {
+    label: "INGENIERO JUAN CARLOS BUJANDA VALDIVIA",
+    value: "INGENIERO JUAN CARLOS BUJANDA VALDIVIA",
+  },
+  {
+    label: "INGENIEROS AMBIENTALES SAC",
+    value: "INGENIEROS AMBIENTALES SAC",
+  },
+  {
+    label:
+      "INGENIEROS CIVILES CONSULTORES CONSTRUCTORES SAC ICIVCO SAC CONSULTORA CONSTRUCTORA",
+    value:
+      "INGENIEROS CIVILES CONSULTORES CONSTRUCTORES SAC ICIVCO SAC CONSULTORA CONSTRUCTORA",
+  },
+  {
+    label: "INGENIEROS CIVILES Y CONTRATISTAS GENERALES SA",
+    value: "INGENIEROS CIVILES Y CONTRATISTAS GENERALES SA",
+  },
+  {
+    label: "INGENIEROS CONSULTORES APS",
+    value: "INGENIEROS CONSULTORES APS",
+  },
+  {
+    label: "INGENIEROS CONSULTORES INTEGRALES SAC",
+    value: "INGENIEROS CONSULTORES INTEGRALES SAC",
+  },
+  {
+    label: "INGENIEROS DE SEGURIDAD HIGIENE Y PROTECCIÓN AMBIENTAL",
+    value: "INGENIEROS DE SEGURIDAD HIGIENE Y PROTECCIÓN AMBIENTAL",
+  },
+  {
+    label: "INGEP ENGINEERS SAC",
+    value: "INGEP ENGINEERS SAC",
+  },
+  {
+    label: "INGICON",
+    value: "INGICON",
+  },
+  {
+    label: "INGLESIA EVANGÉLICA PENTECOSTAL DE JESUCRISTO PEREGRINO DE FE",
+    value: "INGLESIA EVANGÉLICA PENTECOSTAL DE JESUCRISTO PEREGRINO DE FE",
+  },
+  {
+    label: "INICAM",
+    value: "INICAM",
+  },
+  {
+    label: "INMARK PERÚ SA",
+    value: "INMARK PERÚ SA",
+  },
+  {
+    label: "INNOVATION SVALUE",
+    value: "INNOVATION SVALUE",
+  },
+  {
+    label: "INNOVATIONS FOR POVERTY ACTION",
+    value: "INNOVATIONS FOR POVERTY ACTION",
+  },
+  {
+    label: "INNOVATIONS FOR POVERTY ACTION - IPA",
+    value: "INNOVATIONS FOR POVERTY ACTION - IPA",
+  },
+  {
+    label: "Innovations for Poverty Action Perú",
+    value: "Innovations for Poverty Action Perú",
+  },
+  {
+    label: "INPPARES",
+    value: "INPPARES",
+  },
+  {
+    label: "INRED",
+    value: "INRED",
+  },
+  {
+    label: "INSA CONTRATISTAS Y SERVICIOS GENERALES EIRL",
+    value: "INSA CONTRATISTAS Y SERVICIOS GENERALES EIRL",
+  },
+  {
+    label: "INSITITUCION EDUCATICA JOSE CARLOS MARIATEGUI DE HUALLANCA",
+    value: "INSITITUCION EDUCATICA JOSE CARLOS MARIATEGUI DE HUALLANCA",
+  },
+  {
+    label: "INSITITUCIÓN EDUCATIVA N 32961",
+    value: "INSITITUCIÓN EDUCATIVA N 32961",
+  },
+  {
+    label: "INSITITUTO DE ESTADISTICA E INFORMATICA",
+    value: "INSITITUTO DE ESTADISTICA E INFORMATICA",
+  },
+  {
+    label: "INSITITUTO DE INVESTIGACIÓN DE LA AMAZONÍA PERUANA",
+    value: "INSITITUTO DE INVESTIGACIÓN DE LA AMAZONÍA PERUANA",
+  },
+  {
+    label: "INSITITUTO PEDAGÓGICO NACIONAL MONTERRICO",
+    value: "INSITITUTO PEDAGÓGICO NACIONAL MONTERRICO",
+  },
+  {
+    label: "INSITITUTO SUPERIO TECNOLOGICO PASCO",
+    value: "INSITITUTO SUPERIO TECNOLOGICO PASCO",
+  },
+  {
+    label: "INSITTUCION EDCUATIVA CN GAMANIEL BLANCO MURILLO ISPP SAN JUAN P ",
+    value: "INSITTUCION EDCUATIVA CN GAMANIEL BLANCO MURILLO ISPP SAN JUAN P ",
+  },
+  {
+    label: "INSITTUCION EDCUATIVA CORONEL BOLOGNESI DE CHIQUIÁN",
+    value: "INSITTUCION EDCUATIVA CORONEL BOLOGNESI DE CHIQUIÁN",
+  },
+  {
+    label: "INSITTUCION EDCUATIVA ISAIAS ARDILES",
+    value: "INSITTUCION EDCUATIVA ISAIAS ARDILES",
+  },
+  {
+    label:
+      "INSITTUCION EDUCACIÓN SUPERIOR PEDAGOGICO PUBLICO GAMANIEL BLANCO MURILLO",
+    value:
+      "INSITTUCION EDUCACIÓN SUPERIOR PEDAGOGICO PUBLICO GAMANIEL BLANCO MURILLO",
+  },
+  {
+    label: "INSITTUCIÓN EDUCATIVA N 3092 KUMAMOTO I",
+    value: "INSITTUCIÓN EDUCATIVA N 3092 KUMAMOTO I",
+  },
+  {
+    label:
+      "INSITTUTO DE EDUCACIÓN SUPERIOR TECNOLOGICO PUBLICO ALEXANDER VON HUMBOLDT",
+    value:
+      "INSITTUTO DE EDUCACIÓN SUPERIOR TECNOLOGICO PUBLICO ALEXANDER VON HUMBOLDT",
+  },
+  {
+    label: "INSITUTCIÓN EDUCATIVA 132 TORIBIO DE LUZURIAGA Y MEJÍA UGEL 05",
+    value: "INSITUTCIÓN EDUCATIVA 132 TORIBIO DE LUZURIAGA Y MEJÍA UGEL 05",
+  },
+  {
+    label: "INSITUTCION EDUCATIVA ISABEL FLORES DE OLIVA DE SANTA ROSA",
+    value: "INSITUTCION EDUCATIVA ISABEL FLORES DE OLIVA DE SANTA ROSA",
+  },
+  {
+    label: "INSITUTCIÓN EDUCATIVA JOSÉ VARALLANOS",
+    value: "INSITUTCIÓN EDUCATIVA JOSÉ VARALLANOS",
+  },
+  {
+    label: "INSITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PÚBLICO ALTO MAYO",
+    value: "INSITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PÚBLICO ALTO MAYO",
+  },
+  {
+    label: "INSITUTO DE INVESTIGACION CULTURAL Y DESARROLLO MICROEMPRESARIAL",
+    value: "INSITUTO DE INVESTIGACION CULTURAL Y DESARROLLO MICROEMPRESARIAL",
+  },
+  {
+    label: "INSITUTOT SUPERIOR PEDAGÓGICO SANTIAGO ANTÚNEZ DE MAYOLO",
+    value: "INSITUTOT SUPERIOR PEDAGÓGICO SANTIAGO ANTÚNEZ DE MAYOLO",
+  },
+  {
+    label: "INSITUTTO DE EDUCACIÓN RURAL",
+    value: "INSITUTTO DE EDUCACIÓN RURAL",
+  },
+  {
+    label: "INSTICUCION EDUCATICA ESC Y LEON GOYLLARISCQUIZGA",
+    value: "INSTICUCION EDUCATICA ESC Y LEON GOYLLARISCQUIZGA",
+  },
+  {
+    label: "INSTITCUION EDUCATIVA ESC Y LEON ",
+    value: "INSTITCUION EDUCATIVA ESC Y LEON ",
+  },
+  {
+    label: "INSTITTUTO TECNOLOGICO PUBLO OXAPAMPA",
+    value: "INSTITTUTO TECNOLOGICO PUBLO OXAPAMPA",
+  },
+  {
+    label: "INSTITUCIÍON EDUCATIVA PRIVADA ISAAC NEWTON",
+    value: "INSTITUCIÍON EDUCATIVA PRIVADA ISAAC NEWTON",
+  },
+  {
+    label: "INSTITUCIÓN DE FOMENTO DE UNA EDUCACIÓN DE CALIDAD ",
+    value: "INSTITUCIÓN DE FOMENTO DE UNA EDUCACIÓN DE CALIDAD ",
+  },
+  {
+    label: "INSTITUCIÓN DE INVESTIGACIÓN AMBIENTAL",
+    value: "INSTITUCIÓN DE INVESTIGACIÓN AMBIENTAL",
+  },
+  {
+    label: "INSTITUCIÓN EDCUATIA PARTICUAL LAS CAPULLANAS TRUJILLO",
+    value: "INSTITUCIÓN EDCUATIA PARTICUAL LAS CAPULLANAS TRUJILLO",
+  },
+  {
+    label: "INSTITUCION EDCUATIVA CNI N 3 ANTENOR RIZO PATRON LEQUERICA",
+    value: "INSTITUCION EDCUATIVA CNI N 3 ANTENOR RIZO PATRON LEQUERICA",
+  },
+  {
+    label: "INSTITUCIÓN EDCUATIVA INIF N 48 SULLANA",
+    value: "INSTITUCIÓN EDCUATIVA INIF N 48 SULLANA",
+  },
+  {
+    label: "INSTITUCION EDCUATIVA N 7024",
+    value: "INSTITUCION EDCUATIVA N 7024",
+  },
+  {
+    label: "INSTITUCIÓN EDCUATIVA PARTICULA VIRGEN DEL ROSARIO",
+    value: "INSTITUCIÓN EDCUATIVA PARTICULA VIRGEN DEL ROSARIO",
+  },
+  {
+    label: "INSTITUCION EDCUTIVA SNATIAGO ANTUNES DE MAYOLO",
+    value: "INSTITUCION EDCUTIVA SNATIAGO ANTUNES DE MAYOLO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATICA N 32223 MARIANO DÁMASO BERÁUN",
+    value: "INSTITUCIÓN EDUCATICA N 32223 MARIANO DÁMASO BERÁUN",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATICA N 821356",
+    value: "INSTITUCIÓN EDUCATICA N 821356",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATICA PRIMARIA N 11240 ANNA MARÍA JARVIS",
+    value: "INSTITUCIÓN EDUCATICA PRIMARIA N 11240 ANNA MARÍA JARVIS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA  N  00547 POSIC",
+    value: "INSTITUCIÓN EDUCATIVA  N  00547 POSIC",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 00290 PRIMARIA MOYOBAMBA",
+    value: "INSTITUCIÓN EDUCATIVA 00290 PRIMARIA MOYOBAMBA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 11584 RAFAEL MAYOR GÓMEZ INTERVIDA",
+    value: "INSTITUCIÓN EDUCATIVA 11584 RAFAEL MAYOR GÓMEZ INTERVIDA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 14993 SAGRADA FAMILIA PARKINSONIA",
+    value: "INSTITUCIÓN EDUCATIVA 14993 SAGRADA FAMILIA PARKINSONIA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 2090 VIRGEN DE LA PUERTA",
+    value: "INSTITUCIÓN EDUCATIVA 2090 VIRGEN DE LA PUERTA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 287 ZOLIA AURORA DEL ÁGUILA DE NOVOA",
+    value: "INSTITUCIÓN EDUCATIVA 287 ZOLIA AURORA DEL ÁGUILA DE NOVOA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 32193 CHACOS",
+    value: "INSTITUCIÓN EDUCATIVA 32193 CHACOS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 32193 DE CHACOS",
+    value: "INSTITUCIÓN EDUCATIVA 32193 DE CHACOS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 32199",
+    value: "INSTITUCIÓN EDUCATIVA 32199",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 33247 ",
+    value: "INSTITUCIÓN EDUCATIVA 33247 ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 34226 RVDO. PADRE EGG - POZUZO",
+    value: "INSTITUCIÓN EDUCATIVA 34226 RVDO. PADRE EGG - POZUZO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 362",
+    value: "INSTITUCIÓN EDUCATIVA 362",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 370 VIRGEN DE LA PUERTA",
+    value: "INSTITUCIÓN EDUCATIVA 370 VIRGEN DE LA PUERTA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 54437 DE OCRABAMBA",
+    value: "INSTITUCIÓN EDUCATIVA 54437 DE OCRABAMBA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 660 VIRGEN DE FÁTIMA DE LAMAY",
+    value: "INSTITUCIÓN EDUCATIVA 660 VIRGEN DE FÁTIMA DE LAMAY",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA 7086 LOS PRECURSORES",
+    value: "INSTITUCIÓN EDUCATIVA 7086 LOS PRECURSORES",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA ADVENTISTA PIURA",
+    value: "INSTITUCIÓN EDUCATIVA ADVENTISTA PIURA",
+  },
+  {
+    label: "Institución Educativa Agustín de Hipona de COPRODELI",
+    value: "Institución Educativa Agustín de Hipona de COPRODELI",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA ALBERTO LEVEAU GARCÍA",
+    value: "INSTITUCIÓN EDUCATIVA ALBERTO LEVEAU GARCÍA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA ANDRÉS AVELINO CÁCERES",
+    value: "INSTITUCIÓN EDUCATIVA ANDRÉS AVELINO CÁCERES",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA APLICACIÓN MARCOS DURÁN MARTEL",
+    value: "INSTITUCIÓN EDUCATIVA APLICACIÓN MARCOS DURÁN MARTEL",
+  },
+  {
+    label: "institución educativa Bachiller Juan de Mori",
+    value: "institución educativa Bachiller Juan de Mori",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA C. EDUC- ESP- ESTATAL IQUITOS",
+    value: "INSTITUCIÓN EDUCATIVA C. EDUC- ESP- ESTATAL IQUITOS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA CARLOS GUTIERREZ MERINO",
+    value: "INSTITUCIÓN EDUCATIVA CARLOS GUTIERREZ MERINO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA CARLOS WIESSE",
+    value: "INSTITUCIÓN EDUCATIVA CARLOS WIESSE",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA CAUDILLA 3058 VIRGEN DE FÁTIMA",
+    value: "INSTITUCIÓN EDUCATIVA CAUDILLA 3058 VIRGEN DE FÁTIMA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA CEGECOM PLAYA AZUL",
+    value: "INSTITUCIÓN EDUCATIVA CEGECOM PLAYA AZUL",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA CÉSAR VALLEJO",
+    value: "INSTITUCIÓN EDUCATIVA CÉSAR VALLEJO",
+  },
+  {
+    label:
+      "INSTITUCION EDUCATIVA CN ANTONIO ALVAREZ DE ARENALES HUAYLLAYAUGUSTO SALAZAR BONDY",
+    value:
+      "INSTITUCION EDUCATIVA CN ANTONIO ALVAREZ DE ARENALES HUAYLLAYAUGUSTO SALAZAR BONDY",
+  },
+  {
+    label: "INSTITUCION EDUCATIVA CN AUGUSTO SALAZAR BONDY",
+    value: "INSTITUCION EDUCATIVA CN AUGUSTO SALAZAR BONDY",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA COLEGIO SANTA ANA  SAN FRANCISCO",
+    value: "INSTITUCIÓN EDUCATIVA COLEGIO SANTA ANA  SAN FRANCISCO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA COLEGIO SANTA ANA SAN FRANCISCO",
+    value: "INSTITUCIÓN EDUCATIVA COLEGIO SANTA ANA SAN FRANCISCO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA COMERCIAL N 39 CERARDO PATIÑO LOPEZ",
+    value: "INSTITUCIÓN EDUCATIVA COMERCIAL N 39 CERARDO PATIÑO LOPEZ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA COPRODELI SAN MARTÍN",
+    value: "INSTITUCIÓN EDUCATIVA COPRODELI SAN MARTÍN",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA CRISTIANA",
+    value: "INSTITUCIÓN EDUCATIVA CRISTIANA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA CRISTIANA EL NAZARENO",
+    value: "INSTITUCIÓN EDUCATIVA CRISTIANA EL NAZARENO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA DE ACCIÓN CONJUNTA NUESTRO SALVADOR",
+    value: "INSTITUCIÓN EDUCATIVA DE ACCIÓN CONJUNTA NUESTRO SALVADOR",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA DE INGENIO BAJO",
+    value: "INSTITUCIÓN EDUCATIVA DE INGENIO BAJO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA DE PICHUY",
+    value: "INSTITUCIÓN EDUCATIVA DE PICHUY",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA DE SECUNDARIA DE MENORES LA SALLE",
+    value: "INSTITUCIÓN EDUCATIVA DE SECUNDARIA DE MENORES LA SALLE",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA DEL EJÉRCITO GRAL EMILIO SOYER CABERO",
+    value: "INSTITUCIÓN EDUCATIVA DEL EJÉRCITO GRAL EMILIO SOYER CABERO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA DIVINO MAESTRO",
+    value: "INSTITUCIÓN EDUCATIVA DIVINO MAESTRO",
+  },
+  {
+    label: "INSTITUCION EDUCATIVA EBENEZER SRL",
+    value: "INSTITUCION EDUCATIVA EBENEZER SRL",
+  },
+  {
+    label: "Institución Educativa El Amauta José Carlos Mariátegui",
+    value: "Institución Educativa El Amauta José Carlos Mariátegui",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA EL PORVENIR SJL",
+    value: "INSTITUCIÓN EDUCATIVA EL PORVENIR SJL",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA ESPECIAL DE LA UGEL MORROPÓN",
+    value: "INSTITUCIÓN EDUCATIVA ESPECIAL DE LA UGEL MORROPÓN",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA FE Y ALEGRÍA N 32 DE LA UGEL 05",
+    value: "INSTITUCIÓN EDUCATIVA FE Y ALEGRÍA N 32 DE LA UGEL 05",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA FISCALIZADA N 35510 EL BROCAL",
+    value: "INSTITUCIÓN EDUCATIVA FISCALIZADA N 35510 EL BROCAL",
+  },
+  {
+    label: "INSTITUCION EDUCATIVA GRAN UNIDAD ESCOLAR LEONCIO PRADO",
+    value: "INSTITUCION EDUCATIVA GRAN UNIDAD ESCOLAR LEONCIO PRADO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA I. N° 133",
+    value: "INSTITUCIÓN EDUCATIVA I. N° 133",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA IE 7087 ",
+    value: "INSTITUCIÓN EDUCATIVA IE 7087 ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA IE 7098 RODRIGO LARA BONILLA LURIN",
+    value: "INSTITUCIÓN EDUCATIVA IE 7098 RODRIGO LARA BONILLA LURIN",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA INICIAL PARTICULAR NUESTRA SEÑORA DEL CARMEN",
+    value: "INSTITUCIÓN EDUCATIVA INICIAL PARTICULAR NUESTRA SEÑORA DEL CARMEN",
+  },
+  {
+    label:
+      "INSTITUCIÓN EDUCATIVA INT. N 32157 RICARDO PALMA SORIANO DE COCATAMA",
+    value:
+      "INSTITUCIÓN EDUCATIVA INT. N 32157 RICARDO PALMA SORIANO DE COCATAMA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA INTEFRAL  BLAS VALERA PEREZ",
+    value: "INSTITUCIÓN EDUCATIVA INTEFRAL  BLAS VALERA PEREZ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA INTEGRADA N 012 EL VALLE",
+    value: "INSTITUCIÓN EDUCATIVA INTEGRADA N 012 EL VALLE",
+  },
+  {
+    label:
+      "INSTITUCIÓN EDUCATIVA INTEGRADA N 0523 LUISA DEL CARMEN DEL ÁGUILA SÁNCHEZ",
+    value:
+      "INSTITUCIÓN EDUCATIVA INTEGRADA N 0523 LUISA DEL CARMEN DEL ÁGUILA SÁNCHEZ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA INTEGRADA PRIVADA DIVINO MAESTRO",
+    value: "INSTITUCIÓN EDUCATIVA INTEGRADA PRIVADA DIVINO MAESTRO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA INTEGRADA PRIVADA LA DIVINA MISERICORDIA",
+    value: "INSTITUCIÓN EDUCATIVA INTEGRADA PRIVADA LA DIVINA MISERICORDIA",
+  },
+  {
+    label:
+      "INSTITUCIÓN EDUCATIVA INTEGRADA PRIVADA NUESTRA SEÑORA DEL ROSARIO DE CAYHAYNA",
+    value:
+      "INSTITUCIÓN EDUCATIVA INTEGRADA PRIVADA NUESTRA SEÑORA DEL ROSARIO DE CAYHAYNA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA INTEGRADA PRIVADA SAN AGUSTÍN DE HUÁNUCO",
+    value: "INSTITUCIÓN EDUCATIVA INTEGRADA PRIVADA SAN AGUSTÍN DE HUÁNUCO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA INTEGRADA PRIVADA SAN VICENTE DE BARQUERÁ",
+    value: "INSTITUCIÓN EDUCATIVA INTEGRADA PRIVADA SAN VICENTE DE BARQUERÁ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA INTEGRADA VIRGEN DEL CARMEN DE RIPÁN",
+    value: "INSTITUCIÓN EDUCATIVA INTEGRADA VIRGEN DEL CARMEN DE RIPÁN",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA INTEGRADO DE PARACSHA",
+    value: "INSTITUCIÓN EDUCATIVA INTEGRADO DE PARACSHA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA INTEGRADO HORACIO ZEBALLOS GAMES",
+    value: "INSTITUCIÓN EDUCATIVA INTEGRADO HORACIO ZEBALLOS GAMES",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA JESÚS NAZARENO",
+    value: "INSTITUCIÓN EDUCATIVA JESÚS NAZARENO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA JOSÉ ANTONIO ENCINAS",
+    value: "INSTITUCIÓN EDUCATIVA JOSÉ ANTONIO ENCINAS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA JOSE ANTONIO ENCINAS FRANCO",
+    value: "INSTITUCIÓN EDUCATIVA JOSE ANTONIO ENCINAS FRANCO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA JOSÉ FASUTINO SANCHEZ CARRIÓN",
+    value: "INSTITUCIÓN EDUCATIVA JOSÉ FASUTINO SANCHEZ CARRIÓN",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA JOSÉ GALVEZ EGÚSQUIZA",
+    value: "INSTITUCIÓN EDUCATIVA JOSÉ GALVEZ EGÚSQUIZA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA JOSÉ MARIA ARGUEDAS",
+    value: "INSTITUCIÓN EDUCATIVA JOSÉ MARIA ARGUEDAS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA JUAN VELASCO ALVARADO",
+    value: "INSTITUCIÓN EDUCATIVA JUAN VELASCO ALVARADO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA JUANA MORENA",
+    value: "INSTITUCIÓN EDUCATIVA JUANA MORENA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA JUANA MORENO",
+    value: "INSTITUCIÓN EDUCATIVA JUANA MORENO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA JUANA MORENO DE HÚANICO",
+    value: "INSTITUCIÓN EDUCATIVA JUANA MORENO DE HÚANICO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA LAS TORTOLITAS",
+    value: "INSTITUCIÓN EDUCATIVA LAS TORTOLITAS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA LEONCIO PRADO GUTIERREZ",
+    value: "INSTITUCIÓN EDUCATIVA LEONCIO PRADO GUTIERREZ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA MARÍA NEGRON UGARTE",
+    value: "INSTITUCIÓN EDUCATIVA MARÍA NEGRON UGARTE",
+  },
+  {
+    label: "Institución Educativa Milagro de Fátima",
+    value: "Institución Educativa Milagro de Fátima",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA MIXTA JUAN PABLO VIZCARDO Y GUZMÁN",
+    value: "INSTITUCIÓN EDUCATIVA MIXTA JUAN PABLO VIZCARDO Y GUZMÁN",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA MY PNP ROBERTO VICENTE MORALES ROJAS",
+    value: "INSTITUCIÓN EDUCATIVA MY PNP ROBERTO VICENTE MORALES ROJAS",
+  },
+  {
+    label: "INSTITUCION EDUCATIVA N 0412",
+    value: "INSTITUCION EDUCATIVA N 0412",
+  },
+  {
+    label: "INSTITUCION EDUCATIVA N 0463",
+    value: "INSTITUCION EDUCATIVA N 0463",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 10010 JOSE DEL CARMEN PASCO MEDINA",
+    value: "INSTITUCIÓN EDUCATIVA N 10010 JOSE DEL CARMEN PASCO MEDINA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 10057",
+    value: "INSTITUCIÓN EDUCATIVA N 10057",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 10233 JOSÉ ABELARDO QUIÑONEZ GONZÁLES",
+    value: "INSTITUCIÓN EDUCATIVA N 10233 JOSÉ ABELARDO QUIÑONEZ GONZÁLES",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 10626 JOSÉ CÉSAR SOLÍS CÉLIS",
+    value: "INSTITUCIÓN EDUCATIVA N 10626 JOSÉ CÉSAR SOLÍS CÉLIS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 11587",
+    value: "INSTITUCIÓN EDUCATIVA N 11587",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 11587 YEHUDE SIMON MUNARO",
+    value: "INSTITUCIÓN EDUCATIVA N 11587 YEHUDE SIMON MUNARO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 14791 ",
+    value: "INSTITUCIÓN EDUCATIVA N 14791 ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 163 NESTOR ESCUDERO OTERO",
+    value: "INSTITUCIÓN EDUCATIVA N 163 NESTOR ESCUDERO OTERO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 171 JUAN VELASCO ALVARADO",
+    value: "INSTITUCIÓN EDUCATIVA N 171 JUAN VELASCO ALVARADO",
+  },
+  {
+    label:
+      "INSTITUCIÓN EDUCATIVA N 171-1 JUAN VELASCO ALVARADO UGEL 5 SAN JUAN DE LURIGANCHO",
+    value:
+      "INSTITUCIÓN EDUCATIVA N 171-1 JUAN VELASCO ALVARADO UGEL 5 SAN JUAN DE LURIGANCHO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 2015 MANUEL GONZALEZ PRADA",
+    value: "INSTITUCIÓN EDUCATIVA N 2015 MANUEL GONZALEZ PRADA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 2040",
+    value: "INSTITUCIÓN EDUCATIVA N 2040",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 22318 PACHACUTEC ICA",
+    value: "INSTITUCIÓN EDUCATIVA N 22318 PACHACUTEC ICA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 32002",
+    value: "INSTITUCIÓN EDUCATIVA N 32002",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 32104 MICAELA BASTIDAS PUYUCAGUA",
+    value: "INSTITUCIÓN EDUCATIVA N 32104 MICAELA BASTIDAS PUYUCAGUA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 33268",
+    value: "INSTITUCIÓN EDUCATIVA N 33268",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 33285",
+    value: "INSTITUCIÓN EDUCATIVA N 33285",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 33362",
+    value: "INSTITUCIÓN EDUCATIVA N 33362",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 34038 MIGLE GRAU SAN PERDO DE RACCO",
+    value: "INSTITUCIÓN EDUCATIVA N 34038 MIGLE GRAU SAN PERDO DE RACCO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 34681",
+    value: "INSTITUCIÓN EDUCATIVA N 34681",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 6024 JOSE MARÍA ARGUEDAS",
+    value: "INSTITUCIÓN EDUCATIVA N 6024 JOSE MARÍA ARGUEDAS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 6041 ALFONSO UGARTE",
+    value: "INSTITUCIÓN EDUCATIVA N 6041 ALFONSO UGARTE",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 6057 VIRGEN DE LOURDES",
+    value: "INSTITUCIÓN EDUCATIVA N 6057 VIRGEN DE LOURDES",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 6096 ANTONIO RAIMONDI ",
+    value: "INSTITUCIÓN EDUCATIVA N 6096 ANTONIO RAIMONDI ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 6155 JOSE BERNARDO ALCEDO",
+    value: "INSTITUCIÓN EDUCATIVA N 6155 JOSE BERNARDO ALCEDO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 64449 NUEVA LUZ",
+    value: "INSTITUCIÓN EDUCATIVA N 64449 NUEVA LUZ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 65102",
+    value: "INSTITUCIÓN EDUCATIVA N 65102",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 7066",
+    value: "INSTITUCIÓN EDUCATIVA N 7066",
+  },
+  {
+    label: "institución educativa N 7069 CESAR VALLEJO ",
+    value: "institución educativa N 7069 CESAR VALLEJO ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 7086 LOS PRECURSORES UGEL 07",
+    value: "INSTITUCIÓN EDUCATIVA N 7086 LOS PRECURSORES UGEL 07",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 7086 LOS PRECURSORES UGEL 08",
+    value: "INSTITUCIÓN EDUCATIVA N 7086 LOS PRECURSORES UGEL 08",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 80047 RAMIRO ÑIQUE ESPIRITU",
+    value: "INSTITUCIÓN EDUCATIVA N 80047 RAMIRO ÑIQUE ESPIRITU",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 80163 EPM A1",
+    value: "INSTITUCIÓN EDUCATIVA N 80163 EPM A1",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 82115 HUAMACHUCO",
+    value: "INSTITUCIÓN EDUCATIVA N 82115 HUAMACHUCO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 86974 IFO SANTA ROSA CAJACAY",
+    value: "INSTITUCIÓN EDUCATIVA N 86974 IFO SANTA ROSA CAJACAY",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N 88156",
+    value: "INSTITUCIÓN EDUCATIVA N 88156",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 0002 ISRAEL URIARTE",
+    value: "INSTITUCIÓN EDUCATIVA N° 0002 ISRAEL URIARTE",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 00932 DE MONTERREY",
+    value: "INSTITUCIÓN EDUCATIVA N° 00932 DE MONTERREY",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 0206 ISAAC NEWTON",
+    value: "INSTITUCIÓN EDUCATIVA N° 0206 ISAAC NEWTON",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 0237 RAMÓN CASATILLA",
+    value: "INSTITUCIÓN EDUCATIVA N° 0237 RAMÓN CASATILLA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 0306",
+    value: "INSTITUCIÓN EDUCATIVA N° 0306",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 0392",
+    value: "INSTITUCIÓN EDUCATIVA N° 0392",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 0699 DE CAHUIDE",
+    value: "INSTITUCIÓN EDUCATIVA N° 0699 DE CAHUIDE",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 0700 PUERTO RICO NVO PROGRESO",
+    value: "INSTITUCIÓN EDUCATIVA N° 0700 PUERTO RICO NVO PROGRESO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 0700 YANAJANCA NVO PROGRESO",
+    value: "INSTITUCIÓN EDUCATIVA N° 0700 YANAJANCA NVO PROGRESO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 0719 NUEVO TACABAMBA",
+    value: "INSTITUCIÓN EDUCATIVA N° 0719 NUEVO TACABAMBA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 136 FAUSA SAPINA",
+    value: "INSTITUCIÓN EDUCATIVA N° 136 FAUSA SAPINA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 210",
+    value: "INSTITUCIÓN EDUCATIVA N° 210",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 32098",
+    value: "INSTITUCIÓN EDUCATIVA N° 32098",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 32401",
+    value: "INSTITUCIÓN EDUCATIVA N° 32401",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 33285",
+    value: "INSTITUCIÓN EDUCATIVA N° 33285",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 70663 CARLOS DANTE NAVA SILVA",
+    value: "INSTITUCIÓN EDUCATIVA N° 70663 CARLOS DANTE NAVA SILVA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 7208",
+    value: "INSTITUCIÓN EDUCATIVA N° 7208",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N° 789 SAN MARCOS",
+    value: "INSTITUCIÓN EDUCATIVA N° 789 SAN MARCOS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N°00479 JUAN CLMACO VELA REYES",
+    value: "INSTITUCIÓN EDUCATIVA N°00479 JUAN CLMACO VELA REYES",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N°265",
+    value: "INSTITUCIÓN EDUCATIVA N°265",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N°32121",
+    value: "INSTITUCIÓN EDUCATIVA N°32121",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA N°62 DIVINO NIÑO JESÚS",
+    value: "INSTITUCIÓN EDUCATIVA N°62 DIVINO NIÑO JESÚS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA NUESTRA SEÑORA DE LA VISITACIÓN",
+    value: "INSTITUCIÓN EDUCATIVA NUESTRA SEÑORA DE LA VISITACIÓN",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA NUESTRA SEÑORA DE LAS MERCEDES",
+    value: "INSTITUCIÓN EDUCATIVA NUESTRA SEÑORA DE LAS MERCEDES",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA NUESTRA SEÑORA DE MONTSERRAT",
+    value: "INSTITUCIÓN EDUCATIVA NUESTRA SEÑORA DE MONTSERRAT",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA OSÉ GÁLVEZ BARRENECHEA",
+    value: "INSTITUCIÓN EDUCATIVA OSÉ GÁLVEZ BARRENECHEA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA P. CORAZON DE JESUS DE OASIS",
+    value: "INSTITUCIÓN EDUCATIVA P. CORAZON DE JESUS DE OASIS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PARROQUIAL LA INMACULADA CONCEPCIÓN",
+    value: "INSTITUCIÓN EDUCATIVA PARROQUIAL LA INMACULADA CONCEPCIÓN",
+  },
+  {
+    label: 'INSTITUCIÓN EDUCATIVA PARROQUIAL MIXTA "PILKO MARKA"',
+    value: 'INSTITUCIÓN EDUCATIVA PARROQUIAL MIXTA "PILKO MARKA"',
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PARTICULA PLEYADES",
+    value: "INSTITUCIÓN EDUCATIVA PARTICULA PLEYADES",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PARTICULA SAN FRANCISCO DE ASIS",
+    value: "INSTITUCIÓN EDUCATIVA PARTICULA SAN FRANCISCO DE ASIS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PARTICULAR",
+    value: "INSTITUCIÓN EDUCATIVA PARTICULAR",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PARTICULAR ADVENTISTA BAGUA",
+    value: "INSTITUCIÓN EDUCATIVA PARTICULAR ADVENTISTA BAGUA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PARTICULAR AMADEUS",
+    value: "INSTITUCIÓN EDUCATIVA PARTICULAR AMADEUS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PARTICULAR CHRISTIAN BARNARD",
+    value: "INSTITUCIÓN EDUCATIVA PARTICULAR CHRISTIAN BARNARD",
+  },
+  {
+    label:
+      "INSTITUCIÓN EDUCATIVA PARTICULAR DE EDUCACIÓN PRIMARIA SECUNDARIA Y SUPERIOR AMAUTA",
+    value:
+      "INSTITUCIÓN EDUCATIVA PARTICULAR DE EDUCACIÓN PRIMARIA SECUNDARIA Y SUPERIOR AMAUTA",
+  },
+  {
+    label: "institución educativa particular diego Thomson",
+    value: "institución educativa particular diego Thomson",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PARTICULAR HERMANA MISIONERA DEL P SOCORRO",
+    value: "INSTITUCIÓN EDUCATIVA PARTICULAR HERMANA MISIONERA DEL P SOCORRO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PARTICULAR HUDSON TAYLOR",
+    value: "INSTITUCIÓN EDUCATIVA PARTICULAR HUDSON TAYLOR",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PARTICULAR JULIO VERNE",
+    value: "INSTITUCIÓN EDUCATIVA PARTICULAR JULIO VERNE",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PARTICULAR PEDRO RUIZ GALLO FERREÑAFE",
+    value: "INSTITUCIÓN EDUCATIVA PARTICULAR PEDRO RUIZ GALLO FERREÑAFE",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PARTICULAR VIRGEN DEL PILAR",
+    value: "INSTITUCIÓN EDUCATIVA PARTICULAR VIRGEN DEL PILAR",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PGPE CRL ALFREDO BONIFAZ FONSECA",
+    value: "INSTITUCIÓN EDUCATIVA PGPE CRL ALFREDO BONIFAZ FONSECA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PITAGORAS",
+    value: "INSTITUCIÓN EDUCATIVA PITAGORAS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PNP TEODOSIO FRANCO GARCÍA",
+    value: "INSTITUCIÓN EDUCATIVA PNP TEODOSIO FRANCO GARCÍA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRESENTACIÓN DE MARÍA 41",
+    value: "INSTITUCIÓN EDUCATIVA PRESENTACIÓN DE MARÍA 41",
+  },
+  {
+    label: "INSTITUCION EDUCATIVA PRESENTACIÓN DE MARÍA N 41",
+    value: "INSTITUCION EDUCATIVA PRESENTACIÓN DE MARÍA N 41",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRESENTACIÓN DE MARÍA N 41 COMAS",
+    value: "INSTITUCIÓN EDUCATIVA PRESENTACIÓN DE MARÍA N 41 COMAS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIMARIA",
+    value: "INSTITUCIÓN EDUCATIVA PRIMARIA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIMARIA MENORES N° 50627 SFA",
+    value: "INSTITUCIÓN EDUCATIVA PRIMARIA MENORES N° 50627 SFA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIMARIA N 34437",
+    value: "INSTITUCIÓN EDUCATIVA PRIMARIA N 34437",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIMARIA N 34584",
+    value: "INSTITUCIÓN EDUCATIVA PRIMARIA N 34584",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA  CORPORACIÓN EDUCATIVA EBENEZER SRL",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA  CORPORACIÓN EDUCATIVA EBENEZER SRL",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA ALFONSO UGARTE",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA ALFONSO UGARTE",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA ALTERNATIVO B &M ",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA ALTERNATIVO B &M ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA AMIGOS SCHOOL",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA AMIGOS SCHOOL",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA AQUARELA GARDEN",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA AQUARELA GARDEN",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA BRUNING COLLEGE",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA BRUNING COLLEGE",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA CASTILLO REAL",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA CASTILLO REAL",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA EL HOGAR",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA EL HOGAR",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA EL NAZARENO",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA EL NAZARENO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA ESLID",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA ESLID",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA GALILEO GALILEI",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA GALILEO GALILEI",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA HONORES DE HUÁNUCO",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA HONORES DE HUÁNUCO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA INGENIERÍA EIRL",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA INGENIERÍA EIRL",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA JUAN ENRIQUE NEWMAN",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA JUAN ENRIQUE NEWMAN",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA LAS PRADERAS INTERNATIONAL SCHOOL",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA LAS PRADERAS INTERNATIONAL SCHOOL",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA LOS INGENIEROS",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA LOS INGENIEROS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA LOS OLIVOS",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA LOS OLIVOS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA MARÍA MONTESSORI",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA MARÍA MONTESSORI",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA MIXTA  AMERICANO",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA MIXTA  AMERICANO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA NIÑOS DEL PERÚ",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA NIÑOS DEL PERÚ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA NORBERT WIENER",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA NORBERT WIENER",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA PEDRO RUIZ GALLO",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA PEDRO RUIZ GALLO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA SAINT CAMILA'S SCHOOL",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA SAINT CAMILA'S SCHOOL",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA SAN AGUSTÍN DE HUÁNUCO",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA SAN AGUSTÍN DE HUÁNUCO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PRIVADA SEGUNDO CABRERA MUÑOZ ",
+    value: "INSTITUCIÓN EDUCATIVA PRIVADA SEGUNDO CABRERA MUÑOZ ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PROOVADA ISAAC NEWTON",
+    value: "INSTITUCIÓN EDUCATIVA PROOVADA ISAAC NEWTON",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PROVADA MAKARENKO",
+    value: "INSTITUCIÓN EDUCATIVA PROVADA MAKARENKO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PÚBLICA JORGE BASADRE DE EL VALLE",
+    value: "INSTITUCIÓN EDUCATIVA PÚBLICA JORGE BASADRE DE EL VALLE",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PÚBLICA JUANA INFANTES VERA",
+    value: "INSTITUCIÓN EDUCATIVA PÚBLICA JUANA INFANTES VERA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PÚBLICA N 10018 SANTA ROSA",
+    value: "INSTITUCIÓN EDUCATIVA PÚBLICA N 10018 SANTA ROSA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PÚBLICA N 34033 PARAGSHA",
+    value: "INSTITUCIÓN EDUCATIVA PÚBLICA N 34033 PARAGSHA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PÚBLICA POLITÉCNICO",
+    value: "INSTITUCIÓN EDUCATIVA PÚBLICA POLITÉCNICO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA PÚBLICA SNA MIGUEL ARCÁNGEL",
+    value: "INSTITUCIÓN EDUCATIVA PÚBLICA SNA MIGUEL ARCÁNGEL",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA QUEROPELCA LAURICOCHA HUÁNUCO",
+    value: "INSTITUCIÓN EDUCATIVA QUEROPELCA LAURICOCHA HUÁNUCO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA RAMIRO ÑIQUE ESPIRITU",
+    value: "INSTITUCIÓN EDUCATIVA RAMIRO ÑIQUE ESPIRITU",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA RAUL PORRAS BARRENECHEA",
+    value: "INSTITUCIÓN EDUCATIVA RAUL PORRAS BARRENECHEA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA RICARDO BENTIN",
+    value: "INSTITUCIÓN EDUCATIVA RICARDO BENTIN",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA ROGER COUSINET ",
+    value: "INSTITUCIÓN EDUCATIVA ROGER COUSINET ",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA SAN JOSÉ DE ARTESANOS",
+    value: "INSTITUCIÓN EDUCATIVA SAN JOSÉ DE ARTESANOS",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA SAN JUAN DE LA VIRGEN",
+    value: "INSTITUCIÓN EDUCATIVA SAN JUAN DE LA VIRGEN",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA SANTA ROSA",
+    value: "INSTITUCIÓN EDUCATIVA SANTA ROSA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA SNA JOSÉ",
+    value: "INSTITUCIÓN EDUCATIVA SNA JOSÉ",
+  },
+  {
+    label: "INSTITUCION EDUCATIVA SNA JUAN BAÑOS RABII",
+    value: "INSTITUCION EDUCATIVA SNA JUAN BAÑOS RABII",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA TÚPAC AMARU",
+    value: "INSTITUCIÓN EDUCATIVA TÚPAC AMARU",
+  },
+  {
+    label: "INSTITUCION EDUCATIVA VICTOR RAUL HAYA DE LA TORRE",
+    value: "INSTITUCION EDUCATIVA VICTOR RAUL HAYA DE LA TORRE",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA VIRGEN DE FÁTIMA",
+    value: "INSTITUCIÓN EDUCATIVA VIRGEN DE FÁTIMA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA VIRGEN DE LA PUERTA",
+    value: "INSTITUCIÓN EDUCATIVA VIRGEN DE LA PUERTA",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVA VIRGEN DEL ROSARIO",
+    value: "INSTITUCIÓN EDUCATIVA VIRGEN DEL ROSARIO",
+  },
+  {
+    label: "INSTITUCIÓN EDUCATIVO N 30736 NUEVA ESPERANZA RIO NEGRO SATIPO",
+    value: "INSTITUCIÓN EDUCATIVO N 30736 NUEVA ESPERANZA RIO NEGRO SATIPO",
+  },
+  {
+    label: "INSTITUCIÓN JOSÉ MARÍA ARGUEDAS",
+    value: "INSTITUCIÓN JOSÉ MARÍA ARGUEDAS",
+  },
+  {
+    label: "INSTITUCIÓN MARSICAL TORIBIO DE LUZURIAGA N 1209",
+    value: "INSTITUCIÓN MARSICAL TORIBIO DE LUZURIAGA N 1209",
+  },
+  {
+    label:
+      "INSTITUCIÓN SUPERIOR DE FORMACIÓN DOCENTE PRIVADO ESTEBAN PAVLETICH",
+    value:
+      "INSTITUCIÓN SUPERIOR DE FORMACIÓN DOCENTE PRIVADO ESTEBAN PAVLETICH",
+  },
+  {
+    label: "INSTITUCIPON EDUCATIVA PRIMARIA N 11249 ANNA MARPUA JARVIS ",
+    value: "INSTITUCIPON EDUCATIVA PRIMARIA N 11249 ANNA MARPUA JARVIS ",
+  },
+  {
+    label: "INSTITUCON EDUCATIVA CN SNA ISISDO DE YANAPAMPA",
+    value: "INSTITUCON EDUCATIVA CN SNA ISISDO DE YANAPAMPA",
+  },
+  {
+    label: "INSTITUION EDUCATIVA CN n 34047 CESAR VALLEJO MENDOZA",
+    value: "INSTITUION EDUCATIVA CN n 34047 CESAR VALLEJO MENDOZA",
+  },
+  {
+    label: "INSTITUION EDUCATIVA CN SNA ISIDRO YANAPAMAPA",
+    value: "INSTITUION EDUCATIVA CN SNA ISIDRO YANAPAMAPA",
+  },
+  {
+    label: "INSTITUO NACIONAL DE ESTADÍSTICA E INFORMÁTICA",
+    value: "INSTITUO NACIONAL DE ESTADÍSTICA E INFORMÁTICA",
+  },
+  {
+    label: "INSTITUTCION EDUCATIVA SANTIAGO ANTÚNEZ DE MAYOLO LA PAPA",
+    value: "INSTITUTCION EDUCATIVA SANTIAGO ANTÚNEZ DE MAYOLO LA PAPA",
+  },
+  {
+    label: "INSTITUTE FOR HOUSING AND URBAN DEVELOPMENT STUDIES",
+    value: "INSTITUTE FOR HOUSING AND URBAN DEVELOPMENT STUDIES",
+  },
+  {
+    label: "INSTITUTO APOYO",
+    value: "INSTITUTO APOYO",
+  },
+  {
+    label: "INSTITUTO ARZOBISPO LOAYZA",
+    value: "INSTITUTO ARZOBISPO LOAYZA",
+  },
+  {
+    label: "INSTITUTO BARTOLOMÉ DE LAS CASAS",
+    value: "INSTITUTO BARTOLOMÉ DE LAS CASAS",
+  },
+  {
+    label: "Instituto Central de Investigación",
+    value: "Instituto Central de Investigación",
+  },
+  {
+    label: "INSTITUTO CIUDADANÍA DEMOCRACIA",
+    value: "INSTITUTO CIUDADANÍA DEMOCRACIA",
+  },
+  {
+    label: "INSTITUTO CUANTO",
+    value: "INSTITUTO CUANTO",
+  },
+  {
+    label: "INSTITUTO CULTURAL PERUANO NORTEAMERICANO DE TRUJILLO",
+    value: "INSTITUTO CULTURAL PERUANO NORTEAMERICANO DE TRUJILLO",
+  },
+  {
+    label: "INSTITUTO DE  ACCIÓN EMPRESARIAL IPAE",
+    value: "INSTITUTO DE  ACCIÓN EMPRESARIAL IPAE",
+  },
+  {
+    label: "INSTITUTO DE ANÁLISIS DE POLÍTICA AGRARIA",
+    value: "INSTITUTO DE ANÁLISIS DE POLÍTICA AGRARIA",
+  },
+  {
+    label: "INSTITUTO DE ANÁLISIS DE POLÍTICA AGRARIA (IAPA)",
+    value: "INSTITUTO DE ANÁLISIS DE POLÍTICA AGRARIA (IAPA)",
+  },
+  {
+    label: "INSTITUTO DE APOYO AL MANEJO DE AGUA DE RIEGO IMAR COSTA NORTE",
+    value: "INSTITUTO DE APOYO AL MANEJO DE AGUA DE RIEGO IMAR COSTA NORTE",
+  },
+  {
+    label: "INSTITUTO DE DEFENSA LEGAL",
+    value: "INSTITUTO DE DEFENSA LEGAL",
+  },
+  {
+    label:
+      "INSTITUTO DE DESARROLLO DE RECURSOS HUMANOS CENTRO NACIONAL DE FORMACIÓN TÉCNICA",
+    value:
+      "INSTITUTO DE DESARROLLO DE RECURSOS HUMANOS CENTRO NACIONAL DE FORMACIÓN TÉCNICA",
+  },
+  {
+    label: "INSTITUTO DE DESARROLLO DEL MEDIO AMBIENTE",
+    value: "INSTITUTO DE DESARROLLO DEL MEDIO AMBIENTE",
+  },
+  {
+    label: "INSTITUTO DE DESARROLLO DEL SECTOR INFORMAL ESAN",
+    value: "INSTITUTO DE DESARROLLO DEL SECTOR INFORMAL ESAN",
+  },
+  {
+    label:
+      "INSTITUTO DE DESARROLLO E INVESTIGACIÓN PARA LA CULTURA, EDUCACIÓN Y PRODUCCIÓN SUNTRUHUASI",
+    value:
+      "INSTITUTO DE DESARROLLO E INVESTIGACIÓN PARA LA CULTURA, EDUCACIÓN Y PRODUCCIÓN SUNTRUHUASI",
+  },
+  {
+    label: "INSTITUTO DE DESARROLLO EDUCATIVO Y SOCIAL MARKAYACHAY",
+    value: "INSTITUTO DE DESARROLLO EDUCATIVO Y SOCIAL MARKAYACHAY",
+  },
+  {
+    label: "INSTITUTO DE DESARROLLO LOCAL IDEL",
+    value: "INSTITUTO DE DESARROLLO LOCAL IDEL",
+  },
+  {
+    label: "INSTITUTO DE DESARROLLO Y MEDIO AMBIENTE",
+    value: "INSTITUTO DE DESARROLLO Y MEDIO AMBIENTE",
+  },
+  {
+    label: "INSTITUTO DE DIÁLOGO Y PROPUESTAS",
+    value: "INSTITUTO DE DIÁLOGO Y PROPUESTAS",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN  SUPERIOR PEDAGÓGICO CALIDAD EN REDES DE APRENDIZAJE  IESPP CREA",
+    value:
+      "INSTITUTO DE EDUCACIÓN  SUPERIOR PEDAGÓGICO CALIDAD EN REDES DE APRENDIZAJE  IESPP CREA",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN  SUPERIOR PEDAGÓGICO PRIVADO ESTEBAN PAVLETICH",
+    value:
+      "INSTITUTO DE EDUCACIÓN  SUPERIOR PEDAGÓGICO PRIVADO ESTEBAN PAVLETICH",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN RURAL",
+    value: "INSTITUTO DE EDUCACIÓN RURAL",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR DE FORMACIÓN EMPRESARIAL EN COMPUTACIÓN E INFORMÁTICA  ITEC SRL",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR DE FORMACIÓN EMPRESARIAL EN COMPUTACIÓN E INFORMÁTICA  ITEC SRL",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR FÉLIX DE LA ROSA REÁTEGUI Y GAVIRIA",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR FÉLIX DE LA ROSA REÁTEGUI Y GAVIRIA",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN SUPERIOR NO ESTATAL MASTERTECH",
+    value: "INSTITUTO DE EDUCACIÓN SUPERIOR NO ESTATAL MASTERTECH",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN SUPERIOR PARTICULAR AMÉRICA",
+    value: "INSTITUTO DE EDUCACIÓN SUPERIOR PARTICULAR AMÉRICA",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PRIVADO AUGUSTE RENOIR",
+    value: "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PRIVADO AUGUSTE RENOIR",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN REDES DE APRENDIZAJE",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN REDES DE APRENDIZAJE",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN REDES DE APRENDIZAJE CREA",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN REDES DE APRENDIZAJE CREA",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN REDES DE APRENDIZAJE-IESPP CREA",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN REDES DE APRENDIZAJE-IESPP CREA",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PRIVADO PAULO FREIRE",
+    value: "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PRIVADO PAULO FREIRE",
+  },
+  {
+    label:
+      'INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PÚBLICO "PEDRO MONGE CÓRDOVA"',
+    value:
+      'INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PÚBLICO "PEDRO MONGE CÓRDOVA"',
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PUBLICO GAMANIEL BLANCO MURILLO",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PUBLICO GAMANIEL BLANCO MURILLO",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PUBLICO GENERALÍSIMO JOSE DE SAN MARTÍN",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PUBLICO GENERALÍSIMO JOSE DE SAN MARTÍN",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PUBLICO IESPP JOSE SALVADOR CAVERO OVALLE",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PUBLICO IESPP JOSE SALVADOR CAVERO OVALLE",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PÚBLICO MARCOS DURÁN MARTEL",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PÚBLICO MARCOS DURÁN MARTEL",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PÚBLICO MARCOS DURÁN MARTEL HUÁNUCO",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PÚBLICO MARCOS DURÁN MARTEL HUÁNUCO",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PÚBLICO TEODORO PEÑALOZA",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PÚBLICO TEODORO PEÑALOZA",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PÚBLICO TEODORO PEÑALOZA DE CHUPACA",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO PÚBLICO TEODORO PEÑALOZA DE CHUPACA",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO SAN MARCELINO",
+    value: "INSTITUTO DE EDUCACIÓN SUPERIOR PEDAGÓGICO SAN MARCELINO",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN SUPERIOR SALESIANO",
+    value: "INSTITUTO DE EDUCACIÓN SUPERIOR SALESIANO",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN SUPERIOR SANTA LUCÍA",
+    value: "INSTITUTO DE EDUCACIÓN SUPERIOR SANTA LUCÍA",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO",
+    value: "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO",
+  },
+  {
+    label:
+      'INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO "REYNA  DE LAS AMÉRICAS"',
+    value:
+      'INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO "REYNA  DE LAS AMÉRICAS"',
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO DE LA CONSTRUCCIÓN",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO DE LA CONSTRUCCIÓN",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO FBONACCI",
+    value: "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO FBONACCI",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO HESSEN",
+    value: "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO HESSEN",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO JUANJUÍ",
+    value: "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO JUANJUÍ",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO MARÍA PARADO DE BELLIDO",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO MARÍA PARADO DE BELLIDO",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO SANTA LUCIA",
+    value: "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PRIVADO SANTA LUCIA",
+  },
+  {
+    label:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLOGICO PUBLICO ALBERTO PUMAYALLA DÍAZ",
+    value:
+      "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLOGICO PUBLICO ALBERTO PUMAYALLA DÍAZ",
+  },
+  {
+    label: "Instituto de Educación Superior Tecnológico Público Pasco",
+    value: "Instituto de Educación Superior Tecnológico Público Pasco",
+  },
+  {
+    label: "instituto de educación superior tecnológico publico Pasco ISTP",
+    value: "instituto de educación superior tecnológico publico Pasco ISTP",
+  },
+  {
+    label: "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PÚBLICO SUIZA",
+    value: "INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PÚBLICO SUIZA",
+  },
+  {
+    label: "INSTITUTO DE EDUCATIVA SUPERIOR PEDAGÓGICA OXFORD",
+    value: "INSTITUTO DE EDUCATIVA SUPERIOR PEDAGÓGICA OXFORD",
+  },
+  {
+    label: "INSTITUTO DE ESPECIALIZACIÓN PROFESIONAL HONORIO DELGADO",
+    value: "INSTITUTO DE ESPECIALIZACIÓN PROFESIONAL HONORIO DELGADO",
+  },
+  {
+    label: "Instituto de Estadística e Informática",
+    value: "Instituto de Estadística e Informática",
+  },
+  {
+    label: "INSTITUTO DE ESTUDIOS PERUANOS",
+    value: "INSTITUTO DE ESTUDIOS PERUANOS",
+  },
+  {
+    label: "INSTITUTO DE ESTUDIOS PERUANOS IEP",
+    value: "INSTITUTO DE ESTUDIOS PERUANOS IEP",
+  },
+  {
+    label:
+      "INSTITUTO DE ÉTICA Y DESARROLLO ESCUELA SUPERIOR ANTONIO RUIZ DE MONTOYA",
+    value:
+      "INSTITUTO DE ÉTICA Y DESARROLLO ESCUELA SUPERIOR ANTONIO RUIZ DE MONTOYA",
+  },
+  {
+    label: "INSTITUTO DE FOMENTO DE UNA EDUCACIÓN DE CALIDAD",
+    value: "INSTITUTO DE FOMENTO DE UNA EDUCACIÓN DE CALIDAD",
+  },
+  {
+    label: "Instituto de Fomento de una educación de calidad EDUCA",
+    value: "Instituto de Fomento de una educación de calidad EDUCA",
+  },
+  {
+    label:
+      "Instituto de Formación de Niños y Adolescentes Trabajadores  - INFANT",
+    value:
+      "Instituto de Formación de Niños y Adolescentes Trabajadores  - INFANT",
+  },
+  {
+    label:
+      "INSTITUTO DE FORMACIÓN PARA EDUCADORES DE JÓVENES, ADOLESCENTES Y NIÑOS TRABAJADORES DE AMÉRICA LATINA Y EL CARIBE IFEJANT",
+    value:
+      "INSTITUTO DE FORMACIÓN PARA EDUCADORES DE JÓVENES, ADOLESCENTES Y NIÑOS TRABAJADORES DE AMÉRICA LATINA Y EL CARIBE IFEJANT",
+  },
+  {
+    label:
+      "INSTITUTO DE FORMACIÓN, APRENDIZAJE, MOTIVACIONES INNOVACIONES Y LIDERAZGO EDUCATIVO INFAMILE",
+    value:
+      "INSTITUTO DE FORMACIÓN, APRENDIZAJE, MOTIVACIONES INNOVACIONES Y LIDERAZGO EDUCATIVO INFAMILE",
+  },
+  {
+    label: "INSTITUTO DE FORMENTO DE NA EDUCACIÓN DE CALIDAD",
+    value: "INSTITUTO DE FORMENTO DE NA EDUCACIÓN DE CALIDAD",
+  },
+  {
+    label: "INSTITUTO DE GESTIÓN DE SERVICIOS DE SALUD",
+    value: "INSTITUTO DE GESTIÓN DE SERVICIOS DE SALUD",
+  },
+  {
+    label:
+      "INSTITUTO DE INFORMACIÓN Y METODOLOGÍAS PARA EL DESARROLLO ORGANIZACIONAL - INFORMET",
+    value:
+      "INSTITUTO DE INFORMACIÓN Y METODOLOGÍAS PARA EL DESARROLLO ORGANIZACIONAL - INFORMET",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIÓN",
+    value: "INSTITUTO DE INVESTIGACIÓN",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIÓN AMBIENTAL IIA PERÚ",
+    value: "INSTITUTO DE INVESTIGACIÓN AMBIENTAL IIA PERÚ",
+  },
+  {
+    label:
+      "INSTITUTO DE INVESTIGACIÓN DE LA FACULTAD DE CIENCIAS ECONÓMICAS DE LA UNAC",
+    value:
+      "INSTITUTO DE INVESTIGACIÓN DE LA FACULTAD DE CIENCIAS ECONÓMICAS DE LA UNAC",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIÓN NUTRICIONAL",
+    value: "INSTITUTO DE INVESTIGACIÓN NUTRICIONAL",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIÓN NUTRICIONAL LOWA STATE UNIVERSITY",
+    value: "INSTITUTO DE INVESTIGACIÓN NUTRICIONAL LOWA STATE UNIVERSITY",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIÓN PARA LA ESTIMULACIÓN TEMPRANA",
+    value: "INSTITUTO DE INVESTIGACIÓN PARA LA ESTIMULACIÓN TEMPRANA",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIÓN Y CAPACITACIÓN MUNICIPAL",
+    value: "INSTITUTO DE INVESTIGACIÓN Y CAPACITACIÓN MUNICIPAL",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIÓN Y DESARROLLO ANDINO",
+    value: "INSTITUTO DE INVESTIGACIÓN Y DESARROLLO ANDINO",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIÓN Y DESARROLLO ANDINO PARWA",
+    value: "INSTITUTO DE INVESTIGACIÓN Y DESARROLLO ANDINO PARWA",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIÓN Y ESTUDIOS EN INFORMÁTICA",
+    value: "INSTITUTO DE INVESTIGACIÓN Y ESTUDIOS EN INFORMÁTICA",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIÓN Y PROMOCIÓN SOCIAL",
+    value: "INSTITUTO DE INVESTIGACIÓN Y PROMOCIÓN SOCIAL",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIÓN Y PROOCIÓN SOCIAL",
+    value: "INSTITUTO DE INVESTIGACIÓN Y PROOCIÓN SOCIAL",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIONES DE LA AMAZONÍA PERUANA ",
+    value: "INSTITUTO DE INVESTIGACIONES DE LA AMAZONÍA PERUANA ",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIONES Y DESARROLLO ANDINO - IIDA",
+    value: "INSTITUTO DE INVESTIGACIONES Y DESARROLLO ANDINO - IIDA",
+  },
+  {
+    label: "INSTITUTO DE INVESTIGACIONES Y DESARROLLO ANDINO IIDA",
+    value: "INSTITUTO DE INVESTIGACIONES Y DESARROLLO ANDINO IIDA",
+  },
+  {
+    label: "INSTITUTO DE OPINIÓN PÚBLICA",
+    value: "INSTITUTO DE OPINIÓN PÚBLICA",
+  },
+  {
+    label: "INSTITUTO DE PEDAGOGÍA POPULAR",
+    value: "INSTITUTO DE PEDAGOGÍA POPULAR",
+  },
+  {
+    label: "INSTITUTO DE PLANIFICACIÓN Y ESTUDIOS ESTADÍSTICOS",
+    value: "INSTITUTO DE PLANIFICACIÓN Y ESTUDIOS ESTADÍSTICOS",
+  },
+  {
+    label: "INSTITUTO DE PSICOLOGÍA CIENTÍFICA EIRL",
+    value: "INSTITUTO DE PSICOLOGÍA CIENTÍFICA EIRL",
+  },
+  {
+    label:
+      "INSTITUTO DE SERVICIOS EDUCATIVOS PARA EL DESARROLLO INTEGRAL DE LA FAMILIA",
+    value:
+      "INSTITUTO DE SERVICIOS EDUCATIVOS PARA EL DESARROLLO INTEGRAL DE LA FAMILIA",
+  },
+  {
+    label: "INSTITUTO DEL CONURBANO",
+    value: "INSTITUTO DEL CONURBANO",
+  },
+  {
+    label: 'Instituto del Mar del Perú "IMARPE"',
+    value: 'Instituto del Mar del Perú "IMARPE"',
+  },
+  {
+    label: "INSTITUTO DEL SUR",
+    value: "INSTITUTO DEL SUR",
+  },
+  {
+    label: "INSTITUTO EDUCA",
+    value: "INSTITUTO EDUCA",
+  },
+  {
+    label: "INSTITUTO EDUCATIVO ANDRÉS AVELINO CÁCERES DORREGARAY",
+    value: "INSTITUTO EDUCATIVO ANDRÉS AVELINO CÁCERES DORREGARAY",
+  },
+  {
+    label: "INSTITUTO EDUCATIVO DE LLAQUIPAMPA",
+    value: "INSTITUTO EDUCATIVO DE LLAQUIPAMPA",
+  },
+  {
+    label: "INSTITUTO EDUCATIVO JORGE BASADRE",
+    value: "INSTITUTO EDUCATIVO JORGE BASADRE",
+  },
+  {
+    label: "INSTITUTO EDUCATIVO MANUEL FIDENCIO HIDALGO FLORES",
+    value: "INSTITUTO EDUCATIVO MANUEL FIDENCIO HIDALGO FLORES",
+  },
+  {
+    label: "INSTITUTO EDUCATIVO MARINO A. MEZA ROSALES",
+    value: "INSTITUTO EDUCATIVO MARINO A. MEZA ROSALES",
+  },
+  {
+    label: "INSTITUTO EDUCATIVO N°1168 HÉROES DEL CENEPA",
+    value: "INSTITUTO EDUCATIVO N°1168 HÉROES DEL CENEPA",
+  },
+  {
+    label: "INSTITUTO EDUCATIVO PARTICULAR SANTA MARÍA",
+    value: "INSTITUTO EDUCATIVO PARTICULAR SANTA MARÍA",
+  },
+  {
+    label:
+      "INSTITUTO EDUCATIVO SECUNDARIO DE JOVENES Y ADULTOS LA VICTORIA DE AYACUCHO",
+    value:
+      "INSTITUTO EDUCATIVO SECUNDARIO DE JOVENES Y ADULTOS LA VICTORIA DE AYACUCHO",
+  },
+  {
+    label: "INSTITUTO EDUCATIVO SUPERIOR PEDAGÓGICO JOSÉ CARLOS MARIÁTEGUI ",
+    value: "INSTITUTO EDUCATIVO SUPERIOR PEDAGÓGICO JOSÉ CARLOS MARIÁTEGUI ",
+  },
+  {
+    label:
+      "INSTITUTO EDUCATIVO SUPERIOR PEDAGÓGICO PÚBLICO CÉSAR ABRAHAM VALLEJO MENDOZA",
+    value:
+      "INSTITUTO EDUCATIVO SUPERIOR PEDAGÓGICO PÚBLICO CÉSAR ABRAHAM VALLEJO MENDOZA",
+  },
+  {
+    label: "INSTITUTO EDUCATIVO SUPERIOR PEDAGÓGICO PÚBLICO TEODORO PEÑALOZA",
+    value: "INSTITUTO EDUCATIVO SUPERIOR PEDAGÓGICO PÚBLICO TEODORO PEÑALOZA",
+  },
+  {
+    label: "INSTITUTO IDAT",
+    value: "INSTITUTO IDAT",
+  },
+  {
+    label: "INSTITUTO INDIGENISTA PERUANO",
+    value: "INSTITUTO INDIGENISTA PERUANO",
+  },
+  {
+    label: "INSTITUTO INTERAMERICANO DE COOPERACIÓN PARA LA AGRICULTURA",
+    value: "INSTITUTO INTERAMERICANO DE COOPERACIÓN PARA LA AGRICULTURA",
+  },
+  {
+    label: "INSTITUTO INTERAMERICANO DE COOPERACIÓN PARA LA AGRICULTURA (IICA)",
+    value: "INSTITUTO INTERAMERICANO DE COOPERACIÓN PARA LA AGRICULTURA (IICA)",
+  },
+  {
+    label: "INSTITUTO INTERAMERICANO DE COOPERACIÓN PARA LA AGRICULTURA IICA",
+    value: "INSTITUTO INTERAMERICANO DE COOPERACIÓN PARA LA AGRICULTURA IICA",
+  },
+  {
+    label:
+      "INSTITUTO INTERAMERICANO DE COOPERACIÓN PARA LA AGRICULTURA OFICINA EN PERÚ IICA",
+    value:
+      "INSTITUTO INTERAMERICANO DE COOPERACIÓN PARA LA AGRICULTURA OFICINA EN PERÚ IICA",
+  },
+  {
+    label: "INSTITUTO KUNTUR DE INVESTIGACIÓN Y DESARROLLO ANDINO",
+    value: "INSTITUTO KUNTUR DE INVESTIGACIÓN Y DESARROLLO ANDINO",
+  },
+  {
+    label: "INSTITUTO LINCOLN DE POLÍTICAS DE SUELO",
+    value: "INSTITUTO LINCOLN DE POLÍTICAS DE SUELO",
+  },
+  {
+    label:
+      "INSTITUTO METROPOLITANO DE PLANIFICACIÓN. MUNICIPALIDAD METROPOLITANA DE lIMA",
+    value:
+      "INSTITUTO METROPOLITANO DE PLANIFICACIÓN. MUNICIPALIDAD METROPOLITANA DE lIMA",
+  },
+  {
+    label: "INSTITUTO NACIONAL D ESTADÍSTICA E INFORMÁTICA",
+    value: "INSTITUTO NACIONAL D ESTADÍSTICA E INFORMÁTICA",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE ADMINISRACIÓN PÚBLICA",
+    value: "INSTITUTO NACIONAL DE ADMINISRACIÓN PÚBLICA",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE BIENESTAR FAMILIAR",
+    value: "INSTITUTO NACIONAL DE BIENESTAR FAMILIAR",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE CULTURA",
+    value: "INSTITUTO NACIONAL DE CULTURA",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE CULTURA- CUSCO",
+    value: "INSTITUTO NACIONAL DE CULTURA- CUSCO",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE DEFENSA CIVIL",
+    value: "INSTITUTO NACIONAL DE DEFENSA CIVIL",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE DESARROLLO EDUCATIVO",
+    value: "INSTITUTO NACIONAL DE DESARROLLO EDUCATIVO",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE ESTADÍSTICA  E INFORMÁTICA",
+    value: "INSTITUTO NACIONAL DE ESTADÍSTICA  E INFORMÁTICA",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE ESTADÍSTICA E\nINFORMÁTICA - INEI",
+    value: "INSTITUTO NACIONAL DE ESTADÍSTICA E\nINFORMÁTICA - INEI",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFOMÁTICA",
+    value: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFOMÁTICA",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA",
+    value: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA -EDPOVI 2012",
+    value: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA -EDPOVI 2012",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA -INEI",
+    value: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA -INEI",
+  },
+  {
+    label:
+      "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA CENSOS NACIONALES 2007: XI DE POBLACIÓN Y VI DE VIVIENDA",
+    value:
+      "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA CENSOS NACIONALES 2007: XI DE POBLACIÓN Y VI DE VIVIENDA",
+  },
+  {
+    label:
+      "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA EMPADRONAMIENTO DISTRITAL DE POBLACIÓN Y VIVIENDA 2012-2013",
+    value:
+      "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA EMPADRONAMIENTO DISTRITAL DE POBLACIÓN Y VIVIENDA 2012-2013",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA INEI",
+    value: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA INEI",
+  },
+  {
+    label:
+      "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA IV CENSO NACIONAL ECONÓMICO 2008",
+    value:
+      "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA IV CENSO NACIONAL ECONÓMICO 2008",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA-   INEI    ",
+    value: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA-   INEI    ",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA- INEI",
+    value: "INSTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA- INEI",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE ESTADÍSTICAS E INFORMAÁTICA",
+    value: "INSTITUTO NACIONAL DE ESTADÍSTICAS E INFORMAÁTICA",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE INNOVACIÓN AGRARIA",
+    value: "INSTITUTO NACIONAL DE INNOVACIÓN AGRARIA",
+  },
+  {
+    label:
+      "INSTITUTO NACIONAL DE INNOVACIÓN AGRICOLA. OFICINA DE ADMINISTRACIÓN",
+    value:
+      "INSTITUTO NACIONAL DE INNOVACIÓN AGRICOLA. OFICINA DE ADMINISTRACIÓN",
+  },
+  {
+    label: "Instituto Nacional de Investigación y Capacitación Continua - Perú",
+    value: "Instituto Nacional de Investigación y Capacitación Continua - Perú",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE INVESTIGACIÓN Y PROMOCIÓN AGROPECUARIA",
+    value: "INSTITUTO NACIONAL DE INVESTIGACIÓN Y PROMOCIÓN AGROPECUARIA",
+  },
+  {
+    label: "Instituto Nacional de Medicina Tradicional (INMETRA)",
+    value: "Instituto Nacional de Medicina Tradicional (INMETRA)",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE OFTALMOLOGÍA",
+    value: "INSTITUTO NACIONAL DE OFTALMOLOGÍA",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE PLANIFICACION",
+    value: "INSTITUTO NACIONAL DE PLANIFICACION",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE PROTECCIÓN DEL MEDIO AMBIENTE PARA LA SALUD",
+    value: "INSTITUTO NACIONAL DE PROTECCIÓN DEL MEDIO AMBIENTE PARA LA SALUD",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE RADIO Y TELEVISIÓN DEL PERÚ",
+    value: "INSTITUTO NACIONAL DE RADIO Y TELEVISIÓN DEL PERÚ",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE RECURSOS NATURALES",
+    value: "INSTITUTO NACIONAL DE RECURSOS NATURALES",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE RECURSOS NATURALES IRENA",
+    value: "INSTITUTO NACIONAL DE RECURSOS NATURALES IRENA",
+  },
+  {
+    label: "INSTITUTO NACIONAL DE SALUD",
+    value: "INSTITUTO NACIONAL DE SALUD",
+  },
+  {
+    label:
+      "INSTITUTO NACIONAL DE SALUD MENTAL HONORIO DELGADO - HIDEYO NOGUCHI",
+    value:
+      "INSTITUTO NACIONAL DE SALUD MENTAL HONORIO DELGADO - HIDEYO NOGUCHI",
+  },
+  {
+    label: "INSTITUTO NACIONAL GENERAL FRANCISCO MENÉNDEZ INFRAMEN",
+    value: "INSTITUTO NACIONAL GENERAL FRANCISCO MENÉNDEZ INFRAMEN",
+  },
+  {
+    label: "INSTITUTO NACIONAL PENITENCIARIO",
+    value: "INSTITUTO NACIONAL PENITENCIARIO",
+  },
+  {
+    label: "INSTITUTO NACIONAL PENITENCIARIO-SEDE CENTRAL ADMINISTRAC",
+    value: "INSTITUTO NACIONAL PENITENCIARIO-SEDE CENTRAL ADMINISTRAC",
+  },
+  {
+    label: "INSTITUTO NACONA DE ESTADÍSTICA E INFORMÁTICA",
+    value: "INSTITUTO NACONA DE ESTADÍSTICA E INFORMÁTICA",
+  },
+  {
+    label:
+      "INSTITUTO NOR PERUANO DE DESARROLLO ECONÓMICO SOCIAL INDES TRUJILLO",
+    value:
+      "INSTITUTO NOR PERUANO DE DESARROLLO ECONÓMICO SOCIAL INDES TRUJILLO",
+  },
+  {
+    label: "INSTITUTO PARA LA SALUD REPRODUCTIVA",
+    value: "INSTITUTO PARA LA SALUD REPRODUCTIVA",
+  },
+  {
+    label: "INSTITUTO PARA LA SALUD REPRODUCTIVA PERÚ",
+    value: "INSTITUTO PARA LA SALUD REPRODUCTIVA PERÚ",
+  },
+  {
+    label: "INSTITUTO PEDAGÍGOCO NACIONAL MONTERRICO",
+    value: "INSTITUTO PEDAGÍGOCO NACIONAL MONTERRICO",
+  },
+  {
+    label: "INSTITUTO PEDAGÓGICO",
+    value: "INSTITUTO PEDAGÓGICO",
+  },
+  {
+    label: "INSTITUTO PEDAGÓGICO NACIONAL MONTERRICO",
+    value: "INSTITUTO PEDAGÓGICO NACIONAL MONTERRICO",
+  },
+  {
+    label: "INSTITUTO PEDAGÓGICO PUBLICO GUSTAVO ALLENDE LLAVERIA",
+    value: "INSTITUTO PEDAGÓGICO PUBLICO GUSTAVO ALLENDE LLAVERIA",
+  },
+  {
+    label: "INSTITUTO PERUANO DE ACCIÓN EMPRESARIAL",
+    value: "INSTITUTO PERUANO DE ACCIÓN EMPRESARIAL",
+  },
+  {
+    label: "INSTITUTO PERUANO DE ACCIÓN EMPRESARIAL - IPAE",
+    value: "INSTITUTO PERUANO DE ACCIÓN EMPRESARIAL - IPAE",
+  },
+  {
+    label: "INSTITUTO PERUANO DE ACCIÓN EMPRESARIAL IPAE",
+    value: "INSTITUTO PERUANO DE ACCIÓN EMPRESARIAL IPAE",
+  },
+  {
+    label: "INSTITUTO PERUANO DE ADMINISTRACIÓ DE EMPRESAS ",
+    value: "INSTITUTO PERUANO DE ADMINISTRACIÓ DE EMPRESAS ",
+  },
+  {
+    label: "INSTITUTO PERUANO DE CATASTRO",
+    value: "INSTITUTO PERUANO DE CATASTRO",
+  },
+  {
+    label: "INSTITUTO PERUANO DE PATERNIDAD RESPONSABLE INPPARES",
+    value: "INSTITUTO PERUANO DE PATERNIDAD RESPONSABLE INPPARES",
+  },
+  {
+    label: "INSTITUTO PERUANO DE SEGURIDAD SOCIAL IPSS",
+    value: "INSTITUTO PERUANO DE SEGURIDAD SOCIAL IPSS",
+  },
+  {
+    label: "INSTITUTO PERUANO DEL DEPORTE ",
+    value: "INSTITUTO PERUANO DEL DEPORTE ",
+  },
+  {
+    label: "INSTITUTO PERUANO PARA LA CONCENTRACIÓN Y EL DESARROLLO SRL",
+    value: "INSTITUTO PERUANO PARA LA CONCENTRACIÓN Y EL DESARROLLO SRL",
+  },
+  {
+    label:
+      "INSTITUTO PÚBLICO PARA EL ASCENSO DE ESCALA DE LOS PROFESORES DE EDUCACIÓN BÁSICA EN LA CARRERA PÚBLICA MAGISTERIAL 2019",
+    value:
+      "INSTITUTO PÚBLICO PARA EL ASCENSO DE ESCALA DE LOS PROFESORES DE EDUCACIÓN BÁSICA EN LA CARRERA PÚBLICA MAGISTERIAL 2019",
+  },
+  {
+    label: "INSTITUTO SUPERIOR DE EDUCACIÓN PRIVADO AMAUTA",
+    value: "INSTITUTO SUPERIOR DE EDUCACIÓN PRIVADO AMAUTA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR DE FORMACIÓN DOCENTE JOSÉ CRESPO Y CASTILLO",
+    value: "INSTITUTO SUPERIOR DE FORMACIÓN DOCENTE JOSÉ CRESPO Y CASTILLO",
+  },
+  {
+    label: "INSTITUTO SUPERIOR DE FORMACIÓN DOCENTE PRIVADO ESTEBAN PAVLETICH",
+    value: "INSTITUTO SUPERIOR DE FORMACIÓN DOCENTE PRIVADO ESTEBAN PAVLETICH",
+  },
+  {
+    label: "INSTITUTO SUPERIOR DE MÚSICA PÚBLICO DANIEL ALOMÍA ROBLES",
+    value: "INSTITUTO SUPERIOR DE MÚSICA PÚBLICO DANIEL ALOMÍA ROBLES",
+  },
+  {
+    label: "INSTITUTO SUPERIOR ESTATAL",
+    value: "INSTITUTO SUPERIOR ESTATAL",
+  },
+  {
+    label: "INSTITUTO SUPERIOR LAMAS",
+    value: "INSTITUTO SUPERIOR LAMAS",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICA PUBLICO JOSÉ CRESPO Y CASTILLO",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICA PUBLICO JOSÉ CRESPO Y CASTILLO",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO DE LAMAS",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO DE LAMAS",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO ESTATAL DE LAMAS",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO ESTATAL DE LAMAS",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGOGICO ESTATAL LA INMACULADA",
+    value: "INSTITUTO SUPERIOR PEDAGOGICO ESTATAL LA INMACULADA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO ESTATAL LA INMMACULADA DE CAMANÁ",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO ESTATAL LA INMMACULADA DE CAMANÁ",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO GENERALÍSIMO DON JOSÉ DE SAN MARTÍN",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO GENERALÍSIMO DON JOSÉ DE SAN MARTÍN",
+  },
+  {
+    label:
+      "INSTITUTO SUPERIOR PEDAGÓGICO GENERALISIMO JOSE DE SAN ARTÍN DE MOYOBAMBA",
+    value:
+      "INSTITUTO SUPERIOR PEDAGÓGICO GENERALISIMO JOSE DE SAN ARTÍN DE MOYOBAMBA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO GENERALÍSIMO JOSÉ DE SAN MARTÍN",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO GENERALÍSIMO JOSÉ DE SAN MARTÍN",
+  },
+  {
+    label:
+      "INSTITUTO SUPERIOR PEDAGÓGICO GENERALÍSIMO JOSÉ DE SAN MARTÍN DE MOYOBAMBA",
+    value:
+      "INSTITUTO SUPERIOR PEDAGÓGICO GENERALÍSIMO JOSÉ DE SAN MARTÍN DE MOYOBAMBA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO ISABEL LA CATÓLICA",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO ISABEL LA CATÓLICA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO JUAN ENRIQUE PESTALOZZI",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO JUAN ENRIQUE PESTALOZZI",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO MARCOS DURÁN MARTEL ",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO MARCOS DURÁN MARTEL ",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO MARCOS DURAN MARTEL HUÁNUCO",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO MARCOS DURAN MARTEL HUÁNUCO",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PARTICULAR LUIS ALBERTO SÁNCHEZ",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PARTICULAR LUIS ALBERTO SÁNCHEZ",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO ANTONIO KUHNER KUHNER",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO ANTONIO KUHNER KUHNER",
+  },
+  {
+    label:
+      "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN REDES DE APRENDIZAJE",
+    value:
+      "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN REDES DE APRENDIZAJE",
+  },
+  {
+    label:
+      "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN REDES DE APRENDIZAJE CREA",
+    value:
+      "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN REDES DE APRENDIZAJE CREA",
+  },
+  {
+    label:
+      "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN REDES DE APRENDIZAJE- CREA",
+    value:
+      "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN REDES DE APRENDIZAJE- CREA",
+  },
+  {
+    label:
+      "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN RESDE DE APRENDIZAJE CREA",
+    value:
+      "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO CALIDAD EN RESDE DE APRENDIZAJE CREA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO ISABEL LA CATÓLICA",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO ISABEL LA CATÓLICA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO JORGE BASADRE",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO JORGE BASADRE",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO JUAN ENRIQUE PESTALOZZI",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO JUAN ENRIQUE PESTALOZZI",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO LEONCIO PRADO DE HUANCAYO",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO LEONCIO PRADO DE HUANCAYO",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO NUESTRA SEÑORA DE GUADALUPE",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO NUESTRA SEÑORA DE GUADALUPE",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO NUESTRA SEÑORA DE GUADALUPPE",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO NUESTRA SEÑORA DE GUADALUPPE",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO SALESIANO",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO SALESIANO",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO SYSTEM’S TEACHER’S",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PRIVADO SYSTEM’S TEACHER’S",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO",
+  },
+  {
+    label: 'INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO "FRAN ÁNGEL AZAGRA MURILLO"',
+    value: 'INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO "FRAN ÁNGEL AZAGRA MURILLO"',
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO BILINGUE DE YARINACOCHA",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO BILINGUE DE YARINACOCHA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO DE EDUCACIÓN INICIAL",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO DE EDUCACIÓN INICIAL",
+  },
+  {
+    label:
+      "INSTITUTO SUPERIOR PEDAGÓGICO PUBLICO DE EDUCACIÓN INICIAL EMILIA BARCIA BONIFFATTI",
+    value:
+      "INSTITUTO SUPERIOR PEDAGÓGICO PUBLICO DE EDUCACIÓN INICIAL EMILIA BARCIA BONIFFATTI",
+  },
+  {
+    label:
+      "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO GENERALISMO JOSÉ DE SAN MARTÍN",
+    value:
+      "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO GENERALISMO JOSÉ DE SAN MARTÍN",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PUBLICO GUSTAVO ALLENDE LLAVERIA",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PUBLICO GUSTAVO ALLENDE LLAVERIA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO JOSÉ CRESPO Y CASTILLO",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO JOSÉ CRESPO Y CASTILLO",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO JOSÉ SANTOS CHOCANO",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO JOSÉ SANTOS CHOCANO",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO LAMAS",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO LAMAS",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO MARCOS DURAN MARTEL",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO MARCOS DURAN MARTEL",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO MARÍA MADRE",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO MARÍA MADRE",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO QUILLABAMBA",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO QUILLABAMBA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO SAN MARCOS",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO PÚBLICO SAN MARCOS",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO TEODORO PEÑALOZA CHUPACA",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO TEODORO PEÑALOZA CHUPACA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO TORIBIO RODRIGUEZ DE MENDOZA",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO TORIBIO RODRIGUEZ DE MENDOZA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PEDAGÓGICO TÚPAC AMARU",
+    value: "INSTITUTO SUPERIOR PEDAGÓGICO TÚPAC AMARU",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PÚBLICO JORGE BASADRE MOLLENDO",
+    value: "INSTITUTO SUPERIOR PÚBLICO JORGE BASADRE MOLLENDO",
+  },
+  {
+    label: "INSTITUTO SUPERIOR PÚBLICO JOSÉ ANTONIO ENCINAS",
+    value: "INSTITUTO SUPERIOR PÚBLICO JOSÉ ANTONIO ENCINAS",
+  },
+  {
+    label: "INSTITUTO SUPERIOR SALESIANO",
+    value: "INSTITUTO SUPERIOR SALESIANO",
+  },
+  {
+    label: "INSTITUTO SUPERIOR TECNOLOGICO CENFOTES",
+    value: "INSTITUTO SUPERIOR TECNOLOGICO CENFOTES",
+  },
+  {
+    label: "INSTITUTO SUPERIOR TECNOLÓGICO CEPEA",
+    value: "INSTITUTO SUPERIOR TECNOLÓGICO CEPEA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR TECNOLÓGICO DANIEL ALCIDES CARRIÓN",
+    value: "INSTITUTO SUPERIOR TECNOLÓGICO DANIEL ALCIDES CARRIÓN",
+  },
+  {
+    label: "INSTITUTO SUPERIOR TECNOLÓGICO HUMBERTO CAUWE",
+    value: "INSTITUTO SUPERIOR TECNOLÓGICO HUMBERTO CAUWE",
+  },
+  {
+    label: "INSTITUTO SUPERIOR TECNOLÓGICO PRIVADO FÉLIX DE LA ROSA R Y G",
+    value: "INSTITUTO SUPERIOR TECNOLÓGICO PRIVADO FÉLIX DE LA ROSA R Y G",
+  },
+  {
+    label: "INSTITUTO SUPERIOR TECNOLÓGICO PRIVADO SANTA LUCIA",
+    value: "INSTITUTO SUPERIOR TECNOLÓGICO PRIVADO SANTA LUCIA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR TECNOLOGICO PUBLICO ALFRED NOBEL",
+    value: "INSTITUTO SUPERIOR TECNOLOGICO PUBLICO ALFRED NOBEL",
+  },
+  {
+    label:
+      "INSTITUTO SUPERIOR TECNOLOGICO PUBLICO GLICERIO GÓMEZ IGARZA DE LLATA",
+    value:
+      "INSTITUTO SUPERIOR TECNOLOGICO PUBLICO GLICERIO GÓMEZ IGARZA DE LLATA",
+  },
+  {
+    label: "INSTITUTO SUPERIOR TECNOLÓGICO PÚBLICO JOSÉ PARDO",
+    value: "INSTITUTO SUPERIOR TECNOLÓGICO PÚBLICO JOSÉ PARDO",
+  },
+  {
+    label: "INSTITUTO SUPERIOR TECNOLÓGICO PÚBLICO PASCO",
+    value: "INSTITUTO SUPERIOR TECNOLÓGICO PÚBLICO PASCO",
+  },
+  {
+    label: "INSTITUTO SUPERIOR TECNOLOGICO PUBLICO PAUCARTAMBO",
+    value: "INSTITUTO SUPERIOR TECNOLOGICO PUBLICO PAUCARTAMBO",
+  },
+  {
+    label: "INSTITUTO SUPERIOR TECNOLÓGICO PÚBLICO VILCANOTA SICUANI",
+    value: "INSTITUTO SUPERIOR TECNOLÓGICO PÚBLICO VILCANOTA SICUANI",
+  },
+  {
+    label: "INSTITUTO TECNOLÓGICO DE LA PRODUCCIÓN ITP",
+    value: "INSTITUTO TECNOLÓGICO DE LA PRODUCCIÓN ITP",
+  },
+  {
+    label: "INSTITUTO TECNOLÓGICO PARA EL DESARROLLO",
+    value: "INSTITUTO TECNOLÓGICO PARA EL DESARROLLO",
+  },
+  {
+    label: "INSTITUTO TECNOLÓGICO PUBLICO JUAN VELASCO  ALVARADO",
+    value: "INSTITUTO TECNOLÓGICO PUBLICO JUAN VELASCO  ALVARADO",
+  },
+  {
+    label: "INSTITUTO TECNOLÓGICO PUBLICO VILLA MARIA",
+    value: "INSTITUTO TECNOLÓGICO PUBLICO VILLA MARIA",
+  },
+  {
+    label: "INSTITUTO VIAL PROVINCIAL DE HUARMEY",
+    value: "INSTITUTO VIAL PROVINCIAL DE HUARMEY",
+  },
+  {
+    label: "INSTITUTTO SUPERIOR JORGE BASADRE GROHMAN",
+    value: "INSTITUTTO SUPERIOR JORGE BASADRE GROHMAN",
+  },
+  {
+    label: "INSTITUTTO SUPERIOR PEDAGÓGICO LA INMACULADA",
+    value: "INSTITUTTO SUPERIOR PEDAGÓGICO LA INMACULADA",
+  },
+  {
+    label: "INSTITUTTO SUPERIOR PEDAGÓGICO PÚBLICO AREQUIPA",
+    value: "INSTITUTTO SUPERIOR PEDAGÓGICO PÚBLICO AREQUIPA",
+  },
+  {
+    label: "INSTIUCIÓN EDUCATIVA ESTATAL MIXTA VIVA EL PERÚ",
+    value: "INSTIUCIÓN EDUCATIVA ESTATAL MIXTA VIVA EL PERÚ",
+  },
+  {
+    label: "INSTIUTO CUANTO",
+    value: "INSTIUTO CUANTO",
+  },
+  {
+    label: "INSTTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA",
+    value: "INSTTITUTO NACIONAL DE ESTADÍSTICA E INFORMÁTICA",
+  },
+  {
+    label: "INSTTUTO TRABAJO FAMILIA",
+    value: "INSTTUTO TRABAJO FAMILIA",
+  },
+  {
+    label: "INSTUTCION EDUCATICA N 6032 ALMIRANTE MIGUEL GRAU SEMINARIO",
+    value: "INSTUTCION EDUCATICA N 6032 ALMIRANTE MIGUEL GRAU SEMINARIO",
+  },
+  {
+    label: "INSTUTCIÓN EDUCATIVA 7069 CESAR VALLEJO",
+    value: "INSTUTCIÓN EDUCATIVA 7069 CESAR VALLEJO",
+  },
+  {
+    label: "INTEGRACIÓN SAN MIGUEL SAC ISAMISAC",
+    value: "INTEGRACIÓN SAN MIGUEL SAC ISAMISAC",
+  },
+  {
+    label: "INTEGRACIÓN Y SOLIDARIDAD",
+    value: "INTEGRACIÓN Y SOLIDARIDAD",
+  },
+  {
+    label: "INTEGRADO N°31756 RICALDO PALMA",
+    value: "INTEGRADO N°31756 RICALDO PALMA",
+  },
+  {
+    label: "INTER VIDA",
+    value: "INTER VIDA",
+  },
+  {
+    label:
+      "INTERCOOPERATION -FUNDACIÓN SUIZA PARA EL DESARROLLO Y LA COOPERACIÓN INTERNACIONAL",
+    value:
+      "INTERCOOPERATION -FUNDACIÓN SUIZA PARA EL DESARROLLO Y LA COOPERACIÓN INTERNACIONAL",
+  },
+  {
+    label: "INTERMÓN OXFAM",
+    value: "INTERMÓN OXFAM",
+  },
+  {
+    label: "INTERNATIONAL FEDERATION OF RED CROSS AND RED CRESCENTE SOCIATIES",
+    value: "INTERNATIONAL FEDERATION OF RED CROSS AND RED CRESCENTE SOCIATIES",
+  },
+  {
+    label: "INTERNATIONAL PARTS SERVICE PERÚ SRL",
+    value: "INTERNATIONAL PARTS SERVICE PERÚ SRL",
+  },
+  {
+    label: "International Private Security Perú SAC",
+    value: "International Private Security Perú SAC",
+  },
+  {
+    label: "INTERNATIONAL UNIVERSITY",
+    value: "INTERNATIONAL UNIVERSITY",
+  },
+  {
+    label: "INTERNATIONAL YOUTH FOUNDATION - IYF",
+    value: "INTERNATIONAL YOUTH FOUNDATION - IYF",
+  },
+  {
+    label: "Intersocial ",
+    value: "Intersocial ",
+  },
+  {
+    label: "INTI ENERGÍA RENOVABLE",
+    value: "INTI ENERGÍA RENOVABLE",
+  },
+  {
+    label: "INTSOL INTEGRACIÓN Y SOLIDARIDAD",
+    value: "INTSOL INTEGRACIÓN Y SOLIDARIDAD",
+  },
+  {
+    label: "INVERMET",
+    value: "INVERMET",
+  },
+  {
+    label: "INVERSIONES ALPAMAYO EIRL",
+    value: "INVERSIONES ALPAMAYO EIRL",
+  },
+  {
+    label: "INVERSIONES RIOMAR SAC",
+    value: "INVERSIONES RIOMAR SAC",
+  },
+  {
+    label: "INVESTIGACIÓN Y DESARROLLO YUPAQ",
+    value: "INVESTIGACIÓN Y DESARROLLO YUPAQ",
+  },
+  {
+    label: "INVESTIGACIONES CENAN",
+    value: "INVESTIGACIONES CENAN",
+  },
+  {
+    label: "INVESTIMENT AND CAPITAL MARKET S.A.C. ",
+    value: "INVESTIMENT AND CAPITAL MARKET S.A.C. ",
+  },
+  {
+    label: "INWENT",
+    value: "INWENT",
+  },
+  {
+    label: "IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+    value: "IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+  },
+  {
+    label: "IP ROSA FLORES DE OLIVA",
+    value: "IP ROSA FLORES DE OLIVA",
+  },
+  {
+    label: "IPAE",
+    value: "IPAE",
+  },
+  {
+    label: "IPAE ACCIÓN EMPRESARIAL",
+    value: "IPAE ACCIÓN EMPRESARIAL",
+  },
+  {
+    label: "IPES",
+    value: "IPES",
+  },
+  {
+    label: "IPES PROMOCIÓN DEL DESARROLLO SOSTENIBLE",
+    value: "IPES PROMOCIÓN DEL DESARROLLO SOSTENIBLE",
+  },
+  {
+    label: "IPSOS",
+    value: "IPSOS",
+  },
+  {
+    label: "IS TECNOLÓGICO SUIZA DE PUCALLPA",
+    value: "IS TECNOLÓGICO SUIZA DE PUCALLPA",
+  },
+  {
+    label: "ISABELLE MELLOS",
+    value: "ISABELLE MELLOS",
+  },
+  {
+    label: "ISCO GRUPO LOGISTICO",
+    value: "ISCO GRUPO LOGISTICO",
+  },
+  {
+    label: "ISEP HNO VICTORINO ELORZ GOICOCHEA",
+    value: "ISEP HNO VICTORINO ELORZ GOICOCHEA",
+  },
+  {
+    label: "ISNITTUCION EDUCATIVA CN N 35756 CLUMNA PASCOA , SAJ NUAN",
+    value: "ISNITTUCION EDUCATIVA CN N 35756 CLUMNA PASCOA , SAJ NUAN",
+  },
+  {
+    label: "ISOCÉLE",
+    value: "ISOCÉLE",
+  },
+  {
+    label: "ISP ANENOR ORREGO",
+    value: "ISP ANENOR ORREGO",
+  },
+  {
+    label: "ISP ANTENOR ORREGO",
+    value: "ISP ANTENOR ORREGO",
+  },
+  {
+    label: "ISP MARCOS DURÁN MARTEL",
+    value: "ISP MARCOS DURÁN MARTEL",
+  },
+  {
+    label: "ISP MARÍA MADRE",
+    value: "ISP MARÍA MADRE",
+  },
+  {
+    label: "ISP NO ESTATAL JUAN DIEGO",
+    value: "ISP NO ESTATAL JUAN DIEGO",
+  },
+  {
+    label: "ISPP  CACHICADAN",
+    value: "ISPP  CACHICADAN",
+  },
+  {
+    label: "ISPP 13 D JULIO DE 1882",
+    value: "ISPP 13 D JULIO DE 1882",
+  },
+  {
+    label: "ISPP FRAY A AZAGRA MURILLO PUERTO BERMÚDEZ",
+    value: "ISPP FRAY A AZAGRA MURILLO PUERTO BERMÚDEZ",
+  },
+  {
+    label: "ISPP GENERALÍSIMO JOSÉ DE SAN MARTÍN",
+    value: "ISPP GENERALÍSIMO JOSÉ DE SAN MARTÍN",
+  },
+  {
+    label: "ISPP GUSTAVO ALLENDE LLAVERÍA",
+    value: "ISPP GUSTAVO ALLENDE LLAVERÍA",
+  },
+  {
+    label: "ISPP INDORAMÉRICA",
+    value: "ISPP INDORAMÉRICA",
+  },
+  {
+    label: "ISPP. HUMBERTO YAURI MARTINEZ",
+    value: "ISPP. HUMBERTO YAURI MARTINEZ",
+  },
+  {
+    label: "IST OXAPAMPA",
+    value: "IST OXAPAMPA",
+  },
+  {
+    label: "ISTECEX",
+    value: "ISTECEX",
+  },
+  {
+    label: "ISTP SAN MIGUEL ARCÁNGEL",
+    value: "ISTP SAN MIGUEL ARCÁNGEL",
+  },
+  {
+    label:
+      "ITACA ASOCIACIÓN PAR ALA DEFENSA DE LA NATURALEZA Y EL MEDIO AMBIENTE",
+    value:
+      "ITACA ASOCIACIÓN PAR ALA DEFENSA DE LA NATURALEZA Y EL MEDIO AMBIENTE",
+  },
+  {
+    label: "ITALCAMBIO CASA DE CAMBIO LÍDER EN LATINOAMÉRICA",
+    value: "ITALCAMBIO CASA DE CAMBIO LÍDER EN LATINOAMÉRICA",
+  },
+  {
+    label: "IW N 22318 DE PAMPA DE TATE ICA",
+    value: "IW N 22318 DE PAMPA DE TATE ICA",
+  },
+  {
+    label: "J CESAR INGENIEROS & CONSULTORES SAC",
+    value: "J CESAR INGENIEROS & CONSULTORES SAC",
+  },
+  {
+    label: "J.S CORPORACION MENDIOLA SAC",
+    value: "J.S CORPORACION MENDIOLA SAC",
+  },
+  {
+    label: "J&P FLORES S.A.  ENTERPRISES",
+    value: "J&P FLORES S.A.  ENTERPRISES",
+  },
+  {
+    label: "J&V Resguardo SAC",
+    value: "J&V Resguardo SAC",
+  },
+  {
+    label: "JADE UN MUNDO NUEVO",
+    value: "JADE UN MUNDO NUEVO",
+  },
+  {
+    label: "JAME SRL",
+    value: "JAME SRL",
+  },
+  {
+    label: "JC & INELMEC ASOCIADOS SAC",
+    value: "JC & INELMEC ASOCIADOS SAC",
+  },
+  {
+    label: "JEFE DE OPDE CAJAMARCA",
+    value: "JEFE DE OPDE CAJAMARCA",
+  },
+  {
+    label: "JLV CONSULTORES",
+    value: "JLV CONSULTORES",
+  },
+  {
+    label: "JORGE BERNAL SALAS",
+    value: "JORGE BERNAL SALAS",
+  },
+  {
+    label: "JORGE POLAR SRL COLEGIO PARICULAR MIXTO",
+    value: "JORGE POLAR SRL COLEGIO PARICULAR MIXTO",
+  },
+  {
+    label: "JORGE POLAR SRL COLEGIO PARTICULAR MIXTO",
+    value: "JORGE POLAR SRL COLEGIO PARTICULAR MIXTO",
+  },
+  {
+    label: "JOSE FAUSTINO SÁNCHEZ CARRIÓN ",
+    value: "JOSE FAUSTINO SÁNCHEZ CARRIÓN ",
+  },
+  {
+    label: "JR INGENIERO CONTRATISTA Y CONSULTOR EIRL",
+    value: "JR INGENIERO CONTRATISTA Y CONSULTOR EIRL",
+  },
+  {
+    label: "JRS DEL PERU- TRADING",
+    value: "JRS DEL PERU- TRADING",
+  },
+  {
+    label: "JS CONSULTORES EMPRESARIALES",
+    value: "JS CONSULTORES EMPRESARIALES",
+  },
+  {
+    label: "JS CORPORACIÓN MENDIOLA SAC",
+    value: "JS CORPORACIÓN MENDIOLA SAC",
+  },
+  {
+    label: "JUAN PISCOYA INGENIEROS CALCULISTAS SAC",
+    value: "JUAN PISCOYA INGENIEROS CALCULISTAS SAC",
+  },
+  {
+    label: "JUEGOS FLORALES ESCOLARES NACIONALES",
+    value: "JUEGOS FLORALES ESCOLARES NACIONALES",
+  },
+  {
+    label: "JUEGOS Y DINÁMICAS PARA LA COMUNICACIÓN INTEGRAL",
+    value: "JUEGOS Y DINÁMICAS PARA LA COMUNICACIÓN INTEGRAL",
+  },
+  {
+    label: "JUEZ DE PAZ DE U.N",
+    value: "JUEZ DE PAZ DE U.N",
+  },
+  {
+    label: "JUGADO NACIONAL DE ELECCIONES",
+    value: "JUGADO NACIONAL DE ELECCIONES",
+  },
+  {
+    label: "JUNTA NACIONAL DEL CAFÉ",
+    value: "JUNTA NACIONAL DEL CAFÉ",
+  },
+  {
+    label: "JURADO ELECTORAL ESPECIAL ALTO AMAZONAS",
+    value: "JURADO ELECTORAL ESPECIAL ALTO AMAZONAS",
+  },
+  {
+    label: "JURADO ELECTORAL ESPECIAL DE MOYOBAMBA",
+    value: "JURADO ELECTORAL ESPECIAL DE MOYOBAMBA",
+  },
+  {
+    label: "JURADO ELECTORAL ESPECIAL DE TARMA",
+    value: "JURADO ELECTORAL ESPECIAL DE TARMA",
+  },
+  {
+    label: "JURADO NACIONAL DE ELECCIONES",
+    value: "JURADO NACIONAL DE ELECCIONES",
+  },
+  {
+    label: "JURADO NACIONAL DE ELECCIONES JNE",
+    value: "JURADO NACIONAL DE ELECCIONES JNE",
+  },
+  {
+    label:
+      "JURADO NACIONAL DE ELECCIONES. DIRECCION NACIONAL DE FISCALIZACION Y PROCESOS ELECTORALES",
+    value:
+      "JURADO NACIONAL DE ELECCIONES. DIRECCION NACIONAL DE FISCALIZACION Y PROCESOS ELECTORALES",
+  },
+  {
+    label: "JUSTICIA DEL PERU (JUSPER)",
+    value: "JUSTICIA DEL PERU (JUSPER)",
+  },
+  {
+    label: "Juzgado Coactivo del Cusco ",
+    value: "Juzgado Coactivo del Cusco ",
+  },
+  {
+    label: "KASUKI CONSULTORÍA Y CONSTRUCCIÓN",
+    value: "KASUKI CONSULTORÍA Y CONSTRUCCIÓN",
+  },
+  {
+    label: "KIPUS. PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ",
+    value: "KIPUS. PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ",
+  },
+  {
+    label: "KNIGHT PIESOLD",
+    value: "KNIGHT PIESOLD",
+  },
+  {
+    label: "KORM CONSULTORES ASOCIADOS SAC",
+    value: "KORM CONSULTORES ASOCIADOS SAC",
+  },
+  {
+    label: "KUNTUR TRANSPORTADORA DE GAS SA",
+    value: "KUNTUR TRANSPORTADORA DE GAS SA",
+  },
+  {
+    label: "LA COMISIÓN DE LA  VERDAD Y RECONCILIACIÓN",
+    value: "LA COMISIÓN DE LA  VERDAD Y RECONCILIACIÓN",
+  },
+  {
+    label: "LA INMACULADA ",
+    value: "LA INMACULADA ",
+  },
+  {
+    label: "LA MMUVALL",
+    value: "LA MMUVALL",
+  },
+  {
+    label: "LA POSITIVA SEGUROS",
+    value: "LA POSITIVA SEGUROS",
+  },
+  {
+    label: "LA SALLE DE TINGUA ",
+    value: "LA SALLE DE TINGUA ",
+  },
+  {
+    label: "LA VERDAD DIARIO DE TUMBES",
+    value: "LA VERDAD DIARIO DE TUMBES",
+  },
+  {
+    label: "LABOR CENTRO DE CULTURA POPULAR",
+    value: "LABOR CENTRO DE CULTURA POPULAR",
+  },
+  {
+    label: "LABOSIL SAC",
+    value: "LABOSIL SAC",
+  },
+  {
+    label: "LAN BE A PART OF IT",
+    value: "LAN BE A PART OF IT",
+  },
+  {
+    label: "LAN PERU SA",
+    value: "LAN PERU SA",
+  },
+  {
+    label: "LANDSCAPE VISION CORP",
+    value: "LANDSCAPE VISION CORP",
+  },
+  {
+    label:
+      "LAS NACIONES UNIDAS PARA LA EDUCACIÓN LA CIENCIA Y LA CULTURA OF. LIMA",
+    value:
+      "LAS NACIONES UNIDAS PARA LA EDUCACIÓN LA CIENCIA Y LA CULTURA OF. LIMA",
+  },
+  {
+    label: "LASERTEC SAC",
+    value: "LASERTEC SAC",
+  },
+  {
+    label: "LEIMARS CORPORATIONS AC",
+    value: "LEIMARS CORPORATIONS AC",
+  },
+  {
+    label: "LEONCIO PRADO",
+    value: "LEONCIO PRADO",
+  },
+  {
+    label: "LIECHTENSTEINISCHER ENTWICKLUNGS DIENST",
+    value: "LIECHTENSTEINISCHER ENTWICKLUNGS DIENST",
+  },
+  {
+    label: "LIMA CONSULTING",
+    value: "LIMA CONSULTING",
+  },
+  {
+    label: "LIMA LAB CONSULTING S.A.C.",
+    value: "LIMA LAB CONSULTING S.A.C.",
+  },
+  {
+    label: "LIMITEK SERVICIOS INTEGRALES",
+    value: "LIMITEK SERVICIOS INTEGRALES",
+  },
+  {
+    label: "LIMTEK SERVICIOS INTEGRALES SA",
+    value: "LIMTEK SERVICIOS INTEGRALES SA",
+  },
+  {
+    label: "LINDLEY",
+    value: "LINDLEY",
+  },
+  {
+    label: "LORENZO HENRY ESPIRITU VICTORIO ",
+    value: "LORENZO HENRY ESPIRITU VICTORIO ",
+  },
+  {
+    label: "LOS ANDES DE CAJAMARCA",
+    value: "LOS ANDES DE CAJAMARCA",
+  },
+  {
+    label: "LQ3 SRC",
+    value: "LQ3 SRC",
+  },
+  {
+    label: "Lugar de la memoria, la tolerancia y la inclusión social ",
+    value: "Lugar de la memoria, la tolerancia y la inclusión social ",
+  },
+  {
+    label: "LÚINA COOPER",
+    value: "LÚINA COOPER",
+  },
+  {
+    label: "LUIS ALBERTO AGUILAR HUAMAN. CONSULTOR",
+    value: "LUIS ALBERTO AGUILAR HUAMAN. CONSULTOR",
+  },
+  {
+    label: "LUIS CARLOS DANIEL VELA HIDALGO ANTROPÓLOGO",
+    value: "LUIS CARLOS DANIEL VELA HIDALGO ANTROPÓLOGO",
+  },
+  {
+    label: "LUIS FERNANDO ITURRAN URQUIZA",
+    value: "LUIS FERNANDO ITURRAN URQUIZA",
+  },
+  {
+    label: "LUMINI",
+    value: "LUMINI",
+  },
+  {
+    label: "M SC MALTT",
+    value: "M SC MALTT",
+  },
+  {
+    label: "MACROCONSULT S.A.",
+    value: "MACROCONSULT S.A.",
+  },
+  {
+    label: "MACROGESTIÓN S.A.",
+    value: "MACROGESTIÓN S.A.",
+  },
+  {
+    label: "MADERA EXPORTACIÓN Y COMERCIALIZACIÓN SAC",
+    value: "MADERA EXPORTACIÓN Y COMERCIALIZACIÓN SAC",
+  },
+  {
+    label: "MADERAS EXPORTACIÓN Y COMERCIALIZACIÓN SAC",
+    value: "MADERAS EXPORTACIÓN Y COMERCIALIZACIÓN SAC",
+  },
+  {
+    label: "MADERERA HUALLAGA SA",
+    value: "MADERERA HUALLAGA SA",
+  },
+  {
+    label: "MADRID COORPORACIÓN CIUDAD DE MADRID",
+    value: "MADRID COORPORACIÓN CIUDAD DE MADRID",
+  },
+  {
+    label: "MADRIR COORPORACIÓN CIUDAD DE MADRID",
+    value: "MADRIR COORPORACIÓN CIUDAD DE MADRID",
+  },
+  {
+    label: "MANPOWER PROFESSIONAL",
+    value: "MANPOWER PROFESSIONAL",
+  },
+  {
+    label: "MANTHOC - CAJAMARCA",
+    value: "MANTHOC - CAJAMARCA",
+  },
+  {
+    label:
+      "MANTHOC MOVIMIENTO DE ADOLESCENTES Y NIÑOS TRABAJADORES HIJOS DE OBREROS CRISTIANOS",
+    value:
+      "MANTHOC MOVIMIENTO DE ADOLESCENTES Y NIÑOS TRABAJADORES HIJOS DE OBREROS CRISTIANOS",
+  },
+  {
+    label: "MANUEL GONZALES PRADA",
+    value: "MANUEL GONZALES PRADA",
+  },
+  {
+    label: "MANUELA RAMOS",
+    value: "MANUELA RAMOS",
+  },
+  {
+    label: "MARCA G9 SAC",
+    value: "MARCA G9 SAC",
+  },
+  {
+    label: "MARCAN SA",
+    value: "MARCAN SA",
+  },
+  {
+    label: "MAXIE CONSULTORES ASOCIADOS SAC",
+    value: "MAXIE CONSULTORES ASOCIADOS SAC",
+  },
+  {
+    label: "MAYO SERVICE S.A.C. EMPRESA DE SEGURIDAD Y VIGILANCIA PRIVADA",
+    value: "MAYO SERVICE S.A.C. EMPRESA DE SEGURIDAD Y VIGILANCIA PRIVADA",
+  },
+  {
+    label: "MEDIA EXPERTS",
+    value: "MEDIA EXPERTS",
+  },
+  {
+    label: "MEJESA SRL",
+    value: "MEJESA SRL",
+  },
+  {
+    label: "Mejesa. SRL",
+    value: "Mejesa. SRL",
+  },
+  {
+    label: "MERIDIAN PROYECTOS SAC",
+    value: "MERIDIAN PROYECTOS SAC",
+  },
+  {
+    label:
+      "MESA DE CONCERTACIÓN DE LUCHA CONTRA LA VIOLENCIA FAMILIAR, SEXUAL Y LA PREVENCIÓN DEL CONSUMO DE DORGAS",
+    value:
+      "MESA DE CONCERTACIÓN DE LUCHA CONTRA LA VIOLENCIA FAMILIAR, SEXUAL Y LA PREVENCIÓN DEL CONSUMO DE DORGAS",
+  },
+  {
+    label: "MESA DE CONCERTACIÓN PARA LA LUCHA CONTRA LA POBREZA",
+    value: "MESA DE CONCERTACIÓN PARA LA LUCHA CONTRA LA POBREZA",
+  },
+  {
+    label:
+      "MESA DE CONCERTACIÓN PARA LA LUCHA CONTRA LA POBREZA EN HUANCAVELICA",
+    value:
+      "MESA DE CONCERTACIÓN PARA LA LUCHA CONTRA LA POBREZA EN HUANCAVELICA",
+  },
+  {
+    label: "MESA DE CONCERTACIÓN PARA LA LUCHA CONTRA LA POBREZA PUNO ",
+    value: "MESA DE CONCERTACIÓN PARA LA LUCHA CONTRA LA POBREZA PUNO ",
+  },
+  {
+    label: "MESA DE CONCERTACIÓN Y LUCHA CONTRA LA POBREZA",
+    value: "MESA DE CONCERTACIÓN Y LUCHA CONTRA LA POBREZA",
+  },
+  {
+    label: "MESA DE TRABAJO PRODUCTO QUINUA",
+    value: "MESA DE TRABAJO PRODUCTO QUINUA",
+  },
+  {
+    label: "MESA DE TRABAJO SOBRE DESPLAZAMIENTO",
+    value: "MESA DE TRABAJO SOBRE DESPLAZAMIENTO",
+  },
+  {
+    label: "MESA REGIONAL SOBRE DESPLAZAMIENTO AYACUCHO",
+    value: "MESA REGIONAL SOBRE DESPLAZAMIENTO AYACUCHO",
+  },
+  {
+    label: "METIS GAIA",
+    value: "METIS GAIA",
+  },
+  {
+    label: "METIS GAIA S.A.C.",
+    value: "METIS GAIA S.A.C.",
+  },
+  {
+    label: "METIS GAIA SAC",
+    value: "METIS GAIA SAC",
+  },
+  {
+    label: "METRO CENCOSUD",
+    value: "METRO CENCOSUD",
+  },
+  {
+    label: "MGB PERÚ",
+    value: "MGB PERÚ",
+  },
+  {
+    label: "MI BANCO",
+    value: "MI BANCO",
+  },
+  {
+    label: "MIBANCO - BANCO DE LA MICROEMPRESA",
+    value: "MIBANCO - BANCO DE LA MICROEMPRESA",
+  },
+  {
+    label: "MICANTO JOSÉ OBRERO",
+    value: "MICANTO JOSÉ OBRERO",
+  },
+  {
+    label: "MID AMERICA INTERNATIONAL AGRICULTURAL CONSORTIUM",
+    value: "MID AMERICA INTERNATIONAL AGRICULTURAL CONSORTIUM",
+  },
+  {
+    label: "MIDIS",
+    value: "MIDIS",
+  },
+  {
+    label: "MIISTERIO DE EDCUACIÓN",
+    value: "MIISTERIO DE EDCUACIÓN",
+  },
+  {
+    label: "MIISTERIO DE VIVIENDA CONSTRUCCIÓN Y SANEAMIENTO",
+    value: "MIISTERIO DE VIVIENDA CONSTRUCCIÓN Y SANEAMIENTO",
+  },
+  {
+    label: "MIMCO METALES INGENIERÍA Y CONSTRUCCIÓN SAC",
+    value: "MIMCO METALES INGENIERÍA Y CONSTRUCCIÓN SAC",
+  },
+  {
+    label: "MIMDES",
+    value: "MIMDES",
+  },
+  {
+    label: "MIMDES PAR",
+    value: "MIMDES PAR",
+  },
+  {
+    label: "MINAYA CARRO NATHALIE",
+    value: "MINAYA CARRO NATHALIE",
+  },
+  {
+    label: "MINCETUR",
+    value: "MINCETUR",
+  },
+  {
+    label: "MINCONSULT SRL",
+    value: "MINCONSULT SRL",
+  },
+  {
+    label: "MINCUL",
+    value: "MINCUL",
+  },
+  {
+    label: "MINEDU",
+    value: "MINEDU",
+  },
+  {
+    label: "MINEDU OFICINA DE PLANIFICACIÓN Y MEDICIÓN DE LA CALIDAD EDUCATIVA",
+    value: "MINEDU OFICINA DE PLANIFICACIÓN Y MEDICIÓN DE LA CALIDAD EDUCATIVA",
+  },
+  {
+    label: "MINERA SUYAMARCA SAC",
+    value: "MINERA SUYAMARCA SAC",
+  },
+  {
+    label: "MINERA YANACOCHA SRL",
+    value: "MINERA YANACOCHA SRL",
+  },
+  {
+    label: "MINICIPALIDAD DISTRITAL DE LA LIBERTAD CAJAMARQUILLA-HUARAZ-ANCASH",
+    value: "MINICIPALIDAD DISTRITAL DE LA LIBERTAD CAJAMARQUILLA-HUARAZ-ANCASH",
+  },
+  {
+    label: "MINICIPALIDAD DISTRITAL DE LA MERCED",
+    value: "MINICIPALIDAD DISTRITAL DE LA MERCED",
+  },
+  {
+    label: "MINICIPALIDAD DISTRITAL DE POMACOCHA",
+    value: "MINICIPALIDAD DISTRITAL DE POMACOCHA",
+  },
+  {
+    label:
+      "MINISTERIO , COSNTRUCCIÓN Y SANEAMIENTO INSTITUTO NACIONA DE DESARROLLO PROYECTOS ESPECIAL JEQUETEPEQUE-ZAÑA",
+    value:
+      "MINISTERIO , COSNTRUCCIÓN Y SANEAMIENTO INSTITUTO NACIONA DE DESARROLLO PROYECTOS ESPECIAL JEQUETEPEQUE-ZAÑA",
+  },
+  {
+    label: "MINISTERIO CONSTRUCCIÓN Y SANEAMIENTO",
+    value: "MINISTERIO CONSTRUCCIÓN Y SANEAMIENTO",
+  },
+  {
+    label: "MINISTERIO DE AGRICULTURA",
+    value: "MINISTERIO DE AGRICULTURA",
+  },
+  {
+    label: "MINISTERIO DE AGRICULTURA AUTORIDAD NACIONAL DEL AGUA- ANA",
+    value: "MINISTERIO DE AGRICULTURA AUTORIDAD NACIONAL DEL AGUA- ANA",
+  },
+  {
+    label: "MINISTERIO DE AGRICULTURA DIRECCIÓN DE LOGÍSTICA",
+    value: "MINISTERIO DE AGRICULTURA DIRECCIÓN DE LOGÍSTICA",
+  },
+  {
+    label: "MINISTERIO DE AGRICULTURA OSPA",
+    value: "MINISTERIO DE AGRICULTURA OSPA",
+  },
+  {
+    label: "MINISTERIO DE AGRICULTURA Y RIEGO",
+    value: "MINISTERIO DE AGRICULTURA Y RIEGO",
+  },
+  {
+    label:
+      "MINISTERIO DE AGRICULTURA-OF. DE PROGRAMACIÓN DE LA DIRECCIÓN GENERAL DE AGRICULTURA Y GANADERÍA",
+    value:
+      "MINISTERIO DE AGRICULTURA-OF. DE PROGRAMACIÓN DE LA DIRECCIÓN GENERAL DE AGRICULTURA Y GANADERÍA",
+  },
+  {
+    label:
+      "MINISTERIO DE AGRICULTURA-PROGRAMA DE COMPESACIONES PARA LA COMPETITIVIDAD",
+    value:
+      "MINISTERIO DE AGRICULTURA-PROGRAMA DE COMPESACIONES PARA LA COMPETITIVIDAD",
+  },
+  {
+    label: "MINISTERIO DE AGRICULTURA-PROYECTO ESPECIAL JEQUETEPEQUE-ZAÑA",
+    value: "MINISTERIO DE AGRICULTURA-PROYECTO ESPECIAL JEQUETEPEQUE-ZAÑA",
+  },
+  {
+    label: "MINISTERIO DE AGRICULTURA, ÁREA DE ADQUISICIONES",
+    value: "MINISTERIO DE AGRICULTURA, ÁREA DE ADQUISICIONES",
+  },
+  {
+    label: "MINISTERIO DE ALIMENTACIÓN ZONA XII ",
+    value: "MINISTERIO DE ALIMENTACIÓN ZONA XII ",
+  },
+  {
+    label: "MINISTERIO DE AMBIENTE",
+    value: "MINISTERIO DE AMBIENTE",
+  },
+  {
+    label: "MINISTERIO DE COMERCIO EXTERIOR Y TURISMO",
+    value: "MINISTERIO DE COMERCIO EXTERIOR Y TURISMO",
+  },
+  {
+    label:
+      "MINISTERIO DE COOPERACIÓN ECONÓMICA Y DESARROLLO DE LA REPÚBLICA FEDERAL DE ALEMANIA",
+    value:
+      "MINISTERIO DE COOPERACIÓN ECONÓMICA Y DESARROLLO DE LA REPÚBLICA FEDERAL DE ALEMANIA",
+  },
+  {
+    label: "MINISTERIO DE CULTURA",
+    value: "MINISTERIO DE CULTURA",
+  },
+  {
+    label: "MINISTERIO DE DEFENSA ",
+    value: "MINISTERIO DE DEFENSA ",
+  },
+  {
+    label: "MINISTERIO DE DESARROLLO E INCLUSIÓN SOCIAL",
+    value: "MINISTERIO DE DESARROLLO E INCLUSIÓN SOCIAL",
+  },
+  {
+    label: "MINISTERIO DE DESARROLLO E INCLUSIÓN SOCIAL MIDIS",
+    value: "MINISTERIO DE DESARROLLO E INCLUSIÓN SOCIAL MIDIS",
+  },
+  {
+    label: "MINISTERIO DE DESARROLLO E INCLUSIÓN SOCIAL. RECURSOS HUMANOS",
+    value: "MINISTERIO DE DESARROLLO E INCLUSIÓN SOCIAL. RECURSOS HUMANOS",
+  },
+  {
+    label: "MINISTERIO DE DESARROLLO PROGRAMA NACIONAL CUNA MÁS",
+    value: "MINISTERIO DE DESARROLLO PROGRAMA NACIONAL CUNA MÁS",
+  },
+  {
+    label: "Ministerio de Economía y Finanzas",
+    value: "Ministerio de Economía y Finanzas",
+  },
+  {
+    label:
+      "MINISTERIO DE ECONOMÍA Y FINANZAS DIRECCIÓN GENERAL DE PROGRAMACIÓN MULTIANUAL DEL SECTOR PÚBLICO",
+    value:
+      "MINISTERIO DE ECONOMÍA Y FINANZAS DIRECCIÓN GENERAL DE PROGRAMACIÓN MULTIANUAL DEL SECTOR PÚBLICO",
+  },
+  {
+    label: "MINISTERIO DE EDCUACIÓN DIRECIÓN DE EDUCACIÓN DE LIMA",
+    value: "MINISTERIO DE EDCUACIÓN DIRECIÓN DE EDUCACIÓN DE LIMA",
+  },
+  {
+    label: "Ministerio de Educación",
+    value: "Ministerio de Educación",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN  DIRECCIÓN REGIONAL DE EDUCACIÓN PASCO",
+    value: "MINISTERIO DE EDUCACIÓN  DIRECCIÓN REGIONAL DE EDUCACIÓN PASCO",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN -DRE MADRE DE DIOS",
+    value: "MINISTERIO DE EDUCACIÓN -DRE MADRE DE DIOS",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN CONVENIO MED-UNION EUROPEA",
+    value: "MINISTERIO DE EDUCACIÓN CONVENIO MED-UNION EUROPEA",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN CONVENIO MED-UNION EUROPEA PROGRAMA PASA",
+    value: "MINISTERIO DE EDUCACIÓN CONVENIO MED-UNION EUROPEA PROGRAMA PASA",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN DE EL SALVADOR ",
+    value: "MINISTERIO DE EDUCACIÓN DE EL SALVADOR ",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN DIRECCIÓN DE EDUCACIÓN SUPERIOR PEDAGÓGICA",
+    value: "MINISTERIO DE EDUCACIÓN DIRECCIÓN DE EDUCACIÓN SUPERIOR PEDAGÓGICA",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN DIRECCIÓN REGIONAL DE EDUCACIÓN CUSCO",
+    value: "MINISTERIO DE EDUCACIÓN DIRECCIÓN REGIONAL DE EDUCACIÓN CUSCO",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN DIRECCIÓN REGIONAL DE EDUCACIÓN HUÁNUCO",
+    value: "MINISTERIO DE EDUCACIÓN DIRECCIÓN REGIONAL DE EDUCACIÓN HUÁNUCO",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN INSTITUTO PEDAGÓGICO DE MONTERRICO",
+    value: "MINISTERIO DE EDUCACIÓN INSTITUTO PEDAGÓGICO DE MONTERRICO",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN MINEDU",
+    value: "MINISTERIO DE EDUCACIÓN MINEDU",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN OFICINA DE GESTIÓN DE PROYECTOS OGP",
+    value: "MINISTERIO DE EDUCACIÓN OFICINA DE GESTIÓN DE PROYECTOS OGP",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN PROGRAMA EDUCACIÓN BÁSICA PARA TODOS",
+    value: "MINISTERIO DE EDUCACIÓN PROGRAMA EDUCACIÓN BÁSICA PARA TODOS",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN PROGRAMA NACIONAL DE FORMACIÓN YCAPACITACIÓN PERMANENTE",
+    value:
+      "MINISTERIO DE EDUCACIÓN PROGRAMA NACIONAL DE FORMACIÓN YCAPACITACIÓN PERMANENTE",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN REPÚBLICA DE CUVA- PEDADOGÍA 2013 ",
+    value: "MINISTERIO DE EDUCACIÓN REPÚBLICA DE CUVA- PEDADOGÍA 2013 ",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN SECRETARÍA NACIONAL DE LA JUVENTUD",
+    value: "MINISTERIO DE EDUCACIÓN SECRETARÍA NACIONAL DE LA JUVENTUD",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN UGEL 2",
+    value: "MINISTERIO DE EDUCACIÓN UGEL 2",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN UNIDAD DE GESTIÓN EDUCATIVA LOCAL AYABACA",
+    value: "MINISTERIO DE EDUCACIÓN UNIDAD DE GESTIÓN EDUCATIVA LOCAL AYABACA",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN UNIDAD DE GESTIÓN EDUCATIVA LOCAL UGEL SÁNCHEZ CARRIÓN",
+    value:
+      "MINISTERIO DE EDUCACIÓN UNIDAD DE GESTIÓN EDUCATIVA LOCAL UGEL SÁNCHEZ CARRIÓN",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN UNIDAD DE GESTIÓN ESDUCATIVA LOCAL 03 ",
+    value: "MINISTERIO DE EDUCACIÓN UNIDAD DE GESTIÓN ESDUCATIVA LOCAL 03 ",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN UNIDAD DE SERVICIOS EDUCATIVOS N 5 SAN JUAN DE LURIGANCHO",
+    value:
+      "MINISTERIO DE EDUCACIÓN UNIDAD DE SERVICIOS EDUCATIVOS N 5 SAN JUAN DE LURIGANCHO",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN- DIRECCIÓN REGIONAL DE EDUCACIÓN CAJAMARCA",
+    value: "MINISTERIO DE EDUCACIÓN- DIRECCIÓN REGIONAL DE EDUCACIÓN CAJAMARCA",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN- SEDE CENTRAL-PROGRAMA EDUCACIÓN BÁSICA PARA TODOS",
+    value:
+      "MINISTERIO DE EDUCACIÓN- SEDE CENTRAL-PROGRAMA EDUCACIÓN BÁSICA PARA TODOS",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN-DIRECCIÓN GENERAL DE DESARROLLO DE LAS INSTITUCIONES EDUCATIVAS",
+    value:
+      "MINISTERIO DE EDUCACIÓN-DIRECCIÓN GENERAL DE DESARROLLO DE LAS INSTITUCIONES EDUCATIVAS",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN-MINEDU",
+    value: "MINISTERIO DE EDUCACIÓN-MINEDU",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN-SEDE CENTRAL- PROGRAMA EDUCACIÓN BÁSICA PARA TODOS",
+    value:
+      "MINISTERIO DE EDUCACIÓN-SEDE CENTRAL- PROGRAMA EDUCACIÓN BÁSICA PARA TODOS",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN. ÁREA DE GESTIÓN PEDAGÓGICA",
+    value: "MINISTERIO DE EDUCACIÓN. ÁREA DE GESTIÓN PEDAGÓGICA",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE DESARROLLO DE LAS INSTITUCIONES EDUCATIVAS",
+    value:
+      "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE DESARROLLO DE LAS INSTITUCIONES EDUCATIVAS",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE EDUCACIÓN DE PINTURA",
+    value: "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE EDUCACIÓN DE PINTURA",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE EDUCACIÓN INICIAL",
+    value: "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE EDUCACIÓN INICIAL",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE EDUCACIÓN SECUNDARIA",
+    value: "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE EDUCACIÓN SECUNDARIA",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE EDUCACIÓN SUPERIOR PEDAGÓGICA",
+    value:
+      "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE EDUCACIÓN SUPERIOR PEDAGÓGICA",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE EDUCACIÓN SUPERIOR Y TÉCNICO PROFESIONAL",
+    value:
+      "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE EDUCACIÓN SUPERIOR Y TÉCNICO PROFESIONAL",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE GESTIÓN ESCOLAR",
+    value: "MINISTERIO DE EDUCACIÓN. DIRECCIÓN DE GESTIÓN ESCOLAR",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN. DIRECCIÓN GENERAL DE COOPERACIÓN INTERNACIONAL DE LA BIBLIOTECA NACIONAL DEL PERÚ",
+    value:
+      "MINISTERIO DE EDUCACIÓN. DIRECCIÓN GENERAL DE COOPERACIÓN INTERNACIONAL DE LA BIBLIOTECA NACIONAL DEL PERÚ",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN. DIRECCIÓN NACIONAL DE EDUCACIÓN INICIAL Y PRIMARIA",
+    value:
+      "MINISTERIO DE EDUCACIÓN. DIRECCIÓN NACIONAL DE EDUCACIÓN INICIAL Y PRIMARIA",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN. DIRECCIÓN NACIONAL DE FORMACIÓN Y CAPACITACIÓN DOCENTE",
+    value:
+      "MINISTERIO DE EDUCACIÓN. DIRECCIÓN NACIONAL DE FORMACIÓN Y CAPACITACIÓN DOCENTE",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN. OFICINA DE GESTIÓN DE PERSONAL",
+    value: "MINISTERIO DE EDUCACIÓN. OFICINA DE GESTIÓN DE PERSONAL",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN. PROGRAMA DE ACTUALIZACIÓN DOCENTE",
+    value: "MINISTERIO DE EDUCACIÓN. PROGRAMA DE ACTUALIZACIÓN DOCENTE",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN. PROGRAMA DE ESPECIALIZACIÓN EN MATEMÁTICA Y COMUNICACIÓN",
+    value:
+      "MINISTERIO DE EDUCACIÓN. PROGRAMA DE ESPECIALIZACIÓN EN MATEMÁTICA Y COMUNICACIÓN",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN. PROGRAMA EDUCACION BÁSICA PARA TODOS",
+    value: "MINISTERIO DE EDUCACIÓN. PROGRAMA EDUCACION BÁSICA PARA TODOS",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN. PROGRAMA NACIONAL DE FORMACIÓN Y CAPACITACIÓN",
+    value:
+      "MINISTERIO DE EDUCACIÓN. PROGRAMA NACIONAL DE FORMACIÓN Y CAPACITACIÓN",
+  },
+  {
+    label:
+      "MINISTERIO DE EDUCACIÓN. PROGRAMA NACIONAL DE FORMACIÓN Y CAPACITACIÓN PERMANENTE",
+    value:
+      "MINISTERIO DE EDUCACIÓN. PROGRAMA NACIONAL DE FORMACIÓN Y CAPACITACIÓN PERMANENTE",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN. PROGRAMA PRESUPUESTAL",
+    value: "MINISTERIO DE EDUCACIÓN. PROGRAMA PRESUPUESTAL",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN. SEDE CENTRAL",
+    value: "MINISTERIO DE EDUCACIÓN. SEDE CENTRAL",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN. UGEL N°4",
+    value: "MINISTERIO DE EDUCACIÓN. UGEL N°4",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN. UGEL N°4 en EBR",
+    value: "MINISTERIO DE EDUCACIÓN. UGEL N°4 en EBR",
+  },
+  {
+    label: "MINISTERIO DE EDUCACIÓN. UNIDAD DE CAPACITACIÓN Y GESTIÓN",
+    value: "MINISTERIO DE EDUCACIÓN. UNIDAD DE CAPACITACIÓN Y GESTIÓN",
+  },
+  {
+    label: "MINISTERIO DE ENERGÍA Y MINAS",
+    value: "MINISTERIO DE ENERGÍA Y MINAS",
+  },
+  {
+    label: "MINISTERIO DE FOMENTO DE UNA EDUCACIÓN DE CALIDAD EDUCA",
+    value: "MINISTERIO DE FOMENTO DE UNA EDUCACIÓN DE CALIDAD EDUCA",
+  },
+  {
+    label:
+      "MINISTERIO DE GOBIERNO ELECTRÓNICO E INFORMÁTICA-CONSEJO DE MINISTRO",
+    value:
+      "MINISTERIO DE GOBIERNO ELECTRÓNICO E INFORMÁTICA-CONSEJO DE MINISTRO",
+  },
+  {
+    label: "MINISTERIO DE INTERIOR",
+    value: "MINISTERIO DE INTERIOR",
+  },
+  {
+    label: "MINISTERIO DE JUSTICIA ",
+    value: "MINISTERIO DE JUSTICIA ",
+  },
+  {
+    label: "MINISTERIO DE JUSTICIA Y DERECHOS HUMANOS",
+    value: "MINISTERIO DE JUSTICIA Y DERECHOS HUMANOS",
+  },
+  {
+    label: "Ministerio de Justicia. Dirección Nacional de Justicia",
+    value: "Ministerio de Justicia. Dirección Nacional de Justicia",
+  },
+  {
+    label: "MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL",
+    value: "MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL",
+  },
+  {
+    label: "MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL -MIMDES",
+    value: "MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL -MIMDES",
+  },
+  {
+    label: "MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL MIMDES FONCODES",
+    value: "MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL MIMDES FONCODES",
+  },
+  {
+    label: "MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL MINDES FONCODES",
+    value: "MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL MINDES FONCODES",
+  },
+  {
+    label:
+      "MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL. PROGRAMA CONTRA LA VIOLENCIA SEXUAL",
+    value:
+      "MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL. PROGRAMA CONTRA LA VIOLENCIA SEXUAL",
+  },
+  {
+    label:
+      "MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL. PROGRAMA NACIONAL DE ASISTENCIA ALIMENTARIA",
+    value:
+      "MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL. PROGRAMA NACIONAL DE ASISTENCIA ALIMENTARIA",
+  },
+  {
+    label: "MINISTERIO DE LA MUJER Y POBLACIÓN VULNERABLE",
+    value: "MINISTERIO DE LA MUJER Y POBLACIÓN VULNERABLE",
+  },
+  {
+    label: "MINISTERIO DE LA MUJER Y POBLACIONES VULNERABLES",
+    value: "MINISTERIO DE LA MUJER Y POBLACIONES VULNERABLES",
+  },
+  {
+    label: "MINISTERIO DE LA MUJER Y POBLACIONES VULNERABLES. WAWA WASI",
+    value: "MINISTERIO DE LA MUJER Y POBLACIONES VULNERABLES. WAWA WASI",
+  },
+  {
+    label: "MINISTERIO DE LA PRESIDENCIA",
+    value: "MINISTERIO DE LA PRESIDENCIA",
+  },
+  {
+    label: "MINISTERIO DE LA PRESIDENCIA PROYECTO ESPECIAL",
+    value: "MINISTERIO DE LA PRESIDENCIA PROYECTO ESPECIAL",
+  },
+  {
+    label: "MINISTERIO DE LA PRESIDENCIA REGIÓN ANDRES AVELINO CÁCERES",
+    value: "MINISTERIO DE LA PRESIDENCIA REGIÓN ANDRES AVELINO CÁCERES",
+  },
+  {
+    label: "MINISTERIO DE LA PRODUCCIÓN",
+    value: "MINISTERIO DE LA PRODUCCIÓN",
+  },
+  {
+    label: "MINISTERIO DE LA PRODUCCIÓN PRODUCE",
+    value: "MINISTERIO DE LA PRODUCCIÓN PRODUCE",
+  },
+  {
+    label: "MINISTERIO DE PLANIFICACIÓN Y COOPERACIÓN",
+    value: "MINISTERIO DE PLANIFICACIÓN Y COOPERACIÓN",
+  },
+  {
+    label: "MINISTERIO DE PORDUCCIÓN",
+    value: "MINISTERIO DE PORDUCCIÓN",
+  },
+  {
+    label: "MINISTERIO DE PROMOCIÓN DE LA MUJER Y DEL DESARROLLO",
+    value: "MINISTERIO DE PROMOCIÓN DE LA MUJER Y DEL DESARROLLO",
+  },
+  {
+    label: "MINISTERIO DE RELACIONES EXTERIORES",
+    value: "MINISTERIO DE RELACIONES EXTERIORES",
+  },
+  {
+    label: "MINISTERIO DE SALUD",
+    value: "MINISTERIO DE SALUD",
+  },
+  {
+    label: "MINISTERIO DE SALUD - CENAN",
+    value: "MINISTERIO DE SALUD - CENAN",
+  },
+  {
+    label: "MINISTERIO DE SALUD - PARSALUD",
+    value: "MINISTERIO DE SALUD - PARSALUD",
+  },
+  {
+    label: "MINISTERIO DE SALUD DEL PERÚ INSTITUTO NACIONAL DE SALUD",
+    value: "MINISTERIO DE SALUD DEL PERÚ INSTITUTO NACIONAL DE SALUD",
+  },
+  {
+    label: "MINISTERIO DE SALUD HOSPITAL SANTA ROSA",
+    value: "MINISTERIO DE SALUD HOSPITAL SANTA ROSA",
+  },
+  {
+    label: "Ministerio de Salud Pública",
+    value: "Ministerio de Salud Pública",
+  },
+  {
+    label: "MINISTERIO DE SALUD-DIRESA",
+    value: "MINISTERIO DE SALUD-DIRESA",
+  },
+  {
+    label: "MINISTERIO DE SALUD. CLAS CHECACUPE",
+    value: "MINISTERIO DE SALUD. CLAS CHECACUPE",
+  },
+  {
+    label: "MINISTERIO DE SALUD. DIRECCIÓN REGIONAL DE SALUD HUANUCO",
+    value: "MINISTERIO DE SALUD. DIRECCIÓN REGIONAL DE SALUD HUANUCO",
+  },
+  {
+    label: "MINISTERIO DE SALUD. OFICINA GENERAL DE PLANEAMIENTO Y PRESUPUESTO",
+    value: "MINISTERIO DE SALUD. OFICINA GENERAL DE PLANEAMIENTO Y PRESUPUESTO",
+  },
+  {
+    label: "MINISTERIO DE TRABAJO Y FORMACIÓN DEL EMPLEO",
+    value: "MINISTERIO DE TRABAJO Y FORMACIÓN DEL EMPLEO",
+  },
+  {
+    label: "MINISTERIO DE TRABAJO Y PROMOCIÓN DE EMPLEO",
+    value: "MINISTERIO DE TRABAJO Y PROMOCIÓN DE EMPLEO",
+  },
+  {
+    label: "MINISTERIO DE TRABAJO Y PROMOCIÓN DE EMPLEO. FORTALECE PERÚ",
+    value: "MINISTERIO DE TRABAJO Y PROMOCIÓN DE EMPLEO. FORTALECE PERÚ",
+  },
+  {
+    label: "MINISTERIO DE TRABAJO Y PROMOCIÓN DEL EMPLEO",
+    value: "MINISTERIO DE TRABAJO Y PROMOCIÓN DEL EMPLEO",
+  },
+  {
+    label: "MINISTERIO DE TRABAJO Y PROMOCIÓN DEL EMPLEO CERTIFICA",
+    value: "MINISTERIO DE TRABAJO Y PROMOCIÓN DEL EMPLEO CERTIFICA",
+  },
+  {
+    label: "MINISTERIO DE TRABAJO Y PROMOCIÓN DEL EMPLEO MTPE",
+    value: "MINISTERIO DE TRABAJO Y PROMOCIÓN DEL EMPLEO MTPE",
+  },
+  {
+    label:
+      "MINISTERIO DE TRABAJO Y PROMOCIÓN DEL EMPLEO. DESPACHO VICEMINISTERIAL",
+    value:
+      "MINISTERIO DE TRABAJO Y PROMOCIÓN DEL EMPLEO. DESPACHO VICEMINISTERIAL",
+  },
+  {
+    label: "MINISTERIO DE TRABAJO Y PROMOCION SOCIAL",
+    value: "MINISTERIO DE TRABAJO Y PROMOCION SOCIAL",
+  },
+  {
+    label:
+      'MINISTERIO DE TRABAJO. OBSERVATORIO DE EDUCACIÓN Y EMPLEO "PONTE EN CARRERA"',
+    value:
+      'MINISTERIO DE TRABAJO. OBSERVATORIO DE EDUCACIÓN Y EMPLEO "PONTE EN CARRERA"',
+  },
+  {
+    label: "MINISTERIO DE TRANSPORTE Y COMUNICACIONES",
+    value: "MINISTERIO DE TRANSPORTE Y COMUNICACIONES",
+  },
+  {
+    label: "MINISTERIO DE TRANSPORTES Y COMUNICACIONES",
+    value: "MINISTERIO DE TRANSPORTES Y COMUNICACIONES",
+  },
+  {
+    label: "MINISTERIO DE VIVIENDA CONSTRUCCIÓN U SANEAMIENTO",
+    value: "MINISTERIO DE VIVIENDA CONSTRUCCIÓN U SANEAMIENTO",
+  },
+  {
+    label: "MINISTERIO DE VIVIENDA CONSTRUCCIÓN Y SANEAMIENTO",
+    value: "MINISTERIO DE VIVIENDA CONSTRUCCIÓN Y SANEAMIENTO",
+  },
+  {
+    label:
+      "MINISTERIO DE VIVIENDA CONSTRUCCIÓN Y SANEAMIENTO. PROYECTO ESPECIAL PICHIS PALCAZU",
+    value:
+      "MINISTERIO DE VIVIENDA CONSTRUCCIÓN Y SANEAMIENTO. PROYECTO ESPECIAL PICHIS PALCAZU",
+  },
+  {
+    label: "MINISTERIO DE VIVIENDA CONSTRUCCIÓN Y SNAEAMIENTO",
+    value: "MINISTERIO DE VIVIENDA CONSTRUCCIÓN Y SNAEAMIENTO",
+  },
+  {
+    label: "MINISTERIO DE VIVIENDA COSNTRUCCIÓN Y SANEAMIENTO",
+    value: "MINISTERIO DE VIVIENDA COSNTRUCCIÓN Y SANEAMIENTO",
+  },
+  {
+    label: "MINISTERIO DE VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+    value: "MINISTERIO DE VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+  },
+  {
+    label: "MINISTERIO DE VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO ADM GENERAL",
+    value: "MINISTERIO DE VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO ADM GENERAL",
+  },
+  {
+    label: "MINISTERIO DE VIVIENDA, COSNTRUCCIÓN Y SANEAMIENTO",
+    value: "MINISTERIO DE VIVIENDA, COSNTRUCCIÓN Y SANEAMIENTO",
+  },
+  {
+    label: "Ministerio del Ambiente",
+    value: "Ministerio del Ambiente",
+  },
+  {
+    label: "Ministerio del Interior del Perú",
+    value: "Ministerio del Interior del Perú",
+  },
+  {
+    label: "MINISTERIO DEL INTERIOR POLICÍA NACIONAL",
+    value: "MINISTERIO DEL INTERIOR POLICÍA NACIONAL",
+  },
+  {
+    label: "MINISTERIO DEL TRABAJO",
+    value: "MINISTERIO DEL TRABAJO",
+  },
+  {
+    label: "MINISTERIO DEL TRABAJO Y PREVISIÓN SOCIAL",
+    value: "MINISTERIO DEL TRABAJO Y PREVISIÓN SOCIAL",
+  },
+  {
+    label: "MINISTERIO PÚBLICO",
+    value: "MINISTERIO PÚBLICO",
+  },
+  {
+    label: "MINISTERIO PÚBLICO FISCALÍA DE LA NACIÓN",
+    value: "MINISTERIO PÚBLICO FISCALÍA DE LA NACIÓN",
+  },
+  {
+    label: "MINJUS - Mg. Cesar Nureña Arias ",
+    value: "MINJUS - Mg. Cesar Nureña Arias ",
+  },
+  {
+    label: "MINSA",
+    value: "MINSA",
+  },
+  {
+    label: "MINSITERIO DE AGRICULTURA Y RIEGO",
+    value: "MINSITERIO DE AGRICULTURA Y RIEGO",
+  },
+  {
+    label: "MINSITERIO DE DESARROLLO E INCLUSIÓN SOCIAL",
+    value: "MINSITERIO DE DESARROLLO E INCLUSIÓN SOCIAL",
+  },
+  {
+    label: "MIPANDES PROJECT",
+    value: "MIPANDES PROJECT",
+  },
+  {
+    label: "MISIÓN INTEGRAL URBANO RURAL MISIUR",
+    value: "MISIÓN INTEGRAL URBANO RURAL MISIUR",
+  },
+  {
+    label: "MISIUR",
+    value: "MISIUR",
+  },
+  {
+    label: "MISKI MICUY",
+    value: "MISKI MICUY",
+  },
+  {
+    label: "MIZUMO MOTOR PARAGUAY",
+    value: "MIZUMO MOTOR PARAGUAY",
+  },
+  {
+    label: "MMG SA",
+    value: "MMG SA",
+  },
+  {
+    label: "Mobiliario Rojas S.A.C",
+    value: "Mobiliario Rojas S.A.C",
+  },
+  {
+    label: "MORALES MORANTE ABOGADOS",
+    value: "MORALES MORANTE ABOGADOS",
+  },
+  {
+    label: "MOTA EINGIL PERÚ SA",
+    value: "MOTA EINGIL PERÚ SA",
+  },
+  {
+    label: "MOTLIMA CONSULTORES",
+    value: "MOTLIMA CONSULTORES",
+  },
+  {
+    label:
+      "MOVIMIENTO DE ADOLESCENTES Y NIÑOS TRABAJADORES HIJOS DE OBREROS CRISTIANOS MANTHOC",
+    value:
+      "MOVIMIENTO DE ADOLESCENTES Y NIÑOS TRABAJADORES HIJOS DE OBREROS CRISTIANOS MANTHOC",
+  },
+  {
+    label:
+      "MOVIMIENTO INTERNACIONAL CRISTIANO DE ADOLESCENTES Y NIÑOS TRABAJADORES ORGANIZADOS MICANTO JOSÉ OBRERO",
+    value:
+      "MOVIMIENTO INTERNACIONAL CRISTIANO DE ADOLESCENTES Y NIÑOS TRABAJADORES ORGANIZADOS MICANTO JOSÉ OBRERO",
+  },
+  {
+    label: "MOVIMIENTO MANUELA RAMOS",
+    value: "MOVIMIENTO MANUELA RAMOS",
+  },
+  {
+    label: "MRW",
+    value: "MRW",
+  },
+  {
+    label: "MTC PROVIAS DEPARTAMENTAL",
+    value: "MTC PROVIAS DEPARTAMENTAL",
+  },
+  {
+    label: "MUNICIAPALIDAD DISTRITAL DE SAN BORJA",
+    value: "MUNICIAPALIDAD DISTRITAL DE SAN BORJA",
+  },
+  {
+    label: "MUNICIPAL DISTRIAL VICCO",
+    value: "MUNICIPAL DISTRIAL VICCO",
+  },
+  {
+    label: "MUNICIPAL DSITRITAL DE SAN ANTON",
+    value: "MUNICIPAL DSITRITAL DE SAN ANTON",
+  },
+  {
+    label: "MUNICIPALIDAD  METROPOLITANA DE LIMA",
+    value: "MUNICIPALIDAD  METROPOLITANA DE LIMA",
+  },
+  {
+    label: 'MUNICIPALIDAD CENTRO POBLADO  "BELLO HORIENTE"',
+    value: 'MUNICIPALIDAD CENTRO POBLADO  "BELLO HORIENTE"',
+  },
+  {
+    label: "MUNICIPALIDAD CENTRO POBLADO CHUMBAO",
+    value: "MUNICIPALIDAD CENTRO POBLADO CHUMBAO",
+  },
+  {
+    label: "MUNICIPALIDAD DE ALTO PUNO",
+    value: "MUNICIPALIDAD DE ALTO PUNO",
+  },
+  {
+    label: "MUNICIPALIDAD DE ALTO SELVA ALEGRE",
+    value: "MUNICIPALIDAD DE ALTO SELVA ALEGRE",
+  },
+  {
+    label: "MUNICIPALIDAD DE INDEPENDENCIA",
+    value: "MUNICIPALIDAD DE INDEPENDENCIA",
+  },
+  {
+    label: "MUNICIPALIDAD DE JESÚS MARÍA",
+    value: "MUNICIPALIDAD DE JESÚS MARÍA",
+  },
+  {
+    label: "MUNICIPALIDAD DE LIMA",
+    value: "MUNICIPALIDAD DE LIMA",
+  },
+  {
+    label: "MUNICIPALIDAD DE LIMA GERENCIA DE DEFENSA DEL CIUDADANO",
+    value: "MUNICIPALIDAD DE LIMA GERENCIA DE DEFENSA DEL CIUDADANO",
+  },
+  {
+    label: "MUNICIPALIDAD DE MIRAFLORES",
+    value: "MUNICIPALIDAD DE MIRAFLORES",
+  },
+  {
+    label: "MUNICIPALIDAD DE SAN BORJA",
+    value: "MUNICIPALIDAD DE SAN BORJA",
+  },
+  {
+    label: "Municipalidad de San Isidro",
+    value: "Municipalidad de San Isidro",
+  },
+  {
+    label: "MUNICIPALIDAD DE SAN JUAN DE LURIGANCHO",
+    value: "MUNICIPALIDAD DE SAN JUAN DE LURIGANCHO",
+  },
+  {
+    label: "MUNICIPALIDAD DE SAN JUAN DE MIRAFLORES",
+    value: "MUNICIPALIDAD DE SAN JUAN DE MIRAFLORES",
+  },
+  {
+    label: "MUNICIPALIDAD DE SAN MARTÍN DE PORRES",
+    value: "MUNICIPALIDAD DE SAN MARTÍN DE PORRES",
+  },
+  {
+    label: "MUNICIPALIDAD DE SANTIAGO DE SURCO",
+    value: "MUNICIPALIDAD DE SANTIAGO DE SURCO",
+  },
+  {
+    label: "MUNICIPALIDAD DE VILLA MARÍA DEL TRIUNFO",
+    value: "MUNICIPALIDAD DE VILLA MARÍA DEL TRIUNFO",
+  },
+  {
+    label: "MUNICIPALIDAD DEL CENTRO POBLADO HUAMBOCANCHA ALTA",
+    value: "MUNICIPALIDAD DEL CENTRO POBLADO HUAMBOCANCHA ALTA",
+  },
+  {
+    label: "MUNICIPALIDAD DEL DISTRITO DE SANTO DOMINGO",
+    value: "MUNICIPALIDAD DEL DISTRITO DE SANTO DOMINGO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRIAL CONSTITUCIÓN PROVINCIA OXAPAMPA",
+    value: "MUNICIPALIDAD DISTRIAL CONSTITUCIÓN PROVINCIA OXAPAMPA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRIAL SIMPON BOLIVAR",
+    value: "MUNICIPALIDAD DISTRIAL SIMPON BOLIVAR",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL ANDAHUAYLILLAS",
+    value: "MUNICIPALIDAD DISTRITAL ANDAHUAYLILLAS",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL CCATCCA",
+    value: "MUNICIPALIDAD DISTRITAL CCATCCA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE ABANCAY",
+    value: "MUNICIPALIDAD DISTRITAL DE ABANCAY",
+  },
+  {
+    label: "Municipalidad Distrital De Acobambilla",
+    value: "Municipalidad Distrital De Acobambilla",
+  },
+  {
+    label: "Municipalidad Distrital De Acoria",
+    value: "Municipalidad Distrital De Acoria",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE ACOSTAMBO",
+    value: "MUNICIPALIDAD DISTRITAL DE ACOSTAMBO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE AMARILIS",
+    value: "MUNICIPALIDAD DISTRITAL DE AMARILIS",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE AMBO",
+    value: "MUNICIPALIDAD DISTRITAL DE AMBO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE ANCÓN",
+    value: "MUNICIPALIDAD DISTRITAL DE ANCÓN",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE ANDABAMBA",
+    value: "MUNICIPALIDAD DISTRITAL DE ANDABAMBA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE ANDAHUAYLILLAS",
+    value: "MUNICIPALIDAD DISTRITAL DE ANDAHUAYLILLAS",
+  },
+  {
+    label: "Municipalidad Distrital De Ascensión",
+    value: "Municipalidad Distrital De Ascensión",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE AYAHUANCO",
+    value: "MUNICIPALIDAD DISTRITAL DE AYAHUANCO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE BARRANCO",
+    value: "MUNICIPALIDAD DISTRITAL DE BARRANCO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE CARABAYLLO",
+    value: "MUNICIPALIDAD DISTRITAL DE CARABAYLLO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE CHADIN",
+    value: "MUNICIPALIDAD DISTRITAL DE CHADIN",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE CHAZUTA",
+    value: "MUNICIPALIDAD DISTRITAL DE CHAZUTA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE CHILCA",
+    value: "MUNICIPALIDAD DISTRITAL DE CHILCA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE CHINCHAO",
+    value: "MUNICIPALIDAD DISTRITAL DE CHINCHAO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE CHINCHERO",
+    value: "MUNICIPALIDAD DISTRITAL DE CHINCHERO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE CHONGOS BAJO",
+    value: "MUNICIPALIDAD DISTRITAL DE CHONGOS BAJO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE CHUPAMARCA",
+    value: "MUNICIPALIDAD DISTRITAL DE CHUPAMARCA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE COLCABAMBA",
+    value: "MUNICIPALIDAD DISTRITAL DE COLCABAMBA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE COLQUEMARCA",
+    value: "MUNICIPALIDAD DISTRITAL DE COLQUEMARCA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE CONCHAMARCA",
+    value: "MUNICIPALIDAD DISTRITAL DE CONCHAMARCA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE CORDOVA",
+    value: "MUNICIPALIDAD DISTRITAL DE CORDOVA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE COSPÁN",
+    value: "MUNICIPALIDAD DISTRITAL DE COSPÁN",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE COVIRIALI",
+    value: "MUNICIPALIDAD DISTRITAL DE COVIRIALI",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE ECHARATI",
+    value: "MUNICIPALIDAD DISTRITAL DE ECHARATI",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE EL PORVENIR",
+    value: "MUNICIPALIDAD DISTRITAL DE EL PORVENIR",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE EL TAMBO",
+    value: "MUNICIPALIDAD DISTRITAL DE EL TAMBO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE HUÁCHAC",
+    value: "MUNICIPALIDAD DISTRITAL DE HUÁCHAC",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE HUACHIS",
+    value: "MUNICIPALIDAD DISTRITAL DE HUACHIS",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE HUANCAS",
+    value: "MUNICIPALIDAD DISTRITAL DE HUANCAS",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE HUANDO",
+    value: "MUNICIPALIDAD DISTRITAL DE HUANDO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE HUARIBAMBA ",
+    value: "MUNICIPALIDAD DISTRITAL DE HUARIBAMBA ",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE HUASAHUASI",
+    value: "MUNICIPALIDAD DISTRITAL DE HUASAHUASI",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE INCHUPALLA",
+    value: "MUNICIPALIDAD DISTRITAL DE INCHUPALLA",
+  },
+  {
+    label: "Municipalidad Distrital De Izcuchaca",
+    value: "Municipalidad Distrital De Izcuchaca",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE JANJAILLO",
+    value: "MUNICIPALIDAD DISTRITAL DE JANJAILLO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE JEPELACIO",
+    value: "MUNICIPALIDAD DISTRITAL DE JEPELACIO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE JUAN GUERRA",
+    value: "MUNICIPALIDAD DISTRITAL DE JUAN GUERRA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE JUNÍN",
+    value: "MUNICIPALIDAD DISTRITAL DE JUNÍN",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE KIMBIRI",
+    value: "MUNICIPALIDAD DISTRITAL DE KIMBIRI",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE LA ENCAÑADA",
+    value: "MUNICIPALIDAD DISTRITAL DE LA ENCAÑADA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE LA ESPERANZA",
+    value: "MUNICIPALIDAD DISTRITAL DE LA ESPERANZA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE LA HUATA",
+    value: "MUNICIPALIDAD DISTRITAL DE LA HUATA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE LA JOYA",
+    value: "MUNICIPALIDAD DISTRITAL DE LA JOYA",
+  },
+  {
+    label:
+      "MUNICIPALIDAD DISTRITAL DE LA LIBERTAD CAJAMARQIUILLA- HUARAZ-ANCASH",
+    value:
+      "MUNICIPALIDAD DISTRITAL DE LA LIBERTAD CAJAMARQIUILLA- HUARAZ-ANCASH",
+  },
+  {
+    label:
+      "MUNICIPALIDAD DISTRITAL DE LA LIBERTAD CAJAMARQUILLA-HUARAZ -ANCASH",
+    value:
+      "MUNICIPALIDAD DISTRITAL DE LA LIBERTAD CAJAMARQUILLA-HUARAZ -ANCASH",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE LA LIBERTAD CAJAMARQUILLA-HUARAZ-ANCASH",
+    value: "MUNICIPALIDAD DISTRITAL DE LA LIBERTAD CAJAMARQUILLA-HUARAZ-ANCASH",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE LA LIBERTAD CJAMARQUILLA-HUARAZ- ANCASH",
+    value: "MUNICIPALIDAD DISTRITAL DE LA LIBERTAD CJAMARQUILLA-HUARAZ- ANCASH",
+  },
+  {
+    label:
+      "MUNICIPALIDAD DISTRITAL DE LA PUNTA GERENCIA CENTRAL DE DESARROLLO LOCAL",
+    value:
+      "MUNICIPALIDAD DISTRITAL DE LA PUNTA GERENCIA CENTRAL DE DESARROLLO LOCAL",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE LA VICTORIA",
+    value: "MUNICIPALIDAD DISTRITAL DE LA VICTORIA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE LAGUNAS",
+    value: "MUNICIPALIDAD DISTRITAL DE LAGUNAS",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE LINCE",
+    value: "MUNICIPALIDAD DISTRITAL DE LINCE",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE LINCHA PROVINCIA DE CAÑETE",
+    value: "MUNICIPALIDAD DISTRITAL DE LINCHA PROVINCIA DE CAÑETE",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE LLAMA",
+    value: "MUNICIPALIDAD DISTRITAL DE LLAMA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE LOS BAÑOS DEL INCA",
+    value: "MUNICIPALIDAD DISTRITAL DE LOS BAÑOS DEL INCA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE LOS OLIVOS",
+    value: "MUNICIPALIDAD DISTRITAL DE LOS OLIVOS",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE MACARI",
+    value: "MUNICIPALIDAD DISTRITAL DE MACARI",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE MARIANO MELGAR",
+    value: "MUNICIPALIDAD DISTRITAL DE MARIANO MELGAR",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE MATAHUASI",
+    value: "MUNICIPALIDAD DISTRITAL DE MATAHUASI",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE MAZAMARI",
+    value: "MUNICIPALIDAD DISTRITAL DE MAZAMARI",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE MEGANTONI",
+    value: "MUNICIPALIDAD DISTRITAL DE MEGANTONI",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE MOCHE",
+    value: "MUNICIPALIDAD DISTRITAL DE MOCHE",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE MONZON",
+    value: "MUNICIPALIDAD DISTRITAL DE MONZON",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE MORROPE",
+    value: "MUNICIPALIDAD DISTRITAL DE MORROPE",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE PACCHA",
+    value: "MUNICIPALIDAD DISTRITAL DE PACCHA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE PALCAZÚ",
+    value: "MUNICIPALIDAD DISTRITAL DE PALCAZÚ",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE PALLASCA",
+    value: "MUNICIPALIDAD DISTRITAL DE PALLASCA",
+  },
+  {
+    label: "Municipalidad Distrital De Paucarcolla",
+    value: "Municipalidad Distrital De Paucarcolla",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE PIRA",
+    value: "MUNICIPALIDAD DISTRITAL DE PIRA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE POMACOCHA",
+    value: "MUNICIPALIDAD DISTRITAL DE POMACOCHA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE QUELLOUNO",
+    value: "MUNICIPALIDAD DISTRITAL DE QUELLOUNO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE QUERECOTILLO",
+    value: "MUNICIPALIDAD DISTRITAL DE QUERECOTILLO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE QUIVILLA",
+    value: "MUNICIPALIDAD DISTRITAL DE QUIVILLA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE RIO NEGRO",
+    value: "MUNICIPALIDAD DISTRITAL DE RIO NEGRO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SALAVERRY",
+    value: "MUNICIPALIDAD DISTRITAL DE SALAVERRY",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SAN ANTÓN",
+    value: "MUNICIPALIDAD DISTRITAL DE SAN ANTÓN",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SAN ANTONIO",
+    value: "MUNICIPALIDAD DISTRITAL DE SAN ANTONIO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SAN JERÓNIMO",
+    value: "MUNICIPALIDAD DISTRITAL DE SAN JERÓNIMO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SAN JUAN",
+    value: "MUNICIPALIDAD DISTRITAL DE SAN JUAN",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SAN JUAN DE LURIGANCHO",
+    value: "MUNICIPALIDAD DISTRITAL DE SAN JUAN DE LURIGANCHO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SAN MARCOS",
+    value: "MUNICIPALIDAD DISTRITAL DE SAN MARCOS",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SAN MARTÍN DE PORRES",
+    value: "MUNICIPALIDAD DISTRITAL DE SAN MARTÍN DE PORRES",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SAN MIGUEL",
+    value: "MUNICIPALIDAD DISTRITAL DE SAN MIGUEL",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SAN SEBASIAN CUSCO",
+    value: "MUNICIPALIDAD DISTRITAL DE SAN SEBASIAN CUSCO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SANA TERESA",
+    value: "MUNICIPALIDAD DISTRITAL DE SANA TERESA",
+  },
+  {
+    label: "Municipalidad Distrital De Santa Ana",
+    value: "Municipalidad Distrital De Santa Ana",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SANTA LEONOR",
+    value: "MUNICIPALIDAD DISTRITAL DE SANTA LEONOR",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SANTA ROSA MAZOCRUZ",
+    value: "MUNICIPALIDAD DISTRITAL DE SANTA ROSA MAZOCRUZ",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SANTILLANA",
+    value: "MUNICIPALIDAD DISTRITAL DE SANTILLANA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SANTO TOMÁS",
+    value: "MUNICIPALIDAD DISTRITAL DE SANTO TOMÁS",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SHUNQUI",
+    value: "MUNICIPALIDAD DISTRITAL DE SHUNQUI",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SINGA",
+    value: "MUNICIPALIDAD DISTRITAL DE SINGA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE SUTU",
+    value: "MUNICIPALIDAD DISTRITAL DE SUTU",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE TOCMOCHE",
+    value: "MUNICIPALIDAD DISTRITAL DE TOCMOCHE",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE TÚCUME",
+    value: "MUNICIPALIDAD DISTRITAL DE TÚCUME",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE VENTANILLA",
+    value: "MUNICIPALIDAD DISTRITAL DE VENTANILLA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE VILCABAMBA",
+    value: "MUNICIPALIDAD DISTRITAL DE VILCABAMBA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE VISCHONGO",
+    value: "MUNICIPALIDAD DISTRITAL DE VISCHONGO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE VITOC",
+    value: "MUNICIPALIDAD DISTRITAL DE VITOC",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE YANACANCHA",
+    value: "MUNICIPALIDAD DISTRITAL DE YANACANCHA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE YANACOCHA",
+    value: "MUNICIPALIDAD DISTRITAL DE YANACOCHA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE YARABAMBA",
+    value: "MUNICIPALIDAD DISTRITAL DE YARABAMBA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DE YAUTAN",
+    value: "MUNICIPALIDAD DISTRITAL DE YAUTAN",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL DEL PORVENIR",
+    value: "MUNICIPALIDAD DISTRITAL DEL PORVENIR",
+  },
+  {
+    label: "Municipalidad Distrital del Rímac",
+    value: "Municipalidad Distrital del Rímac",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL HUANCARAMA",
+    value: "MUNICIPALIDAD DISTRITAL HUANCARAMA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL INDEPENDENCIA",
+    value: "MUNICIPALIDAD DISTRITAL INDEPENDENCIA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL JORGE BASADRE",
+    value: "MUNICIPALIDAD DISTRITAL JORGE BASADRE",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL PUEBLO NUEVO",
+    value: "MUNICIPALIDAD DISTRITAL PUEBLO NUEVO",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL SAN FRANCISCO DE ASIS",
+    value: "MUNICIPALIDAD DISTRITAL SAN FRANCISCO DE ASIS",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL SAN SEBASTIÁN",
+    value: "MUNICIPALIDAD DISTRITAL SAN SEBASTIÁN",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL SÁNCHEZ CARRIÓN",
+    value: "MUNICIPALIDAD DISTRITAL SÁNCHEZ CARRIÓN",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL SIMÓN BOLÍVAR",
+    value: "MUNICIPALIDAD DISTRITAL SIMÓN BOLÍVAR",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRITAL TABACONAS",
+    value: "MUNICIPALIDAD DISTRITAL TABACONAS",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRTITAL DE JESÚS MARÍA",
+    value: "MUNICIPALIDAD DISTRTITAL DE JESÚS MARÍA",
+  },
+  {
+    label: "MUNICIPALIDAD DISTRTITAL DE PUCARÁ",
+    value: "MUNICIPALIDAD DISTRTITAL DE PUCARÁ",
+  },
+  {
+    label: "Municipalidad Metropolitana de Lima",
+    value: "Municipalidad Metropolitana de Lima",
+  },
+  {
+    label: "MUNICIPALIDAD METROPOLITANA DE LIMA MML",
+    value: "MUNICIPALIDAD METROPOLITANA DE LIMA MML",
+  },
+  {
+    label:
+      "MUNICIPALIDAD METROPOLITANA DE LIMA. COMISIÓN METROPOLITANA DE MEDIO AMBIENTE, SALUD Y BIENESTAR AMBIENTAL",
+    value:
+      "MUNICIPALIDAD METROPOLITANA DE LIMA. COMISIÓN METROPOLITANA DE MEDIO AMBIENTE, SALUD Y BIENESTAR AMBIENTAL",
+  },
+  {
+    label:
+      "MUNICIPALIDAD POVINCIAL DE ILO DIRECCIÓN DE DESARROLLO SOCIAL Y PARTICIPACIÓN CIUDADANA",
+    value:
+      "MUNICIPALIDAD POVINCIAL DE ILO DIRECCIÓN DE DESARROLLO SOCIAL Y PARTICIPACIÓN CIUDADANA",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL ",
+    value: "MUNICIPALIDAD PROVINCIAL ",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL  DE SAN PABLO",
+    value: "MUNICIPALIDAD PROVINCIAL  DE SAN PABLO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL ABANCAY",
+    value: "MUNICIPALIDAD PROVINCIAL ABANCAY",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL CHUCUITO",
+    value: "MUNICIPALIDAD PROVINCIAL CHUCUITO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL CHUCUITO JULI",
+    value: "MUNICIPALIDAD PROVINCIAL CHUCUITO JULI",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DANIEL CARRIÓN",
+    value: "MUNICIPALIDAD PROVINCIAL DANIEL CARRIÓN",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DATEM DEL MARAÑON",
+    value: "MUNICIPALIDAD PROVINCIAL DATEM DEL MARAÑON",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE ABANCAY",
+    value: "MUNICIPALIDAD PROVINCIAL DE ABANCAY",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE ACOMAYO",
+    value: "MUNICIPALIDAD PROVINCIAL DE ACOMAYO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE ANDAHUAYLAS",
+    value: "MUNICIPALIDAD PROVINCIAL DE ANDAHUAYLAS",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE ANGARAES",
+    value: "MUNICIPALIDAD PROVINCIAL DE ANGARAES",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE BARRANCA",
+    value: "MUNICIPALIDAD PROVINCIAL DE BARRANCA",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE CAJAMARCA",
+    value: "MUNICIPALIDAD PROVINCIAL DE CAJAMARCA",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE CAÑETE",
+    value: "MUNICIPALIDAD PROVINCIAL DE CAÑETE",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE CASMA",
+    value: "MUNICIPALIDAD PROVINCIAL DE CASMA",
+  },
+  {
+    label: "Municipalidad Provincial De Castrovirreyna",
+    value: "Municipalidad Provincial De Castrovirreyna",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE CELENDÍN",
+    value: "MUNICIPALIDAD PROVINCIAL DE CELENDÍN",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE CHANCHAMAYO",
+    value: "MUNICIPALIDAD PROVINCIAL DE CHANCHAMAYO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE CHICLAYO",
+    value: "MUNICIPALIDAD PROVINCIAL DE CHICLAYO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE CHUCUITO JULI",
+    value: "MUNICIPALIDAD PROVINCIAL DE CHUCUITO JULI",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE CHUPACA",
+    value: "MUNICIPALIDAD PROVINCIAL DE CHUPACA",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE HUAMALÍES",
+    value: "MUNICIPALIDAD PROVINCIAL DE HUAMALÍES",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE HUAMANGA",
+    value: "MUNICIPALIDAD PROVINCIAL DE HUAMANGA",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE HUANCA SANCOS",
+    value: "MUNICIPALIDAD PROVINCIAL DE HUANCA SANCOS",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE HUANCAVELICA",
+    value: "MUNICIPALIDAD PROVINCIAL DE HUANCAVELICA",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE HUANCAYO",
+    value: "MUNICIPALIDAD PROVINCIAL DE HUANCAYO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE HUARI",
+    value: "MUNICIPALIDAD PROVINCIAL DE HUARI",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE HUAROCHIRI",
+    value: "MUNICIPALIDAD PROVINCIAL DE HUAROCHIRI",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE ILO",
+    value: "MUNICIPALIDAD PROVINCIAL DE ILO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE JAÉN",
+    value: "MUNICIPALIDAD PROVINCIAL DE JAÉN",
+  },
+  {
+    label: "Municipalidad Provincial de Mariscal Cáceres",
+    value: "Municipalidad Provincial de Mariscal Cáceres",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE MARISCAL NIETO",
+    value: "MUNICIPALIDAD PROVINCIAL DE MARISCAL NIETO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE NUEVO IMPERIAL",
+    value: "MUNICIPALIDAD PROVINCIAL DE NUEVO IMPERIAL",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE PASCO",
+    value: "MUNICIPALIDAD PROVINCIAL DE PASCO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE PIURA GERENCIA DE PLANIFICACIÓN",
+    value: "MUNICIPALIDAD PROVINCIAL DE PIURA GERENCIA DE PLANIFICACIÓN",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE PUNO",
+    value: "MUNICIPALIDAD PROVINCIAL DE PUNO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE QUISPICANCHI",
+    value: "MUNICIPALIDAD PROVINCIAL DE QUISPICANCHI",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE SAN MARTÍN",
+    value: "MUNICIPALIDAD PROVINCIAL DE SAN MARTÍN",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE SAN PABLO",
+    value: "MUNICIPALIDAD PROVINCIAL DE SAN PABLO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE SANTIAGO DE CHUCO",
+    value: "MUNICIPALIDAD PROVINCIAL DE SANTIAGO DE CHUCO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE SNA ROMÁN JULIACA",
+    value: "MUNICIPALIDAD PROVINCIAL DE SNA ROMÁN JULIACA",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE TACNA",
+    value: "MUNICIPALIDAD PROVINCIAL DE TACNA",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE TALARA",
+    value: "MUNICIPALIDAD PROVINCIAL DE TALARA",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE TAMBOPATA",
+    value: "MUNICIPALIDAD PROVINCIAL DE TAMBOPATA",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE TARMA",
+    value: "MUNICIPALIDAD PROVINCIAL DE TARMA",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE TRUJILLO",
+    value: "MUNICIPALIDAD PROVINCIAL DE TRUJILLO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DE VILCASHUAMAN",
+    value: "MUNICIPALIDAD PROVINCIAL DE VILCASHUAMAN",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DEL CUSCO",
+    value: "MUNICIPALIDAD PROVINCIAL DEL CUSCO",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL DEL SANTA",
+    value: "MUNICIPALIDAD PROVINCIAL DEL SANTA",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL PIURA",
+    value: "MUNICIPALIDAD PROVINCIAL PIURA",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL SÁNCHEZ CARRIÓN",
+    value: "MUNICIPALIDAD PROVINCIAL SÁNCHEZ CARRIÓN",
+  },
+  {
+    label: "MUNICIPALIDAD PROVINCIAL YUNGUYO",
+    value: "MUNICIPALIDAD PROVINCIAL YUNGUYO",
+  },
+  {
+    label: "MUNICIPALIDAD PRVINCIAL DE HUAMANGA",
+    value: "MUNICIPALIDAD PRVINCIAL DE HUAMANGA",
+  },
+  {
+    label: "MUNICIPALIDAD REGIONAL DE HUANCAVELICA",
+    value: "MUNICIPALIDAD REGIONAL DE HUANCAVELICA",
+  },
+  {
+    label: "Municipalidad Regional De Madre De Dios",
+    value: "Municipalidad Regional De Madre De Dios",
+  },
+  {
+    label: "MUNICIPALIDAD SAN BERNARDINO SAN PABLO CAJAMARCA",
+    value: "MUNICIPALIDAD SAN BERNARDINO SAN PABLO CAJAMARCA",
+  },
+  {
+    label: "MUNICIPALLIDAD DITRITAL DE MAZAMARI",
+    value: "MUNICIPALLIDAD DITRITAL DE MAZAMARI",
+  },
+  {
+    label:
+      "MUNICIPIO DE SAN DIEGO. DIRECCIÓN DE ADMINISTRACIÓN-DEPARTAMENTO DE PERSONAL",
+    value:
+      "MUNICIPIO DE SAN DIEGO. DIRECCIÓN DE ADMINISTRACIÓN-DEPARTAMENTO DE PERSONAL",
+  },
+  {
+    label: "MUNICIPLIDAD DISTRITAL DE CORDOVA",
+    value: "MUNICIPLIDAD DISTRITAL DE CORDOVA",
+  },
+  {
+    label: "MUNICIPLIDAD DISTRITAL DE LLAMA",
+    value: "MUNICIPLIDAD DISTRITAL DE LLAMA",
+  },
+  {
+    label: "MUNICIPLIDAD PROVINCIAL DE PUNO",
+    value: "MUNICIPLIDAD PROVINCIAL DE PUNO",
+  },
+  {
+    label: "MUNICPALIDAD PROVINCIAL DE TUMBES",
+    value: "MUNICPALIDAD PROVINCIAL DE TUMBES",
+  },
+  {
+    label: "MUSEO TUMBAS REALES DE SIPÁN",
+    value: "MUSEO TUMBAS REALES DE SIPÁN",
+  },
+  {
+    label: "MVCS PNVR",
+    value: "MVCS PNVR",
+  },
+  {
+    label: "N 82004 ZULEMA ARCE SANTISTEBAN",
+    value: "N 82004 ZULEMA ARCE SANTISTEBAN",
+  },
+  {
+    label: "NACIONALES UNIDAS DE SERVICIOS PARA PROYECTOS UNOPS",
+    value: "NACIONALES UNIDAS DE SERVICIOS PARA PROYECTOS UNOPS",
+  },
+  {
+    label:
+      "NACIONES UNIDAS INTITUTO INTERNACIONAL DE INVESTIGACIÓN Y CAPACITACIÓN PARA LA PROMOCIÓN DE LA MUJER",
+    value:
+      "NACIONES UNIDAS INTITUTO INTERNACIONAL DE INVESTIGACIÓN Y CAPACITACIÓN PARA LA PROMOCIÓN DE LA MUJER",
+  },
+  {
+    label: "NAGASCO",
+    value: "NAGASCO",
+  },
+  {
+    label: "Neumann Business School",
+    value: "Neumann Business School",
+  },
+  {
+    label: "NEXCOM CONSTRUCCIÓN MODULAR",
+    value: "NEXCOM CONSTRUCCIÓN MODULAR",
+  },
+  {
+    label: "Nexus Sinergia S.A.",
+    value: "Nexus Sinergia S.A.",
+  },
+  {
+    label: "NEYRA INGENIEROS SAC",
+    value: "NEYRA INGENIEROS SAC",
+  },
+  {
+    label: "NICON SRL",
+    value: "NICON SRL",
+  },
+  {
+    label: "NIÑOS DEL MILENIO",
+    value: "NIÑOS DEL MILENIO",
+  },
+  {
+    label: "NIPPON KOEI LAC CO LTD",
+    value: "NIPPON KOEI LAC CO LTD",
+  },
+  {
+    label: "NIVERSIDAD NACIONAL DE SAN AGUSTÍN",
+    value: "NIVERSIDAD NACIONAL DE SAN AGUSTÍN",
+  },
+  {
+    label: "NOTARÍA PÚBLICA FLORENTINO",
+    value: "NOTARÍA PÚBLICA FLORENTINO",
+  },
+  {
+    label: "NSTITUCIÓN EDUCATIVA PRIVADA COLUMBIA",
+    value: "NSTITUCIÓN EDUCATIVA PRIVADA COLUMBIA",
+  },
+  {
+    label: "NÚCLEO EJECUTOR DE ALCANCE DEPARTAMENTAL PIURA NED",
+    value: "NÚCLEO EJECUTOR DE ALCANCE DEPARTAMENTAL PIURA NED",
+  },
+  {
+    label: "NÚCLEO EJECUTOR DE ALCANCE DEPARTAMENTAL- NED ANCASH ",
+    value: "NÚCLEO EJECUTOR DE ALCANCE DEPARTAMENTAL- NED ANCASH ",
+  },
+  {
+    label:
+      "NÚCLEO EJECUTOR DE ALCANCE DEPARTAMENTAL- NED ANCASH PARA LA REPOSICIÓN, OPERACIÓN Y MANTENIMIENTO DE SISTEMAS DE AGUA Y SANEAMIENTO",
+    value:
+      "NÚCLEO EJECUTOR DE ALCANCE DEPARTAMENTAL- NED ANCASH PARA LA REPOSICIÓN, OPERACIÓN Y MANTENIMIENTO DE SISTEMAS DE AGUA Y SANEAMIENTO",
+  },
+  {
+    label: "NÚCLEO EJECUTOR DE ALCANCE DEPARTAMENTAL- NED CAJAMARCA",
+    value: "NÚCLEO EJECUTOR DE ALCANCE DEPARTAMENTAL- NED CAJAMARCA",
+  },
+  {
+    label: "NÚCLEO EJECUTOR DE COMPRA DE COCINAS ",
+    value: "NÚCLEO EJECUTOR DE COMPRA DE COCINAS ",
+  },
+  {
+    label: "NÚCLEO EJECUTOR DE COMPRA DE COCINAS A GLP ",
+    value: "NÚCLEO EJECUTOR DE COMPRA DE COCINAS A GLP ",
+  },
+  {
+    label: "NÚCLEO EJECUTOR DEL PROYECTO",
+    value: "NÚCLEO EJECUTOR DEL PROYECTO",
+  },
+  {
+    label: "NUCLEO EJECUTOR MIXTO",
+    value: "NUCLEO EJECUTOR MIXTO",
+  },
+  {
+    label: "NÚCLEO EJECUTOR PEQUEÑOS SISTEMAS DE RIESO CCATCCA I",
+    value: "NÚCLEO EJECUTOR PEQUEÑOS SISTEMAS DE RIESO CCATCCA I",
+  },
+  {
+    label: "NUESTRA SEÑORA DE LA ASUNCIÓN",
+    value: "NUESTRA SEÑORA DE LA ASUNCIÓN",
+  },
+  {
+    label: "NUESTRA SEÑORA DE MONSERRAT",
+    value: "NUESTRA SEÑORA DE MONSERRAT",
+  },
+  {
+    label: "Nueva empresa editado",
+    value: "Nueva empresa editado",
+  },
+  {
+    label: "NUEVA ESPERANZA",
+    value: "NUEVA ESPERANZA",
+  },
+  {
+    label: "O MUROY INGENIERO CONSULTORES",
+    value: "O MUROY INGENIERO CONSULTORES",
+  },
+  {
+    label: "O REGIONAL DEL CUSCO",
+    value: "O REGIONAL DEL CUSCO",
+  },
+  {
+    label: "O&S CONSULTORES SAC",
+    value: "O&S CONSULTORES SAC",
+  },
+  {
+    label: "OBRA DE ASSISTËNCIA SOCIAL PAPA JOÃO XXIII",
+    value: "OBRA DE ASSISTËNCIA SOCIAL PAPA JOÃO XXIII",
+  },
+  {
+    label: "OBSERVATORIO SOCIO ECONÓMICO LABORAL (OSEL) APURÍMAC",
+    value: "OBSERVATORIO SOCIO ECONÓMICO LABORAL (OSEL) APURÍMAC",
+  },
+  {
+    label: "OBSERVATORIO SOCIO ECONÓMICO LABORAL (OSEL) AYACUCHO",
+    value: "OBSERVATORIO SOCIO ECONÓMICO LABORAL (OSEL) AYACUCHO",
+  },
+  {
+    label: "OBSERVATORIO SOCIO ECONÓMICO LABORAL (OSEL) CALLAO",
+    value: "OBSERVATORIO SOCIO ECONÓMICO LABORAL (OSEL) CALLAO",
+  },
+  {
+    label: "OBSERVATORIO SOCIO ECONÓMICO LABORAL (OSEL) LIMA SUR",
+    value: "OBSERVATORIO SOCIO ECONÓMICO LABORAL (OSEL) LIMA SUR",
+  },
+  {
+    label: "ODEBRECHT",
+    value: "ODEBRECHT",
+  },
+  {
+    label: "ODEC",
+    value: "ODEC",
+  },
+  {
+    label: "ODPE",
+    value: "ODPE",
+  },
+  {
+    label: "ODPE SAN MARTÍN",
+    value: "ODPE SAN MARTÍN",
+  },
+  {
+    label: "Oechsle",
+    value: "Oechsle",
+  },
+  {
+    label: "Oechsle- Tiendas Peruanas SAC",
+    value: "Oechsle- Tiendas Peruanas SAC",
+  },
+  {
+    label: "OESIA GRUPO",
+    value: "OESIA GRUPO",
+  },
+  {
+    label: "OFCINA DE PLAINIFICACIÓN Y MEDICIÓN DE LA CALIDAD EDUCATIVA",
+    value: "OFCINA DE PLAINIFICACIÓN Y MEDICIÓN DE LA CALIDAD EDUCATIVA",
+  },
+  {
+    label: "OFICINA CENTRAL DE PROCESOS ELECTORALES",
+    value: "OFICINA CENTRAL DE PROCESOS ELECTORALES",
+  },
+  {
+    label: "OFICINA DE BECAS PREGRADO",
+    value: "OFICINA DE BECAS PREGRADO",
+  },
+  {
+    label: "OFICINA DE COORDINACIÓN REGIONAL DEL MINEDU",
+    value: "OFICINA DE COORDINACIÓN REGIONAL DEL MINEDU",
+  },
+  {
+    label: "OFICINA DE INFORMÁTICA ",
+    value: "OFICINA DE INFORMÁTICA ",
+  },
+  {
+    label: "OFICINA DE INFORMÁTICA Y ESTADÍSTICA-OFINE-MEF",
+    value: "OFICINA DE INFORMÁTICA Y ESTADÍSTICA-OFINE-MEF",
+  },
+  {
+    label: "OFICINA DE LA UNIDAD EJECUTORA N 300 EDUCACIÓN DE SAN MARTÍN",
+    value: "OFICINA DE LA UNIDAD EJECUTORA N 300 EDUCACIÓN DE SAN MARTÍN",
+  },
+  {
+    label: "OFICINA DEPARTAMENTAL DE ESTADÍSTICA E INFORMÁTICA DE PIURA",
+    value: "OFICINA DEPARTAMENTAL DE ESTADÍSTICA E INFORMÁTICA DE PIURA",
+  },
+  {
+    label: "OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES SANTA",
+    value: "OFICINA DESCENTRALIZADA DE PROCESOS ELECTORALES SANTA",
+  },
+  {
+    label: "OFICINA DIOCESANA DE EDCUACIÓN CATÓLICO PREFATURA DE SICUAN",
+    value: "OFICINA DIOCESANA DE EDCUACIÓN CATÓLICO PREFATURA DE SICUAN",
+  },
+  {
+    label: "OFICINA DIOCESANA DE EDUCACIÓN CATÓLICA",
+    value: "OFICINA DIOCESANA DE EDUCACIÓN CATÓLICA",
+  },
+  {
+    label: "OFICINA DIOCESANA DE EDUCACIÓN CATÓLICA PASCO",
+    value: "OFICINA DIOCESANA DE EDUCACIÓN CATÓLICA PASCO",
+  },
+  {
+    label: "OFICINA INTERNACIONAL DEL TRABAJO",
+    value: "OFICINA INTERNACIONAL DEL TRABAJO",
+  },
+  {
+    label: "OFICINA INTERNACIONAL DEL TRABAJO-OIT",
+    value: "OFICINA INTERNACIONAL DEL TRABAJO-OIT",
+  },
+  {
+    label: "OFICINA NACIONAL DE COOPERACIÓN POPULAR UNIDAD OPERATIVA AREQUIPA",
+    value: "OFICINA NACIONAL DE COOPERACIÓN POPULAR UNIDAD OPERATIVA AREQUIPA",
+  },
+  {
+    label: "OFICINA NACIONAL DE PROCESO ELECTORAL",
+    value: "OFICINA NACIONAL DE PROCESO ELECTORAL",
+  },
+  {
+    label: "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+    value: "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+  },
+  {
+    label: "OFICINA NACIONAL DE PROCESOS ELECTORALES ONPE",
+    value: "OFICINA NACIONAL DE PROCESOS ELECTORALES ONPE",
+  },
+  {
+    label: "OFICINA NACIONAL DE PROCESOS SECTORIALES",
+    value: "OFICINA NACIONAL DE PROCESOS SECTORIALES",
+  },
+  {
+    label: "OFICINA REGIONAL DE JUANJUI DE LA OFICINA REGISTRAL REGIONAL",
+    value: "OFICINA REGIONAL DE JUANJUI DE LA OFICINA REGISTRAL REGIONAL",
+  },
+  {
+    label: "OFICINA UNIVERSITARIA DE RECURSOS HUMANOS",
+    value: "OFICINA UNIVERSITARIA DE RECURSOS HUMANOS",
+  },
+  {
+    label: "OFICINA ZONAL DE PASCO FONCODES",
+    value: "OFICINA ZONAL DE PASCO FONCODES",
+  },
+  {
+    label: "OFITECNI EIRL",
+    value: "OFITECNI EIRL",
+  },
+  {
+    label: "OIKOS",
+    value: "OIKOS",
+  },
+  {
+    label: "OLEGIO  NACIONAL INTEGRADO N 34047",
+    value: "OLEGIO  NACIONAL INTEGRADO N 34047",
+  },
+  {
+    label: "OLISAC OPERADORA LOGÍSTICA INTEGRA SAC",
+    value: "OLISAC OPERADORA LOGÍSTICA INTEGRA SAC",
+  },
+  {
+    label: "OLIVOS DEL SUR SAC",
+    value: "OLIVOS DEL SUR SAC",
+  },
+  {
+    label: "ONCOCENTER PERU SAC",
+    value: "ONCOCENTER PERU SAC",
+  },
+  {
+    label: "ONF ANDINA",
+    value: "ONF ANDINA",
+  },
+  {
+    label:
+      "ONG  ASOCIACIÓN EVANGÉLICA LUTERANA DE AYUDA PARA EL DESARROLLO COMUNAL DIACONIA",
+    value:
+      "ONG  ASOCIACIÓN EVANGÉLICA LUTERANA DE AYUDA PARA EL DESARROLLO COMUNAL DIACONIA",
+  },
+  {
+    label: "ONG ADES FINANDES",
+    value: "ONG ADES FINANDES",
+  },
+  {
+    label: "ONG ASDES",
+    value: "ONG ASDES",
+  },
+  {
+    label: "ONG ASOCIACIÓN KUSI WARMA",
+    value: "ONG ASOCIACIÓN KUSI WARMA",
+  },
+  {
+    label: "ONG CESAL COOPERACIÓN AL DESARROLLO",
+    value: "ONG CESAL COOPERACIÓN AL DESARROLLO",
+  },
+  {
+    label: "ONG FOMENTO DE LA VIDA- FOVIDA",
+    value: "ONG FOMENTO DE LA VIDA- FOVIDA",
+  },
+  {
+    label: "ONG GLOBAL HUMANITARIA PERÚ",
+    value: "ONG GLOBAL HUMANITARIA PERÚ",
+  },
+  {
+    label: "ONG INSTITUTO DE INVESTIGACIÓN Y PROMOCIÓN SOCIAL DEL NORTE",
+    value: "ONG INSTITUTO DE INVESTIGACIÓN Y PROMOCIÓN SOCIAL DEL NORTE",
+  },
+  {
+    label: "ONG INTEGRACIÓN Y SOLIDARIDAD",
+    value: "ONG INTEGRACIÓN Y SOLIDARIDAD",
+  },
+  {
+    label: "ONG ODS",
+    value: "ONG ODS",
+  },
+  {
+    label: "ONG TIERRA DE NIÑOS",
+    value: "ONG TIERRA DE NIÑOS",
+  },
+  {
+    label: "ONG VISIÓN SOLIDARIA VISO",
+    value: "ONG VISIÓN SOLIDARIA VISO",
+  },
+  {
+    label: "ONGD ASOCIACIÓN PARA EL DESARROLLO DEL ENTORNO ",
+    value: "ONGD ASOCIACIÓN PARA EL DESARROLLO DEL ENTORNO ",
+  },
+  {
+    label: "ONGD ASPECTURIN",
+    value: "ONGD ASPECTURIN",
+  },
+  {
+    label: "ONPE",
+    value: "ONPE",
+  },
+  {
+    label: "OPERADOR TÉCNICO SOCIAL",
+    value: "OPERADOR TÉCNICO SOCIAL",
+  },
+  {
+    label: "ORDELISE ORGANIZACIÓN POR LA DEFENSA DE LA LIBERTAD SEXUAL",
+    value: "ORDELISE ORGANIZACIÓN POR LA DEFENSA DE LA LIBERTAD SEXUAL",
+  },
+  {
+    label: "ORGANISMO DE EVALUACIÓN Y FISCALIZACIÓN ABIENTAL OEFA",
+    value: "ORGANISMO DE EVALUACIÓN Y FISCALIZACIÓN ABIENTAL OEFA",
+  },
+  {
+    label: "ORGANISMO DE FORMALIZACIÓN DE LA PROPIEDAD INFORMAL COFOPRI- PIURA",
+    value: "ORGANISMO DE FORMALIZACIÓN DE LA PROPIEDAD INFORMAL COFOPRI- PIURA",
+  },
+  {
+    label:
+      "ORGANISMO DE SUPERVISIÓN DE LOS RECURSOS FORESALES Y DE FAUNA SILVESTRE OSINFOR",
+    value:
+      "ORGANISMO DE SUPERVISIÓN DE LOS RECURSOS FORESALES Y DE FAUNA SILVESTRE OSINFOR",
+  },
+  {
+    label: "ORGANIZACIÓN CAMPA ASHANINKA DEL RIO ",
+    value: "ORGANIZACIÓN CAMPA ASHANINKA DEL RIO ",
+  },
+  {
+    label: "ORGANIZACIÓN DE ESTADOS IBEROAMERICANOS",
+    value: "ORGANIZACIÓN DE ESTADOS IBEROAMERICANOS",
+  },
+  {
+    label: "ORGANIZACIÓN DE ESTADOS IBEROAMERICANOS OEI",
+    value: "ORGANIZACIÓN DE ESTADOS IBEROAMERICANOS OEI",
+  },
+  {
+    label:
+      "ORGANIZACIÓN DE ESTADOS IBEROAMERICANOS PARA LA EDUCACIÓN LA CIENCIA Y LA CULTURA",
+    value:
+      "ORGANIZACIÓN DE ESTADOS IBEROAMERICANOS PARA LA EDUCACIÓN LA CIENCIA Y LA CULTURA",
+  },
+  {
+    label: "ORGANIZACIÓN DE ESTADOS INTEROAMERICANOS",
+    value: "ORGANIZACIÓN DE ESTADOS INTEROAMERICANOS",
+  },
+  {
+    label:
+      "ORGANIZACIÓN DE LAS NACIONES UNIDAS PARA LA ALIMENTACIÓN Y LA AGRICULTURA",
+    value:
+      "ORGANIZACIÓN DE LAS NACIONES UNIDAS PARA LA ALIMENTACIÓN Y LA AGRICULTURA",
+  },
+  {
+    label:
+      "ORGANIZACIÓN DE LAS NACIONES UNIDAS PARA LA EDUCACIÓN, LA CIENCIA Y LA CULTURA",
+    value:
+      "ORGANIZACIÓN DE LAS NACIONES UNIDAS PARA LA EDUCACIÓN, LA CIENCIA Y LA CULTURA",
+  },
+  {
+    label:
+      "ORGANIZACIÓN DE LAS NACIONES UNIDAS PARA LA EDUCACIÓN, LA CIENCIA Y LA CULTURA-UNESCO- PERÚ",
+    value:
+      "ORGANIZACIÓN DE LAS NACIONES UNIDAS PARA LA EDUCACIÓN, LA CIENCIA Y LA CULTURA-UNESCO- PERÚ",
+  },
+  {
+    label: "ORGANIZACIÓN DE NACIONES UNIDAS PARA LA AGRICULTURA (FAO)",
+    value: "ORGANIZACIÓN DE NACIONES UNIDAS PARA LA AGRICULTURA (FAO)",
+  },
+  {
+    label: "ORGANIZACIÓN INTERNACIONAL DEL TRABAJO",
+    value: "ORGANIZACIÓN INTERNACIONAL DEL TRABAJO",
+  },
+  {
+    label: "ORGANIZACIÓN PARA EL DESARROLLO SOSTENIBLE ONG ODS",
+    value: "ORGANIZACIÓN PARA EL DESARROLLO SOSTENIBLE ONG ODS",
+  },
+  {
+    label: "ORGANIZACIÓN REGIONAL AIDESEP UCAYALI ORAU",
+    value: "ORGANIZACIÓN REGIONAL AIDESEP UCAYALI ORAU",
+  },
+  {
+    label: "ORGANIZACIÓN RERESENTATIVA DE LA COMUNIDAD ORC",
+    value: "ORGANIZACIÓN RERESENTATIVA DE LA COMUNIDAD ORC",
+  },
+  {
+    label: "ORGANIZACIONE AIIDE AU DEVELOPMENT GEMBLOUX ADG",
+    value: "ORGANIZACIONE AIIDE AU DEVELOPMENT GEMBLOUX ADG",
+  },
+  {
+    label: "ORIENTAL CONSULTANTS GLOBAL CO, LTD",
+    value: "ORIENTAL CONSULTANTS GLOBAL CO, LTD",
+  },
+  {
+    label: "OSINFOR",
+    value: "OSINFOR",
+  },
+  {
+    label: "OSOLARIS PERÚ",
+    value: "OSOLARIS PERÚ",
+  },
+  {
+    label: "OVERALL STRATEGY",
+    value: "OVERALL STRATEGY",
+  },
+  {
+    label: "OVERSEAS STRATEGIC CONSULTING. LTD (OSC)",
+    value: "OVERSEAS STRATEGIC CONSULTING. LTD (OSC)",
+  },
+  {
+    label: "P6G CONSULTING SAC",
+    value: "P6G CONSULTING SAC",
+  },
+  {
+    label: "PAEBA PERÚ",
+    value: "PAEBA PERÚ",
+  },
+  {
+    label: "PAEM GROUP",
+    value: "PAEM GROUP",
+  },
+  {
+    label: "PAMER ACADEMIAS",
+    value: "PAMER ACADEMIAS",
+  },
+  {
+    label: "PANAMERICANA TELEVISIÓN",
+    value: "PANAMERICANA TELEVISIÓN",
+  },
+  {
+    label: "PANAMERICANA TELEVISIÓN PERUANA",
+    value: "PANAMERICANA TELEVISIÓN PERUANA",
+  },
+  {
+    label: "PARROQUIA SAN PEDRO APOSTOL ",
+    value: "PARROQUIA SAN PEDRO APOSTOL ",
+  },
+  {
+    label: "PARROQUIA SANTA MÓNICA BOCANEGRA-CALLAO",
+    value: "PARROQUIA SANTA MÓNICA BOCANEGRA-CALLAO",
+  },
+  {
+    label: "PARROQUIA SNA PEDRO APOSTOL",
+    value: "PARROQUIA SNA PEDRO APOSTOL",
+  },
+  {
+    label: "PARSALUD II",
+    value: "PARSALUD II",
+  },
+  {
+    label: "PASTORAL JUVENIL",
+    value: "PASTORAL JUVENIL",
+  },
+  {
+    label: "PATHFINDER INTERNATIONAL",
+    value: "PATHFINDER INTERNATIONAL",
+  },
+  {
+    label: "PAVCO DEL PERÚ SA",
+    value: "PAVCO DEL PERÚ SA",
+  },
+  {
+    label: "PAZ HERMOZA INGENIEROS",
+    value: "PAZ HERMOZA INGENIEROS",
+  },
+  {
+    label: "PDA AUCALOMA",
+    value: "PDA AUCALOMA",
+  },
+  {
+    label: "PEMO CONTRATISTAS Y CONSULTORES SRL",
+    value: "PEMO CONTRATISTAS Y CONSULTORES SRL",
+  },
+  {
+    label: "PEÑARANDA AUDITORES Y ASOCIACIADOS SAC",
+    value: "PEÑARANDA AUDITORES Y ASOCIACIADOS SAC",
+  },
+  {
+    label: "PEÑARANDA AUDITORES Y ASOCIADOS SAC",
+    value: "PEÑARANDA AUDITORES Y ASOCIADOS SAC",
+  },
+  {
+    label: "PEREZ & CASTRO ING S S CIVIL DE RL",
+    value: "PEREZ & CASTRO ING S S CIVIL DE RL",
+  },
+  {
+    label: "PERFORACIONES E INGENIERÍA PERÚ",
+    value: "PERFORACIONES E INGENIERÍA PERÚ",
+  },
+  {
+    label: "PERSALUD S.A EPS (BIEN ASI TE QUEREMOS nombre comercial)",
+    value: "PERSALUD S.A EPS (BIEN ASI TE QUEREMOS nombre comercial)",
+  },
+  {
+    label: "PERÚ EN ACCIÓN",
+    value: "PERÚ EN ACCIÓN",
+  },
+  {
+    label: "PERÚ PETRO",
+    value: "PERÚ PETRO",
+  },
+  {
+    label: "PERÚEDUCA",
+    value: "PERÚEDUCA",
+  },
+  {
+    label: "PETROBRAS",
+    value: "PETROBRAS",
+  },
+  {
+    label: "PG CONSTRUCCIONES CA",
+    value: "PG CONSTRUCCIONES CA",
+  },
+  {
+    label: "PISCIGRANJA SELVA CENTRAL",
+    value: "PISCIGRANJA SELVA CENTRAL",
+  },
+  {
+    label: "PISONAY REPRESENTACIONES TURÍSTICAS",
+    value: "PISONAY REPRESENTACIONES TURÍSTICAS",
+  },
+  {
+    label: "PLAN INTERNACIONAL",
+    value: "PLAN INTERNACIONAL",
+  },
+  {
+    label: "PLAN INTERNACIONAL PERÚ",
+    value: "PLAN INTERNACIONAL PERÚ",
+  },
+  {
+    label: "PLAN INTERNATIONAL",
+    value: "PLAN INTERNATIONAL",
+  },
+  {
+    label: "PLANTA DE TRATAMIENTO DE AGUAS RESIDUALES",
+    value: "PLANTA DE TRATAMIENTO DE AGUAS RESIDUALES",
+  },
+  {
+    label: "PLENO INGENIERÍA SOCIAL SAC",
+    value: "PLENO INGENIERÍA SOCIAL SAC",
+  },
+  {
+    label: "PLUSPETROL",
+    value: "PLUSPETROL",
+  },
+  {
+    label: "PNUD PERÚ",
+    value: "PNUD PERÚ",
+  },
+  {
+    label: "POCH",
+    value: "POCH",
+  },
+  {
+    label: "POCH PERU",
+    value: "POCH PERU",
+  },
+  {
+    label: "POCH PERÚ SA",
+    value: "POCH PERÚ SA",
+  },
+  {
+    label:
+      "PODEMOS: EDUCACIÓN PARA EL DESARROLLO SOSTENIBLE EN LA AMAZONÍA PERUANA",
+    value:
+      "PODEMOS: EDUCACIÓN PARA EL DESARROLLO SOSTENIBLE EN LA AMAZONÍA PERUANA",
+  },
+  {
+    label: "PODER JUDICIAL",
+    value: "PODER JUDICIAL",
+  },
+  {
+    label: "PODER JUDICIAL DEL CUSCO Y COTABAMBAS",
+    value: "PODER JUDICIAL DEL CUSCO Y COTABAMBAS",
+  },
+  {
+    label: "POÉMAPE'S PROYECTOS & CONSULTORÍAS",
+    value: "POÉMAPE'S PROYECTOS & CONSULTORÍAS",
+  },
+  {
+    label: "POLICÍA NACIONAL DEL PERÚ",
+    value: "POLICÍA NACIONAL DEL PERÚ",
+  },
+  {
+    label: "PONTIFICIA UNIVERSIDAD CATÓLICA",
+    value: "PONTIFICIA UNIVERSIDAD CATÓLICA",
+  },
+  {
+    label: "PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ",
+    value: "PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ",
+  },
+  {
+    label: "PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ INNOVA PUCP",
+    value: "PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ INNOVA PUCP",
+  },
+  {
+    label:
+      "PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ. CENTRO DE ANÁLISIS Y RESOLUCIÓN DE CONFLICTOS",
+    value:
+      "PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ. CENTRO DE ANÁLISIS Y RESOLUCIÓN DE CONFLICTOS",
+  },
+  {
+    label:
+      "PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ. CENTRO DE EDUCACIÓN CONTINUA",
+    value:
+      "PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ. CENTRO DE EDUCACIÓN CONTINUA",
+  },
+  {
+    label:
+      "PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ. FACULTAD DE CIENCIAS E INGENIERÍA",
+    value:
+      "PONTIFICIA UNIVERSIDAD CATÓLICA DEL PERÚ. FACULTAD DE CIENCIAS E INGENIERÍA",
+  },
+  {
+    label: "PONTIFICIA UNIVERSIDADA CATÓLICA",
+    value: "PONTIFICIA UNIVERSIDADA CATÓLICA",
+  },
+  {
+    label: "Popular Y Porvenir Compañía De Seguros",
+    value: "Popular Y Porvenir Compañía De Seguros",
+  },
+  {
+    label: "PQ PLANEAMIENTO & GESTIÓN",
+    value: "PQ PLANEAMIENTO & GESTIÓN",
+  },
+  {
+    label: "PRACTICAL ACTION",
+    value: "PRACTICAL ACTION",
+  },
+  {
+    label: "PRADERA PROGRAMA DE APOYO AL DESARROLLO RURAL ANDINO",
+    value: "PRADERA PROGRAMA DE APOYO AL DESARROLLO RURAL ANDINO",
+  },
+  {
+    label: "PREMIO COPÉ",
+    value: "PREMIO COPÉ",
+  },
+  {
+    label: "PRENSA POPULAR SAC",
+    value: "PRENSA POPULAR SAC",
+  },
+  {
+    label: "PRESIDENCIA DE CONSEJO DE MINISTROS",
+    value: "PRESIDENCIA DE CONSEJO DE MINISTROS",
+  },
+  {
+    label: "PRESIDENCIA DE LA REPÚBLICA",
+    value: "PRESIDENCIA DE LA REPÚBLICA",
+  },
+  {
+    label: "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+    value: "PRESIDENCIA DEL CONSEJO DE MINISTROS",
+  },
+  {
+    label: "PRESIDENTE DE ASOCIACIÓN CENTRO TRAMA",
+    value: "PRESIDENTE DE ASOCIACIÓN CENTRO TRAMA",
+  },
+  {
+    label: "PRGRAMA NACIONAL DE BECAS Y CRÉDITO EDUCATIVO",
+    value: "PRGRAMA NACIONAL DE BECAS Y CRÉDITO EDUCATIVO",
+  },
+  {
+    label:
+      "PRGRAMA NACIONAL DE MANEJO DE CUENCAS HIDROGRAFICAS Y CONSERVACIÓN DE SUELOS",
+    value:
+      "PRGRAMA NACIONAL DE MANEJO DE CUENCAS HIDROGRAFICAS Y CONSERVACIÓN DE SUELOS",
+  },
+  {
+    label: "PRICEWATERHOUSECOOPERS S. CIVIL DE R.L.",
+    value: "PRICEWATERHOUSECOOPERS S. CIVIL DE R.L.",
+  },
+  {
+    label:
+      "PRICEWATERHOUSECOOPERS SOCIEDADA CIVIL DE RESPONSABILIDAD LIMITADA- S.C.R.L",
+    value:
+      "PRICEWATERHOUSECOOPERS SOCIEDADA CIVIL DE RESPONSABILIDAD LIMITADA- S.C.R.L",
+  },
+  {
+    label: "PRIMARIA N 34359",
+    value: "PRIMARIA N 34359",
+  },
+  {
+    label: "PRIMARIA N 34530",
+    value: "PRIMARIA N 34530",
+  },
+  {
+    label: "PRIMER COLEGIO NACIONAL ROSA DE SANTA MARÍA",
+    value: "PRIMER COLEGIO NACIONAL ROSA DE SANTA MARÍA",
+  },
+  {
+    label: "PRISMA",
+    value: "PRISMA",
+  },
+  {
+    label: "PROAGUA - GTZ",
+    value: "PROAGUA - GTZ",
+  },
+  {
+    label: "PROAGUA - GTZ - FCPA",
+    value: "PROAGUA - GTZ - FCPA",
+  },
+  {
+    label: "PROAGUA PROGRAMA DE AGUA POTABLE Y ALCANTARILLADO",
+    value: "PROAGUA PROGRAMA DE AGUA POTABLE Y ALCANTARILLADO",
+  },
+  {
+    label: "PROAMBIENTE",
+    value: "PROAMBIENTE",
+  },
+  {
+    label: "PROAMBIENTE SA",
+    value: "PROAMBIENTE SA",
+  },
+  {
+    label: "PROCOMPITE",
+    value: "PROCOMPITE",
+  },
+  {
+    label: "PROCONUNI SRL",
+    value: "PROCONUNI SRL",
+  },
+  {
+    label: "PRODELICA PROYECTO DE DESARROLLO INTEGRAL",
+    value: "PRODELICA PROYECTO DE DESARROLLO INTEGRAL",
+  },
+  {
+    label: "PRODERN",
+    value: "PRODERN",
+  },
+  {
+    label: "PRODUCCIÓN ECOLÓGICA PERÚ",
+    value: "PRODUCCIÓN ECOLÓGICA PERÚ",
+  },
+  {
+    label: "PRODUCTORA BUS TV",
+    value: "PRODUCTORA BUS TV",
+  },
+  {
+    label: "PROESMIN",
+    value: "PROESMIN",
+  },
+  {
+    label: "PROEXPANSION",
+    value: "PROEXPANSION",
+  },
+  {
+    label: "PROGRAA EDUCACIÓN BÁSICA PARA TODOS",
+    value: "PROGRAA EDUCACIÓN BÁSICA PARA TODOS",
+  },
+  {
+    label: "PROGRAA LABORAL DE DESARROLLO PLAEDES ",
+    value: "PROGRAA LABORAL DE DESARROLLO PLAEDES ",
+  },
+  {
+    label: "PROGRAA NACIONAL CONTRA LA VIOLENCIA FAMILIAR Y SEXUAL ",
+    value: "PROGRAA NACIONAL CONTRA LA VIOLENCIA FAMILIAR Y SEXUAL ",
+  },
+  {
+    label: "PROGRAMA  NACIONAL PRONAMA",
+    value: "PROGRAMA  NACIONAL PRONAMA",
+  },
+  {
+    label: "PROGRAMA CUNA MÁS",
+    value: "PROGRAMA CUNA MÁS",
+  },
+  {
+    label: "PROGRAMA DE ACTUALIZACIÓN DOCENTE",
+    value: "PROGRAMA DE ACTUALIZACIÓN DOCENTE",
+  },
+  {
+    label: "PROGRAMA DE ACTUALIZACIÓN DOCENTE  PAD EN DIDÁCTICA",
+    value: "PROGRAMA DE ACTUALIZACIÓN DOCENTE  PAD EN DIDÁCTICA",
+  },
+  {
+    label:
+      "PROGRAMA DE ALFABETIZACIÓN DE EDUCACIÓN BÁSICA DE JOVENES Y ADULTOS –PAEBA",
+    value:
+      "PROGRAMA DE ALFABETIZACIÓN DE EDUCACIÓN BÁSICA DE JOVENES Y ADULTOS –PAEBA",
+  },
+  {
+    label: "PROGRAMA DE APOYO A LA REFORMA DEL SECTOR SALUD (PARSALUD)",
+    value: "PROGRAMA DE APOYO A LA REFORMA DEL SECTOR SALUD (PARSALUD)",
+  },
+  {
+    label: "PROGRAMA DE APOYO A LA REFORMA DEL SECTOR SALUD-PARSALUD",
+    value: "PROGRAMA DE APOYO A LA REFORMA DEL SECTOR SALUD-PARSALUD",
+  },
+  {
+    label:
+      "PROGRAMA DE APOYO AL REPOBLAMIENTO Y DESARROLLO DE ZONAS DE EMERGENCIA (PAR)",
+    value:
+      "PROGRAMA DE APOYO AL REPOBLAMIENTO Y DESARROLLO DE ZONAS DE EMERGENCIA (PAR)",
+  },
+  {
+    label: "PROGRAMA DE ATENCIÓN EDUCATIVA INTEGRAL A LA INFANCIA, PAEI",
+    value: "PROGRAMA DE ATENCIÓN EDUCATIVA INTEGRAL A LA INFANCIA, PAEI",
+  },
+  {
+    label: "PROGRAMA DE DESARROLLO ALTERNATIVO EN LAS ÁREAS DE POZUZO",
+    value: "PROGRAMA DE DESARROLLO ALTERNATIVO EN LAS ÁREAS DE POZUZO",
+  },
+  {
+    label: "PROGRAMA DE DESARROLLO PRODUCTIVO AGRORURAL",
+    value: "PROGRAMA DE DESARROLLO PRODUCTIVO AGRORURAL",
+  },
+  {
+    label: "PROGRAMA DE EDUCACIÓN BÁSICA PARA TODOS",
+    value: "PROGRAMA DE EDUCACIÓN BÁSICA PARA TODOS",
+  },
+  {
+    label: "PROGRAMA DE EDUCACIÓN BUSCA PROEDUCA",
+    value: "PROGRAMA DE EDUCACIÓN BUSCA PROEDUCA",
+  },
+  {
+    label: "PROGRAMA DE EDUCACIÓN EN ÁREAS RURALES",
+    value: "PROGRAMA DE EDUCACIÓN EN ÁREAS RURALES",
+  },
+  {
+    label: "PROGRAMA DE EDUCACIÓN LOGROS DE APRENDIZAJE",
+    value: "PROGRAMA DE EDUCACIÓN LOGROS DE APRENDIZAJE",
+  },
+  {
+    label: "PROGRAMA DE ESPECIALIZACIÓN DOCENTE ",
+    value: "PROGRAMA DE ESPECIALIZACIÓN DOCENTE ",
+  },
+  {
+    label:
+      "PROGRAMA DE ESPECIALIZACIÓN EN CIENCIA TECNOLOGÍA Y AMBIENTE DIRIGIDO A  DOCENTES DEL NIVEL SECUNDARIA DE EDUCACIÓN BÁSICA REGULAR",
+    value:
+      "PROGRAMA DE ESPECIALIZACIÓN EN CIENCIA TECNOLOGÍA Y AMBIENTE DIRIGIDO A  DOCENTES DEL NIVEL SECUNDARIA DE EDUCACIÓN BÁSICA REGULAR",
+  },
+  {
+    label: "PROGRAMA DE ESPECIALIZACIÓN EN COMUNICACIÓN Y MATEMÁTICA PRONAFCAP",
+    value: "PROGRAMA DE ESPECIALIZACIÓN EN COMUNICACIÓN Y MATEMÁTICA PRONAFCAP",
+  },
+  {
+    label: "PROGRAMA DE ESTUDIOS DE LA ESCUELA NAVAL DEL PERÚ",
+    value: "PROGRAMA DE ESTUDIOS DE LA ESCUELA NAVAL DEL PERÚ",
+  },
+  {
+    label: "PROGRAMA DE FORMACIÓN DE MAESTROS BILINGÜES",
+    value: "PROGRAMA DE FORMACIÓN DE MAESTROS BILINGÜES",
+  },
+  {
+    label:
+      "PROGRAMA DE FORMACIÓN EN EDUCACIÓN INTERCULTURAL BILINGÜE PARA LOS PAÍSES ANDINOS",
+    value:
+      "PROGRAMA DE FORMACIÓN EN EDUCACIÓN INTERCULTURAL BILINGÜE PARA LOS PAÍSES ANDINOS",
+  },
+  {
+    label:
+      "PROGRAMA DE FORMACIÓN EN EDUCACIÓN INTERCULTURAL BILINGÜE PARA LOS PAÍSES ANDINOS PROEIB ANDES",
+    value:
+      "PROGRAMA DE FORMACIÓN EN EDUCACIÓN INTERCULTURAL BILINGÜE PARA LOS PAÍSES ANDINOS PROEIB ANDES",
+  },
+  {
+    label: "PROGRAMA DE FORMACIÓN Y CAPACITACIÓN PERMANENTE PRONAFCAP",
+    value: "PROGRAMA DE FORMACIÓN Y CAPACITACIÓN PERMANENTE PRONAFCAP",
+  },
+  {
+    label: "PROGRAMA DE GESTIÓN URBANA DE NACIONES UNIDAS",
+    value: "PROGRAMA DE GESTIÓN URBANA DE NACIONES UNIDAS",
+  },
+  {
+    label:
+      "PROGRAMA DE INVERSIÓN PÚBLICA EN EDUCACIÓN- GOBIERNO REGIONAL DE CAJAMARCA",
+    value:
+      "PROGRAMA DE INVERSIÓN PÚBLICA EN EDUCACIÓN- GOBIERNO REGIONAL DE CAJAMARCA",
+  },
+  {
+    label: "PROGRAMA DE LAS NACIONES UNIDADES PARA EL DESARROLLO",
+    value: "PROGRAMA DE LAS NACIONES UNIDADES PARA EL DESARROLLO",
+  },
+  {
+    label: "PROGRAMA DE LAS NACIONES UNIDAS PARA EL DESARROLLO",
+    value: "PROGRAMA DE LAS NACIONES UNIDAS PARA EL DESARROLLO",
+  },
+  {
+    label: "PROGRAMA DE MODERNIZACIÓN Y DESCENTRALIZACIÓN DEL ESTADO",
+    value: "PROGRAMA DE MODERNIZACIÓN Y DESCENTRALIZACIÓN DEL ESTADO",
+  },
+  {
+    label: "PROGRAMA DE NACIONES UNIDAS PARA EL DESARROLLO (PNUD)",
+    value: "PROGRAMA DE NACIONES UNIDAS PARA EL DESARROLLO (PNUD)",
+  },
+  {
+    label: "PROGRAMA DE REPRESENTACIONES COLECTIVAS",
+    value: "PROGRAMA DE REPRESENTACIONES COLECTIVAS",
+  },
+  {
+    label: "PROGRAMA DE SEGUNDA ESPECIALIDAD EN DIDÁCTICA",
+    value: "PROGRAMA DE SEGUNDA ESPECIALIDAD EN DIDÁCTICA",
+  },
+  {
+    label: "PROGRAMA EDUCACIÓN BÁSICA",
+    value: "PROGRAMA EDUCACIÓN BÁSICA",
+  },
+  {
+    label: "PROGRAMA EDUCACIÓN BÁSICA PARA TODOS",
+    value: "PROGRAMA EDUCACIÓN BÁSICA PARA TODOS",
+  },
+  {
+    label:
+      "PROGRAMA EDUCACIÓN BÁSICA PARA TODOS. DIRECCIÓN DE EDUCACIÓN SECUNDARIA",
+    value:
+      "PROGRAMA EDUCACIÓN BÁSICA PARA TODOS. DIRECCIÓN DE EDUCACIÓN SECUNDARIA",
+  },
+  {
+    label: "PROGRAMA EDUCACIÓN PARA TODOS",
+    value: "PROGRAMA EDUCACIÓN PARA TODOS",
+  },
+  {
+    label: "PROGRAMA EDUCCIÓN BÁSICA PARA TODOS",
+    value: "PROGRAMA EDUCCIÓN BÁSICA PARA TODOS",
+  },
+  {
+    label: "PROGRAMA ESPECIAL",
+    value: "PROGRAMA ESPECIAL",
+  },
+  {
+    label:
+      "PROGRAMA ESPECIAL MEJORAMIENTO DE LA CALIDAD DE LA EDUCACIÓN PRIMARIA",
+    value:
+      "PROGRAMA ESPECIAL MEJORAMIENTO DE LA CALIDAD DE LA EDUCACIÓN PRIMARIA",
+  },
+  {
+    label: "PROGRAMA ESTRATÉGICO LOGROS DE APRENDIZAJE",
+    value: "PROGRAMA ESTRATÉGICO LOGROS DE APRENDIZAJE",
+  },
+  {
+    label: "PROGRAMA HUASCARÁN",
+    value: "PROGRAMA HUASCARÁN",
+  },
+  {
+    label: "PROGRAMA IMPULSA PERÚ",
+    value: "PROGRAMA IMPULSA PERÚ",
+  },
+  {
+    label: "PROGRAMA INTEGRAL PARA EL DESARROLLO DEL CAFÉ",
+    value: "PROGRAMA INTEGRAL PARA EL DESARROLLO DEL CAFÉ",
+  },
+  {
+    label: "PROGRAMA JÓVENES A LA OBRA",
+    value: "PROGRAMA JÓVENES A LA OBRA",
+  },
+  {
+    label: "PROGRAMA JOVENES PRODUCTIVOS",
+    value: "PROGRAMA JOVENES PRODUCTIVOS",
+  },
+  {
+    label: "PROGRAMA JUNTOS",
+    value: "PROGRAMA JUNTOS",
+  },
+  {
+    label: "PROGRAMA LABORAL DE DESARROLLO",
+    value: "PROGRAMA LABORAL DE DESARROLLO",
+  },
+  {
+    label: "PROGRAMA LABORAL DE DESARROLLO (PLADES)",
+    value: "PROGRAMA LABORAL DE DESARROLLO (PLADES)",
+  },
+  {
+    label: "PROGRAMA LABORAL DE DESARROLLO PLADES",
+    value: "PROGRAMA LABORAL DE DESARROLLO PLADES",
+  },
+  {
+    label:
+      'PROGRAMA NAC PARA LA PROM DE OPORTUNIDADES LABORALES "IMPULSA PERU"',
+    value:
+      'PROGRAMA NAC PARA LA PROM DE OPORTUNIDADES LABORALES "IMPULSA PERU"',
+  },
+  {
+    label: "PROGRAMA NACIONAL  DE VIVIENDA RURAL",
+    value: "PROGRAMA NACIONAL  DE VIVIENDA RURAL",
+  },
+  {
+    label: "PROGRAMA NACIONAL CONTRA LA VIOLENCIA FAMILIAR Y SEXUAL ",
+    value: "PROGRAMA NACIONAL CONTRA LA VIOLENCIA FAMILIAR Y SEXUAL ",
+  },
+  {
+    label: "PROGRAMA NACIONAL CUNA MÁS",
+    value: "PROGRAMA NACIONAL CUNA MÁS",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE ALIMENTACIÓN ESCOLAR QALI WARMA",
+    value: "PROGRAMA NACIONAL DE ALIMENTACIÓN ESCOLAR QALI WARMA",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE ALIMENTACIÓN QALI WARMA",
+    value: "PROGRAMA NACIONAL DE ALIMENTACIÓN QALI WARMA",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE APOYO DIRECTO A LOS MÁS POBRES",
+    value: "PROGRAMA NACIONAL DE APOYO DIRECTO A LOS MÁS POBRES",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE APOYO DIRECTO A LOS MÁS POBRES- JUNTOS",
+    value: "PROGRAMA NACIONAL DE APOYO DIRECTO A LOS MÁS POBRES- JUNTOS",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE ASISTENCIA ALIMENTARIA",
+    value: "PROGRAMA NACIONAL DE ASISTENCIA ALIMENTARIA",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE ASISTENCIA ALIMENTARIA PRONAA",
+    value: "PROGRAMA NACIONAL DE ASISTENCIA ALIMENTARIA PRONAA",
+  },
+  {
+    label:
+      "PROGRAMA NACIONAL DE ASISTENCIA ALIMENTARIA PRONAA DEL MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL",
+    value:
+      "PROGRAMA NACIONAL DE ASISTENCIA ALIMENTARIA PRONAA DEL MINISTERIO DE LA MUJER Y DESARROLLO SOCIAL",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE BECAS Y CRÉDITO EDUCATIVO",
+    value: "PROGRAMA NACIONAL DE BECAS Y CRÉDITO EDUCATIVO",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE EMPLEO ",
+    value: "PROGRAMA NACIONAL DE EMPLEO ",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE EMPLEO JUVENIL JOVENES A LA OBRA",
+    value: "PROGRAMA NACIONAL DE EMPLEO JUVENIL JOVENES A LA OBRA",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE EMPLEO JUVENIL JÓVENES PRODUCTIVOS",
+    value: "PROGRAMA NACIONAL DE EMPLEO JUVENIL JÓVENES PRODUCTIVOS",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE ESPECIALIZACIÓN ",
+    value: "PROGRAMA NACIONAL DE ESPECIALIZACIÓN ",
+  },
+  {
+    label:
+      "PROGRAMA NACIONAL DE ESPECIALIZACIÓN  EN EL ÁREA CIENCIA TECNOLOGÍA Y AMBIENTE PARA DOCENTES DEL NIVEL DE EDUCACIÓN SECUNDARIA ",
+    value:
+      "PROGRAMA NACIONAL DE ESPECIALIZACIÓN  EN EL ÁREA CIENCIA TECNOLOGÍA Y AMBIENTE PARA DOCENTES DEL NIVEL DE EDUCACIÓN SECUNDARIA ",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE ESPECIALIZACIÓN DOCENTE ",
+    value: "PROGRAMA NACIONAL DE ESPECIALIZACIÓN DOCENTE ",
+  },
+  {
+    label:
+      "PROGRAMA NACIONAL DE FORMACIÓN EN SERVICIOS DE EDUCACIÓN SECUNDARIA",
+    value:
+      "PROGRAMA NACIONAL DE FORMACIÓN EN SERVICIOS DE EDUCACIÓN SECUNDARIA",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE FORMACIÓN Y CAPACITACIÓN PEMANENTE",
+    value: "PROGRAMA NACIONAL DE FORMACIÓN Y CAPACITACIÓN PEMANENTE",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE FORMACIÓN Y CAPACITACIÓN PERMANENTE",
+    value: "PROGRAMA NACIONAL DE FORMACIÓN Y CAPACITACIÓN PERMANENTE",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE FORMACIÓN Y CAPACITACIÓN PERMANETE",
+    value: "PROGRAMA NACIONAL DE FORMACIÓN Y CAPACITACIÓN PERMANETE",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE FORMACIÓN Y CPAACITACIÓN PERMANETE PRONAFCAF",
+    value: "PROGRAMA NACIONAL DE FORMACIÓN Y CPAACITACIÓN PERMANETE PRONAFCAF",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE INFRAESTRUCTURA EDUCATIVA",
+    value: "PROGRAMA NACIONAL DE INFRAESTRUCTURA EDUCATIVA",
+  },
+  {
+    label: "Programa Nacional de Infraestructura Educativa -PRONIED",
+    value: "Programa Nacional de Infraestructura Educativa -PRONIED",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE MANTENIMIENTO DE INFRAESTRUCTURA",
+    value: "PROGRAMA NACIONAL DE MANTENIMIENTO DE INFRAESTRUCTURA",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE MOVILIZACIÓN POR LA ALFABETIZACIÓN PRONAMA",
+    value: "PROGRAMA NACIONAL DE MOVILIZACIÓN POR LA ALFABETIZACIÓN PRONAMA",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE SANEAMIENTO RURAL",
+    value: "PROGRAMA NACIONAL DE SANEAMIENTO RURAL",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE SANEMAIENTO RURAL",
+    value: "PROGRAMA NACIONAL DE SANEMAIENTO RURAL",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE VIVIENDA RURAL",
+    value: "PROGRAMA NACIONAL DE VIVIENDA RURAL",
+  },
+  {
+    label: "PROGRAMA NACIONAL DE VIVIENDA RURAL UNIDAD DE GESTIÓN SOCIAL",
+    value: "PROGRAMA NACIONAL DE VIVIENDA RURAL UNIDAD DE GESTIÓN SOCIAL",
+  },
+  {
+    label: "PROGRAMA NACIONAL WAWA WASI",
+    value: "PROGRAMA NACIONAL WAWA WASI",
+  },
+  {
+    label:
+      "PROGRAMA PARA EL FORTALECIMIENTO DE LA CAPACIDAD REGIONAL DE SEGUIMIENTO Y EVALUACIÓN (PREVAL)",
+    value:
+      "PROGRAMA PARA EL FORTALECIMIENTO DE LA CAPACIDAD REGIONAL DE SEGUIMIENTO Y EVALUACIÓN (PREVAL)",
+  },
+  {
+    label: "PROGRAMA PDA DE CHEMONICS INTERNACIONAL INC.",
+    value: "PROGRAMA PDA DE CHEMONICS INTERNACIONAL INC.",
+  },
+  {
+    label:
+      "PROGRAMA PRESUPUESTAL LOGROS DE APRENDIZAJE DE LOS ESTUDIANTES DE EDUCACIÓN BÁSICA REGULAR PELA",
+    value:
+      "PROGRAMA PRESUPUESTAL LOGROS DE APRENDIZAJE DE LOS ESTUDIANTES DE EDUCACIÓN BÁSICA REGULAR PELA",
+  },
+  {
+    label: "PROGRAMA PROJOVEN",
+    value: "PROGRAMA PROJOVEN",
+  },
+  {
+    label: "PROGRAMA PROMOCIÓN DE LA SALUD",
+    value: "PROGRAMA PROMOCIÓN DE LA SALUD",
+  },
+  {
+    label: "PROGRAMA QALI WARMA",
+    value: "PROGRAMA QALI WARMA",
+  },
+  {
+    label:
+      "PROGRAMA REGIONAL COMBATIR LA VIOLENCIA CONTRA LA MUJER EN LATINOAMÉRICA",
+    value:
+      "PROGRAMA REGIONAL COMBATIR LA VIOLENCIA CONTRA LA MUJER EN LATINOAMÉRICA",
+  },
+  {
+    label: "Programa Sectorial III UGEL N° 13 YAUYOS",
+    value: "Programa Sectorial III UGEL N° 13 YAUYOS",
+  },
+  {
+    label: "PROGRAMA SOCIAL DESCENTRALIZADO DE DESAYUNOS ESCOLARES",
+    value: "PROGRAMA SOCIAL DESCENTRALIZADO DE DESAYUNOS ESCOLARES",
+  },
+  {
+    label: "PROGRAMAS ALIMENTARIOS Y SALUD",
+    value: "PROGRAMAS ALIMENTARIOS Y SALUD",
+  },
+  {
+    label: "PROGRMA NACIONAL WAWA WASI",
+    value: "PROGRMA NACIONAL WAWA WASI",
+  },
+  {
+    label: "PROJECT MANAGEMENT PERÚ SAC",
+    value: "PROJECT MANAGEMENT PERÚ SAC",
+  },
+  {
+    label:
+      "PROM PERÚ COMUISIÓN DE PROMOCIÓN DEL PERÚ PARA LA EXPORTACIÓN Y EL TURISMOS",
+    value:
+      "PROM PERÚ COMUISIÓN DE PROMOCIÓN DEL PERÚ PARA LA EXPORTACIÓN Y EL TURISMOS",
+  },
+  {
+    label: "PROMCEPRI",
+    value: "PROMCEPRI",
+  },
+  {
+    label: "PROMOCIÓN Y ATENCIÓN AL INVERSIONISTA (PROINVERSIÓN)",
+    value: "PROMOCIÓN Y ATENCIÓN AL INVERSIONISTA (PROINVERSIÓN)",
+  },
+  {
+    label: "PROMOTORA LOS OLIVOS SAC",
+    value: "PROMOTORA LOS OLIVOS SAC",
+  },
+  {
+    label: "PROMUDEH",
+    value: "PROMUDEH",
+  },
+  {
+    label: "PRONAA",
+    value: "PRONAA",
+  },
+  {
+    label: "PRONAFCAP EBR",
+    value: "PRONAFCAP EBR",
+  },
+  {
+    label: "PRONAMA",
+    value: "PRONAMA",
+  },
+  {
+    label: "PRONASAR",
+    value: "PRONASAR",
+  },
+  {
+    label:
+      "PRONATURALEZA FUNDACIÓN PERUANA PARA LA CONSERVACIÓN DE LA NATURALEZA",
+    value:
+      "PRONATURALEZA FUNDACIÓN PERUANA PARA LA CONSERVACIÓN DE LA NATURALEZA",
+  },
+  {
+    label: "PRONIS",
+    value: "PRONIS",
+  },
+  {
+    label: "PRONOEI",
+    value: "PRONOEI",
+  },
+  {
+    label: "PROPIEDADES MINERAS SA",
+    value: "PROPIEDADES MINERAS SA",
+  },
+  {
+    label: "PROPOLI",
+    value: "PROPOLI",
+  },
+  {
+    label: "PRORURAL EDUCACIÓN PARA EL DESARROLLO",
+    value: "PRORURAL EDUCACIÓN PARA EL DESARROLLO",
+  },
+  {
+    label: "PROSAAMER",
+    value: "PROSAAMER",
+  },
+  {
+    label: "PROVIAS RURAL",
+    value: "PROVIAS RURAL",
+  },
+  {
+    label: "PROVIDA",
+    value: "PROVIDA",
+  },
+  {
+    label: "PROYECTA LAB SAC",
+    value: "PROYECTA LAB SAC",
+  },
+  {
+    label: "PROYECTO APRENDES UCAYALI",
+    value: "PROYECTO APRENDES UCAYALI",
+  },
+  {
+    label:
+      "PROYECTO DE DESARROLLO INTEGRAL LA LIBERTAD - CAJAMARCA (PRODELICA)",
+    value:
+      "PROYECTO DE DESARROLLO INTEGRAL LA LIBERTAD - CAJAMARCA (PRODELICA)",
+  },
+  {
+    label: "PROYECTO DE INFORMACIÓN RURAL URBANO SIRU",
+    value: "PROYECTO DE INFORMACIÓN RURAL URBANO SIRU",
+  },
+  {
+    label: "PROYECTO DE REDUCCIÓN Y ALIVIO A LA POBREZA (PRA)",
+    value: "PROYECTO DE REDUCCIÓN Y ALIVIO A LA POBREZA (PRA)",
+  },
+  {
+    label: "PROYECTO DE SANEAMIENTO BÁSICO EN LA SIERRA SUR SANBASUR",
+    value: "PROYECTO DE SANEAMIENTO BÁSICO EN LA SIERRA SUR SANBASUR",
+  },
+  {
+    label:
+      "PROYECTO DE SOLIDARIDAD INTERNACIONAL AYUDA A LAS POBLACIONES DESPLAZADAS DEL PERÚ",
+    value:
+      "PROYECTO DE SOLIDARIDAD INTERNACIONAL AYUDA A LAS POBLACIONES DESPLAZADAS DEL PERÚ",
+  },
+  {
+    label: "PROYECTO ESPECIAL ALTO MAYO",
+    value: "PROYECTO ESPECIAL ALTO MAYO",
+  },
+  {
+    label: "PROYECTO IPYMER",
+    value: "PROYECTO IPYMER",
+  },
+  {
+    label:
+      "PROYECTO MEJORAMIENTO DE LA CALIDAD DE LA EDUCACIÓN SUPERIOR PROCALIDAD",
+    value:
+      "PROYECTO MEJORAMIENTO DE LA CALIDAD DE LA EDUCACIÓN SUPERIOR PROCALIDAD",
+  },
+  {
+    label: "PROYECTO PASE",
+    value: "PROYECTO PASE",
+  },
+  {
+    label: "PROYECTO PER 6 UNFPA/INEI",
+    value: "PROYECTO PER 6 UNFPA/INEI",
+  },
+  {
+    label: "PROYECTO RECUPERACIÓN U PREVENCIÓN ANTE CATÁSTROFES NATURALES",
+    value: "PROYECTO RECUPERACIÓN U PREVENCIÓN ANTE CATÁSTROFES NATURALES",
+  },
+  {
+    label: "PROYECTO TIERRA SANA Y SOBERANA FASE II",
+    value: "PROYECTO TIERRA SANA Y SOBERANA FASE II",
+  },
+  {
+    label: "PROYECTO YPIMER",
+    value: "PROYECTO YPIMER",
+  },
+  {
+    label: "PROYECTOS ESPECIALES PACIFICO S.AC",
+    value: "PROYECTOS ESPECIALES PACIFICO S.AC",
+  },
+  {
+    label:
+      "PROYECTOS PARA LA FOCALIZACIÓN DE LA INVERSIÓN ECONÓMICA Y SOCIAL PROFINES",
+    value:
+      "PROYECTOS PARA LA FOCALIZACIÓN DE LA INVERSIÓN ECONÓMICA Y SOCIAL PROFINES",
+  },
+  {
+    label: "PSOL SAC",
+    value: "PSOL SAC",
+  },
+  {
+    label: "PTV BUSINESS S.A.C",
+    value: "PTV BUSINESS S.A.C",
+  },
+  {
+    label: "PUCP - Dr. Sinesio Lopez ",
+    value: "PUCP - Dr. Sinesio Lopez ",
+  },
+  {
+    label: "PUKUNI CONSULTORES Y SERVICIOS GENERALES S.A.C",
+    value: "PUKUNI CONSULTORES Y SERVICIOS GENERALES S.A.C",
+  },
+  {
+    label: "QUANTA SERVICES PERÚ SAC",
+    value: "QUANTA SERVICES PERÚ SAC",
+  },
+  {
+    label: "QUANTA SERVICES SAC",
+    value: "QUANTA SERVICES SAC",
+  },
+  {
+    label: "QUARTZ SERVICES SA",
+    value: "QUARTZ SERVICES SA",
+  },
+  {
+    label: "R& ÁNGELES CONSULTORES",
+    value: "R& ÁNGELES CONSULTORES",
+  },
+  {
+    label: "RAIN FOREST MANAGEMENT PRODUCTS SAC",
+    value: "RAIN FOREST MANAGEMENT PRODUCTS SAC",
+  },
+  {
+    label: "RAÍZ TE ENTIENDE TE CUMPLE",
+    value: "RAÍZ TE ENTIENDE TE CUMPLE",
+  },
+  {
+    label: "RAZON Y PALABRA",
+    value: "RAZON Y PALABRA",
+  },
+  {
+    label: "REACTIVOS MINEROS",
+    value: "REACTIVOS MINEROS",
+  },
+  {
+    label: "RECAUDADORA RECSA PERÚ SA",
+    value: "RECAUDADORA RECSA PERÚ SA",
+  },
+  {
+    label: "RECICLAYA EIRL",
+    value: "RECICLAYA EIRL",
+  },
+  {
+    label: "RECTOR ENERGÍA Y MINAS",
+    value: "RECTOR ENERGÍA Y MINAS",
+  },
+  {
+    label: "RECURSOS GERENCIALES & TECNOLOGÍA SAC",
+    value: "RECURSOS GERENCIALES & TECNOLOGÍA SAC",
+  },
+  {
+    label: "RECURSOS NATURALES Y MEDIO AMBIENTE",
+    value: "RECURSOS NATURALES Y MEDIO AMBIENTE",
+  },
+  {
+    label: "RECURSOS SAC",
+    value: "RECURSOS SAC",
+  },
+  {
+    label: "RECURSOS SAC CONSULTORÍA EMPRESARIAL",
+    value: "RECURSOS SAC CONSULTORÍA EMPRESARIAL",
+  },
+  {
+    label: "RED 11",
+    value: "RED 11",
+  },
+  {
+    label: "RED AGRONEGOCIOS DEL PERÚ",
+    value: "RED AGRONEGOCIOS DEL PERÚ",
+  },
+  {
+    label: "RED DE APOYO SOLIDARIO BUEN PASTOR RAS",
+    value: "RED DE APOYO SOLIDARIO BUEN PASTOR RAS",
+  },
+  {
+    label: "RED DE CÁRITAS DEL SUR DEL PERÚ",
+    value: "RED DE CÁRITAS DEL SUR DEL PERÚ",
+  },
+  {
+    label: "RED DE MUNICIPALES URBANAS Y RURALES DEL PERÚ",
+    value: "RED DE MUNICIPALES URBANAS Y RURALES DEL PERÚ",
+  },
+  {
+    label: "RED DE SALUD SANDIA",
+    value: "RED DE SALUD SANDIA",
+  },
+  {
+    label: "RED EDUCATIVA HUALLANCA",
+    value: "RED EDUCATIVA HUALLANCA",
+  },
+  {
+    label: "RED EDUCATIVA N 11",
+    value: "RED EDUCATIVA N 11",
+  },
+  {
+    label: "RED EDUCATIVA UNIÓN ANDINA",
+    value: "RED EDUCATIVA UNIÓN ANDINA",
+  },
+  {
+    label: "RED INTERQUORUM LAMBAYEQUE",
+    value: "RED INTERQUORUM LAMBAYEQUE",
+  },
+  {
+    label:
+      "RED NACIONAL DE AUTORES DE LIBROS DE TEXTO Y OTROS MATERIALES EDUCTIVOS IMPRESOS (REDALTES)",
+    value:
+      "RED NACIONAL DE AUTORES DE LIBROS DE TEXTO Y OTROS MATERIALES EDUCTIVOS IMPRESOS (REDALTES)",
+  },
+  {
+    label: "RED NELLY PRUDENCIO AGUI",
+    value: "RED NELLY PRUDENCIO AGUI",
+  },
+  {
+    label: "RED PERUANA DE INVESTIGACIÓN E INNOVACIÓN EDUCATIVA",
+    value: "RED PERUANA DE INVESTIGACIÓN E INNOVACIÓN EDUCATIVA",
+  },
+  {
+    label: "RED PERUANA DE PACIENTES Y USUARIOS DE SERVICIOS DE SALUD",
+    value: "RED PERUANA DE PACIENTES Y USUARIOS DE SERVICIOS DE SALUD",
+  },
+  {
+    label: "REFORESTADORA AMAZÓNICA",
+    value: "REFORESTADORA AMAZÓNICA",
+  },
+  {
+    label: "REFORESTADORA TUNUNGA",
+    value: "REFORESTADORA TUNUNGA",
+  },
+  {
+    label: "REGIÓN DE ANCASH ",
+    value: "REGIÓN DE ANCASH ",
+  },
+  {
+    label: "REGION LORETO - SEDE CENTRAL",
+    value: "REGION LORETO - SEDE CENTRAL",
+  },
+  {
+    label: "REGIÓN MOQUEGUA TACNA PUNO",
+    value: "REGIÓN MOQUEGUA TACNA PUNO",
+  },
+  {
+    label: "REGISTRO NACIONAL DE IDENTIFICACIÓN Y ESTADO CIVIL RENIEC",
+    value: "REGISTRO NACIONAL DE IDENTIFICACIÓN Y ESTADO CIVIL RENIEC",
+  },
+  {
+    label: "REKURSO CONSULTORES SAC",
+    value: "REKURSO CONSULTORES SAC",
+  },
+  {
+    label: "RENIEC",
+    value: "RENIEC",
+  },
+  {
+    label: "RENTA CAX MINERÍA Y CONSTRUCCIÓN SRL",
+    value: "RENTA CAX MINERÍA Y CONSTRUCCIÓN SRL",
+  },
+  {
+    label: "REPUBLIC BANK LIMITED",
+    value: "REPUBLIC BANK LIMITED",
+  },
+  {
+    label: "REPÚBLICA DEL PERÚ",
+    value: "REPÚBLICA DEL PERÚ",
+  },
+  {
+    label: "RESPALDO MANAGEMENT & CONSULTING S.A.C",
+    value: "RESPALDO MANAGEMENT & CONSULTING S.A.C",
+  },
+  {
+    label: "Rev Peru Med Exp Salud Publica",
+    value: "Rev Peru Med Exp Salud Publica",
+  },
+  {
+    label: "REVISTA ANDINA DE ESTUDIO POLÍTICOS",
+    value: "REVISTA ANDINA DE ESTUDIO POLÍTICOS",
+  },
+  {
+    label: "Revista Económica",
+    value: "Revista Económica",
+  },
+  {
+    label: "REVISTA FORESTL MESOAMERICANA KURÚ",
+    value: "REVISTA FORESTL MESOAMERICANA KURÚ",
+  },
+  {
+    label: "REVISTA IBEROAMERICANA DE EVALUACIÓN EDUCATIVA",
+    value: "REVISTA IBEROAMERICANA DE EVALUACIÓN EDUCATIVA",
+  },
+  {
+    label: "REVISTA MEXICANA DE INVESTIGACIÓN EDUCATIVA",
+    value: "REVISTA MEXICANA DE INVESTIGACIÓN EDUCATIVA",
+  },
+  {
+    label: "REVISTA PERUANA DE INVESTIGACIÓN EDUCATIVA",
+    value: "REVISTA PERUANA DE INVESTIGACIÓN EDUCATIVA",
+  },
+  {
+    label: "REVISTA VENEZOLANA DE INFORMACIÓN",
+    value: "REVISTA VENEZOLANA DE INFORMACIÓN",
+  },
+  {
+    label: "RGANISMO DE EVALAUCIÓN Y FISCALIZACIÓN AMBIENTAL",
+    value: "RGANISMO DE EVALAUCIÓN Y FISCALIZACIÓN AMBIENTAL",
+  },
+  {
+    label: "RGD CONSTRUCCIONES SA",
+    value: "RGD CONSTRUCCIONES SA",
+  },
+  {
+    label: "RIGHT TO PLAY INTERNACIONAL",
+    value: "RIGHT TO PLAY INTERNACIONAL",
+  },
+  {
+    label: "RIMISP",
+    value: "RIMISP",
+  },
+  {
+    label: "RIO TINTO LA GRANJA MINERÍA PERÚ LIMITADA SAC",
+    value: "RIO TINTO LA GRANJA MINERÍA PERÚ LIMITADA SAC",
+  },
+  {
+    label: "ROMAIA SAC",
+    value: "ROMAIA SAC",
+  },
+  {
+    label: "ROOTS OF PEACE",
+    value: "ROOTS OF PEACE",
+  },
+  {
+    label: "ROOTS PERÚ",
+    value: "ROOTS PERÚ",
+  },
+  {
+    label: "ROYAL BOTANICAL GARDEN KEW ",
+    value: "ROYAL BOTANICAL GARDEN KEW ",
+  },
+  {
+    label: "RPK SERVICIOS DE INGENIERÍA E.I.R.L.",
+    value: "RPK SERVICIOS DE INGENIERÍA E.I.R.L.",
+  },
+  {
+    label: "RUBINE RONALD VALLE VIVAR",
+    value: "RUBINE RONALD VALLE VIVAR",
+  },
+  {
+    label: "RUIZ REPETTO",
+    value: "RUIZ REPETTO",
+  },
+  {
+    label: "RUMI INGENIEROS GEOTÉCNICOS SAC",
+    value: "RUMI INGENIEROS GEOTÉCNICOS SAC",
+  },
+  {
+    label: "s & R Consulting Societe",
+    value: "s & R Consulting Societe",
+  },
+  {
+    label: "S & W INTERNATIONAL SWI SAC",
+    value: "S & W INTERNATIONAL SWI SAC",
+  },
+  {
+    label: "SAEXPLORATION INC SUCURSAL DEL PERÚ",
+    value: "SAEXPLORATION INC SUCURSAL DEL PERÚ",
+  },
+  {
+    label: "SALUDAR",
+    value: "SALUDAR",
+  },
+  {
+    label: "SAMUSOCIAL PERÚ",
+    value: "SAMUSOCIAL PERÚ",
+  },
+  {
+    label: "SAN MARTÍN COLLAGE",
+    value: "SAN MARTÍN COLLAGE",
+  },
+  {
+    label: "SAN MARTÍN DE PACHACUTEC",
+    value: "SAN MARTÍN DE PACHACUTEC",
+  },
+  {
+    label: "SAN PEDRO CONTRATISTAS GRLS SRL",
+    value: "SAN PEDRO CONTRATISTAS GRLS SRL",
+  },
+  {
+    label: "SANITAS WORLD",
+    value: "SANITAS WORLD",
+  },
+  {
+    label: "SANJOSE PERÚ",
+    value: "SANJOSE PERÚ",
+  },
+  {
+    label: "SANT AMARÍA TERESA CONSULTORES EDITORES",
+    value: "SANT AMARÍA TERESA CONSULTORES EDITORES",
+  },
+  {
+    label: "SANTIAGO CONSULTORES ASOCIADOS S.A",
+    value: "SANTIAGO CONSULTORES ASOCIADOS S.A",
+  },
+  {
+    label: "SANTILLANA SA",
+    value: "SANTILLANA SA",
+  },
+  {
+    label: "SANY",
+    value: "SANY",
+  },
+  {
+    label: "SASE CONSULTORES",
+    value: "SASE CONSULTORES",
+  },
+  {
+    label: "SASE CONSULTORES SAC",
+    value: "SASE CONSULTORES SAC",
+  },
+  {
+    label: "SAT CAJAMARCA",
+    value: "SAT CAJAMARCA",
+  },
+  {
+    label: "SAVE THE CHILDREN",
+    value: "SAVE THE CHILDREN",
+  },
+  {
+    label: "SAVE THE CHILDREN INTERNATIONAL",
+    value: "SAVE THE CHILDREN INTERNATIONAL",
+  },
+  {
+    label: "SAVE THE CHILDREN- SUECIA",
+    value: "SAVE THE CHILDREN- SUECIA",
+  },
+  {
+    label: "SCI SERVICIOS COBRANZAS E INVERSIONES",
+    value: "SCI SERVICIOS COBRANZAS E INVERSIONES",
+  },
+  {
+    label: "SCIENCE PUBLISHING GROUP",
+    value: "SCIENCE PUBLISHING GROUP",
+  },
+  {
+    label: "Scientix The community for science education in Europe",
+    value: "Scientix The community for science education in Europe",
+  },
+  {
+    label: "Secretería Técnica de Conciliación del Ministerio de Justicia",
+    value: "Secretería Técnica de Conciliación del Ministerio de Justicia",
+  },
+  {
+    label: "SECUNDARIA DE MENORES DEAN SAAVEDRA",
+    value: "SECUNDARIA DE MENORES DEAN SAAVEDRA",
+  },
+  {
+    label: "SECUNDARIA DE MENORES MARÍA NEGRÓN UGARTE",
+    value: "SECUNDARIA DE MENORES MARÍA NEGRÓN UGARTE",
+  },
+  {
+    label: "SEDAPAL",
+    value: "SEDAPAL",
+  },
+  {
+    label: "SEDE ADMINISTRATIVA DRE PASCO",
+    value: "SEDE ADMINISTRATIVA DRE PASCO",
+  },
+  {
+    label: "SEDES SERVICIO Y DESARROLLO",
+    value: "SEDES SERVICIO Y DESARROLLO",
+  },
+  {
+    label: "SEGAPESA",
+    value: "SEGAPESA",
+  },
+  {
+    label: "SEGECO SA",
+    value: "SEGECO SA",
+  },
+  {
+    label: "SEGUIMIENTO ANALISIS Y EVALUACION PARA EL DESARROLLO (SASE)",
+    value: "SEGUIMIENTO ANALISIS Y EVALUACION PARA EL DESARROLLO (SASE)",
+  },
+  {
+    label: "SEGURIDAD ELECTRÓNICA INGENIEROS SAC",
+    value: "SEGURIDAD ELECTRÓNICA INGENIEROS SAC",
+  },
+  {
+    label:
+      "SEGURO DE SALUD SOCIAL. GERENCIA CENTRAL DE FINANZAS DE LA GERENCIA DE DIVISIÓN DE ASEGURAMIENTO",
+    value:
+      "SEGURO DE SALUD SOCIAL. GERENCIA CENTRAL DE FINANZAS DE LA GERENCIA DE DIVISIÓN DE ASEGURAMIENTO",
+  },
+  {
+    label:
+      "SEGURO DE SALUD SOCIAL. OFICINA CENTRAL DE PLANIFICACIÓN CORPORATIVO",
+    value:
+      "SEGURO DE SALUD SOCIAL. OFICINA CENTRAL DE PLANIFICACIÓN CORPORATIVO",
+  },
+  {
+    label: "SEGURO SOCIAL DE SALUD",
+    value: "SEGURO SOCIAL DE SALUD",
+  },
+  {
+    label: "SEGURO SOCIAL DE SALUD- ESSALUD",
+    value: "SEGURO SOCIAL DE SALUD- ESSALUD",
+  },
+  {
+    label:
+      "SEGURO SOCIAL DE SALUD. OFICINA CENTRAL DE PLANIFICACIÓN Y DESARROLLO",
+    value:
+      "SEGURO SOCIAL DE SALUD. OFICINA CENTRAL DE PLANIFICACIÓN Y DESARROLLO",
+  },
+  {
+    label: "Seminario de economía social, solidaria y popular ",
+    value: "Seminario de economía social, solidaria y popular ",
+  },
+  {
+    label: "Seminario de economía social, solidaria y popular. UNMSM",
+    value: "Seminario de economía social, solidaria y popular. UNMSM",
+  },
+  {
+    label: "SEMINARIO EMPRESARIALES SAC",
+    value: "SEMINARIO EMPRESARIALES SAC",
+  },
+  {
+    label:
+      "SEMINARIO TALLER ESTRATEGIAS PARA LA EDUCCIÓN AMBIENTAL Y USO RACIONAL DE LOS RECURSOS NATURALES",
+    value:
+      "SEMINARIO TALLER ESTRATEGIAS PARA LA EDUCCIÓN AMBIENTAL Y USO RACIONAL DE LOS RECURSOS NATURALES",
+  },
+  {
+    label: "SEMINATIO SAN TEODORO",
+    value: "SEMINATIO SAN TEODORO",
+  },
+  {
+    label: "SENACE",
+    value: "SENACE",
+  },
+  {
+    label: "SENATI",
+    value: "SENATI",
+  },
+  {
+    label: "SENATI DIRECCIÓN ZONAL",
+    value: "SENATI DIRECCIÓN ZONAL",
+  },
+  {
+    label: "SENCICO",
+    value: "SENCICO",
+  },
+  {
+    label: "SEPETBOL PERU CONSTRUCCIONES SEPCON SAC",
+    value: "SEPETBOL PERU CONSTRUCCIONES SEPCON SAC",
+  },
+  {
+    label: "SERCOM SERVICES COMPANY EIRL",
+    value: "SERCOM SERVICES COMPANY EIRL",
+  },
+  {
+    label: "SERPAR SERVICIO DE PARQUES DE LIMA",
+    value: "SERPAR SERVICIO DE PARQUES DE LIMA",
+  },
+  {
+    label:
+      "SERVICIO CIVIL GRADUANDOS. SECIGRA DERECHO 2008. DIRECCIÓN NACIONAL DE JUSTICIA",
+    value:
+      "SERVICIO CIVIL GRADUANDOS. SECIGRA DERECHO 2008. DIRECCIÓN NACIONAL DE JUSTICIA",
+  },
+  {
+    label:
+      "SERVICIO DE ADMINISTRACIÓN TRIBUTARIA DE LA MUNICIPALIDAD METROPOLITANA DE LIMA",
+    value:
+      "SERVICIO DE ADMINISTRACIÓN TRIBUTARIA DE LA MUNICIPALIDAD METROPOLITANA DE LIMA",
+  },
+  {
+    label: "SERVICIO DE ADMINISTRACIÓN TRIBUTARIA SAT",
+    value: "SERVICIO DE ADMINISTRACIÓN TRIBUTARIA SAT",
+  },
+  {
+    label: "SERVICIO DE ADMINISTRACIÓN TRIBUTARIA.-SAT",
+    value: "SERVICIO DE ADMINISTRACIÓN TRIBUTARIA.-SAT",
+  },
+  {
+    label: "SERVICIO DE AGUA POTABLE Y ALCANTARILLADO DE LIMA",
+    value: "SERVICIO DE AGUA POTABLE Y ALCANTARILLADO DE LIMA",
+  },
+  {
+    label: "SERVICIO DE COOPERACIÓN HOLANDÉS AL DESARROLLO -SNV",
+    value: "SERVICIO DE COOPERACIÓN HOLANDÉS AL DESARROLLO -SNV",
+  },
+  {
+    label: "SERVICIO DE ORIENTACIÓN AL ADOLESCENTE SOA TUMBES",
+    value: "SERVICIO DE ORIENTACIÓN AL ADOLESCENTE SOA TUMBES",
+  },
+  {
+    label:
+      "SERVICIO MUNICIPAL DE AGUA POTABLE Y ALCANTARILLADO DE CHINCHA . SEMAPACH S.A",
+    value:
+      "SERVICIO MUNICIPAL DE AGUA POTABLE Y ALCANTARILLADO DE CHINCHA . SEMAPACH S.A",
+  },
+  {
+    label: "SERVICIO NACIONAL DE ADIESTRAMIENTO EN TRABAJO INDUSTRIAL",
+    value: "SERVICIO NACIONAL DE ADIESTRAMIENTO EN TRABAJO INDUSTRIAL",
+  },
+  {
+    label:
+      "SERVICIO NACIONAL DE CERTIFICACIÓN AMBIENTAL PARA LAS INVERSIONES SOSTENIBLES- SENACE",
+    value:
+      "SERVICIO NACIONAL DE CERTIFICACIÓN AMBIENTAL PARA LAS INVERSIONES SOSTENIBLES- SENACE",
+  },
+  {
+    label:
+      "SERVICIO NACIONAL DE NORMALIZACIÓN CAPACITACIÓN E INVESTIGACIÓN PARA LA INDUSTRIA DE LA CONSTRUCCIÓN SENCICO",
+    value:
+      "SERVICIO NACIONAL DE NORMALIZACIÓN CAPACITACIÓN E INVESTIGACIÓN PARA LA INDUSTRIA DE LA CONSTRUCCIÓN SENCICO",
+  },
+  {
+    label:
+      "SERVICIO NACIONAL DE NORMALIZACIÓN, CAPACITACIÓN E INVESTIGACIÓN PARA LA INDUSTRIA DE LA CONSTRUCCIÓN (SENCICO)",
+    value:
+      "SERVICIO NACIONAL DE NORMALIZACIÓN, CAPACITACIÓN E INVESTIGACIÓN PARA LA INDUSTRIA DE LA CONSTRUCCIÓN (SENCICO)",
+  },
+  {
+    label: "SERVICIO NACIONAL DE SANIDAD AGRARIA SENASA",
+    value: "SERVICIO NACIONAL DE SANIDAD AGRARIA SENASA",
+  },
+  {
+    label: "SERVICIO NACIONAL FORESTAL Y DE FAUNA SILVESTRE SERFOR",
+    value: "SERVICIO NACIONAL FORESTAL Y DE FAUNA SILVESTRE SERFOR",
+  },
+  {
+    label: "SERVICIO RURAL Y URBANO MARGINAL DE SALUD (SERUMS)",
+    value: "SERVICIO RURAL Y URBANO MARGINAL DE SALUD (SERUMS)",
+  },
+  {
+    label: "SERVICIOS COBRANZAS E INVERSIONES",
+    value: "SERVICIOS COBRANZAS E INVERSIONES",
+  },
+  {
+    label:
+      "SERVICIOS DE AGUA POTABLE Y ALCANTARILLADO DE LA LOCALIDAD DE JULI CHICUITO PUNO",
+    value:
+      "SERVICIOS DE AGUA POTABLE Y ALCANTARILLADO DE LA LOCALIDAD DE JULI CHICUITO PUNO",
+  },
+  {
+    label: "SERVICIOS DE INGENIERÍA TECNOLOGÍA CONSULTORÍA Y CONSTRUCCIÓN SAC",
+    value: "SERVICIOS DE INGENIERÍA TECNOLOGÍA CONSULTORÍA Y CONSTRUCCIÓN SAC",
+  },
+  {
+    label: "SERVICIOS DIGITALES S.A.C.",
+    value: "SERVICIOS DIGITALES S.A.C.",
+  },
+  {
+    label: "SERVICIOS EDUCATIVOS EL ANGUSTINO - SEA",
+    value: "SERVICIOS EDUCATIVOS EL ANGUSTINO - SEA",
+  },
+  {
+    label: "SERVICIOS GENERALES METAL SERVIMOTORS",
+    value: "SERVICIOS GENERALES METAL SERVIMOTORS",
+  },
+  {
+    label: "SERVICIOS INTEGRALES DE GERENCIA ESTUDIOS Y PROYECTOS. (SIGEPRO)",
+    value: "SERVICIOS INTEGRALES DE GERENCIA ESTUDIOS Y PROYECTOS. (SIGEPRO)",
+  },
+  {
+    label: "SERVICIOS MÚLTIPLES ARELLANO SCRL",
+    value: "SERVICIOS MÚLTIPLES ARELLANO SCRL",
+  },
+  {
+    label: "SERVIR",
+    value: "SERVIR",
+  },
+  {
+    label: "SERVIR HERRAMIENTA DEL PERÚ QUE CRECE",
+    value: "SERVIR HERRAMIENTA DEL PERÚ QUE CRECE",
+  },
+  {
+    label: "SERVIR HERRAMIENTAL DEL PERÚ QUE CRECE",
+    value: "SERVIR HERRAMIENTAL DEL PERÚ QUE CRECE",
+  },
+  {
+    label: "SERVOSSA CARGO SAC",
+    value: "SERVOSSA CARGO SAC",
+  },
+  {
+    label: "SESAL S.A.C.",
+    value: "SESAL S.A.C.",
+  },
+  {
+    label: "SEVEN SEAS LINE S.A.C.",
+    value: "SEVEN SEAS LINE S.A.C.",
+  },
+  {
+    label: "SGS DEL PERÚ SAC",
+    value: "SGS DEL PERÚ SAC",
+  },
+  {
+    label: "SHESA CONSULTING SA",
+    value: "SHESA CONSULTING SA",
+  },
+  {
+    label: "SICMA SAC",
+    value: "SICMA SAC",
+  },
+  {
+    label: "SIERRA DULCE",
+    value: "SIERRA DULCE",
+  },
+  {
+    label: "SIERRA EXPORTADORA",
+    value: "SIERRA EXPORTADORA",
+  },
+  {
+    label: "SIERRA EXPORTADORA SEDE DESCENTRALIZADA PIURA",
+    value: "SIERRA EXPORTADORA SEDE DESCENTRALIZADA PIURA",
+  },
+  {
+    label: "SILVER STANDARD",
+    value: "SILVER STANDARD",
+  },
+  {
+    label: "SIMAF PARSALUD II",
+    value: "SIMAF PARSALUD II",
+  },
+  {
+    label: "SINDICATO UNITARIO DE TRABAJADORES DE LA EDUCACIÓN DEL PERÚ",
+    value: "SINDICATO UNITARIO DE TRABAJADORES DE LA EDUCACIÓN DEL PERÚ",
+  },
+  {
+    label: "SINEACE",
+    value: "SINEACE",
+  },
+  {
+    label: "SISEVE",
+    value: "SISEVE",
+  },
+  {
+    label: "SISTEMA INTEGRADO DE GESTIÓN ADMINISTRATIVA",
+    value: "SISTEMA INTEGRADO DE GESTIÓN ADMINISTRATIVA",
+  },
+  {
+    label: "SISTEMA NACIONAL DE EVALUACIÓN, ACREDITACIÓN Y CERTIFICACIÓN",
+    value: "SISTEMA NACIONAL DE EVALUACIÓN, ACREDITACIÓN Y CERTIFICACIÓN",
+  },
+  {
+    label: "SIT CORP PERÚ SAC",
+    value: "SIT CORP PERÚ SAC",
+  },
+  {
+    label: "SKAVA",
+    value: "SKAVA",
+  },
+  {
+    label: "SNC LAVALIN",
+    value: "SNC LAVALIN",
+  },
+  {
+    label: "SNIP N 288001 LA FLOR DEL NORTE",
+    value: "SNIP N 288001 LA FLOR DEL NORTE",
+  },
+  {
+    label: "SNV NEDERLANDSE ONTWIKKELINGSORGANISATIE",
+    value: "SNV NEDERLANDSE ONTWIKKELINGSORGANISATIE",
+  },
+  {
+    label: "SNV Servicio Holandés",
+    value: "SNV Servicio Holandés",
+  },
+  {
+    label: "SOCIAL CAPITAL GROUP",
+    value: "SOCIAL CAPITAL GROUP",
+  },
+  {
+    label: "Social Capital Group S.A.C.",
+    value: "Social Capital Group S.A.C.",
+  },
+  {
+    label: "SOCIEDAD CULTURAL WALKIRIA EDICIONES SRL",
+    value: "SOCIEDAD CULTURAL WALKIRIA EDICIONES SRL",
+  },
+  {
+    label: "SOCIEDAD DE AUTOMOTORES INKA SAC",
+    value: "SOCIEDAD DE AUTOMOTORES INKA SAC",
+  },
+  {
+    label: "SOCIEDAD DE INVESTIGACIÓN EDUCATIVA PERUANA",
+    value: "SOCIEDAD DE INVESTIGACIÓN EDUCATIVA PERUANA",
+  },
+  {
+    label: "SOCIEDAD NACIONAL DE INDUSTRIAS SNI",
+    value: "SOCIEDAD NACIONAL DE INDUSTRIAS SNI",
+  },
+  {
+    label: "SOCIEDAD PERUANA DE LA CRUZ ROJA",
+    value: "SOCIEDAD PERUANA DE LA CRUZ ROJA",
+  },
+  {
+    label: "SOCIEDAD PERUANA DE SÍNDROME DOWN",
+    value: "SOCIEDAD PERUANA DE SÍNDROME DOWN",
+  },
+  {
+    label: "SOCIOS COMUNITARIOS",
+    value: "SOCIOS COMUNITARIOS",
+  },
+  {
+    label: "SOCIOS EN SALUD",
+    value: "SOCIOS EN SALUD",
+  },
+  {
+    label: "Socios en salud Sucursal Perú",
+    value: "Socios en salud Sucursal Perú",
+  },
+  {
+    label: "SOCOPUR SAC",
+    value: "SOCOPUR SAC",
+  },
+  {
+    label: "SOL IMPORTACIONES DEL SOL SAC",
+    value: "SOL IMPORTACIONES DEL SOL SAC",
+  },
+  {
+    label: "SOLARIS PERÚ",
+    value: "SOLARIS PERÚ",
+  },
+  {
+    label: "SOLIDARIDAD INTERNACIONAL",
+    value: "SOLIDARIDAD INTERNACIONAL",
+  },
+  {
+    label: "SOLIDARIDAD Y DESARROLLO SOCIOEDUCATIVO-SOLYDES",
+    value: "SOLIDARIDAD Y DESARROLLO SOCIOEDUCATIVO-SOLYDES",
+  },
+  {
+    label: "SOLUCIONES PRÁCTICAS ITDG",
+    value: "SOLUCIONES PRÁCTICAS ITDG",
+  },
+  {
+    label:
+      "SOLUCIONES PRÁCTICAS ITDG MINISTERIO DE TRANSPORTES Y COMUNICACIONES",
+    value:
+      "SOLUCIONES PRÁCTICAS ITDG MINISTERIO DE TRANSPORTES Y COMUNICACIONES",
+  },
+  {
+    label: "SOLUCIONES PRÁCTICAS PARA LA POBREZA",
+    value: "SOLUCIONES PRÁCTICAS PARA LA POBREZA",
+  },
+  {
+    label: "SOLUGRIFOS SAC",
+    value: "SOLUGRIFOS SAC",
+  },
+  {
+    label: "SOS FAIM PERÚ",
+    value: "SOS FAIM PERÚ",
+  },
+  {
+    label: "SOTECNI SPA SOCIETÁ TECNICA INTERNAZIONALE",
+    value: "SOTECNI SPA SOCIETÁ TECNICA INTERNAZIONALE",
+  },
+  {
+    label: "SOTO PRENTICE CONTRATISTAS GENERALES SRL",
+    value: "SOTO PRENTICE CONTRATISTAS GENERALES SRL",
+  },
+  {
+    label: "SOUTH AMERICAN EXPLORATION LLC SUC",
+    value: "SOUTH AMERICAN EXPLORATION LLC SUC",
+  },
+  {
+    label: "SOUTHERN PERÚ COPPER CORPORATION",
+    value: "SOUTHERN PERÚ COPPER CORPORATION",
+  },
+  {
+    label: "SPEA INGENIERÍA EUROPEA SPA",
+    value: "SPEA INGENIERÍA EUROPEA SPA",
+  },
+  {
+    label: "STICHTING SNV",
+    value: "STICHTING SNV",
+  },
+  {
+    label: "STRACON GyM",
+    value: "STRACON GyM",
+  },
+  {
+    label:
+      "SUB  COMITÉ DE ADMINISTRACIÓN DEL FONDO DE ASISTENCIA Y ESTÍMULO DE LA DIRECCIÓN REGIONAL DE EDUCACIÓN DEL CUSCO -CAFAE CUSCO",
+    value:
+      "SUB  COMITÉ DE ADMINISTRACIÓN DEL FONDO DE ASISTENCIA Y ESTÍMULO DE LA DIRECCIÓN REGIONAL DE EDUCACIÓN DEL CUSCO -CAFAE CUSCO",
+  },
+  {
+    label:
+      "SUB CAFAE DE LOS TRABAJADORES DE LA DIRECCIÓN REGIONAL DE EDUCACIÓN SAN MARTÍN MOYOBAMBA",
+    value:
+      "SUB CAFAE DE LOS TRABAJADORES DE LA DIRECCIÓN REGIONAL DE EDUCACIÓN SAN MARTÍN MOYOBAMBA",
+  },
+  {
+    label: "SUBDIRECCIÓN DE DESARROLLO DE CAPACIDADES",
+    value: "SUBDIRECCIÓN DE DESARROLLO DE CAPACIDADES",
+  },
+  {
+    label: "SUCESIÓN LUIS ALBERTO HOYLE GANOZA",
+    value: "SUCESIÓN LUIS ALBERTO HOYLE GANOZA",
+  },
+  {
+    label: "SUCESIÓN ROSSI DE LA CRUZ VÍCTOR",
+    value: "SUCESIÓN ROSSI DE LA CRUZ VÍCTOR",
+  },
+  {
+    label: "SUD OUEST",
+    value: "SUD OUEST",
+  },
+  {
+    label: "SUNAT",
+    value: "SUNAT",
+  },
+  {
+    label: "SUNEDU",
+    value: "SUNEDU",
+  },
+  {
+    label: "SUPER INTENDENCIA NACIONAL DE ADMINISTRACIÓN TRIBUTARIA",
+    value: "SUPER INTENDENCIA NACIONAL DE ADMINISTRACIÓN TRIBUTARIA",
+  },
+  {
+    label: "SUPERCONCRETO DE PERU SA",
+    value: "SUPERCONCRETO DE PERU SA",
+  },
+  {
+    label: "SUPERCONCRETO DEL PERU SA",
+    value: "SUPERCONCRETO DEL PERU SA",
+  },
+  {
+    label: "SUPERINTENDENCIA DE BANCA SEGUROS Y AFT",
+    value: "SUPERINTENDENCIA DE BANCA SEGUROS Y AFT",
+  },
+  {
+    label: "SUPERINTENDENCIA NACIOAL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA",
+    value: "SUPERINTENDENCIA NACIOAL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA",
+  },
+  {
+    label:
+      "SUPERINTENDENCIA NACIOANL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA",
+    value:
+      "SUPERINTENDENCIA NACIOANL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA",
+  },
+  {
+    label: "SUPERINTENDENCIA NACIONAL DE ADMINISTRACIÓN TRIBUTARIA ",
+    value: "SUPERINTENDENCIA NACIONAL DE ADMINISTRACIÓN TRIBUTARIA ",
+  },
+  {
+    label:
+      "SUPERINTENDENCIA NACIONAL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA",
+    value:
+      "SUPERINTENDENCIA NACIONAL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA",
+  },
+  {
+    label:
+      "SUPERINTENDENCIA NACIONAL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA SUNAT",
+    value:
+      "SUPERINTENDENCIA NACIONAL DE ADUANAS Y DE ADMINISTRACIÓN TRIBUTARIA SUNAT",
+  },
+  {
+    label: "SUPERINTENDENCIA NACIONAL DE ASEGURAMIENTO EN SALUD",
+    value: "SUPERINTENDENCIA NACIONAL DE ASEGURAMIENTO EN SALUD",
+  },
+  {
+    label: "SUPERINTENDENCIA NACIONAL DE BIENES ESTATALES",
+    value: "SUPERINTENDENCIA NACIONAL DE BIENES ESTATALES",
+  },
+  {
+    label: "SUPERINTENDENTE NACINAL DE BIENES ESTATALES",
+    value: "SUPERINTENDENTE NACINAL DE BIENES ESTATALES",
+  },
+  {
+    label: "SVENZA ZONA FRANCA SRL",
+    value: "SVENZA ZONA FRANCA SRL",
+  },
+  {
+    label: "SVS INGENIEROS SA",
+    value: "SVS INGENIEROS SA",
+  },
+  {
+    label: "SWANSEA UNIVERSITY PRIFYSGOL ABERTAWE",
+    value: "SWANSEA UNIVERSITY PRIFYSGOL ABERTAWE",
+  },
+  {
+    label: "SWISS CONTACT",
+    value: "SWISS CONTACT",
+  },
+  {
+    label: "SWISSCONTACT",
+    value: "SWISSCONTACT",
+  },
+  {
+    label: "SYNOPSIS SA",
+    value: "SYNOPSIS SA",
+  },
+  {
+    label: "SYNOVATE PERÚ",
+    value: "SYNOVATE PERÚ",
+  },
+  {
+    label: "TABLEROS Y PUENTES S.A SUCURSAL DEL PERÚ",
+    value: "TABLEROS Y PUENTES S.A SUCURSAL DEL PERÚ",
+  },
+  {
+    label: "TALLER DE EDUCACIÓN E INVESTIGACIÓN RURAL ANDINA",
+    value: "TALLER DE EDUCACIÓN E INVESTIGACIÓN RURAL ANDINA",
+  },
+  {
+    label: "TALLER PEDAGÓGICO PERMANENTE",
+    value: "TALLER PEDAGÓGICO PERMANENTE",
+  },
+  {
+    label: "TALLERES EDUCATIVOS Y CULTURALES TECUS",
+    value: "TALLERES EDUCATIVOS Y CULTURALES TECUS",
+  },
+  {
+    label: "TAREA ASOCIACIÓN DE PUBLICACIONES EDUCATIVAS",
+    value: "TAREA ASOCIACIÓN DE PUBLICACIONES EDUCATIVAS",
+  },
+  {
+    label: "TARGET EURO SRL",
+    value: "TARGET EURO SRL",
+  },
+  {
+    label: "TdA&Asociados",
+    value: "TdA&Asociados",
+  },
+  {
+    label: "TDN PERÚ CONSULTORES S.A.C.",
+    value: "TDN PERÚ CONSULTORES S.A.C.",
+  },
+  {
+    label: "TDN PERÚ CONSULTORES SAC",
+    value: "TDN PERÚ CONSULTORES SAC",
+  },
+  {
+    label: "TEATRO MUNICIPAL DE SANTIAGO DE CHUCO",
+    value: "TEATRO MUNICIPAL DE SANTIAGO DE CHUCO",
+  },
+  {
+    label: "TECFA MALTT",
+    value: "TECFA MALTT",
+  },
+  {
+    label: "TECHNETSOL",
+    value: "TECHNETSOL",
+  },
+  {
+    label: "TECHNOLOGY SA",
+    value: "TECHNOLOGY SA",
+  },
+  {
+    label: "TECHNOSERVE",
+    value: "TECHNOSERVE",
+  },
+  {
+    label: "TECHNOSERVE BUSINESS SOLUTIONS TO POVERTY",
+    value: "TECHNOSERVE BUSINESS SOLUTIONS TO POVERTY",
+  },
+  {
+    label: "TECHNOSERVE SOLUCIONES EMPRESARIALES PARA LA POBREZA RURAL",
+    value: "TECHNOSERVE SOLUCIONES EMPRESARIALES PARA LA POBREZA RURAL",
+  },
+  {
+    label: "TÉCNICA DE DESALINIZACIÓN DE AGUAS SA",
+    value: "TÉCNICA DE DESALINIZACIÓN DE AGUAS SA",
+  },
+  {
+    label: "TÉCNICA Y GESTIÓN DE PROYECTOS SA",
+    value: "TÉCNICA Y GESTIÓN DE PROYECTOS SA",
+  },
+  {
+    label: "TECNIOBRA CONSTRUCCIONES SA",
+    value: "TECNIOBRA CONSTRUCCIONES SA",
+  },
+  {
+    label: "TECNO FAST SAC",
+    value: "TECNO FAST SAC",
+  },
+  {
+    label: "TECNOLOGÍA Y PROYECTOS SA",
+    value: "TECNOLOGÍA Y PROYECTOS SA",
+  },
+  {
+    label: "TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIÓN",
+    value: "TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIÓN",
+  },
+  {
+    label: "TECNOLOGÍAS ECOLÓGICAS PRISMA SAC",
+    value: "TECNOLOGÍAS ECOLÓGICAS PRISMA SAC",
+  },
+  {
+    label: "TECNOLOGÍAS PERÚ SAA",
+    value: "TECNOLOGÍAS PERÚ SAA",
+  },
+  {
+    label: "TECNOLOGÍAS Y CONSULTORÍAS ECOLÓGICAS TECONEC ",
+    value: "TECNOLOGÍAS Y CONSULTORÍAS ECOLÓGICAS TECONEC ",
+  },
+  {
+    label: 'Tecnológica de Alimentos SA "TASA"',
+    value: 'Tecnológica de Alimentos SA "TASA"',
+  },
+  {
+    label: "TECNOS INGENIERÍA S.A. CONTRATISTAS GENERALES",
+    value: "TECNOS INGENIERÍA S.A. CONTRATISTAS GENERALES",
+  },
+  {
+    label: "TECSUP",
+    value: "TECSUP",
+  },
+  {
+    label: "TECUS",
+    value: "TECUS",
+  },
+  {
+    label: "TELECOM & ENERGY SAC",
+    value: "TELECOM & ENERGY SAC",
+  },
+  {
+    label: "TELEFONICA",
+    value: "TELEFONICA",
+  },
+  {
+    label: "TELEFÓNICA GESTIÓN DE SERVICIOS COMPARTIDOS PERÚ SAC",
+    value: "TELEFÓNICA GESTIÓN DE SERVICIOS COMPARTIDOS PERÚ SAC",
+  },
+  {
+    label: "TEMPORALES S.A.",
+    value: "TEMPORALES S.A.",
+  },
+  {
+    label: "TERRA NUOVA",
+    value: "TERRA NUOVA",
+  },
+  {
+    label: "THE FUTURES GROUP INTERNACIONAL",
+    value: "THE FUTURES GROUP INTERNACIONAL",
+  },
+  {
+    label: "THE FUTURES GROUP INTERNATIONAL",
+    value: "THE FUTURES GROUP INTERNATIONAL",
+  },
+  {
+    label: "THE FUTURES GROUP PERU",
+    value: "THE FUTURES GROUP PERU",
+  },
+  {
+    label: "THE FUTURES GROUP-INTERNACIONAL",
+    value: "THE FUTURES GROUP-INTERNACIONAL",
+  },
+  {
+    label: "THE FUTURES GROUP-PERÚ",
+    value: "THE FUTURES GROUP-PERÚ",
+  },
+  {
+    label: "THE GOLDEN BELL SAC",
+    value: "THE GOLDEN BELL SAC",
+  },
+  {
+    label: "THE LOUIS BERGER GROUP INC",
+    value: "THE LOUIS BERGER GROUP INC",
+  },
+  {
+    label: "THE PRISM GROUP",
+    value: "THE PRISM GROUP",
+  },
+  {
+    label:
+      "THE WORLD BANK INTERNATIONAL BANK FOR RECONSTRUCTION AN DEVELOPMENT",
+    value:
+      "THE WORLD BANK INTERNATIONAL BANK FOR RECONSTRUCTION AN DEVELOPMENT",
+  },
+  {
+    label: "TIERRA DE NIÑOS. UN NIÑO JOVEN UN PROYECTO DE VIDA",
+    value: "TIERRA DE NIÑOS. UN NIÑO JOVEN UN PROYECTO DE VIDA",
+  },
+  {
+    label: "TINKA RESOURCES SAC",
+    value: "TINKA RESOURCES SAC",
+  },
+  {
+    label: "Tinkuy Consult",
+    value: "Tinkuy Consult",
+  },
+  {
+    label: "TOP TOURS AGENCIA DE VIAJES TOUR OPERADOR",
+    value: "TOP TOURS AGENCIA DE VIAJES TOUR OPERADOR",
+  },
+  {
+    label: "TRANS MANTARO SA",
+    value: "TRANS MANTARO SA",
+  },
+  {
+    label: "TRANSCORP OPERADOR LOGÍSTICO",
+    value: "TRANSCORP OPERADOR LOGÍSTICO",
+  },
+  {
+    label: "TRANSCORPTRANSPORTES CORPORATIVOS SA",
+    value: "TRANSCORPTRANSPORTES CORPORATIVOS SA",
+  },
+  {
+    label: "TRANSPORTES GROM SAC",
+    value: "TRANSPORTES GROM SAC",
+  },
+  {
+    label: "TRAVEL MANAGEMENT SOLUTIONS TRAMSOL",
+    value: "TRAVEL MANAGEMENT SOLUTIONS TRAMSOL",
+  },
+  {
+    label: "TRBAJAR URBANO",
+    value: "TRBAJAR URBANO",
+  },
+  {
+    label: "UCSS UNIVERSIDAD CATÓLICA SEDE SAPIENTIAE",
+    value: "UCSS UNIVERSIDAD CATÓLICA SEDE SAPIENTIAE",
+  },
+  {
+    label: "UE PERÚ PNX",
+    value: "UE PERÚ PNX",
+  },
+  {
+    label: "UGEL  ANTA",
+    value: "UGEL  ANTA",
+  },
+  {
+    label: "UGEL 01 SAN JUAN DE MIRAFLORES",
+    value: "UGEL 01 SAN JUAN DE MIRAFLORES",
+  },
+  {
+    label: "UGEL 308",
+    value: "UGEL 308",
+  },
+  {
+    label: "UGEL AMBO",
+    value: "UGEL AMBO",
+  },
+  {
+    label: "UGEL CAJAMARCA",
+    value: "UGEL CAJAMARCA",
+  },
+  {
+    label: "UGEL CUSCO",
+    value: "UGEL CUSCO",
+  },
+  {
+    label: "UGEL HUÁNUCO",
+    value: "UGEL HUÁNUCO",
+  },
+  {
+    label: "UGEL OXAPAMPA",
+    value: "UGEL OXAPAMPA",
+  },
+  {
+    label: "UGEL SANTA CRUZ",
+    value: "UGEL SANTA CRUZ",
+  },
+  {
+    label: "UGEL SANTIAGO DE CHUCO",
+    value: "UGEL SANTIAGO DE CHUCO",
+  },
+  {
+    label: "UGEL SECHURA",
+    value: "UGEL SECHURA",
+  },
+  {
+    label: "UGEL URUBAMBA",
+    value: "UGEL URUBAMBA",
+  },
+  {
+    label: "UGEL VIRU",
+    value: "UGEL VIRU",
+  },
+  {
+    label: "UIVERSIDAD RUIZ DE MONTOYA",
+    value: "UIVERSIDAD RUIZ DE MONTOYA",
+  },
+  {
+    label: "ULMA",
+    value: "ULMA",
+  },
+  {
+    label: "UMBRELLA ECOCONSULTING SAC",
+    value: "UMBRELLA ECOCONSULTING SAC",
+  },
+  {
+    label: "UN INSTRAW",
+    value: "UN INSTRAW",
+  },
+  {
+    label: "UNE MINEDUR",
+    value: "UNE MINEDUR",
+  },
+  {
+    label: "UNFPA FONDO DE POBLACIÓN DE LAS NACIONES UNIDAS",
+    value: "UNFPA FONDO DE POBLACIÓN DE LAS NACIONES UNIDAS",
+  },
+  {
+    label: "UNICEF",
+    value: "UNICEF",
+  },
+  {
+    label:
+      "UNIDAD ADMINISTRATIVA FINANCIERA DEL PROGRAMA DE CAPACITACIÓN LABORAL JUVENIL PROJOVEN",
+    value:
+      "UNIDAD ADMINISTRATIVA FINANCIERA DEL PROGRAMA DE CAPACITACIÓN LABORAL JUVENIL PROJOVEN",
+  },
+  {
+    label: "UNIDAD DE  GESTIÓN EDUCATIVA LOCAL PASCO",
+    value: "UNIDAD DE  GESTIÓN EDUCATIVA LOCAL PASCO",
+  },
+  {
+    label: "UNIDAD DE CAPACITACIÓN DE GESTIÓN",
+    value: "UNIDAD DE CAPACITACIÓN DE GESTIÓN",
+  },
+  {
+    label: "UNIDAD DE DECONCENTRADA SAN MARTÍN YURIMAGUAS",
+    value: "UNIDAD DE DECONCENTRADA SAN MARTÍN YURIMAGUAS",
+  },
+  {
+    label: "UNIDAD DE DESCENTRALIACIÓN DE CENTROS EDUCATIVOS UDECE",
+    value: "UNIDAD DE DESCENTRALIACIÓN DE CENTROS EDUCATIVOS UDECE",
+  },
+  {
+    label: "UNIDAD DE FOMENTO AL CONSUMO HUMANO DIRECTO",
+    value: "UNIDAD DE FOMENTO AL CONSUMO HUMANO DIRECTO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATICA LOCAL EL DORADO",
+    value: "UNIDAD DE GESTIÓN EDUCATICA LOCAL EL DORADO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA  N 03  TRUJILLO NOR OESTE",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA  N 03  TRUJILLO NOR OESTE",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA DE HUÁNUCO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA DE HUÁNUCO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA DE PASCO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA DE PASCO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA DE SANCHEZ CARRIÓN",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA DE SANCHEZ CARRIÓN",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL 02",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL 02",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL AMBO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL AMBO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL AREQUIPA",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL AREQUIPA",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL CAJAMARCA",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL CAJAMARCA",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL CAÑETE",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL CAÑETE",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL CHEPÉN",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL CHEPÉN",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL CHICLAYO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL CHICLAYO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL CHUCUITO JULI",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL CHUCUITO JULI",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE AMBO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE AMBO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE ANTA",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE ANTA",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE ATE VITARTE",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE ATE VITARTE",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE DOS DE MAYO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE DOS DE MAYO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE HUÁNUCO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE HUÁNUCO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE LA PROVINCIA DE SÁNCHEZ CERRO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE LA PROVINCIA DE SÁNCHEZ CERRO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE MAYNAS",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE MAYNAS",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE PASCO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE PASCO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE PUERTO INCA",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE PUERTO INCA",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE PUESTO INCA",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE PUESTO INCA",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE RIOJA",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE RIOJA",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE TOCACHE",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE TOCACHE",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE UTCUBAMBA",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL DE UTCUBAMBA",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL EL DORADO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL EL DORADO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL HUÁNUCO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL HUÁNUCO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL ISLAY",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL ISLAY",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL LEONCIO PRADO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL LEONCIO PRADO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL LEONCIO PRADO DE TINGO MARÍA",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL LEONCIO PRADO DE TINGO MARÍA",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL LEONCIO PRADO TINGO MARÍA",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL LEONCIO PRADO TINGO MARÍA",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 02",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 02",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 06",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 06",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 07",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL N 07",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL OXAPAMPA",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL OXAPAMPA",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL PASCO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL PASCO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL RIOJA",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL RIOJA",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL SÁNCHEZ CARRIÓN",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL SÁNCHEZ CARRIÓN",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL SATIPO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL SATIPO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL TOCACHHE",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL TOCACHHE",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL VENTANILLA",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL VENTANILLA",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL VIRÚ",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA LOCAL VIRÚ",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA N 02",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA N 02",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA N°02",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA N°02",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA N°03",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA N°03",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA PASCO",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA PASCO",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA UGEL 01 SAN JUAN DE MIRAFLORES",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA UGEL 01 SAN JUAN DE MIRAFLORES",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN EDUCATIVA UGEL BOLOGNESI",
+    value: "UNIDAD DE GESTIÓN EDUCATIVA UGEL BOLOGNESI",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN LOCAL SÁNCHEZ CARRIÓN",
+    value: "UNIDAD DE GESTIÓN LOCAL SÁNCHEZ CARRIÓN",
+  },
+  {
+    label: "UNIDAD DE GESTIÓN PEDAGÓGICA",
+    value: "UNIDAD DE GESTIÓN PEDAGÓGICA",
+  },
+  {
+    label: "UNIDAD DE MEDICACIÓN DE LA CALIDAD EDUCATIVA UMC",
+    value: "UNIDAD DE MEDICACIÓN DE LA CALIDAD EDUCATIVA UMC",
+  },
+  {
+    label: "UNIDAD DE MEDICIÓN DE LA CALIDAD EDUCATIVA",
+    value: "UNIDAD DE MEDICIÓN DE LA CALIDAD EDUCATIVA",
+  },
+  {
+    label: "UNIDAD DE SERVICIO EDUCATIVO 08",
+    value: "UNIDAD DE SERVICIO EDUCATIVO 08",
+  },
+  {
+    label: "UNIDAD EJECUTORA",
+    value: "UNIDAD EJECUTORA",
+  },
+  {
+    label:
+      "UNIDAD EJECUTORA 118 MEJORAMIENTO DE LA CALIDAD DE LA EDUCACIÓN - MINEDU",
+    value:
+      "UNIDAD EJECUTORA 118 MEJORAMIENTO DE LA CALIDAD DE LA EDUCACIÓN - MINEDU",
+  },
+  {
+    label: "UNIDAD EJECUTORA 3010 EDUCACIÓN YAROWILCA",
+    value: "UNIDAD EJECUTORA 3010 EDUCACIÓN YAROWILCA",
+  },
+  {
+    label: "UNIDAD EJECUTORA 306 EDUCACIÓN PUERTO INCA",
+    value: "UNIDAD EJECUTORA 306 EDUCACIÓN PUERTO INCA",
+  },
+  {
+    label: "UNIDAD EJECUTORA MEJORAMIENTO DE LA CALIDAD DE LA EDUCACIÓN BÁSICA",
+    value: "UNIDAD EJECUTORA MEJORAMIENTO DE LA CALIDAD DE LA EDUCACIÓN BÁSICA",
+  },
+  {
+    label: "UNIDAD EJECUTORA N 302 LEONCIO PRADO",
+    value: "UNIDAD EJECUTORA N 302 LEONCIO PRADO",
+  },
+  {
+    label: "UNIDAD EJECUTORA TOCACHE",
+    value: "UNIDAD EJECUTORA TOCACHE",
+  },
+  {
+    label:
+      "UNIDAD OPERATIVA AREQUIPA DE LA OFICINA NACIONAL DE COOPERACIÓN POPULAR",
+    value:
+      "UNIDAD OPERATIVA AREQUIPA DE LA OFICINA NACIONAL DE COOPERACIÓN POPULAR",
+  },
+  {
+    label:
+      "UNIDADA EJECUTORA 002 PROGRAMA NACIONAL DE EMPLEO JUVENIL JOVENES A LA OBRA",
+    value:
+      "UNIDADA EJECUTORA 002 PROGRAMA NACIONAL DE EMPLEO JUVENIL JOVENES A LA OBRA",
+  },
+  {
+    label: "UNIERSIDAD NACIONAL DANIEL ALCIDES CARRIÓN",
+    value: "UNIERSIDAD NACIONAL DANIEL ALCIDES CARRIÓN",
+  },
+  {
+    label: "UNIFEM",
+    value: "UNIFEM",
+  },
+  {
+    label: "UNIÓN CONSULTORES Y SERVICIOS GENERALES SRL",
+    value: "UNIÓN CONSULTORES Y SERVICIOS GENERALES SRL",
+  },
+  {
+    label: "UNIÓN DE OBRAS DE ASISTENCIA SOCIAL",
+    value: "UNIÓN DE OBRAS DE ASISTENCIA SOCIAL",
+  },
+  {
+    label: "UNITED NATIONS OFFICE FOR PROJECT SERVICES",
+    value: "UNITED NATIONS OFFICE FOR PROJECT SERVICES",
+  },
+  {
+    label: "UNITED STATES AGENCY INTERNATIONAL DEVELOPMENT",
+    value: "UNITED STATES AGENCY INTERNATIONAL DEVELOPMENT",
+  },
+  {
+    label: "UNITED STATES AGENCY INTERNATIONAL DEVELOPMENT USAID PERÚ",
+    value: "UNITED STATES AGENCY INTERNATIONAL DEVELOPMENT USAID PERÚ",
+  },
+  {
+    label: "UNIVERDIAD NACIONAL DEL CENTRO DEL PERÚ",
+    value: "UNIVERDIAD NACIONAL DEL CENTRO DEL PERÚ",
+  },
+  {
+    label: "UNIVERISDAD CATÓLICA SANTO TORIBIO DE MOGROVEJO",
+    value: "UNIVERISDAD CATÓLICA SANTO TORIBIO DE MOGROVEJO",
+  },
+  {
+    label: "UNIVERSDAID SAN MARTIN DE PORRES VIRTUAL",
+    value: "UNIVERSDAID SAN MARTIN DE PORRES VIRTUAL",
+  },
+  {
+    label: "UNIVERSDIAD ALAS PERUANAS",
+    value: "UNIVERSDIAD ALAS PERUANAS",
+  },
+  {
+    label: "UNIVERSDIAD ANCIONAL DEL CENTRO DEL PER+U",
+    value: "UNIVERSDIAD ANCIONAL DEL CENTRO DEL PER+U",
+  },
+  {
+    label: "UNIVERSDIAD DANEIL ALCIDES CARRIÓN",
+    value: "UNIVERSDIAD DANEIL ALCIDES CARRIÓN",
+  },
+  {
+    label: "UNIVERSDIAD MARCELINO CHAMPAGNAT",
+    value: "UNIVERSDIAD MARCELINO CHAMPAGNAT",
+  },
+  {
+    label: "UNIVERSDIAD NACIONAL DANIEL ALCIDES CARRIÓN",
+    value: "UNIVERSDIAD NACIONAL DANIEL ALCIDES CARRIÓN",
+  },
+  {
+    label: "UNIVERSDIAD NACIONAL DE EDUCACIÓN ENRIQUE GUZMÁN Y VALLE",
+    value: "UNIVERSDIAD NACIONAL DE EDUCACIÓN ENRIQUE GUZMÁN Y VALLE",
+  },
+  {
+    label: "UNIVERSDIAD NACIONAL HERMILIO VALDIZAN",
+    value: "UNIVERSDIAD NACIONAL HERMILIO VALDIZAN",
+  },
+  {
+    label: "UNIVERSDIAD NACIONAL JOSE FAUSTINO SANCHEZ CARRIÓN",
+    value: "UNIVERSDIAD NACIONAL JOSE FAUSTINO SANCHEZ CARRIÓN",
+  },
+  {
+    label: "UNIVERSDIAD SAN MARTIN DE PORRES",
+    value: "UNIVERSDIAD SAN MARTIN DE PORRES",
+  },
+  {
+    label: "UNIVERSDIDAD NACIONAL MAYOR DE SAN MARCOS",
+    value: "UNIVERSDIDAD NACIONAL MAYOR DE SAN MARCOS",
+  },
+  {
+    label: "UNIVERSIAD NACIONAL DANIEL ALCIDES CARRIÓN",
+    value: "UNIVERSIAD NACIONAL DANIEL ALCIDES CARRIÓN",
+  },
+  {
+    label: "UNIVERSIDA CESAR VALLEJO",
+    value: "UNIVERSIDA CESAR VALLEJO",
+  },
+  {
+    label: "UNIVERSIDA CONTINENTAL",
+    value: "UNIVERSIDA CONTINENTAL",
+  },
+  {
+    label: "UNIVERSIDA NACIOANL DANIEL ALCIDES CARRIÓN",
+    value: "UNIVERSIDA NACIOANL DANIEL ALCIDES CARRIÓN",
+  },
+  {
+    label: "UNIVERSIDA NACIONAL DANIEL ALCIDES CARRIÓN",
+    value: "UNIVERSIDA NACIONAL DANIEL ALCIDES CARRIÓN",
+  },
+  {
+    label: "UNIVERSIDA NACIONAL INTERCULTURAL DE LA AMAZONÍA",
+    value: "UNIVERSIDA NACIONAL INTERCULTURAL DE LA AMAZONÍA",
+  },
+  {
+    label: "UNIVERSIDAD  PERUANA CAYETANO HEREDIA",
+    value: "UNIVERSIDAD  PERUANA CAYETANO HEREDIA",
+  },
+  {
+    label: "UNIVERSIDAD ALAS PERUANAS",
+    value: "UNIVERSIDAD ALAS PERUANAS",
+  },
+  {
+    label: "Universidad Alas Peruanas Filial Juliaca",
+    value: "Universidad Alas Peruanas Filial Juliaca",
+  },
+  {
+    label: "UNIVERSIDAD ALAS PERUANAS UAP",
+    value: "UNIVERSIDAD ALAS PERUANAS UAP",
+  },
+  {
+    label: "UNIVERSIDAD ANCIOANL INTERCULTURAL DE LA AMAZONÍA",
+    value: "UNIVERSIDAD ANCIOANL INTERCULTURAL DE LA AMAZONÍA",
+  },
+  {
+    label: "UNIVERSIDAD ANCIONAL DE EDUCACIÓN ENRQUE GUZMÁN Y VALLE",
+    value: "UNIVERSIDAD ANCIONAL DE EDUCACIÓN ENRQUE GUZMÁN Y VALLE",
+  },
+  {
+    label: "UNIVERSIDAD ANDINA DEL CUSCO",
+    value: "UNIVERSIDAD ANDINA DEL CUSCO",
+  },
+  {
+    label:
+      "UNIVERSIDAD ANTONIO RUIZ D EMONTOYA INSTITUTO DE INVESTIGACIÓN Y POLÍTICAS EDUCATIVAS",
+    value:
+      "UNIVERSIDAD ANTONIO RUIZ D EMONTOYA INSTITUTO DE INVESTIGACIÓN Y POLÍTICAS EDUCATIVAS",
+  },
+  {
+    label: "UNIVERSIDAD ANTONIO RUIZ DE MONTOYA",
+    value: "UNIVERSIDAD ANTONIO RUIZ DE MONTOYA",
+  },
+  {
+    label: "UNIVERSIDAD AUTÓNOMA",
+    value: "UNIVERSIDAD AUTÓNOMA",
+  },
+  {
+    label:
+      "UNIVERSIDAD AUTÓNOMA DE BARCELONA DEPARTAMENT D'ANTROPOLOGIA SOCIAL I CULTURAL",
+    value:
+      "UNIVERSIDAD AUTÓNOMA DE BARCELONA DEPARTAMENT D'ANTROPOLOGIA SOCIAL I CULTURAL",
+  },
+  {
+    label: "UNIVERSIDAD AUTÓNOMA DEL ESTADO DE MÉXICO",
+    value: "UNIVERSIDAD AUTÓNOMA DEL ESTADO DE MÉXICO",
+  },
+  {
+    label: "UNIVERSIDAD AUTÓNOMA DEL PERÚ",
+    value: "UNIVERSIDAD AUTÓNOMA DEL PERÚ",
+  },
+  {
+    label: "UNIVERSIDAD CADI AYYAD MARAKECH MARRUECOS",
+    value: "UNIVERSIDAD CADI AYYAD MARAKECH MARRUECOS",
+  },
+  {
+    label: "UNIVERSIDAD CATÓLICA BOLIVIANA",
+    value: "UNIVERSIDAD CATÓLICA BOLIVIANA",
+  },
+  {
+    label: "UNIVERSIDAD CATÓLICA LOS ÁNGELES CHIMBOTE",
+    value: "UNIVERSIDAD CATÓLICA LOS ÁNGELES CHIMBOTE",
+  },
+  {
+    label: "UNIVERSIDAD CATÓLICA SAPIENTIAE",
+    value: "UNIVERSIDAD CATÓLICA SAPIENTIAE",
+  },
+  {
+    label: "UNIVERSIDAD CATÓLICA SEDE SAPIENSE",
+    value: "UNIVERSIDAD CATÓLICA SEDE SAPIENSE",
+  },
+  {
+    label: "Universidad Católica Sedes Sapientiae",
+    value: "Universidad Católica Sedes Sapientiae",
+  },
+  {
+    label: "UNIVERSIDAD CAYETANO HEREDIA",
+    value: "UNIVERSIDAD CAYETANO HEREDIA",
+  },
+  {
+    label: "UNIVERSIDAD CAYETANO HEREDIA- FACULTAD DE EDUCACIÓN",
+    value: "UNIVERSIDAD CAYETANO HEREDIA- FACULTAD DE EDUCACIÓN",
+  },
+  {
+    label: "UNIVERSIDAD CENTROAMERICANA DE EL SALVADOR JOSÉ SIMEÓN CAÑAS",
+    value: "UNIVERSIDAD CENTROAMERICANA DE EL SALVADOR JOSÉ SIMEÓN CAÑAS",
+  },
+  {
+    label: "UNIVERSIDAD CENTROAMERICANA JOSÉ SIMEÓN CAÑAS",
+    value: "UNIVERSIDAD CENTROAMERICANA JOSÉ SIMEÓN CAÑAS",
+  },
+  {
+    label: "UNIVERSIDAD CÉSAR VALLEJO",
+    value: "UNIVERSIDAD CÉSAR VALLEJO",
+  },
+  {
+    label: "UNIVERSIDAD CIENTÍFICA DEL SUR",
+    value: "UNIVERSIDAD CIENTÍFICA DEL SUR",
+  },
+  {
+    label: "UNIVERSIDAD DANIEL ALCIDES CARRIÓN",
+    value: "UNIVERSIDAD DANIEL ALCIDES CARRIÓN",
+  },
+  {
+    label: "UNIVERSIDAD DE CHILE",
+    value: "UNIVERSIDAD DE CHILE",
+  },
+  {
+    label: "UNIVERSIDAD DE CHILE- FACULTAD DE ECONOMÍA Y NEGOCIOS",
+    value: "UNIVERSIDAD DE CHILE- FACULTAD DE ECONOMÍA Y NEGOCIOS",
+  },
+  {
+    label: "UNIVERSIDAD DE CHILE- FACULTAD DE MEDICINA",
+    value: "UNIVERSIDAD DE CHILE- FACULTAD DE MEDICINA",
+  },
+  {
+    label: "UNIVERSIDAD DE CHILE- FUNDACIÓN FACULTAD DE ECONOMÍA Y NEGOCIOS",
+    value: "UNIVERSIDAD DE CHILE- FUNDACIÓN FACULTAD DE ECONOMÍA Y NEGOCIOS",
+  },
+  {
+    label: "UNIVERSIDAD DE COIMBRA",
+    value: "UNIVERSIDAD DE COIMBRA",
+  },
+  {
+    label: "UNIVERSIDAD DE GINEBRA SUIZA",
+    value: "UNIVERSIDAD DE GINEBRA SUIZA",
+  },
+  {
+    label: "UNIVERSIDAD DE HUÁNUCO",
+    value: "UNIVERSIDAD DE HUÁNUCO",
+  },
+  {
+    label: "UNIVERSIDAD DE HUÁNUCO EDUCACIÓN",
+    value: "UNIVERSIDAD DE HUÁNUCO EDUCACIÓN",
+  },
+  {
+    label: "UNIVERSIDAD DE LA AMAZONÍA MARIO PELÁEZ BAZÁN SAC",
+    value: "UNIVERSIDAD DE LA AMAZONÍA MARIO PELÁEZ BAZÁN SAC",
+  },
+  {
+    label: "UNIVERSIDAD DE LIMA",
+    value: "UNIVERSIDAD DE LIMA",
+  },
+  {
+    label: "UNIVERSIDAD DE PIURA",
+    value: "UNIVERSIDAD DE PIURA",
+  },
+  {
+    label: "UNIVERSIDAD DE SALAMANCA",
+    value: "UNIVERSIDAD DE SALAMANCA",
+  },
+  {
+    label:
+      "UNIVERSIDAD DE SALAMANCA- DIRECTOR DEL SERVICIO DE ASUNTOS SOCIALES",
+    value:
+      "UNIVERSIDAD DE SALAMANCA- DIRECTOR DEL SERVICIO DE ASUNTOS SOCIALES",
+  },
+  {
+    label: "UNIVERSIDAD DE SAN MARTIN DE PORRES",
+    value: "UNIVERSIDAD DE SAN MARTIN DE PORRES",
+  },
+  {
+    label: "UNIVERSIDAD DE SWANSEA INGLATERRA",
+    value: "UNIVERSIDAD DE SWANSEA INGLATERRA",
+  },
+  {
+    label: "UNIVERSIDAD DEL CENTRO DEL PERÚ",
+    value: "UNIVERSIDAD DEL CENTRO DEL PERÚ",
+  },
+  {
+    label: "UNIVERSIDAD DEL CONVENIO UNE REGIÓN CALLAO",
+    value: "UNIVERSIDAD DEL CONVENIO UNE REGIÓN CALLAO",
+  },
+  {
+    label: "UNIVERSIDAD DEL PACÍFICO",
+    value: "UNIVERSIDAD DEL PACÍFICO",
+  },
+  {
+    label: "UNIVERSIDAD ESAN",
+    value: "UNIVERSIDAD ESAN",
+  },
+  {
+    label: "UNIVERSIDAD FEDERAL DE VICOSA ",
+    value: "UNIVERSIDAD FEDERAL DE VICOSA ",
+  },
+  {
+    label: "UNIVERSIDAD FEDERAL FLUMINENSE",
+    value: "UNIVERSIDAD FEDERAL FLUMINENSE",
+  },
+  {
+    label: "UNIVERSIDAD FEDERAL FLUMINENSE DE RÍO DE JANEIRO",
+    value: "UNIVERSIDAD FEDERAL FLUMINENSE DE RÍO DE JANEIRO",
+  },
+  {
+    label: "UNIVERSIDAD FEMENINA DEL SAGRADO CORAZÓN- UNIFÉ",
+    value: "UNIVERSIDAD FEMENINA DEL SAGRADO CORAZÓN- UNIFÉ",
+  },
+  {
+    label: "UNIVERSIDAD HUÁNUCO",
+    value: "UNIVERSIDAD HUÁNUCO",
+  },
+  {
+    label: "UNIVERSIDAD INDUSTRIAL DE SANTANDER",
+    value: "UNIVERSIDAD INDUSTRIAL DE SANTANDER",
+  },
+  {
+    label: "UNIVERSIDAD JOSÉ CARLOS MARIÁTEGUI",
+    value: "UNIVERSIDAD JOSÉ CARLOS MARIÁTEGUI",
+  },
+  {
+    label: "UNIVERSIDAD MARCELINO CHAMPAGNAT",
+    value: "UNIVERSIDAD MARCELINO CHAMPAGNAT",
+  },
+  {
+    label: "UNIVERSIDAD MICHOCANA DE SAN NICOLÁS DE HIDALGO",
+    value: "UNIVERSIDAD MICHOCANA DE SAN NICOLÁS DE HIDALGO",
+  },
+  {
+    label: "UNIVERSIDAD NACIOANL JOSÉ FAUSTINO SÁNCHEZ CARRIÓN",
+    value: "UNIVERSIDAD NACIOANL JOSÉ FAUSTINO SÁNCHEZ CARRIÓN",
+  },
+  {
+    label: "UNIVERSIDAD NACIONA MAYOR DE SAN MARCOS",
+    value: "UNIVERSIDAD NACIONA MAYOR DE SAN MARCOS",
+  },
+  {
+    label: 'UNIVERSIDAD NACIONAL "HERMELIO VALDIZAN"',
+    value: 'UNIVERSIDAD NACIONAL "HERMELIO VALDIZAN"',
+  },
+  {
+    label: 'UNIVERSIDAD NACIONAL "JOSÉ FAUSTINO SÁNCHEZ CARRIÓN"',
+    value: 'UNIVERSIDAD NACIONAL "JOSÉ FAUSTINO SÁNCHEZ CARRIÓN"',
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL AGRARIA DE LA SELVA",
+    value: "UNIVERSIDAD NACIONAL AGRARIA DE LA SELVA",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL AGRARIA LA MOLINA",
+    value: "UNIVERSIDAD NACIONAL AGRARIA LA MOLINA",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL AMAZÓNICA DE MADRE DE DIOS",
+    value: "UNIVERSIDAD NACIONAL AMAZÓNICA DE MADRE DE DIOS",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DANIEL ALCIDES CARRIÓN",
+    value: "UNIVERSIDAD NACIONAL DANIEL ALCIDES CARRIÓN",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE ANCASH. SAN ANTONIO DE MAYOLO",
+    value: "UNIVERSIDAD NACIONAL DE ANCASH. SAN ANTONIO DE MAYOLO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE CAJAMARCA",
+    value: "UNIVERSIDAD NACIONAL DE CAJAMARCA",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE CAJAMARCA UNC",
+    value: "UNIVERSIDAD NACIONAL DE CAJAMARCA UNC",
+  },
+  {
+    label:
+      "UNIVERSIDAD NACIONAL DE CENTRO DEL PERÚ FACULTAD DE CIENCIAS AGRARIAS",
+    value:
+      "UNIVERSIDAD NACIONAL DE CENTRO DEL PERÚ FACULTAD DE CIENCIAS AGRARIAS",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE EDCUACIÓN ENRIQUE GÚZMAN Y VALLE",
+    value: "UNIVERSIDAD NACIONAL DE EDCUACIÓN ENRIQUE GÚZMAN Y VALLE",
+  },
+  {
+    label:
+      "UNIVERSIDAD NACIONAL DE EDCUACIÓN ENRIQUE GUZMAN Y VALLE LA CANTUTA",
+    value:
+      "UNIVERSIDAD NACIONAL DE EDCUACIÓN ENRIQUE GUZMAN Y VALLE LA CANTUTA",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE EDUCACIÓN",
+    value: "UNIVERSIDAD NACIONAL DE EDUCACIÓN",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE EDUCACIÓN ENRIQUE GUZMAN Y  VALLE",
+    value: "UNIVERSIDAD NACIONAL DE EDUCACIÓN ENRIQUE GUZMAN Y  VALLE",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE EDUCACIÓN ENRIQUE GUZMÁN Y VALLE",
+    value: "UNIVERSIDAD NACIONAL DE EDUCACIÓN ENRIQUE GUZMÁN Y VALLE",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE EDUCACIÓN NRQIEU GUZMAN Y VALLE",
+    value: "UNIVERSIDAD NACIONAL DE EDUCACIÓN NRQIEU GUZMAN Y VALLE",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE HUANCAVELICA",
+    value: "UNIVERSIDAD NACIONAL DE HUANCAVELICA",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE INGENIERÍA",
+    value: "UNIVERSIDAD NACIONAL DE INGENIERÍA",
+  },
+  {
+    label:
+      "UNIVERSIDAD NACIONAL DE INGENIERÍA PROGRAMA NACIONAL DE FORMACIÓN Y CAPACITACIÓN PERMANENTE",
+    value:
+      "UNIVERSIDAD NACIONAL DE INGENIERÍA PROGRAMA NACIONAL DE FORMACIÓN Y CAPACITACIÓN PERMANENTE",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE LA AMAZONÍA PERUANA",
+    value: "UNIVERSIDAD NACIONAL DE LA AMAZONÍA PERUANA",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE MOQUEGUA",
+    value: "UNIVERSIDAD NACIONAL DE MOQUEGUA",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE PIURA",
+    value: "UNIVERSIDAD NACIONAL DE PIURA",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE SAN ANTONIO ABAD DEL CUSCO",
+    value: "UNIVERSIDAD NACIONAL DE SAN ANTONIO ABAD DEL CUSCO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE SAN CRISTÓBAL DE HUAMANGA",
+    value: "UNIVERSIDAD NACIONAL DE SAN CRISTÓBAL DE HUAMANGA",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE SAN MARCOS",
+    value: "UNIVERSIDAD NACIONAL DE SAN MARCOS",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE SAN MARTÍN",
+    value: "UNIVERSIDAD NACIONAL DE SAN MARTÍN",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE SAN MARTÍN TARAPOTO",
+    value: "UNIVERSIDAD NACIONAL DE SAN MARTÍN TARAPOTO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE TRUJILLO",
+    value: "UNIVERSIDAD NACIONAL DE TRUJILLO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DE UCAYALI",
+    value: "UNIVERSIDAD NACIONAL DE UCAYALI",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DEL ALTIPLANO",
+    value: "UNIVERSIDAD NACIONAL DEL ALTIPLANO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DEL ALTIPLANO PUNO",
+    value: "UNIVERSIDAD NACIONAL DEL ALTIPLANO PUNO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DEL CALLAO",
+    value: "UNIVERSIDAD NACIONAL DEL CALLAO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DEL CENTRO DE PERÚ",
+    value: "UNIVERSIDAD NACIONAL DEL CENTRO DE PERÚ",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DEL CENTRO DEL PERÚ",
+    value: "UNIVERSIDAD NACIONAL DEL CENTRO DEL PERÚ",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL DEL SANTA",
+    value: "UNIVERSIDAD NACIONAL DEL SANTA",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL ENRIQUE GUZMAN Y VALLE",
+    value: "UNIVERSIDAD NACIONAL ENRIQUE GUZMAN Y VALLE",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL FEDERICO VILLA REAL",
+    value: "UNIVERSIDAD NACIONAL FEDERICO VILLA REAL",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL FEDERICO VILLAREAL",
+    value: "UNIVERSIDAD NACIONAL FEDERICO VILLAREAL",
+  },
+  {
+    label:
+      "UNIVERSIDAD NACIONAL FEDERICO VILLAREAL- INSTITUTO DE INVESTIGACIÓN DE LA FACULTAD DE CIENCIAS ECONÓMICAS",
+    value:
+      "UNIVERSIDAD NACIONAL FEDERICO VILLAREAL- INSTITUTO DE INVESTIGACIÓN DE LA FACULTAD DE CIENCIAS ECONÓMICAS",
+  },
+  {
+    label: "Universidad Nacional Federico Villarreal",
+    value: "Universidad Nacional Federico Villarreal",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL HERMALIO VALDIZÁN",
+    value: "UNIVERSIDAD NACIONAL HERMALIO VALDIZÁN",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL HERMILIO VALDIZÁN",
+    value: "UNIVERSIDAD NACIONAL HERMILIO VALDIZÁN",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL HERMILIO VALDIZÁN \n\n",
+    value: "UNIVERSIDAD NACIONAL HERMILIO VALDIZÁN \n\n",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL HERMILIO VALDIZÁN DE HUÁNUCO",
+    value: "UNIVERSIDAD NACIONAL HERMILIO VALDIZÁN DE HUÁNUCO",
+  },
+  {
+    label:
+      "UNIVERSIDAD NACIONAL HERMILIO VALDIZAN FACULTAD DE CIENCIAS DE LA EDUCACIÓN",
+    value:
+      "UNIVERSIDAD NACIONAL HERMILIO VALDIZAN FACULTAD DE CIENCIAS DE LA EDUCACIÓN",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL HERMILIO VALDIZÁN HUÁNUCO",
+    value: "UNIVERSIDAD NACIONAL HERMILIO VALDIZÁN HUÁNUCO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL HERMILIO VALDIZAN HUÁNUCO PERU",
+    value: "UNIVERSIDAD NACIONAL HERMILIO VALDIZAN HUÁNUCO PERU",
+  },
+  {
+    label:
+      "UNIVERSIDAD NACIONAL HERMILIO VALDIZAN HUANUCO PERU. ESCUELA DE POST GRADO",
+    value:
+      "UNIVERSIDAD NACIONAL HERMILIO VALDIZAN HUANUCO PERU. ESCUELA DE POST GRADO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL HERMILIO VALIDZÁN HUÁNUCO",
+    value: "UNIVERSIDAD NACIONAL HERMILIO VALIDZÁN HUÁNUCO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL INTERCULTURAL DE LA AMAZONÍA",
+    value: "UNIVERSIDAD NACIONAL INTERCULTURAL DE LA AMAZONÍA",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL INTERCULTURAL DE LA AMAZONÍA UNIA",
+    value: "UNIVERSIDAD NACIONAL INTERCULTURAL DE LA AMAZONÍA UNIA",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL JORGE BASADRE GROHMANN",
+    value: "UNIVERSIDAD NACIONAL JORGE BASADRE GROHMANN",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL JOSÉ FAUSTINO SÁNCHE CARRIÓN",
+    value: "UNIVERSIDAD NACIONAL JOSÉ FAUSTINO SÁNCHE CARRIÓN",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL JOSÉ FAUSTINO SÁNCHEZ CARRIÓN ",
+    value: "UNIVERSIDAD NACIONAL JOSÉ FAUSTINO SÁNCHEZ CARRIÓN ",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL JOSÉ MARÍA ARGUEDAS",
+    value: "UNIVERSIDAD NACIONAL JOSÉ MARÍA ARGUEDAS",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL MAYOR DE SAN  MARCOS",
+    value: "UNIVERSIDAD NACIONAL MAYOR DE SAN  MARCOS",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL MAYOR DE SAN MACOS",
+    value: "UNIVERSIDAD NACIONAL MAYOR DE SAN MACOS",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS",
+    value: "UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS",
+  },
+  {
+    label:
+      "UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS. Facultad de Ciencias Sociales",
+    value:
+      "UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS. Facultad de Ciencias Sociales",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS. FACULTAD DE DERECHO",
+    value: "UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS. FACULTAD DE DERECHO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS. FACULTAD DE EDUCACIÓN",
+    value: "UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS. FACULTAD DE EDUCACIÓN",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL MICAELA BASTIDAS",
+    value: "UNIVERSIDAD NACIONAL MICAELA BASTIDAS",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL MICAELA BASTIDAS DE APURÍMAC",
+    value: "UNIVERSIDAD NACIONAL MICAELA BASTIDAS DE APURÍMAC",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL PEDRO RUIZ GALLO",
+    value: "UNIVERSIDAD NACIONAL PEDRO RUIZ GALLO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL PEDRO RUIZ GALLO LAMBAYEQUE",
+    value: "UNIVERSIDAD NACIONAL PEDRO RUIZ GALLO LAMBAYEQUE",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL PEDRO UIZ GALLO",
+    value: "UNIVERSIDAD NACIONAL PEDRO UIZ GALLO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL SAN AGUSTÍN DE AREQUIPA",
+    value: "UNIVERSIDAD NACIONAL SAN AGUSTÍN DE AREQUIPA",
+  },
+  {
+    label: "Universidad Nacional San Antonio Abad del Cusco",
+    value: "Universidad Nacional San Antonio Abad del Cusco",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL SAN LUIS GONZAGA DE ICA ",
+    value: "UNIVERSIDAD NACIONAL SAN LUIS GONZAGA DE ICA ",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL TÉCNICA DEL ALTIPLANO",
+    value: "UNIVERSIDAD NACIONAL TÉCNICA DEL ALTIPLANO",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL TECNOLÓGICA DEL CONO SUR DE LIMA",
+    value: "UNIVERSIDAD NACIONAL TECNOLÓGICA DEL CONO SUR DE LIMA",
+  },
+  {
+    label: "UNIVERSIDAD NACIONAL TORIBIO RODRIGUEZ DE MENDOZA DE AMAZONAS",
+    value: "UNIVERSIDAD NACIONAL TORIBIO RODRIGUEZ DE MENDOZA DE AMAZONAS",
+  },
+  {
+    label: "UNIVERSIDAD OBERTURA DE CATALUNYA",
+    value: "UNIVERSIDAD OBERTURA DE CATALUNYA",
+  },
+  {
+    label: "UNIVERSIDAD PERUANA  DE CIENCIAS APLICADAS",
+    value: "UNIVERSIDAD PERUANA  DE CIENCIAS APLICADAS",
+  },
+  {
+    label: "UNIVERSIDAD PERUANA CAYETANA HEREDIA",
+    value: "UNIVERSIDAD PERUANA CAYETANA HEREDIA",
+  },
+  {
+    label: "UNIVERSIDAD PERUANA CAYETANO  HEREDIA",
+    value: "UNIVERSIDAD PERUANA CAYETANO  HEREDIA",
+  },
+  {
+    label: "UNIVERSIDAD PERUANA CAYETANO HEREDIA ",
+    value: "UNIVERSIDAD PERUANA CAYETANO HEREDIA ",
+  },
+  {
+    label:
+      "Universidad Peruana Cayetano Heredia. Escuela de Posgrado Victor Alzamora Castro",
+    value:
+      "Universidad Peruana Cayetano Heredia. Escuela de Posgrado Victor Alzamora Castro",
+  },
+  {
+    label: "UNIVERSIDAD PERUANA CAYETANO HEREDIA. FACULTAD DE EDUCACIÓN",
+    value: "UNIVERSIDAD PERUANA CAYETANO HEREDIA. FACULTAD DE EDUCACIÓN",
+  },
+  {
+    label: "UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS",
+    value: "UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS",
+  },
+  {
+    label: "UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS   (UPC)",
+    value: "UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS   (UPC)",
+  },
+  {
+    label: "UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS- UPC",
+    value: "UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS- UPC",
+  },
+  {
+    label: "UNIVERSIDAD PERUANA DE INTEGRACIÓN GLOBAL",
+    value: "UNIVERSIDAD PERUANA DE INTEGRACIÓN GLOBAL",
+  },
+  {
+    label: "UNIVERSIDAD PERUANA DE LOS ANDES",
+    value: "UNIVERSIDAD PERUANA DE LOS ANDES",
+  },
+  {
+    label: "UNIVERSIDAD PERUANA LOS ANDES",
+    value: "UNIVERSIDAD PERUANA LOS ANDES",
+  },
+  {
+    label: "UNIVERSIDAD PERUANA LOS ANDES HUACAYO",
+    value: "UNIVERSIDAD PERUANA LOS ANDES HUACAYO",
+  },
+  {
+    label: "UNIVERSIDAD PERUANA SIMÓN BOLÍVAR",
+    value: "UNIVERSIDAD PERUANA SIMÓN BOLÍVAR",
+  },
+  {
+    label: "UNIVERSIDAD PERUANO CAYETANO HEREDIA",
+    value: "UNIVERSIDAD PERUANO CAYETANO HEREDIA",
+  },
+  {
+    label: "UNIVERSIDAD PRIVADA ANTONIO GUILLERMO URRELO. ",
+    value: "UNIVERSIDAD PRIVADA ANTONIO GUILLERMO URRELO. ",
+  },
+  {
+    label: "Universidad Privada del Norte",
+    value: "Universidad Privada del Norte",
+  },
+  {
+    label: "UNIVERSIDAD PRIVADA DEL NORTE SAC",
+    value: "UNIVERSIDAD PRIVADA DEL NORTE SAC",
+  },
+  {
+    label: "UNIVERSIDAD PRIVADA LOS ÁNGELES",
+    value: "UNIVERSIDAD PRIVADA LOS ÁNGELES",
+  },
+  {
+    label: "UNIVERSIDAD PRIVADA SAN PEDRO",
+    value: "UNIVERSIDAD PRIVADA SAN PEDRO",
+  },
+  {
+    label: "UNIVERSIDAD PRIVADA TELESUP",
+    value: "UNIVERSIDAD PRIVADA TELESUP",
+  },
+  {
+    label: "UNIVERSIDAD PRIVADO DEL NORTE",
+    value: "UNIVERSIDAD PRIVADO DEL NORTE",
+  },
+  {
+    label: "UNIVERSIDAD RICARDO PALMA",
+    value: "UNIVERSIDAD RICARDO PALMA",
+  },
+  {
+    label: "UNIVERSIDAD SAN IGNACIO DE LOYOLA",
+    value: "UNIVERSIDAD SAN IGNACIO DE LOYOLA",
+  },
+  {
+    label: "UNIVERSIDAD SAN MARTIN DE PORRES",
+    value: "UNIVERSIDAD SAN MARTIN DE PORRES",
+  },
+  {
+    label: "UNIVERSIDAD SAN MARTIN DE PORRES VIRTUAL",
+    value: "UNIVERSIDAD SAN MARTIN DE PORRES VIRTUAL",
+  },
+  {
+    label: "UNIVERSIDAD SEÑOR DE SIPAN",
+    value: "UNIVERSIDAD SEÑOR DE SIPAN",
+  },
+  {
+    label: "UNIVERSIDAD TECNOLÓGICA DE LOS ANDES",
+    value: "UNIVERSIDAD TECNOLÓGICA DE LOS ANDES",
+  },
+  {
+    label: "UNIVERSIDAD TECNOLÓGICA DEL PERÚ",
+    value: "UNIVERSIDAD TECNOLÓGICA DEL PERÚ",
+  },
+  {
+    label: "UNIVERSIDAD WIENER",
+    value: "UNIVERSIDAD WIENER",
+  },
+  {
+    label: 'UNIVERSIDADA NACIONAL "HERMILIO VALDIZÁN"',
+    value: 'UNIVERSIDADA NACIONAL "HERMILIO VALDIZÁN"',
+  },
+  {
+    label: "UNIVERSIDADA NACIONAL AGRARIA LA MOLINA",
+    value: "UNIVERSIDADA NACIONAL AGRARIA LA MOLINA",
+  },
+  {
+    label: "UNIVERSIDADA SAN MARTIN DE PORRES",
+    value: "UNIVERSIDADA SAN MARTIN DE PORRES",
+  },
+  {
+    label: "UNIVERSITY OF CONNECTICUT",
+    value: "UNIVERSITY OF CONNECTICUT",
+  },
+  {
+    label: "UNIVRSIDAD NACIONAL AGRARIA LA MOLINA",
+    value: "UNIVRSIDAD NACIONAL AGRARIA LA MOLINA",
+  },
+  {
+    label: "UNMSM-Dirección General de Administración",
+    value: "UNMSM-Dirección General de Administración",
+  },
+  {
+    label: "UNOPS CENTRO DE OPERACIONES EN PERÚ",
+    value: "UNOPS CENTRO DE OPERACIONES EN PERÚ",
+  },
+  {
+    label: "UNVERSIDAD NACIONAL DEL CENTRO DEL PERÚ",
+    value: "UNVERSIDAD NACIONAL DEL CENTRO DEL PERÚ",
+  },
+  {
+    label: "UNVIERSIDAD NACIONAL DANIEL ALCIDES CARRIÓN",
+    value: "UNVIERSIDAD NACIONAL DANIEL ALCIDES CARRIÓN",
+  },
+  {
+    label: "UNVIERSIDAD NACIONAL MICAELA BASTIDAS DE Apurímac",
+    value: "UNVIERSIDAD NACIONAL MICAELA BASTIDAS DE Apurímac",
+  },
+  {
+    label: "URTEAGA",
+    value: "URTEAGA",
+  },
+  {
+    label: "USAID",
+    value: "USAID",
+  },
+  {
+    label: "USAID DEL PUEBLO DE LOS ESTADOS UNIDOS DE AMÉRICA",
+    value: "USAID DEL PUEBLO DE LOS ESTADOS UNIDOS DE AMÉRICA",
+  },
+  {
+    label: "USAID PERU SUMA",
+    value: "USAID PERU SUMA",
+  },
+  {
+    label: "USAID PERÚ SUMA DEL PUEBLO DE LOS ESTADOS UNIDOS DE AMÉRICA",
+    value: "USAID PERÚ SUMA DEL PUEBLO DE LOS ESTADOS UNIDOS DE AMÉRICA",
+  },
+  {
+    label: "VACANCI SA",
+    value: "VACANCI SA",
+  },
+  {
+    label: "VALLEJO CONSULTORES",
+    value: "VALLEJO CONSULTORES",
+  },
+  {
+    label: "VARGAS PAREJA ABOGADOS & CONSULTORES",
+    value: "VARGAS PAREJA ABOGADOS & CONSULTORES",
+  },
+  {
+    label: "VARIAS",
+    value: "VARIAS",
+  },
+  {
+    label: "VELASCO CONTRATISTAS GENERALES SAC VELCO",
+    value: "VELASCO CONTRATISTAS GENERALES SAC VELCO",
+  },
+  {
+    label: "VELAZQUEZ MEZA CONSULTORES S.A.C.",
+    value: "VELAZQUEZ MEZA CONSULTORES S.A.C.",
+  },
+  {
+    label: "VERITAS GEOPHYSICAL INTEGRITY",
+    value: "VERITAS GEOPHYSICAL INTEGRITY",
+  },
+  {
+    label: "VÍA LIBRE",
+    value: "VÍA LIBRE",
+  },
+  {
+    label: "VICARIATO APOSTÓLICO SAN FRANCISCO JAVIER",
+    value: "VICARIATO APOSTÓLICO SAN FRANCISCO JAVIER",
+  },
+  {
+    label: "VICEMINISTERIO DE GESTIÓN PEGAGÓGICA",
+    value: "VICEMINISTERIO DE GESTIÓN PEGAGÓGICA",
+  },
+  {
+    label: "VICEVERSA CONSULTING",
+    value: "VICEVERSA CONSULTING",
+  },
+  {
+    label: "VICEVERSA CONSULTING SA",
+    value: "VICEVERSA CONSULTING SA",
+  },
+  {
+    label: "VICTOR CHÁVEZ INGENIEROS S.A.C.",
+    value: "VICTOR CHÁVEZ INGENIEROS S.A.C.",
+  },
+  {
+    label: "VII CONGRESO INTERNACIONAL DE CULTIVOS ANDINOS",
+    value: "VII CONGRESO INTERNACIONAL DE CULTIVOS ANDINOS",
+  },
+  {
+    label: "VILLAVICENCIO Y FLORES, CONTRATISTAS Y CONSULTORES SAC - VIFLOSAC",
+    value: "VILLAVICENCIO Y FLORES, CONTRATISTAS Y CONSULTORES SAC - VIFLOSAC",
+  },
+  {
+    label: "VISIÓN MUNDIAL",
+    value: "VISIÓN MUNDIAL",
+  },
+  {
+    label: "VOLCÁN COMPAÑÍA MINERA SAA",
+    value: "VOLCÁN COMPAÑÍA MINERA SAA",
+  },
+  {
+    label: "VRICOM SA",
+    value: "VRICOM SA",
+  },
+  {
+    label: "WALSH",
+    value: "WALSH",
+  },
+  {
+    label: "WALSH PERU SA",
+    value: "WALSH PERU SA",
+  },
+  {
+    label: "WARMI WASI",
+    value: "WARMI WASI",
+  },
+  {
+    label: "WASHINGTON COLLEGE OF LAW",
+    value: "WASHINGTON COLLEGE OF LAW",
+  },
+  {
+    label: "WASLSH PERÚ S.A.",
+    value: "WASLSH PERÚ S.A.",
+  },
+  {
+    label: "WATU ACCIÓN INDÍGENA",
+    value: "WATU ACCIÓN INDÍGENA",
+  },
+  {
+    label: "WATU ACCIÓN INDÍGENA ONGD",
+    value: "WATU ACCIÓN INDÍGENA ONGD",
+  },
+  {
+    label: "Wayra Group",
+    value: "Wayra Group",
+  },
+  {
+    label: "WILDLIFE CONSERVATION SOCIETY",
+    value: "WILDLIFE CONSERVATION SOCIETY",
+  },
+  {
+    label: "WORL VISION POR LOS NIÑOS",
+    value: "WORL VISION POR LOS NIÑOS",
+  },
+  {
+    label: "WORLD BANK GROUP",
+    value: "WORLD BANK GROUP",
+  },
+  {
+    label: "WORLD FOOD PROGRAMME",
+    value: "WORLD FOOD PROGRAMME",
+  },
+  {
+    label: "WORLD VISION",
+    value: "WORLD VISION",
+  },
+  {
+    label: "WORLD VISIÓN INTERNACIONAL",
+    value: "WORLD VISIÓN INTERNACIONAL",
+  },
+  {
+    label: "WORLD VISION INTERNATIONAL",
+    value: "WORLD VISION INTERNATIONAL",
+  },
+  {
+    label: "WORLD VISION PERÚ",
+    value: "WORLD VISION PERÚ",
+  },
+  {
+    label: "WORLD VISION POR LOS NIÑOS",
+    value: "WORLD VISION POR LOS NIÑOS",
+  },
+  {
+    label: "WORLDWIDE EPC SOLUTIONS FOR OIL & GAS SINCE",
+    value: "WORLDWIDE EPC SOLUTIONS FOR OIL & GAS SINCE",
+  },
+  {
+    label: "XEROX SAC.",
+    value: "XEROX SAC.",
+  },
+  {
+    label:
+      'XI Congreso Nacional e Internacional de Mujeres Bautistas  "Llamadas a impactar- Lima 2018',
+    value:
+      'XI Congreso Nacional e Internacional de Mujeres Bautistas  "Llamadas a impactar- Lima 2018',
+  },
+  {
+    label: "XPERTA GESTIÓN EMPRESARIAL SAC",
+    value: "XPERTA GESTIÓN EMPRESARIAL SAC",
+  },
+  {
+    label: "XYGO",
+    value: "XYGO",
+  },
+  {
+    label: "Z- VÍCTOR LABORATORIO DE ENSAYOS",
+    value: "Z- VÍCTOR LABORATORIO DE ENSAYOS",
+  },
+  {
+    label: "Z-VICOR LABORATORIOS DE ENSAYOS",
+    value: "Z-VICOR LABORATORIOS DE ENSAYOS",
+  },
+  {
+    label: "ZAVALETA INGENIEROS ",
+    value: "ZAVALETA INGENIEROS ",
+  },
+  {
+    label: "ZYL AGRO EIRL",
+    value: "ZYL AGRO EIRL",
+  },
+];
