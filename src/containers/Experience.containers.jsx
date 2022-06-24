@@ -38,11 +38,6 @@ const Card = () => {
               placeholder="[EJEMPLO], BCP"
               options={empresas}
             />
-            <InputSelect
-              title="Sector empresarial *"
-              placeholder="[EJEMPLO], Finanzas"
-              options={[]}
-            />
             <InputDate
               title="Fecha de inicio"
               placeholder="[EJEMPLO], 23/05/2015"
@@ -85,9 +80,9 @@ const Card = () => {
                 </style>
               </div>
             </div>
-            <div> </div>
+            
             <label className="text-gray-800 w-96 dark:text-gray-100 text-ms leading-tight tracking-normal mb-2">
-              Funciones<span className="text-red-700">*</span>
+              Funciones
             </label>
             <div className="w-96 grid grid-cols-1 gap-0 content-end justify-items-end">
               <button

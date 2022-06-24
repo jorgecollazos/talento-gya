@@ -85,7 +85,7 @@ const Steps = () => {
         </div>
         <div className="flex justify-between items-center pb-2 flex-col mt-10">
           <h1 className="text-3xl text-slate-900 font-bold">
-            Formación continua
+            Experiencia laboral
           </h1>
         </div>
       </div>

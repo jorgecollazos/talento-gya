@@ -44,11 +44,14 @@ const Card = () => {
               placeholder="[EJEMPLO], UPC"
               options={universidad}
             />
-            <Input
-              title="Nombre de certificación"
-              placeholder="[EJEMPLO], Curso análisis de datos"
-              required="*"
-            />
+            <div>
+              <Input
+                title="Nombre de certificación"
+                placeholder="[EJEMPLO], Curso análisis de datos"
+                required="*"
+              />
+            </div>
+
             <Input
               title="Número de horas"
               placeholder="[EJEMPLO], 20"
@@ -80,7 +83,7 @@ const Card = () => {
         </div>
         <div className="w-full lg:w-1/3">
           <div className="grid grid-cols-1 gap-4 content-center justify-items-center">
-            <img className="h-96" src="src/assets/img/logo.png" />
+            <img className="h-96" src="/src/assets/img/logo.png" />
           </div>
         </div>
       </div>
