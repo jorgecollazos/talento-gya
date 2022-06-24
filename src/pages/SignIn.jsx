@@ -1,14 +1,15 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Header from "../partials/Header";
+import Form from "../components/Form";
 
 function SignIn() {
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
 
   let handleSubmit = async (e) => {
-    console.log(email, password)
+    console.log(email, password);
     e.preventDefault();
     try {
       let res = await fetch("http://137.184.220.167:4010/signin", {
@@ -51,110 +52,61 @@ function SignIn() {
 
               {/* Form */}
               <div className="max-w-sm mx-auto">
-                <form action="http://137.184.220.167:4010/signin" method="post">
-                  <div className="flex flex-wrap -mx-3 mb-4">
-                    <div className="w-full px-3">
-                      <label
-                        className="block text-gray-800 text-sm font-medium mb-1"
-                        htmlFor="email"
-                      >
-                        Correo
-                      </label>
-                      <input
-                        id="email"
-                        type="email"
-                        value={email}
-                        name="email"
-                        className="form-input w-full text-gray-800"
-                        placeholder="Ingresa tu correo electrónico"
-                        onChange={(e) => setEmail(e.target.value)}
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div className="flex flex-wrap -mx-3 mb-4">
-                    <div className="w-full px-3">
-                      <div className="flex justify-between">
-                        <label
-                          className="block text-gray-800 text-sm font-medium mb-1"
-                          htmlFor="password"
-                        >
-                          Contraseña
-                        </label>
-                      </div>
-                      <input
-                        id="password"
-                        type="password"
-                        name="password"
-                        value={password}
-                        className="form-input w-full text-gray-800"
-                        placeholder="Ingresa tu contraseña"
-                        onChange={(e) => setPassword(e.target.value)}
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div className="flex flex-wrap -mx-3 mb-4">
-                    <div className="w-full px-3">
-                      <div className="flex justify-between">
-                        <label className="flex items-center">
-                          <input type="checkbox" className="form-checkbox" />
-                          <span className="text-gray-600 ml-2">
-                            Recuerdame
-                          </span>
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex flex-wrap -mx-3 mt-6">
-                    <div className="w-full px-3">
-                      <button type="submit" className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">
-                        Ingresar
-                      </button>
-                    </div>
-                  </div>
-                </form>
+                <Form registro="Ingresar" />
                 <div className="flex items-center my-6">
                   <div
                     className="border-t border-gray-300 flex-grow mr-3"
                     aria-hidden="true"
                   ></div>
-                  <div className="text-gray-600 italic">Or</div>
+                  <div className="text-gray-600 italic">O</div>
                   <div
                     className="border-t border-gray-300 flex-grow ml-3"
                     aria-hidden="true"
                   ></div>
                 </div>
                 <form>
-                  <div className="flex flex-wrap -mx-3 mb-3">
-                    <div className="w-full px-3">
-                      <button className="btn px-0 text-white bg-gray-900 hover:bg-gray-800 w-full relative flex items-center">
+                  <div className="flex flex-row -mx-3 mb-3">
+                    <div className="basis-1/2 px-3">
+                      <button className="btn px-0 text-white bg-facebook hover:bg-blue-900 w-full relative flex items-center">
+                        <span className="pl-16 -ml-12">Ingresar con</span>
                         <svg
-                          className="w-4 h-4 fill-current text-white opacity-75 flex-shrink-0 mx-4"
-                          viewBox="0 0 16 16"
+                          fill="#fff"
                           xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 30 30"
+                          width="30px"
+                          height="30px"
                         >
-                          <path d="M7.95 0C3.578 0 0 3.578 0 7.95c0 3.479 2.286 6.46 5.466 7.553.397.1.497-.199.497-.397v-1.392c-2.187.497-2.683-.993-2.683-.993-.398-.895-.895-1.193-.895-1.193-.696-.497.1-.497.1-.497.795.1 1.192.795 1.192.795.696 1.292 1.888.895 2.286.696.1-.497.298-.895.497-1.093-1.79-.2-3.578-.895-3.578-3.975 0-.895.298-1.59.795-2.087-.1-.2-.397-.994.1-2.087 0 0 .695-.2 2.186.795a6.408 6.408 0 011.987-.299c.696 0 1.392.1 1.988.299 1.49-.994 2.186-.795 2.186-.795.398 1.093.199 1.888.1 2.087.496.596.795 1.291.795 2.087 0 3.08-1.889 3.677-3.677 3.875.298.398.596.895.596 1.59v2.187c0 .198.1.497.596.397C13.714 14.41 16 11.43 16 7.95 15.9 3.578 12.323 0 7.95 0z" />
+                          {" "}
+                          <path d="M12,27V15H8v-4h4V8.852C12,4.785,13.981,3,17.361,3c1.619,0,2.475,0.12,2.88,0.175V7h-2.305C16.501,7,16,7.757,16,9.291V11 h4.205l-0.571,4H16v12H12z" />
                         </svg>
-                        <span className="flex-auto pl-16 pr-8 -ml-16">
-                          Ingresar con Facebook
-                        </span>
                       </button>
                     </div>
-                  </div>
-                  <div className="flex flex-wrap -mx-3">
-                    <div className="w-full px-3">
-                      <button className="btn px-0 text-white bg-red-600 hover:bg-red-700 w-full relative flex items-center">
+                    <div className="basis-1/2 px-3">
+                      <button className="btn px-0 text-gray-600 bg-slate-100 hover:bg-slate-200 w-full relative flex items-center">
+                        <span className="pl-14 pr-2 -ml-12">Ingresar con</span>
                         <svg
-                          className="w-4 h-4 fill-current text-white opacity-75 flex-shrink-0 mx-4"
-                          viewBox="0 0 16 16"
                           xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 48 48"
+                          width="30px"
+                          height="30px"
                         >
-                          <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" />
+                          <path
+                            fill="#FFC107"
+                            d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"
+                          />
+                          <path
+                            fill="#FF3D00"
+                            d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"
+                          />
+                          <path
+                            fill="#4CAF50"
+                            d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"
+                          />
+                          <path
+                            fill="#1976D2"
+                            d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"
+                          />
                         </svg>
-                        <span className="flex-auto pl-16 pr-8 -ml-16">
-                          Ingresar con Google
-                        </span>
                       </button>
                     </div>
                   </div>

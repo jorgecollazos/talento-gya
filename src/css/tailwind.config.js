@@ -28,6 +28,7 @@ module.exports = {
           800: '#0059C2',
           900: '#004391',
         },
+        facebook: '#3b5998',
         teal: {
           100: '#E6FFFA',
           200: '#B2F5EA',
