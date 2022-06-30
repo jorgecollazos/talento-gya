@@ -7,6 +7,8 @@ import InputDate from "../components/InputDate.components";
 import InputSelect from "../components/InputSelect.components";
 import InputFile from "../components/InputFile.components";
 import InputMultiSelect from "../components/InputMultiSelect.components";
+import DatalistInput from "react-datalist-input";
+import "react-datalist-input/dist/styles.css";
 import Select from "react-select";
 
 import { carreras } from "../tb_carrera";
@@ -14,14 +16,16 @@ import { universidad } from "../tb_universidad";
 
 const Card = ({ token }) => {
   const [data, setData] = useState(null);
+  const [documentDate, setDocumentDate] = useState('');
   const [selectedCheck, setSelectedCheck] = useState(false);
+  const [selectedUniversity, setSelectedUniversity] = useState(null);
+  const [selectedDegree, setSelectedDegree] = useState(null);
   const [selectedNivelEstudio, setSelectedNivelEstudio] = useState(null);
   const [selectedNivelObtenido, setSelectedNivelObtenido] = useState(null);
   const [selectedNivelObtenidoCheck, setSelectedNivelObtenidoCheck] =
     useState(true);
   const [selectedNivelObtenidoOptions, setSelectedNivelObtenidoOptions] =
     useState(true);
-
   const onSelectNivel = (list) => {
     setSelectedNivelObtenidoCheck(false);
     setSelectedNivelEstudio(list);
@@ -40,6 +44,8 @@ const Card = ({ token }) => {
       ]);
     }
   };
+
+
   const onCheck = (value) => {
     setSelectedCheck(value);
   };
@@ -53,10 +59,18 @@ const Card = ({ token }) => {
   const onSubmit = (formData) => {
     formData = {
       ...formData,
-
+      selectedUniversity: selectedUniversity,
+      selectedDegree: selectedDegree,
+      selectedNivelEstudio: selectedNivelEstudio.value,
+      selectedNivelObtenido: selectedNivelObtenido.value,
       token: token,
     };
     setData(formData);
+    setDocumentDate('')
+    setSelectedNivelEstudio('')
+    setSelectedNivelObtenido('')
+    setSelectedUniversity('')
+    setSelectedDegree('')
   };
 
   const url = "http://localhost:4000/api/v1/users/academic";
@@ -66,10 +80,9 @@ const Card = ({ token }) => {
     (async () => {
       if (data !== null) {
         try {
+          console.log(data);
           const response = await axios.post(url, data);
           console.log(response);
-          urlRedirect = urlRedirect + "/" + token;
-          // window.location.replace(urlRedirect + "/" + token);
         } catch (error) {
           console.log(error.message);
         } finally {
@@ -91,6 +104,7 @@ const Card = ({ token }) => {
                 <Select
                   className="h-10 w-96 text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50"
                   defaultValue={selectedNivelEstudio}
+                  value={selectedNivelEstudio}
                   onChange={onSelectNivel}
                   options={[
                     { label: "Pregrado", value: "Pregrado" },
@@ -98,6 +112,7 @@ const Card = ({ token }) => {
                     { label: "Doctorado", value: "Doctorado" },
                   ]}
                   placeholder="[EJEMPLO], Pregrado"
+                  required
                 />
               </div>
               <div>
@@ -107,23 +122,31 @@ const Card = ({ token }) => {
                 <Select
                   className="h-10 w-96 text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50"
                   defaultValue={selectedNivelObtenido}
+                  value={selectedNivelObtenido}
                   onChange={setSelectedNivelObtenido}
                   isDisabled={selectedNivelObtenidoCheck}
                   options={selectedNivelObtenidoOptions}
                   placeholder="[EJEMPLO], Egresado"
+                  required
                 />
               </div>
 
-              <InputSelect
-                title="Institución *"
+              <DatalistInput
+                value={selectedUniversity}
+                className="w-96"
                 placeholder="[EJEMPLO], UPC"
-                options={universidad}
+                label="Institución *"
+                onSelect={(item) => setSelectedUniversity(item.value)}
+                items={universidad}
               />
 
-              <InputSelect
-                title="Carrera *"
+              <DatalistInput
+                value={selectedDegree}
+                className="w-96"
                 placeholder="[EJEMPLO], Economía"
-                options={carreras}
+                label="Carrera *"
+                onSelect={(item) => setSelectedDegree(item.value)}
+                items={carreras}
               />
 
               <div>
@@ -132,11 +155,13 @@ const Card = ({ token }) => {
                   required="*"
                 />
                 <input
-                  id="email"
+                  id="documentDate"
                   type="date"
                   {...register("proof_date")}
                   className="text-gray-600 dark:text-gray-400 focus:outline-none focus:border focus:border-indigo-700 dark:focus:border-indigo-700 dark:border-gray-700 dark:bg-gray-800 bg-gray-200 font-normal w-96 h-10 flex items-center pl-3 text-sm border-gray-300 rounded-2xl border shadow"
                   placeholder="[EJEMPLO], 23/05/2015"
+                  value={documentDate}
+                  onChange={event => setDocumentDate(event.target.value)}
                 />
               </div>
 
@@ -150,6 +175,7 @@ const Card = ({ token }) => {
                       type="checkbox"
                       name="toggle"
                       id="toggle1"
+                      {...register("colegiado", { required: true })}
                       onChange={() => onCheck(!selectedCheck)}
                       className="focus:outline-none checkbox w-6 h-6 rounded-full bg-white absolute shadow-sm appearance-none cursor-pointer border border-transparent top-0 bottom-0 m-auto"
                     />
@@ -185,7 +211,7 @@ const Card = ({ token }) => {
                 Añadir
               </button>
               <button className="mx-2 my-2 w-40 bg-amber-400 transition duration-150 ease-in-out hover:bg-yellow-600 rounded-3xl text-white px-6 py-3 text-ms">
-                <a href={urlRedirect} className="">
+                <a href={urlRedirect + '/' + token} className="">
                   Continuar
                 </a>
               </button>

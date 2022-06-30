@@ -6,7 +6,7 @@ const InputSelect = ({ title, placeholder, required, options }) => {
     <DatalistInput className="w-96"
       placeholder={placeholder}
       label={title}
-      onSelect={(item) => console.log(item.value)}
+      // onSelect={(item) => console.log(item.value)}
       items={options}
     />
   );
