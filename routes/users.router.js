@@ -70,4 +70,37 @@ router.post("/information", async (req, res, next) => {
   }
 });
 
+router.post("/academic", async (req, res, next) => {
+  try {
+    const {
+      colegiado,
+      proof_date,
+      selectedDegree,
+      selectedNivelEstudio,
+      selectedNivelObtenido,
+      selectedUniversity,
+      token,
+    } = req.body;
+
+    const query = await pool.query(
+      "INSERT INTO user_education (user_id, educational_level, level_obtained, institution, graduation_degree, proof_date, collegiate) VALUES ($1, $2, $3, $4, $5, $6, $7)",
+      [token, selectedNivelEstudio, selectedNivelObtenido, selectedUniversity, selectedDegree, proof_date, colegiado]
+    );
+    
+    // let hoy = new Date();
+    // let mm = hoy.getMonth() + 1;
+    // let date = hoy.getFullYear() + "-" + mm + "-" + hoy.getDate();
+    // const newUser = await pool.query(
+    //   "INSERT INTO users (email, password, account_creation, last_session) VALUES ($1, $2, $3, $4)",
+    //   [email, password, date, date]
+    // );
+    // const token = {
+    //   'token': 'asdsad1231dqsda'
+    // }
+    res.status(201).json(token);
+  } catch (error) {
+    console.error(error);
+  }
+});
+
 module.exports = router;
