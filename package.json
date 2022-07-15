@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
-    "prod": "vite --host 137.184.7.140",
+    "prod": "pm2 start vite --host 137.184.7.140",
     "build": "vite build",
     "preview": "vite preview"
   },
