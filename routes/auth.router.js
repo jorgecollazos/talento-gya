@@ -12,4 +12,17 @@ router.get('/', async (req, res, next) => {
   }
 });
 
+router.post('/', async (req, res, next) => {
+  const {email, password} = req.body;
+  try {
+    const users = await pool.query('SELECT password, id FROM users WHERE email = $1', [email]);
+    if(users.rows[1].password == password) {
+      res.json({'value': true, 'token': users.rows[1].id});
+    }
+    res.json({'value': false});
+  } catch (error) {
+    console.error(error);
+  }
+});
+
 module.exports = router;

@@ -17,7 +17,8 @@ const pool = new Pool({
   port: config.dbPort,
   user: config.dbUser,
   password: config.dbPassword,
-  database: config.dbName
+  database: config.dbName,
+  ssl: true
 });
 
 module.exports = pool;
