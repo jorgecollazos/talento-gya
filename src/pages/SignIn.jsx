@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Header from "../partials/Header";
-import Form from "../components/Form";
+import FormSignIn from "../components/FormSignIn";
 
 function SignIn() {
   const [password, setPassword] = useState("");
@@ -52,7 +52,7 @@ function SignIn() {
 
               {/* Form */}
               <div className="max-w-sm mx-auto">
-                <Form registro="Ingresar" />
+                <FormSignIn registro="Ingresar" />
                 <div className="flex items-center my-6">
                   <div
                     className="border-t border-gray-300 flex-grow mr-3"

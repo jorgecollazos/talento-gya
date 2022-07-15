@@ -1,11 +1,9 @@
-import React, {useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { useForm} from "react-hook-form";
-
-
+import { useForm } from "react-hook-form";
 
 export default function App({ registro }) {
-  const [data, setData] = useState(null)
+  const [data, setData] = useState(null);
   const {
     register,
     handleSubmit,
@@ -14,22 +12,20 @@ export default function App({ registro }) {
   } = useForm();
   const onSubmit = (formData) => {
     setData(formData);
-  }
+  };
 
-  console.log('sadsad')
 
-  const url = 'http://137.184.7.140:4000/api/v1/users';
-  const urlRedirect = 'http://137.184.7.140:3001/register';
-  
+  const url = "http://137.184.7.140:4000/api/v1/auth";
+  const urlRedirect = "http://137.184.7.140:3001/curriculum";
+
   useEffect(() => {
     (async () => {
       try {
-        const response = await axios.post(
-          url,
-          data
-        );
+        const response = await axios.post(url, data);
         console.log(response);
-        window.location.replace(urlRedirect + '/' + response.data.token);
+        if (response.data.value === true) {
+          window.location.replace(urlRedirect + "/" + response.data.token);
+        }
       } catch (error) {
         console.log(error.message);
       } finally {
@@ -39,7 +35,7 @@ export default function App({ registro }) {
   }, [data]);
 
   const politicas = () => {
-    if (registro === 'Registrarme'){
+    if (registro === "Registrarme") {
       return (
         <div className="text-sm text-gray-500 text-center mt-3">
           Al crear una cuenta, acepta nuestra{" "}
@@ -50,7 +46,7 @@ export default function App({ registro }) {
         </div>
       );
     }
-    return
+    return;
   };
 
   //console.log(watch("example")); // watch input value by passing the name of it
