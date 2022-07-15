@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "prod": "vite --host 137.184.7.140",
+    "prod3": "pm2 start vite",
     "prod2": "pm2 start vite --host 137.184.7.140",
     "build": "vite build",
     "preview": "vite preview"
