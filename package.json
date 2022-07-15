@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prod": "NODE_TLS_REJECT_UNAUTHORIZED='0' pm2 start index.js",
     "dev": "NODE_TLS_REJECT_UNAUTHORIZED='0' nodemon index.js",
     "start": "NODE_TLS_REJECT_UNAUTHORIZED='0' node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
