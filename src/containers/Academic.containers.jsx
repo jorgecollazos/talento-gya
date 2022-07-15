@@ -2,11 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useForm } from "react-hook-form";
 
-import Input from "../components/Input.components";
 import InputDate from "../components/InputDate.components";
-import InputSelect from "../components/InputSelect.components";
 import InputFile from "../components/InputFile.components";
-import InputMultiSelect from "../components/InputMultiSelect.components";
 import DatalistInput from "react-datalist-input";
 import "react-datalist-input/dist/styles.css";
 import Select from "react-select";
@@ -73,14 +70,13 @@ const Card = ({ token }) => {
     setSelectedDegree('')
   };
 
-  const url = "http://localhost:4000/api/v1/users/academic";
-  let urlRedirect = "http://localhost:3001/continuosform";
+  const url = "http://137.184.7.140:4000/api/v1/users/academic";
+  let urlRedirect = "http://137.184.7.140:3001/continuosform";
 
   useEffect(() => {
     (async () => {
       if (data !== null) {
         try {
-          console.log(data);
           const response = await axios.post(url, data);
           console.log(response);
         } catch (error) {

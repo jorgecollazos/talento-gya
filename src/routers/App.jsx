@@ -17,7 +17,7 @@ function App() {
         <Route path="/academicform/:token" element={<AcademicForm />} />
         <Route path="/continuosform/:token" element={<ContinuosForm />} />
         <Route path="/experienceform/:token" element={<ExperienceForm />} />
-        <Route path="/curriculum" element={<Curriculum />} />
+        <Route path="/curriculum/:token" element={<Curriculum />} />
       </Routes>
     </>
   );

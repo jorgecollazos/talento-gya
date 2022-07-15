@@ -12,10 +12,6 @@ export let cargos = [
     value: "Auxiliar administrativo",
   },
   {
-    id: "Administrador de cuenta",
-    value: "Administrador de cuenta",
-  },
-  {
     id: "Gerente asistente",
     value: "Gerente asistente",
   },
@@ -24,24 +20,24 @@ export let cargos = [
     value: "Asociados de ventas",
   },
   {
-    id: "Aprendiz en prÃ¡cticas",
-    value: "Aprendiz en prÃ¡cticas",
+    id: "Aprendiz en prácticas",
+    value: "Aprendiz en prácticas",
   },
   {
-    id: "Representante del servicio de atenciÃ³n al cliente",
-    value: "Representante del servicio de atenciÃ³n al cliente",
+    id: "Representante del servicio de atención al cliente",
+    value: "Representante del servicio de atención al cliente",
   },
   {
-    id: "Servicio de atenciÃ³n al cliente",
-    value: "Servicio de atenciÃ³n al cliente",
+    id: "Servicio de atención al cliente",
+    value: "Servicio de atención al cliente",
   },
   {
     id: "Analista",
     value: "Analista",
   },
   {
-    id: "Asistente de investigaciÃ³n",
-    value: "Asistente de investigaciÃ³n",
+    id: "Asistente de investigación",
+    value: "Asistente de investigación",
   },
   {
     id: "Administrativo",
@@ -128,20 +124,16 @@ export let cargos = [
     value: "Ingeniero de software",
   },
   {
-    id: "Jefe de organizaciÃ³n",
-    value: "Jefe de organizaciÃ³n",
-  },
-  {
-    id: "Gerente de gestiÃ³n",
-    value: "Gerente de gestiÃ³n",
+    id: "Jefe de organización",
+    value: "Jefe de organización",
   },
   {
     id: "Director responsable de equipo",
     value: "Director responsable de equipo",
   },
   {
-    id: "Personal de direcciÃ³n",
-    value: "Personal de direcciÃ³n",
+    id: "Personal de dirección",
+    value: "Personal de dirección",
   },
   {
     id: "Personal de marketing",
@@ -152,8 +144,8 @@ export let cargos = [
     value: "Personal de TI",
   },
   {
-    id: "TÃ©cnico de selecciÃ³n de personal",
-    value: "TÃ©cnico de selecciÃ³n de personal",
+    id: "TÃ©cnico de selección de personal",
+    value: "TÃ©cnico de selección de personal",
   },
   {
     id: "Personal de oficina",
@@ -164,36 +156,36 @@ export let cargos = [
     value: "Personal de campo",
   },
   {
-    id: "Especialista de selecciÃ³n de personal",
-    value: "Especialista de selecciÃ³n de personal",
+    id: "Especialista de selección de personal",
+    value: "Especialista de selección de personal",
   },
   {
-    id: "Personal de producciÃ³n",
-    value: "Personal de producciÃ³n",
+    id: "Personal de producción",
+    value: "Personal de producción",
   },
   {
-    id: "Personal de ingenierÃ­a",
-    value: "Personal de ingenierÃ­a",
+    id: "Personal de ingeniería",
+    value: "Personal de ingeniería",
   },
   {
     id: "Personal de eventos",
     value: "Personal de eventos",
   },
   {
-    id: "TÃ©cnico de selecciÃ³n de personal ",
-    value: "TÃ©cnico de selecciÃ³n de personal ",
+    id: "TÃ©cnico de selección de personal ",
+    value: "TÃ©cnico de selección de personal ",
   },
   {
-    id: "TÃ©cnico de selecciÃ³n de personal de RR.HH",
-    value: "TÃ©cnico de selecciÃ³n de personal de RR.HH",
+    id: "TÃ©cnico de selección de personal de RR.HH",
+    value: "TÃ©cnico de selección de personal de RR.HH",
   },
   {
-    id: "Consultor de selecciÃ³n de personal",
-    value: "Consultor de selecciÃ³n de personal",
+    id: "Consultor de selección de personal",
+    value: "Consultor de selección de personal",
   },
   {
-    id: "Personal de marketing en prÃ¡cticas",
-    value: "Personal de marketing en prÃ¡cticas",
+    id: "Personal de marketing en prácticas",
+    value: "Personal de marketing en prácticas",
   },
   {
     id: "Personal de apoyo",
@@ -216,10 +208,6 @@ export let cargos = [
     value: "Ejecutivo",
   },
   {
-    id: "Profesional de la enseÃ±anza",
-    value: "Profesional de la enseÃ±anza",
-  },
-  {
     id: "Educador",
     value: "Educador",
   },
@@ -234,10 +222,6 @@ export let cargos = [
   {
     id: "Especialista empresarial",
     value: "Especialista empresarial",
-  },
-  {
-    id: "Aprendiz en prÃ¡cticas",
-    value: "Aprendiz en prÃ¡cticas",
   },
   {
     id: "Chief Executive",
@@ -268,8 +252,8 @@ export let cargos = [
     value: "Finanzas",
   },
   {
-    id: "Especialista en formaciÃ³n",
-    value: "Especialista en formaciÃ³n",
+    id: "Especialista en formación",
+    value: "Especialista en formación",
   },
   {
     id: "Facilitador de cursos",
@@ -280,8 +264,8 @@ export let cargos = [
     value: "Facilitador de aprendizaje",
   },
   {
-    id: "Facilitador de instrucciÃ³n",
-    value: "Facilitador de instrucciÃ³n",
+    id: "Facilitador de instrucción",
+    value: "Facilitador de instrucción",
   },
   {
     id: "Formador",
@@ -304,28 +288,24 @@ export let cargos = [
     value: "Fotografo",
   },
   {
-    id: "Gerente de gestiÃ³n",
-    value: "Gerente de gestiÃ³n",
+    id: "Gerente de gestión",
+    value: "Gerente de gestión",
   },
   {
-    id: "Gerente asistente",
-    value: "Gerente asistente",
-  },
-  {
-    id: "Director de gestiÃ³n",
-    value: "Director de gestiÃ³n",
+    id: "Director de gestión",
+    value: "Director de gestión",
   },
   {
     id: "Gerente de oficina",
     value: "Gerente de oficina",
   },
   {
-    id: "GestiÃ³n general",
-    value: "GestiÃ³n general",
+    id: "Gestión general",
+    value: "Gestión general",
   },
   {
-    id: "DiseÃ±ador grÃ¡fico",
-    value: "DiseÃ±ador grÃ¡fico",
+    id: "Diseñador gráfico",
+    value: "Diseñador gráfico",
   },
   {
     id: "Gerente de sucursal",
@@ -336,16 +316,12 @@ export let cargos = [
     value: "Gerente superior de proyecto",
   },
   {
-    id: "GestiÃ³n de recursos humanos",
-    value: "GestiÃ³n de recursos humanos",
+    id: "Gestión de recursos humanos",
+    value: "Gestión de recursos humanos",
   },
   {
     id: "Gerente regional de ventas",
     value: "Gerente regional de ventas",
-  },
-  {
-    id: "Recursos humanos",
-    value: "Recursos humanos",
   },
   {
     id: "Director de RR.HH",
@@ -376,8 +352,8 @@ export let cargos = [
     value: "Ingeniero de desarrollo de software",
   },
   {
-    id: "Programador informÃ¡tico",
-    value: "Programador informÃ¡tico",
+    id: "Programador informático",
+    value: "Programador informático",
   },
   {
     id: "Instructor",
@@ -388,24 +364,12 @@ export let cargos = [
     value: "Investigador",
   },
   {
-    id: "Asistente de investigaciÃ³n",
-    value: "Asistente de investigaciÃ³n",
-  },
-  {
     id: "Ingeniero de proyecto",
     value: "Ingeniero de proyecto",
   },
   {
     id: "Instructor de cursos",
     value: "Instructor de cursos",
-  },
-  {
-    id: "Facilitador de instrucciÃ³n",
-    value: "Facilitador de instrucciÃ³n",
-  },
-  {
-    id: "Jefe de organizaciÃ³n",
-    value: "Jefe de organizaciÃ³n",
   },
   {
     id: "Jubilado",
@@ -420,16 +384,16 @@ export let cargos = [
     value: "Jefe de operaciones",
   },
   {
-    id: "Jefe de producciÃ³n",
-    value: "Jefe de producciÃ³n",
+    id: "Jefe de producción",
+    value: "Jefe de producción",
   },
   {
-    id: "Auxiliar jurÃ­dico",
-    value: "Auxiliar jurÃ­dico",
+    id: "Auxiliar jurídico",
+    value: "Auxiliar jurídico",
   },
   {
-    id: "Abogado del servicio de atenciÃ³n al cliente",
-    value: "Abogado del servicio de atenciÃ³n al cliente",
+    id: "Abogado del servicio de atención al cliente",
+    value: "Abogado del servicio de atención al cliente",
   },
   {
     id: "Abogado",
@@ -448,10 +412,6 @@ export let cargos = [
     value: "Abogado financiero",
   },
   {
-    id: "Especialista en abastecimiento",
-    value: "Especialista en abastecimiento",
-  },
-  {
     id: "Abogado procurador",
     value: "Abogado procurador",
   },
@@ -460,8 +420,8 @@ export let cargos = [
     value: "Director de abastecimiento",
   },
   {
-    id: "Estudiante de abogacÃ­a",
-    value: "Estudiante de abogacÃ­a",
+    id: "Estudiante de abogacía",
+    value: "Estudiante de abogacía",
   },
   {
     id: "Oficial de abastecimiento",
@@ -520,8 +480,8 @@ export let cargos = [
     value: "Aseguramiento de calidad",
   },
   {
-    id: "LogÃ­stica",
-    value: "LogÃ­stica",
+    id: "Logística",
+    value: "Logística",
   },
   {
     id: "Director de aseguramiento de calidad",
@@ -540,8 +500,8 @@ export let cargos = [
     value: "Control y aseguramiento de calidad",
   },
   {
-    id: "Profesional de la comunicaciÃ³n",
-    value: "Profesional de la comunicaciÃ³n",
+    id: "Profesional de la comunicación",
+    value: "Profesional de la comunicación",
   },
   {
     id: "Asistente legal",
@@ -572,8 +532,8 @@ export let cargos = [
     value: "Ventas",
   },
   {
-    id: "NiÃ±era",
-    value: "NiÃ±era",
+    id: "Niñera",
+    value: "Niñera",
   },
   {
     id: "Operador",
@@ -584,12 +544,12 @@ export let cargos = [
     value: "Presidente",
   },
   {
-    id: "Profesional de la enseÃ±anza",
-    value: "Profesional de la enseÃ±anza",
+    id: "Profesional de la enseñanza",
+    value: "Profesional de la enseñanza",
   },
   {
-    id: "Propietario de peluquerÃ­a",
-    value: "Propietario de peluquerÃ­a",
+    id: "Propietario de peluquería",
+    value: "Propietario de peluquería",
   },
   {
     id: "Propietario de restaurante",
@@ -612,8 +572,8 @@ export let cargos = [
     value: "QA",
   },
   {
-    id: "QuÃ­mico",
-    value: "QuÃ­mico",
+    id: "Químico",
+    value: "Químico",
   },
   {
     id: "Ingeniero QA",
@@ -624,8 +584,8 @@ export let cargos = [
     value: "Administrador de control de calidad",
   },
   {
-    id: "Ingeniero quÃ­mico",
-    value: "Ingeniero quÃ­mico",
+    id: "Ingeniero químico",
+    value: "Ingeniero químico",
   },
   {
     id: "Representante de ventas",
@@ -656,10 +616,6 @@ export let cargos = [
     value: "Supervisor",
   },
   {
-    id: "Software programmer",
-    value: "Software programmer",
-  },
-  {
     id: "Software developer",
     value: "Software developer",
   },
@@ -684,8 +640,8 @@ export let cargos = [
     value: "TÃ©cnico de urgencias mÃ©dicas",
   },
   {
-    id: "DiseÃ±ador de experiencias de usuario",
-    value: "DiseÃ±ador de experiencias de usuario",
+    id: "Diseñador de experiencias de usuario",
+    value: "Diseñador de experiencias de usuario",
   },
   {
     id: "Desarrollador web de interfaz de usuario",
@@ -696,8 +652,8 @@ export let cargos = [
     value: "Enfermero de urgencias",
   },
   {
-    id: "DiseÃ±ador UX",
-    value: "DiseÃ±ador UX",
+    id: "Diseñador UX",
+    value: "Diseñador UX",
   },
   {
     id: "Desarrollador de sitios web",
@@ -712,8 +668,8 @@ export let cargos = [
     value: "Jefe de comercial y bebidas",
   },
   {
-    id: "Administrador de zonificaciÃ³n",
-    value: "Administrador de zonificaciÃ³n",
+    id: "Administrador de zonificación",
+    value: "Administrador de zonificación",
   },
   {
     id: "Doctor",
@@ -752,8 +708,8 @@ export let cargos = [
     value: "Administrador",
   },
   {
-    id: "Jefe de Ã¡rea",
-    value: "Jefe de Ã¡rea",
+    id: "Jefe de área",
+    value: "Jefe de área",
   },
   {
     id: "Gerente Regional",
@@ -764,8 +720,8 @@ export let cargos = [
     value: "Responsable de Planeamiento EstratÃ©gico y Financiero",
   },
   {
-    id: "Coordinador General y Responsable de Monitoreo y EvaluaciÃ³n",
-    value: "Coordinador General y Responsable de Monitoreo y EvaluaciÃ³n",
+    id: "Coordinador General y Responsable de Monitoreo y Evaluación",
+    value: "Coordinador General y Responsable de Monitoreo y Evaluación",
   },
   {
     id: "Coordinador de Asistencia TÃ©cnica a Regiones",
@@ -828,16 +784,16 @@ export let cargos = [
     value: "Secretario TÃ©cnico Suplente",
   },
   {
-    id: "Asistente en FunciÃ³n Fiscal",
-    value: "Asistente en FunciÃ³n Fiscal",
+    id: "Asistente en Función Fiscal",
+    value: "Asistente en Función Fiscal",
   },
   {
-    id: "Secretario Ejecutivo de la ComisiÃ³n Ad Hoc",
-    value: "Secretario Ejecutivo de la ComisiÃ³n Ad Hoc",
+    id: "Secretario Ejecutivo de la Comisión Ad Hoc",
+    value: "Secretario Ejecutivo de la Comisión Ad Hoc",
   },
   {
-    id: "Asesor de Alta DirecciÃ³n ",
-    value: "Asesor de Alta DirecciÃ³n ",
+    id: "Asesor de Alta Dirección ",
+    value: "Asesor de Alta Dirección ",
   },
   {
     id: "Ministro",
@@ -872,8 +828,8 @@ export let cargos = [
     value: "Secretario Coactivo",
   },
   {
-    id: "Especialista en VerificaciÃ³n de VÃ­ctimas ",
-    value: "Especialista en VerificaciÃ³n de VÃ­ctimas ",
+    id: "Especialista en Verificación de Víctimas ",
+    value: "Especialista en Verificación de Víctimas ",
   },
   {
     id: "Investigador-educador",
@@ -888,33 +844,33 @@ export let cargos = [
     value: "Permisiologo",
   },
   {
-    id: "Director General de la Oficina General de AsesorÃ­a JurÃ­dica ",
-    value: "Director General de la Oficina General de AsesorÃ­a JurÃ­dica ",
+    id: "Director General de la Oficina General de Asesoría Jurídica ",
+    value: "Director General de la Oficina General de Asesoría Jurídica ",
   },
   {
-    id: "Director de la Escuela Nacional de ConciliaciÃ³n Extrajudicial ",
-    value: "Director de la Escuela Nacional de ConciliaciÃ³n Extrajudicial ",
+    id: "Director de la Escuela Nacional de Conciliación Extrajudicial ",
+    value: "Director de la Escuela Nacional de Conciliación Extrajudicial ",
   },
   {
     id: "Ponente",
     value: "Ponente",
   },
   {
-    id: "ComisiÃ³n Consultiva",
-    value: "ComisiÃ³n Consultiva",
+    id: "Comisión Consultiva",
+    value: "Comisión Consultiva",
   },
   {
-    id: "Prsidente de la ComisiÃ³n Consultiva",
-    value: "Prsidente de la ComisiÃ³n Consultiva",
+    id: "Prsidente de la Comisión Consultiva",
+    value: "Prsidente de la Comisión Consultiva",
   },
   {
-    id: "ComisiÃ³n Especial de Acciones",
-    value: "ComisiÃ³n Especial de Acciones",
+    id: "Comisión Especial de Acciones",
+    value: "Comisión Especial de Acciones",
   },
   {
-    id: "Contratado del Proceso de ModernizaciÃ³n y Reforma del Poder Judicial",
+    id: "Contratado del Proceso de Modernización y Reforma del Poder Judicial",
     value:
-      "Contratado del Proceso de ModernizaciÃ³n y Reforma del Poder Judicial",
+      "Contratado del Proceso de Modernización y Reforma del Poder Judicial",
   },
   {
     id: "Contratado Administrativo",
@@ -929,9 +885,9 @@ export let cargos = [
     value: "Consultor Legal",
   },
   {
-    id: "Director del Programa sectorial II de la SecretarÃ­a tÃ©cnica de ConciliaciÃ³n del Despacho Viceministerial del Ministerio de justicia",
+    id: "Director del Programa sectorial II de la Secretaría tÃ©cnica de Conciliación del Despacho Viceministerial del Ministerio de justicia",
     value:
-      "Director del Programa sectorial II de la SecretarÃ­a tÃ©cnica de ConciliaciÃ³n del Despacho Viceministerial del Ministerio de justicia",
+      "Director del Programa sectorial II de la Secretaría tÃ©cnica de Conciliación del Despacho Viceministerial del Ministerio de justicia",
   },
   {
     id: "Asesor de Jefatura del INS",
@@ -990,8 +946,8 @@ export let cargos = [
     value: "Directora nivel F-3",
   },
   {
-    id: "Especialista en RacionalizaciÃ³n ",
-    value: "Especialista en RacionalizaciÃ³n ",
+    id: "Especialista en Racionalización ",
+    value: "Especialista en Racionalización ",
   },
   {
     id: "Jefa Administrativa Financiera ",
@@ -1010,16 +966,16 @@ export let cargos = [
     value: "Coordinador General",
   },
   {
-    id: "Docente de FormaciÃ³n Continua ",
-    value: "Docente de FormaciÃ³n Continua ",
+    id: "Docente de Formación Continua ",
+    value: "Docente de Formación Continua ",
   },
   {
     id: "Expositor ",
     value: "Expositor ",
   },
   {
-    id: "Director de Proyectos de ConsultorÃ­a",
-    value: "Director de Proyectos de ConsultorÃ­a",
+    id: "Director de Proyectos de Consultoría",
+    value: "Director de Proyectos de Consultoría",
   },
   {
     id: "Docente contratado",
@@ -1110,16 +1066,16 @@ export let cargos = [
     value: "Supervisora de PRONAMA- PUNO",
   },
   {
-    id: "Asistente en auditorÃ­a",
-    value: "Asistente en auditorÃ­a",
+    id: "Asistente en auditoría",
+    value: "Asistente en auditoría",
   },
   {
     id: "Empadronador de Iletrados PRONAMA",
     value: "Empadronador de Iletrados PRONAMA",
   },
   {
-    id: "AntropÃ³loga del Ã¡rea de NutriciÃ³n",
-    value: "AntropÃ³loga del Ã¡rea de NutriciÃ³n",
+    id: "Antropóloga del área de Nutrición",
+    value: "Antropóloga del área de Nutrición",
   },
   {
     id: "Supervisora de Proyectos",
@@ -1154,8 +1110,8 @@ export let cargos = [
     value: "Coordinadora de campo",
   },
   {
-    id: "AntropÃ³loga ",
-    value: "AntropÃ³loga ",
+    id: "Antropóloga ",
+    value: "Antropóloga ",
   },
   {
     id: "Practicante pre-profesional",
@@ -1170,27 +1126,27 @@ export let cargos = [
     value: "Apoyo Administrativo",
   },
   {
-    id: "Asesora en las Ãreas de Derecho Administrativo, gerenca y CapacitaciÃ³n",
+    id: "Asesora en las Ãreas de Derecho Administrativo, gerenca y Capacitación",
     value:
-      "Asesora en las Ãreas de Derecho Administrativo, gerenca y CapacitaciÃ³n",
+      "Asesora en las Ãreas de Derecho Administrativo, gerenca y Capacitación",
   },
   {
-    id: "Asistente de ConsultorÃ­a",
-    value: "Asistente de ConsultorÃ­a",
+    id: "Asistente de Consultoría",
+    value: "Asistente de Consultoría",
   },
   {
-    id: "Jefe de Unidad de AsesorÃ­a Legal",
-    value: "Jefe de Unidad de AsesorÃ­a Legal",
+    id: "Jefe de Unidad de Asesoría Legal",
+    value: "Jefe de Unidad de Asesoría Legal",
   },
   {
-    id: "Directora de LegislaciÃ³n de la DirecciÃ³n General de ConsultorÃ­a JurÃ­dica del Gobernador",
+    id: "Directora de Legislación de la Dirección General de Consultoría Jurídica del Gobernador",
     value:
-      "Directora de LegislaciÃ³n de la DirecciÃ³n General de ConsultorÃ­a JurÃ­dica del Gobernador",
+      "Directora de Legislación de la Dirección General de Consultoría Jurídica del Gobernador",
   },
   {
-    id: "Directora de ConsultorÃ­a JurÃ­dica del Concejo Municipal de San Diego",
+    id: "Directora de Consultoría Jurídica del Concejo Municipal de San Diego",
     value:
-      "Directora de ConsultorÃ­a JurÃ­dica del Concejo Municipal de San Diego",
+      "Directora de Consultoría Jurídica del Concejo Municipal de San Diego",
   },
   {
     id: "Superintendente Adjunto del Despacho del Superintendente Superintendencia Nacional de Aseguramiento en Salud - SUNASA",
@@ -1211,12 +1167,12 @@ export let cargos = [
     value: "Coordinador Fundador de la Red Peruana de Pacientes",
   },
   {
-    id: "Asesor JurÃ­dico ",
-    value: "Asesor JurÃ­dico ",
+    id: "Asesor Jurídico ",
+    value: "Asesor Jurídico ",
   },
   {
-    id: "Presidente Fundador de la asociaciÃ³n",
-    value: "Presidente Fundador de la asociaciÃ³n",
+    id: "Presidente Fundador de la asociación",
+    value: "Presidente Fundador de la asociación",
   },
   {
     id: "Impulsor ",
@@ -1227,12 +1183,12 @@ export let cargos = [
     value: "Presidente o Coordinador Nacional",
   },
   {
-    id: "Coordinador Electoral del Jurado Electoral Especial de HuÃ¡nuco",
-    value: "Coordinador Electoral del Jurado Electoral Especial de HuÃ¡nuco",
+    id: "Coordinador Electoral del Jurado Electoral Especial de Huánuco",
+    value: "Coordinador Electoral del Jurado Electoral Especial de Huánuco",
   },
   {
-    id: "Fiscalizador del PadrÃ³n Electoral ",
-    value: "Fiscalizador del PadrÃ³n Electoral ",
+    id: "Fiscalizador del Padrón Electoral ",
+    value: "Fiscalizador del Padrón Electoral ",
   },
   {
     id: "Consultor de Campo",
@@ -1247,8 +1203,8 @@ export let cargos = [
     value: "Facilitador de Eventos Participativos",
   },
   {
-    id: "Fiscalizador de Local de VotaciÃ³n ",
-    value: "Fiscalizador de Local de VotaciÃ³n ",
+    id: "Fiscalizador de Local de Votación ",
+    value: "Fiscalizador de Local de Votación ",
   },
   {
     id: "Fiscalizador Distrital",
@@ -1259,16 +1215,16 @@ export let cargos = [
     value: "Jefe de Ãrea Legal",
   },
   {
-    id: "AsesorÃ­a Legal",
-    value: "AsesorÃ­a Legal",
+    id: "Asesoría Legal",
+    value: "Asesoría Legal",
   },
   {
-    id: "Equipo de InvestigaciÃ³n",
-    value: "Equipo de InvestigaciÃ³n",
+    id: "Equipo de Investigación",
+    value: "Equipo de Investigación",
   },
   {
-    id: "TÃ©cnico en AbogacÃ­a ",
-    value: "TÃ©cnico en AbogacÃ­a ",
+    id: "TÃ©cnico en Abogacía ",
+    value: "TÃ©cnico en Abogacía ",
   },
   {
     id: "Practicante",
@@ -1283,12 +1239,12 @@ export let cargos = [
     value: "Secretaria Ejecutiva",
   },
   {
-    id: "Asesora JurÃ­dica",
-    value: "Asesora JurÃ­dica",
+    id: "Asesora Jurídica",
+    value: "Asesora Jurídica",
   },
   {
-    id: "Jefa de AsaesorÃ­a JurÃ­dica",
-    value: "Jefa de AsaesorÃ­a JurÃ­dica",
+    id: "Jefa de Asaesoría Jurídica",
+    value: "Jefa de Asaesoría Jurídica",
   },
   {
     id: "",
@@ -1299,32 +1255,32 @@ export let cargos = [
     value: "Coordinador",
   },
   {
-    id: "PrÃ¡cticas pre profesionales",
-    value: "PrÃ¡cticas pre profesionales",
+    id: "Prácticas pre profesionales",
+    value: "Prácticas pre profesionales",
   },
   {
-    id: "Especialista de proyectos de inversiÃ³n PÃºblica",
-    value: "Especialista de proyectos de inversiÃ³n PÃºblica",
+    id: "Especialista de proyectos de inversión PÃºblica",
+    value: "Especialista de proyectos de inversión PÃºblica",
   },
   {
-    id: "AnalÃ­sta de Proyectos",
-    value: "AnalÃ­sta de Proyectos",
+    id: "Analísta de Proyectos",
+    value: "Analísta de Proyectos",
   },
   {
     id: "Economista",
     value: "Economista",
   },
   {
-    id: "ESpecialista de Proyectos de CooperaciÃ³n e InversiÃ³n PÃºblica",
-    value: "ESpecialista de Proyectos de CooperaciÃ³n e InversiÃ³n PÃºblica",
+    id: "ESpecialista de Proyectos de Cooperación e Inversión PÃºblica",
+    value: "ESpecialista de Proyectos de Cooperación e Inversión PÃºblica",
   },
   {
     id: "Profesional Economista",
     value: "Profesional Economista",
   },
   {
-    id: "Asesor EconÃ³mico Financiero",
-    value: "Asesor EconÃ³mico Financiero",
+    id: "Asesor Económico Financiero",
+    value: "Asesor Económico Financiero",
   },
   {
     id: "Profesor ",
@@ -1335,20 +1291,20 @@ export let cargos = [
     value: "Consultor Independiente",
   },
   {
-    id: "Asesor Senior en Desarrollo EconÃ³mico",
-    value: "Asesor Senior en Desarrollo EconÃ³mico",
+    id: "Asesor Senior en Desarrollo Económico",
+    value: "Asesor Senior en Desarrollo Económico",
   },
   {
     id: "Director de Proyectos",
     value: "Director de Proyectos",
   },
   {
-    id: "Consultor lÃ­der",
-    value: "Consultor lÃ­der",
+    id: "Consultor líder",
+    value: "Consultor líder",
   },
   {
-    id: "Director de InvestigaciÃ³n",
-    value: "Director de InvestigaciÃ³n",
+    id: "Director de Investigación",
+    value: "Director de Investigación",
   },
   {
     id: "Asesor de Servicios",
@@ -1363,24 +1319,24 @@ export let cargos = [
     value: "Gestor de Servicio",
   },
   {
-    id: "Especialista en Proyectos de InversiÃ³n PÃºblica",
-    value: "Especialista en Proyectos de InversiÃ³n PÃºblica",
+    id: "Especialista en Proyectos de Inversión PÃºblica",
+    value: "Especialista en Proyectos de Inversión PÃºblica",
   },
   {
     id: "Jefe de proyecto",
     value: "Jefe de proyecto",
   },
   {
-    id: "Especialisa en FormulaciÃ³n de Proyectos ",
-    value: "Especialisa en FormulaciÃ³n de Proyectos ",
+    id: "Especialisa en Formulación de Proyectos ",
+    value: "Especialisa en Formulación de Proyectos ",
   },
   {
     id: "Economista, Jefe de proyecto",
     value: "Economista, Jefe de proyecto",
   },
   {
-    id: "Asistente en EconomÃ­a",
-    value: "Asistente en EconomÃ­a",
+    id: "Asistente en Economía",
+    value: "Asistente en Economía",
   },
   {
     id: "Admisitradora TÃ©cnica",
@@ -1403,17 +1359,17 @@ export let cargos = [
     value: "Responsable de Ofertas",
   },
   {
-    id: "AnalÃ­sta de InvestigaciÃ³n y Estudios EconÃ³micos",
-    value: "AnalÃ­sta de InvestigaciÃ³n y Estudios EconÃ³micos",
+    id: "Analísta de Investigación y Estudios Económicos",
+    value: "Analísta de Investigación y Estudios Económicos",
   },
   {
-    id: "Analista de Licitaciones y Asistente de ConsultorÃ­as",
-    value: "Analista de Licitaciones y Asistente de ConsultorÃ­as",
+    id: "Analista de Licitaciones y Asistente de Consultorías",
+    value: "Analista de Licitaciones y Asistente de Consultorías",
   },
   {
-    id: "Jefe de la DivisiÃ³n de la Oficina de AdministraciÃ³n y Apoyo TÃ©cnico",
+    id: "Jefe de la División de la Oficina de Administración y Apoyo TÃ©cnico",
     value:
-      "Jefe de la DivisiÃ³n de la Oficina de AdministraciÃ³n y Apoyo TÃ©cnico",
+      "Jefe de la División de la Oficina de Administración y Apoyo TÃ©cnico",
   },
   {
     id: "Gerente de Planeamiento Corporativo",
@@ -1460,8 +1416,8 @@ export let cargos = [
     value: "Analista de Procesos",
   },
   {
-    id: "Analista en OrganizaciÃ³n",
-    value: "Analista en OrganizaciÃ³n",
+    id: "Analista en Organización",
+    value: "Analista en Organización",
   },
   {
     id: "Director Municipal",
@@ -1496,28 +1452,28 @@ export let cargos = [
     value: "Coodinador Departamental",
   },
   {
-    id: "Especialista en FormulaciÃ³n y EvaluaciÃ³n EconomÃ­a",
-    value: "Especialista en FormulaciÃ³n y EvaluaciÃ³n EconomÃ­a",
+    id: "Especialista en Formulación y Evaluación Economía",
+    value: "Especialista en Formulación y Evaluación Economía",
   },
   {
-    id: "Asistente de PlanificaciÃ³n",
-    value: "Asistente de PlanificaciÃ³n",
+    id: "Asistente de Planificación",
+    value: "Asistente de Planificación",
   },
   {
-    id: "Asistente de FormulaciÃ³n ",
-    value: "Asistente de FormulaciÃ³n ",
+    id: "Asistente de Formulación ",
+    value: "Asistente de Formulación ",
   },
   {
-    id: "FormulaciÃ³n de Propuesta de Proyecto",
-    value: "FormulaciÃ³n de Propuesta de Proyecto",
+    id: "Formulación de Propuesta de Proyecto",
+    value: "Formulación de Propuesta de Proyecto",
   },
   {
-    id: "PrÃ¡cticas Pre-Profesionales",
-    value: "PrÃ¡cticas Pre-Profesionales",
+    id: "Prácticas Pre-Profesionales",
+    value: "Prácticas Pre-Profesionales",
   },
   {
-    id: "PrÃ¡cticas Profesionales",
-    value: "PrÃ¡cticas Profesionales",
+    id: "Prácticas Profesionales",
+    value: "Prácticas Profesionales",
   },
   {
     id: "Asistente de Supervisor",
@@ -1552,21 +1508,21 @@ export let cargos = [
     value: "Sub Gerente de Infraestructura y Transportes ",
   },
   {
-    id: "Especialista en EvaluaciÃ³n de Proyectos de InversiÃ³n PÃºblica",
-    value: "Especialista en EvaluaciÃ³n de Proyectos de InversiÃ³n PÃºblica",
+    id: "Especialista en Evaluación de Proyectos de Inversión PÃºblica",
+    value: "Especialista en Evaluación de Proyectos de Inversión PÃºblica",
   },
   {
     id: "Evaluador de Proyectos",
     value: "Evaluador de Proyectos",
   },
   {
-    id: "Encargado de la Oficina de ProgramaciÃ³n de las Inversiones - OPI",
-    value: "Encargado de la Oficina de ProgramaciÃ³n de las Inversiones - OPI",
+    id: "Encargado de la Oficina de Programación de las Inversiones - OPI",
+    value: "Encargado de la Oficina de Programación de las Inversiones - OPI",
   },
   {
-    id: "Especialista en el FormulaciÃ³n de Proyectos de InversiÃ³n PÃºblica (SNIP)",
+    id: "Especialista en el Formulación de Proyectos de Inversión PÃºblica (SNIP)",
     value:
-      "Especialista en el FormulaciÃ³n de Proyectos de InversiÃ³n PÃºblica (SNIP)",
+      "Especialista en el Formulación de Proyectos de Inversión PÃºblica (SNIP)",
   },
   {
     id: "Formulador de Perfiles tÃ©cnicos",
@@ -1577,17 +1533,17 @@ export let cargos = [
     value: "Especialista Educativo",
   },
   {
-    id: "Coordinador TÃ©cnico Nacional del Progama Alianza en EnergÃ­a y Ambiente",
+    id: "Coordinador TÃ©cnico Nacional del Progama Alianza en Energía y Ambiente",
     value:
-      "Coordinador TÃ©cnico Nacional del Progama Alianza en EnergÃ­a y Ambiente",
+      "Coordinador TÃ©cnico Nacional del Progama Alianza en Energía y Ambiente",
   },
   {
     id: "Jefe de Proyectos",
     value: "Jefe de Proyectos",
   },
   {
-    id: "Coordinador de supervisiÃ³n",
-    value: "Coordinador de supervisiÃ³n",
+    id: "Coordinador de supervisión",
+    value: "Coordinador de supervisión",
   },
   {
     id: "Gerente Municipal",
@@ -1646,16 +1602,16 @@ export let cargos = [
     value: "Gerente de Proyecto",
   },
   {
-    id: "Coordinadora de Monitoreo y EvaluaciÃ³n ",
-    value: "Coordinadora de Monitoreo y EvaluaciÃ³n ",
+    id: "Coordinadora de Monitoreo y Evaluación ",
+    value: "Coordinadora de Monitoreo y Evaluación ",
   },
   {
-    id: "Especialista en Monitoreo y EvaluaciÃ³n",
-    value: "Especialista en Monitoreo y EvaluaciÃ³n",
+    id: "Especialista en Monitoreo y Evaluación",
+    value: "Especialista en Monitoreo y Evaluación",
   },
   {
-    id: "Especialista en VerificaciÃ³n de Metas",
-    value: "Especialista en VerificaciÃ³n de Metas",
+    id: "Especialista en Verificación de Metas",
+    value: "Especialista en Verificación de Metas",
   },
   {
     id: "Verificadora",
@@ -1698,28 +1654,28 @@ export let cargos = [
     value: "Asesora Comercial",
   },
   {
-    id: "Practicante de EconomÃ­a",
-    value: "Practicante de EconomÃ­a",
+    id: "Practicante de Economía",
+    value: "Practicante de Economía",
   },
   {
-    id: "AnalÃ­sta de Responsabilidad Social",
-    value: "AnalÃ­sta de Responsabilidad Social",
+    id: "Analísta de Responsabilidad Social",
+    value: "Analísta de Responsabilidad Social",
   },
   {
-    id: "PrÃ¡cticante  profesional",
-    value: "PrÃ¡cticante  profesional",
+    id: "Prácticante  profesional",
+    value: "Prácticante  profesional",
   },
   {
-    id: "PrÃ¡cticas de ObservaciÃ³n",
-    value: "PrÃ¡cticas de ObservaciÃ³n",
+    id: "Prácticas de Observación",
+    value: "Prácticas de Observación",
   },
   {
     id: "Estudiante investigador",
     value: "Estudiante investigador",
   },
   {
-    id: "AnalÃ­sta de CooperaciÃ³n Internacional",
-    value: "AnalÃ­sta de CooperaciÃ³n Internacional",
+    id: "Analísta de Cooperación Internacional",
+    value: "Analísta de Cooperación Internacional",
   },
   {
     id: "Consultor Senior",
@@ -1742,24 +1698,24 @@ export let cargos = [
     value: "Economista en Salud",
   },
   {
-    id: "Facilitador de Desarrollo EconÃ³mico",
-    value: "Facilitador de Desarrollo EconÃ³mico",
+    id: "Facilitador de Desarrollo Económico",
+    value: "Facilitador de Desarrollo Económico",
   },
   {
     id: "Investigador de apoyo",
     value: "Investigador de apoyo",
   },
   {
-    id: "Especialista EstadÃ­stico IV",
-    value: "Especialista EstadÃ­stico IV",
+    id: "Especialista Estadístico IV",
+    value: "Especialista Estadístico IV",
   },
   {
-    id: "Especialista EstadÃ­stico III",
-    value: "Especialista EstadÃ­stico III",
+    id: "Especialista Estadístico III",
+    value: "Especialista Estadístico III",
   },
   {
-    id: "Profesional EconÃ³mico Social I",
-    value: "Profesional EconÃ³mico Social I",
+    id: "Profesional Económico Social I",
+    value: "Profesional Económico Social I",
   },
   {
     id: "Adminsitradora de Proyectos",
@@ -1774,8 +1730,8 @@ export let cargos = [
     value: "Economista IV",
   },
   {
-    id: "Analista de Proyecto de InversiÃ³n",
-    value: "Analista de Proyecto de InversiÃ³n",
+    id: "Analista de Proyecto de Inversión",
+    value: "Analista de Proyecto de Inversión",
   },
   {
     id: "Auditora - Asistente",
@@ -1786,13 +1742,13 @@ export let cargos = [
     value: "Jefe Zonal La Libertad",
   },
   {
-    id: "Jefe DivisiÃ³n Concursos, LicitaciÃ³n y EvaluaciÃ³n de Proyectos de InversiÃ³n",
+    id: "Jefe División Concursos, Licitación y Evaluación de Proyectos de Inversión",
     value:
-      "Jefe DivisiÃ³n Concursos, LicitaciÃ³n y EvaluaciÃ³n de Proyectos de InversiÃ³n",
+      "Jefe División Concursos, Licitación y Evaluación de Proyectos de Inversión",
   },
   {
-    id: "Gerente de PlanificaciÃ³n y Presupuesto",
-    value: "Gerente de PlanificaciÃ³n y Presupuesto",
+    id: "Gerente de Planificación y Presupuesto",
+    value: "Gerente de Planificación y Presupuesto",
   },
   {
     id: "Docente / Coordinador ",
@@ -1815,12 +1771,12 @@ export let cargos = [
     value: "Jefe Operativo Distrital",
   },
   {
-    id: "Jefe de AnÃ¡lisis y Consistencia",
-    value: "Jefe de AnÃ¡lisis y Consistencia",
+    id: "Jefe de Análisis y Consistencia",
+    value: "Jefe de Análisis y Consistencia",
   },
   {
-    id: "Analista CartogrÃ¡fico",
-    value: "Analista CartogrÃ¡fico",
+    id: "Analista Cartográfico",
+    value: "Analista Cartográfico",
   },
   {
     id: "Especialista de Monitoreo",
@@ -1927,8 +1883,8 @@ export let cargos = [
     value: "Jefe de Finanzas",
   },
   {
-    id: "Responsable de Ã¡rea",
-    value: "Responsable de Ã¡rea",
+    id: "Responsable de área",
+    value: "Responsable de área",
   },
   {
     id: "Asistente tÃ©cnica ",
@@ -1959,24 +1915,24 @@ export let cargos = [
     value: "Asistente en el Ãrea",
   },
   {
-    id: "Directora de InformaciÃ³n Agraria",
-    value: "Directora de InformaciÃ³n Agraria",
+    id: "Directora de Información Agraria",
+    value: "Directora de Información Agraria",
   },
   {
     id: "Asistente Facilitador",
     value: "Asistente Facilitador",
   },
   {
-    id: "Asistene de InvestigaciÃ³n",
-    value: "Asistene de InvestigaciÃ³n",
+    id: "Asistene de Investigación",
+    value: "Asistene de Investigación",
   },
   {
-    id: "AyudantÃ­a de CÃ¡tedra",
-    value: "AyudantÃ­a de CÃ¡tedra",
+    id: "Ayudantía de Cátedra",
+    value: "Ayudantía de Cátedra",
   },
   {
-    id: "Jefe de prÃ¡ctica",
-    value: "Jefe de prÃ¡ctica",
+    id: "Jefe de práctica",
+    value: "Jefe de práctica",
   },
   {
     id: "Consultor principal",
@@ -2055,12 +2011,12 @@ export let cargos = [
     value: "Investigadora Junior",
   },
   {
-    id: "Apoyo logÃ­stico",
-    value: "Apoyo logÃ­stico",
+    id: "Apoyo logístico",
+    value: "Apoyo logístico",
   },
   {
-    id: "Asistente logÃ­stico",
-    value: "Asistente logÃ­stico",
+    id: "Asistente logístico",
+    value: "Asistente logístico",
   },
   {
     id: "Docente Secundaria",
@@ -2091,8 +2047,8 @@ export let cargos = [
     value: "Supervisora de campo",
   },
   {
-    id: "Docente EducaciÃ³n Secundaria",
-    value: "Docente EducaciÃ³n Secundaria",
+    id: "Docente Educación Secundaria",
+    value: "Docente Educación Secundaria",
   },
   {
     id: "Encargada",
@@ -2119,8 +2075,8 @@ export let cargos = [
     value: "Asesor de la Presidencia Regional",
   },
   {
-    id: "AsesorÃ­a Externa",
-    value: "AsesorÃ­a Externa",
+    id: "Asesoría Externa",
+    value: "Asesoría Externa",
   },
   {
     id: "Asesor Empresarial",
@@ -2140,12 +2096,12 @@ export let cargos = [
     value: "Coordinador Nacional del Programa de Consultas Urbanas en PerÃº",
   },
   {
-    id: "Coordinador de Componente de GestiÃ³n PÃºblica",
-    value: "Coordinador de Componente de GestiÃ³n PÃºblica",
+    id: "Coordinador de Componente de Gestión PÃºblica",
+    value: "Coordinador de Componente de Gestión PÃºblica",
   },
   {
-    id: "Coordinador del DiseÃ±o de mÃ³dulos",
-    value: "Coordinador del DiseÃ±o de mÃ³dulos",
+    id: "Coordinador del Diseño de módulos",
+    value: "Coordinador del Diseño de módulos",
   },
   {
     id: "Orientador y Recepcionista",
@@ -2156,107 +2112,107 @@ export let cargos = [
     value: "Supervisor de Tiendas Propias",
   },
   {
-    id: "Auxiliar de Licitaciones y LogÃ­stica",
-    value: "Auxiliar de Licitaciones y LogÃ­stica",
+    id: "Auxiliar de Licitaciones y Logística",
+    value: "Auxiliar de Licitaciones y Logística",
   },
   {
     id: "Docente/Investigador",
     value: "Docente/Investigador",
   },
   {
-    id: "Especialista de la DirecciÃ³n de NormalizaciÃ³n y CertificaciÃ³n de Competencias Laborales",
+    id: "Especialista de la Dirección de Normalización y Certificación de Competencias Laborales",
     value:
-      "Especialista de la DirecciÃ³n de NormalizaciÃ³n y CertificaciÃ³n de Competencias Laborales",
+      "Especialista de la Dirección de Normalización y Certificación de Competencias Laborales",
   },
   {
-    id: "Especialista en GestiÃ³n de la Evidencia",
-    value: "Especialista en GestiÃ³n de la Evidencia",
+    id: "Especialista en Gestión de la Evidencia",
+    value: "Especialista en Gestión de la Evidencia",
   },
   {
-    id: "Especialista en FormulaciÃ³n de Proyectos",
-    value: "Especialista en FormulaciÃ³n de Proyectos",
+    id: "Especialista en Formulación de Proyectos",
+    value: "Especialista en Formulación de Proyectos",
   },
   {
     id: "Consultor en Proyectos PÃºblicos y Privados",
     value: "Consultor en Proyectos PÃºblicos y Privados",
   },
   {
-    id: "Especialista en Proyecto de CooperaciÃ³n Internacional",
-    value: "Especialista en Proyecto de CooperaciÃ³n Internacional",
+    id: "Especialista en Proyecto de Cooperación Internacional",
+    value: "Especialista en Proyecto de Cooperación Internacional",
   },
   {
-    id: "Especialista en Estudios de Pre InversiÃ³n de Agricultura",
-    value: "Especialista en Estudios de Pre InversiÃ³n de Agricultura",
+    id: "Especialista en Estudios de Pre Inversión de Agricultura",
+    value: "Especialista en Estudios de Pre Inversión de Agricultura",
   },
   {
-    id: "Especialista en el anÃ¡lisis de la demanda, evaluaciÃ³n econÃ³mica social y privada",
+    id: "Especialista en el análisis de la demanda, evaluación económica social y privada",
     value:
-      "Especialista en el anÃ¡lisis de la demanda, evaluaciÃ³n econÃ³mica social y privada",
+      "Especialista en el análisis de la demanda, evaluación económica social y privada",
   },
   {
-    id: "Especialista del Estudio a Nivel de Pre inversiÃ³n a nivel de Perfil tÃ©cnico del PIP",
+    id: "Especialista del Estudio a Nivel de Pre inversión a nivel de Perfil tÃ©cnico del PIP",
     value:
-      "Especialista del Estudio a Nivel de Pre inversiÃ³n a nivel de Perfil tÃ©cnico del PIP",
+      "Especialista del Estudio a Nivel de Pre inversión a nivel de Perfil tÃ©cnico del PIP",
   },
   {
-    id: "Especialista en Proyectos de InversiÃ³n ",
-    value: "Especialista en Proyectos de InversiÃ³n ",
+    id: "Especialista en Proyectos de Inversión ",
+    value: "Especialista en Proyectos de Inversión ",
   },
   {
-    id: "Especialista en FormulaciÃ³n SNIP",
-    value: "Especialista en FormulaciÃ³n SNIP",
+    id: "Especialista en Formulación SNIP",
+    value: "Especialista en Formulación SNIP",
   },
   {
-    id: "Especialista en FormulaciÃ³n de Estudios de Pre-inversiÃ³n",
-    value: "Especialista en FormulaciÃ³n de Estudios de Pre-inversiÃ³n",
+    id: "Especialista en Formulación de Estudios de Pre-inversión",
+    value: "Especialista en Formulación de Estudios de Pre-inversión",
   },
   {
-    id: "Especialista en FormaulaciÃ³n de Proyectos",
-    value: "Especialista en FormaulaciÃ³n de Proyectos",
+    id: "Especialista en Formaulación de Proyectos",
+    value: "Especialista en Formaulación de Proyectos",
   },
   {
-    id: "Especialista de InversiÃ³n PÃºblica SNIP",
-    value: "Especialista de InversiÃ³n PÃºblica SNIP",
+    id: "Especialista de Inversión PÃºblica SNIP",
+    value: "Especialista de Inversión PÃºblica SNIP",
   },
   {
-    id: "Especialista en Proyectos de InversiÃ³n PÃºblica SNIP",
-    value: "Especialista en Proyectos de InversiÃ³n PÃºblica SNIP",
+    id: "Especialista en Proyectos de Inversión PÃºblica SNIP",
+    value: "Especialista en Proyectos de Inversión PÃºblica SNIP",
   },
   {
-    id: "Especialista en FormulaciÃ³n de Proyectos de InversiÃ³n PÃºblica",
-    value: "Especialista en FormulaciÃ³n de Proyectos de InversiÃ³n PÃºblica",
+    id: "Especialista en Formulación de Proyectos de Inversión PÃºblica",
+    value: "Especialista en Formulación de Proyectos de Inversión PÃºblica",
   },
   {
-    id: "Supervisor de Proyectos de Desarrollo EconÃ³mico",
-    value: "Supervisor de Proyectos de Desarrollo EconÃ³mico",
+    id: "Supervisor de Proyectos de Desarrollo Económico",
+    value: "Supervisor de Proyectos de Desarrollo Económico",
   },
   {
-    id: "Especialista de Estudios de Pre-InversiÃ³n",
-    value: "Especialista de Estudios de Pre-InversiÃ³n",
+    id: "Especialista de Estudios de Pre-Inversión",
+    value: "Especialista de Estudios de Pre-Inversión",
   },
   {
     id: "Coordinador del Equipo Consultor",
     value: "Coordinador del Equipo Consultor",
   },
   {
-    id: "Consultor Evaluador EcnonÃ³mico Financiero en los Proyectos",
-    value: "Consultor Evaluador EcnonÃ³mico Financiero en los Proyectos",
+    id: "Consultor Evaluador Ecnonómico Financiero en los Proyectos",
+    value: "Consultor Evaluador Ecnonómico Financiero en los Proyectos",
   },
   {
     id: "Especialista en Costos",
     value: "Especialista en Costos",
   },
   {
-    id: "Consultor Formulador EconÃ³mico Financiero ",
-    value: "Consultor Formulador EconÃ³mico Financiero ",
+    id: "Consultor Formulador Económico Financiero ",
+    value: "Consultor Formulador Económico Financiero ",
   },
   {
     id: "Apoyo tÃ©cnico",
     value: "Apoyo tÃ©cnico",
   },
   {
-    id: "Asistente del especialista de evaluaciÃ³n econÃ³mica",
-    value: "Asistente del especialista de evaluaciÃ³n econÃ³mica",
+    id: "Asistente del especialista de evaluación económica",
+    value: "Asistente del especialista de evaluación económica",
   },
   {
     id: "Autora/Investigadora",
@@ -2271,20 +2227,20 @@ export let cargos = [
     value: "Economista Senior",
   },
   {
-    id: "Especialista en EvaluaciÃ³n",
-    value: "Especialista en EvaluaciÃ³n",
+    id: "Especialista en Evaluación",
+    value: "Especialista en Evaluación",
   },
   {
     id: "Asesora en temas de Presupuesto",
     value: "Asesora en temas de Presupuesto",
   },
   {
-    id: "Asistente de AnÃ¡lisis EconÃ³mico",
-    value: "Asistente de AnÃ¡lisis EconÃ³mico",
+    id: "Asistente de Análisis Económico",
+    value: "Asistente de Análisis Económico",
   },
   {
-    id: "Asesora de la DirecciÃ³n General de EducaciÃ³n Superior",
-    value: "Asesora de la DirecciÃ³n General de EducaciÃ³n Superior",
+    id: "Asesora de la Dirección General de Educación Superior",
+    value: "Asesora de la Dirección General de Educación Superior",
   },
   {
     id: "Directora de la Unidad de Presupuesto Sectorial de la Oficina de Planeamiento y Presupuesto ",
@@ -2292,20 +2248,20 @@ export let cargos = [
       "Directora de la Unidad de Presupuesto Sectorial de la Oficina de Planeamiento y Presupuesto ",
   },
   {
-    id: "Asesora en Temas EconÃ³micos Laborales ",
-    value: "Asesora en Temas EconÃ³micos Laborales ",
+    id: "Asesora en Temas Económicos Laborales ",
+    value: "Asesora en Temas Económicos Laborales ",
   },
   {
     id: "Autora",
     value: "Autora",
   },
   {
-    id: "Director de la Unidad Monitoreo y EvaluaciÃ³n",
-    value: "Director de la Unidad Monitoreo y EvaluaciÃ³n",
+    id: "Director de la Unidad Monitoreo y Evaluación",
+    value: "Director de la Unidad Monitoreo y Evaluación",
   },
   {
-    id: "Especialista de InvestigaciÃ³n EconÃ³mica",
-    value: "Especialista de InvestigaciÃ³n EconÃ³mica",
+    id: "Especialista de Investigación Económica",
+    value: "Especialista de Investigación Económica",
   },
   {
     id: "Editor",
@@ -2316,28 +2272,28 @@ export let cargos = [
     value: "Responsable del Estudio",
   },
   {
-    id: "Especialista AgrÃ­cola",
-    value: "Especialista AgrÃ­cola",
+    id: "Especialista Agrícola",
+    value: "Especialista Agrícola",
   },
   {
-    id: "Especialista en InvestigaciÃ³n EconÃ³mica",
-    value: "Especialista en InvestigaciÃ³n EconÃ³mica",
+    id: "Especialista en Investigación Económica",
+    value: "Especialista en Investigación Económica",
   },
   {
     id: "Miembro Fundador",
     value: "Miembro Fundador",
   },
   {
-    id: "Director de Monitoreo y EvaluaciÃ³n",
-    value: "Director de Monitoreo y EvaluaciÃ³n",
+    id: "Director de Monitoreo y Evaluación",
+    value: "Director de Monitoreo y Evaluación",
   },
   {
     id: "Director de Monitoreo  ",
     value: "Director de Monitoreo  ",
   },
   {
-    id: "Secretario de la ComisiÃ³n de AdmisiÃ³n",
-    value: "Secretario de la ComisiÃ³n de AdmisiÃ³n",
+    id: "Secretario de la Comisión de Admisión",
+    value: "Secretario de la Comisión de Admisión",
   },
   {
     id: "Docente y Coordinador",
@@ -2352,8 +2308,8 @@ export let cargos = [
     value: "Director General de Instituto",
   },
   {
-    id: "Facilitadora/Asesora PedagÃ³gica",
-    value: "Facilitadora/Asesora PedagÃ³gica",
+    id: "Facilitadora/Asesora Pedagógica",
+    value: "Facilitadora/Asesora Pedagógica",
   },
   {
     id: "Coordinadora AcadÃ©mica",
@@ -2380,8 +2336,8 @@ export let cargos = [
     value: "Tutora de Curso",
   },
   {
-    id: "Jefe de PrÃ¡ctica Profesional",
-    value: "Jefe de PrÃ¡ctica Profesional",
+    id: "Jefe de Práctica Profesional",
+    value: "Jefe de Práctica Profesional",
   },
   {
     id: "Coordinadora de Red",
@@ -2392,8 +2348,8 @@ export let cargos = [
     value: "Tutora Presencial",
   },
   {
-    id: "Especialista Componente en LÃ³gico MatemÃ¡tica",
-    value: "Especialista Componente en LÃ³gico MatemÃ¡tica",
+    id: "Especialista Componente en Lógico Matemática",
+    value: "Especialista Componente en Lógico Matemática",
   },
   {
     id: "Especialista acadÃ©mico",
@@ -2408,72 +2364,72 @@ export let cargos = [
     value: "Sub Directora",
   },
   {
-    id: "Tutora de PrÃ¡ctica",
-    value: "Tutora de PrÃ¡ctica",
+    id: "Tutora de Práctica",
+    value: "Tutora de Práctica",
   },
   {
-    id: "Especialista en la ElaboraciÃ³n de Items",
-    value: "Especialista en la ElaboraciÃ³n de Items",
+    id: "Especialista en la Elaboración de Items",
+    value: "Especialista en la Elaboración de Items",
   },
   {
     id: "Docente Coordinador",
     value: "Docente Coordinador",
   },
   {
-    id: "Coordinador del Proceso de CodificaciÃ³n",
-    value: "Coordinador del Proceso de CodificaciÃ³n",
+    id: "Coordinador del Proceso de Codificación",
+    value: "Coordinador del Proceso de Codificación",
   },
   {
     id: "Tutor Virtual",
     value: "Tutor Virtual",
   },
   {
-    id: "Especialista de AcompaÃ±amiento PedagÃ³gico",
-    value: "Especialista de AcompaÃ±amiento PedagÃ³gico",
+    id: "Especialista de Acompañamiento Pedagógico",
+    value: "Especialista de Acompañamiento Pedagógico",
   },
   {
-    id: "Especialista de Bloque TemÃ¡tico",
-    value: "Especialista de Bloque TemÃ¡tico",
+    id: "Especialista de Bloque Temático",
+    value: "Especialista de Bloque Temático",
   },
   {
     id: "Tutor",
     value: "Tutor",
   },
   {
-    id: "Formador LÃ­der",
-    value: "Formador LÃ­der",
+    id: "Formador Líder",
+    value: "Formador Líder",
   },
   {
-    id: "Asistente TÃ©cnico PedagÃ³gico",
-    value: "Asistente TÃ©cnico PedagÃ³gico",
+    id: "Asistente TÃ©cnico Pedagógico",
+    value: "Asistente TÃ©cnico Pedagógico",
   },
   {
-    id: "Asesor PedagÃ³gico",
-    value: "Asesor PedagÃ³gico",
+    id: "Asesor Pedagógico",
+    value: "Asesor Pedagógico",
   },
   {
-    id: "Especialista de MÃ³dulos",
-    value: "Especialista de MÃ³dulos",
+    id: "Especialista de Módulos",
+    value: "Especialista de Módulos",
   },
   {
     id: "Docente Capacitador",
     value: "Docente Capacitador",
   },
   {
-    id: "AcompaÃ±ante/Monitor",
-    value: "AcompaÃ±ante/Monitor",
+    id: "Acompañante/Monitor",
+    value: "Acompañante/Monitor",
   },
   {
-    id: "Especialista de la prÃ¡ctica pedagÃ³gica especializada",
-    value: "Especialista de la prÃ¡ctica pedagÃ³gica especializada",
+    id: "Especialista de la práctica pedagógica especializada",
+    value: "Especialista de la práctica pedagógica especializada",
   },
   {
     id: "Docente Formador",
     value: "Docente Formador",
   },
   {
-    id: "Especialista de CapacitaciÃ³n",
-    value: "Especialista de CapacitaciÃ³n",
+    id: "Especialista de Capacitación",
+    value: "Especialista de Capacitación",
   },
   {
     id: "Capacitador de Docentes",
@@ -2484,16 +2440,16 @@ export let cargos = [
     value: "Asistente de Servicios Especiales y Culturales",
   },
   {
-    id: "Especialistas de EducaciÃ³n II UGEL - Rioja",
-    value: "Especialistas de EducaciÃ³n II UGEL - Rioja",
+    id: "Especialistas de Educación II UGEL - Rioja",
+    value: "Especialistas de Educación II UGEL - Rioja",
   },
   {
     id: "Miembro de Equipo TÃ©cnico",
     value: "Miembro de Equipo TÃ©cnico",
   },
   {
-    id: "Director de GestiÃ³n PedagÃ³gica",
-    value: "Director de GestiÃ³n PedagÃ³gica",
+    id: "Director de Gestión Pedagógica",
+    value: "Director de Gestión Pedagógica",
   },
   {
     id: "Planificador ",
@@ -2504,65 +2460,65 @@ export let cargos = [
     value: "Director de Programa Sectorial",
   },
   {
-    id: "Organizador del Concurso Nacional de Experiencias Exitosas de EducaciÃ³n",
+    id: "Organizador del Concurso Nacional de Experiencias Exitosas de Educación",
     value:
-      "Organizador del Concurso Nacional de Experiencias Exitosas de EducaciÃ³n",
+      "Organizador del Concurso Nacional de Experiencias Exitosas de Educación",
   },
   {
     id: "Director de Proyecto",
     value: "Director de Proyecto",
   },
   {
-    id: "Especialista Coordinador Provincial de EducaciÃ³n Secundaria",
-    value: "Especialista Coordinador Provincial de EducaciÃ³n Secundaria",
+    id: "Especialista Coordinador Provincial de Educación Secundaria",
+    value: "Especialista Coordinador Provincial de Educación Secundaria",
   },
   {
     id: "Coordinador y Organizador",
     value: "Coordinador y Organizador",
   },
   {
-    id: "Especialista en acompaÃ±amiento pedagÃ³gico",
-    value: "Especialista en acompaÃ±amiento pedagÃ³gico",
+    id: "Especialista en acompañamiento pedagógico",
+    value: "Especialista en acompañamiento pedagógico",
   },
   {
-    id: "Especialista del Bloque TemÃ¡tico",
-    value: "Especialista del Bloque TemÃ¡tico",
+    id: "Especialista del Bloque Temático",
+    value: "Especialista del Bloque Temático",
   },
   {
     id: "Especialista AcadÃ©mica",
     value: "Especialista AcadÃ©mica",
   },
   {
-    id: "Coordinadora del Ã¡rea de MatemÃ¡tica",
-    value: "Coordinadora del Ã¡rea de MatemÃ¡tica",
+    id: "Coordinadora del área de Matemática",
+    value: "Coordinadora del área de Matemática",
   },
   {
-    id: "Supervisora PedagÃ³gica",
-    value: "Supervisora PedagÃ³gica",
+    id: "Supervisora Pedagógica",
+    value: "Supervisora Pedagógica",
   },
   {
-    id: "Jefe de PrÃ¡ctica Colaboradora",
-    value: "Jefe de PrÃ¡ctica Colaboradora",
+    id: "Jefe de Práctica Colaboradora",
+    value: "Jefe de Práctica Colaboradora",
   },
   {
     id: "Monitora",
     value: "Monitora",
   },
   {
-    id: "Especialista para EstÃ¡ndares de Aprendizaje ",
-    value: "Especialista para EstÃ¡ndares de Aprendizaje ",
+    id: "Especialista para Estándares de Aprendizaje ",
+    value: "Especialista para Estándares de Aprendizaje ",
   },
   {
     id: "Capacitadora Monitora",
     value: "Capacitadora Monitora",
   },
   {
-    id: "Especialista Componente MatemÃ¡tica",
-    value: "Especialista Componente MatemÃ¡tica",
+    id: "Especialista Componente Matemática",
+    value: "Especialista Componente Matemática",
   },
   {
-    id: "Especialista de MatemÃ¡tica",
-    value: "Especialista de MatemÃ¡tica",
+    id: "Especialista de Matemática",
+    value: "Especialista de Matemática",
   },
   {
     id: "Especialidad",
@@ -2593,8 +2549,8 @@ export let cargos = [
     value: "Coordinador Social TÃ©cnico",
   },
   {
-    id: "Asistente tÃ©cnica PedagÃ³gica",
-    value: "Asistente tÃ©cnica PedagÃ³gica",
+    id: "Asistente tÃ©cnica Pedagógica",
+    value: "Asistente tÃ©cnica Pedagógica",
   },
   {
     id: "Asistente de relaciones comunitarias",
@@ -2625,8 +2581,8 @@ export let cargos = [
     value: "Jefa de Brigada",
   },
   {
-    id: "AcompaÃ±ante PedagÃ³gica",
-    value: "AcompaÃ±ante PedagÃ³gica",
+    id: "Acompañante Pedagógica",
+    value: "Acompañante Pedagógica",
   },
   {
     id: "Ejecutivo de venta de servicios financieros",
@@ -2641,20 +2597,20 @@ export let cargos = [
     value: "Voluntaria",
   },
   {
-    id: "Fiscalizadora de Local de votaciÃ³n",
-    value: "Fiscalizadora de Local de votaciÃ³n",
+    id: "Fiscalizadora de Local de votación",
+    value: "Fiscalizadora de Local de votación",
   },
   {
-    id: "Aplicadora lÃ­der",
-    value: "Aplicadora lÃ­der",
+    id: "Aplicadora líder",
+    value: "Aplicadora líder",
   },
   {
     id: "Directora Encargada",
     value: "Directora Encargada",
   },
   {
-    id: "Asistente de DirecciÃ³n",
-    value: "Asistente de DirecciÃ³n",
+    id: "Asistente de Dirección",
+    value: "Asistente de Dirección",
   },
   {
     id: "Socia Tesorera",
@@ -2677,8 +2633,8 @@ export let cargos = [
     value: "Miembro del jurado calificador",
   },
   {
-    id: "Miembro de la comisiÃ³n de planificaciÃ³n",
-    value: "Miembro de la comisiÃ³n de planificaciÃ³n",
+    id: "Miembro de la comisión de planificación",
+    value: "Miembro de la comisión de planificación",
   },
   {
     id: "Asesor de tesis",
@@ -2689,8 +2645,8 @@ export let cargos = [
     value: "Secretario Docente",
   },
   {
-    id: "Responsable del Ãrea de AdmisiÃ³n de la Sede de Yanahuanca",
-    value: "Responsable del Ãrea de AdmisiÃ³n de la Sede de Yanahuanca",
+    id: "Responsable del Ãrea de Admisión de la Sede de Yanahuanca",
+    value: "Responsable del Ãrea de Admisión de la Sede de Yanahuanca",
   },
   {
     id: "Conferencista Especializado",
@@ -2717,48 +2673,48 @@ export let cargos = [
     value: "Capacitadora  Monitora",
   },
   {
-    id: "Capacitadora Monitora del Ã¡rea de educaciÃ³n religiosa",
-    value: "Capacitadora Monitora del Ã¡rea de educaciÃ³n religiosa",
+    id: "Capacitadora Monitora del área de educación religiosa",
+    value: "Capacitadora Monitora del área de educación religiosa",
   },
   {
     id: "Coordinador de Mesa",
     value: "Coordinador de Mesa",
   },
   {
-    id: "AcompaÃ±ante TÃ©cnico PedagÃ³gico",
-    value: "AcompaÃ±ante TÃ©cnico PedagÃ³gico",
+    id: "Acompañante TÃ©cnico Pedagógico",
+    value: "Acompañante TÃ©cnico Pedagógico",
   },
   {
-    id: "AcompaÃ±ante PedagÃ³gico de nivel inicial - PELA",
-    value: "AcompaÃ±ante PedagÃ³gico de nivel inicial - PELA",
+    id: "Acompañante Pedagógico de nivel inicial - PELA",
+    value: "Acompañante Pedagógico de nivel inicial - PELA",
   },
   {
-    id: "AcompaÃ±ante PedagÃ³gico  ",
-    value: "AcompaÃ±ante PedagÃ³gico  ",
+    id: "Acompañante Pedagógico  ",
+    value: "Acompañante Pedagógico  ",
   },
   {
-    id: "Auxiliar de EducaciÃ³n",
-    value: "Auxiliar de EducaciÃ³n",
+    id: "Auxiliar de Educación",
+    value: "Auxiliar de Educación",
   },
   {
-    id: "Directora de PostGrado y EducaciÃ³n Continua",
-    value: "Directora de PostGrado y EducaciÃ³n Continua",
+    id: "Directora de PostGrado y Educación Continua",
+    value: "Directora de PostGrado y Educación Continua",
   },
   {
-    id: "AcompaÃ±ante",
-    value: "AcompaÃ±ante",
+    id: "Acompañante",
+    value: "Acompañante",
   },
   {
     id: "Tutor de Primaria",
     value: "Tutor de Primaria",
   },
   {
-    id: "Especialista pedagÃ³gico",
-    value: "Especialista pedagÃ³gico",
+    id: "Especialista pedagógico",
+    value: "Especialista pedagógico",
   },
   {
-    id: "AcompaÃ±amiento pedagÃ³gico",
-    value: "AcompaÃ±amiento pedagÃ³gico",
+    id: "Acompañamiento pedagógico",
+    value: "Acompañamiento pedagógico",
   },
   {
     id: "Asesora Coordinadora",
@@ -2809,8 +2765,8 @@ export let cargos = [
     value: "Coordinadora tÃ©cnico de mesa ",
   },
   {
-    id: "Coordinador lÃ­der de local",
-    value: "Coordinador lÃ­der de local",
+    id: "Coordinador líder de local",
+    value: "Coordinador líder de local",
   },
   {
     id: "Revisor",
@@ -2841,36 +2797,36 @@ export let cargos = [
     value: "Ponente/Relatora",
   },
   {
-    id: "Coordinadora PedagÃ³gica",
-    value: "Coordinadora PedagÃ³gica",
+    id: "Coordinadora Pedagógica",
+    value: "Coordinadora Pedagógica",
   },
   {
-    id: "Coordinadora Regional de EducaciÃ³n Intercultural",
-    value: "Coordinadora Regional de EducaciÃ³n Intercultural",
+    id: "Coordinadora Regional de Educación Intercultural",
+    value: "Coordinadora Regional de Educación Intercultural",
   },
   {
     id: "Coordinadora tÃ©cnico",
     value: "Coordinadora tÃ©cnico",
   },
   {
-    id: "Especialista PedagÃ³gica",
-    value: "Especialista PedagÃ³gica",
+    id: "Especialista Pedagógica",
+    value: "Especialista Pedagógica",
   },
   {
-    id: "Especialista acompaÃ±ante pedagÃ³gico",
-    value: "Especialista acompaÃ±ante pedagÃ³gico",
+    id: "Especialista acompañante pedagógico",
+    value: "Especialista acompañante pedagógico",
   },
   {
     id: "Coordindora del Nivel Inicial",
     value: "Coordindora del Nivel Inicial",
   },
   {
-    id: "Formador pedagÃ³gico",
-    value: "Formador pedagÃ³gico",
+    id: "Formador pedagógico",
+    value: "Formador pedagógico",
   },
   {
-    id: "Coordinaroda de TutorÃ­a",
-    value: "Coordinaroda de TutorÃ­a",
+    id: "Coordinaroda de Tutoría",
+    value: "Coordinaroda de Tutoría",
   },
   {
     id: "Docente Formadora",
@@ -2885,20 +2841,20 @@ export let cargos = [
     value: "Coordinadora de tutores",
   },
   {
-    id: "Especialista en pedagogÃ­a",
-    value: "Especialista en pedagogÃ­a",
+    id: "Especialista en pedagogía",
+    value: "Especialista en pedagogía",
   },
   {
-    id: "Especialista AcompaÃ±amiento PedagÃ³gico",
-    value: "Especialista AcompaÃ±amiento PedagÃ³gico",
+    id: "Especialista Acompañamiento Pedagógico",
+    value: "Especialista Acompañamiento Pedagógico",
   },
   {
-    id: "Profesional PedagÃ³gico",
-    value: "Profesional PedagÃ³gico",
+    id: "Profesional Pedagógico",
+    value: "Profesional Pedagógico",
   },
   {
-    id: "Supervisora de EducaciÃ³n Inicial",
-    value: "Supervisora de EducaciÃ³n Inicial",
+    id: "Supervisora de Educación Inicial",
+    value: "Supervisora de Educación Inicial",
   },
   {
     id: "Especialista Asesora",
@@ -2913,8 +2869,8 @@ export let cargos = [
     value: "Subdirectora",
   },
   {
-    id: "AcompaÃ±ante tÃ©cnico",
-    value: "AcompaÃ±ante tÃ©cnico",
+    id: "Acompañante tÃ©cnico",
+    value: "Acompañante tÃ©cnico",
   },
   {
     id: "Autora / Investigadora",
@@ -2945,12 +2901,12 @@ export let cargos = [
     value: "Secretaria",
   },
   {
-    id: "Secretaria de DirecciÃ³n",
-    value: "Secretaria de DirecciÃ³n",
+    id: "Secretaria de Dirección",
+    value: "Secretaria de Dirección",
   },
   {
-    id: "TÃ©cnico pedagÃ³gico",
-    value: "TÃ©cnico pedagÃ³gico",
+    id: "TÃ©cnico pedagógico",
+    value: "TÃ©cnico pedagógico",
   },
   {
     id: "Miembro de la Red Educativa Regional",
@@ -2978,8 +2934,8 @@ export let cargos = [
     value: "Facilitador Asesor",
   },
   {
-    id: "Coordinador de acompaÃ±amiento pedagÃ³gico",
-    value: "Coordinador de acompaÃ±amiento pedagÃ³gico",
+    id: "Coordinador de acompañamiento pedagógico",
+    value: "Coordinador de acompañamiento pedagógico",
   },
   {
     id: "Especialista Facilitador",
@@ -3002,20 +2958,20 @@ export let cargos = [
     value: "Coordinador de Planeamiento Regional ",
   },
   {
-    id: "Coordinador de ConsultorÃ­a",
-    value: "Coordinador de ConsultorÃ­a",
+    id: "Coordinador de Consultoría",
+    value: "Coordinador de Consultoría",
   },
   {
     id: "Responsable tÃ©cnico",
     value: "Responsable tÃ©cnico",
   },
   {
-    id: "Especialista en Calidad de EnseÃ±anza",
-    value: "Especialista en Calidad de EnseÃ±anza",
+    id: "Especialista en Calidad de Enseñanza",
+    value: "Especialista en Calidad de Enseñanza",
   },
   {
-    id: "Secretario de ComisiÃ³n Evaluadora",
-    value: "Secretario de ComisiÃ³n Evaluadora",
+    id: "Secretario de Comisión Evaluadora",
+    value: "Secretario de Comisión Evaluadora",
   },
   {
     id: "Director de Equipo TÃ©cnico",
@@ -3054,24 +3010,24 @@ export let cargos = [
     value: "Asistente tÃ©cnico Formador",
   },
   {
-    id: "Espacialista pedagÃ³gica",
-    value: "Espacialista pedagÃ³gica",
+    id: "Espacialista pedagógica",
+    value: "Espacialista pedagógica",
   },
   {
-    id: "Asistente pedagÃ³gico",
-    value: "Asistente pedagÃ³gico",
+    id: "Asistente pedagógico",
+    value: "Asistente pedagógico",
   },
   {
     id: "Promotor ambiental",
     value: "Promotor ambiental",
   },
   {
-    id: "Asesor en GestiÃ³n",
-    value: "Asesor en GestiÃ³n",
+    id: "Asesor en Gestión",
+    value: "Asesor en Gestión",
   },
   {
-    id: "AcompaÃ±ante Monitor",
-    value: "AcompaÃ±ante Monitor",
+    id: "Acompañante Monitor",
+    value: "Acompañante Monitor",
   },
   {
     id: "Asesor de proyecto",
@@ -3126,8 +3082,8 @@ export let cargos = [
     value: "Gerente TÃ©cnico",
   },
   {
-    id: "Especialista en InnovaciÃ³n",
-    value: "Especialista en InnovaciÃ³n",
+    id: "Especialista en Innovación",
+    value: "Especialista en Innovación",
   },
   {
     id: "Organizadora/Capacitadora",
@@ -3142,8 +3098,8 @@ export let cargos = [
     value: "Docente/Investigadora",
   },
   {
-    id: "Especialista del nivel de EducaciÃ³n Secundaria",
-    value: "Especialista del nivel de EducaciÃ³n Secundaria",
+    id: "Especialista del nivel de Educación Secundaria",
+    value: "Especialista del nivel de Educación Secundaria",
   },
   {
     id: "Guionista",
@@ -3186,20 +3142,20 @@ export let cargos = [
     value: "Dramatizador",
   },
   {
-    id: "Gerente de Desarrollo e InclusiÃ³n Social",
-    value: "Gerente de Desarrollo e InclusiÃ³n Social",
+    id: "Gerente de Desarrollo e Inclusión Social",
+    value: "Gerente de Desarrollo e Inclusión Social",
   },
   {
     id: "Profesor Auxiliar",
     value: "Profesor Auxiliar",
   },
   {
-    id: "Coordinador de TutorÃ­a",
-    value: "Coordinador de TutorÃ­a",
+    id: "Coordinador de Tutoría",
+    value: "Coordinador de Tutoría",
   },
   {
-    id: "Coordinador de TutorÃ­a/Organizador",
-    value: "Coordinador de TutorÃ­a/Organizador",
+    id: "Coordinador de Tutoría/Organizador",
+    value: "Coordinador de Tutoría/Organizador",
   },
   {
     id: "Docente/Director",
@@ -3214,8 +3170,8 @@ export let cargos = [
     value: "Responsable de Departamento",
   },
   {
-    id: "Dinamizador tecnolÃ³gico",
-    value: "Dinamizador tecnolÃ³gico",
+    id: "Dinamizador tecnológico",
+    value: "Dinamizador tecnológico",
   },
   {
     id: "Auxiliar de Biblioteca",
@@ -3226,32 +3182,32 @@ export let cargos = [
     value: "Administrador de Plataforma Virtual",
   },
   {
-    id: "Asesora PedagÃ³gico",
-    value: "Asesora PedagÃ³gico",
+    id: "Asesora Pedagógico",
+    value: "Asesora Pedagógico",
   },
   {
     id: "Capacitadora/Tutora",
     value: "Capacitadora/Tutora",
   },
   {
-    id: "Formadora Asesora AcompaÃ±ante PedagÃ³gico",
-    value: "Formadora Asesora AcompaÃ±ante PedagÃ³gico",
+    id: "Formadora Asesora Acompañante Pedagógico",
+    value: "Formadora Asesora Acompañante Pedagógico",
   },
   {
-    id: "AcompaÃ±ante PedagÃ³gico Capacitador y Orientador",
-    value: "AcompaÃ±ante PedagÃ³gico Capacitador y Orientador",
+    id: "Acompañante Pedagógico Capacitador y Orientador",
+    value: "Acompañante Pedagógico Capacitador y Orientador",
   },
   {
-    id: "Formador y AcompaÃ±ante pedagÃ³gico",
-    value: "Formador y AcompaÃ±ante pedagÃ³gico",
+    id: "Formador y Acompañante pedagógico",
+    value: "Formador y Acompañante pedagógico",
   },
   {
     id: "Facilitador de Desarrollo Comunitario",
     value: "Facilitador de Desarrollo Comunitario",
   },
   {
-    id: "Especialista del componente de EducaciÃ³n Sanitaria",
-    value: "Especialista del componente de EducaciÃ³n Sanitaria",
+    id: "Especialista del componente de Educación Sanitaria",
+    value: "Especialista del componente de Educación Sanitaria",
   },
   {
     id: "Coordinador Point Person",
@@ -3262,8 +3218,8 @@ export let cargos = [
     value: "Encuestador",
   },
   {
-    id: "Vocal del ComitÃ© AnticorrupciÃ³n",
-    value: "Vocal del ComitÃ© AnticorrupciÃ³n",
+    id: "Vocal del ComitÃ© Anticorrupción",
+    value: "Vocal del ComitÃ© Anticorrupción",
   },
   {
     id: "Presidente de Taller",
@@ -3354,8 +3310,8 @@ export let cargos = [
     value: "Consejero",
   },
   {
-    id: "Miembro de comisiÃ³n",
-    value: "Miembro de comisiÃ³n",
+    id: "Miembro de comisión",
+    value: "Miembro de comisión",
   },
   {
     id: "Miembro de comitÃ©",
@@ -3370,12 +3326,12 @@ export let cargos = [
     value: "Auxiliar de Monitoreo",
   },
   {
-    id: "Auxiliar en PromociÃ³n Social",
-    value: "Auxiliar en PromociÃ³n Social",
+    id: "Auxiliar en Promoción Social",
+    value: "Auxiliar en Promoción Social",
   },
   {
-    id: "Coordinador RelaciÃ³n Comunitaria",
-    value: "Coordinador RelaciÃ³n Comunitaria",
+    id: "Coordinador Relación Comunitaria",
+    value: "Coordinador Relación Comunitaria",
   },
   {
     id: "Asistente de Comunidades",
@@ -3414,8 +3370,8 @@ export let cargos = [
     value: "Monitora y Capacitadora",
   },
   {
-    id: "PsicÃ³loga",
-    value: "PsicÃ³loga",
+    id: "Psicóloga",
+    value: "Psicóloga",
   },
   {
     id: "Asesora de Proyecto",
@@ -3454,8 +3410,8 @@ export let cargos = [
     value: "Verificador",
   },
   {
-    id: "Asistente Especialista EconÃ³mico Social VI",
-    value: "Asistente Especialista EconÃ³mico Social VI",
+    id: "Asistente Especialista Económico Social VI",
+    value: "Asistente Especialista Económico Social VI",
   },
   {
     id: "Coordinador Distrital",
@@ -3490,8 +3446,8 @@ export let cargos = [
     value: "Residente Responsable",
   },
   {
-    id: "Coordinadora de EducaciÃ³n Inicial",
-    value: "Coordinadora de EducaciÃ³n Inicial",
+    id: "Coordinadora de Educación Inicial",
+    value: "Coordinadora de Educación Inicial",
   },
   {
     id: "Bombero Sub teniente",
@@ -3522,8 +3478,8 @@ export let cargos = [
     value: "Docente Asistente",
   },
   {
-    id: "Formador de AcompaÃ±antes PedagÃ³gicos",
-    value: "Formador de AcompaÃ±antes PedagÃ³gicos",
+    id: "Formador de Acompañantes Pedagógicos",
+    value: "Formador de Acompañantes Pedagógicos",
   },
   {
     id: "Director AGP Capacitador",
@@ -3542,8 +3498,8 @@ export let cargos = [
     value: "Dianmizador en proyecto",
   },
   {
-    id: "Aplicador LÃ­der",
-    value: "Aplicador LÃ­der",
+    id: "Aplicador Líder",
+    value: "Aplicador Líder",
   },
   {
     id: "Especialista Asesor",
@@ -3554,8 +3510,8 @@ export let cargos = [
     value: "Asesor Monitor",
   },
   {
-    id: "Asistente pedagÃ³gica",
-    value: "Asistente pedagÃ³gica",
+    id: "Asistente pedagógica",
+    value: "Asistente pedagógica",
   },
   {
     id: "Coordinadora Institucional",
@@ -3586,20 +3542,20 @@ export let cargos = [
     value: "Capacitador social",
   },
   {
-    id: "Capacitador pedagÃ³gico",
-    value: "Capacitador pedagÃ³gico",
+    id: "Capacitador pedagógico",
+    value: "Capacitador pedagógico",
   },
   {
-    id: "AcompaÃ±ante pedagÃ³gico Ponente",
-    value: "AcompaÃ±ante pedagÃ³gico Ponente",
+    id: "Acompañante pedagógico Ponente",
+    value: "Acompañante pedagógico Ponente",
   },
   {
-    id: "Especialista en educaciÃ³n ",
-    value: "Especialista en educaciÃ³n ",
+    id: "Especialista en educación ",
+    value: "Especialista en educación ",
   },
   {
-    id: "Especialista en capacitaciÃ³n",
-    value: "Especialista en capacitaciÃ³n",
+    id: "Especialista en capacitación",
+    value: "Especialista en capacitación",
   },
   {
     id: "Consultora Educativa",
@@ -3610,12 +3566,12 @@ export let cargos = [
     value: "Asesor Familiar",
   },
   {
-    id: "Miembro del equipo de soporte pedagÃ³gico",
-    value: "Miembro del equipo de soporte pedagÃ³gico",
+    id: "Miembro del equipo de soporte pedagógico",
+    value: "Miembro del equipo de soporte pedagógico",
   },
   {
-    id: "Especialista de soporte pedagÃ³gico",
-    value: "Especialista de soporte pedagÃ³gico",
+    id: "Especialista de soporte pedagógico",
+    value: "Especialista de soporte pedagógico",
   },
   {
     id: "Director de CIA",
@@ -3630,8 +3586,8 @@ export let cargos = [
     value: "Especialista Formador",
   },
   {
-    id: "Jefe del Ã¡rea ",
-    value: "Jefe del Ã¡rea ",
+    id: "Jefe del área ",
+    value: "Jefe del área ",
   },
   {
     id: "Jefe del departamento",
@@ -3646,8 +3602,8 @@ export let cargos = [
     value: "Coordinador del programa",
   },
   {
-    id: "Especialista en diseÃ±o curricular",
-    value: "Especialista en diseÃ±o curricular",
+    id: "Especialista en diseño curricular",
+    value: "Especialista en diseño curricular",
   },
   {
     id: "Capacitador  monitor",
@@ -3658,20 +3614,20 @@ export let cargos = [
     value: "Jefe de oficina de registros acadÃ©micos",
   },
   {
-    id: "Supervisora de proceso de aplicaciÃ³n",
-    value: "Supervisora de proceso de aplicaciÃ³n",
+    id: "Supervisora de proceso de aplicación",
+    value: "Supervisora de proceso de aplicación",
   },
   {
     id: "Poli docente de Primaria",
     value: "Poli docente de Primaria",
   },
   {
-    id: "Docente acompaÃ±ante pedagÃ³gica",
-    value: "Docente acompaÃ±ante pedagÃ³gica",
+    id: "Docente acompañante pedagógica",
+    value: "Docente acompañante pedagógica",
   },
   {
-    id: "Director de la DRE San MartÃ­n",
-    value: "Director de la DRE San MartÃ­n",
+    id: "Director de la DRE San Martín",
+    value: "Director de la DRE San Martín",
   },
   {
     id: "Director del Sistema Administrativo I",
@@ -3682,12 +3638,12 @@ export let cargos = [
     value: "Coordinador del proyecto",
   },
   {
-    id: "Formador de acompaÃ±ante pedagÃ³gico",
-    value: "Formador de acompaÃ±ante pedagÃ³gico",
+    id: "Formador de acompañante pedagógico",
+    value: "Formador de acompañante pedagógico",
   },
   {
-    id: "Especialista en EducaciÃ³n II",
-    value: "Especialista en EducaciÃ³n II",
+    id: "Especialista en Educación II",
+    value: "Especialista en Educación II",
   },
   {
     id: "Director del programa sectorial",
@@ -3714,16 +3670,16 @@ export let cargos = [
     value: "Organizador y Promotor",
   },
   {
-    id: "Representante de la DirecciÃ³n ",
-    value: "Representante de la DirecciÃ³n ",
+    id: "Representante de la Dirección ",
+    value: "Representante de la Dirección ",
   },
   {
     id: "Organizador y Ponente",
     value: "Organizador y Ponente",
   },
   {
-    id: "Especialista en GestiÃ³n",
-    value: "Especialista en GestiÃ³n",
+    id: "Especialista en Gestión",
+    value: "Especialista en Gestión",
   },
   {
     id: "Sub Director AcadÃ©mico",
@@ -3734,36 +3690,36 @@ export let cargos = [
     value: "Formador Docente",
   },
   {
-    id: "Titular de comisiÃ³n de investigaciÃ³n",
-    value: "Titular de comisiÃ³n de investigaciÃ³n",
+    id: "Titular de comisión de investigación",
+    value: "Titular de comisión de investigación",
   },
   {
     id: "Jefe de departamento",
     value: "Jefe de departamento",
   },
   {
-    id: "Coordinador de investigaciÃ³n",
-    value: "Coordinador de investigaciÃ³n",
+    id: "Coordinador de investigación",
+    value: "Coordinador de investigación",
   },
   {
-    id: "Jefe de educaciÃ³n",
-    value: "Jefe de educaciÃ³n",
+    id: "Jefe de educación",
+    value: "Jefe de educación",
   },
   {
-    id: "Asesor metodolÃ³gico",
-    value: "Asesor metodolÃ³gico",
+    id: "Asesor metodológico",
+    value: "Asesor metodológico",
   },
   {
     id: "Observador",
     value: "Observador",
   },
   {
-    id: "Jefe de Ã¡rea acadÃ©mica",
-    value: "Jefe de Ã¡rea acadÃ©mica",
+    id: "Jefe de área acadÃ©mica",
+    value: "Jefe de área acadÃ©mica",
   },
   {
-    id: "Facilitador PedagÃ³gico",
-    value: "Facilitador PedagÃ³gico",
+    id: "Facilitador Pedagógico",
+    value: "Facilitador Pedagógico",
   },
   {
     id: "Administradora de plataforma virtual",
@@ -3782,24 +3738,24 @@ export let cargos = [
     value: "Auxiliar de Computo",
   },
   {
-    id: "Responsable de comisiÃ³n",
-    value: "Responsable de comisiÃ³n",
+    id: "Responsable de comisión",
+    value: "Responsable de comisión",
   },
   {
     id: "Asesora Tutora",
     value: "Asesora Tutora",
   },
   {
-    id: "Coordinador de InnovaciÃ³n y soporte te",
-    value: "Coordinador de InnovaciÃ³n y soporte te",
+    id: "Coordinador de Innovación y soporte te",
+    value: "Coordinador de Innovación y soporte te",
   },
   {
     id: "Jefe de Soporte tÃ©cnico",
     value: "Jefe de Soporte tÃ©cnico",
   },
   {
-    id: "Asistente de CoordinaciÃ³n",
-    value: "Asistente de CoordinaciÃ³n",
+    id: "Asistente de Coordinación",
+    value: "Asistente de Coordinación",
   },
   {
     id: "Coordinador de tutores",
@@ -3822,8 +3778,8 @@ export let cargos = [
     value: "Ponente/ Expositor",
   },
   {
-    id: "Operadora logÃ­stica",
-    value: "Operadora logÃ­stica",
+    id: "Operadora logística",
+    value: "Operadora logística",
   },
   {
     id: "Capacitadora de ODPE",
@@ -3838,16 +3794,16 @@ export let cargos = [
     value: "Supervisora y asistente tÃ©cnica",
   },
   {
-    id: "Coordinadora de proyectos y planificaciÃ³n",
-    value: "Coordinadora de proyectos y planificaciÃ³n",
+    id: "Coordinadora de proyectos y planificación",
+    value: "Coordinadora de proyectos y planificación",
   },
   {
     id: "Comunicadora social",
     value: "Comunicadora social",
   },
   {
-    id: "Entrenadora pedagÃ³gica",
-    value: "Entrenadora pedagÃ³gica",
+    id: "Entrenadora pedagógica",
+    value: "Entrenadora pedagógica",
   },
   {
     id: "Asistente del programa",
@@ -3866,12 +3822,12 @@ export let cargos = [
     value: "Docente Capacitador y Monitor",
   },
   {
-    id: "integrante de la comisiÃ³n",
-    value: "integrante de la comisiÃ³n",
+    id: "integrante de la comisión",
+    value: "integrante de la comisión",
   },
   {
-    id: "Jefe de formaciÃ³n profesional",
-    value: "Jefe de formaciÃ³n profesional",
+    id: "Jefe de formación profesional",
+    value: "Jefe de formación profesional",
   },
   {
     id: "Coordinador de programa",
@@ -3882,8 +3838,8 @@ export let cargos = [
     value: "Asesor y ponente",
   },
   {
-    id: "Coordinador de formaciÃ³n",
-    value: "Coordinador de formaciÃ³n",
+    id: "Coordinador de formación",
+    value: "Coordinador de formación",
   },
   {
     id: "Administrador de la plataforma virtual",
@@ -3898,33 +3854,33 @@ export let cargos = [
     value: "Expositora",
   },
   {
-    id: "Responsable del plan de CapacitaciÃ³n",
-    value: "Responsable del plan de CapacitaciÃ³n",
+    id: "Responsable del plan de Capacitación",
+    value: "Responsable del plan de Capacitación",
   },
   {
-    id: "Especialista en participaciÃ³n",
-    value: "Especialista en participaciÃ³n",
+    id: "Especialista en participación",
+    value: "Especialista en participación",
   },
   {
     id: "Especialista educador",
     value: "Especialista educador",
   },
   {
-    id: "AcompaÃ±ante de procesos pedagÃ³gicos",
-    value: "AcompaÃ±ante de procesos pedagÃ³gicos",
+    id: "Acompañante de procesos pedagógicos",
+    value: "Acompañante de procesos pedagógicos",
   },
   {
-    id: "Especialista en Desarrollo de Capacidades de GestiÃ³n Descentralizada",
+    id: "Especialista en Desarrollo de Capacidades de Gestión Descentralizada",
     value:
-      "Especialista en Desarrollo de Capacidades de GestiÃ³n Descentralizada",
+      "Especialista en Desarrollo de Capacidades de Gestión Descentralizada",
   },
   {
     id: "Facilitador Capacitador",
     value: "Facilitador Capacitador",
   },
   {
-    id: "Coordinador de gestiÃ³n educativa",
-    value: "Coordinador de gestiÃ³n educativa",
+    id: "Coordinador de gestión educativa",
+    value: "Coordinador de gestión educativa",
   },
   {
     id: "Integrante de equipo tÃ©cnico",
@@ -3939,28 +3895,28 @@ export let cargos = [
     value: "Asistente De proyectos ",
   },
   {
-    id: "PrÃ¡cticas Pre-Profesionales de Recursos Humanos",
-    value: "PrÃ¡cticas Pre-Profesionales de Recursos Humanos",
+    id: "Prácticas Pre-Profesionales de Recursos Humanos",
+    value: "Prácticas Pre-Profesionales de Recursos Humanos",
   },
   {
-    id: "LÃ­der de Equipo ",
-    value: "LÃ­der de Equipo ",
+    id: "Líder de Equipo ",
+    value: "Líder de Equipo ",
   },
   {
     id: "Consultor Junior Investigador ",
     value: "Consultor Junior Investigador ",
   },
   {
-    id: "Practicante pre-profesional de Reclutamiento y SelecciÃ³n",
-    value: "Practicante pre-profesional de Reclutamiento y SelecciÃ³n",
+    id: "Practicante pre-profesional de Reclutamiento y Selección",
+    value: "Practicante pre-profesional de Reclutamiento y Selección",
   },
   {
     id: "Gestor de Oportunidades ",
     value: "Gestor de Oportunidades ",
   },
   {
-    id: "AcompaÃ±ante Comunitario",
-    value: "AcompaÃ±ante Comunitario",
+    id: "Acompañante Comunitario",
+    value: "Acompañante Comunitario",
   },
   {
     id: "Colaborador educador",
@@ -3983,8 +3939,8 @@ export let cargos = [
     value: "Responsable de estudios",
   },
   {
-    id: "Ayudante de CÃ¡tedra",
-    value: "Ayudante de CÃ¡tedra",
+    id: "Ayudante de Cátedra",
+    value: "Ayudante de Cátedra",
   },
   {
     id: "Operadora Supervisora",
@@ -4003,16 +3959,16 @@ export let cargos = [
     value: "Entrevistadora",
   },
   {
-    id: "SociÃ³loga",
-    value: "SociÃ³loga",
+    id: "Socióloga",
+    value: "Socióloga",
   },
   {
     id: "Educadora - Coordinadora",
     value: "Educadora - Coordinadora",
   },
   {
-    id: "Analista de SupervisiÃ³n y Monitoreo",
-    value: "Analista de SupervisiÃ³n y Monitoreo",
+    id: "Analista de Supervisión y Monitoreo",
+    value: "Analista de Supervisión y Monitoreo",
   },
   {
     id: "Formulador",
@@ -4123,8 +4079,8 @@ export let cargos = [
     value: "Especialista ADECAL",
   },
   {
-    id: "Responsable de EducaciÃ³n",
-    value: "Responsable de EducaciÃ³n",
+    id: "Responsable de Educación",
+    value: "Responsable de Educación",
   },
   {
     id: "Asistente de Coordinador local",
@@ -4143,8 +4099,8 @@ export let cargos = [
     value: "Evaluador TÃ©cnico",
   },
   {
-    id: "Sectorista en CapacitaciÃ³n",
-    value: "Sectorista en CapacitaciÃ³n",
+    id: "Sectorista en Capacitación",
+    value: "Sectorista en Capacitación",
   },
   {
     id: "Administrador de Servidumbres",
@@ -4159,8 +4115,8 @@ export let cargos = [
     value: "Asistente TÃ©cnico de Proyecto",
   },
   {
-    id: "SociÃ³logo",
-    value: "SociÃ³logo",
+    id: "Sociólogo",
+    value: "Sociólogo",
   },
   {
     id: "Analista de Relaciones Comunitarias",
@@ -4171,44 +4127,44 @@ export let cargos = [
     value: "Investigador Social",
   },
   {
-    id: "EstadÃ­stico",
-    value: "EstadÃ­stico",
+    id: "Estadístico",
+    value: "Estadístico",
   },
   {
-    id: "EstadÃ­stico Programador",
-    value: "EstadÃ­stico Programador",
+    id: "Estadístico Programador",
+    value: "Estadístico Programador",
   },
   {
-    id: "Especialista en EstadÃ­stica",
-    value: "Especialista en EstadÃ­stica",
+    id: "Especialista en Estadística",
+    value: "Especialista en Estadística",
   },
   {
     id: "Analista de Datos",
     value: "Analista de Datos",
   },
   {
-    id: "Analista EstadÃ­stico",
-    value: "Analista EstadÃ­stico",
+    id: "Analista Estadístico",
+    value: "Analista Estadístico",
   },
   {
     id: "Analista Programador",
     value: "Analista Programador",
   },
   {
-    id: "EstadÃ­stica",
-    value: "EstadÃ­stica",
+    id: "Estadística",
+    value: "Estadística",
   },
   {
-    id: "Consultor EstadÃ­stico",
-    value: "Consultor EstadÃ­stico",
+    id: "Consultor Estadístico",
+    value: "Consultor Estadístico",
   },
   {
-    id: "Analista de InvestigaciÃ³n",
-    value: "Analista de InvestigaciÃ³n",
+    id: "Analista de Investigación",
+    value: "Analista de Investigación",
   },
   {
-    id: "Especialista de InvestigaciÃ³n",
-    value: "Especialista de InvestigaciÃ³n",
+    id: "Especialista de Investigación",
+    value: "Especialista de Investigación",
   },
   {
     id: "Especialista y Coordinador",
@@ -4219,12 +4175,12 @@ export let cargos = [
     value: "Asesor Regional",
   },
   {
-    id: "Analista en EstadÃ­stica",
-    value: "Analista en EstadÃ­stica",
+    id: "Analista en Estadística",
+    value: "Analista en Estadística",
   },
   {
-    id: "Especialista en Sistemas de InformaciÃ³n",
-    value: "Especialista en Sistemas de InformaciÃ³n",
+    id: "Especialista en Sistemas de Información",
+    value: "Especialista en Sistemas de Información",
   },
   {
     id: "Especialista en M&E",
@@ -4235,8 +4191,8 @@ export let cargos = [
     value: "Asistente de Base de Datos",
   },
   {
-    id: "Especialista EstadÃ­stico",
-    value: "Especialista EstadÃ­stico",
+    id: "Especialista Estadístico",
+    value: "Especialista Estadístico",
   },
   {
     id: "Ingeniero Residente",
@@ -4255,16 +4211,16 @@ export let cargos = [
     value: "Jefe de Control de Calidad",
   },
   {
-    id: "Jefa de GestiÃ³n de Calidad",
-    value: "Jefa de GestiÃ³n de Calidad",
+    id: "Jefa de Gestión de Calidad",
+    value: "Jefa de Gestión de Calidad",
   },
   {
-    id: "Especialista en GestiÃ³n de la Calidad",
-    value: "Especialista en GestiÃ³n de la Calidad",
+    id: "Especialista en Gestión de la Calidad",
+    value: "Especialista en Gestión de la Calidad",
   },
   {
-    id: "LÃ­der de Proyectos",
-    value: "LÃ­der de Proyectos",
+    id: "Líder de Proyectos",
+    value: "Líder de Proyectos",
   },
   {
     id: "Ingeniera Ambiental",
@@ -4299,8 +4255,8 @@ export let cargos = [
     value: "Ingeniero Proyectista",
   },
   {
-    id: "Asistente TÃ©cnico de SupervisiÃ³n",
-    value: "Asistente TÃ©cnico de SupervisiÃ³n",
+    id: "Asistente TÃ©cnico de Supervisión",
+    value: "Asistente TÃ©cnico de Supervisión",
   },
   {
     id: "Ingeniero en Costos y Presupuestos",
@@ -4319,8 +4275,8 @@ export let cargos = [
     value: "Jefe de Metrados Costos y Presupuesto",
   },
   {
-    id: "Jefe del Ã¡rea de Costos y Presupuestos",
-    value: "Jefe del Ã¡rea de Costos y Presupuestos",
+    id: "Jefe del área de Costos y Presupuestos",
+    value: "Jefe del área de Costos y Presupuestos",
   },
   {
     id: "Analista de Costos y Presupuestos",
@@ -4331,16 +4287,16 @@ export let cargos = [
     value: "Ingeniero Asistente de Residencia",
   },
   {
-    id: "Ingeniero Asistente de DiseÃ±o Estructural",
-    value: "Ingeniero Asistente de DiseÃ±o Estructural",
+    id: "Ingeniero Asistente de Diseño Estructural",
+    value: "Ingeniero Asistente de Diseño Estructural",
   },
   {
     id: "Ingeniero Asistente Estructural",
     value: "Ingeniero Asistente Estructural",
   },
   {
-    id: "Asistente de SupervisiÃ³n",
-    value: "Asistente de SupervisiÃ³n",
+    id: "Asistente de Supervisión",
+    value: "Asistente de Supervisión",
   },
   {
     id: "Aplicador TÃ©cnico",
@@ -4359,8 +4315,8 @@ export let cargos = [
     value: "Ingeniero Geotecnista",
   },
   {
-    id: "GeÃ³logo Geotecnista Junior",
-    value: "GeÃ³logo Geotecnista Junior",
+    id: "Geólogo Geotecnista Junior",
+    value: "Geólogo Geotecnista Junior",
   },
   {
     id: "Proyectista",
@@ -4387,24 +4343,24 @@ export let cargos = [
     value: "Responsable y Jefe",
   },
   {
-    id: "SupervisiÃ³n",
-    value: "SupervisiÃ³n",
+    id: "Supervisión",
+    value: "Supervisión",
   },
   {
     id: "Jefe / Administrador ",
     value: "Jefe / Administrador ",
   },
   {
-    id: "Jefe de InvestigaciÃ³n",
-    value: "Jefe de InvestigaciÃ³n",
+    id: "Jefe de Investigación",
+    value: "Jefe de Investigación",
   },
   {
     id: "Jefe de Estudio",
     value: "Jefe de Estudio",
   },
   {
-    id: "Coordinador de GestiÃ³n de Proyecto",
-    value: "Coordinador de GestiÃ³n de Proyecto",
+    id: "Coordinador de Gestión de Proyecto",
+    value: "Coordinador de Gestión de Proyecto",
   },
   {
     id: "Analista Consultor",
@@ -4427,8 +4383,8 @@ export let cargos = [
     value: "Asesor de Sistemas ",
   },
   {
-    id: "Operador InformÃ¡tico",
-    value: "Operador InformÃ¡tico",
+    id: "Operador Informático",
+    value: "Operador Informático",
   },
   {
     id: "Soporte TÃ©cnico",
@@ -4483,20 +4439,20 @@ export let cargos = [
     value: "Coolaborador acadÃ©mico y Promotor Cultural",
   },
   {
-    id: "Jefe de SecciÃ³n Urbana",
-    value: "Jefe de SecciÃ³n Urbana",
+    id: "Jefe de Sección Urbana",
+    value: "Jefe de Sección Urbana",
   },
   {
-    id: "AntropÃ³logo",
-    value: "AntropÃ³logo",
+    id: "Antropólogo",
+    value: "Antropólogo",
   },
   {
     id: "Aplicadpr",
     value: "Aplicadpr",
   },
   {
-    id: "Coordinador de Local de VotaciÃ³n",
-    value: "Coordinador de Local de VotaciÃ³n",
+    id: "Coordinador de Local de Votación",
+    value: "Coordinador de Local de Votación",
   },
   {
     id: "Jefe de Sub Zona",
@@ -4531,8 +4487,8 @@ export let cargos = [
     value: "Asesor ambiental",
   },
   {
-    id: "Fiscalizador de localde votaciÃ³n",
-    value: "Fiscalizador de localde votaciÃ³n",
+    id: "Fiscalizador de localde votación",
+    value: "Fiscalizador de localde votación",
   },
   {
     id: "Codificador",
@@ -4555,8 +4511,8 @@ export let cargos = [
     value: "Social Junior",
   },
   {
-    id: "TraducciÃ³n",
-    value: "TraducciÃ³n",
+    id: "Traducción",
+    value: "Traducción",
   },
   {
     id: "Encuestador , Digitador , Supervisor de mesa y campo",
@@ -4571,84 +4527,84 @@ export let cargos = [
     value: "Supervisor UGEL",
   },
   {
-    id: "TÃ©cnico EstadÃ­stico",
-    value: "TÃ©cnico EstadÃ­stico",
+    id: "TÃ©cnico Estadístico",
+    value: "TÃ©cnico Estadístico",
   },
   {
-    id: "TÃ©cnico CartogrÃ¡fico de campo",
-    value: "TÃ©cnico CartogrÃ¡fico de campo",
+    id: "TÃ©cnico Cartográfico de campo",
+    value: "TÃ©cnico Cartográfico de campo",
   },
   {
     id: "FORMADORA-CAPACITADORA",
     value: "FORMADORA-CAPACITADORA",
   },
   {
-    id: "Consultooria de servicio especializado en educaciÃ³n para desarrollar instrumenros de gestiÃ³n",
+    id: "Consultooria de servicio especializado en educación para desarrollar instrumenros de gestión",
     value:
-      "Consultooria de servicio especializado en educaciÃ³n para desarrollar instrumenros de gestiÃ³n",
+      "Consultooria de servicio especializado en educación para desarrollar instrumenros de gestión",
   },
   {
-    id: "Docente presencial del Programa de complementaciÃ³n universitaria",
-    value: "Docente presencial del Programa de complementaciÃ³n universitaria",
+    id: "Docente presencial del Programa de complementación universitaria",
+    value: "Docente presencial del Programa de complementación universitaria",
   },
   {
-    id: "Especialista en Bloque TemÃ¡tico CurrÃ­culum y EvaluaciÃ³n por competencias",
+    id: "Especialista en Bloque Temático Currículum y Evaluación por competencias",
     value:
-      "Especialista en Bloque TemÃ¡tico CurrÃ­culum y EvaluaciÃ³n por competencias",
+      "Especialista en Bloque Temático Currículum y Evaluación por competencias",
   },
   {
     id: "Scientix Ambassador ",
     value: "Scientix Ambassador ",
   },
   {
-    id: "AcompÃ±ante pedagÃ³gico de Calidad Educativa ",
-    value: "AcompÃ±ante pedagÃ³gico de Calidad Educativa ",
+    id: "Acompñante pedagógico de Calidad Educativa ",
+    value: "Acompñante pedagógico de Calidad Educativa ",
   },
   {
-    id: "Consultor en ejecuciÃ³n de talleres de capacitaciÃ³n ",
-    value: "Consultor en ejecuciÃ³n de talleres de capacitaciÃ³n ",
+    id: "Consultor en ejecución de talleres de capacitación ",
+    value: "Consultor en ejecución de talleres de capacitación ",
   },
   {
-    id: "Facilitador del equipo tÃ©cnico Regional de Lima Metropolitana para el programa de PrevenciÃ³n de Consumo de Drogas - DEVIDA",
+    id: "Facilitador del equipo tÃ©cnico Regional de Lima Metropolitana para el programa de Prevención de Consumo de Drogas - DEVIDA",
     value:
-      "Facilitador del equipo tÃ©cnico Regional de Lima Metropolitana para el programa de PrevenciÃ³n de Consumo de Drogas - DEVIDA",
+      "Facilitador del equipo tÃ©cnico Regional de Lima Metropolitana para el programa de Prevención de Consumo de Drogas - DEVIDA",
   },
   {
-    id: "Especiaista PedagÃ³gico Regional - DIFODS",
-    value: "Especiaista PedagÃ³gico Regional - DIFODS",
+    id: "Especiaista Pedagógico Regional - DIFODS",
+    value: "Especiaista Pedagógico Regional - DIFODS",
   },
   {
     id: "Co Autor",
     value: "Co Autor",
   },
   {
-    id: "Docente de la especialidad de EducaciÃ³n para el Trbajo EPT",
-    value: "Docente de la especialidad de EducaciÃ³n para el Trbajo EPT",
+    id: "Docente de la especialidad de Educación para el Trbajo EPT",
+    value: "Docente de la especialidad de Educación para el Trbajo EPT",
   },
   {
-    id: "Facilitador y aplicador del Programa Familias Fuertes, Amor y lÃ­mites.",
+    id: "Facilitador y aplicador del Programa Familias Fuertes, Amor y límites.",
     value:
-      "Facilitador y aplicador del Programa Familias Fuertes, Amor y lÃ­mites.",
+      "Facilitador y aplicador del Programa Familias Fuertes, Amor y límites.",
   },
   {
-    id: "Promotor de TutorÃ­a y Conviencia - UGEL 01",
-    value: "Promotor de TutorÃ­a y Conviencia - UGEL 01",
+    id: "Promotor de Tutoría y Conviencia - UGEL 01",
+    value: "Promotor de Tutoría y Conviencia - UGEL 01",
   },
   {
-    id: "Promotor de TutorÃ­a y OrientaciÃ³n Educativa TOE - UGEL 01",
-    value: "Promotor de TutorÃ­a y OrientaciÃ³n Educativa TOE - UGEL 01",
+    id: "Promotor de Tutoría y Orientación Educativa TOE - UGEL 01",
+    value: "Promotor de Tutoría y Orientación Educativa TOE - UGEL 01",
   },
   {
-    id: "Docente y Coordinador acadÃ©mico del Ã¡rea de MatemÃ¡tica ",
-    value: "Docente y Coordinador acadÃ©mico del Ã¡rea de MatemÃ¡tica ",
+    id: "Docente y Coordinador acadÃ©mico del área de Matemática ",
+    value: "Docente y Coordinador acadÃ©mico del área de Matemática ",
   },
   {
-    id: "Docente de MatemÃ¡tica ",
-    value: "Docente de MatemÃ¡tica ",
+    id: "Docente de Matemática ",
+    value: "Docente de Matemática ",
   },
   {
-    id: "Docente encargado del Aula de InnovaciÃ³n PedagÃ³gica",
-    value: "Docente encargado del Aula de InnovaciÃ³n PedagÃ³gica",
+    id: "Docente encargado del Aula de Innovación Pedagógica",
+    value: "Docente encargado del Aula de Innovación Pedagógica",
   },
   {
     id: "FACILITADOR Y CAPACITADOR DE LOS DIPLOMADOS Y CURSOS QUE OFRECE EL INSTITUTO",
@@ -4660,8 +4616,8 @@ export let cargos = [
     value: "Practicante pre-profesional de Recursos Humanos",
   },
   {
-    id: "Asistente de reposiciÃ³n y mercaderia",
-    value: "Asistente de reposiciÃ³n y mercaderia",
+    id: "Asistente de reposición y mercaderia",
+    value: "Asistente de reposición y mercaderia",
   },
   {
     id: "Administrador de Tienda",
@@ -4672,16 +4628,16 @@ export let cargos = [
     value: "Censista",
   },
   {
-    id: "Responsable de la GestiÃ³n del Conocimiento",
-    value: "Responsable de la GestiÃ³n del Conocimiento",
+    id: "Responsable de la Gestión del Conocimiento",
+    value: "Responsable de la Gestión del Conocimiento",
   },
   {
     id: "Cajero",
     value: "Cajero",
   },
   {
-    id: "RedacciÃ³n en el Ãrea Web",
-    value: "RedacciÃ³n en el Ãrea Web",
+    id: "Redacción en el Ãrea Web",
+    value: "Redacción en el Ãrea Web",
   },
   {
     id: "CONSULTOR JUNIOR DE MONITOREO Y EVALUACIÃ“N DE PROYECTOS.                                                                                                                                         ",
@@ -4717,12 +4673,12 @@ export let cargos = [
     value: "Auxiliar de Proyectos",
   },
   {
-    id: "Servicio externo de procesamiento de la informaciÃ³n",
-    value: "Servicio externo de procesamiento de la informaciÃ³n",
+    id: "Servicio externo de procesamiento de la información",
+    value: "Servicio externo de procesamiento de la información",
   },
   {
-    id: "Coordinador de LogÃ­stica ",
-    value: "Coordinador de LogÃ­stica ",
+    id: "Coordinador de Logística ",
+    value: "Coordinador de Logística ",
   },
   {
     id: "CONSULTOR EXTERNO EN ANÃLISIS DE BASE DE DATOS  Y PROGRAMACIÃ“N                                                                                                                                       ",
@@ -4778,8 +4734,8 @@ export let cargos = [
     value: "Consultora Cualitativa",
   },
   {
-    id: "Especialista de estadÃ­stica",
-    value: "Especialista de estadÃ­stica",
+    id: "Especialista de estadística",
+    value: "Especialista de estadística",
   },
   {
     id: "Investigadora de campo",
@@ -4798,8 +4754,8 @@ export let cargos = [
     value: "Transcriptora de Audios",
   },
   {
-    id: "Monitora de prÃ¡cticas escolares",
-    value: "Monitora de prÃ¡cticas escolares",
+    id: "Monitora de prácticas escolares",
+    value: "Monitora de prácticas escolares",
   },
   {
     id: "Docente Investigador",
@@ -4810,8 +4766,8 @@ export let cargos = [
     value: "redactora",
   },
   {
-    id: "Miembro Titular en la CategorÃ­a Principal ",
-    value: "Miembro Titular en la CategorÃ­a Principal ",
+    id: "Miembro Titular en la Categoría Principal ",
+    value: "Miembro Titular en la Categoría Principal ",
   },
   {
     id: "Jefe de Unidad de Postgrado",
@@ -4826,16 +4782,16 @@ export let cargos = [
     value: "Especialista de Secundaria en Alternancia",
   },
   {
-    id: "Coordinadora de GestiÃ³n Educativa Rural - COGER",
-    value: "Coordinadora de GestiÃ³n Educativa Rural - COGER",
+    id: "Coordinadora de Gestión Educativa Rural - COGER",
+    value: "Coordinadora de Gestión Educativa Rural - COGER",
   },
   {
     id: "Profesora de EBR Secundaria.",
     value: "Profesora de EBR Secundaria.",
   },
   {
-    id: "Coordinadora de currÃ­culo y evaluaciÃ³n",
-    value: "Coordinadora de currÃ­culo y evaluaciÃ³n",
+    id: "Coordinadora de currículo y evaluación",
+    value: "Coordinadora de currículo y evaluación",
   },
   {
     id: "Docente Monitora.",
@@ -4890,16 +4846,16 @@ export let cargos = [
     value: "Jefe de Riesgos",
   },
   {
-    id: "Coordinador de Sistemas Integrados de GestiÃ³n",
-    value: "Coordinador de Sistemas Integrados de GestiÃ³n",
+    id: "Coordinador de Sistemas Integrados de Gestión",
+    value: "Coordinador de Sistemas Integrados de Gestión",
   },
   {
     id: "Inspector a Bordo de Flota de Cerco",
     value: "Inspector a Bordo de Flota de Cerco",
   },
   {
-    id: "Asistente de producciÃ³n",
-    value: "Asistente de producciÃ³n",
+    id: "Asistente de producción",
+    value: "Asistente de producción",
   },
   {
     id: "Jefe de SIG",
@@ -4922,8 +4878,8 @@ export let cargos = [
     value: "Digitador y asistente de proyectos",
   },
   {
-    id: "Asistente del Ã¡rea de GestiÃ³n de Oportunidades ",
-    value: "Asistente del Ã¡rea de GestiÃ³n de Oportunidades ",
+    id: "Asistente del área de Gestión de Oportunidades ",
+    value: "Asistente del área de Gestión de Oportunidades ",
   },
   {
     id: "Consultor Junior",
@@ -4938,8 +4894,8 @@ export let cargos = [
     value: "Asistente consultora",
   },
   {
-    id: "Asistente especialista econÃ³mico II",
-    value: "Asistente especialista econÃ³mico II",
+    id: "Asistente especialista económico II",
+    value: "Asistente especialista económico II",
   },
   {
     id: "Coordinadora tÃ©cnica",
@@ -4990,8 +4946,8 @@ export let cargos = [
     value: "Asistente IV",
   },
   {
-    id: "Integrante del Equipo de CoordinaciÃ³n General",
-    value: "Integrante del Equipo de CoordinaciÃ³n General",
+    id: "Integrante del Equipo de Coordinación General",
+    value: "Integrante del Equipo de Coordinación General",
   },
   {
     id: "Monitor de taller",
@@ -5010,16 +4966,16 @@ export let cargos = [
     value: "OPERADOR LOGÃSTICO",
   },
   {
-    id: "Organizadora AcompaÃ±ante pedagÃ³gica",
-    value: "Organizadora AcompaÃ±ante pedagÃ³gica",
+    id: "Organizadora Acompañante pedagógica",
+    value: "Organizadora Acompañante pedagógica",
   },
   {
-    id: "Apoyo psicolÃ³gico",
-    value: "Apoyo psicolÃ³gico",
+    id: "Apoyo psicológico",
+    value: "Apoyo psicológico",
   },
   {
-    id: "Asistente en el Ã¡rea de Sig. y Monitoreo",
-    value: "Asistente en el Ã¡rea de Sig. y Monitoreo",
+    id: "Asistente en el área de Sig. y Monitoreo",
+    value: "Asistente en el área de Sig. y Monitoreo",
   },
   {
     id: "Consultora de Campo",
@@ -5030,8 +4986,8 @@ export let cargos = [
     value: "Asistente Intermediario",
   },
   {
-    id: "Analista de IntermediaciÃ³n",
-    value: "Analista de IntermediaciÃ³n",
+    id: "Analista de Intermediación",
+    value: "Analista de Intermediación",
   },
   {
     id: "Promotor Regional",
@@ -5042,8 +4998,8 @@ export let cargos = [
     value: "Coordinador del Desarrollo Social",
   },
   {
-    id: "Analista de capacitaciÃ³n y selecciÃ³n",
-    value: "Analista de capacitaciÃ³n y selecciÃ³n",
+    id: "Analista de capacitación y selección",
+    value: "Analista de capacitación y selección",
   },
   {
     id: "Integrante del Centro Federado",
@@ -5054,8 +5010,8 @@ export let cargos = [
     value: "Delegado Titular",
   },
   {
-    id: "Asistente de aplicaciÃ³n",
-    value: "Asistente de aplicaciÃ³n",
+    id: "Asistente de aplicación",
+    value: "Asistente de aplicación",
   },
   {
     id: "Monitor Consultor",
@@ -5074,12 +5030,12 @@ export let cargos = [
     value: "Tutora y Facilitadora",
   },
   {
-    id: "Consultora en ComunicaciÃ³n",
-    value: "Consultora en ComunicaciÃ³n",
+    id: "Consultora en Comunicación",
+    value: "Consultora en Comunicación",
   },
   {
-    id: "Responsable del Ã¡rea de Comunicaciones",
-    value: "Responsable del Ã¡rea de Comunicaciones",
+    id: "Responsable del área de Comunicaciones",
+    value: "Responsable del área de Comunicaciones",
   },
   {
     id: "Asistente de Monitoreo",
@@ -5090,16 +5046,16 @@ export let cargos = [
     value: "Facilitadora del proyecto",
   },
   {
-    id: "Facilitadora del Proyectos Especiales Formando NiÃ±os",
-    value: "Facilitadora del Proyectos Especiales Formando NiÃ±os",
+    id: "Facilitadora del Proyectos Especiales Formando Niños",
+    value: "Facilitadora del Proyectos Especiales Formando Niños",
   },
   {
-    id: "Facilitadora del proceso diagnÃ³stico",
-    value: "Facilitadora del proceso diagnÃ³stico",
+    id: "Facilitadora del proceso diagnóstico",
+    value: "Facilitadora del proceso diagnóstico",
   },
   {
-    id: "Coordinador de local de votaciÃ³n ODPE",
-    value: "Coordinador de local de votaciÃ³n ODPE",
+    id: "Coordinador de local de votación ODPE",
+    value: "Coordinador de local de votación ODPE",
   },
   {
     id: "TÃ©cnico Censal",
@@ -5114,8 +5070,8 @@ export let cargos = [
     value: "Operador de procesos Digitador Verificador",
   },
   {
-    id: "Jefatura del Ã¡rea de Turismo",
-    value: "Jefatura del Ã¡rea de Turismo",
+    id: "Jefatura del área de Turismo",
+    value: "Jefatura del área de Turismo",
   },
   {
     id: "TÃ©cnico capacitador ",
@@ -5134,8 +5090,8 @@ export let cargos = [
     value: "Investigador de campo Entrevistador",
   },
   {
-    id: "Asesor de transcripciÃ³n",
-    value: "Asesor de transcripciÃ³n",
+    id: "Asesor de transcripción",
+    value: "Asesor de transcripción",
   },
   {
     id: "Coordinador de Mesa de ODPE",
@@ -5150,8 +5106,8 @@ export let cargos = [
     value: "Gestor de Cobranza",
   },
   {
-    id: "Supervisor regiÃ³n Ayacucho",
-    value: "Supervisor regiÃ³n Ayacucho",
+    id: "Supervisor región Ayacucho",
+    value: "Supervisor región Ayacucho",
   },
   {
     id: "Responsable de Campo",
@@ -5162,8 +5118,8 @@ export let cargos = [
     value: "Coordinador Zonal",
   },
   {
-    id: "Agente supervisor de encuesta regiÃ³n Ayacucho",
-    value: "Agente supervisor de encuesta regiÃ³n Ayacucho",
+    id: "Agente supervisor de encuesta región Ayacucho",
+    value: "Agente supervisor de encuesta región Ayacucho",
   },
   {
     id: "Comunity Manager",
@@ -5174,16 +5130,16 @@ export let cargos = [
     value: "Asistente tÃ©cnico regional del MED",
   },
   {
-    id: "AplicaciÃ³n",
-    value: "AplicaciÃ³n",
+    id: "Aplicación",
+    value: "Aplicación",
   },
   {
     id: "Promotora Educativa",
     value: "Promotora Educativa",
   },
   {
-    id: "Responsable del Ã¡rea de desarrollo ",
-    value: "Responsable del Ã¡rea de desarrollo ",
+    id: "Responsable del área de desarrollo ",
+    value: "Responsable del área de desarrollo ",
   },
   {
     id: "Promotor tÃ©cnico para la zona 4",
@@ -5198,8 +5154,8 @@ export let cargos = [
     value: "Inspector Interno y Administrador de Fincas",
   },
   {
-    id: "Presidente del comitÃ© de jÃ³venes",
-    value: "Presidente del comitÃ© de jÃ³venes",
+    id: "Presidente del comitÃ© de jóvenes",
+    value: "Presidente del comitÃ© de jóvenes",
   },
   {
     id: "Coordinadora y Capacitadora en ODPE",
@@ -5210,36 +5166,36 @@ export let cargos = [
     value: "Supervisor Provincial",
   },
   {
-    id: "Supervisora EspaÃ±ol",
-    value: "Supervisora EspaÃ±ol",
+    id: "Supervisora Español",
+    value: "Supervisora Español",
   },
   {
     id: "Analista de Consistencia",
     value: "Analista de Consistencia",
   },
   {
-    id: "Asistente Especialista EconÃ³mico Social III",
-    value: "Asistente Especialista EconÃ³mico Social III",
+    id: "Asistente Especialista Económico Social III",
+    value: "Asistente Especialista Económico Social III",
   },
   {
     id: "Asistente de Supervisor UGEL",
     value: "Asistente de Supervisor UGEL",
   },
   {
-    id: "TÃ©cnico EconÃ³mico Social",
-    value: "TÃ©cnico EconÃ³mico Social",
+    id: "TÃ©cnico Económico Social",
+    value: "TÃ©cnico Económico Social",
   },
   {
-    id: "Asistente Especialista EconÃ³mico Social ",
-    value: "Asistente Especialista EconÃ³mico Social ",
+    id: "Asistente Especialista Económico Social ",
+    value: "Asistente Especialista Económico Social ",
   },
   {
     id: "TÃ©cnico Administrativo",
     value: "TÃ©cnico Administrativo",
   },
   {
-    id: "Asistente Especialista EconÃ³mico Social I",
-    value: "Asistente Especialista EconÃ³mico Social I",
+    id: "Asistente Especialista Económico Social I",
+    value: "Asistente Especialista Económico Social I",
   },
   {
     id: "Asistente Especialista Administrativo",
@@ -5286,8 +5242,8 @@ export let cargos = [
     value: "Panelista",
   },
   {
-    id: "Adaptadora LingÃ¼Ã­stica",
-    value: "Adaptadora LingÃ¼Ã­stica",
+    id: "Adaptadora LingÃ¼ística",
+    value: "Adaptadora LingÃ¼ística",
   },
   {
     id: "Educadora social",
@@ -5302,16 +5258,16 @@ export let cargos = [
     value: "Responsable de proyectos",
   },
   {
-    id: "Especialista en PlanificaciÃ³n",
-    value: "Especialista en PlanificaciÃ³n",
+    id: "Especialista en Planificación",
+    value: "Especialista en Planificación",
   },
   {
-    id: "Especialista en EvaluaciÃ³n y Monitoreo",
-    value: "Especialista en EvaluaciÃ³n y Monitoreo",
+    id: "Especialista en Evaluación y Monitoreo",
+    value: "Especialista en Evaluación y Monitoreo",
   },
   {
-    id: "Asistente en el Ã¡rea de servicio al cliente",
-    value: "Asistente en el Ã¡rea de servicio al cliente",
+    id: "Asistente en el área de servicio al cliente",
+    value: "Asistente en el área de servicio al cliente",
   },
   {
     id: "Monitor de campo",
@@ -5326,8 +5282,8 @@ export let cargos = [
     value: "Educadora en Proyecto",
   },
   {
-    id: "Responsable de IntervenciÃ³n",
-    value: "Responsable de IntervenciÃ³n",
+    id: "Responsable de Intervención",
+    value: "Responsable de Intervención",
   },
   {
     id: "Coordinadora del proyecto",
@@ -5362,20 +5318,20 @@ export let cargos = [
     value: "Redactor",
   },
   {
-    id: "Gestor de Campo Proyecto de ArtesanÃ­a",
-    value: "Gestor de Campo Proyecto de ArtesanÃ­a",
+    id: "Gestor de Campo Proyecto de Artesanía",
+    value: "Gestor de Campo Proyecto de Artesanía",
   },
   {
-    id: "Especialista en EvaluaciÃ³n de PolÃ­ticas ",
-    value: "Especialista en EvaluaciÃ³n de PolÃ­ticas ",
+    id: "Especialista en Evaluación de Políticas ",
+    value: "Especialista en Evaluación de Políticas ",
   },
   {
     id: "Analista del Programa",
     value: "Analista del Programa",
   },
   {
-    id: "Integrante de equipo de IntervenciÃ³n Social",
-    value: "Integrante de equipo de IntervenciÃ³n Social",
+    id: "Integrante de equipo de Intervención Social",
+    value: "Integrante de equipo de Intervención Social",
   },
   {
     id: "Responsable de estudio",
@@ -5403,48 +5359,48 @@ export let cargos = [
     value: "Promotor y Docente Facilitador",
   },
   {
-    id: "Directora TÃ©cnico PedagÃ³gica Fundador",
-    value: "Directora TÃ©cnico PedagÃ³gica Fundador",
+    id: "Directora TÃ©cnico Pedagógica Fundador",
+    value: "Directora TÃ©cnico Pedagógica Fundador",
   },
   {
     id: "Docente Monitor",
     value: "Docente Monitor",
   },
   {
-    id: "Asesora en GestiÃ³n ",
-    value: "Asesora en GestiÃ³n ",
+    id: "Asesora en Gestión ",
+    value: "Asesora en Gestión ",
   },
   {
     id: "Trabajadora Social",
     value: "Trabajadora Social",
   },
   {
-    id: "Orientadora de JÃ³venes ",
-    value: "Orientadora de JÃ³venes ",
+    id: "Orientadora de Jóvenes ",
+    value: "Orientadora de Jóvenes ",
   },
   {
-    id: "Especialista en Procesos de SupervisiÃ³n TÃ©cnica",
-    value: "Especialista en Procesos de SupervisiÃ³n TÃ©cnica",
+    id: "Especialista en Procesos de Supervisión TÃ©cnica",
+    value: "Especialista en Procesos de Supervisión TÃ©cnica",
   },
   {
-    id: "Asistente de InserciÃ³n Laboral",
-    value: "Asistente de InserciÃ³n Laboral",
+    id: "Asistente de Inserción Laboral",
+    value: "Asistente de Inserción Laboral",
   },
   {
     id: "Coordinadora del Centro de Registro ",
     value: "Coordinadora del Centro de Registro ",
   },
   {
-    id: "Jefa de la DivisiÃ³n de Bienestar Social",
-    value: "Jefa de la DivisiÃ³n de Bienestar Social",
+    id: "Jefa de la División de Bienestar Social",
+    value: "Jefa de la División de Bienestar Social",
   },
   {
-    id: "Coordinadora de JÃ³venes",
-    value: "Coordinadora de JÃ³venes",
+    id: "Coordinadora de Jóvenes",
+    value: "Coordinadora de Jóvenes",
   },
   {
-    id: "Coordinadora del Ã¡rea de PlanificaciÃ³n y EvaluaciÃ³n TÃ©cnica",
-    value: "Coordinadora del Ã¡rea de PlanificaciÃ³n y EvaluaciÃ³n TÃ©cnica",
+    id: "Coordinadora del área de Planificación y Evaluación TÃ©cnica",
+    value: "Coordinadora del área de Planificación y Evaluación TÃ©cnica",
   },
   {
     id: "Verificadora de Cartas",
@@ -5467,8 +5423,8 @@ export let cargos = [
     value: "Tercer Miembro de Mesa de Sufragio",
   },
   {
-    id: "Soporte InformÃ¡tico",
-    value: "Soporte InformÃ¡tico",
+    id: "Soporte Informático",
+    value: "Soporte Informático",
   },
   {
     id: "Delegado Nato",
@@ -5479,8 +5435,8 @@ export let cargos = [
     value: "Expositor y Facilitador",
   },
   {
-    id: "Facilitador HolÃ­stico ",
-    value: "Facilitador HolÃ­stico ",
+    id: "Facilitador Holístico ",
+    value: "Facilitador Holístico ",
   },
   {
     id: "Observador Grupo Focal",
@@ -5491,16 +5447,16 @@ export let cargos = [
     value: "Registrador de Campo",
   },
   {
-    id: "Responsable de AtenciÃ³n al Usuario en Salud",
-    value: "Responsable de AtenciÃ³n al Usuario en Salud",
+    id: "Responsable de Atención al Usuario en Salud",
+    value: "Responsable de Atención al Usuario en Salud",
   },
   {
     id: "Monitor Evaluador",
     value: "Monitor Evaluador",
   },
   {
-    id: "Facilitador de Bienestar de la NiÃ±ez",
-    value: "Facilitador de Bienestar de la NiÃ±ez",
+    id: "Facilitador de Bienestar de la Niñez",
+    value: "Facilitador de Bienestar de la Niñez",
   },
   {
     id: "Transportista",
@@ -5511,12 +5467,12 @@ export let cargos = [
     value: "Coordinador de Mesa OPDE",
   },
   {
-    id: "Fiscalizadora del local de votaciÃ³n",
-    value: "Fiscalizadora del local de votaciÃ³n",
+    id: "Fiscalizadora del local de votación",
+    value: "Fiscalizadora del local de votación",
   },
   {
-    id: "Fiscalizador del local de votaciÃ³n",
-    value: "Fiscalizador del local de votaciÃ³n",
+    id: "Fiscalizador del local de votación",
+    value: "Fiscalizador del local de votación",
   },
   {
     id: "Autora Investigador",
@@ -5531,8 +5487,8 @@ export let cargos = [
     value: "Alfabetizadora",
   },
   {
-    id: "Integrante te equipo de investigaciÃ³n",
-    value: "Integrante te equipo de investigaciÃ³n",
+    id: "Integrante te equipo de investigación",
+    value: "Integrante te equipo de investigación",
   },
   {
     id: "Coordinadora del Ãrea de Proyectos",
@@ -5560,16 +5516,16 @@ export let cargos = [
     value: "Asistente tÃ©cnico en proyectos Sociales",
   },
   {
-    id: "Jefe del servicio de capacitaciÃ³n y proyectos",
-    value: "Jefe del servicio de capacitaciÃ³n y proyectos",
+    id: "Jefe del servicio de capacitación y proyectos",
+    value: "Jefe del servicio de capacitación y proyectos",
   },
   {
-    id: "Jefa en el Ã¡rea de capacitaciÃ³n",
-    value: "Jefa en el Ã¡rea de capacitaciÃ³n",
+    id: "Jefa en el área de capacitación",
+    value: "Jefa en el área de capacitación",
   },
   {
-    id: "AcompaÃ±ante Social Comunitario SPSR",
-    value: "AcompaÃ±ante Social Comunitario SPSR",
+    id: "Acompañante Social Comunitario SPSR",
+    value: "Acompañante Social Comunitario SPSR",
   },
   {
     id: "Consultor SÃ©nior Especialista en Gobernabilidad",
@@ -5580,28 +5536,28 @@ export let cargos = [
     value: "Asesor Principal Especialista en Gobernabilidad",
   },
   {
-    id: "Especialista en metodologÃ­as participativas",
-    value: "Especialista en metodologÃ­as participativas",
+    id: "Especialista en metodologías participativas",
+    value: "Especialista en metodologías participativas",
   },
   {
     id: "Coordinador Regional del Programa",
     value: "Coordinador Regional del Programa",
   },
   {
-    id: "Integrante del equipo logÃ­stico",
-    value: "Integrante del equipo logÃ­stico",
+    id: "Integrante del equipo logístico",
+    value: "Integrante del equipo logístico",
   },
   {
     id: "Voluntaria Comunal",
     value: "Voluntaria Comunal",
   },
   {
-    id: "Responsable del Ã¡rea de acompaÃ±amiento",
-    value: "Responsable del Ã¡rea de acompaÃ±amiento",
+    id: "Responsable del área de acompañamiento",
+    value: "Responsable del área de acompañamiento",
   },
   {
-    id: "AcompaÃ±ante social",
-    value: "AcompaÃ±ante social",
+    id: "Acompañante social",
+    value: "Acompañante social",
   },
   {
     id: "Asistente Coordinador de Local",
@@ -5632,8 +5588,8 @@ export let cargos = [
     value: "Coordinador Social Municipal",
   },
   {
-    id: "Responsable de InvestigaciÃ³n",
-    value: "Responsable de InvestigaciÃ³n",
+    id: "Responsable de Investigación",
+    value: "Responsable de Investigación",
   },
   {
     id: "Capacitador y expositor",
@@ -5648,16 +5604,16 @@ export let cargos = [
     value: "Coordinador de Proyectos Sociales",
   },
   {
-    id: "Promotor en GestiÃ³n",
-    value: "Promotor en GestiÃ³n",
+    id: "Promotor en Gestión",
+    value: "Promotor en Gestión",
   },
   {
-    id: "Coordinador del Ã¡rea de desarrollo social",
-    value: "Coordinador del Ã¡rea de desarrollo social",
+    id: "Coordinador del área de desarrollo social",
+    value: "Coordinador del área de desarrollo social",
   },
   {
-    id: "Capacitador en la gerencia de desarrollo econÃ³mico y social",
-    value: "Capacitador en la gerencia de desarrollo econÃ³mico y social",
+    id: "Capacitador en la gerencia de desarrollo económico y social",
+    value: "Capacitador en la gerencia de desarrollo económico y social",
   },
   {
     id: "Sub director ",
@@ -5668,16 +5624,16 @@ export let cargos = [
     value: "Residente",
   },
   {
-    id: "EtnÃ³grafo",
-    value: "EtnÃ³grafo",
+    id: "Etnógrafo",
+    value: "Etnógrafo",
   },
   {
     id: "Asistente Operativo",
     value: "Asistente Operativo",
   },
   {
-    id: "Coordinador de AcciÃ³n Educativa",
-    value: "Coordinador de AcciÃ³n Educativa",
+    id: "Coordinador de Acción Educativa",
+    value: "Coordinador de Acción Educativa",
   },
   {
     id: "Registrador DNI",
@@ -5688,8 +5644,8 @@ export let cargos = [
     value: "Jefe de sede regional Madre de Dios",
   },
   {
-    id: "Coordinador de FiscalizaciÃ³n",
-    value: "Coordinador de FiscalizaciÃ³n",
+    id: "Coordinador de Fiscalización",
+    value: "Coordinador de Fiscalización",
   },
   {
     id: "Coordinador de acciones Educativas",
@@ -5700,16 +5656,16 @@ export let cargos = [
     value: "Promotor Capacitador",
   },
   {
-    id: "Promotor de diÃ¡logo",
-    value: "Promotor de diÃ¡logo",
+    id: "Promotor de diálogo",
+    value: "Promotor de diálogo",
   },
   {
     id: "Miembro del Consejo Directivo",
     value: "Miembro del Consejo Directivo",
   },
   {
-    id: "Responsable del Ã¡rea laboral",
-    value: "Responsable del Ã¡rea laboral",
+    id: "Responsable del área laboral",
+    value: "Responsable del área laboral",
   },
   {
     id: "Supervisor Electoral T4",
@@ -5725,9 +5681,9 @@ export let cargos = [
     value: "Especialista municipal",
   },
   {
-    id: "Jefe de la Oficina Descentralizada de Procesos Electorales de SÃ¡nchez CarriÃ³n",
+    id: "Jefe de la Oficina Descentralizada de Procesos Electorales de Sánchez Carrión",
     value:
-      "Jefe de la Oficina Descentralizada de Procesos Electorales de SÃ¡nchez CarriÃ³n",
+      "Jefe de la Oficina Descentralizada de Procesos Electorales de Sánchez Carrión",
   },
   {
     id: "Fiscalizador provincial ",
@@ -5770,8 +5726,8 @@ export let cargos = [
     value: "Consultor Social Externo",
   },
   {
-    id: "SociÃ³logo Coordinador de Proyecto",
-    value: "SociÃ³logo Coordinador de Proyecto",
+    id: "Sociólogo Coordinador de Proyecto",
+    value: "Sociólogo Coordinador de Proyecto",
   },
   {
     id: "Capacitador Docente",
@@ -5786,8 +5742,8 @@ export let cargos = [
     value: "Oficial de Relaciones Comunitarias",
   },
   {
-    id: "Responsable del Ã¡rea de PromociÃ³n y Seguimiento ",
-    value: "Responsable del Ã¡rea de PromociÃ³n y Seguimiento ",
+    id: "Responsable del área de Promoción y Seguimiento ",
+    value: "Responsable del área de Promoción y Seguimiento ",
   },
   {
     id: "Auxiliar TP",
@@ -5798,28 +5754,28 @@ export let cargos = [
     value: "Extensionista del equipo tÃ©cnico",
   },
   {
-    id: "Promotor del Ã¡rea de salud y gÃ©nero",
-    value: "Promotor del Ã¡rea de salud y gÃ©nero",
+    id: "Promotor del área de salud y gÃ©nero",
+    value: "Promotor del área de salud y gÃ©nero",
   },
   {
-    id: "Jefe de EvaluaciÃ³n de Proyecto",
-    value: "Jefe de EvaluaciÃ³n de Proyecto",
+    id: "Jefe de Evaluación de Proyecto",
+    value: "Jefe de Evaluación de Proyecto",
   },
   {
     id: "Coordinadora General del Proyecto",
     value: "Coordinadora General del Proyecto",
   },
   {
-    id: "Asistente Especialista EconÃ³mico Social IV",
-    value: "Asistente Especialista EconÃ³mico Social IV",
+    id: "Asistente Especialista Económico Social IV",
+    value: "Asistente Especialista Económico Social IV",
   },
   {
-    id: "Responsable del proyecto de JÃ³venes",
-    value: "Responsable del proyecto de JÃ³venes",
+    id: "Responsable del proyecto de Jóvenes",
+    value: "Responsable del proyecto de Jóvenes",
   },
   {
-    id: "Responsable de ParticipaciÃ³n PolÃ­tica y CiudadanÃ­a",
-    value: "Responsable de ParticipaciÃ³n PolÃ­tica y CiudadanÃ­a",
+    id: "Responsable de Participación Política y Ciudadanía",
+    value: "Responsable de Participación Política y Ciudadanía",
   },
   {
     id: "Coordinador de Programa Laboral",
@@ -5838,16 +5794,16 @@ export let cargos = [
     value: "Organizador Capacitador Social",
   },
   {
-    id: "Sub Gerente de PromociÃ³n EducaciÃ³n Cultura y Deporte",
-    value: "Sub Gerente de PromociÃ³n EducaciÃ³n Cultura y Deporte",
+    id: "Sub Gerente de Promoción Educación Cultura y Deporte",
+    value: "Sub Gerente de Promoción Educación Cultura y Deporte",
   },
   {
-    id: "Facilitador de Desarrollo y PromociÃ³n de la Justicia",
-    value: "Facilitador de Desarrollo y PromociÃ³n de la Justicia",
+    id: "Facilitador de Desarrollo y Promoción de la Justicia",
+    value: "Facilitador de Desarrollo y Promoción de la Justicia",
   },
   {
-    id: "Especialista Social Educativo SociÃ³logo",
-    value: "Especialista Social Educativo SociÃ³logo",
+    id: "Especialista Social Educativo Sociólogo",
+    value: "Especialista Social Educativo Sociólogo",
   },
   {
     id: "Coordinador de Zona",
@@ -5862,20 +5818,20 @@ export let cargos = [
     value: "Coordinador de Relaciones Comunitarias",
   },
   {
-    id: "Responsable del Ã¡rea de asistencia en el proceso etno",
-    value: "Responsable del Ã¡rea de asistencia en el proceso etno",
+    id: "Responsable del área de asistencia en el proceso etno",
+    value: "Responsable del área de asistencia en el proceso etno",
   },
   {
     id: "Coordinador del proyecto Q'ero",
     value: "Coordinador del proyecto Q'ero",
   },
   {
-    id: "Responsable del Ã¡rea de asistencia en el proceso de etno",
-    value: "Responsable del Ã¡rea de asistencia en el proceso de etno",
+    id: "Responsable del área de asistencia en el proceso de etno",
+    value: "Responsable del área de asistencia en el proceso de etno",
   },
   {
-    id: "Responsable de construcciÃ³n de ciudadanÃ­a Ã©tnica ",
-    value: "Responsable de construcciÃ³n de ciudadanÃ­a Ã©tnica ",
+    id: "Responsable de construcción de ciudadanía Ã©tnica ",
+    value: "Responsable de construcción de ciudadanía Ã©tnica ",
   },
   {
     id: "Orientador ",
@@ -5902,8 +5858,8 @@ export let cargos = [
     value: "Profesional de Planta",
   },
   {
-    id: "Coordinador Regional de San MartÃ­n",
-    value: "Coordinador Regional de San MartÃ­n",
+    id: "Coordinador Regional de San Martín",
+    value: "Coordinador Regional de San Martín",
   },
   {
     id: "Consultor Regional",
@@ -5918,8 +5874,8 @@ export let cargos = [
     value: "Verificador de Campo",
   },
   {
-    id: "Director del programa de investigaciÃ³n",
-    value: "Director del programa de investigaciÃ³n",
+    id: "Director del programa de investigación",
+    value: "Director del programa de investigación",
   },
   {
     id: "Miembro del comitÃ© directivo",
@@ -5930,9 +5886,9 @@ export let cargos = [
     value: "Postulante para miembro del grupo de trabajo",
   },
   {
-    id: "Director de Investigaciones en las Ã¡reas de interculturalidad y democracia y Coordinador de Proyectos de InvestigaciÃ³n sobre desarrollo urbano, interculturalidad y democracia",
+    id: "Director de Investigaciones en las áreas de interculturalidad y democracia y Coordinador de Proyectos de Investigación sobre desarrollo urbano, interculturalidad y democracia",
     value:
-      "Director de Investigaciones en las Ã¡reas de interculturalidad y democracia y Coordinador de Proyectos de InvestigaciÃ³n sobre desarrollo urbano, interculturalidad y democracia",
+      "Director de Investigaciones en las áreas de interculturalidad y democracia y Coordinador de Proyectos de Investigación sobre desarrollo urbano, interculturalidad y democracia",
   },
   {
     id: "Director de programas de la FIS",
@@ -5951,16 +5907,16 @@ export let cargos = [
     value: "Coordinador del estudio",
   },
   {
-    id: "Asesor de comunicaciÃ³n intercultural",
-    value: "Asesor de comunicaciÃ³n intercultural",
+    id: "Asesor de comunicación intercultural",
+    value: "Asesor de comunicación intercultural",
   },
   {
     id: "Jurado Calificador Externo",
     value: "Jurado Calificador Externo",
   },
   {
-    id: "Especialista Social de Pueblos IndÃ­genas",
-    value: "Especialista Social de Pueblos IndÃ­genas",
+    id: "Especialista Social de Pueblos Indígenas",
+    value: "Especialista Social de Pueblos Indígenas",
   },
   {
     id: "Consultor y Coordinador",
@@ -5975,8 +5931,8 @@ export let cargos = [
     value: "Jefe del equipo social",
   },
   {
-    id: "Administrador de la Oficina de ImprimaciÃ³n",
-    value: "Administrador de la Oficina de ImprimaciÃ³n",
+    id: "Administrador de la Oficina de Imprimación",
+    value: "Administrador de la Oficina de Imprimación",
   },
   {
     id: "Profesor de Ciencias Sociales",
@@ -5991,8 +5947,8 @@ export let cargos = [
     value: "Coordinador de campo",
   },
   {
-    id: "Asistente lÃ³gico",
-    value: "Asistente lÃ³gico",
+    id: "Asistente lógico",
+    value: "Asistente lógico",
   },
   {
     id: "Equipo Responsable",
@@ -6007,8 +5963,8 @@ export let cargos = [
     value: "Trabajadora de campo",
   },
   {
-    id: "Asistente de procesos de aplicaciÃ³n ECE EIB",
-    value: "Asistente de procesos de aplicaciÃ³n ECE EIB",
+    id: "Asistente de procesos de aplicación ECE EIB",
+    value: "Asistente de procesos de aplicación ECE EIB",
   },
   {
     id: "Gerencia de desarrollo social",
@@ -6019,8 +5975,8 @@ export let cargos = [
     value: "Integrante de equipo responsable",
   },
   {
-    id: "AntropÃ³logo y SociÃ³logo",
-    value: "AntropÃ³logo y SociÃ³logo",
+    id: "Antropólogo y Sociólogo",
+    value: "Antropólogo y Sociólogo",
   },
   {
     id: "Supervisor Social Municipal",
@@ -6039,8 +5995,8 @@ export let cargos = [
     value: "Oficial de desarrollo comunitario",
   },
   {
-    id: "Responsable del Ã¡rea de vivienda Agua y Saneamiento",
-    value: "Responsable del Ã¡rea de vivienda Agua y Saneamiento",
+    id: "Responsable del área de vivienda Agua y Saneamiento",
+    value: "Responsable del área de vivienda Agua y Saneamiento",
   },
   {
     id: "Monitor Social",
@@ -6051,32 +6007,32 @@ export let cargos = [
     value: "Monitor Nacional",
   },
   {
-    id: "Jefe de SecciÃ³n Urbano",
-    value: "Jefe de SecciÃ³n Urbano",
+    id: "Jefe de Sección Urbano",
+    value: "Jefe de Sección Urbano",
   },
   {
-    id: "Asistente de InvestigaciÃ³n y campo",
-    value: "Asistente de InvestigaciÃ³n y campo",
+    id: "Asistente de Investigación y campo",
+    value: "Asistente de Investigación y campo",
   },
   {
-    id: "Fiscalizadores de local de votaciÃ³n",
-    value: "Fiscalizadores de local de votaciÃ³n",
+    id: "Fiscalizadores de local de votación",
+    value: "Fiscalizadores de local de votación",
   },
   {
-    id: "Consultor de InvestigaciÃ³n",
-    value: "Consultor de InvestigaciÃ³n",
+    id: "Consultor de Investigación",
+    value: "Consultor de Investigación",
   },
   {
-    id: "Asistente administrativo e InvestigaciÃ³n",
-    value: "Asistente administrativo e InvestigaciÃ³n",
+    id: "Asistente administrativo e Investigación",
+    value: "Asistente administrativo e Investigación",
   },
   {
     id: "Consultora especialista cualitativo del contexto rural andino",
     value: "Consultora especialista cualitativo del contexto rural andino",
   },
   {
-    id: "Asistente de investigaciÃ³n de campo",
-    value: "Asistente de investigaciÃ³n de campo",
+    id: "Asistente de investigación de campo",
+    value: "Asistente de investigación de campo",
   },
   {
     id: "Consultor de apoyo",
@@ -6087,32 +6043,32 @@ export let cargos = [
     value: "Colaboradora de proyecto",
   },
   {
-    id: "Apoyo de la SecretarÃ­a TÃ©cnica de PlanificaciÃ³n EstratÃ©gica",
-    value: "Apoyo de la SecretarÃ­a TÃ©cnica de PlanificaciÃ³n EstratÃ©gica",
+    id: "Apoyo de la Secretaría TÃ©cnica de Planificación EstratÃ©gica",
+    value: "Apoyo de la Secretaría TÃ©cnica de Planificación EstratÃ©gica",
   },
   {
-    id: "Apoyo de la DirecciÃ³n Nacional de EducaciÃ³n de Adultos",
-    value: "Apoyo de la DirecciÃ³n Nacional de EducaciÃ³n de Adultos",
+    id: "Apoyo de la Dirección Nacional de Educación de Adultos",
+    value: "Apoyo de la Dirección Nacional de Educación de Adultos",
   },
   {
-    id: "SociÃ³loga Investigadora",
-    value: "SociÃ³loga Investigadora",
+    id: "Socióloga Investigadora",
+    value: "Socióloga Investigadora",
   },
   {
     id: "TÃ©cnico Agropecuario",
     value: "TÃ©cnico Agropecuario",
   },
   {
-    id: "Jefe de producciÃ³n del ISEP",
-    value: "Jefe de producciÃ³n del ISEP",
+    id: "Jefe de producción del ISEP",
+    value: "Jefe de producción del ISEP",
   },
   {
     id: "Relacionistas Comunitario",
     value: "Relacionistas Comunitario",
   },
   {
-    id: "Jefe de la unidad de desarrollo econÃ³mico local",
-    value: "Jefe de la unidad de desarrollo econÃ³mico local",
+    id: "Jefe de la unidad de desarrollo económico local",
+    value: "Jefe de la unidad de desarrollo económico local",
   },
   {
     id: "Inspector ",
@@ -6143,8 +6099,8 @@ export let cargos = [
     value: "Ingeniero de Campo",
   },
   {
-    id: "Especialista de AdmisiÃ³n",
-    value: "Especialista de AdmisiÃ³n",
+    id: "Especialista de Admisión",
+    value: "Especialista de Admisión",
   },
   {
     id: "Ingeniero Administrador de campo",
@@ -6163,24 +6119,24 @@ export let cargos = [
     value: "Supervisor Cultivo Alcachofa",
   },
   {
-    id: "Coordinador de ProducciÃ³n",
-    value: "Coordinador de ProducciÃ³n",
+    id: "Coordinador de Producción",
+    value: "Coordinador de Producción",
   },
   {
-    id: "Jefe de Proyectos OrgÃ¡nicos",
-    value: "Jefe de Proyectos OrgÃ¡nicos",
+    id: "Jefe de Proyectos Orgánicos",
+    value: "Jefe de Proyectos Orgánicos",
   },
   {
     id: "Desarrollista y Difusor",
     value: "Desarrollista y Difusor",
   },
   {
-    id: "Asesor agrÃ­cola",
-    value: "Asesor agrÃ­cola",
+    id: "Asesor agrícola",
+    value: "Asesor agrícola",
   },
   {
-    id: "Coordinadora de gestiÃ³n en sistemas de calidad",
-    value: "Coordinadora de gestiÃ³n en sistemas de calidad",
+    id: "Coordinadora de gestión en sistemas de calidad",
+    value: "Coordinadora de gestión en sistemas de calidad",
   },
   {
     id: "Ingeniero Supervisor de seguridad y medio ambiente",
@@ -6195,8 +6151,8 @@ export let cargos = [
     value: "Supervisor de seguridad",
   },
   {
-    id: "Especialista en la formulaciÃ³n y evaluaciÃ³n",
-    value: "Especialista en la formulaciÃ³n y evaluaciÃ³n",
+    id: "Especialista en la formulación y evaluación",
+    value: "Especialista en la formulación y evaluación",
   },
   {
     id: "Ingeniero consultor",
@@ -6207,24 +6163,24 @@ export let cargos = [
     value: "TÃ©cnico master",
   },
   {
-    id: "Director del Ã¡rea",
-    value: "Director del Ã¡rea",
+    id: "Director del área",
+    value: "Director del área",
   },
   {
     id: "TÃ©cnico extensionista",
     value: "TÃ©cnico extensionista",
   },
   {
-    id: "Formulador de pre inversiÃ³n",
-    value: "Formulador de pre inversiÃ³n",
+    id: "Formulador de pre inversión",
+    value: "Formulador de pre inversión",
   },
   {
-    id: "Especialista en formulaciÃ³n y participaciÃ³n",
-    value: "Especialista en formulaciÃ³n y participaciÃ³n",
+    id: "Especialista en formulación y participación",
+    value: "Especialista en formulación y participación",
   },
   {
-    id: "Experto en formulaciÃ³n",
-    value: "Experto en formulaciÃ³n",
+    id: "Experto en formulación",
+    value: "Experto en formulación",
   },
   {
     id: "Extensionista responsable del departamento",
@@ -6235,8 +6191,8 @@ export let cargos = [
     value: "Extensionista del proyecto",
   },
   {
-    id: "Encargado de la producciÃ³n",
-    value: "Encargado de la producciÃ³n",
+    id: "Encargado de la producción",
+    value: "Encargado de la producción",
   },
   {
     id: "Profesional en proyectos y Agro Negocios",
@@ -6263,8 +6219,8 @@ export let cargos = [
     value: "Responsable de proyecto",
   },
   {
-    id: "Proyectista en la divisiÃ³n de proyectos y estudios definidos",
-    value: "Proyectista en la divisiÃ³n de proyectos y estudios definidos",
+    id: "Proyectista en la división de proyectos y estudios definidos",
+    value: "Proyectista en la división de proyectos y estudios definidos",
   },
   {
     id: "Formuladora de Proyectos en la Oficina de la Unidad Formuladora",
@@ -6279,9 +6235,9 @@ export let cargos = [
     value: "TÃ©cnico de apoyo  ",
   },
   {
-    id: "Coordinadora de sistematizaciÃ³n monitoreo y evaluaciÃ³n e implementaciÃ³n del proyecto",
+    id: "Coordinadora de sistematización monitoreo y evaluación e implementación del proyecto",
     value:
-      "Coordinadora de sistematizaciÃ³n monitoreo y evaluaciÃ³n e implementaciÃ³n del proyecto",
+      "Coordinadora de sistematización monitoreo y evaluación e implementación del proyecto",
   },
   {
     id: "Supervisora de transportes",
@@ -6300,12 +6256,12 @@ export let cargos = [
     value: "Coordinador tÃ©cnico de proyectos",
   },
   {
-    id: "Especialista en AnÃ¡lisis de PolÃ­tica Agraria",
-    value: "Especialista en AnÃ¡lisis de PolÃ­tica Agraria",
+    id: "Especialista en Análisis de Política Agraria",
+    value: "Especialista en Análisis de Política Agraria",
   },
   {
-    id: "Especialista en anÃ¡lisis de polÃ­tica",
-    value: "Especialista en anÃ¡lisis de polÃ­tica",
+    id: "Especialista en análisis de política",
+    value: "Especialista en análisis de política",
   },
   {
     id: "Decano de facultad",
@@ -6316,8 +6272,8 @@ export let cargos = [
     value: "Coordinador Nacional Proyecto PAR",
   },
   {
-    id: "Consultor en polÃ­tica agraria",
-    value: "Consultor en polÃ­tica agraria",
+    id: "Consultor en política agraria",
+    value: "Consultor en política agraria",
   },
   {
     id: "Supervisor de Calidad",
@@ -6328,12 +6284,12 @@ export let cargos = [
     value: "Encargado de datos",
   },
   {
-    id: "Supervisor de ActualizaciÃ³n C",
-    value: "Supervisor de ActualizaciÃ³n C",
+    id: "Supervisor de Actualización C",
+    value: "Supervisor de Actualización C",
   },
   {
-    id: "Inspector de CartografÃ­a",
-    value: "Inspector de CartografÃ­a",
+    id: "Inspector de Cartografía",
+    value: "Inspector de Cartografía",
   },
   {
     id: "Ingeniero Ambiental",
@@ -6356,8 +6312,8 @@ export let cargos = [
     value: "Mediadora de los frontis",
   },
   {
-    id: "Especialista en ingenierÃ­a Ambiental",
-    value: "Especialista en ingenierÃ­a Ambiental",
+    id: "Especialista en ingeniería Ambiental",
+    value: "Especialista en ingeniería Ambiental",
   },
   {
     id: "Responsable de infraestructura de la UGEL Rioja",
@@ -6368,37 +6324,37 @@ export let cargos = [
     value: "Director de medio amiente y desarrollo local",
   },
   {
-    id: "Jefe de la direcciÃ³n de medio ambiente y desarrollo econÃ³mico",
-    value: "Jefe de la direcciÃ³n de medio ambiente y desarrollo econÃ³mico",
+    id: "Jefe de la dirección de medio ambiente y desarrollo económico",
+    value: "Jefe de la dirección de medio ambiente y desarrollo económico",
   },
   {
-    id: "Responsable de la direcciÃ³n de medio ambiente y desarrollo econÃ³micos ",
+    id: "Responsable de la dirección de medio ambiente y desarrollo económicos ",
     value:
-      "Responsable de la direcciÃ³n de medio ambiente y desarrollo econÃ³micos ",
+      "Responsable de la dirección de medio ambiente y desarrollo económicos ",
   },
   {
-    id: "LÃ­der del proceso de certificaciÃ³n",
-    value: "LÃ­der del proceso de certificaciÃ³n",
+    id: "Líder del proceso de certificación",
+    value: "Líder del proceso de certificación",
   },
   {
-    id: "Asistente dela direcciÃ³n de medio ambiente y desarrollo local",
-    value: "Asistente dela direcciÃ³n de medio ambiente y desarrollo local",
+    id: "Asistente dela dirección de medio ambiente y desarrollo local",
+    value: "Asistente dela dirección de medio ambiente y desarrollo local",
   },
   {
-    id: "Responsable de la operaciÃ³n y mantenimiento de las plantas",
-    value: "Responsable de la operaciÃ³n y mantenimiento de las plantas",
+    id: "Responsable de la operación y mantenimiento de las plantas",
+    value: "Responsable de la operación y mantenimiento de las plantas",
   },
   {
-    id: "Asistente de topografÃ­a y digitador en Auto Cad",
-    value: "Asistente de topografÃ­a y digitador en Auto Cad",
+    id: "Asistente de topografía y digitador en Auto Cad",
+    value: "Asistente de topografía y digitador en Auto Cad",
   },
   {
-    id: "TÃ©cnico en VerificaciÃ³n",
-    value: "TÃ©cnico en VerificaciÃ³n",
+    id: "TÃ©cnico en Verificación",
+    value: "TÃ©cnico en Verificación",
   },
   {
-    id: "TopÃ³grafo",
-    value: "TopÃ³grafo",
+    id: "Topógrafo",
+    value: "Topógrafo",
   },
   {
     id: "Aplicador de instrumentos de recojo de datos",
@@ -6421,8 +6377,8 @@ export let cargos = [
     value: "Ingeniero Civil",
   },
   {
-    id: "Especialista en TopografÃ­a y Suelos",
-    value: "Especialista en TopografÃ­a y Suelos",
+    id: "Especialista en Topografía y Suelos",
+    value: "Especialista en Topografía y Suelos",
   },
   {
     id: "Ingeniero de Obras",
@@ -6433,16 +6389,16 @@ export let cargos = [
     value: "Proyectista Civil",
   },
   {
-    id: "Supervisor de obras de IngenierÃ­a",
-    value: "Supervisor de obras de IngenierÃ­a",
+    id: "Supervisor de obras de Ingeniería",
+    value: "Supervisor de obras de Ingeniería",
   },
   {
     id: "Especialista en estructuras",
     value: "Especialista en estructuras",
   },
   {
-    id: "Especialista en MecÃ¡nica de suelos y Pavimentos",
-    value: "Especialista en MecÃ¡nica de suelos y Pavimentos",
+    id: "Especialista en Mecánica de suelos y Pavimentos",
+    value: "Especialista en Mecánica de suelos y Pavimentos",
   },
   {
     id: "Especialista Infraestructura",
@@ -6461,8 +6417,8 @@ export let cargos = [
     value: "Especialista en infraestructura",
   },
   {
-    id: "Responsable de la formulaciÃ³n del perfil",
-    value: "Responsable de la formulaciÃ³n del perfil",
+    id: "Responsable de la formulación del perfil",
+    value: "Responsable de la formulación del perfil",
   },
   {
     id: "Responsable de la cadena productiva",
@@ -6481,8 +6437,8 @@ export let cargos = [
     value: "Especialista en estudio de impacto ambiental",
   },
   {
-    id: "Supervisora del Ã¡rea ambiental",
-    value: "Supervisora del Ã¡rea ambiental",
+    id: "Supervisora del área ambiental",
+    value: "Supervisora del área ambiental",
   },
   {
     id: "Consultora TÃ©cnica",
@@ -6513,8 +6469,8 @@ export let cargos = [
     value: "Desarrollador Senior",
   },
   {
-    id: "Asistente estadÃ­stico",
-    value: "Asistente estadÃ­stico",
+    id: "Asistente estadístico",
+    value: "Asistente estadístico",
   },
   {
     id: "Analista de base de datos",
@@ -6529,12 +6485,12 @@ export let cargos = [
     value: "Integrante de conjunto consultor",
   },
   {
-    id: "Especialista en DiseÃ±o Estructural",
-    value: "Especialista en DiseÃ±o Estructural",
+    id: "Especialista en Diseño Estructural",
+    value: "Especialista en Diseño Estructural",
   },
   {
-    id: "Especialista en IngenierÃ­a Civil",
-    value: "Especialista en IngenierÃ­a Civil",
+    id: "Especialista en Ingeniería Civil",
+    value: "Especialista en Ingeniería Civil",
   },
   {
     id: "Evaluadora de proyectos",
@@ -6545,69 +6501,69 @@ export let cargos = [
     value: "Empleado Administrativo",
   },
   {
-    id: "Responsable de Monitoreo y EvaluaciÃ³n",
-    value: "Responsable de Monitoreo y EvaluaciÃ³n",
+    id: "Responsable de Monitoreo y Evaluación",
+    value: "Responsable de Monitoreo y Evaluación",
   },
   {
-    id: "Coordinador de InformaciÃ³n",
-    value: "Coordinador de InformaciÃ³n",
+    id: "Coordinador de Información",
+    value: "Coordinador de Información",
   },
   {
     id: "Gestor de Proyectos",
     value: "Gestor de Proyectos",
   },
   {
-    id: "Consultor Senior especialista en administraciÃ³n y organizaciÃ³n ",
-    value: "Consultor Senior especialista en administraciÃ³n y organizaciÃ³n ",
+    id: "Consultor Senior especialista en administración y organización ",
+    value: "Consultor Senior especialista en administración y organización ",
   },
   {
-    id: "Jefe de la oficina de cooperaciÃ³n internacional",
-    value: "Jefe de la oficina de cooperaciÃ³n internacional",
+    id: "Jefe de la oficina de cooperación internacional",
+    value: "Jefe de la oficina de cooperación internacional",
   },
   {
     id: "Oficial de Programa PPA",
     value: "Oficial de Programa PPA",
   },
   {
-    id: "Oficial de programa de EducaciÃ³n y Salud Sexual y Reproductiva",
-    value: "Oficial de programa de EducaciÃ³n y Salud Sexual y Reproductiva",
+    id: "Oficial de programa de Educación y Salud Sexual y Reproductiva",
+    value: "Oficial de programa de Educación y Salud Sexual y Reproductiva",
   },
   {
-    id: "Especialista de convenios de prÃ¡cticas e inserciÃ³n laboral",
-    value: "Especialista de convenios de prÃ¡cticas e inserciÃ³n laboral",
+    id: "Especialista de convenios de prácticas e inserción laboral",
+    value: "Especialista de convenios de prácticas e inserción laboral",
   },
   {
-    id: "Integrante de equipo profesional encargado de la elaboraciÃ³n del PEI",
+    id: "Integrante de equipo profesional encargado de la elaboración del PEI",
     value:
-      "Integrante de equipo profesional encargado de la elaboraciÃ³n del PEI",
+      "Integrante de equipo profesional encargado de la elaboración del PEI",
   },
   {
-    id: "Supervisor en capacitaciÃ³n",
-    value: "Supervisor en capacitaciÃ³n",
+    id: "Supervisor en capacitación",
+    value: "Supervisor en capacitación",
   },
   {
-    id: "Supervisor de gestiÃ³n administrativa",
-    value: "Supervisor de gestiÃ³n administrativa",
+    id: "Supervisor de gestión administrativa",
+    value: "Supervisor de gestión administrativa",
   },
   {
     id: "Trabajadora",
     value: "Trabajadora",
   },
   {
-    id: "Especialista desarrollo autoevaluaciÃ³n y capacitaciÃ³n",
-    value: "Especialista desarrollo autoevaluaciÃ³n y capacitaciÃ³n",
+    id: "Especialista desarrollo autoevaluación y capacitación",
+    value: "Especialista desarrollo autoevaluación y capacitación",
   },
   {
-    id: "Especialista en la mejora de sistemas de gestiÃ³n",
-    value: "Especialista en la mejora de sistemas de gestiÃ³n",
+    id: "Especialista en la mejora de sistemas de gestión",
+    value: "Especialista en la mejora de sistemas de gestión",
   },
   {
     id: "Evaluadora Monitora",
     value: "Evaluadora Monitora",
   },
   {
-    id: "Especialista en gestiÃ³n de servicios de desarrollo empresarial",
-    value: "Especialista en gestiÃ³n de servicios de desarrollo empresarial",
+    id: "Especialista en gestión de servicios de desarrollo empresarial",
+    value: "Especialista en gestión de servicios de desarrollo empresarial",
   },
   {
     id: "Analista de Sistemas PAD",
@@ -6630,8 +6586,8 @@ export let cargos = [
     value: "Especialista territorial de proyectos productivos",
   },
   {
-    id: "Ingeniero agrÃ³nomo",
-    value: "Ingeniero agrÃ³nomo",
+    id: "Ingeniero agrónomo",
+    value: "Ingeniero agrónomo",
   },
   {
     id: "Supervisor de DDCCPP",
@@ -6642,9 +6598,9 @@ export let cargos = [
     value: "Asistente de programas",
   },
   {
-    id: "Asesora en promociÃ³n municipal del desarrollo agropecuario y metodolÃ³gico participativo",
+    id: "Asesora en promoción municipal del desarrollo agropecuario y metodológico participativo",
     value:
-      "Asesora en promociÃ³n municipal del desarrollo agropecuario y metodolÃ³gico participativo",
+      "Asesora en promoción municipal del desarrollo agropecuario y metodológico participativo",
   },
   {
     id: "Asesora tÃ©cnica Monitora ",
@@ -6691,12 +6647,12 @@ export let cargos = [
     value: "Ingeniero Asistente de calidad",
   },
   {
-    id: "Responsable de la unidad operativa de gestiÃ³n forestal Moyobamba",
-    value: "Responsable de la unidad operativa de gestiÃ³n forestal Moyobamba",
+    id: "Responsable de la unidad operativa de gestión forestal Moyobamba",
+    value: "Responsable de la unidad operativa de gestión forestal Moyobamba",
   },
   {
-    id: "Especialista Forestal y SocializaciÃ³n",
-    value: "Especialista Forestal y SocializaciÃ³n",
+    id: "Especialista Forestal y Socialización",
+    value: "Especialista Forestal y Socialización",
   },
   {
     id: "Responsable de la sede forestal Moyobamba",
@@ -6707,16 +6663,16 @@ export let cargos = [
     value: "Coordinadora de calidad",
   },
   {
-    id: "AtenciÃ³n al Cliente",
-    value: "AtenciÃ³n al Cliente",
+    id: "Atención al Cliente",
+    value: "Atención al Cliente",
   },
   {
-    id: "Supervisor de DivisiÃ³n de alimentos",
-    value: "Supervisor de DivisiÃ³n de alimentos",
+    id: "Supervisor de División de alimentos",
+    value: "Supervisor de División de alimentos",
   },
   {
-    id: "Supervisor de Organismo de InspecciÃ³n",
-    value: "Supervisor de Organismo de InspecciÃ³n",
+    id: "Supervisor de Organismo de Inspección",
+    value: "Supervisor de Organismo de Inspección",
   },
   {
     id: "Organizador y Coordinador",
@@ -6727,28 +6683,28 @@ export let cargos = [
     value: "Coordinadora de la Unidad Forestal",
   },
   {
-    id: "Coordinador de informaciÃ³n geogrÃ¡fica y Ã¡rea forestal",
-    value: "Coordinador de informaciÃ³n geogrÃ¡fica y Ã¡rea forestal",
+    id: "Coordinador de información geográfica y área forestal",
+    value: "Coordinador de información geográfica y área forestal",
   },
   {
     id: "Ingeniero Forestal",
     value: "Ingeniero Forestal",
   },
   {
-    id: "Asistente en InvestigaciÃ³n",
-    value: "Asistente en InvestigaciÃ³n",
+    id: "Asistente en Investigación",
+    value: "Asistente en Investigación",
   },
   {
-    id: "Responsable del Ã¡rea de desarrollo econÃ³mico productivo",
-    value: "Responsable del Ã¡rea de desarrollo econÃ³mico productivo",
+    id: "Responsable del área de desarrollo económico productivo",
+    value: "Responsable del área de desarrollo económico productivo",
   },
   {
     id: "Inspector Interno",
     value: "Inspector Interno",
   },
   {
-    id: "Presidenta del comitÃ© de jÃ³venes",
-    value: "Presidenta del comitÃ© de jÃ³venes",
+    id: "Presidenta del comitÃ© de jóvenes",
+    value: "Presidenta del comitÃ© de jóvenes",
   },
   {
     id: "Director de Fondos",
@@ -6763,8 +6719,8 @@ export let cargos = [
     value: "Superintendente de transporte",
   },
   {
-    id: "Jefe de administraciÃ³n y recursos humanos",
-    value: "Jefe de administraciÃ³n y recursos humanos",
+    id: "Jefe de administración y recursos humanos",
+    value: "Jefe de administración y recursos humanos",
   },
   {
     id: "Ingeniero especialista en mantenimiento",
@@ -6775,36 +6731,36 @@ export let cargos = [
     value: "Gerente de operaciones tÃ©cnicas",
   },
   {
-    id: "Asistente tÃ©cnico de fabricaciÃ³n",
-    value: "Asistente tÃ©cnico de fabricaciÃ³n",
+    id: "Asistente tÃ©cnico de fabricación",
+    value: "Asistente tÃ©cnico de fabricación",
   },
   {
     id: "Dictador de conferencia",
     value: "Dictador de conferencia",
   },
   {
-    id: "Jefe de FÃ¡brica",
-    value: "Jefe de FÃ¡brica",
+    id: "Jefe de Fábrica",
+    value: "Jefe de Fábrica",
   },
   {
     id: "Jefe de Mantenimiento",
     value: "Jefe de Mantenimiento",
   },
   {
-    id: "Consultor en ReingenierÃ­a de Procesos",
-    value: "Consultor en ReingenierÃ­a de Procesos",
+    id: "Consultor en Reingeniería de Procesos",
+    value: "Consultor en Reingeniería de Procesos",
   },
   {
-    id: "Gerente de FormaciÃ³n Profesional",
-    value: "Gerente de FormaciÃ³n Profesional",
+    id: "Gerente de Formación Profesional",
+    value: "Gerente de Formación Profesional",
   },
   {
     id: "Integrante del equipo de especialistas",
     value: "Integrante del equipo de especialistas",
   },
   {
-    id: "Capacitador tÃ©cnica y metodolÃ³gico ",
-    value: "Capacitador tÃ©cnica y metodolÃ³gico ",
+    id: "Capacitador tÃ©cnica y metodológico ",
+    value: "Capacitador tÃ©cnica y metodológico ",
   },
   {
     id: "Coordinador de procesos y calidad educativa",
@@ -6823,8 +6779,8 @@ export let cargos = [
     value: "Gerente de servicios educativos",
   },
   {
-    id: "Responsable de la conducciÃ³n tÃ©cnica",
-    value: "Responsable de la conducciÃ³n tÃ©cnica",
+    id: "Responsable de la conducción tÃ©cnica",
+    value: "Responsable de la conducción tÃ©cnica",
   },
   {
     id: "Especialista en Desarrollo Forestal",
@@ -6835,8 +6791,8 @@ export let cargos = [
     value: "Capacitador de promotores",
   },
   {
-    id: "Responsable del Ã¡rea Forestal y Medio Ambiente",
-    value: "Responsable del Ã¡rea Forestal y Medio Ambiente",
+    id: "Responsable del área Forestal y Medio Ambiente",
+    value: "Responsable del área Forestal y Medio Ambiente",
   },
   {
     id: "Asesor de Negocios Forestales",
@@ -6859,8 +6815,8 @@ export let cargos = [
     value: "Director del programa",
   },
   {
-    id: "Director General de la DirecciÃ³n General de Asuntos Ambientales",
-    value: "Director General de la DirecciÃ³n General de Asuntos Ambientales",
+    id: "Director General de la Dirección General de Asuntos Ambientales",
+    value: "Director General de la Dirección General de Asuntos Ambientales",
   },
   {
     id: "Especialista TÃ©cnico REDD+",
@@ -6879,8 +6835,8 @@ export let cargos = [
     value: "Asesor en Manejo Forestal",
   },
   {
-    id: "Jefe de AuditorÃ­a y Monitoreo Forestal",
-    value: "Jefe de AuditorÃ­a y Monitoreo Forestal",
+    id: "Jefe de Auditoría y Monitoreo Forestal",
+    value: "Jefe de Auditoría y Monitoreo Forestal",
   },
   {
     id: "Analista forestal y ambiental",
@@ -6895,8 +6851,8 @@ export let cargos = [
     value: "Asistente tÃ©cnico de proyecto Coordinadora",
   },
   {
-    id: "Practicante de IngenierÃ­a Civil",
-    value: "Practicante de IngenierÃ­a Civil",
+    id: "Practicante de Ingeniería Civil",
+    value: "Practicante de Ingeniería Civil",
   },
   {
     id: "Asistente de Gabinete",
@@ -6911,9 +6867,9 @@ export let cargos = [
     value: "Coordinador General de Proyectos",
   },
   {
-    id: "Coordinadora de la evaluaciÃ³n monitoreo y operaciÃ³n de los proyectos",
+    id: "Coordinadora de la evaluación monitoreo y operación de los proyectos",
     value:
-      "Coordinadora de la evaluaciÃ³n monitoreo y operaciÃ³n de los proyectos",
+      "Coordinadora de la evaluación monitoreo y operación de los proyectos",
   },
   {
     id: "Residente III",
@@ -6932,12 +6888,12 @@ export let cargos = [
     value: "Coordinador de sede",
   },
   {
-    id: "Coordinador LogÃ­stico",
-    value: "Coordinador LogÃ­stico",
+    id: "Coordinador Logístico",
+    value: "Coordinador Logístico",
   },
   {
-    id: "Coordinador CartogrÃ¡fico departamental",
-    value: "Coordinador CartogrÃ¡fico departamental",
+    id: "Coordinador Cartográfico departamental",
+    value: "Coordinador Cartográfico departamental",
   },
   {
     id: "Supervisor del estudio longitudinal 2009",
@@ -6948,60 +6904,60 @@ export let cargos = [
     value: "Supervisor de sede UGEL",
   },
   {
-    id: "Especialista EstadÃ­stico I",
-    value: "Especialista EstadÃ­stico I",
+    id: "Especialista Estadístico I",
+    value: "Especialista Estadístico I",
   },
   {
     id: "Integrante de proyecto",
     value: "Integrante de proyecto",
   },
   {
-    id: "Coordinador de tecnologÃ­as de la informaciÃ³n y comunicaciÃ³n",
-    value: "Coordinador de tecnologÃ­as de la informaciÃ³n y comunicaciÃ³n",
+    id: "Coordinador de tecnologías de la información y comunicación",
+    value: "Coordinador de tecnologías de la información y comunicación",
   },
   {
-    id: "Gerente de tecnologÃ­a y desarrollo",
-    value: "Gerente de tecnologÃ­a y desarrollo",
+    id: "Gerente de tecnología y desarrollo",
+    value: "Gerente de tecnología y desarrollo",
   },
   {
-    id: "Coordinador desarrollo e innovaciÃ³n",
-    value: "Coordinador desarrollo e innovaciÃ³n",
+    id: "Coordinador desarrollo e innovación",
+    value: "Coordinador desarrollo e innovación",
   },
   {
-    id: "Capacitador en cÃ³mputo",
-    value: "Capacitador en cÃ³mputo",
+    id: "Capacitador en cómputo",
+    value: "Capacitador en cómputo",
   },
   {
-    id: "Capacitador e instalado de sistema informÃ¡tico",
-    value: "Capacitador e instalado de sistema informÃ¡tico",
+    id: "Capacitador e instalado de sistema informático",
+    value: "Capacitador e instalado de sistema informático",
   },
   {
-    id: "Jefe del Ã¡rea de proyectos",
-    value: "Jefe del Ã¡rea de proyectos",
+    id: "Jefe del área de proyectos",
+    value: "Jefe del área de proyectos",
   },
   {
     id: "Ingeniero de sistemas",
     value: "Ingeniero de sistemas",
   },
   {
-    id: "Consultor en Sistemas de InformaciÃ³n",
-    value: "Consultor en Sistemas de InformaciÃ³n",
+    id: "Consultor en Sistemas de Información",
+    value: "Consultor en Sistemas de Información",
   },
   {
-    id: "Supervisor InformÃ¡tico",
-    value: "Supervisor InformÃ¡tico",
+    id: "Supervisor Informático",
+    value: "Supervisor Informático",
   },
   {
-    id: "Asistente informÃ¡tico de local",
-    value: "Asistente informÃ¡tico de local",
+    id: "Asistente informático de local",
+    value: "Asistente informático de local",
   },
   {
     id: "Programador PHP Joomla",
     value: "Programador PHP Joomla",
   },
   {
-    id: "Especialista EconÃ³mico Social I",
-    value: "Especialista EconÃ³mico Social I",
+    id: "Especialista Económico Social I",
+    value: "Especialista Económico Social I",
   },
   {
     id: "Jefe de Aplicador",
@@ -7012,20 +6968,20 @@ export let cargos = [
     value: "Empadronador especial",
   },
   {
-    id: "Asistente tÃ©cnico InformÃ¡tico",
-    value: "Asistente tÃ©cnico InformÃ¡tico",
+    id: "Asistente tÃ©cnico Informático",
+    value: "Asistente tÃ©cnico Informático",
   },
   {
-    id: "TÃ©cnico EstadÃ­stico IV",
-    value: "TÃ©cnico EstadÃ­stico IV",
+    id: "TÃ©cnico Estadístico IV",
+    value: "TÃ©cnico Estadístico IV",
   },
   {
-    id: "CrÃ­tico Codificador",
-    value: "CrÃ­tico Codificador",
+    id: "Crítico Codificador",
+    value: "Crítico Codificador",
   },
   {
-    id: "DiseÃ±ador de un sistema de ventas",
-    value: "DiseÃ±ador de un sistema de ventas",
+    id: "Diseñador de un sistema de ventas",
+    value: "Diseñador de un sistema de ventas",
   },
   {
     id: "Jefe de Aplicadores",
@@ -7036,12 +6992,12 @@ export let cargos = [
     value: "Integrante de equipo de tÃ©cnicos",
   },
   {
-    id: "Jefe del Ã¡rea de informÃ¡tica",
-    value: "Jefe del Ã¡rea de informÃ¡tica",
+    id: "Jefe del área de informática",
+    value: "Jefe del área de informática",
   },
   {
-    id: "DiseÃ±ador y Administrador Web",
-    value: "DiseÃ±ador y Administrador Web",
+    id: "Diseñador y Administrador Web",
+    value: "Diseñador y Administrador Web",
   },
   {
     id: "TÃ©cnico de Soporte y Redes ",
@@ -7072,20 +7028,20 @@ export let cargos = [
     value: "Fiscalizador TÃ©cnico",
   },
   {
-    id: "Asistente de cÃ³mputo",
-    value: "Asistente de cÃ³mputo",
+    id: "Asistente de cómputo",
+    value: "Asistente de cómputo",
   },
   {
     id: "Auxiliar Administrativo de la Sub Sede Rioja",
     value: "Auxiliar Administrativo de la Sub Sede Rioja",
   },
   {
-    id: "Especialista en InformÃ¡tica",
-    value: "Especialista en InformÃ¡tica",
+    id: "Especialista en Informática",
+    value: "Especialista en Informática",
   },
   {
-    id: "TÃ©cnico profesional en EducaciÃ³n",
-    value: "TÃ©cnico profesional en EducaciÃ³n",
+    id: "TÃ©cnico profesional en Educación",
+    value: "TÃ©cnico profesional en Educación",
   },
   {
     id: "Gestor TIC",
@@ -7104,29 +7060,29 @@ export let cargos = [
     value: "Funcionario Adjunto",
   },
   {
-    id: "Integrante de la ComisiÃ³n de Alto Nivel",
-    value: "Integrante de la ComisiÃ³n de Alto Nivel",
+    id: "Integrante de la Comisión de Alto Nivel",
+    value: "Integrante de la Comisión de Alto Nivel",
   },
   {
-    id: "Integrante de la ComisiÃ³n Consultiva de PromociÃ³n del Empleo y la Micro y PequeÃ±a Empresa",
+    id: "Integrante de la Comisión Consultiva de Promoción del Empleo y la Micro y Pequeña Empresa",
     value:
-      "Integrante de la ComisiÃ³n Consultiva de PromociÃ³n del Empleo y la Micro y PequeÃ±a Empresa",
+      "Integrante de la Comisión Consultiva de Promoción del Empleo y la Micro y Pequeña Empresa",
   },
   {
     id: "Integrante del CEPLAN",
     value: "Integrante del CEPLAN",
   },
   {
-    id: "Integrante de la ComisiÃ³n Consultivo ",
-    value: "Integrante de la ComisiÃ³n Consultivo ",
+    id: "Integrante de la Comisión Consultivo ",
+    value: "Integrante de la Comisión Consultivo ",
   },
   {
-    id: "Profesional de Sistemas y ComputaciÃ³n",
-    value: "Profesional de Sistemas y ComputaciÃ³n",
+    id: "Profesional de Sistemas y Computación",
+    value: "Profesional de Sistemas y Computación",
   },
   {
-    id: "Jefe de PrÃ¡cticas",
-    value: "Jefe de PrÃ¡cticas",
+    id: "Jefe de Prácticas",
+    value: "Jefe de Prácticas",
   },
   {
     id: "Especialista  Presupuestos",
@@ -7141,8 +7097,8 @@ export let cargos = [
     value: "Especialista Presupuestos",
   },
   {
-    id: "Formador de la metodologÃ­a SCORE",
-    value: "Formador de la metodologÃ­a SCORE",
+    id: "Formador de la metodología SCORE",
+    value: "Formador de la metodología SCORE",
   },
   {
     id: "Encargado de proyectos",
@@ -7161,8 +7117,8 @@ export let cargos = [
     value: "Coordinador de servicios de competitividad regional",
   },
   {
-    id: "Supervisor en diseÃ±o de redes de agua potable y alcantarillado",
-    value: "Supervisor en diseÃ±o de redes de agua potable y alcantarillado",
+    id: "Supervisor en diseño de redes de agua potable y alcantarillado",
+    value: "Supervisor en diseño de redes de agua potable y alcantarillado",
   },
   {
     id: "Ingeniero Sanitario",
@@ -7193,8 +7149,8 @@ export let cargos = [
     value: "Jefe del departamento tÃ©cnico de  Tubosistemas",
   },
   {
-    id: "Pasante IngenierÃ­a QuÃ­mica",
-    value: "Pasante IngenierÃ­a QuÃ­mica",
+    id: "Pasante Ingeniería Química",
+    value: "Pasante Ingeniería Química",
   },
   {
     id: "Inspector Ambiental",
@@ -7205,37 +7161,37 @@ export let cargos = [
     value: "Consultora SIG",
   },
   {
-    id: "Jefe de GestiÃ³n de Procesos y Medio Ambiente",
-    value: "Jefe de GestiÃ³n de Procesos y Medio Ambiente",
+    id: "Jefe de Gestión de Procesos y Medio Ambiente",
+    value: "Jefe de Gestión de Procesos y Medio Ambiente",
   },
   {
     id: "Especialista de Calidad Seguridad y Medio Ambiente",
     value: "Especialista de Calidad Seguridad y Medio Ambiente",
   },
   {
-    id: "Especialista en CapacitaciÃ³n en GestiÃ³n I",
-    value: "Especialista en CapacitaciÃ³n en GestiÃ³n I",
+    id: "Especialista en Capacitación en Gestión I",
+    value: "Especialista en Capacitación en Gestión I",
   },
   {
     id: "Asistente en Ordenamiento Territorial",
     value: "Asistente en Ordenamiento Territorial",
   },
   {
-    id: "TopÃ³grafo y Editor CartogrÃ¡fico",
-    value: "TopÃ³grafo y Editor CartogrÃ¡fico",
+    id: "Topógrafo y Editor Cartográfico",
+    value: "Topógrafo y Editor Cartográfico",
   },
   {
-    id: "Especialista en sistema de informaciÃ³n geoespacial",
-    value: "Especialista en sistema de informaciÃ³n geoespacial",
+    id: "Especialista en sistema de información geoespacial",
+    value: "Especialista en sistema de información geoespacial",
   },
   {
-    id: "Asistente en Sistemas de informaciÃ³n geogrÃ¡fica y modelamiento cartogrÃ¡fico",
+    id: "Asistente en Sistemas de información geográfica y modelamiento cartográfico",
     value:
-      "Asistente en Sistemas de informaciÃ³n geogrÃ¡fica y modelamiento cartogrÃ¡fico",
+      "Asistente en Sistemas de información geográfica y modelamiento cartográfico",
   },
   {
-    id: "Analista de OperaciÃ³n Infraestructura TecnolÃ³gica",
-    value: "Analista de OperaciÃ³n Infraestructura TecnolÃ³gica",
+    id: "Analista de Operación Infraestructura Tecnológica",
+    value: "Analista de Operación Infraestructura Tecnológica",
   },
   {
     id: "Consultor tÃ©cnico",
@@ -7262,12 +7218,12 @@ export let cargos = [
     value: "Estimador de riesgo",
   },
   {
-    id: "Especialista en anÃ¡lisis de riesgos y seguridad",
-    value: "Especialista en anÃ¡lisis de riesgos y seguridad",
+    id: "Especialista en análisis de riesgos y seguridad",
+    value: "Especialista en análisis de riesgos y seguridad",
   },
   {
-    id: "Especialista en anÃ¡lisis de riesgos y vulnerabilidad",
-    value: "Especialista en anÃ¡lisis de riesgos y vulnerabilidad",
+    id: "Especialista en análisis de riesgos y vulnerabilidad",
+    value: "Especialista en análisis de riesgos y vulnerabilidad",
   },
   {
     id: "Programadora de Sistemas",
@@ -7302,8 +7258,8 @@ export let cargos = [
     value: "Formulador de PIP",
   },
   {
-    id: "Especialista en evaluaciÃ³n de PIP",
-    value: "Especialista en evaluaciÃ³n de PIP",
+    id: "Especialista en evaluación de PIP",
+    value: "Especialista en evaluación de PIP",
   },
   {
     id: "Digitador_x000D_\n",
@@ -7318,16 +7274,16 @@ export let cargos = [
     value: "Asistente de Inspector de Obra",
   },
   {
-    id: "Gerencia de IngenierÃ­a",
-    value: "Gerencia de IngenierÃ­a",
+    id: "Gerencia de Ingeniería",
+    value: "Gerencia de Ingeniería",
   },
   {
     id: "Residente de Obras Privadas",
     value: "Residente de Obras Privadas",
   },
   {
-    id: "Asistente tÃ©cnico en IngenierÃ­a Civil",
-    value: "Asistente tÃ©cnico en IngenierÃ­a Civil",
+    id: "Asistente tÃ©cnico en Ingeniería Civil",
+    value: "Asistente tÃ©cnico en Ingeniería Civil",
   },
   {
     id: "Asistente del residente",
@@ -7342,16 +7298,16 @@ export let cargos = [
     value: "Residente de Obras",
   },
   {
-    id: "Jefe de proyecto y Jefe de supervisiÃ³n",
-    value: "Jefe de proyecto y Jefe de supervisiÃ³n",
+    id: "Jefe de proyecto y Jefe de supervisión",
+    value: "Jefe de proyecto y Jefe de supervisión",
   },
   {
     id: "Jefe de Calidad",
     value: "Jefe de Calidad",
   },
   {
-    id: "Jefe de SupervisiÃ³n",
-    value: "Jefe de SupervisiÃ³n",
+    id: "Jefe de Supervisión",
+    value: "Jefe de Supervisión",
   },
   {
     id: "Ingeniero Supervisor",
@@ -7362,12 +7318,12 @@ export let cargos = [
     value: "Analista de Monitoreo DME",
   },
   {
-    id: "Encargado de Monitoreo y EvaluaciÃ³n",
-    value: "Encargado de Monitoreo y EvaluaciÃ³n",
+    id: "Encargado de Monitoreo y Evaluación",
+    value: "Encargado de Monitoreo y Evaluación",
   },
   {
-    id: "GuÃ­a de visitas",
-    value: "GuÃ­a de visitas",
+    id: "Guía de visitas",
+    value: "Guía de visitas",
   },
   {
     id: "Secretario de mesa",
@@ -7406,16 +7362,16 @@ export let cargos = [
     value: "Supervisor de obra de infraestructura",
   },
   {
-    id: "Especialista en EstadÃ­stica Agropecuaria",
-    value: "Especialista en EstadÃ­stica Agropecuaria",
+    id: "Especialista en Estadística Agropecuaria",
+    value: "Especialista en Estadística Agropecuaria",
   },
   {
-    id: "Especialista en el Ã¡rea de desarrollo productivo",
-    value: "Especialista en el Ã¡rea de desarrollo productivo",
+    id: "Especialista en el área de desarrollo productivo",
+    value: "Especialista en el área de desarrollo productivo",
   },
   {
-    id: "Coordinador local de votaciÃ³n",
-    value: "Coordinador local de votaciÃ³n",
+    id: "Coordinador local de votación",
+    value: "Coordinador local de votación",
   },
   {
     id: "Capacitadora y apoyo",
@@ -7434,8 +7390,8 @@ export let cargos = [
     value: "Jefe del proyecto",
   },
   {
-    id: "Ingeniero de DiseÃ±o",
-    value: "Ingeniero de DiseÃ±o",
+    id: "Ingeniero de Diseño",
+    value: "Ingeniero de Diseño",
   },
   {
     id: "Ingeniero TÃ©cnico",
@@ -7446,8 +7402,8 @@ export let cargos = [
     value: "Ingeniero de Proyectos",
   },
   {
-    id: "Especialista en elaboraciÃ³n de expediente tÃ©cnico",
-    value: "Especialista en elaboraciÃ³n de expediente tÃ©cnico",
+    id: "Especialista en elaboración de expediente tÃ©cnico",
+    value: "Especialista en elaboración de expediente tÃ©cnico",
   },
   {
     id: "Jefe de la Unidad Abastecimiento y SSAA",
@@ -7458,20 +7414,20 @@ export let cargos = [
     value: "Jefe Oficina Abastecimientos",
   },
   {
-    id: "Consultor y Soporte InformÃ¡tico",
-    value: "Consultor y Soporte InformÃ¡tico",
+    id: "Consultor y Soporte Informático",
+    value: "Consultor y Soporte Informático",
   },
   {
-    id: "Ingeniero de Sistemas e InformÃ¡tica",
-    value: "Ingeniero de Sistemas e InformÃ¡tica",
+    id: "Ingeniero de Sistemas e Informática",
+    value: "Ingeniero de Sistemas e Informática",
   },
   {
-    id: "Desarrollador de pÃ¡gina web",
-    value: "Desarrollador de pÃ¡gina web",
+    id: "Desarrollador de página web",
+    value: "Desarrollador de página web",
   },
   {
-    id: "DiseÃ±o grÃ¡fico",
-    value: "DiseÃ±o grÃ¡fico",
+    id: "Diseño gráfico",
+    value: "Diseño gráfico",
   },
   {
     id: "Apoyo en la Biblioteca",
@@ -7486,12 +7442,12 @@ export let cargos = [
     value: "Operador de empresas",
   },
   {
-    id: "Coordinadora LÃ­der de  Local",
-    value: "Coordinadora LÃ­der de  Local",
+    id: "Coordinadora Líder de  Local",
+    value: "Coordinadora Líder de  Local",
   },
   {
-    id: "Gerente de GestiÃ³n PedagÃ³gica",
-    value: "Gerente de GestiÃ³n PedagÃ³gica",
+    id: "Gerente de Gestión Pedagógica",
+    value: "Gerente de Gestión Pedagógica",
   },
   {
     id: "Gerente de Escuelas Exitosas",
@@ -7502,24 +7458,24 @@ export let cargos = [
     value: "Responsable del sistema del aula virtual",
   },
   {
-    id: "Encargado de CÃ³mputo",
-    value: "Encargado de CÃ³mputo",
+    id: "Encargado de Cómputo",
+    value: "Encargado de Cómputo",
   },
   {
     id: "Coordinador del sistema del aula virtual",
     value: "Coordinador del sistema del aula virtual",
   },
   {
-    id: "Consultor InformÃ¡tico",
-    value: "Consultor InformÃ¡tico",
+    id: "Consultor Informático",
+    value: "Consultor Informático",
   },
   {
     id: "Jefe de proyecto y especialista en estructuras",
     value: "Jefe de proyecto y especialista en estructuras",
   },
   {
-    id: "Especialista en Estructuras Y Analista HidrÃ¡ulico",
-    value: "Especialista en Estructuras Y Analista HidrÃ¡ulico",
+    id: "Especialista en Estructuras Y Analista Hidráulico",
+    value: "Especialista en Estructuras Y Analista Hidráulico",
   },
   {
     id: "Especialista en PIP y Estructuras",
@@ -7530,33 +7486,33 @@ export let cargos = [
     value: "Ingeniero Estructural",
   },
   {
-    id: "Jefe de Proyecto y Especialista en IngenierÃ­a Estructural",
-    value: "Jefe de Proyecto y Especialista en IngenierÃ­a Estructural",
+    id: "Jefe de Proyecto y Especialista en Ingeniería Estructural",
+    value: "Jefe de Proyecto y Especialista en Ingeniería Estructural",
   },
   {
-    id: "Especialista en IngenierÃ­a Estructural",
-    value: "Especialista en IngenierÃ­a Estructural",
+    id: "Especialista en Ingeniería Estructural",
+    value: "Especialista en Ingeniería Estructural",
   },
   {
     id: "Residente de Obras civiles",
     value: "Residente de Obras civiles",
   },
   {
-    id: "Especialista en Estructuras y AnÃ¡lisis HidrÃ¡ulico",
-    value: "Especialista en Estructuras y AnÃ¡lisis HidrÃ¡ulico",
+    id: "Especialista en Estructuras y Análisis Hidráulico",
+    value: "Especialista en Estructuras y Análisis Hidráulico",
   },
   {
-    id: "Ingeniero Civil Especialista en estructuras para el equipo de AbsorciÃ³n de Consultas",
+    id: "Ingeniero Civil Especialista en estructuras para el equipo de Absorción de Consultas",
     value:
-      "Ingeniero Civil Especialista en estructuras para el equipo de AbsorciÃ³n de Consultas",
+      "Ingeniero Civil Especialista en estructuras para el equipo de Absorción de Consultas",
   },
   {
     id: "Asistente para el cumplimiento de las normas tÃ©cnicas",
     value: "Asistente para el cumplimiento de las normas tÃ©cnicas",
   },
   {
-    id: "Jefe de proyecto y especialista en ingenierÃ­a  estructural",
-    value: "Jefe de proyecto y especialista en ingenierÃ­a  estructural",
+    id: "Jefe de proyecto y especialista en ingeniería  estructural",
+    value: "Jefe de proyecto y especialista en ingeniería  estructural",
   },
   {
     id: "Supervisor de HSE SR",
@@ -7575,8 +7531,8 @@ export let cargos = [
     value: "Asesor de HSE",
   },
   {
-    id: "Supervisor ElectromecÃ¡nico",
-    value: "Supervisor ElectromecÃ¡nico",
+    id: "Supervisor Electromecánico",
+    value: "Supervisor Electromecánico",
   },
   {
     id: "Jefe encargado proyecto SAPET",
@@ -7599,56 +7555,56 @@ export let cargos = [
     value: "Socio tÃ©cnico",
   },
   {
-    id: "Gerente de administraciÃ³n y finanzas",
-    value: "Gerente de administraciÃ³n y finanzas",
+    id: "Gerente de administración y finanzas",
+    value: "Gerente de administración y finanzas",
   },
   {
-    id: "Jefe de la secciÃ³n comercial",
-    value: "Jefe de la secciÃ³n comercial",
+    id: "Jefe de la sección comercial",
+    value: "Jefe de la sección comercial",
   },
   {
     id: "Psicometrista",
     value: "Psicometrista",
   },
   {
-    id: "Especialista en estadÃ­stica especializada y muestreo ",
-    value: "Especialista en estadÃ­stica especializada y muestreo ",
+    id: "Especialista en estadística especializada y muestreo ",
+    value: "Especialista en estadística especializada y muestreo ",
   },
   {
-    id: "Jefe de la oficina d evaluaciÃ³n ",
-    value: "Jefe de la oficina d evaluaciÃ³n ",
+    id: "Jefe de la oficina d evaluación ",
+    value: "Jefe de la oficina d evaluación ",
   },
   {
-    id: "Sub Gerente de sistemas y tecnologÃ­as",
-    value: "Sub Gerente de sistemas y tecnologÃ­as",
+    id: "Sub Gerente de sistemas y tecnologías",
+    value: "Sub Gerente de sistemas y tecnologías",
   },
   {
-    id: "Gerencia de tecnologÃ­a",
-    value: "Gerencia de tecnologÃ­a",
+    id: "Gerencia de tecnología",
+    value: "Gerencia de tecnología",
   },
   {
     id: "Asesor y especialista en Arquitectura de Hardware y Software",
     value: "Asesor y especialista en Arquitectura de Hardware y Software",
   },
   {
-    id: "Asistente de cÃ³mputo descentralizado",
-    value: "Asistente de cÃ³mputo descentralizado",
+    id: "Asistente de cómputo descentralizado",
+    value: "Asistente de cómputo descentralizado",
   },
   {
-    id: "Coordinador del centro de cÃ³mputo",
-    value: "Coordinador del centro de cÃ³mputo",
+    id: "Coordinador del centro de cómputo",
+    value: "Coordinador del centro de cómputo",
   },
   {
-    id: "Responsable del centro de cÃ³mputo",
-    value: "Responsable del centro de cÃ³mputo",
+    id: "Responsable del centro de cómputo",
+    value: "Responsable del centro de cómputo",
   },
   {
-    id: "Jefe del centro de cÃ³mputo",
-    value: "Jefe del centro de cÃ³mputo",
+    id: "Jefe del centro de cómputo",
+    value: "Jefe del centro de cómputo",
   },
   {
-    id: "Responsable de la oficina de informÃ¡tica",
-    value: "Responsable de la oficina de informÃ¡tica",
+    id: "Responsable de la oficina de informática",
+    value: "Responsable de la oficina de informática",
   },
   {
     id: "Evaluador externo",
@@ -7667,24 +7623,24 @@ export let cargos = [
     value: "Coordinador de servicios",
   },
   {
-    id: "Agente de control y fiscalizaciÃ³n ",
-    value: "Agente de control y fiscalizaciÃ³n ",
+    id: "Agente de control y fiscalización ",
+    value: "Agente de control y fiscalización ",
   },
   {
-    id: "Ingeniero en el Ã¡rea tÃ©cnica de fiscalizaciÃ³n ambiental",
-    value: "Ingeniero en el Ã¡rea tÃ©cnica de fiscalizaciÃ³n ambiental",
+    id: "Ingeniero en el área tÃ©cnica de fiscalización ambiental",
+    value: "Ingeniero en el área tÃ©cnica de fiscalización ambiental",
   },
   {
     id: "Elaborador de proyectos",
     value: "Elaborador de proyectos",
   },
   {
-    id: "Especialista de LegislaciÃ³n Ambiental",
-    value: "Especialista de LegislaciÃ³n Ambiental",
+    id: "Especialista de Legislación Ambiental",
+    value: "Especialista de Legislación Ambiental",
   },
   {
-    id: "Investigador AgronÃ³mico",
-    value: "Investigador AgronÃ³mico",
+    id: "Investigador Agronómico",
+    value: "Investigador Agronómico",
   },
   {
     id: "Jefe de la Oficina desconcentrada",
@@ -7703,8 +7659,8 @@ export let cargos = [
     value: "Asesor tÃ©cnico coordinador",
   },
   {
-    id: "Sub gerente medio ambiente y conservaciÃ³n",
-    value: "Sub gerente medio ambiente y conservaciÃ³n",
+    id: "Sub gerente medio ambiente y conservación",
+    value: "Sub gerente medio ambiente y conservación",
   },
   {
     id: "Extensionista del sector Raimondi",
@@ -7715,16 +7671,16 @@ export let cargos = [
     value: "Especialista en control forestal y fauna silvestre",
   },
   {
-    id: "Secretaria de economÃ­a",
-    value: "Secretaria de economÃ­a",
+    id: "Secretaria de economía",
+    value: "Secretaria de economía",
   },
   {
     id: "Ingeniera Forestal",
     value: "Ingeniera Forestal",
   },
   {
-    id: "Supervisora de la reforestaciÃ³n ",
-    value: "Supervisora de la reforestaciÃ³n ",
+    id: "Supervisora de la reforestación ",
+    value: "Supervisora de la reforestación ",
   },
   {
     id: "Inspector de campo de la sede Cajamarca",
@@ -7763,8 +7719,8 @@ export let cargos = [
     value: "Apoyo Externo",
   },
   {
-    id: "Ingeniero GeogrÃ¡fico",
-    value: "Ingeniero GeogrÃ¡fico",
+    id: "Ingeniero Geográfico",
+    value: "Ingeniero Geográfico",
   },
   {
     id: "TÃ©cnico  fiscalizador",
@@ -7775,8 +7731,8 @@ export let cargos = [
     value: "Operador de campo",
   },
   {
-    id: "Integrante del equipo de InvestigaciÃ³n",
-    value: "Integrante del equipo de InvestigaciÃ³n",
+    id: "Integrante del equipo de Investigación",
+    value: "Integrante del equipo de Investigación",
   },
   {
     id: "Encuestador y supervisor",
@@ -7791,8 +7747,8 @@ export let cargos = [
     value: "Miembro del comitÃ©",
   },
   {
-    id: "Actualizador CartogrÃ¡fico",
-    value: "Actualizador CartogrÃ¡fico",
+    id: "Actualizador Cartográfico",
+    value: "Actualizador Cartográfico",
   },
   {
     id: "Auxiliar de archivo",
@@ -7819,8 +7775,8 @@ export let cargos = [
     value: "Supervisor Forestal Regional",
   },
   {
-    id: "Jefe en el Ã¡rea tÃ©cnica",
-    value: "Jefe en el Ã¡rea tÃ©cnica",
+    id: "Jefe en el área tÃ©cnica",
+    value: "Jefe en el área tÃ©cnica",
   },
   {
     id: "Encargado de la sede agraria Uchiza",
@@ -7859,8 +7815,8 @@ export let cargos = [
     value: "Especialista DMA",
   },
   {
-    id: "Apoyo a mi gestiÃ³n",
-    value: "Apoyo a mi gestiÃ³n",
+    id: "Apoyo a mi gestión",
+    value: "Apoyo a mi gestión",
   },
   {
     id: "Director Regional Sectorial",
@@ -7915,9 +7871,9 @@ export let cargos = [
     value: "Ingeniero especialista de medio ambiente",
   },
   {
-    id: "Responsable de los estudios ambientales y de la gestiÃ³n de recursos forestales ",
+    id: "Responsable de los estudios ambientales y de la gestión de recursos forestales ",
     value:
-      "Responsable de los estudios ambientales y de la gestiÃ³n de recursos forestales ",
+      "Responsable de los estudios ambientales y de la gestión de recursos forestales ",
   },
   {
     id: "Responsable de la bolsa laboral",
@@ -7940,20 +7896,20 @@ export let cargos = [
     value: "Subdirector de desarrollo de mercados rurales",
   },
   {
-    id: "Coordinador de la Unidad de Monitoreo y EvaluaciÃ³n del Proyecto",
-    value: "Coordinador de la Unidad de Monitoreo y EvaluaciÃ³n del Proyecto",
+    id: "Coordinador de la Unidad de Monitoreo y Evaluación del Proyecto",
+    value: "Coordinador de la Unidad de Monitoreo y Evaluación del Proyecto",
   },
   {
-    id: "Asesor de desarrollo econÃ³mico",
-    value: "Asesor de desarrollo econÃ³mico",
+    id: "Asesor de desarrollo económico",
+    value: "Asesor de desarrollo económico",
   },
   {
     id: "Jefe de la Unidad Desarrollo Institucional",
     value: "Jefe de la Unidad Desarrollo Institucional",
   },
   {
-    id: "Experto en seguimiento y evaluaciÃ³n",
-    value: "Experto en seguimiento y evaluaciÃ³n",
+    id: "Experto en seguimiento y evaluación",
+    value: "Experto en seguimiento y evaluación",
   },
   {
     id: "Coordinador de Agroindustria",
@@ -7968,32 +7924,32 @@ export let cargos = [
     value: "Especialista de Negocios",
   },
   {
-    id: "Ingeniero GeÃ³grafo",
-    value: "Ingeniero GeÃ³grafo",
+    id: "Ingeniero Geógrafo",
+    value: "Ingeniero Geógrafo",
   },
   {
-    id: "Asistente de Ingeniero GeÃ³logo",
-    value: "Asistente de Ingeniero GeÃ³logo",
+    id: "Asistente de Ingeniero Geólogo",
+    value: "Asistente de Ingeniero Geólogo",
   },
   {
-    id: "Ingeniero GeÃ³logo",
-    value: "Ingeniero GeÃ³logo",
+    id: "Ingeniero Geólogo",
+    value: "Ingeniero Geólogo",
   },
   {
-    id: "GeÃ³logo",
-    value: "GeÃ³logo",
+    id: "Geólogo",
+    value: "Geólogo",
   },
   {
-    id: "Ingeniero GeÃ³logo Senior",
-    value: "Ingeniero GeÃ³logo Senior",
+    id: "Ingeniero Geólogo Senior",
+    value: "Ingeniero Geólogo Senior",
   },
   {
-    id: "Especialista en el Ã¡rea de GeologÃ­a Ambiental",
-    value: "Especialista en el Ã¡rea de GeologÃ­a Ambiental",
+    id: "Especialista en el área de Geología Ambiental",
+    value: "Especialista en el área de Geología Ambiental",
   },
   {
-    id: "Encargado del Ã¡rea de GeologÃ­a",
-    value: "Encargado del Ã¡rea de GeologÃ­a",
+    id: "Encargado del área de Geología",
+    value: "Encargado del área de Geología",
   },
   {
     id: "Especialista en Sistemas Administrativos",
@@ -8008,8 +7964,8 @@ export let cargos = [
     value: "Gerente de suministros",
   },
   {
-    id: "Jefe de la oficina de integraciÃ³n tÃ©cnica y supervisiÃ³n",
-    value: "Jefe de la oficina de integraciÃ³n tÃ©cnica y supervisiÃ³n",
+    id: "Jefe de la oficina de integración tÃ©cnica y supervisión",
+    value: "Jefe de la oficina de integración tÃ©cnica y supervisión",
   },
   {
     id: "Ingeniero de Calidad",
@@ -8020,37 +7976,37 @@ export let cargos = [
     value: "Ingeniero Asistente de campo",
   },
   {
-    id: "Ingeniero en cÃ¡lculo estructural",
-    value: "Ingeniero en cÃ¡lculo estructural",
+    id: "Ingeniero en cálculo estructural",
+    value: "Ingeniero en cálculo estructural",
   },
   {
     id: "Ingeniero civil III",
     value: "Ingeniero civil III",
   },
   {
-    id: "Especialista en cÃ¡lculo estructural y planimetrÃ­a",
-    value: "Especialista en cÃ¡lculo estructural y planimetrÃ­a",
+    id: "Especialista en cálculo estructural y planimetría",
+    value: "Especialista en cálculo estructural y planimetría",
   },
   {
     id: "Ingenieros de Oficina tÃ©cnica",
     value: "Ingenieros de Oficina tÃ©cnica",
   },
   {
-    id: "Coordinador de evaluaciÃ³n de proyectos de inversiÃ³n pÃºblica del sector educaciÃ³n",
+    id: "Coordinador de evaluación de proyectos de inversión pÃºblica del sector educación",
     value:
-      "Coordinador de evaluaciÃ³n de proyectos de inversiÃ³n pÃºblica del sector educaciÃ³n",
+      "Coordinador de evaluación de proyectos de inversión pÃºblica del sector educación",
   },
   {
-    id: "Especialista en pre inversiÃ³n",
-    value: "Especialista en pre inversiÃ³n",
+    id: "Especialista en pre inversión",
+    value: "Especialista en pre inversión",
   },
   {
     id: "Formulador de proyectos SNIP",
     value: "Formulador de proyectos SNIP",
   },
   {
-    id: "Especialista en IngenierÃ­a de costas y puertos",
-    value: "Especialista en IngenierÃ­a de costas y puertos",
+    id: "Especialista en Ingeniería de costas y puertos",
+    value: "Especialista en Ingeniería de costas y puertos",
   },
   {
     id: "Consultor especialista en el planeamiento portuario y estructural",
@@ -8081,17 +8037,17 @@ export let cargos = [
     value: "Administrador de redes",
   },
   {
-    id: "Integrante de la comisiÃ³n de festejos por el II Aniversario",
-    value: "Integrante de la comisiÃ³n de festejos por el II Aniversario",
+    id: "Integrante de la comisión de festejos por el II Aniversario",
+    value: "Integrante de la comisión de festejos por el II Aniversario",
   },
   {
-    id: "Puesto de Manejo de finanzas y manejo de metodologÃ­a para capacitaciÃ³n financiera",
+    id: "Puesto de Manejo de finanzas y manejo de metodología para capacitación financiera",
     value:
-      "Puesto de Manejo de finanzas y manejo de metodologÃ­a para capacitaciÃ³n financiera",
+      "Puesto de Manejo de finanzas y manejo de metodología para capacitación financiera",
   },
   {
-    id: "Facilitador de ComercializaciÃ³n",
-    value: "Facilitador de ComercializaciÃ³n",
+    id: "Facilitador de Comercialización",
+    value: "Facilitador de Comercialización",
   },
   {
     id: "Gestor de campo",
@@ -8114,12 +8070,12 @@ export let cargos = [
     value: "Apoyo en asistencia tÃ©cnica",
   },
   {
-    id: "Especialista informÃ¡tico",
-    value: "Especialista informÃ¡tico",
+    id: "Especialista informático",
+    value: "Especialista informático",
   },
   {
-    id: "Responsable de InformaciÃ³n",
-    value: "Responsable de InformaciÃ³n",
+    id: "Responsable de Información",
+    value: "Responsable de Información",
   },
   {
     id: "Consultor Especialista en organizaciones ",
@@ -8142,33 +8098,33 @@ export let cargos = [
     value: "Operador de procesos",
   },
   {
-    id: "Jefe del Ã¡rea de turismo",
-    value: "Jefe del Ã¡rea de turismo",
+    id: "Jefe del área de turismo",
+    value: "Jefe del área de turismo",
   },
   {
     id: "Analista en Industria Manufactura",
     value: "Analista en Industria Manufactura",
   },
   {
-    id: "Profesional de anÃ¡lisis estadÃ­sticos en industria manufactura",
-    value: "Profesional de anÃ¡lisis estadÃ­sticos en industria manufactura",
+    id: "Profesional de análisis estadísticos en industria manufactura",
+    value: "Profesional de análisis estadísticos en industria manufactura",
   },
   {
-    id: "Miembro de la lÃ­nea de investigaciÃ³n  de acciÃ³n colectiva y movimientos sociales",
+    id: "Miembro de la línea de investigación  de acción colectiva y movimientos sociales",
     value:
-      "Miembro de la lÃ­nea de investigaciÃ³n  de acciÃ³n colectiva y movimientos sociales",
+      "Miembro de la línea de investigación  de acción colectiva y movimientos sociales",
   },
   {
     id: "Becario Investigador",
     value: "Becario Investigador",
   },
   {
-    id: "Responsable del diseÃ±o y facilitaciÃ³n",
-    value: "Responsable del diseÃ±o y facilitaciÃ³n",
+    id: "Responsable del diseño y facilitación",
+    value: "Responsable del diseño y facilitación",
   },
   {
-    id: "Responsable de la capacitaciÃ³n de organizaciones sociales",
-    value: "Responsable de la capacitaciÃ³n de organizaciones sociales",
+    id: "Responsable de la capacitación de organizaciones sociales",
+    value: "Responsable de la capacitación de organizaciones sociales",
   },
   {
     id: "Asistente de coordinador de local",
@@ -8187,8 +8143,8 @@ export let cargos = [
     value: "Colaborador acadÃ©mico Promotor Cultural",
   },
   {
-    id: "Investigador de antropometrÃ­a fÃ­sica",
-    value: "Investigador de antropometrÃ­a fÃ­sica",
+    id: "Investigador de antropometría física",
+    value: "Investigador de antropometría física",
   },
   {
     id: "Socio coorganizador",
@@ -8199,8 +8155,8 @@ export let cargos = [
     value: "Apoyo Administrativo para Archivo Central",
   },
   {
-    id: "TÃ©cnico en la AplicaciÃ³n de Encuestas",
-    value: "TÃ©cnico en la AplicaciÃ³n de Encuestas",
+    id: "TÃ©cnico en la Aplicación de Encuestas",
+    value: "TÃ©cnico en la Aplicación de Encuestas",
   },
   {
     id: "Encuestador de Catastro",
@@ -8215,16 +8171,16 @@ export let cargos = [
     value: "Auxiliar de la Biblioteca",
   },
   {
-    id: "Codificador del Ã¡rea de factores asociados",
-    value: "Codificador del Ã¡rea de factores asociados",
+    id: "Codificador del área de factores asociados",
+    value: "Codificador del área de factores asociados",
   },
   {
     id: "Promotor comunal familiar en el INABIF",
     value: "Promotor comunal familiar en el INABIF",
   },
   {
-    id: "Responsable de la GestiÃ³n Integrada",
-    value: "Responsable de la GestiÃ³n Integrada",
+    id: "Responsable de la Gestión Integrada",
+    value: "Responsable de la Gestión Integrada",
   },
   {
     id: "Traductor",
@@ -8243,16 +8199,16 @@ export let cargos = [
     value: "Senior Research Assistant",
   },
   {
-    id: "Editorialista para el anÃ¡lisis",
-    value: "Editorialista para el anÃ¡lisis",
+    id: "Editorialista para el análisis",
+    value: "Editorialista para el análisis",
   },
   {
-    id: "Asistente de InvestigaciÃ³n de Mercados",
-    value: "Asistente de InvestigaciÃ³n de Mercados",
+    id: "Asistente de Investigación de Mercados",
+    value: "Asistente de Investigación de Mercados",
   },
   {
-    id: "Jefe del Ã¡rea de LogÃ­stica",
-    value: "Jefe del Ã¡rea de LogÃ­stica",
+    id: "Jefe del área de Logística",
+    value: "Jefe del área de Logística",
   },
   {
     id: "Codificadora ",
@@ -8279,12 +8235,12 @@ export let cargos = [
     value: "Pasante",
   },
   {
-    id: "Experta en la ValidaciÃ³n de Instrumentos de RecolecciÃ³n de datos",
-    value: "Experta en la ValidaciÃ³n de Instrumentos de RecolecciÃ³n de datos",
+    id: "Experta en la Validación de Instrumentos de Recolección de datos",
+    value: "Experta en la Validación de Instrumentos de Recolección de datos",
   },
   {
-    id: "Profesional en AlimentaciÃ³n",
-    value: "Profesional en AlimentaciÃ³n",
+    id: "Profesional en Alimentación",
+    value: "Profesional en Alimentación",
   },
   {
     id: "Coordinador  del componente alimentario",
@@ -8295,76 +8251,76 @@ export let cargos = [
     value: "Integrante de comitÃ© asesor ",
   },
   {
-    id: "Nutricionista de campaÃ±as de salud",
-    value: "Nutricionista de campaÃ±as de salud",
+    id: "Nutricionista de campañas de salud",
+    value: "Nutricionista de campañas de salud",
   },
   {
-    id: "Auxiliar de modulaciÃ³n CMT",
-    value: "Auxiliar de modulaciÃ³n CMT",
+    id: "Auxiliar de modulación CMT",
+    value: "Auxiliar de modulación CMT",
   },
   {
     id: "Promotor Cultural",
     value: "Promotor Cultural",
   },
   {
-    id: "Especialista en NutriciÃ³n",
-    value: "Especialista en NutriciÃ³n",
+    id: "Especialista en Nutrición",
+    value: "Especialista en Nutrición",
   },
   {
-    id: "Jefe del Ã¡rea acadÃ©mica de educaciÃ³n",
-    value: "Jefe del Ã¡rea acadÃ©mica de educaciÃ³n",
+    id: "Jefe del área acadÃ©mica de educación",
+    value: "Jefe del área acadÃ©mica de educación",
   },
   {
-    id: "Asistente tÃ©cnico para la innovaciÃ³n en la regiÃ³n Tacna",
-    value: "Asistente tÃ©cnico para la innovaciÃ³n en la regiÃ³n Tacna",
+    id: "Asistente tÃ©cnico para la innovación en la región Tacna",
+    value: "Asistente tÃ©cnico para la innovación en la región Tacna",
   },
   {
-    id: "Coordinadora de GestiÃ³n en Riesgos de Desastres para el PREVAED",
-    value: "Coordinadora de GestiÃ³n en Riesgos de Desastres para el PREVAED",
+    id: "Coordinadora de Gestión en Riesgos de Desastres para el PREVAED",
+    value: "Coordinadora de Gestión en Riesgos de Desastres para el PREVAED",
   },
   {
-    id: "Director del Ã¡rea de ConsultorÃ­a y Proyectos",
-    value: "Director del Ã¡rea de ConsultorÃ­a y Proyectos",
+    id: "Director del área de Consultoría y Proyectos",
+    value: "Director del área de Consultoría y Proyectos",
   },
   {
-    id: "Jefe del Ã¡rea de proyectos educativos",
-    value: "Jefe del Ã¡rea de proyectos educativos",
+    id: "Jefe del área de proyectos educativos",
+    value: "Jefe del área de proyectos educativos",
   },
   {
-    id: "TÃ©cnico en GestiÃ³n Educativa",
-    value: "TÃ©cnico en GestiÃ³n Educativa",
+    id: "TÃ©cnico en Gestión Educativa",
+    value: "TÃ©cnico en Gestión Educativa",
   },
   {
-    id: "AcompaÃ±amiento ",
-    value: "AcompaÃ±amiento ",
+    id: "Acompañamiento ",
+    value: "Acompañamiento ",
   },
   {
     id: "Coordinador AcadÃ©mico General",
     value: "Coordinador AcadÃ©mico General",
   },
   {
-    id: "Promotor de EducaciÃ³n",
-    value: "Promotor de EducaciÃ³n",
+    id: "Promotor de Educación",
+    value: "Promotor de Educación",
   },
   {
     id: "MÃºsico",
     value: "MÃºsico",
   },
   {
-    id: "Docente Asesor de InvestigaciÃ³n y Desarrollo",
-    value: "Docente Asesor de InvestigaciÃ³n y Desarrollo",
+    id: "Docente Asesor de Investigación y Desarrollo",
+    value: "Docente Asesor de Investigación y Desarrollo",
   },
   {
     id: "Elaborador del plan curricular",
     value: "Elaborador del plan curricular",
   },
   {
-    id: "AcompaÃ±ante y Orientadora",
-    value: "AcompaÃ±ante y Orientadora",
+    id: "Acompañante y Orientadora",
+    value: "Acompañante y Orientadora",
   },
   {
-    id: "Especialista para implementaciÃ³n",
-    value: "Especialista para implementaciÃ³n",
+    id: "Especialista para implementación",
+    value: "Especialista para implementación",
   },
   {
     id: "Supervisora y asistente tÃ©cnico",
@@ -8375,16 +8331,16 @@ export let cargos = [
     value: "Docente de Arte",
   },
   {
-    id: "Docente de Artes PlÃ¡sticas",
-    value: "Docente de Artes PlÃ¡sticas",
+    id: "Docente de Artes Plásticas",
+    value: "Docente de Artes Plásticas",
   },
   {
-    id: "Asesor a la GestiÃ³n Escolar",
-    value: "Asesor a la GestiÃ³n Escolar",
+    id: "Asesor a la Gestión Escolar",
+    value: "Asesor a la Gestión Escolar",
   },
   {
-    id: "Coordinador de InstituciÃ³n educativa",
-    value: "Coordinador de InstituciÃ³n educativa",
+    id: "Coordinador de Institución educativa",
+    value: "Coordinador de Institución educativa",
   },
   {
     id: "Promotor de desarrollo local ",
@@ -8395,12 +8351,12 @@ export let cargos = [
     value: "Integrante del equipo de soporte",
   },
   {
-    id: "Integrante de asociaciÃ³n educativa",
-    value: "Integrante de asociaciÃ³n educativa",
+    id: "Integrante de asociación educativa",
+    value: "Integrante de asociación educativa",
   },
   {
-    id: "Organizadora y animadora pedagÃ³gica",
-    value: "Organizadora y animadora pedagÃ³gica",
+    id: "Organizadora y animadora pedagógica",
+    value: "Organizadora y animadora pedagógica",
   },
   {
     id: "Coordinador y profesor",
@@ -8427,56 +8383,56 @@ export let cargos = [
     value: "TÃ©cnico de capacidades",
   },
   {
-    id: "Responsable de EducaciÃ³n Ambiental ",
-    value: "Responsable de EducaciÃ³n Ambiental ",
+    id: "Responsable de Educación Ambiental ",
+    value: "Responsable de Educación Ambiental ",
   },
   {
     id: "Apoyo y asesor ",
     value: "Apoyo y asesor ",
   },
   {
-    id: "Especialista de PrevenciÃ³n",
-    value: "Especialista de PrevenciÃ³n",
+    id: "Especialista de Prevención",
+    value: "Especialista de Prevención",
   },
   {
-    id: "Integrante de la comisiÃ³n evaluadora",
-    value: "Integrante de la comisiÃ³n evaluadora",
+    id: "Integrante de la comisión evaluadora",
+    value: "Integrante de la comisión evaluadora",
   },
   {
     id: "Supervisora Coordinadora",
     value: "Supervisora Coordinadora",
   },
   {
-    id: "Asesora de investigaciÃ³n acciÃ³n pedagÃ³gica",
-    value: "Asesora de investigaciÃ³n acciÃ³n pedagÃ³gica",
+    id: "Asesora de investigación acción pedagógica",
+    value: "Asesora de investigación acción pedagógica",
   },
   {
-    id: "Supervisora de EducaciÃ³n religiosa",
-    value: "Supervisora de EducaciÃ³n religiosa",
+    id: "Supervisora de Educación religiosa",
+    value: "Supervisora de Educación religiosa",
   },
   {
-    id: "Coordinadora de EducaciÃ³n Religiosa",
-    value: "Coordinadora de EducaciÃ³n Religiosa",
+    id: "Coordinadora de Educación Religiosa",
+    value: "Coordinadora de Educación Religiosa",
   },
   {
     id: "Supervisora del nivel Secundaria",
     value: "Supervisora del nivel Secundaria",
   },
   {
-    id: "Sub directora  de educaciÃ³n de adultos",
-    value: "Sub directora  de educaciÃ³n de adultos",
+    id: "Sub directora  de educación de adultos",
+    value: "Sub directora  de educación de adultos",
   },
   {
-    id: "Responsable del Ã¡rea educativa",
-    value: "Responsable del Ã¡rea educativa",
+    id: "Responsable del área educativa",
+    value: "Responsable del área educativa",
   },
   {
     id: "Especialista Monitor",
     value: "Especialista Monitor",
   },
   {
-    id: "Sub direcciÃ³n de administraciÃ³n",
-    value: "Sub direcciÃ³n de administraciÃ³n",
+    id: "Sub dirección de administración",
+    value: "Sub dirección de administración",
   },
   {
     id: "Director de relaciones Institucionales",
@@ -8487,52 +8443,52 @@ export let cargos = [
     value: "Asesor y monitor",
   },
   {
-    id: "Monitor acompaÃ±ante tÃ©cnico pedagÃ³gico",
-    value: "Monitor acompaÃ±ante tÃ©cnico pedagÃ³gico",
+    id: "Monitor acompañante tÃ©cnico pedagógico",
+    value: "Monitor acompañante tÃ©cnico pedagógico",
   },
   {
-    id: "Asesora pedagÃ³gica",
-    value: "Asesora pedagÃ³gica",
+    id: "Asesora pedagógica",
+    value: "Asesora pedagógica",
   },
   {
     id: "Coordinadora y Supervisora",
     value: "Coordinadora y Supervisora",
   },
   {
-    id: "Especialista de bloque temÃ¡tico InvestigaciÃ³n AcciÃ³n I",
-    value: "Especialista de bloque temÃ¡tico InvestigaciÃ³n AcciÃ³n I",
+    id: "Especialista de bloque temático Investigación Acción I",
+    value: "Especialista de bloque temático Investigación Acción I",
   },
   {
-    id: "Especialista de bloque temÃ¡tico InvestigaciÃ³n AcciÃ³n II",
-    value: "Especialista de bloque temÃ¡tico InvestigaciÃ³n AcciÃ³n II",
+    id: "Especialista de bloque temático Investigación Acción II",
+    value: "Especialista de bloque temático Investigación Acción II",
   },
   {
-    id: "Especialista de bloque temÃ¡tico InvestigaciÃ³n AcciÃ³n III",
-    value: "Especialista de bloque temÃ¡tico InvestigaciÃ³n AcciÃ³n III",
+    id: "Especialista de bloque temático Investigación Acción III",
+    value: "Especialista de bloque temático Investigación Acción III",
   },
   {
-    id: "Especialista de bloque temÃ¡tico InvestigaciÃ³n AcciÃ³n IV",
-    value: "Especialista de bloque temÃ¡tico InvestigaciÃ³n AcciÃ³n IV",
+    id: "Especialista de bloque temático Investigación Acción IV",
+    value: "Especialista de bloque temático Investigación Acción IV",
   },
   {
-    id: "Docente especialista del curso InvestigaciÃ³n IV",
-    value: "Docente especialista del curso InvestigaciÃ³n IV",
+    id: "Docente especialista del curso Investigación IV",
+    value: "Docente especialista del curso Investigación IV",
   },
   {
-    id: "Especialista en AcompaÃ±amiento PedagÃ³gico Especializado",
-    value: "Especialista en AcompaÃ±amiento PedagÃ³gico Especializado",
+    id: "Especialista en Acompañamiento Pedagógico Especializado",
+    value: "Especialista en Acompañamiento Pedagógico Especializado",
   },
   {
-    id: "Especialista en AcompaÃ±amiento PedagÃ³gico  Especializado",
-    value: "Especialista en AcompaÃ±amiento PedagÃ³gico  Especializado",
+    id: "Especialista en Acompañamiento Pedagógico  Especializado",
+    value: "Especialista en Acompañamiento Pedagógico  Especializado",
   },
   {
-    id: "Docente especialista en PrÃ¡ctica PedagÃ³gica Especializada",
-    value: "Docente especialista en PrÃ¡ctica PedagÃ³gica Especializada",
+    id: "Docente especialista en Práctica Pedagógica Especializada",
+    value: "Docente especialista en Práctica Pedagógica Especializada",
   },
   {
-    id: "EducaciÃ³n especialidad biologÃ­a y quÃ­mica",
-    value: "EducaciÃ³n especialidad biologÃ­a y quÃ­mica",
+    id: "Educación especialidad biología y química",
+    value: "Educación especialidad biología y química",
   },
   {
     id: "Corrector de estilo",
@@ -8559,53 +8515,53 @@ export let cargos = [
     value: "Coordinador provincial de PREVAED",
   },
   {
-    id: "especialista del bloque temÃ¡tico de investigaciÃ³n y acciÃ³n",
-    value: "especialista del bloque temÃ¡tico de investigaciÃ³n y acciÃ³n",
+    id: "especialista del bloque temático de investigación y acción",
+    value: "especialista del bloque temático de investigación y acción",
   },
   {
-    id: "Especialista par el programa de reducciÃ³n de la vulnerabilidad ",
-    value: "Especialista par el programa de reducciÃ³n de la vulnerabilidad ",
+    id: "Especialista par el programa de reducción de la vulnerabilidad ",
+    value: "Especialista par el programa de reducción de la vulnerabilidad ",
   },
   {
     id: "Sud director",
     value: "Sud director",
   },
   {
-    id: "Especialista en modelos de gestiÃ³n educativa",
-    value: "Especialista en modelos de gestiÃ³n educativa",
+    id: "Especialista en modelos de gestión educativa",
+    value: "Especialista en modelos de gestión educativa",
   },
   {
-    id: "Especialista temÃ¡tico en educaciÃ³n",
-    value: "Especialista temÃ¡tico en educaciÃ³n",
+    id: "Especialista temático en educación",
+    value: "Especialista temático en educación",
   },
   {
-    id: "Asesor en temas de gestiÃ³n ambiental",
-    value: "Asesor en temas de gestiÃ³n ambiental",
+    id: "Asesor en temas de gestión ambiental",
+    value: "Asesor en temas de gestión ambiental",
   },
   {
-    id: "Especialista en EducaciÃ³n Ambiental Ciencia TecnologÃ­a y ambiente",
+    id: "Especialista en Educación Ambiental Ciencia Tecnología y ambiente",
     value:
-      "Especialista en EducaciÃ³n Ambiental Ciencia TecnologÃ­a y ambiente",
+      "Especialista en Educación Ambiental Ciencia Tecnología y ambiente",
   },
   {
     id: "Especialista residente",
     value: "Especialista residente",
   },
   {
-    id: "Coordinador de tutorÃ­a y orientaciÃ³n educativa",
-    value: "Coordinador de tutorÃ­a y orientaciÃ³n educativa",
+    id: "Coordinador de tutoría y orientación educativa",
+    value: "Coordinador de tutoría y orientación educativa",
   },
   {
-    id: "Integrante de la comisiÃ³n de evaluaciÃ³n",
-    value: "Integrante de la comisiÃ³n de evaluaciÃ³n",
+    id: "Integrante de la comisión de evaluación",
+    value: "Integrante de la comisión de evaluación",
   },
   {
     id: "Coordinador de TOE",
     value: "Coordinador de TOE",
   },
   {
-    id: "Asistente de coordinaciÃ³n sur",
-    value: "Asistente de coordinaciÃ³n sur",
+    id: "Asistente de coordinación sur",
+    value: "Asistente de coordinación sur",
   },
   {
     id: "Coordinador de la zona sur",
@@ -8628,36 +8584,36 @@ export let cargos = [
     value: "Capacitadora y Asesora",
   },
   {
-    id: "Responsable de la especializaciÃ³n",
-    value: "Responsable de la especializaciÃ³n",
+    id: "Responsable de la especialización",
+    value: "Responsable de la especialización",
   },
   {
-    id: "Representante de la instituciÃ³n",
-    value: "Representante de la instituciÃ³n",
+    id: "Representante de la institución",
+    value: "Representante de la institución",
   },
   {
-    id: "Asistente de coordinaciÃ³n de capacitaciones",
-    value: "Asistente de coordinaciÃ³n de capacitaciones",
+    id: "Asistente de coordinación de capacitaciones",
+    value: "Asistente de coordinación de capacitaciones",
   },
   {
-    id: "Asistente de coordinaciÃ³n acadÃ©mica",
-    value: "Asistente de coordinaciÃ³n acadÃ©mica",
+    id: "Asistente de coordinación acadÃ©mica",
+    value: "Asistente de coordinación acadÃ©mica",
   },
   {
-    id: "Especialista en estrategias didÃ¡cticas",
-    value: "Especialista en estrategias didÃ¡cticas",
+    id: "Especialista en estrategias didácticas",
+    value: "Especialista en estrategias didácticas",
   },
   {
-    id: "Supervisor de prÃ¡cticas pre profesionales",
-    value: "Supervisor de prÃ¡cticas pre profesionales",
+    id: "Supervisor de prácticas pre profesionales",
+    value: "Supervisor de prácticas pre profesionales",
   },
   {
-    id: "Jurado de sustentaciÃ³n",
-    value: "Jurado de sustentaciÃ³n",
+    id: "Jurado de sustentación",
+    value: "Jurado de sustentación",
   },
   {
-    id: "Formadora AcompaÃ±ante",
-    value: "Formadora AcompaÃ±ante",
+    id: "Formadora Acompañante",
+    value: "Formadora Acompañante",
   },
   {
     id: "Especialista en el programa construyendo escuelas exitosas",
@@ -8668,16 +8624,16 @@ export let cargos = [
     value: "Capacitadora y Tutora",
   },
   {
-    id: "Especialista en EducaciÃ³n de la DirecciÃ³n tÃ©cnico pedagÃ³gica",
-    value: "Especialista en EducaciÃ³n de la DirecciÃ³n tÃ©cnico pedagÃ³gica",
+    id: "Especialista en Educación de la Dirección tÃ©cnico pedagógica",
+    value: "Especialista en Educación de la Dirección tÃ©cnico pedagógica",
   },
   {
     id: "Gerente del proyecto",
     value: "Gerente del proyecto",
   },
   {
-    id: "Supervisor EspaÃ±ol",
-    value: "Supervisor EspaÃ±ol",
+    id: "Supervisor Español",
+    value: "Supervisor Español",
   },
   {
     id: "Bombero Instructor",
@@ -8692,41 +8648,41 @@ export let cargos = [
     value: "Director de sistemas administrativo III",
   },
   {
-    id: "Jefe del Ã¡rea acadÃ©mica",
-    value: "Jefe del Ã¡rea acadÃ©mica",
+    id: "Jefe del área acadÃ©mica",
+    value: "Jefe del área acadÃ©mica",
   },
   {
     id: "Entrenador de futbol",
     value: "Entrenador de futbol",
   },
   {
-    id: "Jefe del Ã¡rea de gestiÃ³n pedagÃ³gica",
-    value: "Jefe del Ã¡rea de gestiÃ³n pedagÃ³gica",
+    id: "Jefe del área de gestión pedagógica",
+    value: "Jefe del área de gestión pedagógica",
   },
   {
-    id: "Jefatura del departamento de formaciÃ³n general",
-    value: "Jefatura del departamento de formaciÃ³n general",
+    id: "Jefatura del departamento de formación general",
+    value: "Jefatura del departamento de formación general",
   },
   {
-    id: "Responsable de la oficina de InvestigaciÃ³n y Proyectos",
-    value: "Responsable de la oficina de InvestigaciÃ³n y Proyectos",
+    id: "Responsable de la oficina de Investigación y Proyectos",
+    value: "Responsable de la oficina de Investigación y Proyectos",
   },
   {
-    id: "Responsable de EducaciÃ³n para el Desarrollo",
-    value: "Responsable de EducaciÃ³n para el Desarrollo",
+    id: "Responsable de Educación para el Desarrollo",
+    value: "Responsable de Educación para el Desarrollo",
   },
   {
     id: "TÃ©cnico de proyecto",
     value: "TÃ©cnico de proyecto",
   },
   {
-    id: "Responsable de proyectos de cooperaciÃ³n al desarrollo con AmÃ©rica Latina",
+    id: "Responsable de proyectos de cooperación al desarrollo con AmÃ©rica Latina",
     value:
-      "Responsable de proyectos de cooperaciÃ³n al desarrollo con AmÃ©rica Latina",
+      "Responsable de proyectos de cooperación al desarrollo con AmÃ©rica Latina",
   },
   {
-    id: "Asesor de EducaciÃ³n sanitaria",
-    value: "Asesor de EducaciÃ³n sanitaria",
+    id: "Asesor de Educación sanitaria",
+    value: "Asesor de Educación sanitaria",
   },
   {
     id: "VNU Nacional",
@@ -8741,8 +8697,8 @@ export let cargos = [
     value: "Responsable de compras del proyecto",
   },
   {
-    id: "Responsable del Ã¡rea de prensa y comunicaciones",
-    value: "Responsable del Ã¡rea de prensa y comunicaciones",
+    id: "Responsable del área de prensa y comunicaciones",
+    value: "Responsable del área de prensa y comunicaciones",
   },
   {
     id: "Asistente de la instalaciones elÃ©ctricas ",
@@ -8761,8 +8717,8 @@ export let cargos = [
     value: "Integrante del equipo tÃ©cnico regional",
   },
   {
-    id: "Especialista educaciÃ³n",
-    value: "Especialista educaciÃ³n",
+    id: "Especialista educación",
+    value: "Especialista educación",
   },
   {
     id: "Promotor y Monitor",
@@ -8777,28 +8733,28 @@ export let cargos = [
     value: "Observador certificado",
   },
   {
-    id: "AcompaÃ±ante pedagÃ³gico de primaria",
-    value: "AcompaÃ±ante pedagÃ³gico de primaria",
+    id: "Acompañante pedagógico de primaria",
+    value: "Acompañante pedagógico de primaria",
   },
   {
-    id: "Capacitador en gestiÃ³n escolar",
-    value: "Capacitador en gestiÃ³n escolar",
+    id: "Capacitador en gestión escolar",
+    value: "Capacitador en gestión escolar",
   },
   {
     id: "Especialista DCN especifico y Monitora",
     value: "Especialista DCN especifico y Monitora",
   },
   {
-    id: "Profesor capacitador de educaciÃ³n primaria",
-    value: "Profesor capacitador de educaciÃ³n primaria",
+    id: "Profesor capacitador de educación primaria",
+    value: "Profesor capacitador de educación primaria",
   },
   {
     id: "Expositora externa",
     value: "Expositora externa",
   },
   {
-    id: "Especialista en acciones de registro y sistematizaciÃ³n",
-    value: "Especialista en acciones de registro y sistematizaciÃ³n",
+    id: "Especialista en acciones de registro y sistematización",
+    value: "Especialista en acciones de registro y sistematización",
   },
   {
     id: "Responsable ejecutiva del proyecto",
@@ -8825,12 +8781,12 @@ export let cargos = [
     value: "Especialista en centros de recursos para el aprendizaje",
   },
   {
-    id: "Docente formador en TecnologÃ­as Educativas",
-    value: "Docente formador en TecnologÃ­as Educativas",
+    id: "Docente formador en Tecnologías Educativas",
+    value: "Docente formador en Tecnologías Educativas",
   },
   {
-    id: "Especialista en EducaciÃ³n Secundaria",
-    value: "Especialista en EducaciÃ³n Secundaria",
+    id: "Especialista en Educación Secundaria",
+    value: "Especialista en Educación Secundaria",
   },
   {
     id: "Integrante del equipo central del proyecto",
@@ -8841,24 +8797,24 @@ export let cargos = [
     value: "Coordinadora de TOE",
   },
   {
-    id: "Asesora en GestiÃ³n Escolar",
-    value: "Asesora en GestiÃ³n Escolar",
+    id: "Asesora en Gestión Escolar",
+    value: "Asesora en Gestión Escolar",
   },
   {
-    id: "Especialista en AcompaÃ±amiento PedagÃ³gico y Asesora Virtual",
-    value: "Especialista en AcompaÃ±amiento PedagÃ³gico y Asesora Virtual",
+    id: "Especialista en Acompañamiento Pedagógico y Asesora Virtual",
+    value: "Especialista en Acompañamiento Pedagógico y Asesora Virtual",
   },
   {
-    id: "Integrante del equipo de soporte pedagÃ³gico",
-    value: "Integrante del equipo de soporte pedagÃ³gico",
+    id: "Integrante del equipo de soporte pedagógico",
+    value: "Integrante del equipo de soporte pedagógico",
   },
   {
-    id: "Especialista de educaciÃ³n II",
-    value: "Especialista de educaciÃ³n II",
+    id: "Especialista de educación II",
+    value: "Especialista de educación II",
   },
   {
-    id: "Jefe de Departamento AcadÃ©mico de EducaciÃ³n",
-    value: "Jefe de Departamento AcadÃ©mico de EducaciÃ³n",
+    id: "Jefe de Departamento AcadÃ©mico de Educación",
+    value: "Jefe de Departamento AcadÃ©mico de Educación",
   },
   {
     id: "Vicedecana",
@@ -8873,13 +8829,13 @@ export let cargos = [
     value: "Docente Superior I",
   },
   {
-    id: "Coordinadora del Ã¡rea sistemas agroecolÃ³gicos escolares",
-    value: "Coordinadora del Ã¡rea sistemas agroecolÃ³gicos escolares",
+    id: "Coordinadora del área sistemas agroecológicos escolares",
+    value: "Coordinadora del área sistemas agroecológicos escolares",
   },
   {
-    id: "Adjunta Nacional del sector EducaciÃ³n Asesora PedagÃ³gica del Programa Desarrollo Educativo",
+    id: "Adjunta Nacional del sector Educación Asesora Pedagógica del Programa Desarrollo Educativo",
     value:
-      "Adjunta Nacional del sector EducaciÃ³n Asesora PedagÃ³gica del Programa Desarrollo Educativo",
+      "Adjunta Nacional del sector Educación Asesora Pedagógica del Programa Desarrollo Educativo",
   },
   {
     id: "Responsable de la Unidad de Proyectos del FONDEP",
@@ -8890,17 +8846,17 @@ export let cargos = [
     value: "Especialista en GÃ©nero",
   },
   {
-    id: "Responsable de levantamiento de InformaciÃ³n",
-    value: "Responsable de levantamiento de InformaciÃ³n",
+    id: "Responsable de levantamiento de Información",
+    value: "Responsable de levantamiento de Información",
   },
   {
-    id: "Responsable del anÃ¡lisis organizaciÃ³n y consolidaciÃ³n de las matrices de indicadores el CurrÃ­culo pro dimensiones",
+    id: "Responsable del análisis organización y consolidación de las matrices de indicadores el Currículo pro dimensiones",
     value:
-      "Responsable del anÃ¡lisis organizaciÃ³n y consolidaciÃ³n de las matrices de indicadores el CurrÃ­culo pro dimensiones",
+      "Responsable del análisis organización y consolidación de las matrices de indicadores el Currículo pro dimensiones",
   },
   {
-    id: "Coordinadora de tutorÃ­as",
-    value: "Coordinadora de tutorÃ­as",
+    id: "Coordinadora de tutorías",
+    value: "Coordinadora de tutorías",
   },
   {
     id: "Coordinadora del sistema tutorial",

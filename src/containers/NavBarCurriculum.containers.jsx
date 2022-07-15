@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const NavBarCurriculum = () => {
+const NavBarCurriculum = ({token}) => {
   const [show, setShow] = useState(null);
   const [profile, setProfile] = useState(false);
   const [product, setProduct] = useState(false);
@@ -18,15 +18,13 @@ const NavBarCurriculum = () => {
                       <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="h-6 w-6"
+                          className="h-6 w-6"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
-                          stroke-width="2"
+                          
                         >
                           <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
                             d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                           />
                         </svg>
@@ -37,15 +35,13 @@ const NavBarCurriculum = () => {
                       <div className="flex items-center">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          class="h-6 w-6"
+                          className="h-6 w-6"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
-                          stroke-width="2"
+                          
                         >
                           <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
                             d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12"
                           />
                         </svg>
@@ -57,15 +53,13 @@ const NavBarCurriculum = () => {
                     <li className="flex xl:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-6 w-6"
+                        className="h-6 w-6"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        stroke-width="2"
+                        
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
                           d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                         />
                       </svg>
@@ -81,11 +75,9 @@ const NavBarCurriculum = () => {
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
-                            stroke-width="2"
+                            
                           >
                             <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
                               d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                             />
                           </svg>
@@ -133,7 +125,7 @@ const NavBarCurriculum = () => {
                     </li>
                   </ul>
                   <svg
-                    onclick="MenuHandler(this,true)"
+                    // onClick="MenuHandler(this,true)"
                     aria-haspopup="true"
                     aria-label="Main Menu"
                     xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +146,7 @@ const NavBarCurriculum = () => {
                 </div>
                 <div
                   className="hidden close-m-menu text-gray-700"
-                  onclick="MenuHandler(this,false)"
+                  // onClick="MenuHandler(this,false)"
                 >
                   <svg
                     aria-label="Close"
@@ -177,47 +169,42 @@ const NavBarCurriculum = () => {
             </div>
             <div className="flex w-full sm:w-auto items-center sm:items-stretch justify-end sm:justify-start">
               <div className="flex items-center">
-                <img className="h-24 mt-2" src="src/assets/img/TALENTO.png" />
+                <img className="h-24 mt-2" src="/src/assets/img/TALENTO.png" />
               </div>
             </div>
             <div className="flex">
               <div className="hidden xl:flex md:mr-6 xl:mr-16 bg-gray-300 rounded-full">
                 <a
-                  href="javascript: void(0)"
+                  href="#"
                   className="flex px-5 items-center py-6 text-lg leading-5 text-gray-600 bg-gray-100 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none transition duration-150 ease-in-out focus:rounded-full focus:shadow-2xl rounded-full shadow-2xl"
                 >
-                  <svg className="mr-2"
+                  <svg className="mr-2 h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    stroke-width="2"
+                    
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
                       d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                     />
                   </svg>
                   Mi perfil
                 </a>
                 <a
-                  href="javascript: void(0)"
+                  href="#"
                   className="flex px-5 items-center py-6 text-lg leading-5 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none transition duration-150 ease-in-out focus:rounded-full focus:shadow-2xl hover:rounded-full hover:shadow-2xl"
                 >
                   <span className="mr-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-6 w-6"
+                      className="h-6 w-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
-                      stroke-width="2"
+                      
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
                         d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12"
                       />
                     </svg>
@@ -225,21 +212,19 @@ const NavBarCurriculum = () => {
                   Mis postulaciones
                 </a>
                 <a
-                  href="javascript: void(0)"
+                  href="#"
                   className="flex px-5 items-center py-6 text-lg leading-5 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none transition duration-150 ease-in-out focus:rounded-full focus:shadow-2xl hover:rounded-full hover:shadow-2xl"
                 >
                   <span className="mr-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-6 w-6"
+                      className="h-6 w-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
-                      stroke-width="2"
+                      
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
                         d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                       />
                     </svg>
@@ -259,19 +244,17 @@ const NavBarCurriculum = () => {
                           <div className="flex items-center">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="h-6 w-6"
+                              className="h-6 w-6"
                               fill="none"
                               viewBox="0 0 24 24"
                               stroke="currentColor"
-                              stroke-width="2"
+                              
                             >
                               <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
                                 d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
                               />
                             </svg>
-                            <span className="ml-2">Cerrar sesión</span>
+                            <span className="ml-2"><a href="http://137.184.7.140:3000/signin">Cerrar sesión</a></span>
                           </div>
                         </li>
                         <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex items-center">
@@ -322,11 +305,9 @@ const NavBarCurriculum = () => {
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
-                        stroke-width="2"
+                        
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
                           d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
                       </svg>
@@ -358,7 +339,7 @@ const NavBarCurriculum = () => {
       <nav>
         <div className="py-4 px-6 w-full flex xl:hidden justify-between items-center bg-white fixed top-0 z-40">
           <div className="w-full">
-            <img className="h-24 mt-2" src="src/assets/img/TALENTO.png" />
+            <img className="h-24 mt-2" src="/src/assets/img/TALENTO.png" />
           </div>
           <div className="flex items-center">
             <div
@@ -411,7 +392,7 @@ const NavBarCurriculum = () => {
                       <div className="flex items-center">
                         <img
                           className="h-24 mt-2"
-                          src="src/assets/img/TALENTO.png"
+                          src="/src/assets/img/TALENTO.png"
                         />
                       </div>
                       <div
@@ -445,15 +426,13 @@ const NavBarCurriculum = () => {
                           <div className="w-6 h-6 md:w-8 md:h-8 text-indigo-700">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="h-6 w-6"
+                              className="h-6 w-6"
                               fill="none"
                               viewBox="0 0 24 24"
                               stroke="currentColor"
-                              stroke-width="2"
+                              
                             >
                               <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
                                 d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                               />
                             </svg>
@@ -471,15 +450,13 @@ const NavBarCurriculum = () => {
                             <div className="w-6 h-6 md:w-8 md:h-8 text-gray-800">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                class="h-6 w-6"
+                                className="h-6 w-6"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
-                                stroke-width="2"
+                                
                               >
                                 <path
-                                  stroke-linecap="round"
-                                  stroke-linejoin="round"
                                   d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12"
                                 />
                               </svg>
@@ -497,15 +474,13 @@ const NavBarCurriculum = () => {
                           <div className="w-6 h-6 md:w-8 md:h-8 text-gray-800">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              class="h-6 w-6"
+                              className="h-6 w-6"
                               fill="none"
                               viewBox="0 0 24 24"
                               stroke="currentColor"
-                              stroke-width="2"
+                              
                             >
                               <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
                                 d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                               />
                             </svg>
@@ -555,11 +530,9 @@ const NavBarCurriculum = () => {
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
-                          stroke-width="2"
+                          
                         >
                           <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
                             d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                           />
                         </svg>

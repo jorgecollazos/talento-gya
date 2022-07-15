@@ -92,10 +92,6 @@ export let universidad = [
     "value": "Universidad Nacional Santiago Antunez de Mayolo"
   },
   {
-    "id": "Universidad Nacional de San Martin",
-    "value": "Universidad Nacional de San Martin"
-  },
-  {
     "id": "Universidad Nacional de Ucayali",
     "value": "Universidad Nacional de Ucayali"
   },

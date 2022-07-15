@@ -37,8 +37,8 @@ const Card = ({ token }) => {
     setData(formData);
   };
 
-  const url = "http://localhost:4000/api/v1/users/information";
-  const urlRedirect = "http://localhost:3001/academicform";
+  const url = "http://137.184.7.140:4000/api/v1/users/information";
+  const urlRedirect = "http://137.184.7.140:3001/academicform";
 
   useEffect(() => {
     (async () => {

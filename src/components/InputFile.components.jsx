@@ -3,7 +3,7 @@ import React from "react";
 const InputFile = ({ title }) => {
   return (
     <div>
-      <label for="formFile" className="form-label inline-block text-gray-700">
+      <label className="form-label inline-block text-gray-700">
         {title}
       </label>
       <input
